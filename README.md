@@ -67,5 +67,5 @@ tools/                         validate.py, state.py, auth_youtube.py
 assets/                        character reference images (commit these!)
 music/                         mood tracks from YouTube Audio Library
 state/state.json               progress (written by the pipeline)
-.github/workflows/             daily.yml, weekly.yml + monthly.yml (compilations), scripts.yml (optional auto-writing)
+.github/workflows/             daily.yml, weekly.yml + monthly.yml (compilations), scripts.yml (daily auto-writing of new script batches)
 ```

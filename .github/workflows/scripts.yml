@@ -1,10 +1,13 @@
-name: Write next script batch (optional)
+name: Write next script batch
 
-# Runs Claude Code weekly. It only does something when a channel has fewer than 7 unrendered scripts
-# AND you've added an ANTHROPIC_API_KEY repository secret. Otherwise it exits quietly.
+# Runs every day before the Daily Shorts job (06:23 UTC). For each channel with fewer than 7 unrendered
+# scripts (tools/state.py BUFFER_MIN) it asks Claude Code to write the next 15 episodes, validates them,
+# and pushes them. If nothing is low it exits in seconds. Needs the ANTHROPIC_API_KEY repository secret.
+# Because it runs daily and triggers with 7 scripts left, a failed run is retried up to 6 more times
+# before a channel runs dry; the Daily job also opens an issue while any channel is low.
 on:
   schedule:
-    - cron: "41 3 * * 1"     # Mondays 03:41 UTC
+    - cron: "41 2 * * *"     # every day 02:41 UTC
   workflow_dispatch:
 
 permissions:
@@ -13,40 +16,93 @@ permissions:
   pull-requests: write
   id-token: write
 
+concurrency:
+  group: script-writer
+  cancel-in-progress: false
+
 jobs:
   scripts:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 75
+    strategy:
+      fail-fast: false
+      max-parallel: 1          # one channel at a time, so pushes never race each other
+      matrix:
+        channel: [flat4b, coldhearts, drizzlepudge]
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
 
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
-      - name: Is a new batch needed?
+      - name: Is a new batch needed for ${{ matrix.channel }}?
         id: check
         env:
           HAS_KEY: ${{ secrets.ANTHROPIC_API_KEY != '' }}
         run: |
+          git pull --rebase origin main
           python tools/state.py status | tee status.txt
-          if grep -q "ACTION NEEDED" status.txt && [ "$HAS_KEY" = "true" ]; then
-            echo "run=1" >> "$GITHUB_OUTPUT"
+          if grep -q "ACTION NEEDED: ${{ matrix.channel }} " status.txt; then
+            if [ "$HAS_KEY" = "true" ]; then
+              echo "run=1" >> "$GITHUB_OUTPUT"
+            else
+              echo "::error::${{ matrix.channel }} needs scripts but the ANTHROPIC_API_KEY secret is missing"
+              exit 1
+            fi
           fi
 
-      - name: Claude Code writes the next batch
+      - name: Claude Code writes the next ${{ matrix.channel }} batch
         if: steps.check.outputs.run == '1'
         uses: anthropics/claude-code-action@v1
         with:
           anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
           github_token: ${{ github.token }}
           prompt: |
-            Read CLAUDE.md first. Run `python tools/state.py status`.
-            For every channel marked ACTION NEEDED, follow the section "Writing the next batch" exactly:
-            15 new, unique episodes in a new eps_<first>-<last>.json file. Then run
-            `python tools/validate.py` and fix problems until it prints RESULT: OK, run
-            `python tools/state.py sync`, then commit with message "scripts: <channel> <first>-<last>"
-            and `git push` to the current branch. Do not change any other files.
+            Read CLAUDE.md first. Work ONLY on the channel "${{ matrix.channel }}".
+            Follow the section "Writing the next batch" exactly: write 15 new, unique episodes into a new file
+            channels/${{ matrix.channel }}/episodes/eps_<first>-<last>.json continuing the numbering.
+            The file is large: write it in parts (e.g. Write the first 5 episodes as a complete JSON file,
+            then Edit to append the next 5, then the last 5) so no single write is huge.
+            Then run `python tools/validate.py` and fix problems until it prints RESULT: OK.
+            Do NOT commit, push, or change any other file; the workflow validates and commits for you.
           claude_args: |
             --max-turns 80
-            --allowedTools "Read,Write,Edit,Glob,Grep,Bash(python:*),Bash(python3:*),Bash(git:*)"
+            --allowedTools "Read,Write,Edit,Glob,Grep,Bash(python:*),Bash(python3:*),Bash(ls:*),Bash(cat:*)"
+
+      - name: Validate and push
+        if: steps.check.outputs.run == '1'
+        run: |
+          python tools/validate.py
+          git add channels/${{ matrix.channel }}/episodes
+          if git diff --cached --quiet; then
+            echo "::error::Claude did not produce a new ${{ matrix.channel }} batch"
+            exit 1
+          fi
+          python tools/state.py status
+          if python tools/state.py status | grep -q "ACTION NEEDED: ${{ matrix.channel }} "; then
+            echo "::error::${{ matrix.channel }} is still low after the new batch"
+            exit 1
+          fi
+          git config user.name "shorts-bot"
+          git config user.email "shorts-bot@users.noreply.github.com"
+          FILE=$(git diff --cached --name-only | head -1)
+          git commit -m "scripts: ${{ matrix.channel }} $(basename "$FILE" .json | sed 's/^eps_//')"
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push origin HEAD:main && exit 0
+            sleep 20
+          done
+          exit 1
+
+      - name: Open an issue if this failed
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if ! gh issue list --state open --search "Script writer failed in:title" | grep -q .; then
+            gh issue create --title "Script writer failed (${{ matrix.channel }})" \
+              --body "The automatic script batch failed: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          It retries tomorrow automatically. To fix it now, open the Codespace and tell Claude Code: *write the next batch*."
+          fi

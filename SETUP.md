@@ -118,8 +118,9 @@ Once approved, `REVIEW_HOURS` auto-publishing works with no manual step.
 ## 10. New scripts when the 30 run out
 The daily job opens a GitHub issue "Write next script batch" when fewer than 7 scripts are left. Either:
 - open the Codespace, run `claude`, and say **"write the next batch"** (CLAUDE.md tells it how), or
-- add an `ANTHROPIC_API_KEY` repository secret, and the weekly **Write next script batch** workflow
-  does it automatically.
+- add an `ANTHROPIC_API_KEY` repository secret (recommended), and the daily **Write next script batch** workflow
+  does it automatically: each channel is refilled with 15 new episodes whenever it drops below 7, forever.
+  If a run fails it retries the next day and opens a "Script writer failed" issue.
 
 ## Costs at 2 videos/day
 | Item | Approx. |
