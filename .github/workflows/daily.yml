@@ -1,0 +1,96 @@
+name: Daily Shorts
+
+on:
+  schedule:
+    - cron: "23 6 * * *"     # every day 06:23 UTC; with REVIEW_HOURS=10 videos go public ~16:20 UK time
+  workflow_dispatch:
+    inputs:
+      channels:
+        description: "Channels to run (blank = all), e.g. flat4b"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: daily-shorts
+  cancel-in-progress: false
+
+jobs:
+  produce:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install ffmpeg and fonts
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg fonts-dejavu-core
+
+      - run: pip install -r requirements.txt
+
+      - name: Check scripts
+        run: python tools/validate.py
+
+      - name: Render and upload
+        env:
+          FAL_KEY: ${{ secrets.FAL_KEY }}
+          LTX_API_KEY: ${{ secrets.LTX_API_KEY }}
+          VIDEO_PROVIDER: ${{ vars.VIDEO_PROVIDER || 'ltx' }}
+          LTX_MODEL: ${{ vars.LTX_MODEL || 'ltx-2-3-fast' }}
+          LTX_RESOLUTION: ${{ vars.LTX_RESOLUTION || '720x1280' }}
+          YT_TOKEN_FLAT4B: ${{ secrets.YT_TOKEN_FLAT4B }}
+          YT_TOKEN_COLDHEARTS: ${{ secrets.YT_TOKEN_COLDHEARTS }}
+          YT_TOKEN_DRIZZLEPUDGE: ${{ secrets.YT_TOKEN_DRIZZLEPUDGE }}
+          REVIEW_HOURS: ${{ vars.REVIEW_HOURS || '10' }}
+          CHANNELS: ${{ vars.CHANNELS || 'flat4b,coldhearts,drizzlepudge' }}
+          DAILY_BUDGET_USD: ${{ vars.DAILY_BUDGET_USD || '15' }}
+          YT_UPLOAD: ${{ vars.YT_UPLOAD || '1' }}
+          MOCK: ${{ vars.MOCK || '0' }}
+          STORE_RELEASES: "1"
+          GH_TOKEN: ${{ github.token }}
+          VIDEO_I2V: ${{ vars.VIDEO_I2V || 'fal-ai/ltx-2.3/image-to-video/fast' }}
+          PRICE_PER_VIDEO_SECOND: ${{ vars.PRICE_PER_VIDEO_SECOND || '' }}
+        run: python -m pipeline.run daily ${{ inputs.channels }}
+
+      - name: Save progress (state + character reference images)
+        if: always()
+        run: |
+          git config user.name "shorts-bot"
+          git config user.email "shorts-bot@users.noreply.github.com"
+          git add state assets
+          if ! git diff --cached --quiet; then
+            git commit -m "daily: progress $(date -u +%F)"
+            git pull --rebase
+            git push
+          fi
+
+      - name: Keep the videos for 7 days (download from this run's page)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: shorts-${{ github.run_id }}
+          path: output/**/final.mp4
+          retention-days: 7
+          if-no-files-found: ignore
+
+      - name: Remind me when scripts run low
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python tools/state.py status | tee status.txt
+          if grep -q "ACTION NEEDED" status.txt; then
+            if ! gh issue list --state open --search "Write next script batch in:title" | grep -q .; then
+              gh issue create --title "Write next script batch" \
+                --body "$(cat status.txt)
+
+          Open the Codespace and tell Claude Code: *write the next batch* (it follows CLAUDE.md). Or add an ANTHROPIC_API_KEY secret and the Scripts workflow will do it automatically."
+            fi
+          fi

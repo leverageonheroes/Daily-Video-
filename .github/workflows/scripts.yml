@@ -1,0 +1,52 @@
+name: Write next script batch (optional)
+
+# Runs Claude Code weekly. It only does something when a channel has fewer than 7 unrendered scripts
+# AND you've added an ANTHROPIC_API_KEY repository secret. Otherwise it exits quietly.
+on:
+  schedule:
+    - cron: "41 3 * * 1"     # Mondays 03:41 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+  id-token: write
+
+jobs:
+  scripts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Is a new batch needed?
+        id: check
+        env:
+          HAS_KEY: ${{ secrets.ANTHROPIC_API_KEY != '' }}
+        run: |
+          python tools/state.py status | tee status.txt
+          if grep -q "ACTION NEEDED" status.txt && [ "$HAS_KEY" = "true" ]; then
+            echo "run=1" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Claude Code writes the next batch
+        if: steps.check.outputs.run == '1'
+        uses: anthropics/claude-code-action@v1
+        with:
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          github_token: ${{ github.token }}
+          prompt: |
+            Read CLAUDE.md first. Run `python tools/state.py status`.
+            For every channel marked ACTION NEEDED, follow the section "Writing the next batch" exactly:
+            15 new, unique episodes in a new eps_<first>-<last>.json file. Then run
+            `python tools/validate.py` and fix problems until it prints RESULT: OK, run
+            `python tools/state.py sync`, then commit with message "scripts: <channel> <first>-<last>"
+            and `git push` to the current branch. Do not change any other files.
+          claude_args: |
+            --max-turns 80
+            --allowedTools "Read,Write,Edit,Glob,Grep,Bash(python:*),Bash(python3:*),Bash(git:*)"

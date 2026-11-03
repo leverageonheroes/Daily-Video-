@@ -1,0 +1,107 @@
+{
+  "channel_id": "flat4b",
+  "show_title": "Flat 4B",
+  "tagline": "Four animal flatmates. One tiny London flat. Zero chill.",
+  "audience": "general (13+), NOT made for kids",
+  "format": "Standalone sitcom gag, 30-50s, punchline in the final shot, ending loops back to the opening frame.",
+  "episode_id_prefix": "F4B",
+  "target_seconds": [
+    30,
+    50
+  ],
+  "max_seconds": 90,
+  "style_prompt": "high-quality 3D animated feature-film style, soft rounded character shapes, expressive faces with clear mouth movement for dialogue, adult sitcom framing, warm muted palette of terracotta, teal and mustard, soft cinematic lighting, shallow depth of field, vertical 9:16 composition with subject centred, no text, no subtitles, no logos",
+  "audio_prompt": "clean dialogue, light sitcom room tone, subtle comedic sound effects, no background music (music is added in post)",
+  "negative_prompt": "photorealistic humans, gore, text overlays, watermarks, brand logos, extra limbs, distorted faces, toddler or baby characters, nursery rhyme style",
+  "characters": {
+    "dougie": {
+      "name": "Dougie",
+      "species": "golden retriever",
+      "ref_prompt": "anthropomorphic golden retriever man in his late twenties, fluffy golden fur, big hopeful brown eyes, floppy ears, always-wagging tail, wearing an oversized navy hoodie and a bright red work lanyard, white trainers, stands upright on two legs",
+      "personality": "relentless optimist, junior sales rep at a mattress showroom, overshares, treats every day as a 'big day', terrible at hiding emotions (tail gives him away)",
+      "catchphrase": "Big day, big day!",
+      "voice": "warm, fast, excitable young adult male, light London accent",
+      "tts_voice_id": ""
+    },
+    "margo": {
+      "name": "Margo",
+      "species": "tabby cat",
+      "ref_prompt": "anthropomorphic grey tabby cat woman in her early thirties, sharp green eyes behind round tortoiseshell glasses, neat cream cardigan over a white collared shirt, slim grey trousers, holding a label maker or a mug, stands upright on two legs, composed posture",
+      "personality": "deadpan accountant, runs the flat like a spreadsheet, label-maker obsessed, secretly the most chaotic of them all",
+      "catchphrase": "I have a spreadsheet for this.",
+      "voice": "dry, low, unimpressed adult female, crisp British accent",
+      "tts_voice_id": ""
+    },
+    "pidge": {
+      "name": "Pidge",
+      "species": "pigeon",
+      "ref_prompt": "anthropomorphic city pigeon man in his mid twenties, iridescent green-purple neck feathers, cocky half-lidded orange eyes, backwards baseball cap, fluorescent yellow hi-vis delivery vest over a grey t-shirt, tiny scooter helmet clipped to his belt, stands upright on two legs",
+      "personality": "delivery rider with nine side hustles, always broke, speaks in hustle-culture jargon, eats anything, surprisingly loyal",
+      "catchphrase": "It's not a scam, it's a business model.",
+      "voice": "quick, cocky, streetwise young adult male, strong London accent",
+      "tts_voice_id": ""
+    },
+    "sloane": {
+      "name": "Sloane",
+      "species": "sloth",
+      "ref_prompt": "anthropomorphic three-toed sloth of indeterminate age, shaggy brown-beige fur, permanent serene half-smile, dark eye patches, mustard yellow beanie, oversized cream hoodie, carries a slim laptop, moves very slowly, stands upright on two legs",
+      "personality": "freelancer nobody understands the job of, speaks extremely slowly, never panics, always wins by accident",
+      "catchphrase": "Hmm... no.",
+      "voice": "very slow, calm, mellow, warm low voice, relaxed delivery with long pauses",
+      "tts_voice_id": ""
+    },
+    "mrs_badger": {
+      "name": "Mrs Badger",
+      "species": "badger",
+      "ref_prompt": "anthropomorphic elderly badger woman, black and white striped face, small sharp eyes, pink hair curlers, floral quilted dressing gown, fluffy slippers, holding a clipboard, stands upright on two legs",
+      "personality": "landlady who lives upstairs, obsessed with rules and inspections, appears suddenly from nowhere, secretly soft-hearted",
+      "catchphrase": "Rule number forty-seven.",
+      "voice": "older female, stern, clipped, northern English accent",
+      "tts_voice_id": ""
+    }
+  },
+  "locations": {
+    "kitchen": "small cosy London flat kitchen, teal cabinets, cluttered fridge covered in labelled post-it notes, window with rainy city view, warm pendant light",
+    "living_room": "small living room, saggy mustard sofa, mismatched cushions, houseplants, laptop on a coffee table, string lights, window overlooking terraced rooftops",
+    "hallway": "narrow flat hallway, coat hooks overloaded with jackets, shoe pile, front door with '4B' brass number, intercom on the wall",
+    "stairwell": "old Victorian building stairwell, worn red carpet, banister, Mrs Badger's door with a plant pot at the top of the stairs",
+    "showroom": "bright mattress showroom with rows of beds, cheerful sale banners with no readable text, fluorescent lights, glass-walled manager office",
+    "office_desk": "open-plan office, rows of desks, monitors, potted plant, coffee mugs, grey carpet",
+    "cafe": "small independent cafe, chalkboard menu with no readable text, wooden tables, big window onto a busy street",
+    "gym": "budget gym, rows of treadmills, mirrors, weight racks, motivational poster with no readable text",
+    "supermarket": "small city supermarket, bright aisles, self-checkout machines with screens",
+    "street": "rainy London terraced street, red brick houses, parked scooters, puddles, grey sky",
+    "restaurant": "fancy minimalist restaurant, white tablecloths, candles, tiny artistic plates",
+    "bedroom": "small bedroom, unmade bed, alarm clock on bedside table, morning light through blinds",
+    "beach": "sunny seaside beach with deckchairs, blue sky, gentle waves",
+    "bathroom": "tiny flat bathroom, white tiles, old clawfoot bathtub, shower curtain with teal pattern, steamy mirror"
+  },
+  "guests_allowed": true,
+  "music_moods": [
+    "sitcom pluck",
+    "tense comedic strings",
+    "triumphant brass sting",
+    "lofi chill",
+    "spy heist",
+    "western standoff",
+    "dramatic organ",
+    "upbeat ukulele"
+  ],
+  "made_for_kids": false,
+  "youtube_category": "23",
+  "nonverbal": false,
+  "overlays": {
+    "hook": true,
+    "captions": true
+  },
+  "compilation_title": "{show} | {label} - {n} Episodes Back to Back",
+  "compilation_tags": [
+    "flatmates",
+    "comedy",
+    "sitcom"
+  ],
+  "compilations": {
+    "weekly": true,
+    "monthly": true
+  }
+}

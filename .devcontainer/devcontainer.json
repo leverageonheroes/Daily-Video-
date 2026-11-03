@@ -1,0 +1,7 @@
+{
+  "name": "Shorts Studio",
+  "image": "mcr.microsoft.com/devcontainers/python:3.12",
+  "features": { "ghcr.io/devcontainers/features/node:1": {} },
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y ffmpeg fonts-dejavu-core && pip install -r requirements.txt && npm install -g @anthropic-ai/claude-code",
+  "forwardPorts": [8765]
+}

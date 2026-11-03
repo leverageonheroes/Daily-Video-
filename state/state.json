@@ -1,0 +1,470 @@
+{
+  "channels": {
+    "coldhearts": {
+      "episodes": {
+        "CH-001": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "CH-002": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "CH-003": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "CH-004": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "CH-005": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "CH-006": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "CH-007": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "CH-008": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "CH-009": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "CH-010": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "CH-011": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "CH-012": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "CH-013": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "CH-014": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "CH-015": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "CH-016": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "CH-017": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "CH-018": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "CH-019": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "CH-020": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "CH-021": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "CH-022": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "CH-023": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "CH-024": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "CH-025": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "CH-026": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "CH-027": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "CH-028": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "CH-029": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "CH-030": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        }
+      },
+      "last_scripted": "CH-030"
+    },
+    "flat4b": {
+      "episodes": {
+        "F4B-001": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "F4B-002": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "F4B-003": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "F4B-004": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "F4B-005": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "F4B-006": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "F4B-007": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "F4B-008": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "F4B-009": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "F4B-010": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "F4B-011": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "F4B-012": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "F4B-013": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "F4B-014": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "F4B-015": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "F4B-016": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "F4B-017": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "F4B-018": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "F4B-019": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "F4B-020": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "F4B-021": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "F4B-022": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "F4B-023": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "F4B-024": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "F4B-025": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "F4B-026": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "F4B-027": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "F4B-028": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "F4B-029": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "F4B-030": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        }
+      },
+      "last_scripted": "F4B-030"
+    },
+    "drizzlepudge": {
+      "episodes": {
+        "DP-001": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "DP-002": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "DP-003": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "DP-004": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "DP-005": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "DP-006": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "DP-007": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "DP-008": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "DP-009": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "DP-010": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "DP-011": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "DP-012": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "DP-013": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "DP-014": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "DP-015": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "DP-016": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "DP-017": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "DP-018": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "DP-019": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "DP-020": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "DP-021": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "DP-022": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "DP-023": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "DP-024": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "DP-025": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "DP-026": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "DP-027": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "DP-028": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "DP-029": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "DP-030": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        }
+      },
+      "last_scripted": "DP-030"
+    }
+  },
+  "updated": "2026-11-03T19:59:46+00:00"
+}

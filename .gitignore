@@ -1,0 +1,7 @@
+output/
+secrets/
+.env
+__pycache__/
+*.pyc
+output_mock/
+state/state.mock.json

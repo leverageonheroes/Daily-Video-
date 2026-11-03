@@ -1,0 +1,1394 @@
+{
+ "episodes": [
+  {
+   "id": "DP-001",
+   "number": 1,
+   "title": "Hiccup Bubbles! 🫧 | Drizzle & Pudge",
+   "logline": "Drizzle's hiccups fill the meadow with bubbles, one floats Bitsy the ladybug up into the sky, and the friends gently bring her back down.",
+   "hook_text": "Every hiccup makes BUBBLES!",
+   "description": "Drizzle hiccups bubbles and Bitsy floats away. Can Pudge help? A wordless cartoon for little ones, new episode every day.",
+   "tags": [
+    "bubbles",
+    "cartoons for kids",
+    "kids cartoon",
+    "funny cartoon",
+    "preschool",
+    "toddler",
+    "Drizzle and Pudge"
+   ],
+   "music": "playful xylophone",
+   "shots": [
+    {
+     "n": 1,
+     "dur": 8,
+     "loc": "meadow",
+     "chars": [
+      "drizzle",
+      "pudge"
+     ],
+     "keyframe": "Drizzle floating happily above Pudge in the sunny meadow, both smiling",
+     "action": "Drizzle hiccups and a stream of shiny bubbles pops out of her; Pudge claps and chases them",
+     "camera": "medium wide, gentle follow",
+     "lines": [],
+     "sfx": "'hic!' sounds, bubbles popping, Pudge giggles"
+    },
+    {
+     "n": 2,
+     "dur": 8,
+     "loc": "meadow",
+     "chars": [
+      "pudge",
+      "bitsy"
+     ],
+     "keyframe": "Pudge popping bubbles with one finger, Bitsy sitting on a daisy watching",
+     "action": "a big bubble drifts down over Bitsy and lifts her up into the air inside it, Bitsy waves her tiny arms",
+     "camera": "close on Bitsy then tilt up",
+     "lines": [],
+     "sfx": "soft whoosh, tiny surprised squeak, Pudge gasps 'uh-oh!'"
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "sky",
+     "chars": [
+      "drizzle",
+      "bitsy"
+     ],
+     "keyframe": "Bitsy's bubble floating high among fluffy clouds, Drizzle zooming up after it",
+     "action": "Drizzle catches up and cuddles the bubble gently in her cloud arms",
+     "camera": "wide sky shot, Drizzle flying in",
+     "lines": [],
+     "sfx": "whoosh, sweet 'ooh'"
+    },
+    {
+     "n": 4,
+     "dur": 8,
+     "loc": "meadow",
+     "chars": [
+      "drizzle",
+      "pudge",
+      "bitsy"
+     ],
+     "keyframe": "Drizzle floating down slowly, Pudge holding out his paws below",
+     "action": "the bubble lands softly in Pudge's paws and pops, Bitsy is safe and hugs Pudge's nose",
+     "camera": "medium shot",
+     "lines": [],
+     "sfx": "soft pop, happy giggles, little buzz"
+    },
+    {
+     "n": 5,
+     "dur": 6,
+     "loc": "meadow",
+     "chars": [
+      "drizzle",
+      "pudge"
+     ],
+     "keyframe": "Drizzle drips a perfect round shiny puddle on the ground, Pudge crouching ready to jump",
+     "action": "Pudge jumps into the puddle with both feet, water splashes up in a sparkly crown, everyone laughs and waves at the camera",
+     "camera": "low wide angle, slow motion on the splash",
+     "lines": [],
+     "sfx": "big happy splash in slow motion, both giggle 'yay!', sparkly chime"
+    }
+   ],
+   "loop_note": "ends on the Puddle Jump; loops to the opening"
+  },
+  {
+   "id": "DP-002",
+   "number": 2,
+   "title": "Too Sunny for Rain ☀️ | Drizzle & Pudge",
+   "logline": "On a hot day Drizzle can't make rain for Pudge's thirsty flowers until Pudge makes her laugh so hard she pours.",
+   "hook_text": "The flowers are thirsty!",
+   "description": "Pudge's flowers need water but Drizzle is all puffed out. A giggle saves the day! A wordless cartoon for little ones, new episode every day.",
+   "tags": [
+    "laughing",
+    "friendship",
+    "cartoons for kids",
+    "kids cartoon",
+    "funny cartoon",
+    "preschool",
+    "toddler",
+    "Drizzle and Pudge"
+   ],
+   "music": "silly tuba",
+   "shots": [
+    {
+     "n": 1,
+     "dur": 8,
+     "loc": "gran_garden",
+     "chars": [
+      "pudge"
+     ],
+     "keyframe": "Pudge looking sadly at a row of droopy flowers in the hot sun",
+     "action": "the flowers droop lower, Pudge fans them with his hat",
+     "camera": "medium shot, heat shimmer",
+     "lines": [],
+     "sfx": "buzzing bees, sad little 'awww'"
+    },
+    {
+     "n": 2,
+     "dur": 8,
+     "loc": "gran_garden",
+     "chars": [
+      "drizzle",
+      "pudge"
+     ],
+     "keyframe": "Drizzle squeezing her cheeks trying to rain, Pudge watching hopefully",
+     "action": "Drizzle squeezes, only one tiny drop falls, she sighs and goes flat",
+     "camera": "two-shot",
+     "lines": [],
+     "sfx": "straining 'mmmmm', single plip, deflating sound"
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "gran_garden",
+     "chars": [
+      "pudge",
+      "drizzle"
+     ],
+     "keyframe": "Pudge putting a flower pot on his head like a hat and pulling a funny face",
+     "action": "Pudge waddles like a penguin with the pot on his head; Drizzle starts to giggle",
+     "camera": "medium shot",
+     "lines": [],
+     "sfx": "silly boing steps, giggles building"
+    },
+    {
+     "n": 4,
+     "dur": 8,
+     "loc": "gran_garden",
+     "chars": [
+      "drizzle",
+      "pudge"
+     ],
+     "keyframe": "Drizzle laughing so hard she wobbles, rain pouring from her",
+     "action": "happy rain falls over the flowers, they stand up tall and bloom; Pudge dances in the rain",
+     "camera": "wide shot",
+     "lines": [],
+     "sfx": "rain shower, joyful laughter, flowers going 'pop pop pop'"
+    },
+    {
+     "n": 5,
+     "dur": 6,
+     "loc": "gran_garden",
+     "chars": [
+      "drizzle",
+      "pudge"
+     ],
+     "keyframe": "Drizzle drips a perfect round shiny puddle on the ground, Pudge crouching ready to jump",
+     "action": "Pudge jumps into the puddle with both feet, water splashes up in a sparkly crown, everyone laughs and waves at the camera",
+     "camera": "low wide angle, slow motion on the splash",
+     "lines": [],
+     "sfx": "big happy splash in slow motion, both giggle 'yay!', sparkly chime"
+    }
+   ],
+   "loop_note": "ends on the Puddle Jump; loops to the opening"
+  },
+  {
+   "id": "DP-003",
+   "number": 3,
+   "title": "Rainbow Sneeze 🌈 | Drizzle & Pudge",
+   "logline": "Drizzle sneezes colours that paint Pudge in rainbow stripes, so the friends use her colourful sneezes to paint a rainbow on Gran's fence.",
+   "hook_text": "ACHOO! Rainbow everywhere!",
+   "description": "Drizzle's sneeze turns Pudge into a rainbow! Learn the colours of the rainbow with Drizzle & Pudge. A wordless cartoon for little ones, new episode every day.",
+   "tags": [
+    "colors",
+    "rainbow",
+    "learn colors",
+    "cartoons for kids",
+    "kids cartoon",
+    "funny cartoon",
+    "preschool",
+    "toddler",
+    "Drizzle and Pudge"
+   ],
+   "music": "playful xylophone",
+   "shots": [
+    {
+     "n": 1,
+     "dur": 8,
+     "loc": "gran_garden",
+     "chars": [
+      "drizzle",
+      "pudge"
+     ],
+     "keyframe": "Drizzle sniffing a big sunflower, nose twitching, Pudge standing next to her",
+     "action": "Drizzle's face scrunches up for a sneeze",
+     "camera": "close two-shot",
+     "lines": [],
+     "sfx": "sniff sniff, 'ah... ah...'"
+    },
+    {
+     "n": 2,
+     "dur": 8,
+     "loc": "gran_garden",
+     "chars": [
+      "drizzle",
+      "pudge"
+     ],
+     "keyframe": "Drizzle sneezing, a burst of red, orange, yellow, green, blue and purple drops flying out",
+     "action": "the colours splash onto Pudge, he is covered in rainbow stripes",
+     "camera": "medium shot, colour burst",
+     "lines": [],
+     "sfx": "'ACHOO!', paint splats"
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "pond_bank",
+     "chars": [
+      "pudge"
+     ],
+     "keyframe": "Pudge on the grassy bank looking at his rainbow reflection in the pond",
+     "action": "Pudge looks surprised, then laughs and spins to see all his colours",
+     "camera": "over-the-shoulder into the reflection",
+     "lines": [],
+     "sfx": "gasp, giggle"
+    },
+    {
+     "n": 4,
+     "dur": 10,
+     "loc": "gran_garden",
+     "chars": [
+      "drizzle",
+      "pudge",
+      "gran_tortle"
+     ],
+     "keyframe": "Gran Tortle pointing to her plain wooden fence, Drizzle and Pudge ready",
+     "action": "Drizzle sneezes one colour at a time onto the fence as Pudge points: red, orange, yellow, green, blue, purple, making a rainbow; Gran claps",
+     "camera": "slow pan along the fence",
+     "lines": [],
+     "sfx": "six cute sneezes each with a different chime note, Gran chuckles"
+    },
+    {
+     "n": 5,
+     "dur": 6,
+     "loc": "gran_garden",
+     "chars": [
+      "drizzle",
+      "pudge"
+     ],
+     "keyframe": "Drizzle drips a perfect round shiny puddle on the ground, Pudge crouching ready to jump, now with rainbow-coloured water",
+     "action": "Pudge jumps into the puddle with both feet, water splashes up in a sparkly crown, everyone laughs and waves at the camera",
+     "camera": "low wide angle, slow motion on the splash",
+     "lines": [],
+     "sfx": "big happy splash in slow motion, both giggle 'yay!', sparkly chime"
+    }
+   ],
+   "loop_note": "ends on the Puddle Jump; loops to the opening"
+  },
+  {
+   "id": "DP-004",
+   "number": 4,
+   "title": "Snow in Summer?! ❄️ | Drizzle & Pudge",
+   "logline": "Drizzle shivers and snows a tiny snowman patch on a summer day; when it melts, the friends turn the meltwater into the best puddle ever.",
+   "hook_text": "Snow... in SUMMER?",
+   "description": "A tiny snow surprise on a sunny day! Drizzle & Pudge learn that changes can be fun. A wordless cartoon for little ones, new episode every day.",
+   "tags": [
+    "snowman",
+    "summer",
+    "cartoons for kids",
+    "kids cartoon",
+    "funny cartoon",
+    "preschool",
+    "toddler",
+    "Drizzle and Pudge"
+   ],
+   "music": "magic twinkle",
+   "shots": [
+    {
+     "n": 1,
+     "dur": 8,
+     "loc": "meadow",
+     "chars": [
+      "drizzle",
+      "pudge"
+     ],
+     "keyframe": "Drizzle shivering after flying through a cool breeze, Pudge looking up",
+     "action": "Drizzle shivers and soft snowflakes fall from her onto one small patch of grass",
+     "camera": "medium wide",
+     "lines": [],
+     "sfx": "brrr sound, tinkly snowflakes"
+    },
+    {
+     "n": 2,
+     "dur": 8,
+     "loc": "meadow",
+     "chars": [
+      "pudge"
+     ],
+     "keyframe": "Pudge kneeling by a small patch of snow in the green summer meadow",
+     "action": "Pudge rolls a tiny snowman with a pebble face and a leaf scarf",
+     "camera": "close shot",
+     "lines": [],
+     "sfx": "crunchy snow, happy hums"
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "meadow",
+     "chars": [
+      "pudge",
+      "drizzle"
+     ],
+     "keyframe": "the tiny snowman starting to melt in the warm sun, Pudge's face falling",
+     "action": "the snowman slowly melts into water, Pudge looks a bit sad, Drizzle pats his head",
+     "camera": "slow push-in on the snowman",
+     "lines": [],
+     "sfx": "drip drip, gentle 'awww'"
+    },
+    {
+     "n": 4,
+     "dur": 8,
+     "loc": "meadow",
+     "chars": [
+      "drizzle",
+      "pudge"
+     ],
+     "keyframe": "Drizzle pointing at the melted water, an idea sparkle above her",
+     "action": "Drizzle adds rain to the melted snow making a big shiny puddle; Pudge smiles wide",
+     "camera": "medium shot",
+     "lines": [],
+     "sfx": "idea 'ding!', rain pitter-patter"
+    },
+    {
+     "n": 5,
+     "dur": 6,
+     "loc": "meadow",
+     "chars": [
+      "drizzle",
+      "pudge"
+     ],
+     "keyframe": "Drizzle drips a perfect round shiny puddle on the ground, Pudge crouching ready to jump",
+     "action": "Pudge jumps into the puddle with both feet, water splashes up in a sparkly crown, everyone laughs and waves at the camera",
+     "camera": "low wide angle, slow motion on the splash",
+     "lines": [],
+     "sfx": "big happy splash in slow motion, both giggle 'yay!', sparkly chime"
+    }
+   ],
+   "loop_note": "ends on the Puddle Jump; loops to the opening"
+  },
+  {
+   "id": "DP-005",
+   "number": 5,
+   "title": "Fizz Took the Acorn! 🌰 | Drizzle & Pudge",
+   "logline": "Cheeky Fizz snatches Pudge's shiny acorn, Drizzle's sad rain soaks Fizz, and Pudge's kindness with his umbrella makes Fizz share.",
+   "hook_text": "Hey! That's Pudge's acorn!",
+   "description": "Fizz learns that sharing is more fun than grabbing. A story about kindness. A wordless cartoon for little ones, new episode every day.",
+   "tags": [
+    "sharing",
+    "kindness",
+    "cartoons for kids",
+    "kids cartoon",
+    "funny cartoon",
+    "preschool",
+    "toddler",
+    "Drizzle and Pudge"
+   ],
+   "music": "bouncy ukulele",
+   "shots": [
+    {
+     "n": 1,
+     "dur": 8,
+     "loc": "big_oak",
+     "chars": [
+      "pudge"
+     ],
+     "keyframe": "Pudge proudly holding up a big shiny golden acorn under the oak tree",
+     "action": "Pudge polishes the acorn and admires it",
+     "camera": "close shot",
+     "lines": [],
+     "sfx": "sparkle chime, happy 'ooh'"
+    },
+    {
+     "n": 2,
+     "dur": 6,
+     "loc": "big_oak",
+     "chars": [
+      "fizz",
+      "pudge"
+     ],
+     "keyframe": "Fizz zooming past in a blur",
+     "action": "Fizz grabs the acorn and zips around the tree, Pudge spins dizzily",
+     "camera": "whip pan",
+     "lines": [],
+     "sfx": "zoom whoosh, cheeky squirrel giggle"
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "big_oak",
+     "chars": [
+      "drizzle",
+      "fizz"
+     ],
+     "keyframe": "Drizzle above Fizz looking sad, a little storm forming",
+     "action": "Drizzle's sad rain pours right on Fizz, who is soaked, his big tail drooping",
+     "camera": "medium shot",
+     "lines": [],
+     "sfx": "rain shower, sad sniffle, 'uh-oh'"
+    },
+    {
+     "n": 4,
+     "dur": 10,
+     "loc": "big_oak",
+     "chars": [
+      "pudge",
+      "fizz"
+     ],
+     "keyframe": "Pudge walking up to wet Fizz holding a big leaf like an umbrella",
+     "action": "Pudge holds the leaf umbrella over Fizz; Fizz looks at the acorn, then gives it back; Pudge breaks it into two and shares",
+     "camera": "slow push-in",
+     "lines": [],
+     "sfx": "soft music-box notes, happy giggles"
+    },
+    {
+     "n": 5,
+     "dur": 6,
+     "loc": "big_oak",
+     "chars": [
+      "drizzle",
+      "pudge",
+      "fizz"
+     ],
+     "keyframe": "Drizzle drips a perfect round shiny puddle on the ground, Pudge crouching ready to jump, Fizz watching",
+     "action": "Pudge jumps into the puddle with both feet, water splashes up in a sparkly crown, everyone laughs and waves at the camera",
+     "camera": "low wide angle, slow motion on the splash",
+     "lines": [],
+     "sfx": "big happy splash in slow motion, both giggle 'yay!', sparkly chime"
+    }
+   ],
+   "loop_note": "ends on the Puddle Jump; loops to the opening"
+  },
+  {
+   "id": "DP-006",
+   "number": 6,
+   "title": "Where's Bitsy? 🐞 | Drizzle & Pudge",
+   "logline": "Bitsy goes missing at dusk, so Drizzle rains glowing star-drops to light the hedge while Pudge counts the places they search.",
+   "hook_text": "Bitsy is hiding! Can you spot her?",
+   "description": "Help Drizzle and Pudge find Bitsy! Count 1, 2, 3 along the way. A wordless cartoon for little ones, new episode every day.",
+   "tags": [
+    "counting",
+    "hide and seek",
+    "cartoons for kids",
+    "kids cartoon",
+    "funny cartoon",
+    "preschool",
+    "toddler",
+    "Drizzle and Pudge"
+   ],
+   "music": "gentle music box",
+   "shots": [
+    {
+     "n": 1,
+     "dur": 8,
+     "loc": "meadow",
+     "chars": [
+      "pudge",
+      "drizzle"
+     ],
+     "keyframe": "evening meadow, Pudge looking around worried, Drizzle beside him",
+     "action": "Pudge looks under a leaf, behind a stone, shaking his head",
+     "camera": "medium shot, warm dusk light",
+     "lines": [],
+     "sfx": "crickets, little 'hmm?'"
+    },
+    {
+     "n": 2,
+     "dur": 8,
+     "loc": "meadow",
+     "chars": [
+      "drizzle"
+     ],
+     "keyframe": "Drizzle glowing softly, tiny glowing star-shaped drops falling from her",
+     "action": "glowing star-drops light up a path through the flowers",
+     "camera": "wide, magical glow",
+     "lines": [],
+     "sfx": "magic twinkles"
+    },
+    {
+     "n": 3,
+     "dur": 10,
+     "loc": "meadow",
+     "chars": [
+      "pudge",
+      "drizzle"
+     ],
+     "keyframe": "Pudge holding up one finger beside a glowing mushroom",
+     "action": "Pudge checks one mushroom, two flowers, three leaves, holding up fingers each time",
+     "camera": "tracking shot",
+     "lines": [],
+     "sfx": "three soft chimes rising in pitch, 'one... two... three!' as chime tones only"
+    },
+    {
+     "n": 4,
+     "dur": 8,
+     "loc": "meadow",
+     "chars": [
+      "bitsy",
+      "pudge"
+     ],
+     "keyframe": "inside a closed daisy, Bitsy fast asleep, Pudge peeking in with a smile",
+     "action": "the daisy opens gently, Bitsy yawns and waves",
+     "camera": "close up",
+     "lines": [],
+     "sfx": "tiny yawn, 'awww'"
+    },
+    {
+     "n": 5,
+     "dur": 6,
+     "loc": "meadow",
+     "chars": [
+      "drizzle",
+      "pudge",
+      "bitsy"
+     ],
+     "keyframe": "Drizzle drips a perfect round shiny puddle on the ground, Pudge crouching ready to jump, Bitsy on Pudge's head, glowing puddle",
+     "action": "Pudge jumps into the puddle with both feet, water splashes up in a sparkly crown, everyone laughs and waves at the camera",
+     "camera": "low wide angle, slow motion on the splash",
+     "lines": [],
+     "sfx": "big happy splash in slow motion, both giggle 'yay!', sparkly chime"
+    }
+   ],
+   "loop_note": "ends on the Puddle Jump; loops to the opening"
+  },
+  {
+   "id": "DP-007",
+   "number": 7,
+   "title": "Musical Raindrops 🎵 | Drizzle & Pudge",
+   "logline": "Drizzle discovers her raindrops play notes on Gran's flower pots, and the friends put on a garden concert that makes Gran dance.",
+   "hook_text": "Raindrops that play MUSIC!",
+   "description": "Plink, plonk, plunk! Drizzle's raindrops make music in Gran's garden. A wordless cartoon for little ones, new episode every day.",
+   "tags": [
+    "music",
+    "kids music",
+    "cartoons for kids",
+    "kids cartoon",
+    "funny cartoon",
+    "preschool",
+    "toddler",
+    "Drizzle and Pudge"
+   ],
+   "music": "playful xylophone",
+   "shots": [
+    {
+     "n": 1,
+     "dur": 8,
+     "loc": "gran_garden",
+     "chars": [
+      "drizzle",
+      "pudge"
+     ],
+     "keyframe": "a row of different-sized flower pots, one raindrop falling from Drizzle onto a pot",
+     "action": "the drop hits the pot and plays a musical note; Drizzle and Pudge look at each other amazed",
+     "camera": "close on pots then two-shot",
+     "lines": [],
+     "sfx": "single bright xylophone 'plink'"
+    },
+    {
+     "n": 2,
+     "dur": 8,
+     "loc": "gran_garden",
+     "chars": [
+      "pudge"
+     ],
+     "keyframe": "Pudge lining up the pots from biggest to smallest",
+     "action": "Pudge arranges the pots in a neat row",
+     "camera": "top-down",
+     "lines": [],
+     "sfx": "pots sliding, little hums"
+    },
+    {
+     "n": 3,
+     "dur": 10,
+     "loc": "gran_garden",
+     "chars": [
+      "drizzle",
+      "pudge"
+     ],
+     "keyframe": "Drizzle floating along the row of pots dripping on each",
+     "action": "Drizzle plays a happy tune across the pots, Pudge conducts with a twig",
+     "camera": "tracking shot along the pots",
+     "lines": [],
+     "sfx": "a cheerful simple melody of plinks"
+    },
+    {
+     "n": 4,
+     "dur": 8,
+     "loc": "gran_garden",
+     "chars": [
+      "gran_tortle",
+      "pudge"
+     ],
+     "keyframe": "Gran Tortle peeking from her shed, starting to tap her foot",
+     "action": "Gran does a slow happy twirl, Pudge dances with her",
+     "camera": "medium shot",
+     "lines": [],
+     "sfx": "melody continues, Gran chuckles"
+    },
+    {
+     "n": 5,
+     "dur": 6,
+     "loc": "gran_garden",
+     "chars": [
+      "drizzle",
+      "pudge"
+     ],
+     "keyframe": "Drizzle drips a perfect round shiny puddle on the ground, Pudge crouching ready to jump, the splash plays a final musical note",
+     "action": "Pudge jumps into the puddle with both feet, water splashes up in a sparkly crown, everyone laughs and waves at the camera",
+     "camera": "low wide angle, slow motion on the splash",
+     "lines": [],
+     "sfx": "big happy splash in slow motion, both giggle 'yay!', sparkly chime"
+    }
+   ],
+   "loop_note": "ends on the Puddle Jump; loops to the opening"
+  },
+  {
+   "id": "DP-008",
+   "number": 8,
+   "title": "Windy Day Whoosh 🌬️ | Drizzle & Pudge",
+   "logline": "A big gust blows Drizzle away across the sky, and Pudge, Fizz and Gran use Gran's kite tail to gently pull her home.",
+   "hook_text": "Hold on, Drizzle!",
+   "description": "When the wind blows Drizzle away, her friends work together to bring her home. Teamwork! A wordless cartoon for little ones, new episode every day.",
+   "tags": [
+    "teamwork",
+    "kite",
+    "wind",
+    "cartoons for kids",
+    "kids cartoon",
+    "funny cartoon",
+    "preschool",
+    "toddler",
+    "Drizzle and Pudge"
+   ],
+   "music": "bouncy ukulele",
+   "shots": [
+    {
+     "n": 1,
+     "dur": 8,
+     "loc": "meadow",
+     "chars": [
+      "drizzle",
+      "pudge"
+     ],
+     "keyframe": "Drizzle and Pudge playing on a breezy day, flowers bending",
+     "action": "a strong gust pushes Drizzle away across the sky, she spins and squeaks",
+     "camera": "wide shot",
+     "lines": [],
+     "sfx": "whoosh of wind, 'eeek!'"
+    },
+    {
+     "n": 2,
+     "dur": 8,
+     "loc": "gran_garden",
+     "chars": [
+      "pudge",
+      "gran_tortle"
+     ],
+     "keyframe": "Pudge running to Gran, pointing at the sky",
+     "action": "Gran pulls out a colourful kite with a long ribbon tail from her shed",
+     "camera": "medium shot",
+     "lines": [],
+     "sfx": "running footsteps, idea 'ding!'"
+    },
+    {
+     "n": 3,
+     "dur": 10,
+     "loc": "meadow",
+     "chars": [
+      "fizz",
+      "pudge"
+     ],
+     "keyframe": "the kite flying high, Pudge and Fizz holding the string together on the ground",
+     "action": "the kite's ribbon tail floats up to Drizzle, she grabs it",
+     "camera": "low angle looking up",
+     "lines": [],
+     "sfx": "flapping kite, hopeful 'ooh'"
+    },
+    {
+     "n": 4,
+     "dur": 8,
+     "loc": "meadow",
+     "chars": [
+      "gran_tortle",
+      "drizzle"
+     ],
+     "keyframe": "Gran, Pudge and Fizz pulling the string in a line like tug of war",
+     "action": "they gently reel Drizzle down until she lands in a hug",
+     "camera": "wide, then hug close up",
+     "lines": [],
+     "sfx": "heave-ho grunts, happy cheer"
+    },
+    {
+     "n": 5,
+     "dur": 6,
+     "loc": "meadow",
+     "chars": [
+      "drizzle",
+      "pudge",
+      "fizz"
+     ],
+     "keyframe": "Drizzle drips a perfect round shiny puddle on the ground, Pudge crouching ready to jump",
+     "action": "Pudge jumps into the puddle with both feet, water splashes up in a sparkly crown, everyone laughs and waves at the camera",
+     "camera": "low wide angle, slow motion on the splash",
+     "lines": [],
+     "sfx": "big happy splash in slow motion, both giggle 'yay!', sparkly chime"
+    }
+   ],
+   "loop_note": "ends on the Puddle Jump; loops to the opening"
+  },
+  {
+   "id": "DP-009",
+   "number": 9,
+   "title": "The Sandcastle Splash 🏰 | Drizzle & Pudge",
+   "logline": "Drizzle's hiccup washes away Pudge's sandcastle at the pond bank, so the friends try again and build a bigger, stronger one together.",
+   "hook_text": "Oops! The sandcastle!",
+   "description": "When things go wrong, try again together! Drizzle & Pudge build a sandcastle. A wordless cartoon for little ones, new episode every day.",
+   "tags": [
+    "try again",
+    "sandcastle",
+    "cartoons for kids",
+    "kids cartoon",
+    "funny cartoon",
+    "preschool",
+    "toddler",
+    "Drizzle and Pudge"
+   ],
+   "music": "silly tuba",
+   "shots": [
+    {
+     "n": 1,
+     "dur": 8,
+     "loc": "pond_bank",
+     "chars": [
+      "pudge"
+     ],
+     "keyframe": "Pudge proudly finishing a small sandcastle on the sandy grass edge with a flower flag",
+     "action": "Pudge places the flower flag on top and smiles",
+     "camera": "close shot",
+     "lines": [],
+     "sfx": "patting sand, proud hum"
+    },
+    {
+     "n": 2,
+     "dur": 6,
+     "loc": "pond_bank",
+     "chars": [
+      "drizzle",
+      "pudge"
+     ],
+     "keyframe": "Drizzle floating over the sandcastle about to hiccup",
+     "action": "Drizzle hiccups a splash of rain and the sandcastle melts down",
+     "camera": "medium shot",
+     "lines": [],
+     "sfx": "'hic!', splash, sad trombone"
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "pond_bank",
+     "chars": [
+      "drizzle",
+      "pudge"
+     ],
+     "keyframe": "Drizzle covering her face sorry, Pudge looking at the mushy sand",
+     "action": "Drizzle gives a sorry little hug; Pudge smiles and picks up his bucket again",
+     "camera": "two-shot",
+     "lines": [],
+     "sfx": "soft 'sorry' coo, gentle music"
+    },
+    {
+     "n": 4,
+     "dur": 10,
+     "loc": "pond_bank",
+     "chars": [
+      "fizz",
+      "pudge"
+     ],
+     "keyframe": "Pudge, Fizz and Drizzle building together",
+     "action": "Drizzle sprinkles just a little water to make the sand sticky, Fizz digs, Pudge stacks; a tall castle rises",
+     "camera": "time-lapse style building",
+     "lines": [],
+     "sfx": "building sounds, cheerful hums"
+    },
+    {
+     "n": 5,
+     "dur": 6,
+     "loc": "pond_bank",
+     "chars": [
+      "drizzle",
+      "pudge",
+      "fizz"
+     ],
+     "keyframe": "Drizzle drips a perfect round shiny puddle on the ground, Pudge crouching ready to jump, the big castle standing proudly behind them",
+     "action": "Pudge jumps into the puddle with both feet, water splashes up in a sparkly crown, everyone laughs and waves at the camera",
+     "camera": "low wide angle, slow motion on the splash",
+     "lines": [],
+     "sfx": "big happy splash in slow motion, both giggle 'yay!', sparkly chime"
+    }
+   ],
+   "loop_note": "ends on the Puddle Jump; loops to the opening"
+  },
+  {
+   "id": "DP-010",
+   "number": 10,
+   "title": "Bedtime Stars 🌙 | Drizzle & Pudge",
+   "logline": "Drizzle can't fall asleep, so Pudge counts sheep-shaped clouds with her until she rains soft glowing stars and they both drift off.",
+   "hook_text": "Time for sleep, Drizzle 🌙",
+   "description": "A calm bedtime cartoon. Count the sleepy sheep clouds with Drizzle and Pudge. A wordless cartoon for little ones, new episode every day.",
+   "tags": [
+    "bedtime",
+    "lullaby",
+    "sleep",
+    "cartoons for kids",
+    "kids cartoon",
+    "funny cartoon",
+    "preschool",
+    "toddler",
+    "Drizzle and Pudge"
+   ],
+   "music": "gentle music box",
+   "shots": [
+    {
+     "n": 1,
+     "dur": 8,
+     "loc": "pudge_burrow",
+     "chars": [
+      "drizzle",
+      "pudge"
+     ],
+     "keyframe": "Pudge in pyjamas in his cosy bed, Drizzle floating wide awake by the round window",
+     "action": "Drizzle bounces around restlessly, Pudge yawns",
+     "camera": "medium shot, warm lantern light",
+     "lines": [],
+     "sfx": "soft yawn, gentle bouncy sounds"
+    },
+    {
+     "n": 2,
+     "dur": 10,
+     "loc": "night_meadow",
+     "chars": [
+      "drizzle",
+      "pudge"
+     ],
+     "keyframe": "view through the window of fluffy clouds shaped like sheep floating over the moon",
+     "action": "Pudge points at each sheep cloud as it hops over the moon, one, two, three",
+     "camera": "slow pan across the sky",
+     "lines": [],
+     "sfx": "three soft bell tones, crickets"
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "pudge_burrow",
+     "chars": [
+      "drizzle"
+     ],
+     "keyframe": "Drizzle's eyes getting heavy, small glowing stars drifting down from her",
+     "action": "glowing stars float softly around the room",
+     "camera": "slow push-in",
+     "lines": [],
+     "sfx": "magic twinkle, soft yawn"
+    },
+    {
+     "n": 4,
+     "dur": 8,
+     "loc": "pudge_burrow",
+     "chars": [
+      "drizzle",
+      "pudge"
+     ],
+     "keyframe": "Drizzle curled up on Pudge's pillow, both asleep, stars glowing on the ceiling",
+     "action": "the lantern dims gently, a tiny smile on both faces",
+     "camera": "slow pull back",
+     "lines": [],
+     "sfx": "gentle breathing, lullaby hum"
+    },
+    {
+     "n": 5,
+     "dur": 6,
+     "loc": "pudge_burrow",
+     "chars": [
+      "drizzle",
+      "pudge"
+     ],
+     "keyframe": "morning sunlight through the round window, both waking and stretching",
+     "action": "Drizzle drips a tiny puddle on the floor and Pudge does a sleepy little hop into it",
+     "camera": "medium shot",
+     "lines": [],
+     "sfx": "tiny splash, morning birdsong, giggles"
+    }
+   ],
+   "loop_note": "ends on the Puddle Jump; loops to the opening"
+  },
+  {
+   "id": "DP-011",
+   "number": 11,
+   "title": "Bouncy Bubble Puddle 🫧 | Drizzle & Pudge",
+   "logline": "Drizzle rains a magic bubble puddle that's bouncy like a trampoline, and even slow Gran Tortle has a turn.",
+   "hook_text": "A BOUNCY puddle?!",
+   "description": "Boing boing! Drizzle makes a magic bouncy puddle for everyone to share. A wordless cartoon for little ones, new episode every day.",
+   "tags": [
+    "bouncy",
+    "taking turns",
+    "cartoons for kids",
+    "kids cartoon",
+    "funny cartoon",
+    "preschool",
+    "toddler",
+    "Drizzle and Pudge"
+   ],
+   "music": "bouncy ukulele",
+   "shots": [
+    {
+     "n": 1,
+     "dur": 8,
+     "loc": "puddle_lane",
+     "chars": [
+      "drizzle",
+      "pudge"
+     ],
+     "keyframe": "Drizzle raining shimmering bubbly drops into a puddle that glows",
+     "action": "Pudge pokes the puddle with his boot and it wobbles like jelly",
+     "camera": "close on puddle",
+     "lines": [],
+     "sfx": "bubbly rain, wobble 'boing'"
+    },
+    {
+     "n": 2,
+     "dur": 8,
+     "loc": "puddle_lane",
+     "chars": [
+      "pudge"
+     ],
+     "keyframe": "Pudge standing on the shiny wobbly puddle",
+     "action": "Pudge bounces gently up and down, giggling, just a little off the ground",
+     "camera": "low angle",
+     "lines": [],
+     "sfx": "boing boing, giggles"
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "puddle_lane",
+     "chars": [
+      "fizz",
+      "pudge"
+     ],
+     "keyframe": "Fizz running up wanting a turn, Pudge stepping off",
+     "action": "Pudge waves Fizz on to take a turn; Fizz bounces and does a happy spin",
+     "camera": "medium shot",
+     "lines": [],
+     "sfx": "boing, cheeky squeak"
+    },
+    {
+     "n": 4,
+     "dur": 10,
+     "loc": "puddle_lane",
+     "chars": [
+      "gran_tortle",
+      "pudge"
+     ],
+     "keyframe": "Gran Tortle stepping carefully onto the puddle holding Pudge's paw",
+     "action": "Gran bounces very slowly and gently, then laughs with delight",
+     "camera": "medium shot",
+     "lines": [],
+     "sfx": "slow 'boooing', warm chuckle"
+    },
+    {
+     "n": 5,
+     "dur": 6,
+     "loc": "puddle_lane",
+     "chars": [
+      "drizzle",
+      "pudge"
+     ],
+     "keyframe": "Drizzle drips a perfect round shiny puddle on the ground, Pudge crouching ready to jump, the puddle gives one last tiny boing",
+     "action": "Pudge jumps into the puddle with both feet, water splashes up in a sparkly crown, everyone laughs and waves at the camera",
+     "camera": "low wide angle, slow motion on the splash",
+     "lines": [],
+     "sfx": "big happy splash in slow motion, both giggle 'yay!', sparkly chime"
+    }
+   ],
+   "loop_note": "ends on the Puddle Jump; loops to the opening"
+  },
+  {
+   "id": "DP-012",
+   "number": 12,
+   "title": "The Hiccup Cure 😄 | Drizzle & Pudge",
+   "logline": "The friends try every silly trick to stop Drizzle's hiccups until Bitsy's tickle works, and then Pudge catches the hiccups.",
+   "hook_text": "How do you stop HICCUPS?",
+   "description": "Drizzle has the hiccups! Which silly trick will work? A wordless cartoon for little ones, new episode every day.",
+   "tags": [
+    "hiccups",
+    "funny",
+    "cartoons for kids",
+    "kids cartoon",
+    "funny cartoon",
+    "preschool",
+    "toddler",
+    "Drizzle and Pudge"
+   ],
+   "music": "silly tuba",
+   "shots": [
+    {
+     "n": 1,
+     "dur": 8,
+     "loc": "meadow",
+     "chars": [
+      "drizzle",
+      "pudge"
+     ],
+     "keyframe": "Drizzle hiccuping, each hiccup popping out a little flower petal",
+     "action": "petals pop out with each hiccup, Pudge scratches his head",
+     "camera": "medium shot",
+     "lines": [],
+     "sfx": "'hic! hic!', petal poofs"
+    },
+    {
+     "n": 2,
+     "dur": 8,
+     "loc": "meadow",
+     "chars": [
+      "pudge",
+      "drizzle"
+     ],
+     "keyframe": "Pudge making a big funny 'boo' face",
+     "action": "Pudge pops up with a silly face; Drizzle laughs but hiccups again",
+     "camera": "two-shot",
+     "lines": [],
+     "sfx": "playful 'boo!' noise, laugh, 'hic!'"
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "meadow",
+     "chars": [
+      "drizzle",
+      "pudge"
+     ],
+     "keyframe": "Drizzle floating upside down holding her breath, cheeks puffed",
+     "action": "Drizzle turns pink holding her breath, then hiccups and spins",
+     "camera": "medium shot",
+     "lines": [],
+     "sfx": "'mmmm', 'hic!', spin whoosh"
+    },
+    {
+     "n": 4,
+     "dur": 8,
+     "loc": "meadow",
+     "chars": [
+      "bitsy",
+      "drizzle"
+     ],
+     "keyframe": "tiny Bitsy landing on Drizzle's fluffy side",
+     "action": "Bitsy tickles Drizzle, who giggles so much the hiccups stop; then Pudge hiccups a bubble",
+     "camera": "close up then two-shot",
+     "lines": [],
+     "sfx": "tickle giggles, silence, then Pudge's 'hic!'"
+    },
+    {
+     "n": 5,
+     "dur": 6,
+     "loc": "meadow",
+     "chars": [
+      "drizzle",
+      "pudge"
+     ],
+     "keyframe": "Drizzle drips a perfect round shiny puddle on the ground, Pudge crouching ready to jump, Pudge still hiccuping cutely",
+     "action": "Pudge jumps into the puddle with both feet, water splashes up in a sparkly crown, everyone laughs and waves at the camera",
+     "camera": "low wide angle, slow motion on the splash",
+     "lines": [],
+     "sfx": "big happy splash in slow motion, both giggle 'yay!', sparkly chime"
+    }
+   ],
+   "loop_note": "ends on the Puddle Jump; loops to the opening"
+  },
+  {
+   "id": "DP-013",
+   "number": 13,
+   "title": "Painting Gran's Fence 🎨 | Drizzle & Pudge",
+   "logline": "Drizzle's colour rain helps paint Gran's fence until Fizz smudges it, and Fizz says sorry by painting a heart.",
+   "hook_text": "Who smudged the paint?",
+   "description": "A colourful cartoon about saying sorry. Drizzle, Pudge and Fizz paint Gran's fence. A wordless cartoon for little ones, new episode every day.",
+   "tags": [
+    "painting",
+    "saying sorry",
+    "colors",
+    "cartoons for kids",
+    "kids cartoon",
+    "funny cartoon",
+    "preschool",
+    "toddler",
+    "Drizzle and Pudge"
+   ],
+   "music": "playful xylophone",
+   "shots": [
+    {
+     "n": 1,
+     "dur": 8,
+     "loc": "gran_garden",
+     "chars": [
+      "gran_tortle",
+      "drizzle"
+     ],
+     "keyframe": "Gran holding a paintbrush by her plain fence, Drizzle eager to help",
+     "action": "Drizzle rains soft blue paint drops that paint a sky across the fence",
+     "camera": "wide on the fence",
+     "lines": [],
+     "sfx": "pitter-patter paint, Gran's happy hum"
+    },
+    {
+     "n": 2,
+     "dur": 8,
+     "loc": "gran_garden",
+     "chars": [
+      "pudge"
+     ],
+     "keyframe": "Pudge painting green grass with a big brush",
+     "action": "Pudge paints big swooshes of grass, gets a dot of paint on his nose",
+     "camera": "medium shot",
+     "lines": [],
+     "sfx": "brush swooshes, giggle"
+    },
+    {
+     "n": 3,
+     "dur": 6,
+     "loc": "gran_garden",
+     "chars": [
+      "fizz"
+     ],
+     "keyframe": "Fizz zooming past the wet fence",
+     "action": "Fizz's fluffy tail smears a long streak through the paint",
+     "camera": "whip pan",
+     "lines": [],
+     "sfx": "zoom, smudge squelch, everyone gasps"
+    },
+    {
+     "n": 4,
+     "dur": 10,
+     "loc": "gran_garden",
+     "chars": [
+      "fizz",
+      "gran_tortle"
+     ],
+     "keyframe": "Fizz looking sorry, ears down, holding his paint-covered tail",
+     "action": "Fizz uses his tail like a brush to paint a big red heart over the smudge; Gran hugs him",
+     "camera": "slow push-in",
+     "lines": [],
+     "sfx": "soft music box, happy 'awww'"
+    },
+    {
+     "n": 5,
+     "dur": 6,
+     "loc": "gran_garden",
+     "chars": [
+      "drizzle",
+      "pudge",
+      "fizz"
+     ],
+     "keyframe": "Drizzle drips a perfect round shiny puddle on the ground, Pudge crouching ready to jump, the painted fence behind them",
+     "action": "Pudge jumps into the puddle with both feet, water splashes up in a sparkly crown, everyone laughs and waves at the camera",
+     "camera": "low wide angle, slow motion on the splash",
+     "lines": [],
+     "sfx": "big happy splash in slow motion, both giggle 'yay!', sparkly chime"
+    }
+   ],
+   "loop_note": "ends on the Puddle Jump; loops to the opening"
+  },
+  {
+   "id": "DP-014",
+   "number": 14,
+   "title": "Feathers for a Baby Bird 🐣 | Drizzle & Pudge",
+   "logline": "Drizzle rains soft feathers that Pudge turns into a cosy nest for a lost baby bird until its mama returns.",
+   "hook_text": "A baby bird needs help!",
+   "description": "Drizzle and Pudge help a lost baby bird. A gentle story about helping others. A wordless cartoon for little ones, new episode every day.",
+   "tags": [
+    "helping",
+    "baby bird",
+    "animals",
+    "cartoons for kids",
+    "kids cartoon",
+    "funny cartoon",
+    "preschool",
+    "toddler",
+    "Drizzle and Pudge"
+   ],
+   "music": "gentle music box",
+   "shots": [
+    {
+     "n": 1,
+     "dur": 8,
+     "loc": "big_oak",
+     "chars": [
+      "pudge",
+      "baby_bird"
+     ],
+     "keyframe": "a tiny fluffy baby bird sitting alone on a mossy root, Pudge kneeling to look",
+     "action": "the baby bird peeps sadly; Pudge looks around for its mama",
+     "camera": "close shot",
+     "lines": [],
+     "sfx": "tiny sad peeps"
+    },
+    {
+     "n": 2,
+     "dur": 8,
+     "loc": "big_oak",
+     "chars": [
+      "drizzle"
+     ],
+     "keyframe": "Drizzle above them, eyes sparkling with an idea",
+     "action": "soft white feathers rain down from Drizzle",
+     "camera": "medium shot",
+     "lines": [],
+     "sfx": "gentle whoosh, magic twinkle"
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "big_oak",
+     "chars": [
+      "pudge",
+      "baby_bird"
+     ],
+     "keyframe": "Pudge gathering feathers into a round cosy nest on a low mossy root",
+     "action": "Pudge places the baby bird in the nest, it snuggles in and smiles",
+     "camera": "close shot",
+     "lines": [],
+     "sfx": "soft rustle, happy cheep"
+    },
+    {
+     "n": 4,
+     "dur": 8,
+     "loc": "big_oak",
+     "chars": [
+      "mama_bird",
+      "baby_bird"
+     ],
+     "keyframe": "a mama bird swooping down to the nest",
+     "action": "mama bird hugs the baby with her wings and bows thank you to Pudge",
+     "camera": "medium shot",
+     "lines": [],
+     "sfx": "happy chirping duet"
+    },
+    {
+     "n": 5,
+     "dur": 6,
+     "loc": "big_oak",
+     "chars": [
+      "drizzle",
+      "pudge"
+     ],
+     "keyframe": "Drizzle drips a perfect round shiny puddle on the ground, Pudge crouching ready to jump, the birds singing on a branch above",
+     "action": "Pudge jumps into the puddle with both feet, water splashes up in a sparkly crown, everyone laughs and waves at the camera",
+     "camera": "low wide angle, slow motion on the splash",
+     "lines": [],
+     "sfx": "big happy splash in slow motion, both giggle 'yay!', sparkly chime"
+    }
+   ],
+   "loop_note": "ends on the Puddle Jump; loops to the opening",
+   "guests": {
+    "baby_bird": {
+     "name": "Baby Bird",
+     "ref_prompt": "a tiny round fluffy baby bluebird chick with big eyes and tiny wings",
+     "voice": "tiny peeps"
+    },
+    "mama_bird": {
+     "name": "Mama Bird",
+     "ref_prompt": "a kind round bluebird mother with soft blue feathers and a gentle smile",
+     "voice": "sweet chirps"
+    }
+   }
+  },
+  {
+   "id": "DP-015",
+   "number": 15,
+   "title": "Upside-Down Rain ⬆️ | Drizzle & Pudge",
+   "logline": "Drizzle's rain falls upward one silly morning, floating Pudge's hat and Bitsy into the air, until a big sneeze sets everything right.",
+   "hook_text": "The rain is going UP?!",
+   "description": "A silly upside-down day with Drizzle and Pudge! A wordless cartoon for little ones, new episode every day.",
+   "tags": [
+    "silly",
+    "upside down",
+    "cartoons for kids",
+    "kids cartoon",
+    "funny cartoon",
+    "preschool",
+    "toddler",
+    "Drizzle and Pudge"
+   ],
+   "music": "magic twinkle",
+   "shots": [
+    {
+     "n": 1,
+     "dur": 8,
+     "loc": "puddle_lane",
+     "chars": [
+      "drizzle",
+      "pudge"
+     ],
+     "keyframe": "Drizzle raining, but the raindrops float upward from the ground into the sky",
+     "action": "Pudge watches the drops rise, his eyes wide",
+     "camera": "low angle looking up",
+     "lines": [],
+     "sfx": "reverse plinks, 'ooh?'"
+    },
+    {
+     "n": 2,
+     "dur": 8,
+     "loc": "puddle_lane",
+     "chars": [
+      "pudge"
+     ],
+     "keyframe": "Pudge's raincoat hood and hat floating off his head upward",
+     "action": "Pudge hops to grab his hat as it floats away gently",
+     "camera": "medium shot",
+     "lines": [],
+     "sfx": "floaty whoosh, giggle"
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "puddle_lane",
+     "chars": [
+      "bitsy",
+      "pudge"
+     ],
+     "keyframe": "Bitsy floating upward with a raindrop, spinning happily",
+     "action": "Bitsy does somersaults in the air, Pudge laughs",
+     "camera": "close up",
+     "lines": [],
+     "sfx": "tiny happy buzz"
+    },
+    {
+     "n": 4,
+     "dur": 8,
+     "loc": "puddle_lane",
+     "chars": [
+      "drizzle",
+      "pudge"
+     ],
+     "keyframe": "Drizzle's nose twitching",
+     "action": "Drizzle sneezes and everything gently falls back down: the hat lands on Pudge's head, Bitsy lands on his nose",
+     "camera": "two-shot",
+     "lines": [],
+     "sfx": "'achoo!', soft landing plops"
+    },
+    {
+     "n": 5,
+     "dur": 6,
+     "loc": "puddle_lane",
+     "chars": [
+      "drizzle",
+      "pudge"
+     ],
+     "keyframe": "Drizzle drips a perfect round shiny puddle on the ground, Pudge crouching ready to jump",
+     "action": "Pudge jumps into the puddle with both feet, water splashes up in a sparkly crown, everyone laughs and waves at the camera",
+     "camera": "low wide angle, slow motion on the splash",
+     "lines": [],
+     "sfx": "big happy splash in slow motion, both giggle 'yay!', sparkly chime"
+    }
+   ],
+   "loop_note": "ends on the Puddle Jump; loops to the opening"
+  }
+ ]
+}

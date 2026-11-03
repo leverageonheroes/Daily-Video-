@@ -1,0 +1,163 @@
+{
+  "channel_id": "coldhearts",
+  "show_title": "Cold Hearts",
+  "tagline": "A soap opera inside your fridge. Everyone has an expiry date.",
+  "audience": "general (13+), NOT made for kids",
+  "format": "Melodramatic micro-soap, 60-85s, each episode understandable on its own, opens on the most dramatic line, ends on a cliffhanger.",
+  "episode_id_prefix": "CH",
+  "target_seconds": [
+    60,
+    85
+  ],
+  "max_seconds": 90,
+  "style_prompt": "high-quality 3D animated film style, glossy anthropomorphic food characters with large expressive eyes and clearly animated mouths, small cartoon arms, cinematic soap-opera lighting with cool blue fridge glow and warm rim light, dramatic close-ups, shallow depth of field, condensation droplets, vertical 9:16 composition with subject centred, no text, no labels with readable words, no brand logos",
+  "audio_prompt": "clear dramatic dialogue, soft fridge hum room tone, condensation drips, theatrical soap-opera sound effects, no background music (music is added in post)",
+  "negative_prompt": "real brand logos, readable label text, gore, cruelty, sexual content, photorealistic humans, human faces, extra limbs, distorted faces",
+  "lore": {
+    "the_light": "When the fridge door opens the Light floods in. Everyone strikes their most attractive pose hoping to be Chosen.",
+    "chosen": "Being taken by the Hand is called being Chosen. Nobody knows for sure what happens after. Some come back.",
+    "expiry": "Expiry dates are age. Condiments on the Door Shelf barely expire, so they are the aristocracy.",
+    "the_north": "The freezer is called the North. Exile. Those who return come back changed.",
+    "the_dark_corner": "The back of the bottom shelf where forgotten things live.",
+    "clean_out": "The Sunday Clean-Out is the apocalypse that comes every week."
+  },
+  "characters": {
+    "avery": {
+      "name": "Avery",
+      "species": "avocado",
+      "ref_prompt": "glossy anthropomorphic halved avocado woman, bright green flesh face with big long-lashed hazel eyes, the round brown pit worn like a pendant on her chest, dark textured skin around her like a gown, tiny cartoon arms, elegant diva posture",
+      "personality": "perfectionist influencer-energy diva, ripe for exactly one day, terrified of turning brown, secretly romantic",
+      "catchphrase": "I am at my PEAK.",
+      "voice": "dramatic, breathy, glamorous adult female",
+      "tts_voice_id": ""
+    },
+    "duchess": {
+      "name": "Duchess Dijon",
+      "species": "dijon mustard jar",
+      "ref_prompt": "anthropomorphic small glass jar of yellow dijon mustard, round wise eyes, a gold metal lid worn like a crown, a tiny gold monocle, plain cream label with no text, small cartoon arms, regal posture, older matriarch",
+      "personality": "matriarch of the Door Shelf, has lived in the fridge since 2019, knows every secret, posh and ruthless but loyal",
+      "catchphrase": "Darling, I was here before the ice tray.",
+      "voice": "aristocratic older female, slow, theatrical, upper-class English accent",
+      "tts_voice_id": ""
+    },
+    "brock": {
+      "name": "Brock",
+      "species": "broccoli",
+      "ref_prompt": "anthropomorphic muscular broccoli man, bright green floret hair, thick stalk body like a bodybuilder, kind earnest eyes, red sweatband on his head, tiny cartoon arms flexing",
+      "personality": "gym-bro health fanatic, steams himself for fun, big heart, takes everything literally",
+      "catchphrase": "Stay green, stay mean.",
+      "voice": "deep, earnest, gentle adult male",
+      "tts_voice_id": ""
+    },
+    "rico": {
+      "name": "Rico Red",
+      "species": "hot sauce bottle",
+      "ref_prompt": "anthropomorphic slim red hot sauce bottle man, green cap tilted like a hat, smouldering half-lidded eyes, tiny painted moustache, plain label with no text, small cartoon arms, leaning against the fridge door shelf",
+      "personality": "door-shelf charmer and brooding poet, hot-headed, jealous, dramatic monologues, secretly sensitive",
+      "catchphrase": "Too hot for this shelf.",
+      "voice": "smooth, low, theatrical adult male, poetic delivery",
+      "tts_voice_id": ""
+    },
+    "milo": {
+      "name": "Milo",
+      "species": "milk carton",
+      "ref_prompt": "anthropomorphic white and blue milk carton young man, nervous wide eyes, sweating condensation droplets, spout on top like a cowlick, no readable text, small cartoon arms clutching himself",
+      "personality": "anxious, always counting down to his expiry date, overdramatic, lovable coward",
+      "catchphrase": "I don't have long!",
+      "voice": "shaky, high-pitched, panicky young adult male",
+      "tts_voice_id": ""
+    },
+    "tilly": {
+      "name": "Tilly",
+      "species": "tofu block",
+      "ref_prompt": "anthropomorphic soft white tofu block young woman, cube-shaped, huge sparkly curious eyes, rosy cheeks, tiny cartoon arms, slightly wobbly jelly-like texture",
+      "personality": "naive newcomer, literally absorbs the flavour and personality of whoever she spends time with (her colour changes), sweet and curious",
+      "catchphrase": "Ooh, what's that?",
+      "voice": "sweet, bright, curious young adult female",
+      "tts_voice_id": ""
+    },
+    "lenny": {
+      "name": "Lenny",
+      "species": "leftover container",
+      "ref_prompt": "anthropomorphic plastic food container with a foggy blue lid, contents hidden behind condensation, two mysterious narrow eyes visible on the lid, small cartoon arms, sitting in shadow",
+      "personality": "mysterious leftover nobody remembers putting in, speaks in cryptic prophecies, oldest resident of the Dark Corner",
+      "catchphrase": "I have seen things... in the back.",
+      "voice": "gravelly, slow, whispery mysterious voice",
+      "tts_voice_id": ""
+    },
+    "the_hand": {
+      "name": "The Hand",
+      "species": "human hand",
+      "ref_prompt": "a giant human hand reaching into the fridge from outside, seen only from wrist down, backlit by blinding white kitchen light, no face ever shown",
+      "personality": "never speaks; godlike; unpredictable",
+      "catchphrase": "",
+      "voice": "none - only a deep whoosh and footsteps",
+      "tts_voice_id": ""
+    },
+    "freddie": {
+      "name": "Fresh Freddie",
+      "species": "milk carton",
+      "ref_prompt": "anthropomorphic brand-new milk carton young man, crisp bright white and green carton, confident bright eyes, perfect posture, spout on top styled like a quiff, no readable text, small cartoon arms",
+      "personality": "Milo's younger, fresher replacement, cheerful and naive at first, grows wise after being half-used",
+      "catchphrase": "Fresh as ever!",
+      "voice": "bright, cheerful, confident young male",
+      "tts_voice_id": ""
+    },
+    "queen_pea": {
+      "name": "Queen Pea",
+      "species": "bag of frozen peas",
+      "ref_prompt": "anthropomorphic frosty bag of frozen green peas shaped like a regal queen, icy crown of frost crystals, cold piercing eyes, frost-covered plastic gown, small cartoon arms",
+      "personality": "ruler of the North (freezer), icy and imperious, softens as she thaws",
+      "catchphrase": "In the North, we do not thaw.",
+      "voice": "cold, regal, imperious adult female",
+      "tts_voice_id": ""
+    },
+    "kev": {
+      "name": "Kev Ketchup",
+      "species": "ketchup bottle",
+      "ref_prompt": "anthropomorphic red squeezy ketchup bottle man, loud grinning face, white cap like a flat cap, plain label with no text, small cartoon arms waving, populist politician energy",
+      "personality": "loud populist upstart on the Door Shelf, wants Duchess's crown, all slogans no plan",
+      "catchphrase": "Ketchup for the people!",
+      "voice": "loud, brash, cheerful adult male",
+      "tts_voice_id": ""
+    }
+  },
+  "locations": {
+    "main_shelf": "middle glass shelf of a refrigerator, cool blue interior light, condensation, groceries in the background softly blurred",
+    "door_shelf": "fridge door shelf lined with condiment jars and bottles like a luxury balcony, golden warm rim light, the 'upper class' district",
+    "crisper": "transparent crisper drawer like a misty spa, green vegetables lounging, soft steam, frosted plastic walls",
+    "the_north": "freezer compartment, icy blue, frost crystals, frozen bags like snowy mountains, breath visible",
+    "dark_corner": "the dim back corner of the bottom shelf, shadowy, forgotten jars, cobweb-like frost, single flickering light",
+    "butter_vip": "small butter compartment with a flip-up lid like an exclusive VIP lounge, velvet-soft lighting",
+    "fridge_open": "fridge interior with the door swinging open, blinding white light pouring in, silhouettes of groceries frozen in poses",
+    "fridge_dark": "fridge interior in total darkness, only faint glints in characters' eyes"
+  },
+  "guests_allowed": true,
+  "music_moods": [
+    "telenovela strings",
+    "suspense sting",
+    "tragic piano",
+    "romantic violin",
+    "villain organ",
+    "comedic pizzicato",
+    "epic choir",
+    "ominous drone"
+  ],
+  "made_for_kids": false,
+  "youtube_category": "24",
+  "nonverbal": false,
+  "overlays": {
+    "hook": true,
+    "captions": true
+  },
+  "compilation_title": "{show} | {label} - Full Story ({n} Episodes)",
+  "compilation_tags": [
+    "fridge drama",
+    "soap opera",
+    "food drama"
+  ],
+  "compilations": {
+    "weekly": true,
+    "monthly": true
+  }
+}
