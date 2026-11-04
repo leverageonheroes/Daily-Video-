@@ -5,7 +5,7 @@ Three YouTube Shorts channels on autopilot: scripts → AI keyframes → AI vide
 - **New here? Follow `SETUP.md`** (about an hour, once).
 - **Claude Code reads `CLAUDE.md`** to resume work and write new script batches.
 
-| | Flat 4B | Cold Hearts | Drizzle & Pudge |
+| | Flat 4B | Fridge Hearts | Drizzle & Pudge |
 |---|---|---|---|
 | Premise | Four animal flatmates in a tiny London flat | A soap opera inside a fridge | A baby rain cloud and her hedgehog best friend |
 | Format | Standalone gag, punchline ending, loops | Micro-soap, cliffhanger ending | Wordless kids cartoon, ends with the Puddle Jump |

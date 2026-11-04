@@ -29,14 +29,17 @@ doesn't need to be open.
    Then set Publishing status to **In production**. (In "Testing" mode Google expires your login
    every 7 days and the daily job would break.) Google shows an "unverified app" warning when you
    log in. That's expected for a personal app: click *Advanced → Go to (app)*.
-4. **Credentials → Create credentials → OAuth client ID → Desktop app.** Download the JSON and
-   upload it into the Codespace as `secrets/client_secret.json`.
+4. **Credentials → Create credentials → OAuth client ID → Desktop app.** Then either:
+   - **(easiest)** GitHub → your profile → **Settings → Codespaces → Secrets → New secret**: add
+     `YT_CLIENT_ID` and `YT_CLIENT_SECRET` (give both access to this repo), then **restart the Codespace**
+     so they load; or
+   - download the JSON and upload it into the Codespace as `secrets/client_secret.json`.
 
 ## 4. Create the two YouTube channels
 In YouTube: profile picture → **Settings → Add or manage your channels → Create a channel**.
-Make three: *Flat 4B*, *Cold Hearts* and *Drizzle & Pudge*. Then go to
+Make three: *Flat 4B*, *Fridge Hearts* and *Drizzle & Pudge*. Then go to
 **YouTube Studio → Settings → Channel → Advanced** on each and set the audience:
-- Flat 4B and Cold Hearts: **"No, it's not made for kids"**
+- Flat 4B and Fridge Hearts: **"No, it's not made for kids"**
 - Drizzle & Pudge: **"Yes, set this channel as made for kids"** (required by law for content aimed at children;
   the pipeline also marks every Drizzle & Pudge upload as made for kids)
 
@@ -87,7 +90,7 @@ Optional settings (**Settings → Secrets and variables → Actions → Variable
 
 ### Weekly and monthly long videos (automatic)
 - **Weekly (Sundays):** each channel gets a long 16:9 compilation as soon as its new episodes add up to
-  8.5 minutes (YouTube only allows mid-video ads from 8 minutes). Cold Hearts qualifies every week; Flat 4B
+  8.5 minutes (YouTube only allows mid-video ads from 8 minutes). Fridge Hearts qualifies every week; Flat 4B
   and Drizzle & Pudge roughly every two weeks.
 - **Monthly (1st of the month):** a bigger "marathon" of all the month's episodes (*Season 1* when it covers 1-30).
 Both have chapter timestamps and upload the same way as the Shorts. Switch either off per channel in its
@@ -128,7 +131,7 @@ The daily job opens a GitHub issue "Write next script batch" when fewer than 7 s
 | | LTX API 720p (default) | fal.ai 1080p (backup) |
 |---|---|---|
 | Flat 4B episode (~36 s video + 5 keyframes) | ~$1.30 | ~$2.40 |
-| Cold Hearts episode (~71 s video + 8 keyframes) | ~$2.45 | ~$4.60 |
+| Fridge Hearts episode (~71 s video + 8 keyframes) | ~$2.45 | ~$4.60 |
 | Drizzle & Pudge episode (~39 s video + 5 keyframes) | ~$1.35 | ~$2.55 |
 | Per day (all three) | ~$5.10 | ~$9.50 |
 | Per month (incl. ~30% retakes) | **~$190** | ~$340–370 |

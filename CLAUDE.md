@@ -6,7 +6,7 @@ Everything you need to resume is on disk: never rely on chat memory.
 | Channel | Folder | Show | Format |
 |---|---|---|---|
 | 1 | `channels/flat4b/` | **Flat 4B** — four animal flatmates in London | Standalone sitcom gag, 30–50 s, punchline in last shot |
-| 2 | `channels/coldhearts/` | **Cold Hearts** — a soap opera inside a fridge | Melodramatic micro-soap, 60–85 s, cliffhanger ending |
+| 2 | `channels/coldhearts/` | **Fridge Hearts** — a soap opera inside a fridge | Melodramatic micro-soap, 60–85 s, cliffhanger ending |
 | 3 | `channels/drizzlepudge/` | **Drizzle & Pudge** — a baby rain cloud and her hedgehog best friend | Wordless kids cartoon, 30–45 s, ends with the Puddle Jump |
 
 Channels 1–2 are **general audience, NOT "made for kids"**. Keep humour clean (no swearing,
@@ -64,7 +64,7 @@ pipeline/                              # config, prompts, fal.ai calls, ffmpeg a
 Hard rules (enforced by `tools/validate.py`):
 - `dur` is 6, 8 or 10 seconds (every recommended video model supports these lengths).
 - Dialogue ≤ 2.6 words per second of shot (≤ 15 words in 6 s, ≤ 20 in 8 s, ≤ 26 in 10 s).
-- Total ≤ 90 s. Flat 4B target 30–50 s, Cold Hearts target 60–85 s.
+- Total ≤ 90 s. Flat 4B target 30–50 s, Fridge Hearts target 60–85 s.
 - Every speaker must be in that shot's `chars`; every char/loc must exist in channel.json or `guests`.
 - Channels with `"nonverbal": true` must have empty `lines`.
 - Max 2 speaking characters per shot (video models lip-sync two faces reliably, not three).
@@ -84,7 +84,7 @@ Hard rules (enforced by `tools/validate.py`):
    modelled (sharing, helping, trying again, sorry, counting, colours, shapes), and the LAST shot is always the
    6-second Puddle Jump. Obey every rule in `kids_safety_rules` (nothing unsafe a child could copy, nobody left
    sad or scared, no products). Titles are honest, not clickbait. Rotate locations and which friend stars.
-5. Cold Hearts: open on the most dramatic line, 3–4 beats of melodrama played straight,
+5. Fridge Hearts: open on the most dramatic line, 3–4 beats of melodrama played straight,
    end on a cliffhanger. Each episode must make sense to a first-time viewer.
    Keep the running arc moving (see the last 5 loglines) and introduce at most one guest per episode.
 6. Run `python tools/validate.py` and fix every ERROR (and most WARNs). Then `python tools/state.py sync`.

@@ -4,7 +4,8 @@
   python tools/auth_youtube.py flat4b
   python tools/auth_youtube.py coldhearts
 
-Needs secrets/client_secret.json (Google Cloud -> OAuth client ID -> Desktop app -> Download JSON).
+Needs the Google Cloud "Desktop app" OAuth client: either Codespace secrets YT_CLIENT_ID + YT_CLIENT_SECRET,
+or secrets/client_secret.json (Google Cloud -> OAuth client ID -> Desktop app -> Download JSON).
 Saves secrets/youtube_<channel>.json and prints the value to paste into the GitHub secret YT_TOKEN_<CHANNEL>.
 """
 import os
@@ -22,14 +23,28 @@ from pipeline.youtube import SCOPES, channel_title  # noqa: E402
 REDIRECT = "http://localhost:8765/"
 
 
+def make_flow():
+    cid, csecret = os.environ.get("YT_CLIENT_ID", "").strip(), os.environ.get("YT_CLIENT_SECRET", "").strip()
+    if cid and csecret:
+        config = {"installed": {
+            "client_id": cid, "client_secret": csecret,
+            "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+            "token_uri": "https://oauth2.googleapis.com/token",
+            "redirect_uris": ["http://localhost"],
+        }}
+        return Flow.from_client_config(config, scopes=SCOPES, redirect_uri=REDIRECT)
+    secret = ROOT / "secrets" / "client_secret.json"
+    if not secret.exists():
+        sys.exit("No OAuth client found. Set Codespace secrets YT_CLIENT_ID and YT_CLIENT_SECRET "
+                 f"(then restart the Codespace), or upload {secret}. See SETUP.md step 3.")
+    return Flow.from_client_secrets_file(str(secret), scopes=SCOPES, redirect_uri=REDIRECT)
+
+
 def main():
     if len(sys.argv) != 2:
         sys.exit(__doc__)
     channel = sys.argv[1]
-    secret = ROOT / "secrets" / "client_secret.json"
-    if not secret.exists():
-        sys.exit(f"Missing {secret}. See SETUP.md step 3.")
-    flow = Flow.from_client_secrets_file(str(secret), scopes=SCOPES, redirect_uri=REDIRECT)
+    flow = make_flow()
     url, _ = flow.authorization_url(access_type="offline", prompt="consent select_account")
     print("\n1) Open this link, sign in, and PICK THE YOUTUBE CHANNEL for", channel.upper(), ":\n")
     print(url)
