@@ -3,9 +3,16 @@
     "coldhearts": {
       "episodes": {
         "CH-001": {
-          "status": "scripted",
-          "history": [],
-          "attempts": 0
+          "status": "rendered",
+          "history": [
+            {
+              "status": "rendered",
+              "at": "2026-11-05T23:26:06+00:00",
+              "note": "70.0s"
+            }
+          ],
+          "attempts": 1,
+          "final": "output/coldhearts/CH-001/final.mp4"
         },
         "CH-002": {
           "status": "scripted",
@@ -158,9 +165,16 @@
     "flat4b": {
       "episodes": {
         "F4B-001": {
-          "status": "scripted",
-          "history": [],
-          "attempts": 0
+          "status": "rendered",
+          "history": [
+            {
+              "status": "rendered",
+              "at": "2026-11-05T23:22:13+00:00",
+              "note": "34.0s"
+            }
+          ],
+          "attempts": 1,
+          "final": "output/flat4b/F4B-001/final.mp4"
         },
         "F4B-002": {
           "status": "scripted",
@@ -313,9 +327,16 @@
     "drizzlepudge": {
       "episodes": {
         "DP-001": {
-          "status": "scripted",
-          "history": [],
-          "attempts": 0
+          "status": "rendered",
+          "history": [
+            {
+              "status": "rendered",
+              "at": "2026-11-05T23:28:30+00:00",
+              "note": "38.0s"
+            }
+          ],
+          "attempts": 1,
+          "final": "output/drizzlepudge/DP-001/final.mp4"
         },
         "DP-002": {
           "status": "scripted",
@@ -466,5 +487,5 @@
       "last_scripted": "DP-030"
     }
   },
-  "updated": "2026-11-05T22:37:35+00:00"
+  "updated": "2026-11-05T23:28:34+00:00"
 }
