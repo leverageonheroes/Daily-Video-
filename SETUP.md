@@ -45,14 +45,23 @@ Make three: *Flat 4B*, *Fridge Hearts* and *Drizzle & Pudge*. Then go to
 
 ## 5. Connect each channel (once per channel)
 ```bash
-python tools/auth_youtube.py flat4b
-python tools/auth_youtube.py coldhearts
-python tools/auth_youtube.py drizzlepudge
+python tools/auth_youtube.py all                                  # prints a login link per channel
+python tools/auth_youtube.py flat4b "http://localhost:8765/?..."  # finish each one with the pasted URL
 ```
 Open the link, **choose the matching channel** when Google asks, click Allow, then copy the
 `http://localhost:8765/?...` address from your browser bar (the page itself may not load) and paste it.
 The script confirms the channel name and prints a token. Add each one as a GitHub secret:
 `YT_TOKEN_FLAT4B`, `YT_TOKEN_COLDHEARTS` and `YT_TOKEN_DRIZZLEPUDGE`.
+
+## 5b. Facebook + Instagram Stories (optional)
+Every new episode is also posted to each channel's Facebook Page story and Instagram story. API stories go live
+for everyone straight away. Stories are capped at 60 s, so longer Fridge Hearts episodes post as 2 story frames cut between shots.
+1. Meta Business Suite → Settings → Users → **System users**: assign the 3 Pages and 3 Instagram accounts to the
+   system user (full control), then **Generate token** (never expires) with `pages_manage_posts`,
+   `pages_read_engagement`, `pages_show_list`, `instagram_basic`, `instagram_content_publish`.
+2. Put it in `.env` as `META_TOKEN=...` and as the GitHub secret `META_TOKEN`. Add the page/IG IDs
+   (`FLAT_4B_FB_ID`, `FLAT_4B_IG_ID`, `FRIDGE_HEARTS_…`, `DRIZZLE_AND_PUDGE_…`) as GitHub variables.
+3. `python -m pipeline.run check` shows every connection (YouTube, Facebook, Instagram, LTX, fal) for free.
 
 ## 6. Test for free, then for real
 ```bash
@@ -137,4 +146,5 @@ The daily job opens a GitHub issue "Write next script batch" when fewer than 7 s
 | Per month (incl. ~30% retakes) | **~$190** | ~$340–370 |
 | GitHub Actions | free tier is usually enough (~15–30 min per day) |
 
+Defaults (cheapest tested): LTX API `ltx-2-3-fast` at 720p ($0.03/s) for video, fal `ltx-2-19b/distilled` (~$0.02/s) as the video fallback, `flux-2/flash/edit` (~$0.015) for keyframes, `nano-banana` once per character for reference images.
 To switch model, set `VIDEO_I2V` (and `PRICE_PER_VIDEO_SECOND`) in `.env` and as GitHub Actions variables. Prices change, so check fal.ai model pages occasionally.

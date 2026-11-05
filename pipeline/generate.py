@@ -53,12 +53,15 @@ def keyframe(channel, bible, episode, shot, refs, workdir: Path) -> Path:
     cast = prompts.cast(bible, episode)
     names = [cast[c]["name"] for c in shot["chars"]]
     urls = [fal_api.upload(refs[c]) for c in shot["chars"]]
-    args = {"prompt": prompts.keyframe_prompt(bible, episode, shot, names),
-            "num_images": 1, "aspect_ratio": "9:16", "output_format": "png"}
+    model = config.IMAGE_EDIT if urls else config.IMAGE_KEY_T2I
+    args = {"prompt": prompts.keyframe_prompt(bible, episode, shot, names), "num_images": 1, "output_format": "png"}
+    if "nano-banana" in model:
+        args["aspect_ratio"] = "9:16"
+    else:   # flux-style endpoints take an explicit size
+        args["image_size"] = config.KEYFRAME_SIZE
     if urls:
-        res = fal_api.run(config.IMAGE_EDIT, {**args, "image_urls": urls})
-    else:
-        res = fal_api.run(config.IMAGE_T2I, args)
+        args["image_urls"] = urls
+    res = fal_api.run(model, args)
     return fal_api.download(_first_image_url(res), dest)
 
 
@@ -80,15 +83,16 @@ def clip(bible, episode, shot, key: Path, workdir: Path) -> Path:
                     raise ltx_api.LTXError("LTX_API_KEY is not set")
                 return ltx_api.image_to_video(key, prompt, shot["dur"], dest)
             if provider == "fal":
-                res = fal_api.run(config.VIDEO_I2V, {
-                    "image_url": fal_api.upload(key),
-                    "prompt": prompt,
-                    "duration": shot["dur"],
-                    "resolution": config.VIDEO_RESOLUTION,
-                    "aspect_ratio": "9:16",
-                    "fps": config.VIDEO_FPS,
-                    "generate_audio": config.GENERATE_AUDIO,
-                })
+                args = {"image_url": fal_api.upload(key), "prompt": prompt,
+                        "fps": config.VIDEO_FPS, "generate_audio": config.GENERATE_AUDIO}
+                if "ltx-2-19b" in config.VIDEO_I2V:   # frame-count API, size follows the keyframe
+                    args.update(num_frames=shot["dur"] * config.VIDEO_FPS + 1, video_size="auto",
+                                enable_prompt_expansion=False,
+                                negative_prompt="subtitles, captions, on-screen text, letters, watermark, logo, "
+                                                "blurry, distorted faces, extra limbs, flicker, off-sync audio")
+                else:
+                    args.update(duration=shot["dur"], resolution=config.VIDEO_RESOLUTION, aspect_ratio="9:16")
+                res = fal_api.run(config.VIDEO_I2V, args)
                 return fal_api.download(res["video"]["url"], dest)
             raise ValueError(f"unknown VIDEO_PROVIDER '{provider}'")
         except Exception as e:

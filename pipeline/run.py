@@ -9,6 +9,8 @@
   python -m pipeline.run weekly                # Sundays: compile a channel once it has 8.5+ min of new episodes
   python -m pipeline.run monthly               # 1st of month: compile all of last month's episodes
   python -m pipeline.run sync-youtube          # mark uploaded episodes that went public as published
+  python -m pipeline.run stories <ch> <id>     # post a rendered episode to Facebook + Instagram Stories
+  python -m pipeline.run check                 # test YouTube, Meta, LTX and fal.ai connections (free)
   python -m pipeline.run status
 
 Env: MOCK=1 (free test mode, no API calls), YT_UPLOAD=0 (render only), REVIEW_HOURS, DAILY_BUDGET_USD.
@@ -53,6 +55,46 @@ def upload(s, ch, ep_id):
     print(f"   -> {note}")
 
 
+def stories(s, ch, ep_id):
+    """Facebook + Instagram Stories (live and public immediately). Skips platforms already posted."""
+    from . import meta
+    if not meta.enabled(ch):
+        print(f"   (no Meta token/page IDs for {ch}: stories skipped)")
+        return True
+    rec = s["channels"][ch]["episodes"][ep_id]
+    final = workdir(ch, ep_id) / "final.mp4"
+    res = meta.post_stories(ch, final, state.get_episode(ch, ep_id), assemble.duration(final), rec.get("stories", {}))
+    errors = res.pop("errors", [])
+    rec["stories"] = res
+    state.save(s)
+    for e in errors:
+        print(f"!! {ch} {ep_id} stories: {e}")
+    return not errors
+
+
+def check():
+    """Free connection test for every channel: YouTube login, Meta page/IG access, LTX + fal keys."""
+    from . import meta, youtube
+    for ch in config.CHANNELS:
+        try:
+            print(f"{ch:13} YouTube  OK -> {youtube.channel_title(ch)}")
+        except Exception as e:
+            print(f"{ch:13} YouTube  MISSING/BROKEN: {str(e)[:150]}")
+        fb, ig, token = meta.ids(ch)
+        if not token:
+            print(f"{ch:13} Meta     MISSING: no META_TOKEN")
+            continue
+        pt = meta.page_token(fb, token)
+        for kind, oid, fields in (("Facebook", fb, "name"), ("Instagram", ig, "username")):
+            try:
+                r = meta._call("GET", f"{meta.GRAPH}/{oid}", {"fields": fields, "access_token": pt})
+                print(f"{ch:13} {kind:9}OK -> {r.get(fields)}")
+            except Exception as e:
+                print(f"{ch:13} {kind:9}BROKEN: {str(e)[:200]}")
+    print("LTX key  :", "set" if config.LTX_API_KEY else "MISSING")
+    print("fal key  :", "set" if config.FAL_KEY else "MISSING (needed for character + keyframe images)")
+
+
 def sync_youtube(s):
     from . import youtube
     for ch in config.CHANNELS:
@@ -94,6 +136,8 @@ def daily(s, channels):
                 spent += cost
             if do_upload:
                 upload(s, ch, ep_id)
+                if not stories(s, ch, ep_id):
+                    failures += 1
         except Exception as e:
             failures += 1
             traceback.print_exc()
@@ -126,6 +170,10 @@ def main(argv):
         render(s, argv[1], argv[2])
     elif cmd == "upload":
         upload(s, argv[1], argv[2])
+    elif cmd == "stories":
+        stories(s, argv[1], argv[2])
+    elif cmd == "check":
+        check()
     elif cmd in ("compile", "weekly", "monthly"):
         from . import compile as comp
         do_upload = os.environ.get("YT_UPLOAD", "1") == "1" and not config.MOCK

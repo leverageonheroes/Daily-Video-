@@ -49,13 +49,23 @@ jobs:
           YT_TOKEN_COLDHEARTS: ${{ secrets.YT_TOKEN_COLDHEARTS }}
           YT_TOKEN_DRIZZLEPUDGE: ${{ secrets.YT_TOKEN_DRIZZLEPUDGE }}
           REVIEW_HOURS: ${{ vars.REVIEW_HOURS || '10' }}
+          META_TOKEN: ${{ secrets.META_TOKEN }}
+          META_TOKEN_FACEBOOK_INSTAGRAM: ${{ secrets.META_TOKEN_FACEBOOK_INSTAGRAM }}
+          FLAT_4B_FB_ID: ${{ vars.FLAT_4B_FB_ID || secrets.FLAT_4B_FB_ID }}
+          FLAT_4B_IG_ID: ${{ vars.FLAT_4B_IG_ID || secrets.FLAT_4B_IG_ID }}
+          FRIDGE_HEARTS_FB_ID: ${{ vars.FRIDGE_HEARTS_FB_ID || secrets.FRIDGE_HEARTS_FB_ID }}
+          FRIDGE_HEARTS_IG_ID: ${{ vars.FRIDGE_HEARTS_IG_ID || secrets.FRIDGE_HEARTS_IG_ID }}
+          DRIZZLE_AND_PUDGE_FB_ID: ${{ vars.DRIZZLE_AND_PUDGE_FB_ID || secrets.DRIZZLE_AND_PUDGE_FB_ID }}
+          DRIZZLE_AND_PUDGE_IG_ID: ${{ vars.DRIZZLE_AND_PUDGE_IG_ID || secrets.DRIZZLE_AND_PUDGE_IG_ID }}
+          YT_PUBLISH_NOW: ${{ vars.YT_PUBLISH_NOW || '0' }}
           CHANNELS: ${{ vars.CHANNELS || 'flat4b,coldhearts,drizzlepudge' }}
           DAILY_BUDGET_USD: ${{ vars.DAILY_BUDGET_USD || '15' }}
           YT_UPLOAD: ${{ vars.YT_UPLOAD || '1' }}
           MOCK: ${{ vars.MOCK || '0' }}
           STORE_RELEASES: "1"
           GH_TOKEN: ${{ github.token }}
-          VIDEO_I2V: ${{ vars.VIDEO_I2V || 'fal-ai/ltx-2.3/image-to-video/fast' }}
+          VIDEO_I2V: ${{ vars.VIDEO_I2V || 'fal-ai/ltx-2-19b/distilled/image-to-video' }}
+          IMAGE_EDIT: ${{ vars.IMAGE_EDIT || 'fal-ai/flux-2/flash/edit' }}
           PRICE_PER_VIDEO_SECOND: ${{ vars.PRICE_PER_VIDEO_SECOND || '' }}
         run: python -m pipeline.run daily ${{ inputs.channels }}
 

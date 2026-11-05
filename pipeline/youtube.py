@@ -47,7 +47,9 @@ def upload(channel: str, video_path, meta: dict) -> dict:
         "containsSyntheticMedia": True,
     }
     publish_at = None
-    if config.REVIEW_HOURS > 0:
+    if os.environ.get("YT_PUBLISH_NOW") == "1":      # public straight away, no review window
+        status["privacyStatus"] = "public"
+    elif config.REVIEW_HOURS > 0:
         when = dt.datetime.now(dt.timezone.utc) + dt.timedelta(hours=config.REVIEW_HOURS)
         publish_at = when.replace(microsecond=0).isoformat().replace("+00:00", "Z")
         status["publishAt"] = publish_at

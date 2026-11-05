@@ -12,10 +12,25 @@ def _load_dotenv():
             line = line.strip()
             if line and not line.startswith("#") and "=" in line:
                 k, v = line.split("=", 1)
-                os.environ.setdefault(k.strip(), v.strip().strip('"').strip("'"))
+                if not os.environ.get(k.strip()):   # empty env vars (unset Codespace/Actions secrets) don't block .env
+                    os.environ[k.strip()] = v.strip().strip('"').strip("'")
+
+
+def _expand_bundles():
+    """A secret may hold a whole KEY=VALUE block (e.g. META_TOKEN_FACEBOOK_INSTAGRAM with the token and all
+    page ids). Unpack it so each key works as if it were its own secret; real individual values win."""
+    for name in ("META_TOKEN_FACEBOOK_INSTAGRAM", "META_BUNDLE"):
+        raw = os.environ.get(name, "").strip()
+        if "=" not in raw:
+            continue
+        for item in raw.split():
+            k, _, v = item.partition("=")
+            if k and v and not os.environ.get(k):
+                os.environ[k] = v.strip('"').strip("'")
 
 
 _load_dotenv()
+_expand_bundles()
 
 
 def env(name, default=None):
@@ -26,9 +41,15 @@ MOCK = env("MOCK", "0") == "1"          # MOCK=1 -> no API calls, placeholder im
 FAL_KEY = env("FAL_KEY")
 
 # --- fal.ai endpoints (swap models here with one line) ---
-IMAGE_T2I = env("IMAGE_T2I", "fal-ai/nano-banana")           # character reference sheets
-IMAGE_EDIT = env("IMAGE_EDIT", "fal-ai/nano-banana/edit")    # shot keyframes built from the reference images
-VIDEO_I2V = env("VIDEO_I2V", "fal-ai/ltx-2.3/image-to-video/fast")
+# Cheapest models that still keep the characters consistent (tested side by side, Nov 2026):
+#   references: nano-banana ($0.04/image, made once per character and reused forever)
+#   keyframes:  flux-2 flash edit (~$0.015/keyframe at 720x1280 vs $0.04 for nano-banana/edit)
+#   fal video fallback: LTX-2 19B distilled (~$0.02/s at 720p vs $0.06/s for ltx-2.3 fast, which is 1080p minimum)
+IMAGE_T2I = env("IMAGE_T2I", "fal-ai/nano-banana")                 # character reference sheets (one-off)
+IMAGE_EDIT = env("IMAGE_EDIT", "fal-ai/flux-2/flash/edit")         # shot keyframes built from the reference images
+IMAGE_KEY_T2I = env("IMAGE_KEY_T2I", "fal-ai/flux-2/flash")        # keyframes for shots with no characters
+KEYFRAME_SIZE = {"width": 720, "height": 1280}                     # video is 720p anyway; output is upscaled
+VIDEO_I2V = env("VIDEO_I2V", "fal-ai/ltx-2-19b/distilled/image-to-video")
 VIDEO_RESOLUTION = env("VIDEO_RESOLUTION", "1080p")
 VIDEO_FPS = int(env("VIDEO_FPS", "25"))
 GENERATE_AUDIO = env("GENERATE_AUDIO", "1") == "1"
@@ -52,12 +73,14 @@ def _default_price():
         short = LTX_RESOLUTION.lower().split("x")
         tier = "720" if min(int(x) for x in short) <= 720 else "1080"
         return _PRICES.get(("ltx", LTX_MODEL, tier), 0.06)
+    if "ltx-2-19b" in VIDEO_I2V:
+        return 0.02   # $0.0008 per output megapixel: 736x1280 x 25 fps ~= $0.019/s
     return 0.06   # fal.ai LTX-2.3 Fast i2v @1080p
 
 
 # --- cost guard (USD). Rough estimate per episode is checked before rendering. ---
 PRICE_PER_VIDEO_SECOND = float(env("PRICE_PER_VIDEO_SECOND", "") or _default_price())
-PRICE_PER_IMAGE = float(env("PRICE_PER_IMAGE", "0.04"))                 # nano-banana edit
+PRICE_PER_IMAGE = float(env("PRICE_PER_IMAGE", "0.015"))                # flux-2 flash edit keyframe
 DAILY_BUDGET_USD = float(env("DAILY_BUDGET_USD", "15"))
 MAX_ATTEMPTS = int(env("MAX_ATTEMPTS", "3"))
 PARALLEL_SHOTS = int(env("PARALLEL_SHOTS", "4"))   # shots generated at the same time

@@ -50,7 +50,8 @@ def clip_prompt(bible: dict, episode: dict, shot: dict) -> str:
     elif not shot.get("lines"):
         parts.append("No dialogue.")
     parts.append(f"Sound: {shot['sfx']}. {bible['audio_prompt']}")
-    parts.append(f"Style: {bible['style_prompt']}. Smooth natural motion, mouths move only for the speaking character.")
+    parts.append(f"Style: {bible['style_prompt']}. Smooth natural motion, mouths move only for the speaking character. "
+                 "No on-screen text, subtitles or captions.")
     if bible.get("made_for_kids"):
         parts.append("Gentle, calm, friendly motion suitable for young children; no scary or unsafe actions.")
     return " ".join(parts)[:2400]
