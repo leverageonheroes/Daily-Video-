@@ -32,9 +32,33 @@
           }
         },
         "CH-002": {
-          "status": "scripted",
-          "history": [],
-          "attempts": 0
+          "status": "uploaded",
+          "history": [
+            {
+              "status": "rendered",
+              "at": "2026-11-06T14:32:37+00:00",
+              "note": "70.0s"
+            },
+            {
+              "status": "uploaded",
+              "at": "2026-11-06T14:32:56+00:00",
+              "note": "https://youtu.be/T2sBTfHIN4c publishes 2026-11-07T00:32:43Z"
+            }
+          ],
+          "attempts": 1,
+          "final": "output/coldhearts/CH-002/final.mp4",
+          "youtube_id": "T2sBTfHIN4c",
+          "publish_at": "2026-11-07T00:32:43Z",
+          "stories": {
+            "facebook": [
+              "4225919844374369",
+              "1803775904287195"
+            ],
+            "instagram": [
+              "17989121742111028",
+              "17994210258100793"
+            ]
+          }
         },
         "CH-003": {
           "status": "scripted",
@@ -209,9 +233,31 @@
           }
         },
         "F4B-002": {
-          "status": "scripted",
-          "history": [],
-          "attempts": 0
+          "status": "uploaded",
+          "history": [
+            {
+              "status": "rendered",
+              "at": "2026-11-06T14:28:45+00:00",
+              "note": "34.0s"
+            },
+            {
+              "status": "uploaded",
+              "at": "2026-11-06T14:28:54+00:00",
+              "note": "https://youtu.be/LWulw_grRF8 publishes 2026-11-07T00:28:50Z"
+            }
+          ],
+          "attempts": 1,
+          "final": "output/flat4b/F4B-002/final.mp4",
+          "youtube_id": "LWulw_grRF8",
+          "publish_at": "2026-11-07T00:28:50Z",
+          "stories": {
+            "facebook": [
+              "873976195779002"
+            ],
+            "instagram": [
+              "18118994419800430"
+            ]
+          }
         },
         "F4B-003": {
           "status": "scripted",
@@ -386,9 +432,31 @@
           }
         },
         "DP-002": {
-          "status": "scripted",
-          "history": [],
-          "attempts": 0
+          "status": "uploaded",
+          "history": [
+            {
+              "status": "rendered",
+              "at": "2026-11-06T14:37:47+00:00",
+              "note": "38.0s"
+            },
+            {
+              "status": "uploaded",
+              "at": "2026-11-06T14:37:57+00:00",
+              "note": "https://youtu.be/wBSPJk8VJRo publishes 2026-11-07T00:37:53Z"
+            }
+          ],
+          "attempts": 1,
+          "final": "output/drizzlepudge/DP-002/final.mp4",
+          "youtube_id": "wBSPJk8VJRo",
+          "publish_at": "2026-11-07T00:37:53Z",
+          "stories": {
+            "facebook": [
+              "1466494965418237"
+            ],
+            "instagram": [
+              "17903805222604160"
+            ]
+          }
         },
         "DP-003": {
           "status": "scripted",
@@ -534,5 +602,5 @@
       "last_scripted": "DP-030"
     }
   },
-  "updated": "2026-11-06T08:00:20+00:00"
+  "updated": "2026-11-06T14:38:50+00:00"
 }
