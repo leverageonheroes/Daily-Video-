@@ -19,7 +19,8 @@ VERSION = os.environ.get("META_GRAPH_VERSION", "v23.0")
 GRAPH = f"https://graph.facebook.com/{VERSION}"
 RUPLOAD = "https://rupload.facebook.com"
 MAX_STORY_SECONDS = 59.5
-META_PREFIX = {"flat4b": "FLAT_4B", "coldhearts": "FRIDGE_HEARTS", "drizzlepudge": "DRIZZLE_AND_PUDGE"}
+META_PREFIX = {"flat4b": "FLAT_4B", "coldhearts": "FRIDGE_HEARTS", "drizzlepudge": "DRIZZLE_AND_PUDGE",
+               "elders": "ELDERS"}
 TOKEN_NAMES = ("META_TOKEN", "META_SYSTEM_USER_TOKEN", "SYSTEM_USER_TOKEN", "META_ACCESS_TOKEN")
 
 
@@ -30,7 +31,9 @@ class MetaError(RuntimeError):
 def ids(channel):
     p = META_PREFIX.get(channel, channel.upper())
     token = os.environ.get(f"{p}_TOKEN") or next((os.environ[n] for n in TOKEN_NAMES if os.environ.get(n)), "")
-    return os.environ.get(f"{p}_FB_ID", ""), os.environ.get(f"{p}_IG_ID", ""), token.strip()
+    def get(kind):   # accepts <PREFIX>_FB_ID or FB_ID_<PREFIX> (e.g. ELDERS_FB_ID or FB_ID_ELDERS)
+        return (os.environ.get(f"{p}_{kind}_ID") or os.environ.get(f"{kind}_ID_{p}") or "").strip()
+    return get("FB"), get("IG"), token.strip()
 
 
 def enabled(channel):

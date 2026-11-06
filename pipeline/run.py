@@ -240,7 +240,20 @@ def main(argv):
                 flow.clear_inbox(clips)
                 print(f"   -> {final}")
                 if do_upload:
-                    upload(s, ch, ep_id)
+                    # YouTube and Facebook/Instagram are independent: one failing must not block the other.
+                    try:
+                        upload(s, ch, ep_id)
+                    except Exception as e:
+                        failed = True
+                        traceback.print_exc()
+                        print(f"!! {ch} {ep_id}: YouTube upload failed (stays 'rendered', retried next import): {e}")
+                    try:
+                        if not stories(s, ch, ep_id):
+                            failed = True
+                    except Exception as e:
+                        failed = True
+                        traceback.print_exc()
+                        print(f"!! {ch} {ep_id} stories: {e}")
                 flow.write_prompts(s, ch)   # tomorrow's prompts are ready straight away
             except Exception as e:
                 failed = True

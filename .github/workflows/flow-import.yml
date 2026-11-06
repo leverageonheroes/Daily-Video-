@@ -38,6 +38,13 @@ jobs:
         id: run
         env:
           YT_TOKEN_ELDERS: ${{ secrets.YT_TOKEN_ELDERS }}
+          META_TOKEN: ${{ secrets.META_TOKEN }}
+          META_TOKEN_FACEBOOK_INSTAGRAM: ${{ secrets.META_TOKEN_FACEBOOK_INSTAGRAM }}
+          FACEBOOK_INSTAGRAM_PAGE_IDS: ${{ secrets.FACEBOOK_INSTAGRAM_PAGE_IDS }}
+          FB_ID_ELDERS: ${{ vars.FB_ID_ELDERS || secrets.FB_ID_ELDERS }}
+          IG_ID_ELDERS: ${{ vars.IG_ID_ELDERS || secrets.IG_ID_ELDERS }}
+          ELDERS_FB_ID: ${{ vars.ELDERS_FB_ID || secrets.ELDERS_FB_ID }}
+          ELDERS_IG_ID: ${{ vars.ELDERS_IG_ID || secrets.ELDERS_IG_ID }}
           REVIEW_HOURS: ${{ vars.REVIEW_HOURS || '10' }}
           YT_UPLOAD: ${{ vars.YT_UPLOAD || '1' }}
           STORE_RELEASES: "1"
