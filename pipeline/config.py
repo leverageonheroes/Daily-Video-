@@ -19,14 +19,13 @@ def _load_dotenv():
 def _expand_bundles():
     """A secret may hold a whole KEY=VALUE block (e.g. META_TOKEN_FACEBOOK_INSTAGRAM with the token and all
     page ids). Unpack it so each key works as if it were its own secret; real individual values win."""
-    for name in ("META_TOKEN_FACEBOOK_INSTAGRAM", "META_BUNDLE"):
+    import re
+    for name in ("META_TOKEN_FACEBOOK_INSTAGRAM", "FACEBOOK_INSTAGRAM_PAGE_IDS", "META_BUNDLE"):
         raw = os.environ.get(name, "").strip()
-        if "=" not in raw:
-            continue
-        for item in raw.split():
-            k, _, v = item.partition("=")
-            if k and v and not os.environ.get(k):
-                os.environ[k] = v.strip('"').strip("'")
+        # accepts KEY=VALUE or KEY: VALUE, separated by newlines, spaces, commas or semicolons
+        for k, v in re.findall(r"([A-Z][A-Z0-9_]*)\s*[=:]\s*['\"]?([^\s,;'\"]+)", raw):
+            if not os.environ.get(k):
+                os.environ[k] = v
 
 
 _load_dotenv()

@@ -7,6 +7,7 @@ Needs the `gh` CLI with GH_TOKEN (GitHub Actions and Codespaces provide both).
 import os
 import shutil
 import subprocess
+import time
 from pathlib import Path
 
 from . import config
@@ -19,22 +20,86 @@ def _tag(channel):
 
 
 def _gh(*args, check=True):
-    return subprocess.run(["gh", *args], capture_output=True, text=True, check=check)
+    r = subprocess.run(["gh", *args], capture_output=True, text=True)
+    if check and r.returncode != 0:
+        raise RuntimeError(f"gh {' '.join(args[:3])} failed: {(r.stderr or r.stdout).strip()[:300]}")
+    return r
+
+
+def _ensure_release(tag, channel):
+    if _gh("release", "view", tag, check=False).returncode == 0:
+        return
+    r = _gh("release", "create", tag, "--title", f"{channel} episodes",
+            "--notes", "Rendered episodes kept for monthly compilations. Managed by the pipeline.", check=False)
+    if r.returncode != 0 and _gh("release", "view", tag, check=False).returncode != 0:
+        raise RuntimeError(f"could not create release {tag}: {(r.stderr or r.stdout).strip()[:300]}")
+
+
+def _upload(tag, channel, files):
+    _ensure_release(tag, channel)
+    for attempt in range(3):
+        r = _gh("release", "upload", tag, *map(str, files), "--clobber", check=False)
+        if r.returncode == 0:
+            return
+        time.sleep(5 * (attempt + 1))
+    raise RuntimeError(f"upload to release {tag} failed: {(r.stderr or r.stdout).strip()[:300]}")
 
 
 def save_episode(channel: str, ep_id: str, clean_mp4: Path):
     if not ENABLED:
         return False
     tag = _tag(channel)
-    if _gh("release", "view", tag, check=False).returncode != 0:
-        _gh("release", "create", tag, "--title", f"{channel} episodes",
-            "--notes", "Rendered episodes kept for monthly compilations. Managed by the pipeline.")
     asset = clean_mp4.parent / f"{ep_id}.mp4"
     shutil.copy(clean_mp4, asset)
-    _gh("release", "upload", tag, str(asset), "--clobber")
-    asset.unlink()
+    try:
+        _upload(tag, channel, [asset])
+    finally:
+        asset.unlink()
     print(f"   stored {ep_id} in release {tag}")
     return True
+
+
+def save_final(channel: str, ep_id: str, workdir: Path):
+    """Keep the upload-ready final.mp4 + metadata.json so a failed upload can be retried on a later
+    (fresh) runner without paying to render again. Removed from the release once uploaded."""
+    if not ENABLED:
+        return False
+    files = []
+    for name in ("final.mp4", "metadata.json"):
+        dst = workdir / f"{ep_id}.{name}"
+        shutil.copy(workdir / name, dst)
+        files.append(dst)
+    try:
+        _upload(_tag(channel), channel, files)
+    finally:
+        for f in files:
+            f.unlink()
+    return True
+
+
+def fetch_final(channel: str, ep_id: str, workdir: Path) -> bool:
+    """Restore final.mp4 + metadata.json into workdir from the release. True if both are there."""
+    if (workdir / "final.mp4").exists() and (workdir / "metadata.json").exists():
+        return True
+    if not ENABLED:
+        return False
+    workdir.mkdir(parents=True, exist_ok=True)
+    for name in ("final.mp4", "metadata.json"):
+        r = _gh("release", "download", _tag(channel), "--pattern", f"{ep_id}.{name}", "--dir", str(workdir),
+                "--clobber", check=False)
+        got = workdir / f"{ep_id}.{name}"
+        if r.returncode != 0 or not got.exists():
+            return False
+        got.replace(workdir / name)
+    return True
+
+
+def drop_final(channel: str, ep_id: str):
+    """Delete the stored final.mp4 + metadata.json once the episode is uploaded (clean copy stays)."""
+    if not ENABLED:
+        return
+    for name in ("final.mp4", "metadata.json"):
+        _gh("release", "delete-asset", _tag(channel), f"{ep_id}.{name}", "--yes", check=False)
 
 
 def fetch_episode(channel: str, ep_id: str, dest: Path) -> Path:

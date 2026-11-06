@@ -118,9 +118,14 @@ def daily(s, channels):
         except Exception as e:
             print(f"   (sync-youtube skipped: {e})")
     for ch in channels:
-        # 1) finish anything rendered but not uploaded (e.g. an upload failed yesterday)
+        # 1) finish anything rendered but not uploaded (e.g. an upload failed yesterday).
+        #    Runners are ephemeral, so the files are restored from the GitHub Release (no paid re-render).
         pending = state.next_episode(s, ch, wanted=("rendered",), max_attempts=99) if do_upload else None
-        ep_id = pending or state.next_episode(s, ch, max_attempts=config.MAX_ATTEMPTS)
+        if pending and not storage.fetch_final(ch, pending, workdir(ch, pending)):
+            print(f"   {ch}: {pending} was rendered earlier but its files are gone -> rendering again")
+            ep_id, pending = pending, None
+        else:
+            ep_id = pending or state.next_episode(s, ch, max_attempts=config.MAX_ATTEMPTS)
         if not ep_id:
             print(f"!! {ch}: no scripts left. Write the next batch (see CLAUDE.md).")
             continue
@@ -134,16 +139,33 @@ def daily(s, channels):
                 state.save(s)
                 render(s, ch, ep_id)
                 spent += cost
-            if do_upload:
-                upload(s, ch, ep_id)
-                if not stories(s, ch, ep_id):
-                    failures += 1
+                if do_upload:
+                    try:
+                        storage.save_final(ch, ep_id, workdir(ch, ep_id))
+                    except Exception as e:
+                        print(f"   (could not keep {ep_id} for an upload retry: {e})")
         except Exception as e:
             failures += 1
             traceback.print_exc()
             if s["channels"][ch]["episodes"][ep_id]["status"] != "rendered":
                 state.mark(s, ch, ep_id, "failed", str(e)[:300])
             state.save(s)
+            continue
+        if do_upload:
+            # YouTube and Facebook/Instagram are independent: one failing must not block the other.
+            try:
+                upload(s, ch, ep_id)
+                storage.drop_final(ch, ep_id)
+            except Exception:
+                failures += 1
+                print(f"!! {ch} {ep_id}: YouTube upload failed (stays 'rendered', retried next run)")
+                traceback.print_exc()
+            try:
+                if not stories(s, ch, ep_id):
+                    failures += 1
+            except Exception:
+                failures += 1
+                traceback.print_exc()
         if state.buffer_low(s, ch):
             print(f"!! {ch}: script buffer low. Write the next batch (see CLAUDE.md).")
     print(f"\nDone. Estimated spend this run: ${spent:.2f}")

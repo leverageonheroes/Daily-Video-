@@ -51,6 +51,7 @@ jobs:
           REVIEW_HOURS: ${{ vars.REVIEW_HOURS || '10' }}
           META_TOKEN: ${{ secrets.META_TOKEN }}
           META_TOKEN_FACEBOOK_INSTAGRAM: ${{ secrets.META_TOKEN_FACEBOOK_INSTAGRAM }}
+          FACEBOOK_INSTAGRAM_PAGE_IDS: ${{ secrets.FACEBOOK_INSTAGRAM_PAGE_IDS }}
           FLAT_4B_FB_ID: ${{ vars.FLAT_4B_FB_ID || secrets.FLAT_4B_FB_ID }}
           FLAT_4B_IG_ID: ${{ vars.FLAT_4B_IG_ID || secrets.FLAT_4B_IG_ID }}
           FRIDGE_HEARTS_FB_ID: ${{ vars.FRIDGE_HEARTS_FB_ID || secrets.FRIDGE_HEARTS_FB_ID }}
