@@ -6,6 +6,6 @@ python -m pipeline.run check
 git push
 URL=https://github.com/leverageonheroes/Daily-Video-/actions/workflows
 for wf in flow-prompts.yml daily.yml; do   # Elders prompts, then channels 1-3 render + upload (+ FB/IG Stories)
-  gh workflow run "$wf" 2>/dev/null && echo "started $wf" \
+  env -u GITHUB_TOKEN gh workflow run "$wf" 2>/dev/null && echo "started $wf" \
     || echo "could not start $wf from here (Codespace token) -> open $URL/$wf and click 'Run workflow'"
 done
