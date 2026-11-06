@@ -26,6 +26,7 @@ Channel 3 is **MADE FOR KIDS** (ages 2–7): `made_for_kids: true` in its channe
    the GitHub Release `episodes-<channel>`; `python -m pipeline.run weekly` (Sundays) compiles a channel once its
    episodes after `last_compiled_weekly` reach 8.5 min; `monthly` (1st) compiles everything after `last_compiled`.
    Both make long 16:9 videos with chapters; toggles live in channel.json `compilations`.
+   Every finished Short + a TikTok caption is also kept in Release `tiktok-<channel>` for manual TikTok posting (SETUP.md §12).
 
 ## File layout
 

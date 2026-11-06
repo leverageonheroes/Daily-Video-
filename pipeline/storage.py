@@ -59,6 +59,38 @@ def save_episode(channel: str, ep_id: str, clean_mp4: Path):
     return True
 
 
+TIKTOK_NOTES = ("Videos for manual TikTok posting. Each episode: <ID>.mp4 (upload this) + <ID>.txt (paste as the "
+                "caption). When posting, switch ON 'AI-generated content' (More options). Managed by the pipeline.")
+
+
+def tiktok_caption(episode: dict) -> str:
+    """Paste-ready TikTok caption: title without #shorts + TikTok-style hashtags (max 5, under 2200 chars)."""
+    import re
+    title = re.sub(r"\s*#shorts\b", "", episode["title"], flags=re.I).strip()
+    tags = ["#" + re.sub(r"\W", "", t).lower() for t in episode.get("tags", [])[:4]]
+    tags = [t for t in dict.fromkeys(tags) if len(t) > 1] + ["#fyp"]
+    return f"{title}\n\n{episode.get('description', '').strip()}\n\n{' '.join(tags)}\n"[:2200]
+
+
+def save_tiktok(channel: str, ep_id: str, video: Path, episode: dict):
+    """Keep the upload-ready video + caption permanently in release `tiktok-<channel>` for manual posting."""
+    if not ENABLED:
+        return False
+    tag = f"tiktok-{channel}"
+    if _gh("release", "view", tag, check=False).returncode != 0:
+        _gh("release", "create", tag, "--title", f"TikTok - {channel}", "--notes", TIKTOK_NOTES, check=False)
+    mp4, txt = video.parent / f"{ep_id}.mp4", video.parent / f"{ep_id}.txt"
+    shutil.copy(video, mp4)
+    txt.write_text(tiktok_caption(episode), encoding="utf-8")
+    try:
+        _upload(tag, channel, [mp4, txt])
+    finally:
+        mp4.unlink(missing_ok=True)
+        txt.unlink(missing_ok=True)
+    print(f"   stored {ep_id} for TikTok in release {tag}")
+    return True
+
+
 def save_final(channel: str, ep_id: str, workdir: Path):
     """Keep the upload-ready final.mp4 + metadata.json so a failed upload can be retried on a later
     (fresh) runner without paying to render again. Removed from the release once uploaded."""

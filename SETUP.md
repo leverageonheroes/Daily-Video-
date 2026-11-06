@@ -164,3 +164,15 @@ To switch model, set `VIDEO_I2V` (and `PRICE_PER_VIDEO_SECOND`) in `.env` and as
    - The Short is assembled and scheduled automatically; the issue closes with the YouTube link.
 6. If a clip comes out wrong (bad face, wrong words), just regenerate it in Flow before uploading.
 Note: free Flow clips carry a visible "Made with Veo" watermark. Don't crop it out.
+
+## 12. TikTok (manual posting)
+
+TikTok's posting API needs an app review, so TikTok is posted by hand. The pipeline keeps every finished video
+(with hook text and captions) plus a paste-ready caption, forever, in one GitHub Release per channel:
+`tiktok-flat4b`, `tiktok-coldhearts`, `tiktok-drizzlepudge`, `tiktok-elders`
+(github.com/leverageonheroes/Daily-Video-/releases).
+
+Daily, on your phone: open the release → tap `<ID>.mp4` to download → open `<ID>.txt` and copy the caption →
+TikTok app → + → Upload → paste caption → **More options → switch ON "AI-generated content"** → Post.
+Leave the "Made with Veo" watermark on Elders clips. Drizzle & Pudge is made for under-7s and TikTok is 13+,
+so expect it to be restricted there.

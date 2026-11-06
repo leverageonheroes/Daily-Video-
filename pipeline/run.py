@@ -41,8 +41,16 @@ def render(s, ch, ep_id):
         storage.save_episode(ch, ep_id, wd / "clean.mp4")   # kept for the weekly/monthly compilations
     except Exception as e:
         print(f"   (could not store {ep_id} in GitHub Releases: {e})")
+    keep_for_tiktok(ch, ep_id, ep)
     print(f"   -> {final}")
     return final
+
+
+def keep_for_tiktok(ch, ep_id, ep):
+    try:
+        storage.save_tiktok(ch, ep_id, workdir(ch, ep_id) / "final.mp4", ep)
+    except Exception as e:
+        print(f"   (could not store {ep_id} for TikTok: {e})")
 
 
 def upload(s, ch, ep_id):
@@ -237,6 +245,7 @@ def main(argv):
                     storage.save_episode(ch, ep_id, workdir(ch, ep_id) / "clean.mp4")
                 except Exception as e:
                     print(f"   (could not store {ep_id} in GitHub Releases: {e})")
+                keep_for_tiktok(ch, ep_id, state.get_episode(ch, ep_id))
                 flow.clear_inbox(clips)
                 print(f"   -> {final}")
                 if do_upload:
