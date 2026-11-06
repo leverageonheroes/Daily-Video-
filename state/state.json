@@ -600,7 +600,162 @@
         }
       },
       "last_scripted": "DP-030"
+    },
+    "elders": {
+      "episodes": {
+        "ELD-001": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "ELD-002": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "ELD-003": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "ELD-004": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "ELD-005": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "ELD-006": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "ELD-007": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "ELD-008": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "ELD-009": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "ELD-010": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "ELD-011": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "ELD-012": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "ELD-013": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "ELD-014": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "ELD-015": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "ELD-016": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "ELD-017": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "ELD-018": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "ELD-019": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "ELD-020": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "ELD-021": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "ELD-022": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "ELD-023": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "ELD-024": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "ELD-025": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "ELD-026": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "ELD-027": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "ELD-028": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "ELD-029": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "ELD-030": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        }
+      },
+      "last_scripted": "ELD-030"
     }
   },
-  "updated": "2026-11-06T14:38:50+00:00"
+  "updated": "2026-11-06T15:18:59+00:00"
 }

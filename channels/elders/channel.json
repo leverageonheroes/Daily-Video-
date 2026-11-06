@@ -1,0 +1,295 @@
+{
+  "channel_id": "elders",
+  "show_title": "Ask The Elders",
+  "tagline": "Life lessons from people who've lived it. One theme, five voices, 40 seconds.",
+  "audience": "general (16+), NOT made for kids",
+  "format": "One theme per Short. Five different elders (70-95), one hard-earned lesson each, 8 s per clip, spoken to camera.",
+  "source": "flow",
+  "episode_id_prefix": "ELD",
+  "target_seconds": [
+    36,
+    44
+  ],
+  "max_seconds": 90,
+  "style_prompt": "Vertical 9:16, hyper-realistic documentary portrait, shot on a 50mm lens, shallow depth of field, natural skin texture with real wrinkles and pores, soft natural light, cinematic colour grade",
+  "audio_prompt": "No music. No subtitles, no captions, no text on screen.",
+  "negative_prompt": "text, subtitles, watermarks added by us, logos, celebrities, real identifiable people, uniforms of real organisations",
+  "characters": {
+    "e01": {
+      "name": "Elder 01",
+      "age": 84,
+      "ref_prompt": "an 84-year-old white British farmer, flat cap, tweed jacket, grey stubble, deep laugh lines",
+      "home_location": "farm_fence",
+      "voice": "a gentle Yorkshire accent",
+      "tts_voice_id": ""
+    },
+    "e02": {
+      "name": "Elder 02",
+      "age": 79,
+      "ref_prompt": "a 79-year-old Nigerian grandmother, colourful ankara headwrap and matching dress, warm round face",
+      "home_location": "veranda",
+      "voice": "a warm Nigerian accent",
+      "tts_voice_id": ""
+    },
+    "e03": {
+      "name": "Elder 03",
+      "age": 88,
+      "ref_prompt": "an 88-year-old Black American man, neat silver beard, brown cardigan, reading glasses on a chain",
+      "home_location": "porch",
+      "voice": "a slow Southern American drawl",
+      "tts_voice_id": ""
+    },
+    "e04": {
+      "name": "Elder 04",
+      "age": 91,
+      "ref_prompt": "a 91-year-old Irish woman, short white curls, floral blouse, gardening gloves",
+      "home_location": "garden",
+      "voice": "a soft Irish accent",
+      "tts_voice_id": ""
+    },
+    "e05": {
+      "name": "Elder 05",
+      "age": 82,
+      "ref_prompt": "an 82-year-old Indian man, white kurta, thin wire glasses, grey moustache",
+      "home_location": "city_balcony",
+      "voice": "a gentle Indian accent",
+      "tts_voice_id": ""
+    },
+    "e06": {
+      "name": "Elder 06",
+      "age": 86,
+      "ref_prompt": "an 86-year-old Jamaican woman, silver locs tied up, bright yellow blouse, gold hoop earrings",
+      "home_location": "kitchen",
+      "voice": "a warm Jamaican accent",
+      "tts_voice_id": ""
+    },
+    "e07": {
+      "name": "Elder 07",
+      "age": 77,
+      "ref_prompt": "a 77-year-old Scottish fisherman, full white beard, cream wool fisherman's jumper",
+      "home_location": "fishing_dock",
+      "voice": "a Scottish accent",
+      "tts_voice_id": ""
+    },
+    "e08": {
+      "name": "Elder 08",
+      "age": 93,
+      "ref_prompt": "a 93-year-old Japanese woman, silver hair in a neat bun, simple grey cardigan",
+      "home_location": "tea_house",
+      "voice": "soft Japanese-accented English",
+      "tts_voice_id": ""
+    },
+    "e09": {
+      "name": "Elder 09",
+      "age": 80,
+      "ref_prompt": "an 80-year-old Italian craftsman, white hair swept back, waistcoat, rolled-up shirt sleeves",
+      "home_location": "workshop",
+      "voice": "an Italian accent",
+      "tts_voice_id": ""
+    },
+    "e10": {
+      "name": "Elder 10",
+      "age": 85,
+      "ref_prompt": "an 85-year-old white American woman, silver bob, denim shirt, turquoise necklace",
+      "home_location": "diner",
+      "voice": "a Midwestern American accent",
+      "tts_voice_id": ""
+    },
+    "e11": {
+      "name": "Elder 11",
+      "age": 89,
+      "ref_prompt": "an 89-year-old Ghanaian man, short white hair, smock with kente trim",
+      "home_location": "market",
+      "voice": "a Ghanaian accent",
+      "tts_voice_id": ""
+    },
+    "e12": {
+      "name": "Elder 12",
+      "age": 78,
+      "ref_prompt": "a 78-year-old Chinese woman, short grey hair, jade bracelet, quilted jacket",
+      "home_location": "park_bench",
+      "voice": "gentle Chinese-accented English",
+      "tts_voice_id": ""
+    },
+    "e13": {
+      "name": "Elder 13",
+      "age": 83,
+      "ref_prompt": "an 83-year-old Welsh man, bald with white hair at the sides, knitted cardigan",
+      "home_location": "allotment",
+      "voice": "a Welsh accent",
+      "tts_voice_id": ""
+    },
+    "e14": {
+      "name": "Elder 14",
+      "age": 90,
+      "ref_prompt": "a 90-year-old Indian woman, cream saree, long silver braid",
+      "home_location": "living_room",
+      "voice": "an Indian accent",
+      "tts_voice_id": ""
+    },
+    "e15": {
+      "name": "Elder 15",
+      "age": 81,
+      "ref_prompt": "an 81-year-old Mexican man, straw hat, white moustache, checked shirt",
+      "home_location": "beach",
+      "voice": "a Mexican accent",
+      "tts_voice_id": ""
+    },
+    "e16": {
+      "name": "Elder 16",
+      "age": 87,
+      "ref_prompt": "an 87-year-old elegant English woman, pearl necklace, navy cardigan, silver hair set in waves",
+      "home_location": "piano_room",
+      "voice": "a refined English accent",
+      "tts_voice_id": ""
+    },
+    "e17": {
+      "name": "Elder 17",
+      "age": 92,
+      "ref_prompt": "a 92-year-old Black British Caribbean gentleman, trilby hat, smart grey suit jacket",
+      "home_location": "barbershop",
+      "voice": "a London Caribbean accent",
+      "tts_voice_id": ""
+    },
+    "e18": {
+      "name": "Elder 18",
+      "age": 76,
+      "ref_prompt": "a 76-year-old Polish woman, patterned headscarf, knitted shawl",
+      "home_location": "window_rain",
+      "voice": "a Polish accent",
+      "tts_voice_id": ""
+    },
+    "e19": {
+      "name": "Elder 19",
+      "age": 84,
+      "ref_prompt": "an 84-year-old Greek man, white curly hair, white linen shirt, worry beads in hand",
+      "home_location": "harbour",
+      "voice": "a Greek accent",
+      "tts_voice_id": ""
+    },
+    "e20": {
+      "name": "Elder 20",
+      "age": 80,
+      "ref_prompt": "an 80-year-old Filipino woman, short black-and-grey hair, floral dress",
+      "home_location": "veranda",
+      "voice": "a Filipino accent",
+      "tts_voice_id": ""
+    },
+    "e21": {
+      "name": "Elder 21",
+      "age": 95,
+      "ref_prompt": "a 95-year-old thin white English gentleman, tweed waistcoat, pocket watch chain",
+      "home_location": "library",
+      "voice": "a soft upper-class English accent",
+      "tts_voice_id": ""
+    },
+    "e22": {
+      "name": "Elder 22",
+      "age": 82,
+      "ref_prompt": "an 82-year-old Kenyan woman, short grey afro, beaded necklace, knitted shawl",
+      "home_location": "garden",
+      "voice": "a Kenyan accent",
+      "tts_voice_id": ""
+    },
+    "e23": {
+      "name": "Elder 23",
+      "age": 86,
+      "ref_prompt": "an 86-year-old Pakistani man, neat white beard, grey waistcoat over a shalwar kameez",
+      "home_location": "city_balcony",
+      "voice": "a Pakistani accent",
+      "tts_voice_id": ""
+    },
+    "e24": {
+      "name": "Elder 24",
+      "age": 79,
+      "ref_prompt": "a 79-year-old African American woman, silver twist-out hair, silk scarf",
+      "home_location": "porch",
+      "voice": "a warm Southern American accent",
+      "tts_voice_id": ""
+    },
+    "e25": {
+      "name": "Elder 25",
+      "age": 88,
+      "ref_prompt": "an 88-year-old Irish man, tweed flat cap, worn wool coat",
+      "home_location": "window_rain",
+      "voice": "an Irish accent",
+      "tts_voice_id": ""
+    }
+  },
+  "locations": {
+    "farm_fence": "old wooden fence at the edge of a green field, big sky at golden hour, cattle far in the soft-focus background",
+    "veranda": "shaded veranda of a family house with a mango tree, warm tropical afternoon light, patterned cushions",
+    "porch": "wooden front porch of a weathered white house at golden hour, rocking chair, porch swing, fields behind",
+    "garden": "lush back garden with roses and vegetable beds, late afternoon sun, watering can nearby",
+    "city_balcony": "small apartment balcony crowded with potted plants overlooking a city at dusk, warm window light behind",
+    "kitchen": "warm cluttered home kitchen, morning light through the window, steaming kettle, old patterned tiles",
+    "fishing_dock": "wooden fishing jetty at dawn, mist drifting over a calm loch, small rowing boat tied up",
+    "tea_house": "small traditional tea house with low wooden tables, paper screens, steam rising from a clay teapot",
+    "workshop": "woodworking shed with hand tools hanging on the wall, sawdust floating in a warm lamp beam",
+    "diner": "old roadside diner booth by the window, mug of coffee, soft neon blur behind",
+    "market": "busy outdoor fruit and vegetable market stall, colourful produce, shoppers softly blurred behind",
+    "park_bench": "park bench under golden autumn trees, leaves drifting down, soft afternoon light",
+    "allotment": "allotment plot with a small green shed, cabbages and runner beans, overcast English sky",
+    "living_room": "cosy living room armchair, knitted blanket, framed family photos on the wall, warm lamp light",
+    "beach": "seaside promenade at sunset, gentle waves behind, wind moving the hair slightly",
+    "piano_room": "elegant sitting room with an upright piano covered in family photographs, lamp light",
+    "barbershop": "old-fashioned barbershop with leather chairs and long mirrors, warm tungsten light",
+    "window_rain": "armchair beside a large window with rain running down the glass, soft grey light, cup of tea on the sill",
+    "harbour": "small wooden fishing boat moored in a sunny Mediterranean harbour, nets, white houses behind",
+    "library": "quiet library corner with tall wooden bookshelves, green reading lamp, dust floating in the light"
+  },
+  "themes": [
+    "money",
+    "love",
+    "regret",
+    "work",
+    "health",
+    "friendship",
+    "family",
+    "kindness",
+    "peace",
+    "people",
+    "aging",
+    "meaning"
+  ],
+  "content_rules": [
+    "Characters are AI-generated; never name them, never claim they are real people or real interviews.",
+    "Universal life lessons only. No specific investments, products, medical treatments, legal advice or politics.",
+    "Line 1 always states the elder's age and promises the theme. Line 5 is the emotional closer.",
+    "Each line <= 18 words so Veo can say it naturally in 8 s.",
+    "No famous quotes attributed to anyone; write original lines."
+  ],
+  "music_moods": [
+    "soft piano",
+    "warm acoustic guitar",
+    "gentle strings",
+    "ambient pads"
+  ],
+  "made_for_kids": false,
+  "youtube_category": "22",
+  "nonverbal": false,
+  "ai_disclosure": "The people in this video are AI-generated characters (Google Veo). The lessons are real-world wisdom.",
+  "overlays": {
+    "hook": true,
+    "captions": true
+  },
+  "flow": {
+    "model": "Veo 3.1 Lite",
+    "aspect": "9:16",
+    "outputs_per_prompt": 1,
+    "clip_seconds": 8,
+    "credits_per_clip": 10,
+    "daily_free_credits": 50
+  },
+  "compilation_title": "{show} | {label} - {n} Life Lessons Back to Back",
+  "compilation_tags": [
+    "life lessons",
+    "elders",
+    "wisdom",
+    "advice"
+  ],
+  "compilations": {
+    "weekly": true,
+    "monthly": true
+  }
+}

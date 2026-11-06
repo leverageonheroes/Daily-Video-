@@ -1,0 +1,70 @@
+name: Flow import (Ask The Elders)
+
+# Runs whenever you upload a clip to inbox/<channel>/. When all 5 clips are there it assembles the Short
+# (order, captions, hook, music, loudness), uploads it to YouTube and empties the inbox.
+on:
+  push:
+    paths:
+      - "inbox/**/*.mp4"
+      - "inbox/**/*.MP4"
+      - "inbox/**/*.mov"
+      - "inbox/**/*.webm"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: daily-shorts        # shares the queue with the daily job so state.json never conflicts
+  cancel-in-progress: false
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 50       # needed to read the order clips were uploaded in
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Install ffmpeg and fonts
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg fonts-dejavu-core
+      - run: pip install -r requirements.txt
+      - name: Assemble and upload
+        id: run
+        env:
+          YT_TOKEN_ELDERS: ${{ secrets.YT_TOKEN_ELDERS }}
+          REVIEW_HOURS: ${{ vars.REVIEW_HOURS || '10' }}
+          YT_UPLOAD: ${{ vars.YT_UPLOAD || '1' }}
+          STORE_RELEASES: "1"
+          GH_TOKEN: ${{ github.token }}
+        run: python -m pipeline.run flow-import | tee import.log
+      - name: Save progress and empty the inbox
+        if: always()
+        run: |
+          git config user.name "shorts-bot"
+          git config user.email "shorts-bot@users.noreply.github.com"
+          git add -A inbox state
+          if ! git diff --cached --quiet; then
+            git commit -m "flow: import $(date -u +%F)"
+            git pull --rebase
+            git push
+          fi
+      - name: Report on today's issue
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          n=$(gh issue list --state open --label flow-clips --json number -q '.[0].number')
+          [ -n "$n" ] || exit 0
+          if grep -q "youtu.be" import.log; then
+            gh issue close "$n" --comment "Done: $(grep -o 'https://youtu.be/[^ ]*.*' import.log | head -1)"
+          elif grep -q "!!\|Traceback\|broken" import.log; then
+            gh issue comment "$n" --body "Problem assembling the clips - open the latest 'Flow import' run in Actions. $(grep '!!' import.log | head -3)"
+          elif grep -q "\-> " import.log; then
+            gh issue close "$n" --comment "Assembled (YouTube upload is switched off)."
+          fi

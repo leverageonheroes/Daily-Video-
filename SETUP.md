@@ -148,3 +148,18 @@ The daily job opens a GitHub issue "Write next script batch" when fewer than 7 s
 
 Defaults (cheapest tested): LTX API `ltx-2-3-fast` at 720p ($0.03/s) for video, fal `ltx-2-19b/distilled` (~$0.02/s) as the video fallback, `flux-2/flash/edit` (~$0.015) for keyframes, `nano-banana` once per character for reference images.
 To switch model, set `VIDEO_I2V` (and `PRICE_PER_VIDEO_SECOND`) in `.env` and as GitHub Actions variables. Prices change, so check fal.ai model pages occasionally.
+
+## 11. Ask The Elders (free Google Flow channel)
+
+1. Create the YouTube channel (name **Ask The Elders**, handle e.g. @AskTheEldersTV), category People & Blogs.
+2. Connect it: `python tools/auth_youtube.py elders`, then add the token as the GitHub secret **YT_TOKEN_ELDERS**.
+3. If you set a repository variable `CHANNELS`, add `elders` to it (weekly/monthly compilations).
+4. Actions tab → **Flow prompts (Ask The Elders)** → Run workflow. An issue with 5 prompts appears.
+5. Daily, on your phone (about 5 minutes, before 14:00 UK time):
+   - Open labs.google/flow → New project → model **Veo 3.1 Lite**, aspect **9:16**, outputs **1**.
+   - Paste prompt 1 → generate → download. Repeat for 2–5 (5 × 10 credits = your free 50).
+   - Rename the files 1.mp4 … 5.mp4 if you can (or upload them one at a time in order).
+   - github.com → your repo → `inbox/elders` → Add file → Upload files → Commit.
+   - The Short is assembled and scheduled automatically; the issue closes with the YouTube link.
+6. If a clip comes out wrong (bad face, wrong words), just regenerate it in Flow before uploading.
+Note: free Flow clips carry a visible "Made with Veo" watermark. Don't crop it out.

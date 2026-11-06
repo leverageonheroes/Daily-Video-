@@ -1,0 +1,55 @@
+name: Flow prompts (Ask The Elders)
+
+# Every morning: post the next episode's 5 Google Flow prompts as a GitHub issue (you get a phone notification).
+on:
+  schedule:
+    - cron: "41 5 * * *"      # 05:41 UTC, well before the free-tier pause (~14:00-17:00 UTC)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: daily-shorts
+  cancel-in-progress: false
+
+jobs:
+  prompts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Write prompts
+        run: python -m pipeline.run flow-prompts
+      - name: Post as issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh label create flow-clips --color 8B5CF6 --description "Daily Google Flow prompts" 2>/dev/null || true
+          for ch in $(python -c "from pipeline import flow; print(' '.join(flow.flow_channels()))"); do
+            f="inbox/$ch/PROMPTS.md"
+            [ -f "$f" ] || continue
+            title="Flow clips $(date -u +%a\ %d\ %b): $(head -1 "$f" | sed 's/^## //' | cut -c1-80)"
+            id=$(head -1 "$f" | grep -o '[A-Z]\+-[0-9]\{3\}' | head -1)
+            if [ -n "$id" ] && gh issue list --state open --label flow-clips --json title -q '.[].title' | grep -qF "$id"; then
+              echo "Issue for this episode already open - not posting again"; continue
+            fi
+            for n in $(gh issue list --state open --label flow-clips --json number -q '.[].number'); do
+              gh issue close "$n" --comment "Superseded by today's prompts." || true
+            done
+            gh issue create --title "$title" --label flow-clips --body-file "$f"
+          done
+      - name: Save prompts file
+        run: |
+          git config user.name "shorts-bot"
+          git config user.email "shorts-bot@users.noreply.github.com"
+          git add inbox state
+          if ! git diff --cached --quiet; then
+            git commit -m "flow: prompts $(date -u +%F)"
+            git pull --rebase
+            git push
+          fi

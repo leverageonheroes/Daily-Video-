@@ -12,6 +12,8 @@
   python -m pipeline.run stories <ch> <id>     # post a rendered episode to Facebook + Instagram Stories
   python -m pipeline.run check                 # test YouTube, Meta, LTX and fal.ai connections (free)
   python -m pipeline.run status
+  python -m pipeline.run flow-prompts [ch]     # Google Flow channels: write today's 5 prompts to inbox/<ch>/PROMPTS.md
+  python -m pipeline.run flow-import [ch]      # Google Flow channels: once 5 clips are in inbox/<ch>/, assemble + upload
 
 Env: MOCK=1 (free test mode, no API calls), YT_UPLOAD=0 (render only), REVIEW_HOURS, DAILY_BUDGET_USD.
 """
@@ -20,7 +22,7 @@ import os
 import sys
 import traceback
 
-from . import assemble, config, generate, state, storage
+from . import assemble, config, flow, generate, state, storage
 
 
 def workdir(ch, ep_id):
@@ -118,6 +120,9 @@ def daily(s, channels):
         except Exception as e:
             print(f"   (sync-youtube skipped: {e})")
     for ch in channels:
+        if flow.is_flow(ch):
+            print(f"   {ch}: Google Flow channel - made by flow-import, skipped by daily (never paid)")
+            continue
         # 1) finish anything rendered but not uploaded (e.g. an upload failed yesterday).
         #    Runners are ephemeral, so the files are restored from the GitHub Release (no paid re-render).
         pending = state.next_episode(s, ch, wanted=("rendered",), max_attempts=99) if do_upload else None
@@ -212,6 +217,39 @@ def main(argv):
             if res:
                 out, meta, last, eps = res
                 comp.finish(s, ch, kind, out, meta, last, eps, upload=do_upload)
+    elif cmd == "flow-prompts":
+        for ch in argv[1:] or flow.flow_channels():
+            print(flow.write_prompts(s, ch))
+    elif cmd == "flow-import":
+        do_upload = os.environ.get("YT_UPLOAD", "1") == "1" and not config.MOCK
+        failed = False
+        for ch in argv[1:] or flow.flow_channels():
+            try:
+                if do_upload:   # finish an earlier import whose upload failed
+                    pending = state.next_episode(s, ch, wanted=("rendered",), max_attempts=99)
+                    if pending:
+                        upload(s, ch, pending)
+                res = flow.import_episode(s, ch)
+                if not res:
+                    continue
+                ep_id, final, clips = res
+                try:
+                    storage.save_episode(ch, ep_id, workdir(ch, ep_id) / "clean.mp4")
+                except Exception as e:
+                    print(f"   (could not store {ep_id} in GitHub Releases: {e})")
+                flow.clear_inbox(clips)
+                print(f"   -> {final}")
+                if do_upload:
+                    upload(s, ch, ep_id)
+                flow.write_prompts(s, ch)   # tomorrow's prompts are ready straight away
+            except Exception as e:
+                failed = True
+                traceback.print_exc()
+                print(f"!! {ch}: {e}")
+            state.save(s)
+        if failed:
+            state.save(s)
+            sys.exit(1)
     elif cmd == "sync-youtube":
         sync_youtube(s)
     elif cmd == "status":

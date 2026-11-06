@@ -91,9 +91,9 @@ MUSIC_VOLUME = float(env("MUSIC_VOLUME", "0.12"))
 TARGET_LUFS = env("TARGET_LUFS", "-14")
 
 # --- YouTube ---
-CHANNELS = [c.strip() for c in env("CHANNELS", "flat4b,coldhearts,drizzlepudge").split(",") if c.strip()]
+CHANNELS = [c.strip() for c in env("CHANNELS", "flat4b,coldhearts,drizzlepudge,elders").split(",") if c.strip()]
 REVIEW_HOURS = float(env("REVIEW_HOURS", "10"))   # upload private, auto-publish after N hours (0 = stay private)
-YT_CATEGORY = {"flat4b": "23", "coldhearts": "24", "drizzlepudge": "1"}  # fallback; channel.json youtube_category wins
+YT_CATEGORY = {"flat4b": "23", "coldhearts": "24", "drizzlepudge": "1", "elders": "22"}  # fallback; channel.json youtube_category wins
 AI_DISCLOSURE = "Made with AI-generated animation."
 
 OUTPUT = ROOT / ("output_mock" if MOCK else "output")
@@ -101,3 +101,4 @@ ASSETS = OUTPUT / "assets" if MOCK else ROOT / "assets"   # mock never touches r
 MUSIC = ROOT / "music"
 SECRETS = ROOT / "secrets"
 CHANNELS_DIR = ROOT / "channels"
+INBOX = (OUTPUT / "inbox") if MOCK else (ROOT / "inbox")   # Google Flow clips uploaded by hand (channels with "source": "flow")

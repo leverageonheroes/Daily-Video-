@@ -91,6 +91,17 @@ def validate_channel(ch_dir):
                 errors.append(f"{st}: {spoken} words in {dur}s is too fast")
             elif dur and spoken / dur > MAX_WPS_WARN:
                 warns.append(f"{st}: {spoken} words in {dur}s is rushed")
+        if bible.get("source") == "flow":
+            for s in ep.get("shots", []):
+                if s.get("dur") != 8:
+                    errors.append(f"{tag} shot {s.get('n')}: Google Flow clips are 8 s - dur must be 8")
+                if len(s.get("flow_prompt", "")) < 80:
+                    errors.append(f"{tag} shot {s.get('n')}: missing or too-short flow_prompt")
+                for ln in s.get("lines", []):
+                    if ln.get("t", "") not in s.get("flow_prompt", ""):
+                        errors.append(f"{tag} shot {s.get('n')}: spoken line not inside flow_prompt (captions would not match)")
+            if len(ep.get("shots", [])) > 5:
+                errors.append(f"{tag}: {len(ep['shots'])} clips - free Google Flow credits make 5 per day")
         if total > bible["max_seconds"]:
             errors.append(f"{tag}: {total}s exceeds {bible['max_seconds']}s")
         elif not lo <= total <= hi:

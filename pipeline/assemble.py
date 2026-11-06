@@ -138,7 +138,7 @@ def assemble(episode: dict, clips: list, workdir: Path, bible: dict | None = Non
 
     meta = {
         "title": episode["title"][:100],
-        "description": f"{episode['description']}\n\n{config.AI_DISCLOSURE}\n\n"
+        "description": f"{episode['description']}\n\n{(bible or {}).get('ai_disclosure', config.AI_DISCLOSURE)}\n\n"
                        + " ".join("#" + re.sub(r"\W", "", t) for t in episode["tags"][:4]) + " #shorts",
         "made_for_kids": bool((bible or {}).get("made_for_kids", False)),
         "tags": episode["tags"][:15],

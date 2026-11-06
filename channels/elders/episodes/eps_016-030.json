@@ -1,0 +1,1864 @@
+{
+ "episodes": [
+  {
+   "id": "ELD-016",
+   "number": 16,
+   "theme": "work",
+   "title": "What building a business from nothing really costs #shorts",
+   "logline": "Work: Five elders who built something share what it took, and what it cost.",
+   "hook_text": "What success really costs",
+   "description": "Five elders who built something share what it took, and what it cost. New lesson every day. Which one hit hardest? Tell us below.",
+   "tags": [
+    "entrepreneur",
+    "business advice",
+    "success",
+    "life lessons",
+    "elders",
+    "ask the elders",
+    "advice",
+    "wisdom",
+    "shorts"
+   ],
+   "music": "soft piano",
+   "shots": [
+    {
+     "n": 1,
+     "dur": 8,
+     "loc": "library",
+     "chars": [
+      "e21"
+     ],
+     "keyframe": "a 95-year-old thin white English gentleman, tweed waistcoat, pocket watch chain, looking into the lens. Setting: quiet library corner with tall wooden bookshelves, green reading lamp, dust floating in the light",
+     "action": "settles in and looks straight into the lens",
+     "camera": "slow push-in from medium to medium close-up",
+     "lines": [
+      {
+       "c": "e21",
+       "t": "I'm ninety-five. I built a business from nothing. Here's what it really costs.",
+       "tone": "warmly, with a knowing half-smile"
+      }
+     ],
+     "sfx": "deep quiet, a page turning",
+     "flow_prompt": "Vertical 9:16, hyper-realistic documentary portrait, shot on a 50mm lens, shallow depth of field, natural skin texture with real wrinkles and pores, soft natural light, cinematic colour grade. A 95-year-old thin white English gentleman, tweed waistcoat, pocket watch chain. Setting: quiet library corner with tall wooden bookshelves, green reading lamp, dust floating in the light. He settles in and looks straight into the lens. Camera: slow push-in from medium to medium close-up. He speaks warmly, with a knowing half-smile, in a soft upper-class English accent, saying: \"I'm ninety-five. I built a business from nothing. Here's what it really costs.\" Ambient sound: deep quiet, a page turning. No music. No subtitles, no captions, no text on screen."
+    },
+    {
+     "n": 2,
+     "dur": 8,
+     "loc": "farm_fence",
+     "chars": [
+      "e01"
+     ],
+     "keyframe": "an 84-year-old white British farmer, flat cap, tweed jacket, grey stubble, deep laugh lines, looking into the lens. Setting: old wooden fence at the edge of a green field, big sky at golden hour, cattle far in the soft-focus background",
+     "action": "leans slightly toward the camera",
+     "camera": "static medium close-up, subtle handheld drift",
+     "lines": [
+      {
+       "c": "e01",
+       "t": "Success came from showing up on the days I didn't want to. That's the whole secret.",
+       "tone": "calmly and firmly, like passing on a rule"
+      }
+     ],
+     "sfx": "gentle wind, distant birdsong",
+     "flow_prompt": "Vertical 9:16, hyper-realistic documentary portrait, shot on a 50mm lens, shallow depth of field, natural skin texture with real wrinkles and pores, soft natural light, cinematic colour grade. An 84-year-old white British farmer, flat cap, tweed jacket, grey stubble, deep laugh lines. Setting: old wooden fence at the edge of a green field, big sky at golden hour, cattle far in the soft-focus background. He leans slightly toward the camera. Camera: static medium close-up, subtle handheld drift. He speaks calmly and firmly, like passing on a rule, in a gentle Yorkshire accent, saying: \"Success came from showing up on the days I didn't want to. That's the whole secret.\" Ambient sound: gentle wind, distant birdsong. No music. No subtitles, no captions, no text on screen."
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "kitchen",
+     "chars": [
+      "e06"
+     ],
+     "keyframe": "an 86-year-old Jamaican woman, silver locs tied up, bright yellow blouse, gold hoop earrings, looking into the lens. Setting: warm cluttered home kitchen, morning light through the window, steaming kettle, old patterned tiles",
+     "action": "gives a small wry smile and a slight shake of the head",
+     "camera": "slow push-in on the face",
+     "lines": [
+      {
+       "c": "e06",
+       "t": "Your reputation arrives before you do. Guard it like money.",
+       "tone": "with gentle humour"
+      }
+     ],
+     "sfx": "kettle simmering, clock ticking",
+     "flow_prompt": "Vertical 9:16, hyper-realistic documentary portrait, shot on a 50mm lens, shallow depth of field, natural skin texture with real wrinkles and pores, soft natural light, cinematic colour grade. An 86-year-old Jamaican woman, silver locs tied up, bright yellow blouse, gold hoop earrings. Setting: warm cluttered home kitchen, morning light through the window, steaming kettle, old patterned tiles. She gives a small wry smile and a slight shake of the head. Camera: slow push-in on the face. She speaks with gentle humour, in a warm Jamaican accent, saying: \"Your reputation arrives before you do. Guard it like money.\" Ambient sound: kettle simmering, clock ticking. No music. No subtitles, no captions, no text on screen."
+    },
+    {
+     "n": 4,
+     "dur": 8,
+     "loc": "market",
+     "chars": [
+      "e11"
+     ],
+     "keyframe": "an 89-year-old Ghanaian man, short white hair, smock with kente trim, looking into the lens. Setting: busy outdoor fruit and vegetable market stall, colourful produce, shoppers softly blurred behind",
+     "action": "pauses, then speaks slowly",
+     "camera": "static medium shot, gentle handheld drift",
+     "lines": [
+      {
+       "c": "e11",
+       "t": "Hire people better than you, then get out of their way.",
+       "tone": "earnestly, holding eye contact"
+      }
+     ],
+     "sfx": "market chatter, distant vendor calls",
+     "flow_prompt": "Vertical 9:16, hyper-realistic documentary portrait, shot on a 50mm lens, shallow depth of field, natural skin texture with real wrinkles and pores, soft natural light, cinematic colour grade. An 89-year-old Ghanaian man, short white hair, smock with kente trim. Setting: busy outdoor fruit and vegetable market stall, colourful produce, shoppers softly blurred behind. He pauses, then speaks slowly. Camera: static medium shot, gentle handheld drift. He speaks earnestly, holding eye contact, in a Ghanaian accent, saying: \"Hire people better than you, then get out of their way.\" Ambient sound: market chatter, distant vendor calls. No music. No subtitles, no captions, no text on screen."
+    },
+    {
+     "n": 5,
+     "dur": 8,
+     "loc": "piano_room",
+     "chars": [
+      "e16"
+     ],
+     "keyframe": "an 87-year-old elegant English woman, pearl necklace, navy cardigan, silver hair set in waves, looking into the lens. Setting: elegant sitting room with an upright piano covered in family photographs, lamp light",
+     "action": "takes a breath and holds the gaze after the last word",
+     "camera": "very slow push-in to a close-up, holding on the face at the end",
+     "lines": [
+      {
+       "c": "e16",
+       "t": "And don't trade your health for wealth. You'll spend the wealth buying it back.",
+       "tone": "softly and with quiet emotion, eyes glistening"
+      }
+     ],
+     "sfx": "quiet room tone",
+     "flow_prompt": "Vertical 9:16, hyper-realistic documentary portrait, shot on a 50mm lens, shallow depth of field, natural skin texture with real wrinkles and pores, soft natural light, cinematic colour grade. An 87-year-old elegant English woman, pearl necklace, navy cardigan, silver hair set in waves. Setting: elegant sitting room with an upright piano covered in family photographs, lamp light. She takes a breath and holds the gaze after the last word. Camera: very slow push-in to a close-up, holding on the face at the end. She speaks softly and with quiet emotion, eyes glistening, in a refined English accent, saying: \"And don't trade your health for wealth. You'll spend the wealth buying it back.\" Ambient sound: quiet room tone. No music. No subtitles, no captions, no text on screen."
+    }
+   ],
+   "loop_note": "the last line lands on a held close-up; the next Short opens on a new face"
+  },
+  {
+   "id": "ELD-017",
+   "number": 17,
+   "theme": "aging",
+   "title": "What getting old actually feels like #shorts",
+   "logline": "Aging: Five elders describe what getting old really feels like from the inside.",
+   "hook_text": "What being 90 really feels like",
+   "description": "Five elders describe what getting old really feels like from the inside. New lesson every day. Which one hit hardest? Tell us below.",
+   "tags": [
+    "getting old",
+    "aging",
+    "perspective",
+    "life lessons",
+    "elders",
+    "ask the elders",
+    "advice",
+    "wisdom",
+    "shorts"
+   ],
+   "music": "warm acoustic guitar",
+   "shots": [
+    {
+     "n": 1,
+     "dur": 8,
+     "loc": "porch",
+     "chars": [
+      "e24"
+     ],
+     "keyframe": "a 79-year-old African American woman, silver twist-out hair, silk scarf, looking into the lens. Setting: wooden front porch of a weathered white house at golden hour, rocking chair, porch swing, fields behind",
+     "action": "settles in and looks straight into the lens",
+     "camera": "slow push-in from medium to medium close-up",
+     "lines": [
+      {
+       "c": "e24",
+       "t": "I'm seventy-nine. Let me tell you what getting old actually feels like.",
+       "tone": "warmly, with a knowing half-smile"
+      }
+     ],
+     "sfx": "crickets, creak of the rocking chair",
+     "flow_prompt": "Vertical 9:16, hyper-realistic documentary portrait, shot on a 50mm lens, shallow depth of field, natural skin texture with real wrinkles and pores, soft natural light, cinematic colour grade. A 79-year-old African American woman, silver twist-out hair, silk scarf. Setting: wooden front porch of a weathered white house at golden hour, rocking chair, porch swing, fields behind. She settles in and looks straight into the lens. Camera: slow push-in from medium to medium close-up. She speaks warmly, with a knowing half-smile, in a warm Southern American accent, saying: \"I'm seventy-nine. Let me tell you what getting old actually feels like.\" Ambient sound: crickets, creak of the rocking chair. No music. No subtitles, no captions, no text on screen."
+    },
+    {
+     "n": 2,
+     "dur": 8,
+     "loc": "garden",
+     "chars": [
+      "e04"
+     ],
+     "keyframe": "a 91-year-old Irish woman, short white curls, floral blouse, gardening gloves, looking into the lens. Setting: lush back garden with roses and vegetable beds, late afternoon sun, watering can nearby",
+     "action": "leans slightly toward the camera",
+     "camera": "static medium close-up, subtle handheld drift",
+     "lines": [
+      {
+       "c": "e04",
+       "t": "Inside, I still feel twenty-five. The mirror is the only one who knows.",
+       "tone": "calmly and firmly, like passing on a rule"
+      }
+     ],
+     "sfx": "birdsong, bees humming",
+     "flow_prompt": "Vertical 9:16, hyper-realistic documentary portrait, shot on a 50mm lens, shallow depth of field, natural skin texture with real wrinkles and pores, soft natural light, cinematic colour grade. A 91-year-old Irish woman, short white curls, floral blouse, gardening gloves. Setting: lush back garden with roses and vegetable beds, late afternoon sun, watering can nearby. She leans slightly toward the camera. Camera: static medium close-up, subtle handheld drift. She speaks calmly and firmly, like passing on a rule, in a soft Irish accent, saying: \"Inside, I still feel twenty-five. The mirror is the only one who knows.\" Ambient sound: birdsong, bees humming. No music. No subtitles, no captions, no text on screen."
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "workshop",
+     "chars": [
+      "e09"
+     ],
+     "keyframe": "an 80-year-old Italian craftsman, white hair swept back, waistcoat, rolled-up shirt sleeves, looking into the lens. Setting: woodworking shed with hand tools hanging on the wall, sawdust floating in a warm lamp beam",
+     "action": "gives a small wry smile and a slight shake of the head",
+     "camera": "slow push-in on the face",
+     "lines": [
+      {
+       "c": "e09",
+       "t": "You stop caring what people think. Honestly, it's the best part.",
+       "tone": "with gentle humour"
+      }
+     ],
+     "sfx": "quiet room tone, faint radio far away",
+     "flow_prompt": "Vertical 9:16, hyper-realistic documentary portrait, shot on a 50mm lens, shallow depth of field, natural skin texture with real wrinkles and pores, soft natural light, cinematic colour grade. An 80-year-old Italian craftsman, white hair swept back, waistcoat, rolled-up shirt sleeves. Setting: woodworking shed with hand tools hanging on the wall, sawdust floating in a warm lamp beam. He gives a small wry smile and a slight shake of the head. Camera: slow push-in on the face. He speaks with gentle humour, in an Italian accent, saying: \"You stop caring what people think. Honestly, it's the best part.\" Ambient sound: quiet room tone, faint radio far away. No music. No subtitles, no captions, no text on screen."
+    },
+    {
+     "n": 4,
+     "dur": 8,
+     "loc": "living_room",
+     "chars": [
+      "e14"
+     ],
+     "keyframe": "a 90-year-old Indian woman, cream saree, long silver braid, looking into the lens. Setting: cosy living room armchair, knitted blanket, framed family photos on the wall, warm lamp light",
+     "action": "pauses, then speaks slowly",
+     "camera": "static medium shot, gentle handheld drift",
+     "lines": [
+      {
+       "c": "e14",
+       "t": "You realise the small days were the big days. Tea in the morning. That's it.",
+       "tone": "earnestly, holding eye contact"
+      }
+     ],
+     "sfx": "quiet room tone, clock ticking",
+     "flow_prompt": "Vertical 9:16, hyper-realistic documentary portrait, shot on a 50mm lens, shallow depth of field, natural skin texture with real wrinkles and pores, soft natural light, cinematic colour grade. A 90-year-old Indian woman, cream saree, long silver braid. Setting: cosy living room armchair, knitted blanket, framed family photos on the wall, warm lamp light. She pauses, then speaks slowly. Camera: static medium shot, gentle handheld drift. She speaks earnestly, holding eye contact, in an Indian accent, saying: \"You realise the small days were the big days. Tea in the morning. That's it.\" Ambient sound: quiet room tone, clock ticking. No music. No subtitles, no captions, no text on screen."
+    },
+    {
+     "n": 5,
+     "dur": 8,
+     "loc": "harbour",
+     "chars": [
+      "e19"
+     ],
+     "keyframe": "an 84-year-old Greek man, white curly hair, white linen shirt, worry beads in hand, looking into the lens. Setting: small wooden fishing boat moored in a sunny Mediterranean harbour, nets, white houses behind",
+     "action": "takes a breath and holds the gaze after the last word",
+     "camera": "very slow push-in to a close-up, holding on the face at the end",
+     "lines": [
+      {
+       "c": "e19",
+       "t": "So don't fear getting old. Plenty of people never get the privilege.",
+       "tone": "softly and with quiet emotion, eyes glistening"
+      }
+     ],
+     "sfx": "gulls, water lapping",
+     "flow_prompt": "Vertical 9:16, hyper-realistic documentary portrait, shot on a 50mm lens, shallow depth of field, natural skin texture with real wrinkles and pores, soft natural light, cinematic colour grade. An 84-year-old Greek man, white curly hair, white linen shirt, worry beads in hand. Setting: small wooden fishing boat moored in a sunny Mediterranean harbour, nets, white houses behind. He takes a breath and holds the gaze after the last word. Camera: very slow push-in to a close-up, holding on the face at the end. He speaks softly and with quiet emotion, eyes glistening, in a Greek accent, saying: \"So don't fear getting old. Plenty of people never get the privilege.\" Ambient sound: gulls, water lapping. No music. No subtitles, no captions, no text on screen."
+    }
+   ],
+   "loop_note": "the last line lands on a held close-up; the next Short opens on a new face"
+  },
+  {
+   "id": "ELD-018",
+   "number": 18,
+   "theme": "kindness",
+   "title": "The kindness they still remember 60 years later #shorts",
+   "logline": "Kindness: Five elders on the small kindnesses they never forgot.",
+   "hook_text": "They never forgot this",
+   "description": "Five elders on the small kindnesses they never forgot. New lesson every day. Which one hit hardest? Tell us below.",
+   "tags": [
+    "kindness",
+    "wholesome",
+    "life lessons",
+    "elders",
+    "emotional",
+    "ask the elders",
+    "advice",
+    "wisdom",
+    "shorts"
+   ],
+   "music": "gentle strings",
+   "shots": [
+    {
+     "n": 1,
+     "dur": 8,
+     "loc": "veranda",
+     "chars": [
+      "e02"
+     ],
+     "keyframe": "a 79-year-old Nigerian grandmother, colourful ankara headwrap and matching dress, warm round face, looking into the lens. Setting: shaded veranda of a family house with a mango tree, warm tropical afternoon light, patterned cushions",
+     "action": "settles in and looks straight into the lens",
+     "camera": "slow push-in from medium to medium close-up",
+     "lines": [
+      {
+       "c": "e02",
+       "t": "I'm seventy-nine. I've forgotten most of my achievements. I remember every kindness.",
+       "tone": "warmly, with a knowing half-smile"
+      }
+     ],
+     "sfx": "cicadas, distant children playing",
+     "flow_prompt": "Vertical 9:16, hyper-realistic documentary portrait, shot on a 50mm lens, shallow depth of field, natural skin texture with real wrinkles and pores, soft natural light, cinematic colour grade. A 79-year-old Nigerian grandmother, colourful ankara headwrap and matching dress, warm round face. Setting: shaded veranda of a family house with a mango tree, warm tropical afternoon light, patterned cushions. She settles in and looks straight into the lens. Camera: slow push-in from medium to medium close-up. She speaks warmly, with a knowing half-smile, in a warm Nigerian accent, saying: \"I'm seventy-nine. I've forgotten most of my achievements. I remember every kindness.\" Ambient sound: cicadas, distant children playing. No music. No subtitles, no captions, no text on screen."
+    },
+    {
+     "n": 2,
+     "dur": 8,
+     "loc": "fishing_dock",
+     "chars": [
+      "e07"
+     ],
+     "keyframe": "a 77-year-old Scottish fisherman, full white beard, cream wool fisherman's jumper, looking into the lens. Setting: wooden fishing jetty at dawn, mist drifting over a calm loch, small rowing boat tied up",
+     "action": "leans slightly toward the camera",
+     "camera": "static medium close-up, subtle handheld drift",
+     "lines": [
+      {
+       "c": "e07",
+       "t": "A stranger paid my bus fare in nineteen sixty-two. I still think about her.",
+       "tone": "calmly and firmly, like passing on a rule"
+      }
+     ],
+     "sfx": "water lapping, a distant gull",
+     "flow_prompt": "Vertical 9:16, hyper-realistic documentary portrait, shot on a 50mm lens, shallow depth of field, natural skin texture with real wrinkles and pores, soft natural light, cinematic colour grade. A 77-year-old Scottish fisherman, full white beard, cream wool fisherman's jumper. Setting: wooden fishing jetty at dawn, mist drifting over a calm loch, small rowing boat tied up. He leans slightly toward the camera. Camera: static medium close-up, subtle handheld drift. He speaks calmly and firmly, like passing on a rule, in a Scottish accent, saying: \"A stranger paid my bus fare in nineteen sixty-two. I still think about her.\" Ambient sound: water lapping, a distant gull. No music. No subtitles, no captions, no text on screen."
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "park_bench",
+     "chars": [
+      "e12"
+     ],
+     "keyframe": "a 78-year-old Chinese woman, short grey hair, jade bracelet, quilted jacket, looking into the lens. Setting: park bench under golden autumn trees, leaves drifting down, soft afternoon light",
+     "action": "gives a small wry smile and a slight shake of the head",
+     "camera": "slow push-in on the face",
+     "lines": [
+      {
+       "c": "e12",
+       "t": "Be kind to the person serving you. You have no idea what their morning was like.",
+       "tone": "with gentle humour"
+      }
+     ],
+     "sfx": "leaves rustling, distant children",
+     "flow_prompt": "Vertical 9:16, hyper-realistic documentary portrait, shot on a 50mm lens, shallow depth of field, natural skin texture with real wrinkles and pores, soft natural light, cinematic colour grade. A 78-year-old Chinese woman, short grey hair, jade bracelet, quilted jacket. Setting: park bench under golden autumn trees, leaves drifting down, soft afternoon light. She gives a small wry smile and a slight shake of the head. Camera: slow push-in on the face. She speaks with gentle humour, in gentle Chinese-accented English, saying: \"Be kind to the person serving you. You have no idea what their morning was like.\" Ambient sound: leaves rustling, distant children. No music. No subtitles, no captions, no text on screen."
+    },
+    {
+     "n": 4,
+     "dur": 8,
+     "loc": "barbershop",
+     "chars": [
+      "e17"
+     ],
+     "keyframe": "a 92-year-old Black British Caribbean gentleman, trilby hat, smart grey suit jacket, looking into the lens. Setting: old-fashioned barbershop with leather chairs and long mirrors, warm tungsten light",
+     "action": "pauses, then speaks slowly",
+     "camera": "static medium shot, gentle handheld drift",
+     "lines": [
+      {
+       "c": "e17",
+       "t": "Say the compliment out loud. A kind thought nobody hears helps nobody.",
+       "tone": "earnestly, holding eye contact"
+      }
+     ],
+     "sfx": "soft radio, scissors snipping in the background",
+     "flow_prompt": "Vertical 9:16, hyper-realistic documentary portrait, shot on a 50mm lens, shallow depth of field, natural skin texture with real wrinkles and pores, soft natural light, cinematic colour grade. A 92-year-old Black British Caribbean gentleman, trilby hat, smart grey suit jacket. Setting: old-fashioned barbershop with leather chairs and long mirrors, warm tungsten light. He pauses, then speaks slowly. Camera: static medium shot, gentle handheld drift. He speaks earnestly, holding eye contact, in a London Caribbean accent, saying: \"Say the compliment out loud. A kind thought nobody hears helps nobody.\" Ambient sound: soft radio, scissors snipping in the background. No music. No subtitles, no captions, no text on screen."
+    },
+    {
+     "n": 5,
+     "dur": 8,
+     "loc": "garden",
+     "chars": [
+      "e22"
+     ],
+     "keyframe": "an 82-year-old Kenyan woman, short grey afro, beaded necklace, knitted shawl, looking into the lens. Setting: lush back garden with roses and vegetable beds, late afternoon sun, watering can nearby",
+     "action": "takes a breath and holds the gaze after the last word",
+     "camera": "very slow push-in to a close-up, holding on the face at the end",
+     "lines": [
+      {
+       "c": "e22",
+       "t": "Be the person someone remembers fifty years from now. It costs nothing.",
+       "tone": "softly and with quiet emotion, eyes glistening"
+      }
+     ],
+     "sfx": "birdsong, bees humming",
+     "flow_prompt": "Vertical 9:16, hyper-realistic documentary portrait, shot on a 50mm lens, shallow depth of field, natural skin texture with real wrinkles and pores, soft natural light, cinematic colour grade. An 82-year-old Kenyan woman, short grey afro, beaded necklace, knitted shawl. Setting: lush back garden with roses and vegetable beds, late afternoon sun, watering can nearby. She takes a breath and holds the gaze after the last word. Camera: very slow push-in to a close-up, holding on the face at the end. She speaks softly and with quiet emotion, eyes glistening, in a Kenyan accent, saying: \"Be the person someone remembers fifty years from now. It costs nothing.\" Ambient sound: birdsong, bees humming. No music. No subtitles, no captions, no text on screen."
+    }
+   ],
+   "loop_note": "the last line lands on a held close-up; the next Short opens on a new face"
+  },
+  {
+   "id": "ELD-019",
+   "number": 19,
+   "theme": "money",
+   "title": "The best things they ever spent money on #shorts",
+   "logline": "Money: Five elders on the purchases that were worth every penny, and the ones that weren't.",
+   "hook_text": "Best money they ever spent",
+   "description": "Five elders on the purchases that were worth every penny, and the ones that weren't. New lesson every day. Which one hit hardest? Tell us below.",
+   "tags": [
+    "spending",
+    "money advice",
+    "worth it",
+    "life lessons",
+    "elders",
+    "ask the elders",
+    "advice",
+    "wisdom",
+    "shorts"
+   ],
+   "music": "soft piano",
+   "shots": [
+    {
+     "n": 1,
+     "dur": 8,
+     "loc": "city_balcony",
+     "chars": [
+      "e05"
+     ],
+     "keyframe": "an 82-year-old Indian man, white kurta, thin wire glasses, grey moustache, looking into the lens. Setting: small apartment balcony crowded with potted plants overlooking a city at dusk, warm window light behind",
+     "action": "settles in and looks straight into the lens",
+     "camera": "slow push-in from medium to medium close-up",
+     "lines": [
+      {
+       "c": "e05",
+       "t": "I'm eighty-two. These are the best things I ever spent money on.",
+       "tone": "warmly, with a knowing half-smile"
+      }
+     ],
+     "sfx": "soft distant city traffic",
+     "flow_prompt": "Vertical 9:16, hyper-realistic documentary portrait, shot on a 50mm lens, shallow depth of field, natural skin texture with real wrinkles and pores, soft natural light, cinematic colour grade. An 82-year-old Indian man, white kurta, thin wire glasses, grey moustache. Setting: small apartment balcony crowded with potted plants overlooking a city at dusk, warm window light behind. He settles in and looks straight into the lens. Camera: slow push-in from medium to medium close-up. He speaks warmly, with a knowing half-smile, in a gentle Indian accent, saying: \"I'm eighty-two. These are the best things I ever spent money on.\" Ambient sound: soft distant city traffic. No music. No subtitles, no captions, no text on screen."
+    },
+    {
+     "n": 2,
+     "dur": 8,
+     "loc": "diner",
+     "chars": [
+      "e10"
+     ],
+     "keyframe": "an 85-year-old white American woman, silver bob, denim shirt, turquoise necklace, looking into the lens. Setting: old roadside diner booth by the window, mug of coffee, soft neon blur behind",
+     "action": "leans slightly toward the camera",
+     "camera": "static medium close-up, subtle handheld drift",
+     "lines": [
+      {
+       "c": "e10",
+       "t": "A good bed and good shoes. If you're not in one, you're in the other.",
+       "tone": "calmly and firmly, like passing on a rule"
+      }
+     ],
+     "sfx": "low diner chatter, cutlery clinks",
+     "flow_prompt": "Vertical 9:16, hyper-realistic documentary portrait, shot on a 50mm lens, shallow depth of field, natural skin texture with real wrinkles and pores, soft natural light, cinematic colour grade. An 85-year-old white American woman, silver bob, denim shirt, turquoise necklace. Setting: old roadside diner booth by the window, mug of coffee, soft neon blur behind. She leans slightly toward the camera. Camera: static medium close-up, subtle handheld drift. She speaks calmly and firmly, like passing on a rule, in a Midwestern American accent, saying: \"A good bed and good shoes. If you're not in one, you're in the other.\" Ambient sound: low diner chatter, cutlery clinks. No music. No subtitles, no captions, no text on screen."
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "beach",
+     "chars": [
+      "e15"
+     ],
+     "keyframe": "an 81-year-old Mexican man, straw hat, white moustache, checked shirt, looking into the lens. Setting: seaside promenade at sunset, gentle waves behind, wind moving the hair slightly",
+     "action": "gives a small wry smile and a slight shake of the head",
+     "camera": "slow push-in on the face",
+     "lines": [
+      {
+       "c": "e15",
+       "t": "Travelling with my partner before our knees gave out. Worth every penny.",
+       "tone": "with gentle humour"
+      }
+     ],
+     "sfx": "waves, gentle wind",
+     "flow_prompt": "Vertical 9:16, hyper-realistic documentary portrait, shot on a 50mm lens, shallow depth of field, natural skin texture with real wrinkles and pores, soft natural light, cinematic colour grade. An 81-year-old Mexican man, straw hat, white moustache, checked shirt. Setting: seaside promenade at sunset, gentle waves behind, wind moving the hair slightly. He gives a small wry smile and a slight shake of the head. Camera: slow push-in on the face. He speaks with gentle humour, in a Mexican accent, saying: \"Travelling with my partner before our knees gave out. Worth every penny.\" Ambient sound: waves, gentle wind. No music. No subtitles, no captions, no text on screen."
+    },
+    {
+     "n": 4,
+     "dur": 8,
+     "loc": "veranda",
+     "chars": [
+      "e20"
+     ],
+     "keyframe": "an 80-year-old Filipino woman, short black-and-grey hair, floral dress, looking into the lens. Setting: shaded veranda of a family house with a mango tree, warm tropical afternoon light, patterned cushions",
+     "action": "pauses, then speaks slowly",
+     "camera": "static medium shot, gentle handheld drift",
+     "lines": [
+      {
+       "c": "e20",
+       "t": "Lessons for my kids. Swimming, music, languages. Nobody can take those away.",
+       "tone": "earnestly, holding eye contact"
+      }
+     ],
+     "sfx": "cicadas, distant children playing",
+     "flow_prompt": "Vertical 9:16, hyper-realistic documentary portrait, shot on a 50mm lens, shallow depth of field, natural skin texture with real wrinkles and pores, soft natural light, cinematic colour grade. An 80-year-old Filipino woman, short black-and-grey hair, floral dress. Setting: shaded veranda of a family house with a mango tree, warm tropical afternoon light, patterned cushions. She pauses, then speaks slowly. Camera: static medium shot, gentle handheld drift. She speaks earnestly, holding eye contact, in a Filipino accent, saying: \"Lessons for my kids. Swimming, music, languages. Nobody can take those away.\" Ambient sound: cicadas, distant children playing. No music. No subtitles, no captions, no text on screen."
+    },
+    {
+     "n": 5,
+     "dur": 8,
+     "loc": "window_rain",
+     "chars": [
+      "e25"
+     ],
+     "keyframe": "an 88-year-old Irish man, tweed flat cap, worn wool coat, looking into the lens. Setting: armchair beside a large window with rain running down the glass, soft grey light, cup of tea on the sill",
+     "action": "takes a breath and holds the gaze after the last word",
+     "camera": "very slow push-in to a close-up, holding on the face at the end",
+     "lines": [
+      {
+       "c": "e25",
+       "t": "And the worst? Anything I bought to impress people I didn't even like.",
+       "tone": "softly and with quiet emotion, eyes glistening"
+      }
+     ],
+     "sfx": "rain on the window",
+     "flow_prompt": "Vertical 9:16, hyper-realistic documentary portrait, shot on a 50mm lens, shallow depth of field, natural skin texture with real wrinkles and pores, soft natural light, cinematic colour grade. An 88-year-old Irish man, tweed flat cap, worn wool coat. Setting: armchair beside a large window with rain running down the glass, soft grey light, cup of tea on the sill. He takes a breath and holds the gaze after the last word. Camera: very slow push-in to a close-up, holding on the face at the end. He speaks softly and with quiet emotion, eyes glistening, in an Irish accent, saying: \"And the worst? Anything I bought to impress people I didn't even like.\" Ambient sound: rain on the window. No music. No subtitles, no captions, no text on screen."
+    }
+   ],
+   "loop_note": "the last line lands on a held close-up; the next Short opens on a new face"
+  },
+  {
+   "id": "ELD-020",
+   "number": 20,
+   "theme": "family",
+   "title": "Parenting advice from grandparents of twelve #shorts",
+   "logline": "Family: Five grandparents on what actually matters when raising children.",
+   "hook_text": "Parents, hear this",
+   "description": "Five grandparents on what actually matters when raising children. New lesson every day. Which one hit hardest? Tell us below.",
+   "tags": [
+    "parenting",
+    "grandparents",
+    "family",
+    "life lessons",
+    "elders",
+    "ask the elders",
+    "advice",
+    "wisdom",
+    "shorts"
+   ],
+   "music": "ambient pads",
+   "shots": [
+    {
+     "n": 1,
+     "dur": 8,
+     "loc": "tea_house",
+     "chars": [
+      "e08"
+     ],
+     "keyframe": "a 93-year-old Japanese woman, silver hair in a neat bun, simple grey cardigan, looking into the lens. Setting: small traditional tea house with low wooden tables, paper screens, steam rising from a clay teapot",
+     "action": "settles in and looks straight into the lens",
+     "camera": "slow push-in from medium to medium close-up",
+     "lines": [
+      {
+       "c": "e08",
+       "t": "I'm ninety-three. Five children, twelve grandchildren. Here's what actually matters.",
+       "tone": "warmly, with a knowing half-smile"
+      }
+     ],
+     "sfx": "quiet room tone, tea being poured",
+     "flow_prompt": "Vertical 9:16, hyper-realistic documentary portrait, shot on a 50mm lens, shallow depth of field, natural skin texture with real wrinkles and pores, soft natural light, cinematic colour grade. A 93-year-old Japanese woman, silver hair in a neat bun, simple grey cardigan. Setting: small traditional tea house with low wooden tables, paper screens, steam rising from a clay teapot. She settles in and looks straight into the lens. Camera: slow push-in from medium to medium close-up. She speaks warmly, with a knowing half-smile, in soft Japanese-accented English, saying: \"I'm ninety-three. Five children, twelve grandchildren. Here's what actually matters.\" Ambient sound: quiet room tone, tea being poured. No music. No subtitles, no captions, no text on screen."
+    },
+    {
+     "n": 2,
+     "dur": 8,
+     "loc": "allotment",
+     "chars": [
+      "e13"
+     ],
+     "keyframe": "an 83-year-old Welsh man, bald with white hair at the sides, knitted cardigan, looking into the lens. Setting: allotment plot with a small green shed, cabbages and runner beans, overcast English sky",
+     "action": "leans slightly toward the camera",
+     "camera": "static medium close-up, subtle handheld drift",
+     "lines": [
+      {
+       "c": "e13",
+       "t": "Children don't remember what you bought them. They remember if you were there.",
+       "tone": "calmly and firmly, like passing on a rule"
+      }
+     ],
+     "sfx": "wind, a robin singing",
+     "flow_prompt": "Vertical 9:16, hyper-realistic documentary portrait, shot on a 50mm lens, shallow depth of field, natural skin texture with real wrinkles and pores, soft natural light, cinematic colour grade. An 83-year-old Welsh man, bald with white hair at the sides, knitted cardigan. Setting: allotment plot with a small green shed, cabbages and runner beans, overcast English sky. He leans slightly toward the camera. Camera: static medium close-up, subtle handheld drift. He speaks calmly and firmly, like passing on a rule, in a Welsh accent, saying: \"Children don't remember what you bought them. They remember if you were there.\" Ambient sound: wind, a robin singing. No music. No subtitles, no captions, no text on screen."
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "window_rain",
+     "chars": [
+      "e18"
+     ],
+     "keyframe": "a 76-year-old Polish woman, patterned headscarf, knitted shawl, looking into the lens. Setting: armchair beside a large window with rain running down the glass, soft grey light, cup of tea on the sill",
+     "action": "gives a small wry smile and a slight shake of the head",
+     "camera": "slow push-in on the face",
+     "lines": [
+      {
+       "c": "e18",
+       "t": "Let them fail while the stakes are small. Rescue them less.",
+       "tone": "with gentle humour"
+      }
+     ],
+     "sfx": "rain on the window",
+     "flow_prompt": "Vertical 9:16, hyper-realistic documentary portrait, shot on a 50mm lens, shallow depth of field, natural skin texture with real wrinkles and pores, soft natural light, cinematic colour grade. A 76-year-old Polish woman, patterned headscarf, knitted shawl. Setting: armchair beside a large window with rain running down the glass, soft grey light, cup of tea on the sill. She gives a small wry smile and a slight shake of the head. Camera: slow push-in on the face. She speaks with gentle humour, in a Polish accent, saying: \"Let them fail while the stakes are small. Rescue them less.\" Ambient sound: rain on the window. No music. No subtitles, no captions, no text on screen."
+    },
+    {
+     "n": 4,
+     "dur": 8,
+     "loc": "city_balcony",
+     "chars": [
+      "e23"
+     ],
+     "keyframe": "an 86-year-old Pakistani man, neat white beard, grey waistcoat over a shalwar kameez, looking into the lens. Setting: small apartment balcony crowded with potted plants overlooking a city at dusk, warm window light behind",
+     "action": "pauses, then speaks slowly",
+     "camera": "static medium shot, gentle handheld drift",
+     "lines": [
+      {
+       "c": "e23",
+       "t": "Say sorry to your kids when you're wrong. It teaches more than being right.",
+       "tone": "earnestly, holding eye contact"
+      }
+     ],
+     "sfx": "soft distant city traffic",
+     "flow_prompt": "Vertical 9:16, hyper-realistic documentary portrait, shot on a 50mm lens, shallow depth of field, natural skin texture with real wrinkles and pores, soft natural light, cinematic colour grade. An 86-year-old Pakistani man, neat white beard, grey waistcoat over a shalwar kameez. Setting: small apartment balcony crowded with potted plants overlooking a city at dusk, warm window light behind. He pauses, then speaks slowly. Camera: static medium shot, gentle handheld drift. He speaks earnestly, holding eye contact, in a Pakistani accent, saying: \"Say sorry to your kids when you're wrong. It teaches more than being right.\" Ambient sound: soft distant city traffic. No music. No subtitles, no captions, no text on screen."
+    },
+    {
+     "n": 5,
+     "dur": 8,
+     "loc": "porch",
+     "chars": [
+      "e03"
+     ],
+     "keyframe": "an 88-year-old Black American man, neat silver beard, brown cardigan, reading glasses on a chain, looking into the lens. Setting: wooden front porch of a weathered white house at golden hour, rocking chair, porch swing, fields behind",
+     "action": "takes a breath and holds the gaze after the last word",
+     "camera": "very slow push-in to a close-up, holding on the face at the end",
+     "lines": [
+      {
+       "c": "e03",
+       "t": "The days are long, but the years are short. Hold them while they still want you to.",
+       "tone": "softly and with quiet emotion, eyes glistening"
+      }
+     ],
+     "sfx": "crickets, creak of the rocking chair",
+     "flow_prompt": "Vertical 9:16, hyper-realistic documentary portrait, shot on a 50mm lens, shallow depth of field, natural skin texture with real wrinkles and pores, soft natural light, cinematic colour grade. An 88-year-old Black American man, neat silver beard, brown cardigan, reading glasses on a chain. Setting: wooden front porch of a weathered white house at golden hour, rocking chair, porch swing, fields behind. He takes a breath and holds the gaze after the last word. Camera: very slow push-in to a close-up, holding on the face at the end. He speaks softly and with quiet emotion, eyes glistening, in a slow Southern American drawl, saying: \"The days are long, but the years are short. Hold them while they still want you to.\" Ambient sound: crickets, creak of the rocking chair. No music. No subtitles, no captions, no text on screen."
+    }
+   ],
+   "loop_note": "the last line lands on a held close-up; the next Short opens on a new face"
+  },
+  {
+   "id": "ELD-021",
+   "number": 21,
+   "theme": "regret",
+   "title": "What fear cost them, in their own words #shorts",
+   "logline": "Regret: Five elders on the chances fear made them skip.",
+   "hook_text": "What fear cost them",
+   "description": "Five elders on the chances fear made them skip. New lesson every day. Which one hit hardest? Tell us below.",
+   "tags": [
+    "fear",
+    "courage",
+    "regrets",
+    "life lessons",
+    "elders",
+    "ask the elders",
+    "advice",
+    "wisdom",
+    "shorts"
+   ],
+   "music": "soft piano",
+   "shots": [
+    {
+     "n": 1,
+     "dur": 8,
+     "loc": "market",
+     "chars": [
+      "e11"
+     ],
+     "keyframe": "an 89-year-old Ghanaian man, short white hair, smock with kente trim, looking into the lens. Setting: busy outdoor fruit and vegetable market stall, colourful produce, shoppers softly blurred behind",
+     "action": "settles in and looks straight into the lens",
+     "camera": "slow push-in from medium to medium close-up",
+     "lines": [
+      {
+       "c": "e11",
+       "t": "I'm eighty-nine. I spent too many years afraid. Here's what fear cost me.",
+       "tone": "warmly, with a knowing half-smile"
+      }
+     ],
+     "sfx": "market chatter, distant vendor calls",
+     "flow_prompt": "Vertical 9:16, hyper-realistic documentary portrait, shot on a 50mm lens, shallow depth of field, natural skin texture with real wrinkles and pores, soft natural light, cinematic colour grade. An 89-year-old Ghanaian man, short white hair, smock with kente trim. Setting: busy outdoor fruit and vegetable market stall, colourful produce, shoppers softly blurred behind. He settles in and looks straight into the lens. Camera: slow push-in from medium to medium close-up. He speaks warmly, with a knowing half-smile, in a Ghanaian accent, saying: \"I'm eighty-nine. I spent too many years afraid. Here's what fear cost me.\" Ambient sound: market chatter, distant vendor calls. No music. No subtitles, no captions, no text on screen."
+    },
+    {
+     "n": 2,
+     "dur": 8,
+     "loc": "piano_room",
+     "chars": [
+      "e16"
+     ],
+     "keyframe": "an 87-year-old elegant English woman, pearl necklace, navy cardigan, silver hair set in waves, looking into the lens. Setting: elegant sitting room with an upright piano covered in family photographs, lamp light",
+     "action": "leans slightly toward the camera",
+     "camera": "static medium close-up, subtle handheld drift",
+     "lines": [
+      {
+       "c": "e16",
+       "t": "I never sang in front of anyone. I had a good voice. Nobody will ever know.",
+       "tone": "calmly and firmly, like passing on a rule"
+      }
+     ],
+     "sfx": "quiet room tone",
+     "flow_prompt": "Vertical 9:16, hyper-realistic documentary portrait, shot on a 50mm lens, shallow depth of field, natural skin texture with real wrinkles and pores, soft natural light, cinematic colour grade. An 87-year-old elegant English woman, pearl necklace, navy cardigan, silver hair set in waves. Setting: elegant sitting room with an upright piano covered in family photographs, lamp light. She leans slightly toward the camera. Camera: static medium close-up, subtle handheld drift. She speaks calmly and firmly, like passing on a rule, in a refined English accent, saying: \"I never sang in front of anyone. I had a good voice. Nobody will ever know.\" Ambient sound: quiet room tone. No music. No subtitles, no captions, no text on screen."
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "library",
+     "chars": [
+      "e21"
+     ],
+     "keyframe": "a 95-year-old thin white English gentleman, tweed waistcoat, pocket watch chain, looking into the lens. Setting: quiet library corner with tall wooden bookshelves, green reading lamp, dust floating in the light",
+     "action": "gives a small wry smile and a slight shake of the head",
+     "camera": "slow push-in on the face",
+     "lines": [
+      {
+       "c": "e21",
+       "t": "I turned down a job abroad because I was scared. I've wondered every year since.",
+       "tone": "with gentle humour"
+      }
+     ],
+     "sfx": "deep quiet, a page turning",
+     "flow_prompt": "Vertical 9:16, hyper-realistic documentary portrait, shot on a 50mm lens, shallow depth of field, natural skin texture with real wrinkles and pores, soft natural light, cinematic colour grade. A 95-year-old thin white English gentleman, tweed waistcoat, pocket watch chain. Setting: quiet library corner with tall wooden bookshelves, green reading lamp, dust floating in the light. He gives a small wry smile and a slight shake of the head. Camera: slow push-in on the face. He speaks with gentle humour, in a soft upper-class English accent, saying: \"I turned down a job abroad because I was scared. I've wondered every year since.\" Ambient sound: deep quiet, a page turning. No music. No subtitles, no captions, no text on screen."
+    },
+    {
+     "n": 4,
+     "dur": 8,
+     "loc": "farm_fence",
+     "chars": [
+      "e01"
+     ],
+     "keyframe": "an 84-year-old white British farmer, flat cap, tweed jacket, grey stubble, deep laugh lines, looking into the lens. Setting: old wooden fence at the edge of a green field, big sky at golden hour, cattle far in the soft-focus background",
+     "action": "pauses, then speaks slowly",
+     "camera": "static medium shot, gentle handheld drift",
+     "lines": [
+      {
+       "c": "e01",
+       "t": "Most of what I worried about never happened. The worrying happened every day.",
+       "tone": "earnestly, holding eye contact"
+      }
+     ],
+     "sfx": "gentle wind, distant birdsong",
+     "flow_prompt": "Vertical 9:16, hyper-realistic documentary portrait, shot on a 50mm lens, shallow depth of field, natural skin texture with real wrinkles and pores, soft natural light, cinematic colour grade. An 84-year-old white British farmer, flat cap, tweed jacket, grey stubble, deep laugh lines. Setting: old wooden fence at the edge of a green field, big sky at golden hour, cattle far in the soft-focus background. He pauses, then speaks slowly. Camera: static medium shot, gentle handheld drift. He speaks earnestly, holding eye contact, in a gentle Yorkshire accent, saying: \"Most of what I worried about never happened. The worrying happened every day.\" Ambient sound: gentle wind, distant birdsong. No music. No subtitles, no captions, no text on screen."
+    },
+    {
+     "n": 5,
+     "dur": 8,
+     "loc": "kitchen",
+     "chars": [
+      "e06"
+     ],
+     "keyframe": "an 86-year-old Jamaican woman, silver locs tied up, bright yellow blouse, gold hoop earrings, looking into the lens. Setting: warm cluttered home kitchen, morning light through the window, steaming kettle, old patterned tiles",
+     "action": "takes a breath and holds the gaze after the last word",
+     "camera": "very slow push-in to a close-up, holding on the face at the end",
+     "lines": [
+      {
+       "c": "e06",
+       "t": "Courage isn't feeling brave. It's being scared and doing it anyway. Start small.",
+       "tone": "softly and with quiet emotion, eyes glistening"
+      }
+     ],
+     "sfx": "kettle simmering, clock ticking",
+     "flow_prompt": "Vertical 9:16, hyper-realistic documentary portrait, shot on a 50mm lens, shallow depth of field, natural skin texture with real wrinkles and pores, soft natural light, cinematic colour grade. An 86-year-old Jamaican woman, silver locs tied up, bright yellow blouse, gold hoop earrings. Setting: warm cluttered home kitchen, morning light through the window, steaming kettle, old patterned tiles. She takes a breath and holds the gaze after the last word. Camera: very slow push-in to a close-up, holding on the face at the end. She speaks softly and with quiet emotion, eyes glistening, in a warm Jamaican accent, saying: \"Courage isn't feeling brave. It's being scared and doing it anyway. Start small.\" Ambient sound: kettle simmering, clock ticking. No music. No subtitles, no captions, no text on screen."
+    }
+   ],
+   "loop_note": "the last line lands on a held close-up; the next Short opens on a new face"
+  },
+  {
+   "id": "ELD-022",
+   "number": 22,
+   "theme": "work",
+   "title": "What nobody tells you about retirement #shorts",
+   "logline": "Work: Five retirees on what they wish they'd known before they stopped working.",
+   "hook_text": "Retirement isn't what you think",
+   "description": "Five retirees on what they wish they'd known before they stopped working. New lesson every day. Which one hit hardest? Tell us below.",
+   "tags": [
+    "retirement",
+    "purpose",
+    "work",
+    "life lessons",
+    "elders",
+    "ask the elders",
+    "advice",
+    "wisdom",
+    "shorts"
+   ],
+   "music": "warm acoustic guitar",
+   "shots": [
+    {
+     "n": 1,
+     "dur": 8,
+     "loc": "living_room",
+     "chars": [
+      "e14"
+     ],
+     "keyframe": "a 90-year-old Indian woman, cream saree, long silver braid, looking into the lens. Setting: cosy living room armchair, knitted blanket, framed family photos on the wall, warm lamp light",
+     "action": "settles in and looks straight into the lens",
+     "camera": "slow push-in from medium to medium close-up",
+     "lines": [
+      {
+       "c": "e14",
+       "t": "I'm ninety. Retired twenty years. Here's what nobody tells you about retiring.",
+       "tone": "warmly, with a knowing half-smile"
+      }
+     ],
+     "sfx": "quiet room tone, clock ticking",
+     "flow_prompt": "Vertical 9:16, hyper-realistic documentary portrait, shot on a 50mm lens, shallow depth of field, natural skin texture with real wrinkles and pores, soft natural light, cinematic colour grade. A 90-year-old Indian woman, cream saree, long silver braid. Setting: cosy living room armchair, knitted blanket, framed family photos on the wall, warm lamp light. She settles in and looks straight into the lens. Camera: slow push-in from medium to medium close-up. She speaks warmly, with a knowing half-smile, in an Indian accent, saying: \"I'm ninety. Retired twenty years. Here's what nobody tells you about retiring.\" Ambient sound: quiet room tone, clock ticking. No music. No subtitles, no captions, no text on screen."
+    },
+    {
+     "n": 2,
+     "dur": 8,
+     "loc": "harbour",
+     "chars": [
+      "e19"
+     ],
+     "keyframe": "an 84-year-old Greek man, white curly hair, white linen shirt, worry beads in hand, looking into the lens. Setting: small wooden fishing boat moored in a sunny Mediterranean harbour, nets, white houses behind",
+     "action": "leans slightly toward the camera",
+     "camera": "static medium close-up, subtle handheld drift",
+     "lines": [
+      {
+       "c": "e19",
+       "t": "Your job becomes your identity. When it ends, you need to know who you are without it.",
+       "tone": "calmly and firmly, like passing on a rule"
+      }
+     ],
+     "sfx": "gulls, water lapping",
+     "flow_prompt": "Vertical 9:16, hyper-realistic documentary portrait, shot on a 50mm lens, shallow depth of field, natural skin texture with real wrinkles and pores, soft natural light, cinematic colour grade. An 84-year-old Greek man, white curly hair, white linen shirt, worry beads in hand. Setting: small wooden fishing boat moored in a sunny Mediterranean harbour, nets, white houses behind. He leans slightly toward the camera. Camera: static medium close-up, subtle handheld drift. He speaks calmly and firmly, like passing on a rule, in a Greek accent, saying: \"Your job becomes your identity. When it ends, you need to know who you are without it.\" Ambient sound: gulls, water lapping. No music. No subtitles, no captions, no text on screen."
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "porch",
+     "chars": [
+      "e24"
+     ],
+     "keyframe": "a 79-year-old African American woman, silver twist-out hair, silk scarf, looking into the lens. Setting: wooden front porch of a weathered white house at golden hour, rocking chair, porch swing, fields behind",
+     "action": "gives a small wry smile and a slight shake of the head",
+     "camera": "slow push-in on the face",
+     "lines": [
+      {
+       "c": "e24",
+       "t": "Build a life outside work now. Hobbies, friends, something that's only yours.",
+       "tone": "with gentle humour"
+      }
+     ],
+     "sfx": "crickets, creak of the rocking chair",
+     "flow_prompt": "Vertical 9:16, hyper-realistic documentary portrait, shot on a 50mm lens, shallow depth of field, natural skin texture with real wrinkles and pores, soft natural light, cinematic colour grade. A 79-year-old African American woman, silver twist-out hair, silk scarf. Setting: wooden front porch of a weathered white house at golden hour, rocking chair, porch swing, fields behind. She gives a small wry smile and a slight shake of the head. Camera: slow push-in on the face. She speaks with gentle humour, in a warm Southern American accent, saying: \"Build a life outside work now. Hobbies, friends, something that's only yours.\" Ambient sound: crickets, creak of the rocking chair. No music. No subtitles, no captions, no text on screen."
+    },
+    {
+     "n": 4,
+     "dur": 8,
+     "loc": "garden",
+     "chars": [
+      "e04"
+     ],
+     "keyframe": "a 91-year-old Irish woman, short white curls, floral blouse, gardening gloves, looking into the lens. Setting: lush back garden with roses and vegetable beds, late afternoon sun, watering can nearby",
+     "action": "pauses, then speaks slowly",
+     "camera": "static medium shot, gentle handheld drift",
+     "lines": [
+      {
+       "c": "e04",
+       "t": "Retiring with money but no purpose is a quiet kind of sad.",
+       "tone": "earnestly, holding eye contact"
+      }
+     ],
+     "sfx": "birdsong, bees humming",
+     "flow_prompt": "Vertical 9:16, hyper-realistic documentary portrait, shot on a 50mm lens, shallow depth of field, natural skin texture with real wrinkles and pores, soft natural light, cinematic colour grade. A 91-year-old Irish woman, short white curls, floral blouse, gardening gloves. Setting: lush back garden with roses and vegetable beds, late afternoon sun, watering can nearby. She pauses, then speaks slowly. Camera: static medium shot, gentle handheld drift. She speaks earnestly, holding eye contact, in a soft Irish accent, saying: \"Retiring with money but no purpose is a quiet kind of sad.\" Ambient sound: birdsong, bees humming. No music. No subtitles, no captions, no text on screen."
+    },
+    {
+     "n": 5,
+     "dur": 8,
+     "loc": "workshop",
+     "chars": [
+      "e09"
+     ],
+     "keyframe": "an 80-year-old Italian craftsman, white hair swept back, waistcoat, rolled-up shirt sleeves, looking into the lens. Setting: woodworking shed with hand tools hanging on the wall, sawdust floating in a warm lamp beam",
+     "action": "takes a breath and holds the gaze after the last word",
+     "camera": "very slow push-in to a close-up, holding on the face at the end",
+     "lines": [
+      {
+       "c": "e09",
+       "t": "So find work you'd do for free. Then find someone to pay you for it.",
+       "tone": "softly and with quiet emotion, eyes glistening"
+      }
+     ],
+     "sfx": "quiet room tone, faint radio far away",
+     "flow_prompt": "Vertical 9:16, hyper-realistic documentary portrait, shot on a 50mm lens, shallow depth of field, natural skin texture with real wrinkles and pores, soft natural light, cinematic colour grade. An 80-year-old Italian craftsman, white hair swept back, waistcoat, rolled-up shirt sleeves. Setting: woodworking shed with hand tools hanging on the wall, sawdust floating in a warm lamp beam. He takes a breath and holds the gaze after the last word. Camera: very slow push-in to a close-up, holding on the face at the end. He speaks softly and with quiet emotion, eyes glistening, in an Italian accent, saying: \"So find work you'd do for free. Then find someone to pay you for it.\" Ambient sound: quiet room tone, faint radio far away. No music. No subtitles, no captions, no text on screen."
+    }
+   ],
+   "loop_note": "the last line lands on a held close-up; the next Short opens on a new face"
+  },
+  {
+   "id": "ELD-023",
+   "number": 23,
+   "theme": "peace",
+   "title": "How 90-year-olds found peace of mind #shorts",
+   "logline": "Peace: Five elders on letting go of worry.",
+   "hook_text": "The shortcut to peace of mind",
+   "description": "Five elders on letting go of worry. New lesson every day. Which one hit hardest? Tell us below.",
+   "tags": [
+    "peace of mind",
+    "anxiety",
+    "mindset",
+    "life lessons",
+    "elders",
+    "ask the elders",
+    "advice",
+    "wisdom",
+    "shorts"
+   ],
+   "music": "gentle strings",
+   "shots": [
+    {
+     "n": 1,
+     "dur": 8,
+     "loc": "barbershop",
+     "chars": [
+      "e17"
+     ],
+     "keyframe": "a 92-year-old Black British Caribbean gentleman, trilby hat, smart grey suit jacket, looking into the lens. Setting: old-fashioned barbershop with leather chairs and long mirrors, warm tungsten light",
+     "action": "settles in and looks straight into the lens",
+     "camera": "slow push-in from medium to medium close-up",
+     "lines": [
+      {
+       "c": "e17",
+       "t": "I'm ninety-two. It took me sixty years to find peace. Here's the shortcut.",
+       "tone": "warmly, with a knowing half-smile"
+      }
+     ],
+     "sfx": "soft radio, scissors snipping in the background",
+     "flow_prompt": "Vertical 9:16, hyper-realistic documentary portrait, shot on a 50mm lens, shallow depth of field, natural skin texture with real wrinkles and pores, soft natural light, cinematic colour grade. A 92-year-old Black British Caribbean gentleman, trilby hat, smart grey suit jacket. Setting: old-fashioned barbershop with leather chairs and long mirrors, warm tungsten light. He settles in and looks straight into the lens. Camera: slow push-in from medium to medium close-up. He speaks warmly, with a knowing half-smile, in a London Caribbean accent, saying: \"I'm ninety-two. It took me sixty years to find peace. Here's the shortcut.\" Ambient sound: soft radio, scissors snipping in the background. No music. No subtitles, no captions, no text on screen."
+    },
+    {
+     "n": 2,
+     "dur": 8,
+     "loc": "garden",
+     "chars": [
+      "e22"
+     ],
+     "keyframe": "an 82-year-old Kenyan woman, short grey afro, beaded necklace, knitted shawl, looking into the lens. Setting: lush back garden with roses and vegetable beds, late afternoon sun, watering can nearby",
+     "action": "leans slightly toward the camera",
+     "camera": "static medium close-up, subtle handheld drift",
+     "lines": [
+      {
+       "c": "e22",
+       "t": "You can't control what happens. Only the next thing you do.",
+       "tone": "calmly and firmly, like passing on a rule"
+      }
+     ],
+     "sfx": "birdsong, bees humming",
+     "flow_prompt": "Vertical 9:16, hyper-realistic documentary portrait, shot on a 50mm lens, shallow depth of field, natural skin texture with real wrinkles and pores, soft natural light, cinematic colour grade. An 82-year-old Kenyan woman, short grey afro, beaded necklace, knitted shawl. Setting: lush back garden with roses and vegetable beds, late afternoon sun, watering can nearby. She leans slightly toward the camera. Camera: static medium close-up, subtle handheld drift. She speaks calmly and firmly, like passing on a rule, in a Kenyan accent, saying: \"You can't control what happens. Only the next thing you do.\" Ambient sound: birdsong, bees humming. No music. No subtitles, no captions, no text on screen."
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "veranda",
+     "chars": [
+      "e02"
+     ],
+     "keyframe": "a 79-year-old Nigerian grandmother, colourful ankara headwrap and matching dress, warm round face, looking into the lens. Setting: shaded veranda of a family house with a mango tree, warm tropical afternoon light, patterned cushions",
+     "action": "gives a small wry smile and a slight shake of the head",
+     "camera": "slow push-in on the face",
+     "lines": [
+      {
+       "c": "e02",
+       "t": "Not every thought in your head is true. Let some of them walk past.",
+       "tone": "with gentle humour"
+      }
+     ],
+     "sfx": "cicadas, distant children playing",
+     "flow_prompt": "Vertical 9:16, hyper-realistic documentary portrait, shot on a 50mm lens, shallow depth of field, natural skin texture with real wrinkles and pores, soft natural light, cinematic colour grade. A 79-year-old Nigerian grandmother, colourful ankara headwrap and matching dress, warm round face. Setting: shaded veranda of a family house with a mango tree, warm tropical afternoon light, patterned cushions. She gives a small wry smile and a slight shake of the head. Camera: slow push-in on the face. She speaks with gentle humour, in a warm Nigerian accent, saying: \"Not every thought in your head is true. Let some of them walk past.\" Ambient sound: cicadas, distant children playing. No music. No subtitles, no captions, no text on screen."
+    },
+    {
+     "n": 4,
+     "dur": 8,
+     "loc": "fishing_dock",
+     "chars": [
+      "e07"
+     ],
+     "keyframe": "a 77-year-old Scottish fisherman, full white beard, cream wool fisherman's jumper, looking into the lens. Setting: wooden fishing jetty at dawn, mist drifting over a calm loch, small rowing boat tied up",
+     "action": "pauses, then speaks slowly",
+     "camera": "static medium shot, gentle handheld drift",
+     "lines": [
+      {
+       "c": "e07",
+       "t": "Get outside every morning. Sunlight on your face before your phone in your hand.",
+       "tone": "earnestly, holding eye contact"
+      }
+     ],
+     "sfx": "water lapping, a distant gull",
+     "flow_prompt": "Vertical 9:16, hyper-realistic documentary portrait, shot on a 50mm lens, shallow depth of field, natural skin texture with real wrinkles and pores, soft natural light, cinematic colour grade. A 77-year-old Scottish fisherman, full white beard, cream wool fisherman's jumper. Setting: wooden fishing jetty at dawn, mist drifting over a calm loch, small rowing boat tied up. He pauses, then speaks slowly. Camera: static medium shot, gentle handheld drift. He speaks earnestly, holding eye contact, in a Scottish accent, saying: \"Get outside every morning. Sunlight on your face before your phone in your hand.\" Ambient sound: water lapping, a distant gull. No music. No subtitles, no captions, no text on screen."
+    },
+    {
+     "n": 5,
+     "dur": 8,
+     "loc": "park_bench",
+     "chars": [
+      "e12"
+     ],
+     "keyframe": "a 78-year-old Chinese woman, short grey hair, jade bracelet, quilted jacket, looking into the lens. Setting: park bench under golden autumn trees, leaves drifting down, soft afternoon light",
+     "action": "takes a breath and holds the gaze after the last word",
+     "camera": "very slow push-in to a close-up, holding on the face at the end",
+     "lines": [
+      {
+       "c": "e12",
+       "t": "Be gentle with yourself. You're the only one who's been with you the whole way.",
+       "tone": "softly and with quiet emotion, eyes glistening"
+      }
+     ],
+     "sfx": "leaves rustling, distant children",
+     "flow_prompt": "Vertical 9:16, hyper-realistic documentary portrait, shot on a 50mm lens, shallow depth of field, natural skin texture with real wrinkles and pores, soft natural light, cinematic colour grade. A 78-year-old Chinese woman, short grey hair, jade bracelet, quilted jacket. Setting: park bench under golden autumn trees, leaves drifting down, soft afternoon light. She takes a breath and holds the gaze after the last word. Camera: very slow push-in to a close-up, holding on the face at the end. She speaks softly and with quiet emotion, eyes glistening, in gentle Chinese-accented English, saying: \"Be gentle with yourself. You're the only one who's been with you the whole way.\" Ambient sound: leaves rustling, distant children. No music. No subtitles, no captions, no text on screen."
+    }
+   ],
+   "loop_note": "the last line lands on a held close-up; the next Short opens on a new face"
+  },
+  {
+   "id": "ELD-024",
+   "number": 24,
+   "theme": "people",
+   "title": "How to spot good people, from 80-year-olds #shorts",
+   "logline": "People: Five elders on the signs of a genuinely good person.",
+   "hook_text": "How to spot a good person",
+   "description": "Five elders on the signs of a genuinely good person. New lesson every day. Which one hit hardest? Tell us below.",
+   "tags": [
+    "good people",
+    "red flags",
+    "relationships",
+    "life lessons",
+    "elders",
+    "ask the elders",
+    "advice",
+    "wisdom",
+    "shorts"
+   ],
+   "music": "soft piano",
+   "shots": [
+    {
+     "n": 1,
+     "dur": 8,
+     "loc": "veranda",
+     "chars": [
+      "e20"
+     ],
+     "keyframe": "an 80-year-old Filipino woman, short black-and-grey hair, floral dress, looking into the lens. Setting: shaded veranda of a family house with a mango tree, warm tropical afternoon light, patterned cushions",
+     "action": "settles in and looks straight into the lens",
+     "camera": "slow push-in from medium to medium close-up",
+     "lines": [
+      {
+       "c": "e20",
+       "t": "I'm eighty. I've met a lot of people. Here's how to spot the good ones.",
+       "tone": "warmly, with a knowing half-smile"
+      }
+     ],
+     "sfx": "cicadas, distant children playing",
+     "flow_prompt": "Vertical 9:16, hyper-realistic documentary portrait, shot on a 50mm lens, shallow depth of field, natural skin texture with real wrinkles and pores, soft natural light, cinematic colour grade. An 80-year-old Filipino woman, short black-and-grey hair, floral dress. Setting: shaded veranda of a family house with a mango tree, warm tropical afternoon light, patterned cushions. She settles in and looks straight into the lens. Camera: slow push-in from medium to medium close-up. She speaks warmly, with a knowing half-smile, in a Filipino accent, saying: \"I'm eighty. I've met a lot of people. Here's how to spot the good ones.\" Ambient sound: cicadas, distant children playing. No music. No subtitles, no captions, no text on screen."
+    },
+    {
+     "n": 2,
+     "dur": 8,
+     "loc": "window_rain",
+     "chars": [
+      "e25"
+     ],
+     "keyframe": "an 88-year-old Irish man, tweed flat cap, worn wool coat, looking into the lens. Setting: armchair beside a large window with rain running down the glass, soft grey light, cup of tea on the sill",
+     "action": "leans slightly toward the camera",
+     "camera": "static medium close-up, subtle handheld drift",
+     "lines": [
+      {
+       "c": "e25",
+       "t": "Watch how they talk about the people who aren't in the room.",
+       "tone": "calmly and firmly, like passing on a rule"
+      }
+     ],
+     "sfx": "rain on the window",
+     "flow_prompt": "Vertical 9:16, hyper-realistic documentary portrait, shot on a 50mm lens, shallow depth of field, natural skin texture with real wrinkles and pores, soft natural light, cinematic colour grade. An 88-year-old Irish man, tweed flat cap, worn wool coat. Setting: armchair beside a large window with rain running down the glass, soft grey light, cup of tea on the sill. He leans slightly toward the camera. Camera: static medium close-up, subtle handheld drift. He speaks calmly and firmly, like passing on a rule, in an Irish accent, saying: \"Watch how they talk about the people who aren't in the room.\" Ambient sound: rain on the window. No music. No subtitles, no captions, no text on screen."
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "city_balcony",
+     "chars": [
+      "e05"
+     ],
+     "keyframe": "an 82-year-old Indian man, white kurta, thin wire glasses, grey moustache, looking into the lens. Setting: small apartment balcony crowded with potted plants overlooking a city at dusk, warm window light behind",
+     "action": "gives a small wry smile and a slight shake of the head",
+     "camera": "slow push-in on the face",
+     "lines": [
+      {
+       "c": "e05",
+       "t": "Good people are happy for you. Really happy. Not quietly competing.",
+       "tone": "with gentle humour"
+      }
+     ],
+     "sfx": "soft distant city traffic",
+     "flow_prompt": "Vertical 9:16, hyper-realistic documentary portrait, shot on a 50mm lens, shallow depth of field, natural skin texture with real wrinkles and pores, soft natural light, cinematic colour grade. An 82-year-old Indian man, white kurta, thin wire glasses, grey moustache. Setting: small apartment balcony crowded with potted plants overlooking a city at dusk, warm window light behind. He gives a small wry smile and a slight shake of the head. Camera: slow push-in on the face. He speaks with gentle humour, in a gentle Indian accent, saying: \"Good people are happy for you. Really happy. Not quietly competing.\" Ambient sound: soft distant city traffic. No music. No subtitles, no captions, no text on screen."
+    },
+    {
+     "n": 4,
+     "dur": 8,
+     "loc": "diner",
+     "chars": [
+      "e10"
+     ],
+     "keyframe": "an 85-year-old white American woman, silver bob, denim shirt, turquoise necklace, looking into the lens. Setting: old roadside diner booth by the window, mug of coffee, soft neon blur behind",
+     "action": "pauses, then speaks slowly",
+     "camera": "static medium shot, gentle handheld drift",
+     "lines": [
+      {
+       "c": "e10",
+       "t": "Watch what they do when they lose. That's who they really are.",
+       "tone": "earnestly, holding eye contact"
+      }
+     ],
+     "sfx": "low diner chatter, cutlery clinks",
+     "flow_prompt": "Vertical 9:16, hyper-realistic documentary portrait, shot on a 50mm lens, shallow depth of field, natural skin texture with real wrinkles and pores, soft natural light, cinematic colour grade. An 85-year-old white American woman, silver bob, denim shirt, turquoise necklace. Setting: old roadside diner booth by the window, mug of coffee, soft neon blur behind. She pauses, then speaks slowly. Camera: static medium shot, gentle handheld drift. She speaks earnestly, holding eye contact, in a Midwestern American accent, saying: \"Watch what they do when they lose. That's who they really are.\" Ambient sound: low diner chatter, cutlery clinks. No music. No subtitles, no captions, no text on screen."
+    },
+    {
+     "n": 5,
+     "dur": 8,
+     "loc": "beach",
+     "chars": [
+      "e15"
+     ],
+     "keyframe": "an 81-year-old Mexican man, straw hat, white moustache, checked shirt, looking into the lens. Setting: seaside promenade at sunset, gentle waves behind, wind moving the hair slightly",
+     "action": "takes a breath and holds the gaze after the last word",
+     "camera": "very slow push-in to a close-up, holding on the face at the end",
+     "lines": [
+      {
+       "c": "e15",
+       "t": "And be that person yourself. You attract what you are.",
+       "tone": "softly and with quiet emotion, eyes glistening"
+      }
+     ],
+     "sfx": "waves, gentle wind",
+     "flow_prompt": "Vertical 9:16, hyper-realistic documentary portrait, shot on a 50mm lens, shallow depth of field, natural skin texture with real wrinkles and pores, soft natural light, cinematic colour grade. An 81-year-old Mexican man, straw hat, white moustache, checked shirt. Setting: seaside promenade at sunset, gentle waves behind, wind moving the hair slightly. He takes a breath and holds the gaze after the last word. Camera: very slow push-in to a close-up, holding on the face at the end. He speaks softly and with quiet emotion, eyes glistening, in a Mexican accent, saying: \"And be that person yourself. You attract what you are.\" Ambient sound: waves, gentle wind. No music. No subtitles, no captions, no text on screen."
+    }
+   ],
+   "loop_note": "the last line lands on a held close-up; the next Short opens on a new face"
+  },
+  {
+   "id": "ELD-025",
+   "number": 25,
+   "theme": "money",
+   "title": "What growing up poor taught them about money #shorts",
+   "logline": "Money: Five elders who grew up with very little on what it taught them.",
+   "hook_text": "Grew up with nothing. Lessons.",
+   "description": "Five elders who grew up with very little on what it taught them. New lesson every day. Which one hit hardest? Tell us below.",
+   "tags": [
+    "frugal living",
+    "growing up poor",
+    "money",
+    "life lessons",
+    "elders",
+    "ask the elders",
+    "advice",
+    "wisdom",
+    "shorts"
+   ],
+   "music": "ambient pads",
+   "shots": [
+    {
+     "n": 1,
+     "dur": 8,
+     "loc": "city_balcony",
+     "chars": [
+      "e23"
+     ],
+     "keyframe": "an 86-year-old Pakistani man, neat white beard, grey waistcoat over a shalwar kameez, looking into the lens. Setting: small apartment balcony crowded with potted plants overlooking a city at dusk, warm window light behind",
+     "action": "settles in and looks straight into the lens",
+     "camera": "slow push-in from medium to medium close-up",
+     "lines": [
+      {
+       "c": "e23",
+       "t": "I'm eighty-six. I grew up with nothing. Here's what that taught me about money.",
+       "tone": "warmly, with a knowing half-smile"
+      }
+     ],
+     "sfx": "soft distant city traffic",
+     "flow_prompt": "Vertical 9:16, hyper-realistic documentary portrait, shot on a 50mm lens, shallow depth of field, natural skin texture with real wrinkles and pores, soft natural light, cinematic colour grade. An 86-year-old Pakistani man, neat white beard, grey waistcoat over a shalwar kameez. Setting: small apartment balcony crowded with potted plants overlooking a city at dusk, warm window light behind. He settles in and looks straight into the lens. Camera: slow push-in from medium to medium close-up. He speaks warmly, with a knowing half-smile, in a Pakistani accent, saying: \"I'm eighty-six. I grew up with nothing. Here's what that taught me about money.\" Ambient sound: soft distant city traffic. No music. No subtitles, no captions, no text on screen."
+    },
+    {
+     "n": 2,
+     "dur": 8,
+     "loc": "porch",
+     "chars": [
+      "e03"
+     ],
+     "keyframe": "an 88-year-old Black American man, neat silver beard, brown cardigan, reading glasses on a chain, looking into the lens. Setting: wooden front porch of a weathered white house at golden hour, rocking chair, porch swing, fields behind",
+     "action": "leans slightly toward the camera",
+     "camera": "static medium close-up, subtle handheld drift",
+     "lines": [
+      {
+       "c": "e03",
+       "t": "Cook at home. We ate like kings on what people now spend on one takeaway.",
+       "tone": "calmly and firmly, like passing on a rule"
+      }
+     ],
+     "sfx": "crickets, creak of the rocking chair",
+     "flow_prompt": "Vertical 9:16, hyper-realistic documentary portrait, shot on a 50mm lens, shallow depth of field, natural skin texture with real wrinkles and pores, soft natural light, cinematic colour grade. An 88-year-old Black American man, neat silver beard, brown cardigan, reading glasses on a chain. Setting: wooden front porch of a weathered white house at golden hour, rocking chair, porch swing, fields behind. He leans slightly toward the camera. Camera: static medium close-up, subtle handheld drift. He speaks calmly and firmly, like passing on a rule, in a slow Southern American drawl, saying: \"Cook at home. We ate like kings on what people now spend on one takeaway.\" Ambient sound: crickets, creak of the rocking chair. No music. No subtitles, no captions, no text on screen."
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "tea_house",
+     "chars": [
+      "e08"
+     ],
+     "keyframe": "a 93-year-old Japanese woman, silver hair in a neat bun, simple grey cardigan, looking into the lens. Setting: small traditional tea house with low wooden tables, paper screens, steam rising from a clay teapot",
+     "action": "gives a small wry smile and a slight shake of the head",
+     "camera": "slow push-in on the face",
+     "lines": [
+      {
+       "c": "e08",
+       "t": "Fix things before you replace them. My father's toolbox outlived three cars.",
+       "tone": "with gentle humour"
+      }
+     ],
+     "sfx": "quiet room tone, tea being poured",
+     "flow_prompt": "Vertical 9:16, hyper-realistic documentary portrait, shot on a 50mm lens, shallow depth of field, natural skin texture with real wrinkles and pores, soft natural light, cinematic colour grade. A 93-year-old Japanese woman, silver hair in a neat bun, simple grey cardigan. Setting: small traditional tea house with low wooden tables, paper screens, steam rising from a clay teapot. She gives a small wry smile and a slight shake of the head. Camera: slow push-in on the face. She speaks with gentle humour, in soft Japanese-accented English, saying: \"Fix things before you replace them. My father's toolbox outlived three cars.\" Ambient sound: quiet room tone, tea being poured. No music. No subtitles, no captions, no text on screen."
+    },
+    {
+     "n": 4,
+     "dur": 8,
+     "loc": "allotment",
+     "chars": [
+      "e13"
+     ],
+     "keyframe": "an 83-year-old Welsh man, bald with white hair at the sides, knitted cardigan, looking into the lens. Setting: allotment plot with a small green shed, cabbages and runner beans, overcast English sky",
+     "action": "pauses, then speaks slowly",
+     "camera": "static medium shot, gentle handheld drift",
+     "lines": [
+      {
+       "c": "e13",
+       "t": "Never be ashamed of where you started. Be ashamed of forgetting it.",
+       "tone": "earnestly, holding eye contact"
+      }
+     ],
+     "sfx": "wind, a robin singing",
+     "flow_prompt": "Vertical 9:16, hyper-realistic documentary portrait, shot on a 50mm lens, shallow depth of field, natural skin texture with real wrinkles and pores, soft natural light, cinematic colour grade. An 83-year-old Welsh man, bald with white hair at the sides, knitted cardigan. Setting: allotment plot with a small green shed, cabbages and runner beans, overcast English sky. He pauses, then speaks slowly. Camera: static medium shot, gentle handheld drift. He speaks earnestly, holding eye contact, in a Welsh accent, saying: \"Never be ashamed of where you started. Be ashamed of forgetting it.\" Ambient sound: wind, a robin singing. No music. No subtitles, no captions, no text on screen."
+    },
+    {
+     "n": 5,
+     "dur": 8,
+     "loc": "window_rain",
+     "chars": [
+      "e18"
+     ],
+     "keyframe": "a 76-year-old Polish woman, patterned headscarf, knitted shawl, looking into the lens. Setting: armchair beside a large window with rain running down the glass, soft grey light, cup of tea on the sill",
+     "action": "takes a breath and holds the gaze after the last word",
+     "camera": "very slow push-in to a close-up, holding on the face at the end",
+     "lines": [
+      {
+       "c": "e18",
+       "t": "Rich is having enough. I learned that the day I stopped wanting more.",
+       "tone": "softly and with quiet emotion, eyes glistening"
+      }
+     ],
+     "sfx": "rain on the window",
+     "flow_prompt": "Vertical 9:16, hyper-realistic documentary portrait, shot on a 50mm lens, shallow depth of field, natural skin texture with real wrinkles and pores, soft natural light, cinematic colour grade. A 76-year-old Polish woman, patterned headscarf, knitted shawl. Setting: armchair beside a large window with rain running down the glass, soft grey light, cup of tea on the sill. She takes a breath and holds the gaze after the last word. Camera: very slow push-in to a close-up, holding on the face at the end. She speaks softly and with quiet emotion, eyes glistening, in a Polish accent, saying: \"Rich is having enough. I learned that the day I stopped wanting more.\" Ambient sound: rain on the window. No music. No subtitles, no captions, no text on screen."
+    }
+   ],
+   "loop_note": "the last line lands on a held close-up; the next Short opens on a new face"
+  },
+  {
+   "id": "ELD-026",
+   "number": 26,
+   "theme": "love",
+   "title": "Marriage mistakes they'd never make again #shorts",
+   "logline": "Love: Five elders on the relationship mistakes they learned the hard way.",
+   "hook_text": "Marriage mistakes to avoid",
+   "description": "Five elders on the relationship mistakes they learned the hard way. New lesson every day. Which one hit hardest? Tell us below.",
+   "tags": [
+    "marriage advice",
+    "relationship mistakes",
+    "love",
+    "life lessons",
+    "elders",
+    "ask the elders",
+    "advice",
+    "wisdom",
+    "shorts"
+   ],
+   "music": "soft piano",
+   "shots": [
+    {
+     "n": 1,
+     "dur": 8,
+     "loc": "farm_fence",
+     "chars": [
+      "e01"
+     ],
+     "keyframe": "an 84-year-old white British farmer, flat cap, tweed jacket, grey stubble, deep laugh lines, looking into the lens. Setting: old wooden fence at the edge of a green field, big sky at golden hour, cattle far in the soft-focus background",
+     "action": "settles in and looks straight into the lens",
+     "camera": "slow push-in from medium to medium close-up",
+     "lines": [
+      {
+       "c": "e01",
+       "t": "I'm eighty-four. Divorced once, happily married once. I know the difference now.",
+       "tone": "warmly, with a knowing half-smile"
+      }
+     ],
+     "sfx": "gentle wind, distant birdsong",
+     "flow_prompt": "Vertical 9:16, hyper-realistic documentary portrait, shot on a 50mm lens, shallow depth of field, natural skin texture with real wrinkles and pores, soft natural light, cinematic colour grade. An 84-year-old white British farmer, flat cap, tweed jacket, grey stubble, deep laugh lines. Setting: old wooden fence at the edge of a green field, big sky at golden hour, cattle far in the soft-focus background. He settles in and looks straight into the lens. Camera: slow push-in from medium to medium close-up. He speaks warmly, with a knowing half-smile, in a gentle Yorkshire accent, saying: \"I'm eighty-four. Divorced once, happily married once. I know the difference now.\" Ambient sound: gentle wind, distant birdsong. No music. No subtitles, no captions, no text on screen."
+    },
+    {
+     "n": 2,
+     "dur": 8,
+     "loc": "kitchen",
+     "chars": [
+      "e06"
+     ],
+     "keyframe": "an 86-year-old Jamaican woman, silver locs tied up, bright yellow blouse, gold hoop earrings, looking into the lens. Setting: warm cluttered home kitchen, morning light through the window, steaming kettle, old patterned tiles",
+     "action": "leans slightly toward the camera",
+     "camera": "static medium close-up, subtle handheld drift",
+     "lines": [
+      {
+       "c": "e06",
+       "t": "I kept score. Who did the dishes, who said sorry first. Keeping score kills love.",
+       "tone": "calmly and firmly, like passing on a rule"
+      }
+     ],
+     "sfx": "kettle simmering, clock ticking",
+     "flow_prompt": "Vertical 9:16, hyper-realistic documentary portrait, shot on a 50mm lens, shallow depth of field, natural skin texture with real wrinkles and pores, soft natural light, cinematic colour grade. An 86-year-old Jamaican woman, silver locs tied up, bright yellow blouse, gold hoop earrings. Setting: warm cluttered home kitchen, morning light through the window, steaming kettle, old patterned tiles. She leans slightly toward the camera. Camera: static medium close-up, subtle handheld drift. She speaks calmly and firmly, like passing on a rule, in a warm Jamaican accent, saying: \"I kept score. Who did the dishes, who said sorry first. Keeping score kills love.\" Ambient sound: kettle simmering, clock ticking. No music. No subtitles, no captions, no text on screen."
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "market",
+     "chars": [
+      "e11"
+     ],
+     "keyframe": "an 89-year-old Ghanaian man, short white hair, smock with kente trim, looking into the lens. Setting: busy outdoor fruit and vegetable market stall, colourful produce, shoppers softly blurred behind",
+     "action": "gives a small wry smile and a slight shake of the head",
+     "camera": "slow push-in on the face",
+     "lines": [
+      {
+       "c": "e11",
+       "t": "Don't complain about your partner to your friends. Talk to your partner.",
+       "tone": "with gentle humour"
+      }
+     ],
+     "sfx": "market chatter, distant vendor calls",
+     "flow_prompt": "Vertical 9:16, hyper-realistic documentary portrait, shot on a 50mm lens, shallow depth of field, natural skin texture with real wrinkles and pores, soft natural light, cinematic colour grade. An 89-year-old Ghanaian man, short white hair, smock with kente trim. Setting: busy outdoor fruit and vegetable market stall, colourful produce, shoppers softly blurred behind. He gives a small wry smile and a slight shake of the head. Camera: slow push-in on the face. He speaks with gentle humour, in a Ghanaian accent, saying: \"Don't complain about your partner to your friends. Talk to your partner.\" Ambient sound: market chatter, distant vendor calls. No music. No subtitles, no captions, no text on screen."
+    },
+    {
+     "n": 4,
+     "dur": 8,
+     "loc": "piano_room",
+     "chars": [
+      "e16"
+     ],
+     "keyframe": "an 87-year-old elegant English woman, pearl necklace, navy cardigan, silver hair set in waves, looking into the lens. Setting: elegant sitting room with an upright piano covered in family photographs, lamp light",
+     "action": "pauses, then speaks slowly",
+     "camera": "static medium shot, gentle handheld drift",
+     "lines": [
+      {
+       "c": "e16",
+       "t": "Keep dating each other. Thursday nights for forty years. We never missed one.",
+       "tone": "earnestly, holding eye contact"
+      }
+     ],
+     "sfx": "quiet room tone",
+     "flow_prompt": "Vertical 9:16, hyper-realistic documentary portrait, shot on a 50mm lens, shallow depth of field, natural skin texture with real wrinkles and pores, soft natural light, cinematic colour grade. An 87-year-old elegant English woman, pearl necklace, navy cardigan, silver hair set in waves. Setting: elegant sitting room with an upright piano covered in family photographs, lamp light. She pauses, then speaks slowly. Camera: static medium shot, gentle handheld drift. She speaks earnestly, holding eye contact, in a refined English accent, saying: \"Keep dating each other. Thursday nights for forty years. We never missed one.\" Ambient sound: quiet room tone. No music. No subtitles, no captions, no text on screen."
+    },
+    {
+     "n": 5,
+     "dur": 8,
+     "loc": "library",
+     "chars": [
+      "e21"
+     ],
+     "keyframe": "a 95-year-old thin white English gentleman, tweed waistcoat, pocket watch chain, looking into the lens. Setting: quiet library corner with tall wooden bookshelves, green reading lamp, dust floating in the light",
+     "action": "takes a breath and holds the gaze after the last word",
+     "camera": "very slow push-in to a close-up, holding on the face at the end",
+     "lines": [
+      {
+       "c": "e21",
+       "t": "Love rarely dies in one big storm. It drips away. So do small things, every day.",
+       "tone": "softly and with quiet emotion, eyes glistening"
+      }
+     ],
+     "sfx": "deep quiet, a page turning",
+     "flow_prompt": "Vertical 9:16, hyper-realistic documentary portrait, shot on a 50mm lens, shallow depth of field, natural skin texture with real wrinkles and pores, soft natural light, cinematic colour grade. A 95-year-old thin white English gentleman, tweed waistcoat, pocket watch chain. Setting: quiet library corner with tall wooden bookshelves, green reading lamp, dust floating in the light. He takes a breath and holds the gaze after the last word. Camera: very slow push-in to a close-up, holding on the face at the end. He speaks softly and with quiet emotion, eyes glistening, in a soft upper-class English accent, saying: \"Love rarely dies in one big storm. It drips away. So do small things, every day.\" Ambient sound: deep quiet, a page turning. No music. No subtitles, no captions, no text on screen."
+    }
+   ],
+   "loop_note": "the last line lands on a held close-up; the next Short opens on a new face"
+  },
+  {
+   "id": "ELD-027",
+   "number": 27,
+   "theme": "regret",
+   "title": "Advice for your 20s from people in their 80s #shorts",
+   "logline": "Regret: Five elders on what they'd want every twenty-something to hear.",
+   "hook_text": "If you're in your 20s, watch",
+   "description": "Five elders on what they'd want every twenty-something to hear. New lesson every day. Which one hit hardest? Tell us below.",
+   "tags": [
+    "20s",
+    "young adults",
+    "advice",
+    "life lessons",
+    "elders",
+    "ask the elders",
+    "advice",
+    "wisdom",
+    "shorts"
+   ],
+   "music": "warm acoustic guitar",
+   "shots": [
+    {
+     "n": 1,
+     "dur": 8,
+     "loc": "garden",
+     "chars": [
+      "e04"
+     ],
+     "keyframe": "a 91-year-old Irish woman, short white curls, floral blouse, gardening gloves, looking into the lens. Setting: lush back garden with roses and vegetable beds, late afternoon sun, watering can nearby",
+     "action": "settles in and looks straight into the lens",
+     "camera": "slow push-in from medium to medium close-up",
+     "lines": [
+      {
+       "c": "e04",
+       "t": "I'm ninety-one. If you're in your twenties, here's what I want you to hear.",
+       "tone": "warmly, with a knowing half-smile"
+      }
+     ],
+     "sfx": "birdsong, bees humming",
+     "flow_prompt": "Vertical 9:16, hyper-realistic documentary portrait, shot on a 50mm lens, shallow depth of field, natural skin texture with real wrinkles and pores, soft natural light, cinematic colour grade. A 91-year-old Irish woman, short white curls, floral blouse, gardening gloves. Setting: lush back garden with roses and vegetable beds, late afternoon sun, watering can nearby. She settles in and looks straight into the lens. Camera: slow push-in from medium to medium close-up. She speaks warmly, with a knowing half-smile, in a soft Irish accent, saying: \"I'm ninety-one. If you're in your twenties, here's what I want you to hear.\" Ambient sound: birdsong, bees humming. No music. No subtitles, no captions, no text on screen."
+    },
+    {
+     "n": 2,
+     "dur": 8,
+     "loc": "workshop",
+     "chars": [
+      "e09"
+     ],
+     "keyframe": "an 80-year-old Italian craftsman, white hair swept back, waistcoat, rolled-up shirt sleeves, looking into the lens. Setting: woodworking shed with hand tools hanging on the wall, sawdust floating in a warm lamp beam",
+     "action": "leans slightly toward the camera",
+     "camera": "static medium close-up, subtle handheld drift",
+     "lines": [
+      {
+       "c": "e09",
+       "t": "Your twenties are for collecting experiences, not things. Be broke somewhere beautiful.",
+       "tone": "calmly and firmly, like passing on a rule"
+      }
+     ],
+     "sfx": "quiet room tone, faint radio far away",
+     "flow_prompt": "Vertical 9:16, hyper-realistic documentary portrait, shot on a 50mm lens, shallow depth of field, natural skin texture with real wrinkles and pores, soft natural light, cinematic colour grade. An 80-year-old Italian craftsman, white hair swept back, waistcoat, rolled-up shirt sleeves. Setting: woodworking shed with hand tools hanging on the wall, sawdust floating in a warm lamp beam. He leans slightly toward the camera. Camera: static medium close-up, subtle handheld drift. He speaks calmly and firmly, like passing on a rule, in an Italian accent, saying: \"Your twenties are for collecting experiences, not things. Be broke somewhere beautiful.\" Ambient sound: quiet room tone, faint radio far away. No music. No subtitles, no captions, no text on screen."
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "living_room",
+     "chars": [
+      "e14"
+     ],
+     "keyframe": "a 90-year-old Indian woman, cream saree, long silver braid, looking into the lens. Setting: cosy living room armchair, knitted blanket, framed family photos on the wall, warm lamp light",
+     "action": "gives a small wry smile and a slight shake of the head",
+     "camera": "slow push-in on the face",
+     "lines": [
+      {
+       "c": "e14",
+       "t": "Don't marry out of fear of being alone. Lonely and married is the loneliest place.",
+       "tone": "with gentle humour"
+      }
+     ],
+     "sfx": "quiet room tone, clock ticking",
+     "flow_prompt": "Vertical 9:16, hyper-realistic documentary portrait, shot on a 50mm lens, shallow depth of field, natural skin texture with real wrinkles and pores, soft natural light, cinematic colour grade. A 90-year-old Indian woman, cream saree, long silver braid. Setting: cosy living room armchair, knitted blanket, framed family photos on the wall, warm lamp light. She gives a small wry smile and a slight shake of the head. Camera: slow push-in on the face. She speaks with gentle humour, in an Indian accent, saying: \"Don't marry out of fear of being alone. Lonely and married is the loneliest place.\" Ambient sound: quiet room tone, clock ticking. No music. No subtitles, no captions, no text on screen."
+    },
+    {
+     "n": 4,
+     "dur": 8,
+     "loc": "harbour",
+     "chars": [
+      "e19"
+     ],
+     "keyframe": "an 84-year-old Greek man, white curly hair, white linen shirt, worry beads in hand, looking into the lens. Setting: small wooden fishing boat moored in a sunny Mediterranean harbour, nets, white houses behind",
+     "action": "pauses, then speaks slowly",
+     "camera": "static medium shot, gentle handheld drift",
+     "lines": [
+      {
+       "c": "e19",
+       "t": "Save a little, even tiny amounts. Future you is a real person. Be kind to them.",
+       "tone": "earnestly, holding eye contact"
+      }
+     ],
+     "sfx": "gulls, water lapping",
+     "flow_prompt": "Vertical 9:16, hyper-realistic documentary portrait, shot on a 50mm lens, shallow depth of field, natural skin texture with real wrinkles and pores, soft natural light, cinematic colour grade. An 84-year-old Greek man, white curly hair, white linen shirt, worry beads in hand. Setting: small wooden fishing boat moored in a sunny Mediterranean harbour, nets, white houses behind. He pauses, then speaks slowly. Camera: static medium shot, gentle handheld drift. He speaks earnestly, holding eye contact, in a Greek accent, saying: \"Save a little, even tiny amounts. Future you is a real person. Be kind to them.\" Ambient sound: gulls, water lapping. No music. No subtitles, no captions, no text on screen."
+    },
+    {
+     "n": 5,
+     "dur": 8,
+     "loc": "porch",
+     "chars": [
+      "e24"
+     ],
+     "keyframe": "a 79-year-old African American woman, silver twist-out hair, silk scarf, looking into the lens. Setting: wooden front porch of a weathered white house at golden hour, rocking chair, porch swing, fields behind",
+     "action": "takes a breath and holds the gaze after the last word",
+     "camera": "very slow push-in to a close-up, holding on the face at the end",
+     "lines": [
+      {
+       "c": "e24",
+       "t": "And call your grandparents. We have stories you'll wish you'd heard.",
+       "tone": "softly and with quiet emotion, eyes glistening"
+      }
+     ],
+     "sfx": "crickets, creak of the rocking chair",
+     "flow_prompt": "Vertical 9:16, hyper-realistic documentary portrait, shot on a 50mm lens, shallow depth of field, natural skin texture with real wrinkles and pores, soft natural light, cinematic colour grade. A 79-year-old African American woman, silver twist-out hair, silk scarf. Setting: wooden front porch of a weathered white house at golden hour, rocking chair, porch swing, fields behind. She takes a breath and holds the gaze after the last word. Camera: very slow push-in to a close-up, holding on the face at the end. She speaks softly and with quiet emotion, eyes glistening, in a warm Southern American accent, saying: \"And call your grandparents. We have stories you'll wish you'd heard.\" Ambient sound: crickets, creak of the rocking chair. No music. No subtitles, no captions, no text on screen."
+    }
+   ],
+   "loop_note": "the last line lands on a held close-up; the next Short opens on a new face"
+  },
+  {
+   "id": "ELD-028",
+   "number": 28,
+   "theme": "work",
+   "title": "What 40 years of managing people taught them #shorts",
+   "logline": "Work: Five elders who led teams for decades on what makes people follow you.",
+   "hook_text": "Every boss needs to hear this",
+   "description": "Five elders who led teams for decades on what makes people follow you. New lesson every day. Which one hit hardest? Tell us below.",
+   "tags": [
+    "leadership",
+    "management",
+    "boss",
+    "life lessons",
+    "elders",
+    "ask the elders",
+    "advice",
+    "wisdom",
+    "shorts"
+   ],
+   "music": "gentle strings",
+   "shots": [
+    {
+     "n": 1,
+     "dur": 8,
+     "loc": "fishing_dock",
+     "chars": [
+      "e07"
+     ],
+     "keyframe": "a 77-year-old Scottish fisherman, full white beard, cream wool fisherman's jumper, looking into the lens. Setting: wooden fishing jetty at dawn, mist drifting over a calm loch, small rowing boat tied up",
+     "action": "settles in and looks straight into the lens",
+     "camera": "slow push-in from medium to medium close-up",
+     "lines": [
+      {
+       "c": "e07",
+       "t": "I'm seventy-seven. I managed hundreds of people. These lessons took me forty years.",
+       "tone": "warmly, with a knowing half-smile"
+      }
+     ],
+     "sfx": "water lapping, a distant gull",
+     "flow_prompt": "Vertical 9:16, hyper-realistic documentary portrait, shot on a 50mm lens, shallow depth of field, natural skin texture with real wrinkles and pores, soft natural light, cinematic colour grade. A 77-year-old Scottish fisherman, full white beard, cream wool fisherman's jumper. Setting: wooden fishing jetty at dawn, mist drifting over a calm loch, small rowing boat tied up. He settles in and looks straight into the lens. Camera: slow push-in from medium to medium close-up. He speaks warmly, with a knowing half-smile, in a Scottish accent, saying: \"I'm seventy-seven. I managed hundreds of people. These lessons took me forty years.\" Ambient sound: water lapping, a distant gull. No music. No subtitles, no captions, no text on screen."
+    },
+    {
+     "n": 2,
+     "dur": 8,
+     "loc": "park_bench",
+     "chars": [
+      "e12"
+     ],
+     "keyframe": "a 78-year-old Chinese woman, short grey hair, jade bracelet, quilted jacket, looking into the lens. Setting: park bench under golden autumn trees, leaves drifting down, soft afternoon light",
+     "action": "leans slightly toward the camera",
+     "camera": "static medium close-up, subtle handheld drift",
+     "lines": [
+      {
+       "c": "e12",
+       "t": "Praise in public. Correct in private. Never the other way round.",
+       "tone": "calmly and firmly, like passing on a rule"
+      }
+     ],
+     "sfx": "leaves rustling, distant children",
+     "flow_prompt": "Vertical 9:16, hyper-realistic documentary portrait, shot on a 50mm lens, shallow depth of field, natural skin texture with real wrinkles and pores, soft natural light, cinematic colour grade. A 78-year-old Chinese woman, short grey hair, jade bracelet, quilted jacket. Setting: park bench under golden autumn trees, leaves drifting down, soft afternoon light. She leans slightly toward the camera. Camera: static medium close-up, subtle handheld drift. She speaks calmly and firmly, like passing on a rule, in gentle Chinese-accented English, saying: \"Praise in public. Correct in private. Never the other way round.\" Ambient sound: leaves rustling, distant children. No music. No subtitles, no captions, no text on screen."
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "barbershop",
+     "chars": [
+      "e17"
+     ],
+     "keyframe": "a 92-year-old Black British Caribbean gentleman, trilby hat, smart grey suit jacket, looking into the lens. Setting: old-fashioned barbershop with leather chairs and long mirrors, warm tungsten light",
+     "action": "gives a small wry smile and a slight shake of the head",
+     "camera": "slow push-in on the face",
+     "lines": [
+      {
+       "c": "e17",
+       "t": "People rarely quit jobs. They quit the person they report to.",
+       "tone": "with gentle humour"
+      }
+     ],
+     "sfx": "soft radio, scissors snipping in the background",
+     "flow_prompt": "Vertical 9:16, hyper-realistic documentary portrait, shot on a 50mm lens, shallow depth of field, natural skin texture with real wrinkles and pores, soft natural light, cinematic colour grade. A 92-year-old Black British Caribbean gentleman, trilby hat, smart grey suit jacket. Setting: old-fashioned barbershop with leather chairs and long mirrors, warm tungsten light. He gives a small wry smile and a slight shake of the head. Camera: slow push-in on the face. He speaks with gentle humour, in a London Caribbean accent, saying: \"People rarely quit jobs. They quit the person they report to.\" Ambient sound: soft radio, scissors snipping in the background. No music. No subtitles, no captions, no text on screen."
+    },
+    {
+     "n": 4,
+     "dur": 8,
+     "loc": "garden",
+     "chars": [
+      "e22"
+     ],
+     "keyframe": "an 82-year-old Kenyan woman, short grey afro, beaded necklace, knitted shawl, looking into the lens. Setting: lush back garden with roses and vegetable beds, late afternoon sun, watering can nearby",
+     "action": "pauses, then speaks slowly",
+     "camera": "static medium shot, gentle handheld drift",
+     "lines": [
+      {
+       "c": "e22",
+       "t": "Admit when you don't know. People trust a leader who can say that.",
+       "tone": "earnestly, holding eye contact"
+      }
+     ],
+     "sfx": "birdsong, bees humming",
+     "flow_prompt": "Vertical 9:16, hyper-realistic documentary portrait, shot on a 50mm lens, shallow depth of field, natural skin texture with real wrinkles and pores, soft natural light, cinematic colour grade. An 82-year-old Kenyan woman, short grey afro, beaded necklace, knitted shawl. Setting: lush back garden with roses and vegetable beds, late afternoon sun, watering can nearby. She pauses, then speaks slowly. Camera: static medium shot, gentle handheld drift. She speaks earnestly, holding eye contact, in a Kenyan accent, saying: \"Admit when you don't know. People trust a leader who can say that.\" Ambient sound: birdsong, bees humming. No music. No subtitles, no captions, no text on screen."
+    },
+    {
+     "n": 5,
+     "dur": 8,
+     "loc": "veranda",
+     "chars": [
+      "e02"
+     ],
+     "keyframe": "a 79-year-old Nigerian grandmother, colourful ankara headwrap and matching dress, warm round face, looking into the lens. Setting: shaded veranda of a family house with a mango tree, warm tropical afternoon light, patterned cushions",
+     "action": "takes a breath and holds the gaze after the last word",
+     "camera": "very slow push-in to a close-up, holding on the face at the end",
+     "lines": [
+      {
+       "c": "e02",
+       "t": "Remember birthdays. Remember their children's names. Small things build loyalty.",
+       "tone": "softly and with quiet emotion, eyes glistening"
+      }
+     ],
+     "sfx": "cicadas, distant children playing",
+     "flow_prompt": "Vertical 9:16, hyper-realistic documentary portrait, shot on a 50mm lens, shallow depth of field, natural skin texture with real wrinkles and pores, soft natural light, cinematic colour grade. A 79-year-old Nigerian grandmother, colourful ankara headwrap and matching dress, warm round face. Setting: shaded veranda of a family house with a mango tree, warm tropical afternoon light, patterned cushions. She takes a breath and holds the gaze after the last word. Camera: very slow push-in to a close-up, holding on the face at the end. She speaks softly and with quiet emotion, eyes glistening, in a warm Nigerian accent, saying: \"Remember birthdays. Remember their children's names. Small things build loyalty.\" Ambient sound: cicadas, distant children playing. No music. No subtitles, no captions, no text on screen."
+    }
+   ],
+   "loop_note": "the last line lands on a held close-up; the next Short opens on a new face"
+  },
+  {
+   "id": "ELD-029",
+   "number": 29,
+   "theme": "health",
+   "title": "What they'd tell their 25-year-old body #shorts",
+   "logline": "Health: Five elders on what they'd tell their younger body.",
+   "hook_text": "Dear 25-year-old me...",
+   "description": "Five elders on what they'd tell their younger body. New lesson every day. Which one hit hardest? Tell us below.",
+   "tags": [
+    "health tips",
+    "aging",
+    "self care",
+    "life lessons",
+    "elders",
+    "ask the elders",
+    "advice",
+    "wisdom",
+    "shorts"
+   ],
+   "music": "soft piano",
+   "shots": [
+    {
+     "n": 1,
+     "dur": 8,
+     "loc": "diner",
+     "chars": [
+      "e10"
+     ],
+     "keyframe": "an 85-year-old white American woman, silver bob, denim shirt, turquoise necklace, looking into the lens. Setting: old roadside diner booth by the window, mug of coffee, soft neon blur behind",
+     "action": "settles in and looks straight into the lens",
+     "camera": "slow push-in from medium to medium close-up",
+     "lines": [
+      {
+       "c": "e10",
+       "t": "I'm eighty-five. Here's what I'd tell my body at twenty-five.",
+       "tone": "warmly, with a knowing half-smile"
+      }
+     ],
+     "sfx": "low diner chatter, cutlery clinks",
+     "flow_prompt": "Vertical 9:16, hyper-realistic documentary portrait, shot on a 50mm lens, shallow depth of field, natural skin texture with real wrinkles and pores, soft natural light, cinematic colour grade. An 85-year-old white American woman, silver bob, denim shirt, turquoise necklace. Setting: old roadside diner booth by the window, mug of coffee, soft neon blur behind. She settles in and looks straight into the lens. Camera: slow push-in from medium to medium close-up. She speaks warmly, with a knowing half-smile, in a Midwestern American accent, saying: \"I'm eighty-five. Here's what I'd tell my body at twenty-five.\" Ambient sound: low diner chatter, cutlery clinks. No music. No subtitles, no captions, no text on screen."
+    },
+    {
+     "n": 2,
+     "dur": 8,
+     "loc": "beach",
+     "chars": [
+      "e15"
+     ],
+     "keyframe": "an 81-year-old Mexican man, straw hat, white moustache, checked shirt, looking into the lens. Setting: seaside promenade at sunset, gentle waves behind, wind moving the hair slightly",
+     "action": "leans slightly toward the camera",
+     "camera": "static medium close-up, subtle handheld drift",
+     "lines": [
+      {
+       "c": "e15",
+       "t": "Wear sunscreen. My face tells the story of every summer I ignored it.",
+       "tone": "calmly and firmly, like passing on a rule"
+      }
+     ],
+     "sfx": "waves, gentle wind",
+     "flow_prompt": "Vertical 9:16, hyper-realistic documentary portrait, shot on a 50mm lens, shallow depth of field, natural skin texture with real wrinkles and pores, soft natural light, cinematic colour grade. An 81-year-old Mexican man, straw hat, white moustache, checked shirt. Setting: seaside promenade at sunset, gentle waves behind, wind moving the hair slightly. He leans slightly toward the camera. Camera: static medium close-up, subtle handheld drift. He speaks calmly and firmly, like passing on a rule, in a Mexican accent, saying: \"Wear sunscreen. My face tells the story of every summer I ignored it.\" Ambient sound: waves, gentle wind. No music. No subtitles, no captions, no text on screen."
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "veranda",
+     "chars": [
+      "e20"
+     ],
+     "keyframe": "an 80-year-old Filipino woman, short black-and-grey hair, floral dress, looking into the lens. Setting: shaded veranda of a family house with a mango tree, warm tropical afternoon light, patterned cushions",
+     "action": "gives a small wry smile and a slight shake of the head",
+     "camera": "slow push-in on the face",
+     "lines": [
+      {
+       "c": "e20",
+       "t": "Do something to keep your legs strong. Strong legs keep you independent.",
+       "tone": "with gentle humour"
+      }
+     ],
+     "sfx": "cicadas, distant children playing",
+     "flow_prompt": "Vertical 9:16, hyper-realistic documentary portrait, shot on a 50mm lens, shallow depth of field, natural skin texture with real wrinkles and pores, soft natural light, cinematic colour grade. An 80-year-old Filipino woman, short black-and-grey hair, floral dress. Setting: shaded veranda of a family house with a mango tree, warm tropical afternoon light, patterned cushions. She gives a small wry smile and a slight shake of the head. Camera: slow push-in on the face. She speaks with gentle humour, in a Filipino accent, saying: \"Do something to keep your legs strong. Strong legs keep you independent.\" Ambient sound: cicadas, distant children playing. No music. No subtitles, no captions, no text on screen."
+    },
+    {
+     "n": 4,
+     "dur": 8,
+     "loc": "window_rain",
+     "chars": [
+      "e25"
+     ],
+     "keyframe": "an 88-year-old Irish man, tweed flat cap, worn wool coat, looking into the lens. Setting: armchair beside a large window with rain running down the glass, soft grey light, cup of tea on the sill",
+     "action": "pauses, then speaks slowly",
+     "camera": "static medium shot, gentle handheld drift",
+     "lines": [
+      {
+       "c": "e25",
+       "t": "Protect your hearing. I miss my granddaughter's whispers now.",
+       "tone": "earnestly, holding eye contact"
+      }
+     ],
+     "sfx": "rain on the window",
+     "flow_prompt": "Vertical 9:16, hyper-realistic documentary portrait, shot on a 50mm lens, shallow depth of field, natural skin texture with real wrinkles and pores, soft natural light, cinematic colour grade. An 88-year-old Irish man, tweed flat cap, worn wool coat. Setting: armchair beside a large window with rain running down the glass, soft grey light, cup of tea on the sill. He pauses, then speaks slowly. Camera: static medium shot, gentle handheld drift. He speaks earnestly, holding eye contact, in an Irish accent, saying: \"Protect your hearing. I miss my granddaughter's whispers now.\" Ambient sound: rain on the window. No music. No subtitles, no captions, no text on screen."
+    },
+    {
+     "n": 5,
+     "dur": 8,
+     "loc": "city_balcony",
+     "chars": [
+      "e05"
+     ],
+     "keyframe": "an 82-year-old Indian man, white kurta, thin wire glasses, grey moustache, looking into the lens. Setting: small apartment balcony crowded with potted plants overlooking a city at dusk, warm window light behind",
+     "action": "takes a breath and holds the gaze after the last word",
+     "camera": "very slow push-in to a close-up, holding on the face at the end",
+     "lines": [
+      {
+       "c": "e05",
+       "t": "Drink water, go to bed, and stop smoking. Today. Not Monday. Today.",
+       "tone": "softly and with quiet emotion, eyes glistening"
+      }
+     ],
+     "sfx": "soft distant city traffic",
+     "flow_prompt": "Vertical 9:16, hyper-realistic documentary portrait, shot on a 50mm lens, shallow depth of field, natural skin texture with real wrinkles and pores, soft natural light, cinematic colour grade. An 82-year-old Indian man, white kurta, thin wire glasses, grey moustache. Setting: small apartment balcony crowded with potted plants overlooking a city at dusk, warm window light behind. He takes a breath and holds the gaze after the last word. Camera: very slow push-in to a close-up, holding on the face at the end. He speaks softly and with quiet emotion, eyes glistening, in a gentle Indian accent, saying: \"Drink water, go to bed, and stop smoking. Today. Not Monday. Today.\" Ambient sound: soft distant city traffic. No music. No subtitles, no captions, no text on screen."
+    }
+   ],
+   "loop_note": "the last line lands on a held close-up; the next Short opens on a new face"
+  },
+  {
+   "id": "ELD-030",
+   "number": 30,
+   "theme": "meaning",
+   "title": "If they could give you only one lesson #shorts",
+   "logline": "Meaning: Five elders, one question: if you could pass on just one lesson, what would it be?",
+   "hook_text": "The one lesson that matters most",
+   "description": "Five elders, one question: if you could pass on just one lesson, what would it be? New lesson every day. Which one hit hardest? Tell us below.",
+   "tags": [
+    "meaning of life",
+    "what matters",
+    "life lessons",
+    "elders",
+    "emotional",
+    "ask the elders",
+    "advice",
+    "wisdom",
+    "shorts"
+   ],
+   "music": "ambient pads",
+   "shots": [
+    {
+     "n": 1,
+     "dur": 8,
+     "loc": "allotment",
+     "chars": [
+      "e13"
+     ],
+     "keyframe": "an 83-year-old Welsh man, bald with white hair at the sides, knitted cardigan, looking into the lens. Setting: allotment plot with a small green shed, cabbages and runner beans, overcast English sky",
+     "action": "settles in and looks straight into the lens",
+     "camera": "slow push-in from medium to medium close-up",
+     "lines": [
+      {
+       "c": "e13",
+       "t": "I'm eighty-three. If I could give you only one lesson, it would be this.",
+       "tone": "warmly, with a knowing half-smile"
+      }
+     ],
+     "sfx": "wind, a robin singing",
+     "flow_prompt": "Vertical 9:16, hyper-realistic documentary portrait, shot on a 50mm lens, shallow depth of field, natural skin texture with real wrinkles and pores, soft natural light, cinematic colour grade. An 83-year-old Welsh man, bald with white hair at the sides, knitted cardigan. Setting: allotment plot with a small green shed, cabbages and runner beans, overcast English sky. He settles in and looks straight into the lens. Camera: slow push-in from medium to medium close-up. He speaks warmly, with a knowing half-smile, in a Welsh accent, saying: \"I'm eighty-three. If I could give you only one lesson, it would be this.\" Ambient sound: wind, a robin singing. No music. No subtitles, no captions, no text on screen."
+    },
+    {
+     "n": 2,
+     "dur": 8,
+     "loc": "window_rain",
+     "chars": [
+      "e18"
+     ],
+     "keyframe": "a 76-year-old Polish woman, patterned headscarf, knitted shawl, looking into the lens. Setting: armchair beside a large window with rain running down the glass, soft grey light, cup of tea on the sill",
+     "action": "leans slightly toward the camera",
+     "camera": "static medium close-up, subtle handheld drift",
+     "lines": [
+      {
+       "c": "e18",
+       "t": "At the end, nobody asks for their bank statement. They ask for their people.",
+       "tone": "calmly and firmly, like passing on a rule"
+      }
+     ],
+     "sfx": "rain on the window",
+     "flow_prompt": "Vertical 9:16, hyper-realistic documentary portrait, shot on a 50mm lens, shallow depth of field, natural skin texture with real wrinkles and pores, soft natural light, cinematic colour grade. A 76-year-old Polish woman, patterned headscarf, knitted shawl. Setting: armchair beside a large window with rain running down the glass, soft grey light, cup of tea on the sill. She leans slightly toward the camera. Camera: static medium close-up, subtle handheld drift. She speaks calmly and firmly, like passing on a rule, in a Polish accent, saying: \"At the end, nobody asks for their bank statement. They ask for their people.\" Ambient sound: rain on the window. No music. No subtitles, no captions, no text on screen."
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "city_balcony",
+     "chars": [
+      "e23"
+     ],
+     "keyframe": "an 86-year-old Pakistani man, neat white beard, grey waistcoat over a shalwar kameez, looking into the lens. Setting: small apartment balcony crowded with potted plants overlooking a city at dusk, warm window light behind",
+     "action": "gives a small wry smile and a slight shake of the head",
+     "camera": "slow push-in on the face",
+     "lines": [
+      {
+       "c": "e23",
+       "t": "Every room I ever loved, it was the people in it, not the room.",
+       "tone": "with gentle humour"
+      }
+     ],
+     "sfx": "soft distant city traffic",
+     "flow_prompt": "Vertical 9:16, hyper-realistic documentary portrait, shot on a 50mm lens, shallow depth of field, natural skin texture with real wrinkles and pores, soft natural light, cinematic colour grade. An 86-year-old Pakistani man, neat white beard, grey waistcoat over a shalwar kameez. Setting: small apartment balcony crowded with potted plants overlooking a city at dusk, warm window light behind. He gives a small wry smile and a slight shake of the head. Camera: slow push-in on the face. He speaks with gentle humour, in a Pakistani accent, saying: \"Every room I ever loved, it was the people in it, not the room.\" Ambient sound: soft distant city traffic. No music. No subtitles, no captions, no text on screen."
+    },
+    {
+     "n": 4,
+     "dur": 8,
+     "loc": "porch",
+     "chars": [
+      "e03"
+     ],
+     "keyframe": "an 88-year-old Black American man, neat silver beard, brown cardigan, reading glasses on a chain, looking into the lens. Setting: wooden front porch of a weathered white house at golden hour, rocking chair, porch swing, fields behind",
+     "action": "pauses, then speaks slowly",
+     "camera": "static medium shot, gentle handheld drift",
+     "lines": [
+      {
+       "c": "e03",
+       "t": "So hug longer. Stay for one more cup of tea. Say what you mean.",
+       "tone": "earnestly, holding eye contact"
+      }
+     ],
+     "sfx": "crickets, creak of the rocking chair",
+     "flow_prompt": "Vertical 9:16, hyper-realistic documentary portrait, shot on a 50mm lens, shallow depth of field, natural skin texture with real wrinkles and pores, soft natural light, cinematic colour grade. An 88-year-old Black American man, neat silver beard, brown cardigan, reading glasses on a chain. Setting: wooden front porch of a weathered white house at golden hour, rocking chair, porch swing, fields behind. He pauses, then speaks slowly. Camera: static medium shot, gentle handheld drift. He speaks earnestly, holding eye contact, in a slow Southern American drawl, saying: \"So hug longer. Stay for one more cup of tea. Say what you mean.\" Ambient sound: crickets, creak of the rocking chair. No music. No subtitles, no captions, no text on screen."
+    },
+    {
+     "n": 5,
+     "dur": 8,
+     "loc": "tea_house",
+     "chars": [
+      "e08"
+     ],
+     "keyframe": "a 93-year-old Japanese woman, silver hair in a neat bun, simple grey cardigan, looking into the lens. Setting: small traditional tea house with low wooden tables, paper screens, steam rising from a clay teapot",
+     "action": "takes a breath and holds the gaze after the last word",
+     "camera": "very slow push-in to a close-up, holding on the face at the end",
+     "lines": [
+      {
+       "c": "e08",
+       "t": "Because one day, this ordinary Tuesday will be the good old days.",
+       "tone": "softly and with quiet emotion, eyes glistening"
+      }
+     ],
+     "sfx": "quiet room tone, tea being poured",
+     "flow_prompt": "Vertical 9:16, hyper-realistic documentary portrait, shot on a 50mm lens, shallow depth of field, natural skin texture with real wrinkles and pores, soft natural light, cinematic colour grade. A 93-year-old Japanese woman, silver hair in a neat bun, simple grey cardigan. Setting: small traditional tea house with low wooden tables, paper screens, steam rising from a clay teapot. She takes a breath and holds the gaze after the last word. Camera: very slow push-in to a close-up, holding on the face at the end. She speaks softly and with quiet emotion, eyes glistening, in soft Japanese-accented English, saying: \"Because one day, this ordinary Tuesday will be the good old days.\" Ambient sound: quiet room tone, tea being poured. No music. No subtitles, no captions, no text on screen."
+    }
+   ],
+   "loop_note": "the last line lands on a held close-up; the next Short opens on a new face"
+  }
+ ]
+}

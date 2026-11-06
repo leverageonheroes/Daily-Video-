@@ -1,6 +1,6 @@
 # Shorts Studio — instructions for Claude Code
 
-This repo runs two YouTube Shorts channels. Read this file first in every session.
+This repo runs four YouTube Shorts channels (three rendered by paid APIs, one from free Google Flow clips). Read this file first in every session.
 Everything you need to resume is on disk: never rely on chat memory.
 
 | Channel | Folder | Show | Format |
@@ -8,6 +8,7 @@ Everything you need to resume is on disk: never rely on chat memory.
 | 1 | `channels/flat4b/` | **Flat 4B** — four animal flatmates in London | Standalone sitcom gag, 30–50 s, punchline in last shot |
 | 2 | `channels/coldhearts/` | **Fridge Hearts** — a soap opera inside a fridge | Melodramatic micro-soap, 60–85 s, cliffhanger ending |
 | 3 | `channels/drizzlepudge/` | **Drizzle & Pudge** — a baby rain cloud and her hedgehog best friend | Wordless kids cartoon, 30–45 s, ends with the Puddle Jump |
+| 4 | `channels/elders/` | **Ask The Elders** — realistic AI elders, one life lesson each | 5 elders × 8 s = 40 s, one theme per Short. **Google Flow channel** (see below) |
 
 Channels 1–2 are **general audience, NOT "made for kids"**. Keep humour clean (no swearing,
 sexual content, gore, cruelty, real brands, real people, or copyrighted characters).
@@ -112,3 +113,23 @@ Video provider: `VIDEO_PROVIDER=ltx` (Lightricks API, pipeline/ltx_api.py, 720x1
 
 If a clip comes back broken (wrong character, garbled mouth), retry that shot once with a new seed,
 then mark the episode `failed` with a note instead of publishing a bad video.
+
+## Google Flow channel: Ask The Elders (`"source": "flow"` in channel.json)
+
+No paid API is ever called for this channel; `daily` skips it. The human makes the clips with the free
+50 daily Google Flow credits (5 × Veo 3.1 Lite, 8 s, 9:16, 1 output per prompt).
+
+1. `flow-prompts.yml` (05:41 UTC) runs `python -m pipeline.run flow-prompts` → `inbox/elders/PROMPTS.md`
+   and a GitHub issue labelled `flow-clips` with the 5 prompts.
+2. The human uploads the 5 clips to `inbox/elders/` (named 1–5, or one at a time in order).
+3. `flow-import.yml` runs on every upload: `python -m pipeline.run flow-import` waits until 5 clips exist,
+   orders them (file-name number > git upload order > alphabetical), assembles with captions/hook/music,
+   stores clean.mp4 in Releases, uploads (secret `YT_TOKEN_ELDERS`), deletes the clips, closes the issue.
+4. Weekly/monthly compilations include it like any other channel.
+
+Writing the next Ask The Elders batch: edit/extend `tools/generators/build_elders_001-030.py` (copy it to
+`build_elders_031-060.py`): every line ≤ 18 words, line 1 states the age ("I'm {age}. ...") and promises the
+theme, line 5 is the emotional closer, 5 different elders per episode, original lines (no famous quotes),
+no specific investment/medical/legal advice. Every shot needs a `flow_prompt` that contains the exact spoken
+line (the validator checks this, because captions are burned from `lines`). Never name the elders or claim
+they are real people.
