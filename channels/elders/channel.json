@@ -273,6 +273,24 @@
     "hook": true,
     "captions": true
   },
+  "end_card": {
+    "enabled": true,
+    "seconds": 4,
+    "image": "assets/elders/endcard.png",
+    "logo": "assets/elders/logo.png",
+    "cta": "LIKE, SHARE AND SUBSCRIBE TO",
+    "name": "ASK THE ELDERS TV",
+    "sub": "TO LEARN DAILY WISDOM FROM PEOPLE THAT LIVED IT",
+    "handle": "ASK THE ELDERS TV",
+    "initials": "ATE",
+    "colors": {
+      "bg_top": "#2a1608",
+      "bg_bottom": "#0d0704",
+      "accent": "#e8b04b",
+      "text": "#fff6e6"
+    },
+    "_note": "Shorts only (not compilations). Edit text/colours here, then: python tools/make_endcard.py elders"
+  },
   "flow": {
     "model": "Veo 3.1 Lite",
     "aspect": "9:16",

@@ -103,6 +103,23 @@ def find_music(mood: str):
     return None
 
 
+def end_card(bible: dict | None, workdir: Path):
+    """Render channel.json `end_card` (a still PNG) as a short clip with a fade-in, or None if not configured."""
+    cfg = (bible or {}).get("end_card") or {}
+    img = config.ROOT / cfg.get("image", "")
+    if not cfg.get("enabled") or not cfg.get("image") or not img.is_file():
+        return None, 0
+    sec = float(cfg.get("seconds", 4))
+    out = workdir / "endcard.mp4"
+    _run(["ffmpeg", "-y", "-loglevel", "error", "-loop", "1", "-framerate", str(FPS), "-i", str(img.resolve()),
+          "-f", "lavfi", "-i", "anullsrc=r=48000:cl=stereo",
+          "-vf", f"scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},setsar=1,"
+                 f"fade=t=in:st=0:d=0.5,format=yuv420p",
+          "-t", str(sec), "-c:v", "libx264", "-preset", "veryfast", "-crf", "18", "-r", str(FPS),
+          "-c:a", "aac", "-ar", "48000", "-ac", "2", "-b:a", "192k", str(out)])
+    return out, sec
+
+
 def assemble(episode: dict, clips: list, workdir: Path, bible: dict | None = None) -> Path:
     ov = (bible or {}).get("overlays", {})
     show_hook, show_caps = ov.get("hook", True), ov.get("captions", True)
@@ -118,20 +135,28 @@ def assemble(episode: dict, clips: list, workdir: Path, bible: dict | None = Non
     build_ass(episode, workdir / "captions_clean.ass", hook=False, captions=show_caps)
 
     total = sum(s["dur"] for s in episode["shots"])
+    # The end card goes on the Short only; clean.mp4 (compilations) stays without it.
+    card, card_sec = end_card(bible, workdir)
+    if card:
+        (workdir / "concat_card.txt").write_text("file 'base.mp4'\nfile 'endcard.mp4'\n")
+        _run(["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", "concat_card.txt",
+              "-c", "copy", "base_card.mp4"], cwd=workdir)
     music = find_music(episode.get("music", ""))
     loud = f"loudnorm=I={config.TARGET_LUFS}:TP=-1.5:LRA=11"
     # final.mp4 = the Short (with hook text); clean.mp4 = same without hook, used for long compilations
-    for ass, out in (("captions.ass", "final.mp4"), ("captions_clean.ass", "clean.mp4")):
-        cmd = ["ffmpeg", "-y", "-loglevel", "error", "-i", "base.mp4"]
+    jobs = [("captions.ass", "final.mp4", "base_card.mp4" if card else "base.mp4", total + card_sec),
+            ("captions_clean.ass", "clean.mp4", "base.mp4", total)]
+    for ass, out, src, length in jobs:
+        cmd = ["ffmpeg", "-y", "-loglevel", "error", "-i", src]
         has_text = "Dialogue:" in (workdir / ass).read_text(encoding="utf-8")
         vf = f"[0:v]subtitles={ass}[v]" if has_text else "[0:v]null[v]"
         if music:
             cmd += ["-stream_loop", "-1", "-i", str(music.resolve())]
-            af = (f"[1:a]volume={config.MUSIC_VOLUME},afade=t=out:st={total - 1.5}:d=1.5[m];"
+            af = (f"[1:a]volume={config.MUSIC_VOLUME},afade=t=out:st={length - 1.5}:d=1.5[m];"
                   f"[0:a][m]amix=inputs=2:duration=first:dropout_transition=0:normalize=0,{loud}[a]")
         else:
             af = f"[0:a]{loud}[a]"
-        cmd += ["-filter_complex", f"{vf};{af}", "-map", "[v]", "-map", "[a]", "-t", str(total),
+        cmd += ["-filter_complex", f"{vf};{af}", "-map", "[v]", "-map", "[a]", "-t", str(length),
                 "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", "-pix_fmt", "yuv420p",
                 "-c:a", "aac", "-b:a", "192k", "-ar", "48000", "-movflags", "+faststart", out]
         _run(cmd, cwd=workdir)
@@ -143,10 +168,11 @@ def assemble(episode: dict, clips: list, workdir: Path, bible: dict | None = Non
         "made_for_kids": bool((bible or {}).get("made_for_kids", False)),
         "tags": episode["tags"][:15],
         "music": str(music.name) if music else None,
-        "seconds": total,
+        "seconds": total + card_sec,
     }
     (workdir / "metadata.json").write_text(json.dumps(meta, indent=2))
     for n in norm:
         n.unlink(missing_ok=True)
-    (workdir / "base.mp4").unlink(missing_ok=True)
+    for tmp in ("base.mp4", "base_card.mp4", "endcard.mp4", "concat_card.txt"):
+        (workdir / tmp).unlink(missing_ok=True)
     return workdir / "final.mp4"

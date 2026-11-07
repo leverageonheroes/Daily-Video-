@@ -128,6 +128,10 @@ No paid API is ever called for this channel; `daily` skips it. The human makes t
    stores clean.mp4 in Releases, uploads (secret `YT_TOKEN_ELDERS`), deletes the clips, closes the issue.
 4. Weekly/monthly compilations include it like any other channel.
 
+End card: every Ask The Elders Short ends with a 4 s card (`end_card` in channel.json → `assets/elders/endcard.png`,
+appended in pipeline/assemble.py to final.mp4 only, not clean.mp4/compilations). To change its text, colours or logo
+(`assets/elders/logo.png`), edit channel.json then run `pip install pillow && python tools/make_endcard.py elders` and commit the PNG.
+
 Writing the next Ask The Elders batch: edit/extend `tools/generators/build_elders_001-030.py` (copy it to
 `build_elders_031-060.py`): every line ≤ 18 words, line 1 states the age ("I'm {age}. ...") and promises the
 theme, line 5 is the emotional closer, 5 different elders per episode, original lines (no famous quotes),
