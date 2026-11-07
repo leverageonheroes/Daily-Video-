@@ -80,7 +80,7 @@ jobs:
           if [ -d assets ]; then git add assets; fi
           if ! git diff --cached --quiet; then
             git commit -m "daily: progress $(date -u +%F)"
-            git pull --rebase
+            git pull --rebase -X theirs
             git push
           fi
 

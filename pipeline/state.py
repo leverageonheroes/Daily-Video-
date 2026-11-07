@@ -26,6 +26,12 @@ def load():
 
 
 def save(s):
+    # Only touch the timestamp when something really changed: a bare timestamp bump makes parallel
+    # workflow runs conflict on state.json when they push.
+    if STATE.exists():
+        old = json.loads(STATE.read_text())
+        if {k: v for k, v in old.items() if k != "updated"} == {k: v for k, v in s.items() if k != "updated"}:
+            return
     s["updated"] = now()
     STATE.parent.mkdir(exist_ok=True)
     STATE.write_text(json.dumps(s, indent=2) + "\n")
