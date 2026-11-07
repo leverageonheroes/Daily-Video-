@@ -37,7 +37,14 @@ def inbox(channel: str):
 
 
 def current_episode(s, channel):
-    return state.next_episode(s, channel, max_attempts=config.MAX_ATTEMPTS)
+    """Strict order, never date-based: the lowest-numbered episode that has not been assembled yet.
+    A missed day (or a failed import, however many times) never skips an episode - the same prompts
+    stay current until their 5 clips have been imported."""
+    eps = s["channels"][channel]["episodes"]
+    for ep_id in sorted(eps, key=lambda k: int(k.rsplit("-", 1)[-1])):
+        if eps[ep_id]["status"] in ("scripted", "failed"):
+            return ep_id
+    return None
 
 
 def prompts_markdown(s, channel) -> str:

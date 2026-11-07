@@ -4,6 +4,7 @@ name: Flow prompts (Ask The Elders)
 on:
   schedule:
     - cron: "41 5 * * *"      # 05:41 UTC, well before the free-tier pause (~14:00-17:00 UTC)
+    - cron: "17 8 * * *"      # backup: GitHub often delays/drops scheduled runs; the open-issue check prevents duplicates
   workflow_dispatch:
 
 permissions:
@@ -35,8 +36,13 @@ jobs:
             [ -f "$f" ] || continue
             title="Flow clips $(date -u +%a\ %d\ %b): $(head -1 "$f" | sed 's/^## //' | cut -c1-80)"
             id=$(head -1 "$f" | grep -o '[A-Z]\+-[0-9]\{3\}' | head -1)
-            if [ -n "$id" ] && gh issue list --state open --label flow-clips --json title -q '.[].title' | grep -qF "$id"; then
-              echo "Issue for this episode already open - not posting again"; continue
+            open_n=$(gh issue list --state open --label flow-clips --json number,title -q ".[] | select(.title | contains(\"$id\")) | .number" | head -1)
+            if [ -n "$id" ] && [ -n "$open_n" ]; then
+              # Same episode still waiting for clips (episodes never skip): remind instead of re-posting.
+              if ! gh issue view "$open_n" --json comments -q '.comments[].body' | grep -qF "$(date -u +%F)"; then
+                gh issue comment "$open_n" --body "Reminder $(date -u +%F): $id is still waiting for its 5 clips - the prompts above are still today's prompts."
+              fi
+              echo "Issue #$open_n for $id already open - reminder posted"; continue
             fi
             for n in $(gh issue list --state open --label flow-clips --json number -q '.[].number'); do
               gh issue close "$n" --comment "Superseded by today's prompts." || true

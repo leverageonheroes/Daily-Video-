@@ -4,6 +4,7 @@ name: Flow import (Ask The Elders)
 # (order, captions, hook, music, loudness), uploads it to YouTube and empties the inbox.
 on:
   push:
+    branches: [main]      # tag pushes (Release creation) ignore paths filters - never run on those
     paths:
       - "inbox/**/*.mp4"
       - "inbox/**/*.MP4"
