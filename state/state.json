@@ -604,9 +604,30 @@
     "elders": {
       "episodes": {
         "ELD-001": {
-          "status": "scripted",
-          "history": [],
-          "attempts": 0
+          "status": "uploaded",
+          "history": [
+            {
+              "status": "rendered",
+              "at": "2026-11-07T10:52:42+00:00",
+              "note": "44.0s from Google Flow clips"
+            },
+            {
+              "status": "uploaded",
+              "at": "2026-11-07T10:52:51+00:00",
+              "note": "https://youtu.be/NawsQT8_xaA publishes 2026-11-07T20:52:49Z"
+            }
+          ],
+          "attempts": 1,
+          "final": "output/elders/ELD-001/final.mp4",
+          "clips": [
+            "1.mp4_d3e43859.mp4",
+            "2.mp4_2b0916d9.mp4",
+            "3.mp4_79b82d97.mp4",
+            "4.mp4_b87cdc64.mp4",
+            "5.mp4_1dad3098.mp4"
+          ],
+          "youtube_id": "NawsQT8_xaA",
+          "publish_at": "2026-11-07T20:52:49Z"
         },
         "ELD-002": {
           "status": "scripted",
@@ -757,5 +778,5 @@
       "last_scripted": "ELD-030"
     }
   },
-  "updated": "2026-11-07T10:06:17+00:00"
+  "updated": "2026-11-07T10:52:52+00:00"
 }
