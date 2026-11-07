@@ -20,7 +20,7 @@ GRAPH = f"https://graph.facebook.com/{VERSION}"
 RUPLOAD = "https://rupload.facebook.com"
 MAX_STORY_SECONDS = 59.5
 META_PREFIX = {"flat4b": "FLAT_4B", "coldhearts": "FRIDGE_HEARTS", "drizzlepudge": "DRIZZLE_AND_PUDGE",
-               "elders": "ELDERS"}
+               "elders": "ELDERS", "cribcommittee": "CRIBCOMMITTEE"}
 TOKEN_NAMES = ("META_TOKEN", "META_SYSTEM_USER_TOKEN", "SYSTEM_USER_TOKEN", "META_ACCESS_TOKEN")
 
 

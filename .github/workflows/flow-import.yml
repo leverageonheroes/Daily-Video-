@@ -39,10 +39,11 @@ jobs:
         id: run
         env:
           YT_TOKEN_ELDERS: ${{ secrets.YT_TOKEN_ELDERS }}
-          YT_TOKEN_CRIBCOMMITTEE: ${{ secrets.YT_TOKEN_CRIBCOMMITTEE }}
+          YT_TOKEN_CRIBCOMMITTEE: ${{ secrets.YT_TOKEN_CRIBCOMMITTEE || secrets.YT_TOKEN_CRIB }}
           META_TOKEN: ${{ secrets.META_TOKEN }}
           META_TOKEN_FACEBOOK_INSTAGRAM: ${{ secrets.META_TOKEN_FACEBOOK_INSTAGRAM }}
           FACEBOOK_INSTAGRAM_PAGE_IDS: ${{ secrets.FACEBOOK_INSTAGRAM_PAGE_IDS }}
+          FACEBOOK_INSTAGRAM_PAGE_IDS_CRIB: ${{ secrets.FACEBOOK_INSTAGRAM_PAGE_IDS_CRIB }}
           FB_ID_ELDERS: ${{ vars.FB_ID_ELDERS || secrets.FB_ID_ELDERS }}
           IG_ID_ELDERS: ${{ vars.IG_ID_ELDERS || secrets.IG_ID_ELDERS }}
           ELDERS_FB_ID: ${{ vars.ELDERS_FB_ID || secrets.ELDERS_FB_ID }}

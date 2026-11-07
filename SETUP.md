@@ -171,11 +171,12 @@ Same daily routine as Ask The Elders, with its own issue (label `flow-cribcommit
 Use a **different Google account** in Flow so each channel gets its own 50 free credits.
 1. Create the YouTube channel: name **The Crib Committee**, handle **@TheCribCommittee**, category People & Blogs,
    audience **"No, it's not made for kids"** (it's for parents).
-2. Connect it: `python tools/auth_youtube.py cribcommittee`, then add the token as the GitHub secret **YT_TOKEN_CRIBCOMMITTEE**.
+2. Connect it: `python tools/auth_youtube.py cribcommittee`, then add the token as the GitHub secret **YT_TOKEN_CRIBCOMMITTEE** (or **YT_TOKEN_CRIB**).
 3. If you set a repository variable `CHANNELS`, add `cribcommittee` to it.
 4. Optional music in `music/`: playful-pizzicato.mp3, boardroom-jazz.mp3, gentle-music-box.mp3, light-marimba.mp3.
 5. Publishes `review_hours` (11, in channel.json) after upload, about 1 hour after Ask The Elders.
-6. Facebook/Instagram Stories (optional): `CRIBCOMMITTEE_FB_ID` / `CRIBCOMMITTEE_IG_ID` like section 11.
+6. Facebook/Instagram Stories (optional): `CRIBCOMMITTEE_FB_ID` / `CRIBCOMMITTEE_IG_ID` like section 11, or put both ids in the
+   secret `FACEBOOK_INSTAGRAM_PAGE_IDS_CRIB` (any form: `FB_ID=.. IG_ID=..`, `Facebook: .. Instagram: ..`, or two numbers, Facebook first).
 
 ## 12. TikTok (manual posting)
 
