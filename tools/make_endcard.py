@@ -121,23 +121,30 @@ def build(channel):
     col = {k: rgb(v) for k, v in cfg["colors"].items()}
     img = gradient(col["bg_top"], col["bg_bottom"]).convert("RGBA")
 
-    # soft glow behind the logo
+    logo_p = ROOT / cfg.get("logo", f"assets/{channel}/logo.png")
+    # soft glow behind the placeholder emblem (a real logo brings its own background)
     glow = Image.new("RGBA", (W, H))
     ImageDraw.Draw(glow).ellipse([W / 2 - 330, 170, W / 2 + 330, 830], fill=col["accent"] + (70,))
-    img = Image.alpha_composite(img, glow.filter(ImageFilter.GaussianBlur(110)))
+    if not logo_p.exists():
+        img = Image.alpha_composite(img, glow.filter(ImageFilter.GaussianBlur(110)))
     d = ImageDraw.Draw(img)
 
     # logo (top, inside the Shorts safe area)
-    logo_p = ROOT / cfg.get("logo", f"assets/{channel}/logo.png")
-    size = 400
+    size = int(cfg.get("logo_size", 400))
     if logo_p.exists():
         logo = Image.open(logo_p).convert("RGBA")
         logo.thumbnail((size, size), Image.LANCZOS)
+        if logo.getchannel("A").getextrema()[0] == 255:   # opaque logo: feather the edges into the card
+            m = Image.new("L", logo.size)
+            pad = int(min(logo.size) * 0.03)
+            ImageDraw.Draw(m).ellipse([pad, pad, logo.width - pad, logo.height - pad], fill=255)
+            logo.putalpha(m.filter(ImageFilter.GaussianBlur(min(logo.size) * 0.06)))
     else:
         logo = emblem(cfg, size, col["accent"], col["bg_top"])
-    img.alpha_composite(logo, ((W - logo.width) // 2, 280 + (size - logo.height) // 2))
+    logo_top = int(cfg.get("logo_top", 280))
+    img.alpha_composite(logo, ((W - logo.width) // 2, logo_top + (size - logo.height) // 2))
 
-    y = 735
+    y = logo_top + size + 55
     f = font("DejaVuSans-Bold.ttf", 56)
     for ln in wrap(d, cfg["cta"], f, 900):
         y = centred(d, y, ln, f, col["accent"])

@@ -284,12 +284,14 @@
     "handle": "ASK THE ELDERS TV",
     "initials": "ATE",
     "colors": {
-      "bg_top": "#2a1608",
-      "bg_bottom": "#0d0704",
-      "accent": "#e8b04b",
-      "text": "#fff6e6"
+      "bg_top": "#2a1f3a",
+      "bg_bottom": "#110d17",
+      "accent": "#ffb347",
+      "text": "#f6ead2"
     },
-    "_note": "Shorts only (not compilations). Edit text/colours here, then: python tools/make_endcard.py elders"
+    "_note": "Shorts only (not compilations). Edit text/colours here, then: python tools/make_endcard.py elders",
+    "logo_size": 470,
+    "logo_top": 190
   },
   "flow": {
     "model": "Veo 3.1 Lite",
