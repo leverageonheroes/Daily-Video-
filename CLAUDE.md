@@ -1,6 +1,6 @@
 # Shorts Studio — instructions for Claude Code
 
-This repo runs four YouTube Shorts channels (three rendered by paid APIs, one from free Google Flow clips). Read this file first in every session.
+This repo runs five YouTube Shorts channels (three rendered by paid APIs, two from free Google Flow clips). Read this file first in every session.
 Everything you need to resume is on disk: never rely on chat memory.
 
 | Channel | Folder | Show | Format |
@@ -9,8 +9,9 @@ Everything you need to resume is on disk: never rely on chat memory.
 | 2 | `channels/coldhearts/` | **Fridge Hearts** — a soap opera inside a fridge | Melodramatic micro-soap, 60–85 s, cliffhanger ending |
 | 3 | `channels/drizzlepudge/` | **Drizzle & Pudge** — a baby rain cloud and her hedgehog best friend | Wordless kids cartoon, 30–45 s, ends with the Puddle Jump |
 | 4 | `channels/elders/` | **Ask The Elders** — realistic AI elders, one life lesson each | 5 elders × 8 s = 40 s, one theme per Short. **Google Flow channel** (see below) |
+| 5 | `channels/cribcommittee/` | **The Crib Committee** — babies hold a meeting about parenting | 5 babies × 8 s = 40 s, one topic per Short. **Google Flow channel** (see below) |
 
-Channels 1–2 are **general audience, NOT "made for kids"**. Keep humour clean (no swearing,
+Channels 1–2, 4 and 5 are **general audience, NOT "made for kids"**. Keep humour clean (no swearing,
 sexual content, gore, cruelty, real brands, real people, or copyrighted characters).
 Channel 3 is **MADE FOR KIDS** (ages 2–7): `made_for_kids: true` in its channel.json sets it on every upload.
 
@@ -138,3 +139,16 @@ theme, line 5 is the emotional closer, 5 different elders per episode, original 
 no specific investment/medical/legal advice. Every shot needs a `flow_prompt` that contains the exact spoken
 line (the validator checks this, because captions are burned from `lines`). Never name the elders or claim
 they are real people.
+
+## Google Flow channel 2: The Crib Committee (`channels/cribcommittee/`)
+
+Works exactly like Ask The Elders (same flow-prompts / flow-import workflows; its own issue labelled
+`flow-cribcommittee`, inbox `inbox/cribcommittee/`, secret `YT_TOKEN_CRIBCOMMITTEE`, end card from
+`assets/cribcommittee/logo.png`). It publishes `review_hours` (channel.json, 11 h) after upload, about 1 h after Elders.
+Each Short: 5 different babies (never named) in fixed roles: Chair (tiny tie + reading glasses) opens the meeting,
+then Sassy / Wise / Dramatic in any order, then the Closer ends "Motion carried." while a newborn reacts (burp,
+hiccup, sneeze...). Kind humour, mainstream evidence-based parenting ideas, no products or medical advice.
+
+Writing the next batch: add `channels/cribcommittee/scripts_031-060.md` in the same Markdown format as
+`scripts_001-030.md` (each line ≤ 18 words), copy `tools/generators/build_cribcommittee_001-030.py` to
+`build_cribcommittee_031-060.py` with `SRC`/`START` changed, run it, then validate + `state.py sync`.

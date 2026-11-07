@@ -871,7 +871,162 @@
         }
       },
       "last_scripted": "ELD-030"
+    },
+    "cribcommittee": {
+      "episodes": {
+        "CC-001": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "CC-002": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "CC-003": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "CC-004": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "CC-005": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "CC-006": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "CC-007": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "CC-008": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "CC-009": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "CC-010": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "CC-011": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "CC-012": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "CC-013": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "CC-014": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "CC-015": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "CC-016": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "CC-017": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "CC-018": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "CC-019": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "CC-020": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "CC-021": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "CC-022": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "CC-023": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "CC-024": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "CC-025": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "CC-026": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "CC-027": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "CC-028": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "CC-029": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "CC-030": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        }
+      },
+      "last_scripted": "CC-030"
     }
   },
-  "updated": "2026-11-07T13:28:53+00:00"
+  "updated": "2026-11-07T14:16:59+00:00"
 }

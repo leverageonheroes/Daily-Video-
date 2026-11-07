@@ -1,4 +1,4 @@
-name: Flow import (Ask The Elders)
+name: Flow import (Google Flow channels)
 
 # Runs whenever you upload a clip to inbox/<channel>/. When all 5 clips are there it assembles the Short
 # (order, captions, hook, music, loudness), uploads it to YouTube and empties the inbox.
@@ -39,6 +39,7 @@ jobs:
         id: run
         env:
           YT_TOKEN_ELDERS: ${{ secrets.YT_TOKEN_ELDERS }}
+          YT_TOKEN_CRIBCOMMITTEE: ${{ secrets.YT_TOKEN_CRIBCOMMITTEE }}
           META_TOKEN: ${{ secrets.META_TOKEN }}
           META_TOKEN_FACEBOOK_INSTAGRAM: ${{ secrets.META_TOKEN_FACEBOOK_INSTAGRAM }}
           FACEBOOK_INSTAGRAM_PAGE_IDS: ${{ secrets.FACEBOOK_INSTAGRAM_PAGE_IDS }}
@@ -62,17 +63,28 @@ jobs:
             git pull --rebase -X theirs
             git push
           fi
-      - name: Report on today's issue
+      - name: Report on each channel's issue
         if: always()
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          n=$(gh issue list --state open --label flow-clips --json number -q '.[0].number')
-          [ -n "$n" ] || exit 0
-          if grep -q "youtu.be" import.log; then
-            gh issue close "$n" --comment "Done: $(grep -o 'https://youtu.be/[^ ]*.*' import.log | head -1)"
-          elif grep -q "!!\|Traceback\|broken" import.log; then
-            gh issue comment "$n" --body "Problem assembling the clips - open the latest 'Flow import' run in Actions. $(grep '!!' import.log | head -3)"
-          elif grep -q "\-> " import.log; then
-            gh issue close "$n" --comment "Assembled (YouTube upload is switched off)."
-          fi
+          [ -f flow_result.json ] || exit 0
+          python - <<'PY' > report.tsv
+          import json
+          for ch, r in json.load(open("flow_result.json")).items():
+              msg = r.get("note") or r.get("error") or ""
+              print(f"{ch}\t{r.get('status', '')}\t{r.get('episode', '')}\t{msg}".replace("\n", " "))
+          PY
+          while IFS=$'\t' read -r ch status ep msg; do
+            [ "$status" = "waiting" ] && continue
+            prefix=$(python -c "import json; print(json.load(open('channels/$ch/channel.json'))['episode_id_prefix'])")
+            n=$( { gh issue list --state open --label "flow-$ch" --json number -q '.[].number'
+                   gh issue list --state open --label flow-clips --json number,title \
+                     -q ".[] | select(.title | contains(\"$prefix-\")) | .number"; } | sort -un | head -1)
+            [ -n "$n" ] || continue
+            case "$status" in
+              uploaded)  gh issue close "$n" --comment "Done: $ep $msg" ;;
+              assembled) gh issue close "$n" --comment "Assembled $ep (YouTube upload is switched off)." ;;
+              error)     gh issue comment "$n" --body "Problem with $ep: $msg - open the latest 'Flow import' run in Actions." ;;
+            esac
+          done < report.tsv

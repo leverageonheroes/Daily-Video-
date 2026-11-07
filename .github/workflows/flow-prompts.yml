@@ -1,6 +1,6 @@
-name: Flow prompts (Ask The Elders)
+name: Flow prompts (Google Flow channels)
 
-# Every morning: post the next episode's 5 Google Flow prompts as a GitHub issue (you get a phone notification).
+# Every morning: post each Flow channel's next 5 Google Flow prompts as its own GitHub issue (label flow-<channel>).
 on:
   schedule:
     - cron: "41 5 * * *"      # 05:41 UTC, well before the free-tier pause (~14:00-17:00 UTC)
@@ -34,9 +34,19 @@ jobs:
           for ch in $(python -c "from pipeline import flow; print(' '.join(flow.flow_channels()))"); do
             f="inbox/$ch/PROMPTS.md"
             [ -f "$f" ] || continue
+            label="flow-$ch"
+            gh label create "$label" --color 8B5CF6 --description "Daily Google Flow prompts: $ch" 2>/dev/null || true
             title="Flow clips $(date -u +%a\ %d\ %b): $(head -1 "$f" | sed 's/^## //' | cut -c1-80)"
             id=$(head -1 "$f" | grep -o '[A-Z]\+-[0-9]\{3\}' | head -1)
-            open_n=$(gh issue list --state open --label flow-clips --json number,title -q ".[] | select(.title | contains(\"$id\")) | .number" | head -1)
+            prefix="${id%-*}"
+            # this channel's open issues: its own label, or the old shared flow-clips label with its id prefix
+            open_issues() {
+              { gh issue list --state open --label "$label" --json number,title -q '.[] | "\(.number)\t\(.title)"'
+                if [ -n "$prefix" ]; then gh issue list --state open --label flow-clips --json number,title \
+                  -q ".[] | select(.title | contains(\"$prefix-\")) | \"\(.number)\t\(.title)\""; fi
+              } | sort -u
+            }
+            open_n=$(open_issues | grep -F "$id" | cut -f1 | head -1 || true)
             if [ -n "$id" ] && [ -n "$open_n" ]; then
               # Same episode still waiting for clips (episodes never skip): remind instead of re-posting.
               if ! gh issue view "$open_n" --json comments -q '.comments[].body' | grep -qF "$(date -u +%F)"; then
@@ -44,10 +54,10 @@ jobs:
               fi
               echo "Issue #$open_n for $id already open - reminder posted"; continue
             fi
-            for n in $(gh issue list --state open --label flow-clips --json number -q '.[].number'); do
+            for n in $(open_issues | cut -f1); do
               gh issue close "$n" --comment "Superseded by today's prompts." || true
             done
-            gh issue create --title "$title" --label flow-clips --body-file "$f"
+            gh issue create --title "$title" --label flow-clips --label "$label" --body-file "$f"
           done
       - name: Save prompts file
         run: |

@@ -42,8 +42,9 @@ jobs:
           YT_TOKEN_COLDHEARTS: ${{ secrets.YT_TOKEN_COLDHEARTS }}
           YT_TOKEN_DRIZZLEPUDGE: ${{ secrets.YT_TOKEN_DRIZZLEPUDGE }}
           YT_TOKEN_ELDERS: ${{ secrets.YT_TOKEN_ELDERS }}
+          YT_TOKEN_CRIBCOMMITTEE: ${{ secrets.YT_TOKEN_CRIBCOMMITTEE }}
           REVIEW_HOURS: ${{ vars.REVIEW_HOURS || '10' }}
-          CHANNELS: ${{ vars.CHANNELS || 'flat4b,coldhearts,drizzlepudge,elders' }}
+          CHANNELS: ${{ vars.CHANNELS || 'flat4b,coldhearts,drizzlepudge,elders,cribcommittee' }}
           YT_UPLOAD: ${{ vars.YT_UPLOAD || '1' }}
           STORE_RELEASES: "1"
           WEEKLY_MIN_SECONDS: ${{ vars.WEEKLY_MIN_SECONDS || '510' }}

@@ -1,0 +1,126 @@
+{
+  "channel_id": "cribcommittee",
+  "show_title": "The Crib Committee",
+  "tagline": "Babies hold a meeting about you. Real parenting wisdom, 40 seconds, motion carried.",
+  "audience": "general (parents), NOT made for kids",
+  "format": "One parenting topic per Short. Five different babies (Chair, Sassy, Wise, Dramatic, Closer), one line each, 8 s per clip, spoken to camera. The Closer ends with 'Motion carried.' and a newborn reaction.",
+  "source": "flow",
+  "episode_id_prefix": "CC",
+  "target_seconds": [
+    36,
+    44
+  ],
+  "max_seconds": 90,
+  "review_hours": 11,
+  "style_prompt": "Vertical 9:16, photorealistic, cinematic shallow depth of field, soft warm window light, gentle pastel nursery colours, natural baby skin texture, shot on a 50mm lens",
+  "audio_prompt": "No music. No subtitles, no captions, no text on screen.",
+  "negative_prompt": "text, subtitles, logos, brands, celebrities, real identifiable people, unsafe sleep setups, babies left unattended near hazards",
+  "characters": {
+    "chair": {
+      "name": "Chair",
+      "ref_prompt": "a baby wearing a tiny navy necktie over a white onesie and little round reading glasses, sitting at the head of the toddler table",
+      "home_location": "boardroom",
+      "voice": "a tiny, clear, articulate toddler voice",
+      "tts_voice_id": ""
+    },
+    "sassy": {
+      "name": "Sassy",
+      "ref_prompt": "a baby in a bright pink knitted cardigan, one hand on hip, one eyebrow raised",
+      "home_location": "boardroom",
+      "voice": "a tiny, clear, articulate toddler voice",
+      "tts_voice_id": ""
+    },
+    "wise": {
+      "name": "Wise",
+      "ref_prompt": "a baby in a cosy oatmeal knitted jumper, calm and thoughtful, hands folded on the table",
+      "home_location": "crib_side",
+      "voice": "a tiny, clear, articulate toddler voice",
+      "tts_voice_id": ""
+    },
+    "dramatic": {
+      "name": "Dramatic",
+      "ref_prompt": "a baby in a little velvet bow tie and a tiny cape blanket over the shoulders",
+      "home_location": "boardroom",
+      "voice": "a tiny, clear, articulate toddler voice",
+      "tts_voice_id": ""
+    },
+    "closer": {
+      "name": "Closer",
+      "ref_prompt": "a baby in a soft yellow onesie, holding a wooden toy gavel, a swaddled newborn in a bassinet right beside",
+      "home_location": "crib_side",
+      "voice": "a tiny, clear, articulate toddler voice",
+      "tts_voice_id": ""
+    },
+    "newborn": {
+      "name": "Newborn",
+      "ref_prompt": "a tiny swaddled newborn in a bassinet, never speaks",
+      "home_location": "crib_side",
+      "voice": "newborn noises only",
+      "tts_voice_id": ""
+    }
+  },
+  "locations": {
+    "boardroom": "a cosy nursery set up like a tiny boardroom: a low toddler-sized wooden table, stacked building blocks, a sippy cup and a little water jug, a crib with wooden bars softly blurred behind",
+    "crib_side": "beside a white wooden crib with a soft knitted blanket, plush toys lined up like a panel, warm lamp light, mobile slowly turning above"
+  },
+  "content_rules": [
+    "Babies are AI-generated; never name them, never claim they are real children.",
+    "Evidence-based, mainstream parenting ideas only. No medical, sleep-training, feeding or legal advice beyond general guidance; no products or brands.",
+    "Line 1 is always the Chair opening the meeting; line 5 is the Closer ending 'Motion carried.'",
+    "Each line <= 18 words so Veo can say it naturally in 8 s.",
+    "Humour is kind: the babies tease parents lovingly, never shame them."
+  ],
+  "music_moods": [
+    "playful pizzicato",
+    "boardroom jazz",
+    "gentle music box",
+    "light marimba"
+  ],
+  "made_for_kids": false,
+  "youtube_category": "22",
+  "nonverbal": false,
+  "ai_disclosure": "The babies in this video are AI-generated characters (Google Veo). The parenting tips are general guidance, not professional advice.",
+  "overlays": {
+    "hook": true,
+    "captions": true
+  },
+  "end_card": {
+    "enabled": true,
+    "seconds": 4,
+    "image": "assets/cribcommittee/endcard.png",
+    "logo": "assets/cribcommittee/logo.png",
+    "cta": "LIKE, SHARE AND SUBSCRIBE TO",
+    "name": "THE CRIB COMMITTEE",
+    "sub": "A NEW MEETING ABOUT YOU, EVERY DAY",
+    "handle": "@TheCribCommittee",
+    "initials": "CC",
+    "colors": {
+      "bg_top": "#1e3354",
+      "bg_bottom": "#0f1a2e",
+      "accent": "#f2b84b",
+      "text": "#f5ecdc"
+    },
+    "_note": "Shorts only (not compilations). Edit text/colours here, then: python tools/make_endcard.py cribcommittee",
+    "logo_size": 470,
+    "logo_top": 190
+  },
+  "flow": {
+    "model": "Veo 3.1 Lite",
+    "aspect": "9:16",
+    "outputs_per_prompt": 1,
+    "clip_seconds": 8,
+    "credits_per_clip": 10,
+    "daily_free_credits": 50
+  },
+  "compilation_title": "{show} | {label} - {n} Committee Meetings Back to Back",
+  "compilation_tags": [
+    "parenting",
+    "parenting tips",
+    "funny babies",
+    "toddler"
+  ],
+  "compilations": {
+    "weekly": true,
+    "monthly": true
+  }
+}

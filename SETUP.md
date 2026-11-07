@@ -155,7 +155,7 @@ To switch model, set `VIDEO_I2V` (and `PRICE_PER_VIDEO_SECOND`) in `.env` and as
 2. Connect it: `python tools/auth_youtube.py elders`, then add the token as the GitHub secret **YT_TOKEN_ELDERS**.
 3. If you set a repository variable `CHANNELS`, add `elders` to it (weekly/monthly compilations).
 4. Facebook + Instagram Stories: put the Page and Instagram IDs in `.env` as `FB_ID_ELDERS` / `IG_ID_ELDERS` (or `ELDERS_FB_ID` / `ELDERS_IG_ID`) and add the same names as GitHub secrets (or inside the `FACEBOOK_INSTAGRAM_PAGE_IDS` bundle). The shared `META_TOKEN` posts to them after each flow import.
-4. Actions tab → **Flow prompts (Ask The Elders)** → Run workflow. An issue with 5 prompts appears.
+4. Actions tab → **Flow prompts (Google Flow channels)** → Run workflow. An issue with 5 prompts appears.
 5. Daily, on your phone (about 5 minutes, before 14:00 UK time):
    - Open labs.google/flow → New project → model **Veo 3.1 Lite**, aspect **9:16**, outputs **1**.
    - Paste prompt 1 → generate → download. Repeat for 2–5 (5 × 10 credits = your free 50).
@@ -165,11 +165,23 @@ To switch model, set `VIDEO_I2V` (and `PRICE_PER_VIDEO_SECOND`) in `.env` and as
 6. If a clip comes out wrong (bad face, wrong words), just regenerate it in Flow before uploading.
 Note: free Flow clips carry a visible "Made with Veo" watermark. Don't crop it out.
 
+## 11b. The Crib Committee (second free Google Flow channel)
+
+Same daily routine as Ask The Elders, with its own issue (label `flow-cribcommittee`) and inbox `inbox/cribcommittee/`.
+Use a **different Google account** in Flow so each channel gets its own 50 free credits.
+1. Create the YouTube channel: name **The Crib Committee**, handle **@TheCribCommittee**, category People & Blogs,
+   audience **"No, it's not made for kids"** (it's for parents).
+2. Connect it: `python tools/auth_youtube.py cribcommittee`, then add the token as the GitHub secret **YT_TOKEN_CRIBCOMMITTEE**.
+3. If you set a repository variable `CHANNELS`, add `cribcommittee` to it.
+4. Optional music in `music/`: playful-pizzicato.mp3, boardroom-jazz.mp3, gentle-music-box.mp3, light-marimba.mp3.
+5. Publishes `review_hours` (11, in channel.json) after upload, about 1 hour after Ask The Elders.
+6. Facebook/Instagram Stories (optional): `CRIBCOMMITTEE_FB_ID` / `CRIBCOMMITTEE_IG_ID` like section 11.
+
 ## 12. TikTok (manual posting)
 
 TikTok's posting API needs an app review, so TikTok is posted by hand. The pipeline keeps every finished video
 (with hook text and captions) plus a paste-ready caption, forever, in one GitHub Release per channel:
-`tiktok-flat4b`, `tiktok-coldhearts`, `tiktok-drizzlepudge`, `tiktok-elders`
+`tiktok-flat4b`, `tiktok-coldhearts`, `tiktok-drizzlepudge`, `tiktok-elders`, `tiktok-cribcommittee`
 (github.com/leverageonheroes/Daily-Video-/releases).
 
 Daily, on your phone: open the release → tap `<ID>.mp4` to download → open `<ID>.txt` and copy the caption →

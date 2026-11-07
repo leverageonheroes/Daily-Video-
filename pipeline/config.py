@@ -91,9 +91,9 @@ MUSIC_VOLUME = float(env("MUSIC_VOLUME", "0.12"))
 TARGET_LUFS = env("TARGET_LUFS", "-14")
 
 # --- YouTube ---
-CHANNELS = [c.strip() for c in env("CHANNELS", "flat4b,coldhearts,drizzlepudge,elders").split(",") if c.strip()]
+CHANNELS = [c.strip() for c in env("CHANNELS", "flat4b,coldhearts,drizzlepudge,elders,cribcommittee").split(",") if c.strip()]
 REVIEW_HOURS = float(env("REVIEW_HOURS", "10"))   # upload private, auto-publish after N hours (0 = stay private)
-YT_CATEGORY = {"flat4b": "23", "coldhearts": "24", "drizzlepudge": "1", "elders": "22"}  # fallback; channel.json youtube_category wins
+YT_CATEGORY = {"flat4b": "23", "coldhearts": "24", "drizzlepudge": "1", "elders": "22", "cribcommittee": "22"}  # fallback; channel.json youtube_category wins
 AI_DISCLOSURE = "Made with AI-generated animation."
 
 OUTPUT = ROOT / ("output_mock" if MOCK else "output")

@@ -5,3 +5,4 @@ __pycache__/
 *.pyc
 output_mock/
 state/state.mock.json
+flow_result.json

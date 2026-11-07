@@ -38,6 +38,17 @@ def _category(channel: str) -> str:
         return config.YT_CATEGORY.get(channel, "24")
 
 
+def _review_hours(channel: str) -> float:
+    """channel.json "review_hours" wins (staggers publish times between channels), else REVIEW_HOURS."""
+    try:
+        bible = json.loads((config.CHANNELS_DIR / channel / "channel.json").read_text())
+        if bible.get("review_hours") is not None:
+            return float(bible["review_hours"])
+    except (FileNotFoundError, ValueError):
+        pass
+    return config.REVIEW_HOURS
+
+
 def upload(channel: str, video_path, meta: dict) -> dict:
     from googleapiclient.http import MediaFileUpload
 
@@ -49,8 +60,8 @@ def upload(channel: str, video_path, meta: dict) -> dict:
     publish_at = None
     if os.environ.get("YT_PUBLISH_NOW") == "1":      # public straight away, no review window
         status["privacyStatus"] = "public"
-    elif config.REVIEW_HOURS > 0:
-        when = dt.datetime.now(dt.timezone.utc) + dt.timedelta(hours=config.REVIEW_HOURS)
+    elif _review_hours(channel) > 0:
+        when = dt.datetime.now(dt.timezone.utc) + dt.timedelta(hours=_review_hours(channel))
         publish_at = when.replace(microsecond=0).isoformat().replace("+00:00", "Z")
         status["publishAt"] = publish_at
     body = {

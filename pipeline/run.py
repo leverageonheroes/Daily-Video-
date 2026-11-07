@@ -231,16 +231,21 @@ def main(argv):
     elif cmd == "flow-import":
         do_upload = os.environ.get("YT_UPLOAD", "1") == "1" and not config.MOCK
         failed = False
+        result = {}     # per-channel status -> flow_result.json (the workflow reports on each channel's issue)
         for ch in argv[1:] or flow.flow_channels():
+            result[ch] = {"status": "waiting"}
             try:
                 if do_upload:   # finish an earlier import whose upload failed
                     pending = state.next_episode(s, ch, wanted=("rendered",), max_attempts=99)
                     if pending:
                         upload(s, ch, pending)
+                        rec = s["channels"][ch]["episodes"][pending]
+                        result[ch] = {"status": "uploaded", "episode": pending, "note": rec["history"][-1]["note"]}
                 res = flow.import_episode(s, ch)
                 if not res:
                     continue
                 ep_id, final, clips = res
+                result[ch] = {"status": "assembled", "episode": ep_id}
                 try:
                     storage.save_episode(ch, ep_id, workdir(ch, ep_id) / "clean.mp4")
                 except Exception as e:
@@ -252,8 +257,11 @@ def main(argv):
                     # YouTube and Facebook/Instagram are independent: one failing must not block the other.
                     try:
                         upload(s, ch, ep_id)
+                        rec = s["channels"][ch]["episodes"][ep_id]
+                        result[ch] = {"status": "uploaded", "episode": ep_id, "note": rec["history"][-1]["note"]}
                     except Exception as e:
                         failed = True
+                        result[ch] = {"status": "error", "episode": ep_id, "error": f"YouTube upload failed: {e}"}
                         traceback.print_exc()
                         print(f"!! {ch} {ep_id}: YouTube upload failed (stays 'rendered', retried next import): {e}")
                     try:
@@ -268,7 +276,9 @@ def main(argv):
                 failed = True
                 traceback.print_exc()
                 print(f"!! {ch}: {e}")
+                result[ch] = {"status": "error", "error": str(e)[:300]}
             state.save(s)
+        (config.ROOT / "flow_result.json").write_text(json.dumps(result, indent=1) + "\n")
         if failed:
             state.save(s)
             sys.exit(1)
