@@ -963,9 +963,35 @@
     "cribcommittee": {
       "episodes": {
         "CC-001": {
-          "status": "scripted",
-          "history": [],
-          "attempts": 0
+          "status": "uploaded",
+          "history": [
+            {
+              "status": "rendered",
+              "at": "2026-11-08T13:51:26+00:00",
+              "note": "44.0s from Google Flow clips"
+            },
+            {
+              "status": "uploaded",
+              "at": "2026-11-08T13:51:37+00:00",
+              "note": "https://youtu.be/0yanKYbZkOU publishes 2026-11-09T00:51:34Z"
+            }
+          ],
+          "attempts": 1,
+          "final": "output/cribcommittee/CC-001/final.mp4",
+          "clips": [
+            "1.mp4_65a9eb24.mp4",
+            "2.mp4_577cc9d2.mp4",
+            "3.mp4_528d4b46.mp4",
+            "4.mp4_e1360d8a.mp4",
+            "5.mp4_f79e0fb3.mp4"
+          ],
+          "youtube_id": "0yanKYbZkOU",
+          "publish_at": "2026-11-09T00:51:34Z",
+          "stories": {
+            "facebook": [
+              "2577358052775758"
+            ]
+          }
         },
         "CC-002": {
           "status": "scripted",
@@ -1116,5 +1142,5 @@
       "last_scripted": "CC-030"
     }
   },
-  "updated": "2026-11-08T13:50:14+00:00"
+  "updated": "2026-11-08T13:52:25+00:00"
 }
