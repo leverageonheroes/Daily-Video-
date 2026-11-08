@@ -1,649 +1,2027 @@
 {
-  "episodes": [
-    {
-      "id": "F4B-001", "number": 1,
-      "title": "Payday lasted 4 seconds 💸 #shorts",
-      "logline": "Pidge celebrates payday until his bills fly through the letterbox and eat it, while Sloane reveals he still has last month's pay untouched.",
-      "hook_text": "Payday vs. the bills 💸",
-      "description": "Pidge is a CEO for exactly four seconds. Flat 4B — new episode every day.",
-      "tags": ["payday", "broke", "flatmates", "animation", "comedy", "relatable"],
-      "music": "sitcom pluck",
-      "shots": [
-        {"n": 1, "dur": 6, "loc": "hallway", "chars": ["pidge", "dougie"],
-         "keyframe": "Pidge bursting through the front door holding his phone high like a trophy, glowing pile of gold coins in his other wing, Dougie cheering behind him",
-         "action": "Pidge spins around celebrating, Dougie claps with his tail wagging",
-         "camera": "low angle medium shot, quick push in",
-         "lines": [{"c": "pidge", "t": "PAYDAY! Four hundred quid! I'm basically a CEO now.", "tone": "triumphant"}],
-         "sfx": "cash register cha-ching, party horn"},
-        {"n": 2, "dur": 8, "loc": "hallway", "chars": ["pidge"],
-         "keyframe": "the letterbox flaps open and cartoon envelopes with tiny teeth fly in like bats toward Pidge's coin pile",
-         "action": "envelopes swoop around Pidge and each one bites a chunk out of his glowing coin pile, Pidge swats at them",
-         "camera": "handheld chaotic medium shot",
-         "lines": [{"c": "pidge", "t": "Rent? Phone bill? Scooter insurance? Who invited YOU?", "tone": "panicked"}],
-         "sfx": "flapping paper, chomping, coins clinking away"},
-        {"n": 3, "dur": 6, "loc": "hallway", "chars": ["pidge"],
-         "keyframe": "Pidge alone in the hallway holding a single small coin, feathers ruffled, envelopes flying away out the letterbox",
-         "action": "Pidge stares at the coin, one feather falls slowly",
-         "camera": "close up on Pidge's face, slow zoom",
-         "lines": [{"c": "pidge", "t": "Fifty pence. Still a CEO. Of fifty pence.", "tone": "numb"}],
-         "sfx": "single sad trombone note"},
-        {"n": 4, "dur": 8, "loc": "living_room", "chars": ["sloane", "pidge"],
-         "keyframe": "Sloane lying on the mustard sofa slowly holding up a laptop, Pidge leaning over the back of the sofa",
-         "action": "Sloane turns his head extremely slowly toward Pidge",
-         "camera": "two-shot over the sofa",
-         "lines": [{"c": "sloane", "t": "My payday... was three weeks ago.", "tone": "slow, serene"}, {"c": "pidge", "t": "And?", "tone": "suspicious"}, {"c": "sloane", "t": "Still got... all of it.", "tone": "slow, serene"}],
-         "sfx": "gasp"},
-        {"n": 5, "dur": 6, "loc": "living_room", "chars": ["pidge", "sloane"],
-         "keyframe": "Pidge flat on his back on the rug, Sloane's arm slowly extending down offering a biscuit",
-         "action": "Pidge lifts his head hopefully toward the biscuit",
-         "camera": "top-down shot",
-         "lines": [{"c": "pidge", "t": "Is that a loan?", "tone": "weak"}, {"c": "sloane", "t": "Hmm... no.", "tone": "slow"}],
-         "sfx": "crunch, rimshot"}
-      ],
-      "loop_note": "ends on Pidge on the floor; loops to him bursting in with 'PAYDAY!'"
-    },
-    {
-      "id": "F4B-002", "number": 2,
-      "title": "When your boss says 'quick call' 📞 #shorts",
-      "logline": "Dougie's manager asks for a 'quick call' that lasts until nightfall and ends with booking another call about the call.",
-      "hook_text": "\"Got time for a quick call?\"",
-      "description": "There is no such thing as a quick call. Flat 4B.",
-      "tags": ["office humor", "work life", "meetings", "quick call", "animation", "comedy"],
-      "music": "tense comedic strings",
-      "guests": {
-        "heron": {"name": "Mr Heron", "ref_prompt": "anthropomorphic tall grey heron man, thin long beak, tiny rectangular glasses, slim grey suit and skinny tie, holding a coffee cup, stands upright", "voice": "nasal, monotone middle-aged male manager"}
-      },
-      "shots": [
-        {"n": 1, "dur": 6, "loc": "showroom", "chars": ["heron", "dougie"],
-         "keyframe": "Mr Heron leaning his long neck around a doorway into Dougie's desk area, Dougie looking up beaming",
-         "action": "Dougie jumps up eagerly, tail wagging",
-         "camera": "medium shot",
-         "lines": [{"c": "heron", "t": "Dougie. Quick call?", "tone": "flat"}, {"c": "dougie", "t": "Big day! Love a quick call!", "tone": "excited"}],
-         "sfx": "office ambience"},
-        {"n": 2, "dur": 8, "loc": "showroom", "chars": ["heron", "dougie"],
-         "keyframe": "inside the glass manager office, Heron talking, Dougie nodding, wall clock behind them, window showing daylight",
-         "action": "the clock hands spin rapidly, window shifts from day to sunset to night, Dougie slowly slumps lower in his chair",
-         "camera": "locked-off time-lapse wide shot",
-         "lines": [{"c": "heron", "t": "So circling back on the circle back, let's take this offline, but online.", "tone": "monotone"}],
-         "sfx": "clock ticking fast, time-lapse whoosh"},
-        {"n": 3, "dur": 6, "loc": "showroom", "chars": ["dougie"],
-         "keyframe": "Dougie at night in the office, fur messy, a long grey beard has grown, a cobweb on his lanyard",
-         "action": "a moth flutters past Dougie's face, he blinks slowly",
-         "camera": "slow push-in to close up",
-         "lines": [{"c": "dougie", "t": "Is it... still Tuesday?", "tone": "hollow whisper"}],
-         "sfx": "cricket chirping"},
-        {"n": 4, "dur": 8, "loc": "showroom", "chars": ["heron", "dougie"],
-         "keyframe": "Heron standing up cheerfully with a calendar, Dougie frozen in his chair",
-         "action": "Dougie's tail stops wagging and he tips over sideways like a falling tree",
-         "camera": "medium two-shot",
-         "lines": [{"c": "heron", "t": "Great call. Let's book a quick call to discuss this call.", "tone": "pleased"}],
-         "sfx": "creaking tree, timber thud"},
-        {"n": 5, "dur": 6, "loc": "hallway", "chars": ["margo", "dougie"],
-         "keyframe": "Dougie dragging himself through the flat door at midnight, Margo holding a mug in her cardigan",
-         "action": "Dougie collapses face-first onto the shoe pile",
-         "camera": "wide hallway shot",
-         "lines": [{"c": "margo", "t": "How was work?", "tone": "deadpan"}, {"c": "dougie", "t": "I have a quick call tomorrow. About the call.", "tone": "muffled"}],
-         "sfx": "thud, muffled whimper"}
-      ],
-      "loop_note": "ends at night; loops to the bright 'Quick call?' opener"
-    },
-    {
-      "id": "F4B-003", "number": 3,
-      "title": "Who keeps eating my yogurt? 🥄 #shorts",
-      "logline": "Margo sets a yogurt trap for the fridge thief, catches Pidge red-handed, then discovers the real serial thief is Sloane.",
-      "hook_text": "She set a trap for the fridge thief 🪤",
-      "description": "Margo has a spreadsheet for this. Flat 4B.",
-      "tags": ["flatmates", "roommates", "fridge thief", "yogurt", "animation", "comedy"],
-      "music": "spy heist",
-      "shots": [
-        {"n": 1, "dur": 6, "loc": "kitchen", "chars": ["margo"],
-         "keyframe": "Margo at the open fridge with a label maker, stickers on every item, eyes narrowed",
-         "action": "Margo rapidly sticks labels onto items with sharp clicks",
-         "camera": "medium shot from inside the fridge looking out",
-         "lines": [{"c": "margo", "t": "Mine. Mine. Shared. Mine. Absolutely not shared.", "tone": "precise"}],
-         "sfx": "label maker clicks"},
-        {"n": 2, "dur": 8, "loc": "kitchen", "chars": ["pidge"],
-         "keyframe": "dark kitchen at night lit only by the fridge glow, Pidge tiptoeing toward a yogurt wrapped in red warning tape",
-         "action": "Pidge peels off the red tape and eats the yogurt with his beak in one gulp",
-         "camera": "low angle, fridge light on his face",
-         "lines": [{"c": "pidge", "t": "Red tape just means... premium.", "tone": "sneaky whisper"}],
-         "sfx": "fridge hum, slurp"},
-        {"n": 3, "dur": 6, "loc": "kitchen", "chars": ["margo", "pidge"],
-         "keyframe": "the kitchen light snaps on revealing Margo sitting at the table stroking a label maker like a villain",
-         "action": "Pidge freezes mid-swallow, yogurt on his beak",
-         "camera": "snap zoom onto Margo",
-         "lines": [{"c": "margo", "t": "Good evening, Pidge.", "tone": "cold, villainous"}],
-         "sfx": "light switch click, dramatic sting"},
-        {"n": 4, "dur": 8, "loc": "kitchen", "chars": ["margo", "pidge"],
-         "keyframe": "Margo standing with a pointer in front of the fridge, Pidge sweating",
-         "action": "Margo steps closer, Pidge backs into the counter",
-         "camera": "two-shot",
-         "lines": [{"c": "margo", "t": "That yogurt was bait. I've tracked the thief for six weeks.", "tone": "intense"}, {"c": "pidge", "t": "Six weeks? I moved in five weeks ago!", "tone": "panicked"}],
-         "sfx": "tension drone"},
-        {"n": 5, "dur": 8, "loc": "kitchen", "chars": ["sloane", "margo"],
-         "keyframe": "Sloane standing in the kitchen doorway in his beanie, holding a stack of six empty yogurt pots",
-         "action": "Margo and Pidge turn their heads slowly to Sloane, who slowly raises one empty pot",
-         "camera": "slow dolly toward Sloane",
-         "lines": [{"c": "sloane", "t": "Hmm... evening.", "tone": "slow, calm"}, {"c": "margo", "t": "...I need a bigger spreadsheet.", "tone": "defeated"}],
-         "sfx": "record scratch"}
-      ],
-      "loop_note": "ends on the yogurt stack; loops to Margo labelling the fridge"
-    },
-    {
-      "id": "F4B-004", "number": 4,
-      "title": "Day 1 at the gym be like 💪 #shorts",
-      "logline": "Dougie's first gym session lasts four minutes after a treadmill launches him, but he still posts it as a personal best.",
-      "hook_text": "Day one of the new me 💪",
-      "description": "No pain, no gain. Mostly pain. Flat 4B.",
-      "tags": ["gym fail", "new year new me", "fitness", "treadmill", "animation", "comedy"],
-      "music": "triumphant brass sting",
-      "shots": [
-        {"n": 1, "dur": 6, "loc": "gym", "chars": ["dougie"],
-         "keyframe": "Dougie in brand-new neon gym gear holding his phone up for a selfie, flexing a tiny bicep",
-         "action": "Dougie poses, flexes, winks at the camera",
-         "camera": "selfie angle",
-         "lines": [{"c": "dougie", "t": "Day one of the new me! Big day, big day!", "tone": "pumped"}],
-         "sfx": "camera shutter"},
-        {"n": 2, "dur": 8, "loc": "gym", "chars": ["dougie", "pidge"],
-         "keyframe": "Dougie on a treadmill jabbing the speed button, Pidge leaning on the next treadmill eating chips",
-         "action": "the treadmill speeds up wildly and launches Dougie backwards off the end",
-         "camera": "side-on wide shot",
-         "lines": [{"c": "pidge", "t": "Mate, that's the speed setting for horses.", "tone": "amused"}],
-         "sfx": "treadmill whine rising, whoosh, crash"},
-        {"n": 3, "dur": 6, "loc": "gym", "chars": ["dougie", "pidge"],
-         "keyframe": "Dougie upside down on the floor tangled in a resistance band, phone stuck to his forehead",
-         "action": "Dougie wiggles, Pidge peels the phone off his face",
-         "camera": "top-down",
-         "lines": [{"c": "dougie", "t": "I think I pulled something.", "tone": "strained"}, {"c": "pidge", "t": "Your phone. You pulled your phone.", "tone": "dry"}],
-         "sfx": "rubber band twang"},
-        {"n": 4, "dur": 8, "loc": "living_room", "chars": ["dougie", "margo"],
-         "keyframe": "Dougie on the sofa with an ice pack on his head typing on his phone, Margo reading a book next to him",
-         "action": "Dougie types proudly, Margo peers at his screen over her glasses",
-         "camera": "medium two-shot",
-         "lines": [{"c": "dougie", "t": "Absolutely crushed it today. No pain, no gain.", "tone": "proud"}, {"c": "margo", "t": "You were there for four minutes.", "tone": "deadpan"}],
-         "sfx": "phone typing"},
-        {"n": 5, "dur": 6, "loc": "living_room", "chars": ["dougie"],
-         "keyframe": "close on Dougie's face, determined, ice pack sliding off",
-         "action": "his tail wags weakly and knocks the ice pack off the sofa",
-         "camera": "close up",
-         "lines": [{"c": "dougie", "t": "Four personal best minutes.", "tone": "dignified"}],
-         "sfx": "ice pack plop, triumphant brass sting"}
-      ],
-      "loop_note": "ends on Dougie's pride; loops to the selfie"
-    },
-    {
-      "id": "F4B-005", "number": 5,
-      "title": "The calmest freelancer alive 🦥 #shorts",
-      "logline": "The flat panics over Sloane's five-minute deadline, only to learn he submitted the work weeks ago and the deadline is his nap.",
-      "hook_text": "His deadline is in 5 minutes ⏰",
-      "description": "Sloane does not panic. Sloane has never panicked. Flat 4B.",
-      "tags": ["freelancer", "deadline", "procrastination", "sloth", "animation", "comedy"],
-      "music": "tense comedic strings",
-      "shots": [
-        {"n": 1, "dur": 6, "loc": "living_room", "chars": ["margo", "sloane"],
-         "keyframe": "Margo bursting into the living room pointing at the clock, Sloane lying on the sofa",
-         "action": "Sloane begins to turn his head extremely slowly",
-         "camera": "medium wide",
-         "lines": [{"c": "margo", "t": "Sloane! Your deadline is in five minutes!", "tone": "alarmed"}],
-         "sfx": "alarm beeping"},
-        {"n": 2, "dur": 8, "loc": "living_room", "chars": ["pidge", "dougie"],
-         "keyframe": "Pidge hammering a keyboard, Dougie frantically fanning the laptop with a cushion",
-         "action": "both run in circles around the coffee table in a panic",
-         "camera": "handheld frantic",
-         "lines": [{"c": "pidge", "t": "Just type words! Any words! Clients love words!", "tone": "frantic"}],
-         "sfx": "rapid typing, papers flying"},
-        {"n": 3, "dur": 8, "loc": "living_room", "chars": ["sloane", "margo"],
-         "keyframe": "Sloane's arm slowly extending toward the laptop, Margo holding a stopwatch",
-         "action": "Sloane's hand moves inch by inch, the stopwatch ticks",
-         "camera": "extreme close up on Sloane's slow claw, cut to Margo",
-         "lines": [{"c": "margo", "t": "Three minutes!", "tone": "shrill"}, {"c": "sloane", "t": "Hmm...", "tone": "slow"}],
-         "sfx": "loud ticking"},
-        {"n": 4, "dur": 8, "loc": "living_room", "chars": ["sloane", "dougie"],
-         "keyframe": "Sloane holding the laptop calmly, everyone frozen around him mid-panic",
-         "action": "everyone freezes, Dougie's ears flop",
-         "camera": "slow push-in on Sloane",
-         "lines": [{"c": "sloane", "t": "I submitted it... three weeks ago.", "tone": "serene"}, {"c": "dougie", "t": "Then what's due in five minutes?", "tone": "confused"}],
-         "sfx": "ticking stops"},
-        {"n": 5, "dur": 6, "loc": "living_room", "chars": ["sloane", "margo"],
-         "keyframe": "Sloane closing his eyes on the sofa, Margo with an open laptop spreadsheet",
-         "action": "Sloane instantly falls asleep mid-word and snores, Margo types it in",
-         "camera": "medium two-shot",
-         "lines": [{"c": "sloane", "t": "My nap.", "tone": "drowsy"}, {"c": "margo", "t": "Noted.", "tone": "dry"}],
-         "sfx": "snore, keyboard click"}
-      ],
-      "loop_note": "ends on snoring Sloane; loops to Margo bursting in"
-    },
-    {
-      "id": "F4B-006", "number": 6,
-      "title": "Landlord inspection in 60 seconds 😱 #shorts",
-      "logline": "The flatmates cram all their mess into one cupboard before an inspection, but the landlady refuses to open it because her own 1987 mess is in there too.",
-      "hook_text": "Landlord inspection in 60 seconds 😱",
-      "description": "Rule number forty-seven: never open that cupboard. Flat 4B.",
-      "tags": ["landlord", "inspection", "renting", "flatmates", "animation", "comedy"],
-      "music": "spy heist",
-      "shots": [
-        {"n": 1, "dur": 6, "loc": "stairwell", "chars": ["mrs_badger"],
-         "keyframe": "Mrs Badger at the top of the stairs pressing an intercom button, clipboard under her arm",
-         "action": "she checks her watch and smirks",
-         "camera": "low angle looking up the stairs",
-         "lines": [{"c": "mrs_badger", "t": "Flat 4B. Inspection. Sixty seconds.", "tone": "stern"}],
-         "sfx": "intercom buzz"},
-        {"n": 2, "dur": 8, "loc": "living_room", "chars": ["margo", "pidge"],
-         "keyframe": "messy living room, all four flatmates flinging clothes, pizza boxes and mugs into one tall cupboard",
-         "action": "speed-clean montage; Pidge sits against the cupboard door to force it shut",
-         "camera": "fast whip pans",
-         "lines": [{"c": "margo", "t": "Everything in the cupboard! Including your feelings!", "tone": "commanding"}],
-         "sfx": "fast-forward whoosh, crashing objects"},
-        {"n": 3, "dur": 6, "loc": "living_room", "chars": ["mrs_badger"],
-         "keyframe": "spotless living room, flatmates standing in a stiff line, Mrs Badger running a gloved finger along a shelf",
-         "action": "she inspects her clean glove and narrows her eyes",
-         "camera": "close up on the glove, rack focus to her face",
-         "lines": [{"c": "mrs_badger", "t": "Hm. Suspiciously clean.", "tone": "suspicious"}],
-         "sfx": "squeaky glove"},
-        {"n": 4, "dur": 8, "loc": "living_room", "chars": ["mrs_badger", "dougie"],
-         "keyframe": "Mrs Badger's paw on the cupboard handle, flatmates gasping behind her",
-         "action": "she opens the door an inch, peeks inside, then slams it shut, sweating",
-         "camera": "tight on the cupboard door",
-         "lines": [{"c": "mrs_badger", "t": "That cupboard is not part of the inspection.", "tone": "flustered"}, {"c": "dougie", "t": "Why not?", "tone": "whisper"}],
-         "sfx": "door slam, gasp"},
-        {"n": 5, "dur": 8, "loc": "hallway", "chars": ["mrs_badger", "margo"],
-         "keyframe": "Mrs Badger marching briskly out the front door, Margo staring after her",
-         "action": "Mrs Badger stamps the clipboard and hurries out",
-         "camera": "wide hallway shot",
-         "lines": [{"c": "mrs_badger", "t": "Because that's where I hid MY mess. In 1987. Passed!", "tone": "fast, embarrassed"}, {"c": "margo", "t": "...We live in a time capsule.", "tone": "deadpan"}],
-         "sfx": "stamp thunk, door slam"}
-      ],
-      "loop_note": "ends with door slam; loops to the intercom buzz"
-    },
-    {
-      "id": "F4B-007", "number": 7,
-      "title": "My flatmates rewrote my dating profile 💘 #shorts",
-      "logline": "Margo's flatmates sabotage her brutally honest dating bio, but the only word left gets her a perfect silent match.",
-      "hook_text": "Her dating bio was TOO honest",
-      "description": "Some people want sparks. Margo wants silence. Flat 4B.",
-      "tags": ["dating app", "dating bio", "introvert", "flatmates", "animation", "comedy"],
-      "music": "upbeat ukulele",
-      "guests": {
-        "owen": {"name": "Owen", "ref_prompt": "anthropomorphic tawny owl man in his thirties, large calm amber eyes, black turtleneck jumper, holding a teacup, stands upright", "voice": "soft, quiet, low adult male"}
-      },
-      "shots": [
-        {"n": 1, "dur": 6, "loc": "living_room", "chars": ["margo", "dougie"],
-         "keyframe": "Margo on the sofa typing on her phone, Dougie reading over her shoulder with horror",
-         "action": "Dougie gasps and covers his mouth",
-         "camera": "over-the-shoulder",
-         "lines": [{"c": "margo", "t": "Bio: I enjoy silence and accurate receipts.", "tone": "flat"}],
-         "sfx": "typing, gasp"},
-        {"n": 2, "dur": 8, "loc": "living_room", "chars": ["dougie", "pidge"],
-         "keyframe": "Dougie and Pidge wrestling over Margo's phone above her head",
-         "action": "they pass the phone back and forth typing",
-         "camera": "medium shot, playful handheld",
-         "lines": [{"c": "dougie", "t": "Add 'loves long walks and cuddles'!", "tone": "excited"}, {"c": "pidge", "t": "Add 'crypto queen, DMs open'!", "tone": "hustler"}],
-         "sfx": "phone dings"},
-        {"n": 3, "dur": 8, "loc": "living_room", "chars": ["sloane", "margo"],
-         "keyframe": "Sloane holding the phone, one claw slowly pressing the screen, Margo watching",
-         "action": "Sloane slowly hands the phone back to Margo",
-         "camera": "medium two-shot",
-         "lines": [{"c": "sloane", "t": "Fixed... it.", "tone": "slow"}, {"c": "margo", "t": "You deleted everything except the word silence.", "tone": "deadpan"}],
-         "sfx": "soft ding"},
-        {"n": 4, "dur": 6, "loc": "living_room", "chars": ["margo"],
-         "keyframe": "Margo's phone lighting up with a heart-shaped notification glow on her face",
-         "action": "Margo raises one eyebrow, her tail flicks",
-         "camera": "close up",
-         "lines": [{"c": "margo", "t": "A match. His whole message says: 'Same.'", "tone": "intrigued"}],
-         "sfx": "match chime"},
-        {"n": 5, "dur": 8, "loc": "cafe", "chars": ["margo", "owen"],
-         "keyframe": "Margo and Owen the owl sitting across a cafe table, both holding teacups, perfectly content, no talking",
-         "action": "they sip tea in total silence, then both nod with satisfaction",
-         "camera": "slow romantic push-in",
-         "lines": [{"c": "owen", "t": "Nice.", "tone": "soft"}, {"c": "margo", "t": "Agreed.", "tone": "content"}],
-         "sfx": "teacup clink, gentle cafe ambience"}
-      ],
-      "loop_note": "ends in calm silence; loops to the bio typing"
-    },
-    {
-      "id": "F4B-008", "number": 8,
-      "title": "Me hitting snooze 'just 5 more minutes' ⏰ #shorts",
-      "logline": "Dougie snoozes his alarm into chaos and sprints to work in the rain before learning it's Saturday.",
-      "hook_text": "\"Just 5 more minutes\" ⏰",
-      "description": "The snooze button is a liar. Flat 4B.",
-      "tags": ["snooze", "alarm", "late for work", "monday", "animation", "comedy"],
-      "music": "sitcom pluck",
-      "shots": [
-        {"n": 1, "dur": 6, "loc": "bedroom", "chars": ["dougie"],
-         "keyframe": "Dougie in bed with a sleep mask on his forehead, slapping a ringing alarm clock",
-         "action": "he hits snooze and pulls the duvet over his head",
-         "camera": "top-down on bed",
-         "lines": [{"c": "dougie", "t": "Five more minutes. Big day... later.", "tone": "sleepy"}],
-         "sfx": "alarm ringing, slap"},
-        {"n": 2, "dur": 8, "loc": "bedroom", "chars": ["dougie"],
-         "keyframe": "same bed, Dougie in a different tangled sleeping pose, sunlight brighter",
-         "action": "jump cuts of the alarm ringing and Dougie slapping it, light changing each time, his fur getting wilder",
-         "camera": "locked-off jump cuts",
-         "lines": [{"c": "dougie", "t": "Five more. Five more. Okay, three more.", "tone": "mumbling"}],
-         "sfx": "alarm, slap, alarm, slap"},
-        {"n": 3, "dur": 6, "loc": "bedroom", "chars": ["dougie"],
-         "keyframe": "Dougie bolt upright in bed, eyes huge, bright noon sun blasting through the blinds",
-         "action": "he leaps out of bed and gets tangled in the duvet",
-         "camera": "snap zoom",
-         "lines": [{"c": "dougie", "t": "I'M SO LATE!", "tone": "screaming"}],
-         "sfx": "dramatic sting"},
-        {"n": 4, "dur": 8, "loc": "street", "chars": ["dougie", "pidge"],
-         "keyframe": "Dougie sprinting down a rainy street, shirt half-buttoned, toast in his mouth, lanyard flying; Pidge on a scooter alongside",
-         "action": "Dougie runs through puddles, Pidge cruises next to him easily",
-         "camera": "tracking shot",
-         "lines": [{"c": "pidge", "t": "Oi! Where you running to?", "tone": "casual"}, {"c": "dougie", "t": "WORK!", "tone": "frantic, muffled by toast"}],
-         "sfx": "splashing, rain, scooter buzz"},
-        {"n": 5, "dur": 8, "loc": "street", "chars": ["pidge", "dougie"],
-         "keyframe": "Dougie stopped dead in the pouring rain, soaked, toast drooping; Pidge under a tiny umbrella",
-         "action": "the toast slowly falls from Dougie's mouth into a puddle",
-         "camera": "slow push-in on Dougie",
-         "lines": [{"c": "pidge", "t": "It's Saturday, mate.", "tone": "gentle"}, {"c": "dougie", "t": "...Big day for being wrong.", "tone": "dazed"}],
-         "sfx": "rain intensifies, plop"}
-      ],
-      "loop_note": "loops to the alarm ringing"
-    },
-    {
-      "id": "F4B-009", "number": 9,
-      "title": "Splitting the bill with THAT friend 🧾 #shorts",
-      "logline": "Margo splits a restaurant bill to the penny while broke Pidge argues his breadstick, until Sloane reveals an eleven-year loyalty card already covered everything.",
-      "hook_text": "Splitting the bill... to the penny 🧾",
-      "description": "Every friend group has a calculator. Flat 4B.",
-      "tags": ["split the bill", "restaurant", "friends", "money", "animation", "comedy"],
-      "music": "western standoff",
-      "guests": {
-        "gerald": {"name": "Gerald", "ref_prompt": "anthropomorphic emperor penguin waiter, natural tuxedo plumage, white napkin over one flipper, small silver tray, very upright posture", "voice": "posh, polite, older male waiter"}
-      },
-      "shots": [
-        {"n": 1, "dur": 6, "loc": "restaurant", "chars": ["margo"],
-         "keyframe": "a tiny silver bill tray on the table, Margo pulling a large calculator from her cardigan",
-         "action": "Margo cracks her knuckles and starts typing",
-         "camera": "close up on calculator, tilt up to Margo",
-         "lines": [{"c": "margo", "t": "I'll split it. Fairly. To the penny.", "tone": "focused"}],
-         "sfx": "calculator beeps"},
-        {"n": 2, "dur": 8, "loc": "restaurant", "chars": ["pidge", "margo"],
-         "keyframe": "Pidge holding up a single breadstick defensively, Margo typing",
-         "action": "Pidge waves the breadstick, Margo keeps typing without looking up",
-         "camera": "two-shot across the table",
-         "lines": [{"c": "pidge", "t": "I only had tap water and one breadstick!", "tone": "defensive"}, {"c": "margo", "t": "Breadstick, ninety pence. Emotional support from Dougie, extra.", "tone": "precise"}],
-         "sfx": "beep beep"},
-        {"n": 3, "dur": 8, "loc": "restaurant", "chars": ["dougie"],
-         "keyframe": "Dougie standing up heroically, opening his wallet",
-         "action": "a moth flutters out of the empty wallet, Dougie sits back down slowly",
-         "camera": "low hero angle, then deflating wide",
-         "lines": [{"c": "dougie", "t": "I'll pay for everyone! Big day! ...Smaller day.", "tone": "heroic then sheepish"}],
-         "sfx": "heroic chord, moth flutter, deflating whistle"},
-        {"n": 4, "dur": 6, "loc": "restaurant", "chars": ["gerald", "margo"],
-         "keyframe": "Gerald the penguin waiter bowing at the table, picking up the tray",
-         "action": "Gerald bows, Margo freezes mid-calculation",
-         "camera": "medium shot",
-         "lines": [{"c": "gerald", "t": "The bill has been settled, madam.", "tone": "polite"}],
-         "sfx": "soft piano"},
-        {"n": 5, "dur": 8, "loc": "restaurant", "chars": ["sloane", "pidge"],
-         "keyframe": "everyone turning to Sloane, who slowly holds up a battered, very long loyalty card",
-         "action": "the loyalty card unfolds down to the floor like a scroll",
-         "camera": "slow tilt down the card",
-         "lines": [{"c": "sloane", "t": "Loyalty card. I've eaten here... every day... for eleven years.", "tone": "slow"}, {"c": "pidge", "t": "Every DAY?", "tone": "shocked"}],
-         "sfx": "paper unrolling, angelic choir"}
-      ],
-      "loop_note": "loops to the bill tray arriving"
-    },
-    {
-      "id": "F4B-010", "number": 10,
-      "title": "My flatmate's newest 'business idea' 🍞 #shorts",
-      "logline": "Pidge tries to sell an 'exclusive certified' slice of bread and ends up trading it to the landlady for a whole loaf.",
-      "hook_text": "He's selling ONE slice of bread 🍞",
-      "description": "It's not a scam, it's a business model. Flat 4B.",
-      "tags": ["side hustle", "entrepreneur", "scam", "hustle culture", "animation", "comedy"],
-      "music": "dramatic organ",
-      "shots": [
-        {"n": 1, "dur": 6, "loc": "living_room", "chars": ["pidge"],
-         "keyframe": "a single slice of bread on a velvet cushion on a pedestal under a spotlight, Pidge in a blazer over his hi-vis presenting it",
-         "action": "Pidge sweeps his wing toward the bread",
-         "camera": "slow reveal dolly",
-         "lines": [{"c": "pidge", "t": "Ladies and gents. Exclusive. Digital. Bread.", "tone": "salesman"}],
-         "sfx": "angelic choir"},
-        {"n": 2, "dur": 8, "loc": "living_room", "chars": ["margo", "pidge"],
-         "keyframe": "Margo staring flatly at the bread, Pidge unrolling a fancy golden scroll certificate",
-         "action": "the certificate unrolls with a flourish",
-         "camera": "two-shot",
-         "lines": [{"c": "margo", "t": "It's a slice of bread.", "tone": "deadpan"}, {"c": "pidge", "t": "It's a slice of bread with a certificate.", "tone": "smug"}],
-         "sfx": "scroll unrolling, fanfare"},
-        {"n": 3, "dur": 8, "loc": "stairwell", "chars": ["pidge", "mrs_badger"],
-         "keyframe": "Pidge at Mrs Badger's door holding the bread on its cushion, Mrs Badger in curlers squinting",
-         "action": "Pidge pitches, Mrs Badger leans closer and sniffs the bread",
-         "camera": "over-the-shoulder on Mrs Badger",
-         "lines": [{"c": "pidge", "t": "One of a kind. Limited edition. Fifty quid.", "tone": "smooth"}],
-         "sfx": "sniff"},
-        {"n": 4, "dur": 6, "loc": "stairwell", "chars": ["mrs_badger", "pidge"],
-         "keyframe": "Mrs Badger holding out a whole fresh loaf of bread",
-         "action": "she swaps the loaf for the slice and shuts the door",
-         "camera": "medium shot",
-         "lines": [{"c": "mrs_badger", "t": "I'll trade you.", "tone": "stern"}],
-         "sfx": "door click"},
-        {"n": 5, "dur": 8, "loc": "living_room", "chars": ["pidge", "margo"],
-         "keyframe": "Pidge holding the whole loaf triumphantly above his head, Margo with a calculator",
-         "action": "Margo checks the calculator, her eyes widen",
-         "camera": "low hero angle",
-         "lines": [{"c": "pidge", "t": "One slice into twenty slices. Nineteen hundred percent return.", "tone": "triumphant"}, {"c": "margo", "t": "...That's actually correct.", "tone": "stunned"}],
-         "sfx": "triumphant organ chord"}
-      ],
-      "loop_note": "loops to the bread on the pedestal"
-    },
-    {
-      "id": "F4B-011", "number": 11,
-      "title": "The thermostat war in every home 🌡️ #shorts",
-      "logline": "Margo and Dougie wage a secret night-time war over the thermostat until they break it and learn the landlady has controlled the heat all along.",
-      "hook_text": "19°C vs 24°C 🌡️",
-      "description": "Every flat has a thermostat war. Flat 4B.",
-      "tags": ["thermostat", "heating", "roommates", "winter", "animation", "comedy"],
-      "music": "spy heist",
-      "shots": [
-        {"n": 1, "dur": 6, "loc": "hallway", "chars": ["margo"],
-         "keyframe": "Margo turning a round thermostat dial on the hallway wall down, wrapped in a blanket",
-         "action": "she turns the dial with precision and nods",
-         "camera": "close up on the dial then Margo",
-         "lines": [{"c": "margo", "t": "Nineteen degrees. Like civilised people.", "tone": "prim"}],
-         "sfx": "dial clicks"},
-        {"n": 2, "dur": 6, "loc": "hallway", "chars": ["dougie"],
-         "keyframe": "Dougie tiptoeing to the thermostat in a fluffy dressing gown",
-         "action": "he cranks the dial up with a grin",
-         "camera": "same framing as shot 1",
-         "lines": [{"c": "dougie", "t": "Twenty-four. Like happy people!", "tone": "gleeful whisper"}],
-         "sfx": "dial clicks fast"},
-        {"n": 3, "dur": 8, "loc": "hallway", "chars": ["margo", "dougie"],
-         "keyframe": "dark hallway at night, Margo in a black ninja outfit creeping on the ceiling, Dougie disguised as a houseplant",
-         "action": "montage of them sneaking past each other to the dial in increasingly absurd disguises",
-         "camera": "night-vision green tint",
-         "lines": [],
-         "sfx": "spy music stabs, creaking floorboards"},
-        {"n": 4, "dur": 8, "loc": "hallway", "chars": ["margo", "dougie"],
-         "keyframe": "Margo and Dougie both gripping the thermostat dial, face to face, nose to nose",
-         "action": "they both twist hard, the dial snaps off in their paws",
-         "camera": "tight two-shot, then snap zoom on the broken dial",
-         "lines": [{"c": "margo", "t": "Let go.", "tone": "icy"}, {"c": "dougie", "t": "You let go.", "tone": "stubborn"}],
-         "sfx": "snap, gasp"},
-        {"n": 5, "dur": 8, "loc": "stairwell", "chars": ["mrs_badger"],
-         "keyframe": "Mrs Badger upstairs in an armchair in her dressing gown, holding a remote control, sipping tea",
-         "action": "she presses a button on the remote and smiles",
-         "camera": "slow push-in",
-         "lines": [{"c": "mrs_badger", "t": "That dial downstairs hasn't worked since 2004.", "tone": "smug"}],
-         "sfx": "remote beep, radiator hiss"}
-      ],
-      "loop_note": "loops to Margo at the dial"
-    },
-    {
-      "id": "F4B-012", "number": 12,
-      "title": "Workaholic on her first holiday 🏖️ #shorts",
-      "logline": "Margo can't stop working on her first holiday in six years, then discovers her boss secretly working on the next deckchair.",
-      "hook_text": "First holiday in 6 years 🏖️",
-      "description": "Out of office. Not out of the office. Flat 4B.",
-      "tags": ["workaholic", "holiday", "out of office", "beach", "animation", "comedy"],
-      "music": "lofi chill",
-      "guests": {
-        "heron": {"name": "Mr Heron", "ref_prompt": "anthropomorphic tall grey heron man, thin long beak, tiny rectangular glasses, slim grey suit and skinny tie, holding a coffee cup, stands upright", "voice": "nasal, monotone middle-aged male manager"}
-      },
-      "shots": [
-        {"n": 1, "dur": 6, "loc": "beach", "chars": ["margo"],
-         "keyframe": "Margo on a deckchair in a sunhat and her cardigan, laptop on her knees",
-         "action": "Margo types while waves roll behind her",
-         "camera": "wide establishing beach shot",
-         "lines": [{"c": "margo", "t": "First holiday in six years. I am relaxing.", "tone": "tense"}],
-         "sfx": "waves, seagulls, typing"},
-        {"n": 2, "dur": 8, "loc": "beach", "chars": ["dougie", "margo"],
-         "keyframe": "Dougie in an inflatable duck ring peering at Margo's laptop",
-         "action": "Margo types even faster without looking up",
-         "camera": "two-shot",
-         "lines": [{"c": "dougie", "t": "Are you... working?", "tone": "suspicious"}, {"c": "margo", "t": "I'm relaxing at work speed.", "tone": "clipped"}],
-         "sfx": "furious typing"},
-        {"n": 3, "dur": 8, "loc": "beach", "chars": ["dougie", "margo"],
-         "keyframe": "Dougie burying the laptop in the sand, Margo calmly pulling a second laptop from her beach bag",
-         "action": "Margo opens the second laptop and continues",
-         "camera": "medium shot",
-         "lines": [{"c": "dougie", "t": "How many have you got?", "tone": "exasperated"}, {"c": "margo", "t": "Enough.", "tone": "deadpan"}],
-         "sfx": "sand digging, laptop chime"},
-        {"n": 4, "dur": 6, "loc": "beach", "chars": ["margo"],
-         "keyframe": "close on Margo's face lit by the laptop screen, an email notification glow",
-         "action": "her eyes widen behind her sunglasses",
-         "camera": "close up",
-         "lines": [{"c": "margo", "t": "My boss just replied. From... a beach.", "tone": "suspicious"}],
-         "sfx": "email ping"},
-        {"n": 5, "dur": 8, "loc": "beach", "chars": ["heron", "margo"],
-         "keyframe": "camera pans to the very next deckchair: Mr Heron, sunburnt, typing on a laptop",
-         "action": "they lock eyes, then both slowly close their laptops in unison",
-         "camera": "slow pan, then two-shot",
-         "lines": [{"c": "heron", "t": "I didn't see you.", "tone": "flat"}, {"c": "margo", "t": "Nor I you.", "tone": "flat"}],
-         "sfx": "two laptops closing in sync, seagull laugh"}
-      ],
-      "loop_note": "loops to Margo opening her laptop"
-    },
-    {
-      "id": "F4B-013", "number": 13,
-      "title": "Meal prep Sunday vs. my flatmate 🍱 #shorts",
-      "logline": "Dougie meal-preps twenty-one lunches for the week and wakes up Monday to find Pidge ate twenty of them overnight.",
-      "hook_text": "21 meals prepped. 1 left by Monday.",
-      "description": "Meal prep only works if you live alone. Flat 4B.",
-      "tags": ["meal prep", "flatmates", "food thief", "adulting", "animation", "comedy"],
-      "music": "sitcom pluck",
-      "shots": [
-        {"n": 1, "dur": 6, "loc": "kitchen", "chars": ["dougie"],
-         "keyframe": "Dougie in an apron surrounded by a tower of identical lunch boxes stacked to the ceiling",
-         "action": "Dougie places the last box on top proudly",
-         "camera": "low angle on the tower",
-         "lines": [{"c": "dougie", "t": "Twenty-one meals. I'm a proper adult now.", "tone": "proud"}],
-         "sfx": "triumphant ding"},
-        {"n": 2, "dur": 8, "loc": "kitchen", "chars": ["dougie"],
-         "keyframe": "Monday morning, Dougie opening the fridge, an empty fridge except one lunch box",
-         "action": "Dougie's jaw drops, he looks left and right",
-         "camera": "inside-the-fridge POV",
-         "lines": [{"c": "dougie", "t": "Who eats twenty meals in one night?!", "tone": "shocked"}],
-         "sfx": "fridge door creak, dramatic sting"},
-        {"n": 3, "dur": 6, "loc": "kitchen", "chars": ["pidge"],
-         "keyframe": "Pidge at the kitchen table with a perfectly round belly, crumbs on his beak, stack of empty boxes beside him",
-         "action": "Pidge slowly finishes chewing",
-         "camera": "slow push-in",
-         "lines": [{"c": "pidge", "t": "Allegedly.", "tone": "smug"}],
-         "sfx": "big gulp"},
-        {"n": 4, "dur": 8, "loc": "kitchen", "chars": ["pidge", "dougie"],
-         "keyframe": "Pidge explaining with wing gestures, Dougie's eye twitching",
-         "action": "Pidge leans back in the chair, Dougie's eyelid twitches",
-         "camera": "two-shot",
-         "lines": [{"c": "pidge", "t": "Technically I ate your future meals. So I'm a time traveller.", "tone": "confident"}],
-         "sfx": "eye twitch boing"},
-        {"n": 5, "dur": 8, "loc": "kitchen", "chars": ["dougie", "pidge"],
-         "keyframe": "Dougie opening the last lunch box with hope",
-         "action": "inside the box is one single pea; Dougie stares at it",
-         "camera": "top-down into the box, then Dougie's face",
-         "lines": [{"c": "pidge", "t": "I saved you the best one.", "tone": "generous"}, {"c": "dougie", "t": "Big... day.", "tone": "broken"}],
-         "sfx": "single pea rolling, sad trombone"}
-      ],
-      "loop_note": "loops to the lunch box tower"
-    },
-    {
-      "id": "F4B-014", "number": 14,
-      "title": "Delivering a parcel to my own flat 📦 #shorts",
-      "logline": "Delivery rider Pidge discovers his parcel is for his own flat, gets locked out, and waits an eternity for Sloane to open the door.",
-      "hook_text": "The delivery address was HIS flat 📦",
-      "description": "Five-star delivery. One-star flatmate. Flat 4B.",
-      "tags": ["delivery driver", "locked out", "parcel", "flatmates", "animation", "comedy"],
-      "music": "lofi chill",
-      "shots": [
-        {"n": 1, "dur": 6, "loc": "street", "chars": ["pidge"],
-         "keyframe": "Pidge on his scooter holding a parcel, checking his phone in the rain",
-         "action": "he zooms off with a grin",
-         "camera": "medium tracking shot",
-         "lines": [{"c": "pidge", "t": "Flat 4B. Easy money.", "tone": "cocky"}],
-         "sfx": "scooter buzz"},
-        {"n": 2, "dur": 8, "loc": "stairwell", "chars": ["pidge"],
-         "keyframe": "Pidge outside the 4B front door holding the parcel, realising",
-         "action": "he pats his vest pockets looking for keys, finds nothing",
-         "camera": "medium shot, slow push-in",
-         "lines": [{"c": "pidge", "t": "Hold on. That's MY flat. Where are my keys?", "tone": "dawning panic"}],
-         "sfx": "pocket patting, buzzer press"},
-        {"n": 3, "dur": 8, "loc": "living_room", "chars": ["sloane"],
-         "keyframe": "Sloane lying on the sofa hearing the buzzer, starting to sit up",
-         "action": "Sloane rises... extremely... slowly",
-         "camera": "locked-off wide shot",
-         "lines": [{"c": "sloane", "t": "Com... ing.", "tone": "very slow"}],
-         "sfx": "buzzer, sofa creak"},
-        {"n": 4, "dur": 8, "loc": "stairwell", "chars": ["pidge"],
-         "keyframe": "Pidge waiting at the door, parcel in his wings",
-         "action": "time-lapse: daylight changes, other pigeons gather and sit around him, a spider web forms on his cap",
-         "camera": "locked-off time-lapse",
-         "lines": [{"c": "pidge", "t": "Any day now, mate! I've got forty more drops!", "tone": "exasperated"}],
-         "sfx": "time-lapse whoosh, cooing"},
-        {"n": 5, "dur": 8, "loc": "hallway", "chars": ["sloane", "pidge"],
-         "keyframe": "door finally open, Sloane holding the opened parcel, revealing a brand new doorbell",
-         "action": "Sloane holds up the doorbell, Pidge face-palms with his wing",
-         "camera": "two-shot",
-         "lines": [{"c": "sloane", "t": "New doorbell. For... faster... answering.", "tone": "proud, slow"}],
-         "sfx": "doorbell ding-dong, rimshot"}
-      ],
-      "loop_note": "doorbell ding loops to the scooter start"
-    },
-    {
-      "id": "F4B-015", "number": 15,
-      "title": "Too honest in a job interview 👔 #shorts",
-      "logline": "Dougie accidentally tells an interviewer he wants her chair in five years, and she hands it to him on the spot.",
-      "hook_text": "\"Where do you see yourself in 5 years?\"",
-      "description": "Honesty: the ultimate interview hack? Flat 4B.",
-      "tags": ["job interview", "honesty", "career", "office", "animation", "comedy"],
-      "music": "triumphant brass sting",
-      "guests": {
-        "ms_goose": {"name": "Ms Goose", "ref_prompt": "anthropomorphic white goose woman, sharp orange beak, stern eyes, pearl necklace, navy blazer, reading glasses on a chain, stands upright", "voice": "crisp, authoritative middle-aged female"}
-      },
-      "shots": [
-        {"n": 1, "dur": 6, "loc": "office_desk", "chars": ["dougie", "ms_goose"],
-         "keyframe": "Dougie in an oversized suit sitting across a desk from Ms Goose, his tail wagging under the chair",
-         "action": "Dougie waves too enthusiastically, then corrects himself",
-         "camera": "two-shot across the desk",
-         "lines": [{"c": "dougie", "t": "Big day! I mean... hello. Good afternoon.", "tone": "nervous"}],
-         "sfx": "chair squeak"},
-        {"n": 2, "dur": 8, "loc": "office_desk", "chars": ["ms_goose", "dougie"],
-         "keyframe": "Ms Goose peering over her glasses holding a clipboard",
-         "action": "she taps her pen, Dougie answers before thinking",
-         "camera": "over-the-shoulder on Dougie",
-         "lines": [{"c": "ms_goose", "t": "Where do you see yourself in five years?", "tone": "probing"}, {"c": "dougie", "t": "Honestly? In your chair.", "tone": "sincere"}],
-         "sfx": "pen tap"},
-        {"n": 3, "dur": 6, "loc": "office_desk", "chars": ["dougie"],
-         "keyframe": "close up on Dougie frozen, tail stopped mid-wag",
-         "action": "his eyes slowly widen in horror",
-         "camera": "slow zoom in",
-         "lines": [{"c": "dougie", "t": "I said that out loud.", "tone": "horrified whisper"}],
-         "sfx": "record scratch, silence"},
-        {"n": 4, "dur": 8, "loc": "office_desk", "chars": ["ms_goose"],
-         "keyframe": "Ms Goose standing up slowly, removing her glasses dramatically",
-         "action": "she stands, pushes her big leather chair toward Dougie",
-         "camera": "low angle on Ms Goose",
-         "lines": [{"c": "ms_goose", "t": "Finally. Someone honest. I resign tomorrow. The chair is yours.", "tone": "dramatic"}],
-         "sfx": "chair wheels rolling, choir"},
-        {"n": 5, "dur": 8, "loc": "office_desk", "chars": ["dougie"],
-         "keyframe": "Dougie sitting in the big leather chair, spinning with joy",
-         "action": "he spins so fast the chair rolls out of the office door and down the corridor",
-         "camera": "wide, chair zooms past camera",
-         "lines": [{"c": "dougie", "t": "BIG DAAAAY!", "tone": "ecstatic, fading"}],
-         "sfx": "spinning whoosh, distant crash"}
-      ],
-      "loop_note": "loops to Dougie sitting nervously"
+ "episodes": [
+  {
+   "id": "OIT-001",
+   "number": 1,
+   "theme": "turtle",
+   "title": "Only 1 in 1,000 baby sea turtles survives. This is her. #shorts",
+   "logline": "turtle: Sea turtle hatchlings face predators on the beach and at sea; only a tiny fraction (often estimated around 1 in 1,000) reach adulthood. Females later return to ",
+   "hook_text": "1 in 1,000 survive. This is her.",
+   "description": "Sea turtle hatchlings face predators on the beach and at sea; only a tiny fraction (often estimated around 1 in 1,000) reach adulthood. Females later return to nest near the beach where they hatched, navigating partly by Earth's magnetic field.\n\nOne In A Thousand: true survival stories, one every day. Which creature should we follow next? Tell us below.",
+   "tags": [
+    "sea turtle",
+    "baby turtles",
+    "nature",
+    "survival",
+    "one in a thousand",
+    "animals",
+    "nature documentary",
+    "true story"
+   ],
+   "music": "epic nature strings",
+   "fact_note": "Sea turtle hatchlings face predators on the beach and at sea; only a tiny fraction (often estimated around 1 in 1,000) reach adulthood. Females later return to nest near the beach where they hatched, navigating partly by Earth's magnetic field.",
+   "guests": {
+    "oit001_hatch": {
+     "name": "Hatch",
+     "ref_prompt": "a tiny loggerhead sea turtle hatchling, dark brown-grey shell the size of a coin, big dark eyes, flippers dusted with sand",
+     "voice": "none (narrated)"
     }
-  ]
+   },
+   "locations": {
+    "oit001_beach": "a moonlit sandy beach at night, nest hollows in the sand, waves glittering under the moon",
+    "oit001_surf": "shallow churning surf at night, white foam, moonlight on the water",
+    "oit001_ocean": "the open blue ocean at dawn, sunlight rays from the surface, floating seaweed"
+   },
+   "shots": [
+    {
+     "n": 1,
+     "dur": 6,
+     "loc": "oit001_beach",
+     "chars": [
+      "oit001_hatch"
+     ],
+     "keyframe": "the hatchling's tiny head bursting up through the sand under the moon, gasping its first breath",
+     "action": "the hatchling's tiny head bursting up through the sand under the moon, gasping its first breath",
+     "camera": "dramatic low-angle close-up, fast push-in",
+     "lines": [],
+     "narration": "Only about one in a thousand of these babies will survive. This is her.",
+     "sfx": "sand shifting, distant waves"
+    },
+    {
+     "n": 2,
+     "dur": 10,
+     "loc": "oit001_beach",
+     "chars": [
+      "oit001_hatch"
+     ],
+     "keyframe": "dozens of hatchlings scrambling across the moonlit sand toward the glittering sea",
+     "action": "dozens of hatchlings scrambling across the moonlit sand toward the glittering sea",
+     "camera": "wide cinematic establishing shot, slow drift",
+     "lines": [],
+     "narration": "She hatched in the dark, under the sand, with a hundred brothers and sisters. Now she has one job. Reach the sea.",
+     "sfx": "tiny flippers on sand, waves"
+    },
+    {
+     "n": 3,
+     "dur": 10,
+     "loc": "oit001_beach",
+     "chars": [
+      "oit001_hatch"
+     ],
+     "keyframe": "a ghost crab lunging out of a burrow, the hatchling swerving past its claws",
+     "action": "a ghost crab lunging out of a burrow, the hatchling swerving past its claws",
+     "camera": "tracking shot at the hero's eye level",
+     "lines": [],
+     "narration": "She finds the ocean by the moonlight on the water. But the beach is full of hunters, and they know she's coming.",
+     "sfx": "crab clicking, sand"
+    },
+    {
+     "n": 4,
+     "dur": 10,
+     "loc": "oit001_surf",
+     "chars": [
+      "oit001_hatch"
+     ],
+     "keyframe": "a seagull diving out of the night sky and snatching a hatchling right beside her",
+     "action": "a seagull diving out of the night sky and snatching a hatchling right beside her",
+     "camera": "handheld chase shot, fast motion, shallow focus",
+     "lines": [],
+     "narration": "Gulls take some from the sand. Crabs take others. Her brother was right beside her. Then he wasn't.",
+     "sfx": "gull screech, wings flapping"
+    },
+    {
+     "n": 5,
+     "dur": 10,
+     "loc": "oit001_surf",
+     "chars": [
+      "oit001_hatch"
+     ],
+     "keyframe": "a huge wave crashing over the tiny hatchling, tumbling her backwards, then she flips and swims",
+     "action": "a huge wave crashing over the tiny hatchling, tumbling her backwards, then she flips and swims",
+     "camera": "extreme close-up on the eyes, slow push-in",
+     "lines": [],
+     "narration": "The waves throw her back again and again. She doesn't know how to give up. Nobody taught her. She just swims.",
+     "sfx": "crashing surf"
+    },
+    {
+     "n": 6,
+     "dur": 10,
+     "loc": "oit001_ocean",
+     "chars": [
+      "oit001_hatch"
+     ],
+     "keyframe": "the hatchling swimming alone through the vast blue ocean, a big fish shadow passing below",
+     "action": "the hatchling swimming alone through the vast blue ocean, a big fish shadow passing below",
+     "camera": "epic wide shot, slow pull-back",
+     "lines": [],
+     "narration": "She swims nonstop for about a day, away from the hunters near the shore. Ahead lie years alone in the open ocean.",
+     "sfx": "underwater ambience"
+    },
+    {
+     "n": 7,
+     "dur": 8,
+     "loc": "oit001_beach",
+     "chars": [],
+     "keyframe": "a huge adult loggerhead turtle hauling herself up the same moonlit beach to nest",
+     "action": "a huge adult loggerhead turtle hauling herself up the same moonlit beach to nest",
+     "camera": "close-up, slow push-in, then hold",
+     "lines": [],
+     "narration": "Decades later, guided by Earth's magnetic field, she'll crawl back onto the beach where she was born.",
+     "sfx": "heavy flippers on sand, waves"
+    }
+   ],
+   "loop_note": "the final line links back to the opening image (the next generation / the journey again)"
+  },
+  {
+   "id": "OIT-002",
+   "number": 2,
+   "theme": "octopus",
+   "title": "This octopus mother starves herself for her babies #shorts",
+   "logline": "octopus: A giant Pacific octopus mother lays tens of thousands of eggs, guards and cleans them for about six months without eating, and dies soon after they hatch.",
+   "hook_text": "She will never eat again. On purpose.",
+   "description": "A giant Pacific octopus mother lays tens of thousands of eggs, guards and cleans them for about six months without eating, and dies soon after they hatch.\n\nOne In A Thousand: true survival stories, one every day. Which creature should we follow next? Tell us below.",
+   "tags": [
+    "octopus",
+    "mother love",
+    "ocean",
+    "sacrifice",
+    "one in a thousand",
+    "animals",
+    "nature documentary",
+    "true story"
+   ],
+   "music": "tragic piano",
+   "fact_note": "A giant Pacific octopus mother lays tens of thousands of eggs, guards and cleans them for about six months without eating, and dies soon after they hatch.",
+   "guests": {
+    "oit002_mom": {
+     "name": "Mom",
+     "ref_prompt": "a giant Pacific octopus mother, deep red-orange mottled skin, huge intelligent eyes, long curling arms",
+     "voice": "none (narrated)"
+    }
+   },
+   "locations": {
+    "oit002_den": "a rocky underwater den in cold dark-green Pacific water, strings of white eggs hanging from the ceiling like grapes",
+    "oit002_reef": "a cold kelp forest and rocky seabed with shafts of green light"
+   },
+   "shots": [
+    {
+     "n": 1,
+     "dur": 6,
+     "loc": "oit002_den",
+     "chars": [
+      "oit002_mom"
+     ],
+     "keyframe": "her huge eye glowing in the dark den beside curtains of white eggs, arms wrapped around them",
+     "action": "her huge eye glowing in the dark den beside curtains of white eggs, arms wrapped around them",
+     "camera": "dramatic low-angle close-up, fast push-in",
+     "lines": [],
+     "narration": "She will never eat again. She chose this.",
+     "sfx": "deep underwater hum"
+    },
+    {
+     "n": 2,
+     "dur": 10,
+     "loc": "oit002_den",
+     "chars": [
+      "oit002_mom"
+     ],
+     "keyframe": "the mother octopus weaving and hanging long strings of eggs from the cave roof",
+     "action": "the mother octopus weaving and hanging long strings of eggs from the cave roof",
+     "camera": "wide cinematic establishing shot, slow drift",
+     "lines": [],
+     "narration": "This mother octopus laid tens of thousands of eggs, braided them into strings, and hung them from the roof of her cave.",
+     "sfx": "bubbles"
+    },
+    {
+     "n": 3,
+     "dur": 10,
+     "loc": "oit002_den",
+     "chars": [
+      "oit002_mom"
+     ],
+     "keyframe": "she gently blows streams of water over the egg strings with her siphon",
+     "action": "she gently blows streams of water over the egg strings with her siphon",
+     "camera": "tracking shot at the hero's eye level",
+     "lines": [],
+     "narration": "Day and night, she blows fresh water over them to keep them clean and breathing. For about six months, she never leaves.",
+     "sfx": "soft water currents"
+    },
+    {
+     "n": 4,
+     "dur": 10,
+     "loc": "oit002_den",
+     "chars": [
+      "oit002_mom"
+     ],
+     "keyframe": "a hungry crab creeping toward the eggs; she lunges and shoves it away with her arms",
+     "action": "a hungry crab creeping toward the eggs; she lunges and shoves it away with her arms",
+     "camera": "handheld chase shot, fast motion, shallow focus",
+     "lines": [],
+     "narration": "Crabs and fish come for the eggs. She fights every one of them off, even as her body begins to waste away.",
+     "sfx": "scuffle, bubbles"
+    },
+    {
+     "n": 5,
+     "dur": 10,
+     "loc": "oit002_den",
+     "chars": [
+      "oit002_mom"
+     ],
+     "keyframe": "the mother's skin pale and grey, arms thin, still curled protectively around the eggs",
+     "action": "the mother's skin pale and grey, arms thin, still curled protectively around the eggs",
+     "camera": "extreme close-up on the eyes, slow push-in",
+     "lines": [],
+     "narration": "She does not hunt. She does not eat. Her colour fades, her skin turns pale. Everything she has goes to them.",
+     "sfx": "slow heartbeat-like pulse"
+    },
+    {
+     "n": 6,
+     "dur": 10,
+     "loc": "oit002_den",
+     "chars": [
+      "oit002_mom"
+     ],
+     "keyframe": "thousands of tiny transparent baby octopuses bursting from the eggs as she pushes them out with water",
+     "action": "thousands of tiny transparent baby octopuses bursting from the eggs as she pushes them out with water",
+     "camera": "epic wide shot, slow pull-back",
+     "lines": [],
+     "narration": "Then, one morning, they hatch. With her last strength, she blows them out of the cave and into the open sea.",
+     "sfx": "rush of bubbles"
+    },
+    {
+     "n": 7,
+     "dur": 8,
+     "loc": "oit002_reef",
+     "chars": [],
+     "keyframe": "a single tiny transparent baby octopus drifting up toward the sunlit surface",
+     "action": "a single tiny transparent baby octopus drifting up toward the sunlit surface",
+     "camera": "close-up, slow push-in, then hold",
+     "lines": [],
+     "narration": "She dies soon after. Only a few of her babies will survive. But one of them carries her on.",
+     "sfx": "soft ocean ambience"
+    }
+   ],
+   "loop_note": "the final line links back to the opening image (the next generation / the journey again)"
+  },
+  {
+   "id": "OIT-003",
+   "number": 3,
+   "theme": "penguin",
+   "title": "He can't eat for 4 months. And he can't drop this egg. #shorts",
+   "logline": "penguin: Emperor penguin fathers incubate the single egg on their feet through the Antarctic winter for about two months, fasting for around four months in total and los",
+   "hook_text": "No food. Minus 40. Don't drop it.",
+   "description": "Emperor penguin fathers incubate the single egg on their feet through the Antarctic winter for about two months, fasting for around four months in total and losing close to half their weight. Partners recognise each other by their calls.\n\nOne In A Thousand: true survival stories, one every day. Which creature should we follow next? Tell us below.",
+   "tags": [
+    "emperor penguin",
+    "antarctica",
+    "dad",
+    "survival",
+    "one in a thousand",
+    "animals",
+    "nature documentary",
+    "true story"
+   ],
+   "music": "epic nature strings",
+   "fact_note": "Emperor penguin fathers incubate the single egg on their feet through the Antarctic winter for about two months, fasting for around four months in total and losing close to half their weight. Partners recognise each other by their calls.",
+   "guests": {
+    "oit003_dad": {
+     "name": "Dad",
+     "ref_prompt": "an adult emperor penguin father, black and white with golden-yellow neck patches, an egg balanced on his feet under a fold of belly skin",
+     "voice": "none (narrated)"
+    }
+   },
+   "locations": {
+    "oit003_ice": "endless Antarctic sea ice in the polar night, howling blizzard, blue-black sky, swirling snow",
+    "oit003_huddle": "thousands of emperor penguins packed in a tight huddle in a blizzard, frost on their feathers",
+    "oit003_dawn": "Antarctic sea ice at the first sunrise after winter, pink and gold light"
+   },
+   "shots": [
+    {
+     "n": 1,
+     "dur": 6,
+     "loc": "oit003_ice",
+     "chars": [
+      "oit003_dad"
+     ],
+     "keyframe": "the father penguin standing alone in a blizzard, snow whipping past, an egg on his feet",
+     "action": "the father penguin standing alone in a blizzard, snow whipping past, an egg on his feet",
+     "camera": "dramatic low-angle close-up, fast push-in",
+     "lines": [],
+     "narration": "Minus forty degrees. No food for four months. And he cannot drop this egg.",
+     "sfx": "howling wind"
+    },
+    {
+     "n": 2,
+     "dur": 10,
+     "loc": "oit003_ice",
+     "chars": [
+      "oit003_dad"
+     ],
+     "keyframe": "a mother penguin carefully rolling the egg from her feet onto his",
+     "action": "a mother penguin carefully rolling the egg from her feet onto his",
+     "camera": "wide cinematic establishing shot, slow drift",
+     "lines": [],
+     "narration": "His partner laid one egg, passed it to him, then left for the sea to feed. If it touches the ice, it freezes.",
+     "sfx": "wind, soft calls"
+    },
+    {
+     "n": 3,
+     "dur": 10,
+     "loc": "oit003_huddle",
+     "chars": [
+      "oit003_dad"
+     ],
+     "keyframe": "close-up of the egg tucked under his warm belly fold, frost on his face",
+     "action": "close-up of the egg tucked under his warm belly fold, frost on his face",
+     "camera": "tracking shot at the hero's eye level",
+     "lines": [],
+     "narration": "So he balances it on his feet, under a warm fold of skin. For about two months, through the darkest winter on Earth.",
+     "sfx": "blizzard"
+    },
+    {
+     "n": 4,
+     "dur": 10,
+     "loc": "oit003_huddle",
+     "chars": [
+      "oit003_dad"
+     ],
+     "keyframe": "the huddle slowly shuffling, penguins rotating from the freezing edge into the warm centre",
+     "action": "the huddle slowly shuffling, penguins rotating from the freezing edge into the warm centre",
+     "camera": "handheld chase shot, fast motion, shallow focus",
+     "lines": [],
+     "narration": "Thousands of fathers huddle together and take turns. The ones on the freezing edge shuffle inward. Nobody stays outside too long.",
+     "sfx": "shuffling, wind"
+    },
+    {
+     "n": 5,
+     "dur": 10,
+     "loc": "oit003_ice",
+     "chars": [
+      "oit003_dad"
+     ],
+     "keyframe": "the father thin and frost-covered as the egg cracks on his feet",
+     "action": "the father thin and frost-covered as the egg cracks on his feet",
+     "camera": "extreme close-up on the eyes, slow push-in",
+     "lines": [],
+     "narration": "By the time the chick hatches, he's lost close to half his body weight. And the mother still isn't back.",
+     "sfx": "egg cracking, wind"
+    },
+    {
+     "n": 6,
+     "dur": 10,
+     "loc": "oit003_ice",
+     "chars": [
+      "oit003_dad"
+     ],
+     "keyframe": "a fluffy grey chick peeking out from the father's belly fold as he feeds it from his beak",
+     "action": "a fluffy grey chick peeking out from the father's belly fold as he feeds it from his beak",
+     "camera": "epic wide shot, slow pull-back",
+     "lines": [],
+     "narration": "Starving, he feeds his chick a milky meal made in his own throat, buying it a few more days.",
+     "sfx": "tiny chick peeps"
+    },
+    {
+     "n": 7,
+     "dur": 8,
+     "loc": "oit003_dawn",
+     "chars": [
+      "oit003_dad"
+     ],
+     "keyframe": "a line of mother penguins appearing over the ice at sunrise, the father calling out",
+     "action": "a line of mother penguins appearing over the ice at sunrise, the father calling out",
+     "camera": "close-up, slow push-in, then hold",
+     "lines": [],
+     "narration": "Then, across the ice, she's back. She finds him by his voice alone.",
+     "sfx": "penguin calls echoing"
+    }
+   ],
+   "loop_note": "the final line links back to the opening image (the next generation / the journey again)"
+  },
+  {
+   "id": "OIT-004",
+   "number": 4,
+   "theme": "salmon",
+   "title": "He swims hundreds of km upstream. Then he dies. #shorts",
+   "logline": "salmon: Sockeye salmon stop eating when they enter fresh water, find their home stream largely by smell, swim hundreds of kilometres upstream past bears and waterfalls,",
+   "hook_text": "He will never eat again. He keeps going.",
+   "description": "Sockeye salmon stop eating when they enter fresh water, find their home stream largely by smell, swim hundreds of kilometres upstream past bears and waterfalls, spawn and die. Their bodies feed the forest.\n\nOne In A Thousand: true survival stories, one every day. Which creature should we follow next? Tell us below.",
+   "tags": [
+    "salmon",
+    "migration",
+    "bears",
+    "nature",
+    "one in a thousand",
+    "animals",
+    "nature documentary",
+    "true story"
+   ],
+   "music": "tense drums",
+   "fact_note": "Sockeye salmon stop eating when they enter fresh water, find their home stream largely by smell, swim hundreds of kilometres upstream past bears and waterfalls, spawn and die. Their bodies feed the forest.",
+   "guests": {
+    "oit004_salmon": {
+     "name": "Salmon",
+     "ref_prompt": "a male sockeye salmon in spawning colours, bright red body, green head, hooked jaw",
+     "voice": "none (narrated)"
+    }
+   },
+   "locations": {
+    "oit004_river": "a rushing mountain river with rapids and boulders, pine forest on both banks",
+    "oit004_falls": "a roaring waterfall with salmon leaping up it, spray and mist",
+    "oit004_stream": "a shallow clear gravel stream in an autumn forest, golden leaves floating"
+   },
+   "shots": [
+    {
+     "n": 1,
+     "dur": 6,
+     "loc": "oit004_falls",
+     "chars": [
+      "oit004_salmon"
+     ],
+     "keyframe": "the red salmon leaping high out of a roaring waterfall",
+     "action": "the red salmon leaping high out of a roaring waterfall",
+     "camera": "dramatic low-angle close-up, fast push-in",
+     "lines": [],
+     "narration": "He's swimming hundreds of kilometres upstream. And he will never eat again.",
+     "sfx": "roaring waterfall"
+    },
+    {
+     "n": 2,
+     "dur": 10,
+     "loc": "oit004_river",
+     "chars": [
+      "oit004_salmon"
+     ],
+     "keyframe": "the salmon powering through rapids against the current",
+     "action": "the salmon powering through rapids against the current",
+     "camera": "wide cinematic establishing shot, slow drift",
+     "lines": [],
+     "narration": "He was born in a tiny stream far up this river. He spent years at sea. Now, something calls him home.",
+     "sfx": "rushing water"
+    },
+    {
+     "n": 3,
+     "dur": 10,
+     "loc": "oit004_river",
+     "chars": [
+      "oit004_salmon"
+     ],
+     "keyframe": "close-up of the salmon's eye as he turns into a side channel",
+     "action": "close-up of the salmon's eye as he turns into a side channel",
+     "camera": "tracking shot at the hero's eye level",
+     "lines": [],
+     "narration": "He finds it by smell. Every stream smells different, and he remembers the scent of his birthplace.",
+     "sfx": "river"
+    },
+    {
+     "n": 4,
+     "dur": 10,
+     "loc": "oit004_falls",
+     "chars": [
+      "oit004_salmon"
+     ],
+     "keyframe": "salmon hurling themselves at the waterfall, falling back, trying again",
+     "action": "salmon hurling themselves at the waterfall, falling back, trying again",
+     "camera": "handheld chase shot, fast motion, shallow focus",
+     "lines": [],
+     "narration": "Once he enters fresh water, he stops eating. His body turns red. He burns himself as fuel to keep going.",
+     "sfx": "splashes, falls"
+    },
+    {
+     "n": 5,
+     "dur": 10,
+     "loc": "oit004_falls",
+     "chars": [
+      "oit004_salmon"
+     ],
+     "keyframe": "a brown bear at the top of the falls snapping its jaws as the salmon twists past",
+     "action": "a brown bear at the top of the falls snapping its jaws as the salmon twists past",
+     "camera": "extreme close-up on the eyes, slow push-in",
+     "lines": [],
+     "narration": "At the falls, the bears are waiting. Thousands of his kind leap. Many land in the jaws above.",
+     "sfx": "bear growl, splash"
+    },
+    {
+     "n": 6,
+     "dur": 10,
+     "loc": "oit004_stream",
+     "chars": [
+      "oit004_salmon"
+     ],
+     "keyframe": "the battered salmon and a female resting side by side over the gravel",
+     "action": "the battered salmon and a female resting side by side over the gravel",
+     "camera": "epic wide shot, slow pull-back",
+     "lines": [],
+     "narration": "Battered and starving, he reaches the stream where he was born. Together with a mate, he leaves the next generation.",
+     "sfx": "gentle stream"
+    },
+    {
+     "n": 7,
+     "dur": 8,
+     "loc": "oit004_stream",
+     "chars": [],
+     "keyframe": "the quiet autumn stream, golden leaves, forest towering above",
+     "action": "the quiet autumn stream, golden leaves, forest towering above",
+     "camera": "close-up, slow push-in, then hold",
+     "lines": [],
+     "narration": "Then he dies, right here. And his body feeds the forest that will shelter his children.",
+     "sfx": "birdsong, stream"
+    }
+   ],
+   "loop_note": "the final line links back to the opening image (the next generation / the journey again)"
+  },
+  {
+   "id": "OIT-005",
+   "number": 5,
+   "theme": "whitecell",
+   "title": "The first cell to die for you when you get a cut #shorts",
+   "logline": "whitecell: Neutrophils are white blood cells that rush to infections, squeeze through vessel walls, eat bacteria, and can burst to release sticky DNA nets (NETs) that trap",
+   "hook_text": "She dies so you don't get sick.",
+   "description": "Neutrophils are white blood cells that rush to infections, squeeze through vessel walls, eat bacteria, and can burst to release sticky DNA nets (NETs) that trap germs. Pus is largely made of dead neutrophils.\n\nOne In A Thousand: true survival stories, one every day. Which creature should we follow next? Tell us below.",
+   "tags": [
+    "white blood cell",
+    "immune system",
+    "biology",
+    "human body",
+    "one in a thousand",
+    "animals",
+    "nature documentary",
+    "true story"
+   ],
+   "music": "tense drums",
+   "fact_note": "Neutrophils are white blood cells that rush to infections, squeeze through vessel walls, eat bacteria, and can burst to release sticky DNA nets (NETs) that trap germs. Pus is largely made of dead neutrophils.",
+   "guests": {
+    "oit005_cell": {
+     "name": "Cell",
+     "ref_prompt": "a heroic neutrophil white blood cell, translucent pale lavender blob with a glowing multi-lobed nucleus inside, soft glowing membrane",
+     "voice": "none (narrated)"
+    }
+   },
+   "locations": {
+    "oit005_vessel": "inside a human blood vessel, a glowing red tunnel full of tumbling red blood cells",
+    "oit005_wound": "a jagged cut in human skin seen from the inside, torn tissue, bacteria spilling in",
+    "oit005_battle": "a microscopic battlefield inside human tissue, green rod-shaped bacteria swarming"
+   },
+   "shots": [
+    {
+     "n": 1,
+     "dur": 6,
+     "loc": "oit005_vessel",
+     "chars": [
+      "oit005_cell"
+     ],
+     "keyframe": "the white blood cell rolling through a red tunnel of blood cells as an alarm pulse flashes",
+     "action": "the white blood cell rolling through a red tunnel of blood cells as an alarm pulse flashes",
+     "camera": "dramatic low-angle close-up, fast push-in",
+     "lines": [],
+     "narration": "You cut your finger. And she's the first to die for you.",
+     "sfx": "deep heartbeat"
+    },
+    {
+     "n": 2,
+     "dur": 10,
+     "loc": "oit005_vessel",
+     "chars": [
+      "oit005_cell"
+     ],
+     "keyframe": "the cell rolling along the vessel wall, sensing a glowing chemical trail",
+     "action": "the cell rolling along the vessel wall, sensing a glowing chemical trail",
+     "camera": "wide cinematic establishing shot, slow drift",
+     "lines": [],
+     "narration": "She's a neutrophil, a white blood cell. Your body makes billions every day, and most live only hours to a few days.",
+     "sfx": "rushing blood"
+    },
+    {
+     "n": 3,
+     "dur": 10,
+     "loc": "oit005_wound",
+     "chars": [
+      "oit005_cell"
+     ],
+     "keyframe": "the cell squeezing its whole body through a tiny gap in the vessel wall",
+     "action": "the cell squeezing its whole body through a tiny gap in the vessel wall",
+     "camera": "tracking shot at the hero's eye level",
+     "lines": [],
+     "narration": "The alarm goes off. She squeezes through the wall of the blood vessel, folding herself through a gap smaller than she is.",
+     "sfx": "squelch"
+    },
+    {
+     "n": 4,
+     "dur": 10,
+     "loc": "oit005_battle",
+     "chars": [
+      "oit005_cell"
+     ],
+     "keyframe": "the cell wrapping around a green bacterium and swallowing it",
+     "action": "the cell wrapping around a green bacterium and swallowing it",
+     "camera": "handheld chase shot, fast motion, shallow focus",
+     "lines": [],
+     "narration": "Bacteria are flooding in. She hunts them, wraps her body around them, and digests them.",
+     "sfx": "wet gulp"
+    },
+    {
+     "n": 5,
+     "dur": 10,
+     "loc": "oit005_battle",
+     "chars": [
+      "oit005_cell"
+     ],
+     "keyframe": "the cell bursting open and releasing a glowing web that tangles the bacteria",
+     "action": "the cell bursting open and releasing a glowing web that tangles the bacteria",
+     "camera": "extreme close-up on the eyes, slow push-in",
+     "lines": [],
+     "narration": "When she can't eat any more, she does something incredible. She bursts, throwing out a sticky net made from her own DNA.",
+     "sfx": "burst, crackle"
+    },
+    {
+     "n": 6,
+     "dur": 10,
+     "loc": "oit005_battle",
+     "chars": [
+      "oit005_cell"
+     ],
+     "keyframe": "a glowing DNA web full of trapped bacteria as more white cells arrive",
+     "action": "a glowing DNA web full of trapped bacteria as more white cells arrive",
+     "camera": "epic wide shot, slow pull-back",
+     "lines": [],
+     "narration": "The net traps the invaders. More of her sisters arrive and do the same. Wave after wave, they give everything.",
+     "sfx": "rumbling battle"
+    },
+    {
+     "n": 7,
+     "dur": 8,
+     "loc": "oit005_wound",
+     "chars": [],
+     "keyframe": "the cut healing from the inside, new skin closing over in warm light",
+     "action": "the cut healing from the inside, new skin closing over in warm light",
+     "camera": "close-up, slow push-in, then hold",
+     "lines": [],
+     "narration": "That yellow stuff in an infected cut? That's mostly them. Tiny soldiers who died for you.",
+     "sfx": "calm heartbeat"
+    }
+   ],
+   "loop_note": "the final line links back to the opening image (the next generation / the journey again)"
+  },
+  {
+   "id": "OIT-006",
+   "number": 6,
+   "theme": "elephant",
+   "title": "Baby elephant stuck in mud. The herd comes back. #shorts",
+   "logline": "elephant: Elephant calves can stand within about an hour of birth. Elephant families, led by an older female, raise calves together and will work together to help a calf ",
+   "hook_text": "She's sinking. The herd is leaving.",
+   "description": "Elephant calves can stand within about an hour of birth. Elephant families, led by an older female, raise calves together and will work together to help a calf in trouble.\n\nOne In A Thousand: true survival stories, one every day. Which creature should we follow next? Tell us below.",
+   "tags": [
+    "elephant",
+    "baby elephant",
+    "family",
+    "rescue",
+    "one in a thousand",
+    "animals",
+    "nature documentary",
+    "true story"
+   ],
+   "music": "tense drums",
+   "fact_note": "Elephant calves can stand within about an hour of birth. Elephant families, led by an older female, raise calves together and will work together to help a calf in trouble.",
+   "guests": {
+    "oit006_calf": {
+     "name": "Calf",
+     "ref_prompt": "a tiny baby African elephant calf, wrinkled grey skin, fuzzy hair on its head, big floppy ears",
+     "voice": "none (narrated)"
+    },
+    "oit006_mother": {
+     "name": "Mother",
+     "ref_prompt": "a large African elephant matriarch with long curved tusks and ragged ears",
+     "voice": "none (narrated)"
+    }
+   },
+   "locations": {
+    "oit006_savanna": "golden African savanna at sunset, acacia trees, dust in the air",
+    "oit006_mud": "a deep muddy waterhole with steep slippery banks, cracked dry earth around it"
+   },
+   "shots": [
+    {
+     "n": 1,
+     "dur": 6,
+     "loc": "oit006_mud",
+     "chars": [
+      "oit006_calf"
+     ],
+     "keyframe": "the calf sinking in deep mud, trunk raised, panicking",
+     "action": "the calf sinking in deep mud, trunk raised, panicking",
+     "camera": "dramatic low-angle close-up, fast push-in",
+     "lines": [],
+     "narration": "She's three weeks old, she's sinking, and the herd is leaving.",
+     "sfx": "trumpeting, squelching mud"
+    },
+    {
+     "n": 2,
+     "dur": 10,
+     "loc": "oit006_savanna",
+     "chars": [
+      "oit006_calf",
+      "oit006_mother"
+     ],
+     "keyframe": "the calf walking under her mother's belly among a family herd in drought",
+     "action": "the calf walking under her mother's belly among a family herd in drought",
+     "camera": "wide cinematic establishing shot, slow drift",
+     "lines": [],
+     "narration": "Elephant calves can stand within an hour of birth. But she's tiny, and her family is crossing the savanna in a drought.",
+     "sfx": "footsteps, wind"
+    },
+    {
+     "n": 3,
+     "dur": 10,
+     "loc": "oit006_mud",
+     "chars": [
+      "oit006_calf"
+     ],
+     "keyframe": "the calf sliding down the slippery bank into the mud",
+     "action": "the calf sliding down the slippery bank into the mud",
+     "camera": "tracking shot at the hero's eye level",
+     "lines": [],
+     "narration": "The waterhole banks are steep and slick. She slips. The more she struggles, the deeper she sinks.",
+     "sfx": "slipping, splashing"
+    },
+    {
+     "n": 4,
+     "dur": 10,
+     "loc": "oit006_savanna",
+     "chars": [],
+     "keyframe": "two lionesses watching from tall golden grass, ears pricked",
+     "action": "two lionesses watching from tall golden grass, ears pricked",
+     "camera": "handheld chase shot, fast motion, shallow focus",
+     "lines": [],
+     "narration": "Her cries carry far across the savanna. Something else hears them too. Lions.",
+     "sfx": "distant calf cries, low growl"
+    },
+    {
+     "n": 5,
+     "dur": 10,
+     "loc": "oit006_mud",
+     "chars": [
+      "oit006_mother",
+      "oit006_calf"
+     ],
+     "keyframe": "the matriarch turning back, the ground shaking as the herd returns",
+     "action": "the matriarch turning back, the ground shaking as the herd returns",
+     "camera": "extreme close-up on the eyes, slow push-in",
+     "lines": [],
+     "narration": "Then the ground shakes. Her mother turns back. The whole family turns back.",
+     "sfx": "rumbling footsteps"
+    },
+    {
+     "n": 6,
+     "dur": 10,
+     "loc": "oit006_mud",
+     "chars": [
+      "oit006_mother",
+      "oit006_calf"
+     ],
+     "keyframe": "adult elephants kneeling at the edge, lifting the calf with trunks and tusks",
+     "action": "adult elephants kneeling at the edge, lifting the calf with trunks and tusks",
+     "camera": "epic wide shot, slow pull-back",
+     "lines": [],
+     "narration": "They kneel in the mud, wrap their trunks around her, and push with their tusks, together, until she's free.",
+     "sfx": "straining, mud releasing"
+    },
+    {
+     "n": 7,
+     "dur": 8,
+     "loc": "oit006_savanna",
+     "chars": [
+      "oit006_calf",
+      "oit006_mother"
+     ],
+     "keyframe": "the muddy calf walking under her mother as the herd closes around her at sunset",
+     "action": "the muddy calf walking under her mother as the herd closes around her at sunset",
+     "camera": "close-up, slow push-in, then hold",
+     "lines": [],
+     "narration": "Elephant families rarely leave their young behind. Aunts, sisters and grandmothers raise every calf together.",
+     "sfx": "gentle rumbles"
+    }
+   ],
+   "loop_note": "the final line links back to the opening image (the next generation / the journey again)"
+  },
+  {
+   "id": "OIT-007",
+   "number": 7,
+   "theme": "bee",
+   "title": "She has 6 weeks to live. Today she gives them up. #shorts",
+   "logline": "bee: Summer worker honeybees live about five to six weeks, moving from cleaning and nursing to foraging. Each makes about a twelfth of a teaspoon of honey in her lif",
+   "hook_text": "6 weeks to live. Today she gives it up.",
+   "description": "Summer worker honeybees live about five to six weeks, moving from cleaning and nursing to foraging. Each makes about a twelfth of a teaspoon of honey in her life. Her barbed stinger stays in mammal skin, which kills her.\n\nOne In A Thousand: true survival stories, one every day. Which creature should we follow next? Tell us below.",
+   "tags": [
+    "honeybee",
+    "bees",
+    "insects",
+    "sacrifice",
+    "one in a thousand",
+    "animals",
+    "nature documentary",
+    "true story"
+   ],
+   "music": "tragic piano",
+   "fact_note": "Summer worker honeybees live about five to six weeks, moving from cleaning and nursing to foraging. Each makes about a twelfth of a teaspoon of honey in her life. Her barbed stinger stays in mammal skin, which kills her.",
+   "guests": {
+    "oit007_bee": {
+     "name": "Bee",
+     "ref_prompt": "a worker honeybee, golden and black striped, fuzzy thorax, translucent wings, yellow pollen on her legs",
+     "voice": "none (narrated)"
+    }
+   },
+   "locations": {
+    "oit007_hive": "inside a honeybee hive, golden hexagonal honeycomb glowing with honey, thousands of bees",
+    "oit007_meadow": "a summer flower meadow with lavender and clover, bright sun",
+    "oit007_entrance": "the entrance of a wooden beehive box, bees landing and taking off"
+   },
+   "shots": [
+    {
+     "n": 1,
+     "dur": 6,
+     "loc": "oit007_entrance",
+     "chars": [
+      "oit007_bee"
+     ],
+     "keyframe": "the bee at the hive entrance, a huge shadow falling over it",
+     "action": "the bee at the hive entrance, a huge shadow falling over it",
+     "camera": "dramatic low-angle close-up, fast push-in",
+     "lines": [],
+     "narration": "She has six weeks to live. Today, she'll give them up.",
+     "sfx": "buzzing"
+    },
+    {
+     "n": 2,
+     "dur": 10,
+     "loc": "oit007_hive",
+     "chars": [
+      "oit007_bee"
+     ],
+     "keyframe": "the young bee cleaning cells and feeding larvae inside golden honeycomb",
+     "action": "the young bee cleaning cells and feeding larvae inside golden honeycomb",
+     "camera": "wide cinematic establishing shot, slow drift",
+     "lines": [],
+     "narration": "Born in summer, she starts as a cleaner, then a nurse feeding babies, then a builder of wax.",
+     "sfx": "hive hum"
+    },
+    {
+     "n": 3,
+     "dur": 10,
+     "loc": "oit007_meadow",
+     "chars": [
+      "oit007_bee"
+     ],
+     "keyframe": "the bee flying fast from flower to flower, wings a blur",
+     "action": "the bee flying fast from flower to flower, wings a blur",
+     "camera": "tracking shot at the hero's eye level",
+     "lines": [],
+     "narration": "Then she becomes a forager. Hundreds of flowers every trip, kilometres from home, wings beating over two hundred times a second.",
+     "sfx": "fast buzzing, breeze"
+    },
+    {
+     "n": 4,
+     "dur": 10,
+     "loc": "oit007_meadow",
+     "chars": [
+      "oit007_bee"
+     ],
+     "keyframe": "close-up of the bee's frayed wings and worn fur on a lavender flower",
+     "action": "close-up of the bee's frayed wings and worn fur on a lavender flower",
+     "camera": "handheld chase shot, fast motion, shallow focus",
+     "lines": [],
+     "narration": "Her wings fray, her fur wears thin. Her whole life's work will be about a twelfth of a teaspoon of honey.",
+     "sfx": "soft buzzing"
+    },
+    {
+     "n": 5,
+     "dur": 10,
+     "loc": "oit007_entrance",
+     "chars": [],
+     "keyframe": "a black bear's huge paw tearing at the hive box, bees pouring out",
+     "action": "a black bear's huge paw tearing at the hive box, bees pouring out",
+     "camera": "extreme close-up on the eyes, slow push-in",
+     "lines": [],
+     "narration": "Then a bear finds the hive. Tens of thousands of sisters, the queen, the babies. Everything she worked for.",
+     "sfx": "wood cracking, angry buzzing"
+    },
+    {
+     "n": 6,
+     "dur": 10,
+     "loc": "oit007_entrance",
+     "chars": [
+      "oit007_bee"
+     ],
+     "keyframe": "the bee diving at the bear's nose and stinging",
+     "action": "the bee diving at the bear's nose and stinging",
+     "camera": "epic wide shot, slow pull-back",
+     "lines": [],
+     "narration": "She dives and stings. Her stinger is barbed, so it stays behind, and so does part of her body.",
+     "sfx": "angry buzz, bear huff"
+    },
+    {
+     "n": 7,
+     "dur": 8,
+     "loc": "oit007_hive",
+     "chars": [],
+     "keyframe": "the hive at golden hour, honeycomb glowing, bees calmly working",
+     "action": "the hive at golden hour, honeycomb glowing, bees calmly working",
+     "camera": "close-up, slow push-in, then hold",
+     "lines": [],
+     "narration": "She dies outside. The hive survives. Every teaspoon of honey is the life's work of about twelve bees.",
+     "sfx": "calm hive hum"
+    }
+   ],
+   "loop_note": "the final line links back to the opening image (the next generation / the journey again)"
+  },
+  {
+   "id": "OIT-008",
+   "number": 8,
+   "theme": "tern",
+   "title": "This tiny bird flies to the other end of the Earth. Every year. #shorts",
+   "logline": "tern: Arctic terns migrate between the Arctic and Antarctica, roughly 70,000 km a year on zigzag routes. Over a lifetime this adds up to about three trips to the Moon",
+   "hook_text": "It flies pole to pole. Every year.",
+   "description": "Arctic terns migrate between the Arctic and Antarctica, roughly 70,000 km a year on zigzag routes. Over a lifetime this adds up to about three trips to the Moon and back.\n\nOne In A Thousand: true survival stories, one every day. Which creature should we follow next? Tell us below.",
+   "tags": [
+    "arctic tern",
+    "migration",
+    "birds",
+    "record",
+    "one in a thousand",
+    "animals",
+    "nature documentary",
+    "true story"
+   ],
+   "music": "epic nature strings",
+   "fact_note": "Arctic terns migrate between the Arctic and Antarctica, roughly 70,000 km a year on zigzag routes. Over a lifetime this adds up to about three trips to the Moon and back.",
+   "guests": {
+    "oit008_tern": {
+     "name": "Tern",
+     "ref_prompt": "an Arctic tern, sleek white bird with a black cap, blood-red beak, short red legs, long forked tail",
+     "voice": "none (narrated)"
+    }
+   },
+   "locations": {
+    "oit008_arctic": "a rocky Arctic coast under the midnight sun, tundra, icy sea",
+    "oit008_storm": "a violent storm over the dark open Atlantic ocean, huge waves, rain",
+    "oit008_antarctic": "Antarctic pack ice glowing under the summer sun, icebergs"
+   },
+   "shots": [
+    {
+     "n": 1,
+     "dur": 6,
+     "loc": "oit008_storm",
+     "chars": [
+      "oit008_tern"
+     ],
+     "keyframe": "the tern battling through a storm over huge waves",
+     "action": "the tern battling through a storm over huge waves",
+     "camera": "dramatic low-angle close-up, fast push-in",
+     "lines": [],
+     "narration": "Every year, this tiny bird flies from pole to pole.",
+     "sfx": "howling storm"
+    },
+    {
+     "n": 2,
+     "dur": 10,
+     "loc": "oit008_arctic",
+     "chars": [
+      "oit008_tern"
+     ],
+     "keyframe": "a fluffy tern chick on Arctic rocks under the midnight sun, then flying",
+     "action": "a fluffy tern chick on Arctic rocks under the midnight sun, then flying",
+     "camera": "wide cinematic establishing shot, slow drift",
+     "lines": [],
+     "narration": "She hatched on a rocky shore in the Arctic, where the summer sun never sets. Weeks later, she's flying.",
+     "sfx": "seabird calls"
+    },
+    {
+     "n": 3,
+     "dur": 10,
+     "loc": "oit008_storm",
+     "chars": [
+      "oit008_tern"
+     ],
+     "keyframe": "the tern skimming low over dark waves, snatching a small fish",
+     "action": "the tern skimming low over dark waves, snatching a small fish",
+     "camera": "tracking shot at the hero's eye level",
+     "lines": [],
+     "narration": "Then she sets off south, over the open ocean, through gales and storms, feeding as she goes.",
+     "sfx": "wind, waves"
+    },
+    {
+     "n": 4,
+     "dur": 10,
+     "loc": "oit008_storm",
+     "chars": [
+      "oit008_tern"
+     ],
+     "keyframe": "the tern riding strong winds in a long curving path over the ocean",
+     "action": "the tern riding strong winds in a long curving path over the ocean",
+     "camera": "handheld chase shot, fast motion, shallow focus",
+     "lines": [],
+     "narration": "She doesn't fly straight. She zigzags, riding the winds across the ocean to save energy.",
+     "sfx": "wind gusts"
+    },
+    {
+     "n": 5,
+     "dur": 10,
+     "loc": "oit008_antarctic",
+     "chars": [
+      "oit008_tern"
+     ],
+     "keyframe": "the tern arriving over glowing Antarctic ice and icebergs",
+     "action": "the tern arriving over glowing Antarctic ice and icebergs",
+     "camera": "extreme close-up on the eyes, slow push-in",
+     "lines": [],
+     "narration": "Months later, she reaches Antarctica, just as summer begins there. She sees more daylight than almost any animal.",
+     "sfx": "calm wind, ice creaking"
+    },
+    {
+     "n": 6,
+     "dur": 10,
+     "loc": "oit008_storm",
+     "chars": [
+      "oit008_tern"
+     ],
+     "keyframe": "the tern turning north again over the endless ocean",
+     "action": "the tern turning north again over the endless ocean",
+     "camera": "epic wide shot, slow pull-back",
+     "lines": [],
+     "narration": "Then she turns around and flies all the way back. About seventy thousand kilometres, every single year.",
+     "sfx": "wind"
+    },
+    {
+     "n": 7,
+     "dur": 8,
+     "loc": "oit008_arctic",
+     "chars": [
+      "oit008_tern"
+     ],
+     "keyframe": "the tern landing back on the same Arctic rocks under the midnight sun",
+     "action": "the tern landing back on the same Arctic rocks under the midnight sun",
+     "camera": "close-up, slow push-in, then hold",
+     "lines": [],
+     "narration": "Over her life, that's like flying to the Moon and back three times.",
+     "sfx": "seabird calls, waves"
+    }
+   ],
+   "loop_note": "the final line links back to the opening image (the next generation / the journey again)"
+  },
+  {
+   "id": "OIT-009",
+   "number": 9,
+   "theme": "monarch",
+   "title": "Millions of butterflies. None has been here before. #shorts",
+   "logline": "monarch: Late-summer monarch butterflies form a long-lived 'super generation' that migrates thousands of kilometres to mountain forests in Mexico, steering partly by the",
+   "hook_text": "None of them has ever been here.",
+   "description": "Late-summer monarch butterflies form a long-lived 'super generation' that migrates thousands of kilometres to mountain forests in Mexico, steering partly by the sun. No single butterfly makes the whole round trip.\n\nOne In A Thousand: true survival stories, one every day. Which creature should we follow next? Tell us below.",
+   "tags": [
+    "monarch butterfly",
+    "migration",
+    "insects",
+    "mystery",
+    "one in a thousand",
+    "animals",
+    "nature documentary",
+    "true story"
+   ],
+   "music": "hopeful swell",
+   "fact_note": "Late-summer monarch butterflies form a long-lived 'super generation' that migrates thousands of kilometres to mountain forests in Mexico, steering partly by the sun. No single butterfly makes the whole round trip.",
+   "guests": {
+    "oit009_monarch": {
+     "name": "Monarch",
+     "ref_prompt": "a monarch butterfly, bright orange wings with black veins and white spots",
+     "voice": "none (narrated)"
+    }
+   },
+   "locations": {
+    "oit009_field": "a North American prairie field with milkweed plants in late summer",
+    "oit009_sky": "high in a blue autumn sky over farmland",
+    "oit009_forest": "a misty oyamel fir forest in the mountains of Mexico, tree trunks covered in millions of orange butterflies"
+   },
+   "shots": [
+    {
+     "n": 1,
+     "dur": 6,
+     "loc": "oit009_forest",
+     "chars": [],
+     "keyframe": "fir trees completely covered in millions of orange butterflies, mist drifting",
+     "action": "fir trees completely covered in millions of orange butterflies, mist drifting",
+     "camera": "dramatic low-angle close-up, fast push-in",
+     "lines": [],
+     "narration": "None of them has ever been here. So how did they find it?",
+     "sfx": "soft wing flutters"
+    },
+    {
+     "n": 2,
+     "dur": 10,
+     "loc": "oit009_field",
+     "chars": [
+      "oit009_monarch"
+     ],
+     "keyframe": "the monarch emerging from a chrysalis on a milkweed plant",
+     "action": "the monarch emerging from a chrysalis on a milkweed plant",
+     "camera": "wide cinematic establishing shot, slow drift",
+     "lines": [],
+     "narration": "Most monarchs live just a few weeks. But at the end of summer, a special generation is born. They live for months.",
+     "sfx": "breeze"
+    },
+    {
+     "n": 3,
+     "dur": 10,
+     "loc": "oit009_sky",
+     "chars": [
+      "oit009_monarch"
+     ],
+     "keyframe": "the butterfly flying high and alone over farmland toward the south",
+     "action": "the butterfly flying high and alone over farmland toward the south",
+     "camera": "tracking shot at the hero's eye level",
+     "lines": [],
+     "narration": "She sets off alone, flying thousands of kilometres south, steering by the position of the sun.",
+     "sfx": "wind"
+    },
+    {
+     "n": 4,
+     "dur": 10,
+     "loc": "oit009_sky",
+     "chars": [
+      "oit009_monarch"
+     ],
+     "keyframe": "the butterfly struggling through rain and wind, then resting on a tree with others at dusk",
+     "action": "the butterfly struggling through rain and wind, then resting on a tree with others at dusk",
+     "camera": "handheld chase shot, fast motion, shallow focus",
+     "lines": [],
+     "narration": "Storms, roads, and fields with nothing to drink. At night she rests on trees with thousands of strangers.",
+     "sfx": "rain, wind"
+    },
+    {
+     "n": 5,
+     "dur": 10,
+     "loc": "oit009_forest",
+     "chars": [
+      "oit009_monarch"
+     ],
+     "keyframe": "the butterfly gliding into the misty Mexican mountain forest",
+     "action": "the butterfly gliding into the misty Mexican mountain forest",
+     "camera": "extreme close-up on the eyes, slow push-in",
+     "lines": [],
+     "narration": "She arrives in the same mountain forest in Mexico that her ancestors left last spring. No one showed her the way.",
+     "sfx": "soft flutters"
+    },
+    {
+     "n": 6,
+     "dur": 10,
+     "loc": "oit009_forest",
+     "chars": [],
+     "keyframe": "branches bending under the weight of clustered butterflies, sunlight breaking through",
+     "action": "branches bending under the weight of clustered butterflies, sunlight breaking through",
+     "camera": "epic wide shot, slow pull-back",
+     "lines": [],
+     "narration": "All winter, millions cluster on the fir trees, so many that branches bend under their weight.",
+     "sfx": "rustling"
+    },
+    {
+     "n": 7,
+     "dur": 8,
+     "loc": "oit009_field",
+     "chars": [
+      "oit009_monarch"
+     ],
+     "keyframe": "the monarch laying an egg on a milkweed leaf in spring",
+     "action": "the monarch laying an egg on a milkweed leaf in spring",
+     "camera": "close-up, slow push-in, then hold",
+     "lines": [],
+     "narration": "In spring she flies north and lays her eggs. Her great-grandchildren will finish the journey.",
+     "sfx": "spring birdsong"
+    }
+   ],
+   "loop_note": "the final line links back to the opening image (the next generation / the journey again)"
+  },
+  {
+   "id": "OIT-010",
+   "number": 10,
+   "theme": "redcell",
+   "title": "This cell gave up its own nucleus so you could breathe #shorts",
+   "logline": "redcell: Red blood cells lose their nucleus as they mature, making room for oxygen-carrying haemoglobin. They squeeze through capillaries narrower than themselves, live ",
+   "hook_text": "She threw away her own nucleus. For you.",
+   "description": "Red blood cells lose their nucleus as they mature, making room for oxygen-carrying haemoglobin. They squeeze through capillaries narrower than themselves, live about 120 days, and are recycled by the spleen.\n\nOne In A Thousand: true survival stories, one every day. Which creature should we follow next? Tell us below.",
+   "tags": [
+    "red blood cell",
+    "human body",
+    "biology",
+    "science",
+    "one in a thousand",
+    "animals",
+    "nature documentary",
+    "true story"
+   ],
+   "music": "hopeful swell",
+   "fact_note": "Red blood cells lose their nucleus as they mature, making room for oxygen-carrying haemoglobin. They squeeze through capillaries narrower than themselves, live about 120 days, and are recycled by the spleen.",
+   "guests": {
+    "oit010_rbc": {
+     "name": "Rbc",
+     "ref_prompt": "a single glossy red blood cell, a bright red disc with a dimpled centre, slightly flexible",
+     "voice": "none (narrated)"
+    }
+   },
+   "locations": {
+    "oit010_heart": "inside a beating human heart chamber, red muscular walls, rushing blood",
+    "oit010_capillary": "a microscopically narrow capillary, cells squeezing through in single file, glowing pink tissue",
+    "oit010_lungs": "inside human lung air sacs, pale pink bubbles, oxygen glowing blue",
+    "oit010_spleen": "the dark red maze inside the human spleen, a large white cell looming"
+   },
+   "shots": [
+    {
+     "n": 1,
+     "dur": 6,
+     "loc": "oit010_heart",
+     "chars": [
+      "oit010_rbc"
+     ],
+     "keyframe": "the red blood cell blasted out of a heart chamber in a rush of blood",
+     "action": "the red blood cell blasted out of a heart chamber in a rush of blood",
+     "camera": "dramatic low-angle close-up, fast push-in",
+     "lines": [],
+     "narration": "She gave up her own nucleus so you could breathe.",
+     "sfx": "huge heartbeat"
+    },
+    {
+     "n": 2,
+     "dur": 10,
+     "loc": "oit010_lungs",
+     "chars": [
+      "oit010_rbc"
+     ],
+     "keyframe": "the cell glowing as blue oxygen sparks flow into it in the lungs",
+     "action": "the cell glowing as blue oxygen sparks flow into it in the lungs",
+     "camera": "wide cinematic establishing shot, slow drift",
+     "lines": [],
+     "narration": "She's a red blood cell. To make room for oxygen, she threw away her nucleus before she was even finished growing.",
+     "sfx": "breath, soft whoosh"
+    },
+    {
+     "n": 3,
+     "dur": 10,
+     "loc": "oit010_heart",
+     "chars": [
+      "oit010_rbc"
+     ],
+     "keyframe": "the cell racing through a huge red artery with millions of others",
+     "action": "the cell racing through a huge red artery with millions of others",
+     "camera": "tracking shot at the hero's eye level",
+     "lines": [],
+     "narration": "Your heart launches her. She circles your whole body roughly once a minute, collecting oxygen from your lungs.",
+     "sfx": "rushing blood, heartbeat"
+    },
+    {
+     "n": 4,
+     "dur": 10,
+     "loc": "oit010_capillary",
+     "chars": [
+      "oit010_rbc"
+     ],
+     "keyframe": "the cell folding itself in half to squeeze through a tiny capillary",
+     "action": "the cell folding itself in half to squeeze through a tiny capillary",
+     "camera": "handheld chase shot, fast motion, shallow focus",
+     "lines": [],
+     "narration": "Some vessels are narrower than she is. So she folds herself to squeeze through, again and again.",
+     "sfx": "squeeze, stretch"
+    },
+    {
+     "n": 5,
+     "dur": 10,
+     "loc": "oit010_capillary",
+     "chars": [
+      "oit010_rbc"
+     ],
+     "keyframe": "close-up of the cell's surface, slightly worn and creased",
+     "action": "close-up of the cell's surface, slightly worn and creased",
+     "camera": "extreme close-up on the eyes, slow push-in",
+     "lines": [],
+     "narration": "Without a nucleus, she can't repair herself. Every squeeze wears her down a little more.",
+     "sfx": "slow heartbeat"
+    },
+    {
+     "n": 6,
+     "dur": 10,
+     "loc": "oit010_heart",
+     "chars": [
+      "oit010_rbc"
+     ],
+     "keyframe": "the cell rushing through the heart again, montage of laps around the body",
+     "action": "the cell rushing through the heart again, montage of laps around the body",
+     "camera": "epic wide shot, slow pull-back",
+     "lines": [],
+     "narration": "She does this for about four months. Over a hundred thousand laps of your body. No rest. No days off.",
+     "sfx": "rhythmic heartbeat"
+    },
+    {
+     "n": 7,
+     "dur": 8,
+     "loc": "oit010_spleen",
+     "chars": [
+      "oit010_rbc"
+     ],
+     "keyframe": "the worn cell drifting into the spleen, gently absorbed, a glow of iron released",
+     "action": "the worn cell drifting into the spleen, gently absorbed, a glow of iron released",
+     "camera": "close-up, slow push-in, then hold",
+     "lines": [],
+     "narration": "When she's worn out, your spleen recycles her, and her iron helps build the next generation.",
+     "sfx": "soft hum"
+    }
+   ],
+   "loop_note": "the final line links back to the opening image (the next generation / the journey again)"
+  },
+  {
+   "id": "OIT-011",
+   "number": 11,
+   "theme": "humpback",
+   "title": "The orcas came for her baby. She'd been starving for months. #shorts",
+   "logline": "humpback: Humpback mothers barely eat in their tropical breeding waters while feeding their calves rich milk, then migrate thousands of kilometres to feeding grounds. Orc",
+   "hook_text": "Orcas vs. a starving mother whale",
+   "description": "Humpback mothers barely eat in their tropical breeding waters while feeding their calves rich milk, then migrate thousands of kilometres to feeding grounds. Orcas sometimes hunt humpback calves, and mothers defend them.\n\nOne In A Thousand: true survival stories, one every day. Which creature should we follow next? Tell us below.",
+   "tags": [
+    "humpback whale",
+    "orca",
+    "ocean",
+    "mother",
+    "one in a thousand",
+    "animals",
+    "nature documentary",
+    "true story"
+   ],
+   "music": "tense drums",
+   "fact_note": "Humpback mothers barely eat in their tropical breeding waters while feeding their calves rich milk, then migrate thousands of kilometres to feeding grounds. Orcas sometimes hunt humpback calves, and mothers defend them.",
+   "guests": {
+    "oit011_mother": {
+     "name": "Mother",
+     "ref_prompt": "a huge humpback whale mother, dark grey with a knobbly head and long white pectoral fins",
+     "voice": "none (narrated)"
+    },
+    "oit011_calf": {
+     "name": "Calf",
+     "ref_prompt": "a newborn humpback whale calf, pale grey, small and chubby",
+     "voice": "none (narrated)"
+    }
+   },
+   "locations": {
+    "oit011_lagoon": "warm turquoise tropical water with sunbeams",
+    "oit011_deep": "deep open ocean, dark blue, shadowy shapes of orcas",
+    "oit011_north": "cold green feeding waters with schools of small silver fish"
+   },
+   "shots": [
+    {
+     "n": 1,
+     "dur": 6,
+     "loc": "oit011_deep",
+     "chars": [
+      "oit011_calf"
+     ],
+     "keyframe": "black and white orcas circling a small whale calf in the dark blue",
+     "action": "black and white orcas circling a small whale calf in the dark blue",
+     "camera": "dramatic low-angle close-up, fast push-in",
+     "lines": [],
+     "narration": "The orcas are coming for her baby. And she's been starving for months.",
+     "sfx": "orca whistles, deep rumble"
+    },
+    {
+     "n": 2,
+     "dur": 10,
+     "loc": "oit011_lagoon",
+     "chars": [
+      "oit011_mother",
+      "oit011_calf"
+     ],
+     "keyframe": "the mother whale and newborn calf in warm turquoise water",
+     "action": "the mother whale and newborn calf in warm turquoise water",
+     "camera": "wide cinematic establishing shot, slow drift",
+     "lines": [],
+     "narration": "She gave birth in warm tropical water. There's almost no food here, but her calf drinks huge amounts of her milk.",
+     "sfx": "whale song"
+    },
+    {
+     "n": 3,
+     "dur": 10,
+     "loc": "oit011_lagoon",
+     "chars": [
+      "oit011_mother",
+      "oit011_calf"
+     ],
+     "keyframe": "the calf nuzzling close to its mother's side",
+     "action": "the calf nuzzling close to its mother's side",
+     "camera": "tracking shot at the hero's eye level",
+     "lines": [],
+     "narration": "She barely eats for months. Everything she gives her baby comes from her own body.",
+     "sfx": "whale song, bubbles"
+    },
+    {
+     "n": 4,
+     "dur": 10,
+     "loc": "oit011_deep",
+     "chars": [
+      "oit011_mother",
+      "oit011_calf"
+     ],
+     "keyframe": "mother and calf swimming north into deep open ocean",
+     "action": "mother and calf swimming north into deep open ocean",
+     "camera": "handheld chase shot, fast motion, shallow focus",
+     "lines": [],
+     "narration": "Then they begin the journey north, thousands of kilometres to the feeding grounds. Her calf has never left home.",
+     "sfx": "ocean ambience"
+    },
+    {
+     "n": 5,
+     "dur": 10,
+     "loc": "oit011_deep",
+     "chars": [
+      "oit011_calf"
+     ],
+     "keyframe": "orcas splitting around the calf, trying to separate it from its mother",
+     "action": "orcas splitting around the calf, trying to separate it from its mother",
+     "camera": "extreme close-up on the eyes, slow push-in",
+     "lines": [],
+     "narration": "Halfway there, a pod of orcas finds them. They hunt as a team, trying to separate the calf from its mother.",
+     "sfx": "orca calls, splashing"
+    },
+    {
+     "n": 6,
+     "dur": 10,
+     "loc": "oit011_deep",
+     "chars": [
+      "oit011_mother",
+      "oit011_calf"
+     ],
+     "keyframe": "the mother lifting the calf on her back and slashing the water with her huge fins and tail",
+     "action": "the mother lifting the calf on her back and slashing the water with her huge fins and tail",
+     "camera": "epic wide shot, slow pull-back",
+     "lines": [],
+     "narration": "She lifts her baby out of reach and thrashes the water with her giant fins and tail.",
+     "sfx": "huge splashes"
+    },
+    {
+     "n": 7,
+     "dur": 8,
+     "loc": "oit011_north",
+     "chars": [
+      "oit011_mother",
+      "oit011_calf"
+     ],
+     "keyframe": "mother and calf swimming through cold green water full of fish",
+     "action": "mother and calf swimming through cold green water full of fish",
+     "camera": "close-up, slow push-in, then hold",
+     "lines": [],
+     "narration": "The orcas give up. Weeks later, mother and calf reach the cold, rich north. Together.",
+     "sfx": "whale song"
+    }
+   ],
+   "loop_note": "the final line links back to the opening image (the next generation / the journey again)"
+  },
+  {
+   "id": "OIT-012",
+   "number": 12,
+   "theme": "wildebeest",
+   "title": "Born seconds ago. Within minutes, she has to run. #shorts",
+   "logline": "wildebeest: Wildebeest calves stand and walk within minutes of birth. Hundreds of thousands are born in a few weeks, and over a million wildebeest migrate, crossing crocodi",
+   "hook_text": "Born seconds ago. Now RUN.",
+   "description": "Wildebeest calves stand and walk within minutes of birth. Hundreds of thousands are born in a few weeks, and over a million wildebeest migrate, crossing crocodile-filled rivers like the Mara.\n\nOne In A Thousand: true survival stories, one every day. Which creature should we follow next? Tell us below.",
+   "tags": [
+    "wildebeest",
+    "great migration",
+    "serengeti",
+    "survival",
+    "one in a thousand",
+    "animals",
+    "nature documentary",
+    "true story"
+   ],
+   "music": "tense drums",
+   "fact_note": "Wildebeest calves stand and walk within minutes of birth. Hundreds of thousands are born in a few weeks, and over a million wildebeest migrate, crossing crocodile-filled rivers like the Mara.",
+   "guests": {
+    "oit012_calf": {
+     "name": "Calf",
+     "ref_prompt": "a newborn wildebeest calf, tan-brown fur, wobbly long legs",
+     "voice": "none (narrated)"
+    },
+    "oit012_mother": {
+     "name": "Mother",
+     "ref_prompt": "an adult blue wildebeest with curved horns and a dark beard",
+     "voice": "none (narrated)"
+    }
+   },
+   "locations": {
+    "oit012_plain": "the Serengeti plains, short green grass, thousands of wildebeest under a big sky",
+    "oit012_mara": "the muddy Mara River with steep banks, crocodiles in the water, wildebeest leaping in"
+   },
+   "shots": [
+    {
+     "n": 1,
+     "dur": 6,
+     "loc": "oit012_plain",
+     "chars": [
+      "oit012_calf"
+     ],
+     "keyframe": "the newborn calf trying to stand on wobbly legs, the herd moving past",
+     "action": "the newborn calf trying to stand on wobbly legs, the herd moving past",
+     "camera": "dramatic low-angle close-up, fast push-in",
+     "lines": [],
+     "narration": "She was born seconds ago. Within minutes, she has to run.",
+     "sfx": "herd hooves, wind"
+    },
+    {
+     "n": 2,
+     "dur": 10,
+     "loc": "oit012_plain",
+     "chars": [
+      "oit012_calf",
+      "oit012_mother"
+     ],
+     "keyframe": "thousands of calves and mothers across the green plains",
+     "action": "thousands of calves and mothers across the green plains",
+     "camera": "wide cinematic establishing shot, slow drift",
+     "lines": [],
+     "narration": "Each year, hundreds of thousands of calves are born in just a few weeks. Too many for the predators to catch them all.",
+     "sfx": "herd ambience"
+    },
+    {
+     "n": 3,
+     "dur": 10,
+     "loc": "oit012_plain",
+     "chars": [
+      "oit012_calf"
+     ],
+     "keyframe": "the calf falling and getting up while hyenas watch in the distance",
+     "action": "the calf falling and getting up while hyenas watch in the distance",
+     "camera": "tracking shot at the hero's eye level",
+     "lines": [],
+     "narration": "She falls. Gets up. Falls again. Hyenas watch the newborns, waiting for one that can't keep up.",
+     "sfx": "hyena whoop"
+    },
+    {
+     "n": 4,
+     "dur": 10,
+     "loc": "oit012_plain",
+     "chars": [
+      "oit012_calf",
+      "oit012_mother"
+     ],
+     "keyframe": "the calf running beside her mother in the vast moving herd",
+     "action": "the calf running beside her mother in the vast moving herd",
+     "camera": "handheld chase shot, fast motion, shallow focus",
+     "lines": [],
+     "narration": "She stands. She runs. Within days she keeps pace with the herd. Over a million wildebeest, following the rain.",
+     "sfx": "thundering hooves"
+    },
+    {
+     "n": 5,
+     "dur": 10,
+     "loc": "oit012_mara",
+     "chars": [],
+     "keyframe": "the herd massing on a steep riverbank above crocodile-filled water",
+     "action": "the herd massing on a steep riverbank above crocodile-filled water",
+     "camera": "extreme close-up on the eyes, slow push-in",
+     "lines": [],
+     "narration": "Months later comes the river. Strong currents. Steep banks. And crocodiles that have waited all year.",
+     "sfx": "rushing river"
+    },
+    {
+     "n": 6,
+     "dur": 10,
+     "loc": "oit012_mara",
+     "chars": [
+      "oit012_calf"
+     ],
+     "keyframe": "the calf swept downstream as a crocodile slides toward her",
+     "action": "the calf swept downstream as a crocodile slides toward her",
+     "camera": "epic wide shot, slow pull-back",
+     "lines": [],
+     "narration": "The herd jumps. She's swept downstream. A crocodile slides toward her.",
+     "sfx": "splashing chaos"
+    },
+    {
+     "n": 7,
+     "dur": 8,
+     "loc": "oit012_plain",
+     "chars": [
+      "oit012_calf",
+      "oit012_mother"
+     ],
+     "keyframe": "the soaked calf climbing out and finding her mother on the far bank",
+     "action": "the soaked calf climbing out and finding her mother on the far bank",
+     "camera": "close-up, slow push-in, then hold",
+     "lines": [],
+     "narration": "She claws out on the far bank and finds her mother's call. She made it. This time.",
+     "sfx": "calls, panting"
+    }
+   ],
+   "loop_note": "the final line links back to the opening image (the next generation / the journey again)"
+  },
+  {
+   "id": "OIT-013",
+   "number": 13,
+   "theme": "polarbear",
+   "title": "She hasn't eaten in 8 months. Now she has twins. #shorts",
+   "logline": "polarbear: Pregnant polar bears den in snow, give birth in midwinter to tiny blind cubs, and can go up to about eight months without eating, living on fat reserves while n",
+   "hook_text": "8 months without food. Then twins.",
+   "description": "Pregnant polar bears den in snow, give birth in midwinter to tiny blind cubs, and can go up to about eight months without eating, living on fat reserves while nursing.\n\nOne In A Thousand: true survival stories, one every day. Which creature should we follow next? Tell us below.",
+   "tags": [
+    "polar bear",
+    "arctic",
+    "mother",
+    "cubs",
+    "one in a thousand",
+    "animals",
+    "nature documentary",
+    "true story"
+   ],
+   "music": "hopeful swell",
+   "fact_note": "Pregnant polar bears den in snow, give birth in midwinter to tiny blind cubs, and can go up to about eight months without eating, living on fat reserves while nursing.",
+   "guests": {
+    "oit013_mother": {
+     "name": "Mother",
+     "ref_prompt": "a female polar bear, thick creamy white fur, black nose",
+     "voice": "none (narrated)"
+    },
+    "oit013_cubs": {
+     "name": "Cubs",
+     "ref_prompt": "two tiny fluffy white polar bear cubs",
+     "voice": "none (narrated)"
+    }
+   },
+   "locations": {
+    "oit013_den": "inside a snow den, glowing blue-white walls, a small tunnel",
+    "oit013_tundra": "Arctic tundra in late summer, bare rocks, no ice",
+    "oit013_ice": "frozen Arctic sea ice in spring, bright sun"
+   },
+   "shots": [
+    {
+     "n": 1,
+     "dur": 6,
+     "loc": "oit013_den",
+     "chars": [
+      "oit013_mother",
+      "oit013_cubs"
+     ],
+     "keyframe": "the thin mother bear curled around two tiny cubs in a glowing snow den",
+     "action": "the thin mother bear curled around two tiny cubs in a glowing snow den",
+     "camera": "dramatic low-angle close-up, fast push-in",
+     "lines": [],
+     "narration": "She hasn't eaten in about eight months. And now she has two cubs to feed.",
+     "sfx": "wind outside, tiny cries"
+    },
+    {
+     "n": 2,
+     "dur": 10,
+     "loc": "oit013_tundra",
+     "chars": [
+      "oit013_mother"
+     ],
+     "keyframe": "the bear walking across bare rocks where the sea ice has melted",
+     "action": "the bear walking across bare rocks where the sea ice has melted",
+     "camera": "wide cinematic establishing shot, slow drift",
+     "lines": [],
+     "narration": "In summer, the sea ice melts and her hunting grounds disappear. She ate as much as she could before it was gone.",
+     "sfx": "wind"
+    },
+    {
+     "n": 3,
+     "dur": 10,
+     "loc": "oit013_den",
+     "chars": [
+      "oit013_mother"
+     ],
+     "keyframe": "the bear digging a den into a deep snow drift as winter falls",
+     "action": "the bear digging a den into a deep snow drift as winter falls",
+     "camera": "tracking shot at the hero's eye level",
+     "lines": [],
+     "narration": "In autumn, she digs a den deep in the snow. In midwinter, in total darkness, she gives birth.",
+     "sfx": "digging, wind"
+    },
+    {
+     "n": 4,
+     "dur": 10,
+     "loc": "oit013_den",
+     "chars": [
+      "oit013_mother",
+      "oit013_cubs"
+     ],
+     "keyframe": "newborn cubs, blind and tiny, nursing against her",
+     "action": "newborn cubs, blind and tiny, nursing against her",
+     "camera": "handheld chase shot, fast motion, shallow focus",
+     "lines": [],
+     "narration": "Her cubs are born blind, about the size of a guinea pig. She feeds them on milk made from her own fat.",
+     "sfx": "tiny squeaks"
+    },
+    {
+     "n": 5,
+     "dur": 10,
+     "loc": "oit013_den",
+     "chars": [
+      "oit013_mother",
+      "oit013_cubs"
+     ],
+     "keyframe": "the snow den in deep winter, the mother still and patient",
+     "action": "the snow den in deep winter, the mother still and patient",
+     "camera": "extreme close-up on the eyes, slow push-in",
+     "lines": [],
+     "narration": "For months, she doesn't eat or leave. Outside, temperatures plunge far below freezing.",
+     "sfx": "muffled storm"
+    },
+    {
+     "n": 6,
+     "dur": 10,
+     "loc": "oit013_ice",
+     "chars": [
+      "oit013_mother",
+      "oit013_cubs"
+     ],
+     "keyframe": "the mother breaking out of the den into sunlight, cubs blinking behind her",
+     "action": "the mother breaking out of the den into sunlight, cubs blinking behind her",
+     "camera": "epic wide shot, slow pull-back",
+     "lines": [],
+     "narration": "In spring, she breaks out. The cubs see the sun for the first time. She's lost a huge part of her weight.",
+     "sfx": "crunching snow"
+    },
+    {
+     "n": 7,
+     "dur": 8,
+     "loc": "oit013_ice",
+     "chars": [
+      "oit013_mother",
+      "oit013_cubs"
+     ],
+     "keyframe": "the bear family walking toward the sea ice, the mother scanning the horizon",
+     "action": "the bear family walking toward the sea ice, the mother scanning the horizon",
+     "camera": "close-up, slow push-in, then hold",
+     "lines": [],
+     "narration": "Now she must reach the sea ice and hunt, before it melts again. Three lives depend on it.",
+     "sfx": "wind, ice creaking"
+    }
+   ],
+   "loop_note": "the final line links back to the opening image (the next generation / the journey again)"
+  },
+  {
+   "id": "OIT-014",
+   "number": 14,
+   "theme": "armyants",
+   "title": "This bridge is alive. Every piece is an ant. #shorts",
+   "logline": "armyants: Army ants live in huge nomadic colonies, are nearly blind, and link their bodies to form living bridges and a living nest (a bivouac) around the queen.",
+   "hook_text": "This bridge is alive.",
+   "description": "Army ants live in huge nomadic colonies, are nearly blind, and link their bodies to form living bridges and a living nest (a bivouac) around the queen.\n\nOne In A Thousand: true survival stories, one every day. Which creature should we follow next? Tell us below.",
+   "tags": [
+    "army ants",
+    "insects",
+    "teamwork",
+    "jungle",
+    "one in a thousand",
+    "animals",
+    "nature documentary",
+    "true story"
+   ],
+   "music": "tense drums",
+   "fact_note": "Army ants live in huge nomadic colonies, are nearly blind, and link their bodies to form living bridges and a living nest (a bivouac) around the queen.",
+   "guests": {
+    "oit014_ant": {
+     "name": "Ant",
+     "ref_prompt": "an army ant soldier, reddish-brown, oversized head with huge curved jaws",
+     "voice": "none (narrated)"
+    }
+   },
+   "locations": {
+    "oit014_jungle": "the dense rainforest floor, leaf litter, roots, dappled green light",
+    "oit014_gap": "a gap between two branches above a forest stream, ants forming a living chain across it"
+   },
+   "shots": [
+    {
+     "n": 1,
+     "dur": 6,
+     "loc": "oit014_gap",
+     "chars": [
+      "oit014_ant"
+     ],
+     "keyframe": "hundreds of ants linking legs to form a living bridge over a gap",
+     "action": "hundreds of ants linking legs to form a living bridge over a gap",
+     "camera": "dramatic low-angle close-up, fast push-in",
+     "lines": [],
+     "narration": "This bridge is alive. And she's part of it.",
+     "sfx": "rustling of thousands of legs"
+    },
+    {
+     "n": 2,
+     "dur": 10,
+     "loc": "oit014_jungle",
+     "chars": [
+      "oit014_ant"
+     ],
+     "keyframe": "a river of ants flowing across the forest floor",
+     "action": "a river of ants flowing across the forest floor",
+     "camera": "wide cinematic establishing shot, slow drift",
+     "lines": [],
+     "narration": "She's an army ant. She's nearly blind. Her colony has hundreds of thousands of sisters and no permanent home.",
+     "sfx": "rustling, jungle"
+    },
+    {
+     "n": 3,
+     "dur": 10,
+     "loc": "oit014_jungle",
+     "chars": [
+      "oit014_ant"
+     ],
+     "keyframe": "the swarm spreading in a wide fan, insects fleeing ahead of it",
+     "action": "the swarm spreading in a wide fan, insects fleeing ahead of it",
+     "camera": "tracking shot at the hero's eye level",
+     "lines": [],
+     "narration": "Every day, the colony sweeps through the forest like a flood, hunting anything that can't escape.",
+     "sfx": "insects buzzing, rustle"
+    },
+    {
+     "n": 4,
+     "dur": 10,
+     "loc": "oit014_gap",
+     "chars": [
+      "oit014_ant"
+     ],
+     "keyframe": "a few ants grabbing each other at the gap's edge, then more joining",
+     "action": "a few ants grabbing each other at the gap's edge, then more joining",
+     "camera": "handheld chase shot, fast motion, shallow focus",
+     "lines": [],
+     "narration": "When the trail hits a gap, a few ants grab onto each other. Then more. Their bodies become the road.",
+     "sfx": "clicking"
+    },
+    {
+     "n": 5,
+     "dur": 10,
+     "loc": "oit014_gap",
+     "chars": [
+      "oit014_ant"
+     ],
+     "keyframe": "thousands of ants running across the living bridge over her back",
+     "action": "thousands of ants running across the living bridge over her back",
+     "camera": "extreme close-up on the eyes, slow push-in",
+     "lines": [],
+     "narration": "Thousands of sisters run across her back. She holds still. If the bridge breaks, the trail breaks.",
+     "sfx": "rustling"
+    },
+    {
+     "n": 6,
+     "dur": 10,
+     "loc": "oit014_jungle",
+     "chars": [
+      "oit014_ant"
+     ],
+     "keyframe": "a huge living ball of linked ants hanging under a log at night",
+     "action": "a huge living ball of linked ants hanging under a log at night",
+     "camera": "epic wide shot, slow pull-back",
+     "lines": [],
+     "narration": "At night, they build their nest the same way. A living ball of bodies, with the queen safe inside.",
+     "sfx": "night jungle"
+    },
+    {
+     "n": 7,
+     "dur": 8,
+     "loc": "oit014_jungle",
+     "chars": [],
+     "keyframe": "the colony flowing on through the forest at dawn",
+     "action": "the colony flowing on through the forest at dawn",
+     "camera": "close-up, slow push-in, then hold",
+     "lines": [],
+     "narration": "No single ant is in charge. Together, they're one of the most fearsome hunters in the forest.",
+     "sfx": "dawn jungle"
+    }
+   ],
+   "loop_note": "the final line links back to the opening image (the next generation / the journey again)"
+  },
+  {
+   "id": "OIT-015",
+   "number": 15,
+   "theme": "hummingbird",
+   "title": "It weighs less than a coin. Tonight it crosses a sea. #shorts",
+   "logline": "hummingbird: Ruby-throated hummingbirds weigh a few grams, have heart rates that can exceed 1,000 beats a minute, use torpor on cold nights, fatten before migration, and man",
+   "hook_text": "Less than a coin. Crossing a sea.",
+   "description": "Ruby-throated hummingbirds weigh a few grams, have heart rates that can exceed 1,000 beats a minute, use torpor on cold nights, fatten before migration, and many cross the Gulf of Mexico nonstop (about 800 km).\n\nOne In A Thousand: true survival stories, one every day. Which creature should we follow next? Tell us below.",
+   "tags": [
+    "hummingbird",
+    "migration",
+    "birds",
+    "record",
+    "one in a thousand",
+    "animals",
+    "nature documentary",
+    "true story"
+   ],
+   "music": "epic nature strings",
+   "fact_note": "Ruby-throated hummingbirds weigh a few grams, have heart rates that can exceed 1,000 beats a minute, use torpor on cold nights, fatten before migration, and many cross the Gulf of Mexico nonstop (about 800 km).",
+   "guests": {
+    "oit015_hb": {
+     "name": "Hb",
+     "ref_prompt": "a ruby-throated hummingbird, iridescent emerald back, glowing ruby-red throat, tiny needle beak",
+     "voice": "none (narrated)"
+    }
+   },
+   "locations": {
+    "oit015_garden": "a garden of red tubular flowers in late summer, warm light",
+    "oit015_gulf": "over the open Gulf of Mexico at night, dark waves, stars",
+    "oit015_night": "a dark branch at night with frost",
+    "oit015_coast": "a tropical Mexican coastline at sunrise with red flowers"
+   },
+   "shots": [
+    {
+     "n": 1,
+     "dur": 6,
+     "loc": "oit015_gulf",
+     "chars": [
+      "oit015_hb"
+     ],
+     "keyframe": "the hummingbird flying low over dark waves at night under the stars",
+     "action": "the hummingbird flying low over dark waves at night under the stars",
+     "camera": "dramatic low-angle close-up, fast push-in",
+     "lines": [],
+     "narration": "It weighs about as much as a coin. Tonight, it flies across a sea.",
+     "sfx": "wind, wing hum"
+    },
+    {
+     "n": 2,
+     "dur": 10,
+     "loc": "oit015_garden",
+     "chars": [
+      "oit015_hb"
+     ],
+     "keyframe": "the hummingbird hovering at a red flower, wings a blur",
+     "action": "the hummingbird hovering at a red flower, wings a blur",
+     "camera": "wide cinematic establishing shot, slow drift",
+     "lines": [],
+     "narration": "A hummingbird's heart can beat over a thousand times a minute. Its wings, more than fifty times a second.",
+     "sfx": "loud wing hum"
+    },
+    {
+     "n": 3,
+     "dur": 10,
+     "loc": "oit015_night",
+     "chars": [
+      "oit015_hb"
+     ],
+     "keyframe": "the hummingbird perched motionless on a frosty branch, eyes closed",
+     "action": "the hummingbird perched motionless on a frosty branch, eyes closed",
+     "camera": "tracking shot at the hero's eye level",
+     "lines": [],
+     "narration": "To survive cold nights, it slows its whole body into a deep, near-death sleep called torpor.",
+     "sfx": "faint slow heartbeat"
+    },
+    {
+     "n": 4,
+     "dur": 10,
+     "loc": "oit015_garden",
+     "chars": [
+      "oit015_hb"
+     ],
+     "keyframe": "the hummingbird feeding frantically from flower after flower",
+     "action": "the hummingbird feeding frantically from flower after flower",
+     "camera": "handheld chase shot, fast motion, shallow focus",
+     "lines": [],
+     "narration": "In autumn, it eats until it nearly doubles its weight. Every gram is fuel for one flight.",
+     "sfx": "wing hum"
+    },
+    {
+     "n": 5,
+     "dur": 10,
+     "loc": "oit015_gulf",
+     "chars": [
+      "oit015_hb"
+     ],
+     "keyframe": "the tiny bird heading out over endless open water",
+     "action": "the tiny bird heading out over endless open water",
+     "camera": "extreme close-up on the eyes, slow push-in",
+     "lines": [],
+     "narration": "Then it flies out over the Gulf of Mexico. Around eight hundred kilometres of open water. Nowhere to land.",
+     "sfx": "waves, wind"
+    },
+    {
+     "n": 6,
+     "dur": 10,
+     "loc": "oit015_gulf",
+     "chars": [
+      "oit015_hb"
+     ],
+     "keyframe": "the hummingbird pushing through wind over dark waves, wings blurring",
+     "action": "the hummingbird pushing through wind over dark waves, wings blurring",
+     "camera": "epic wide shot, slow pull-back",
+     "lines": [],
+     "narration": "Wings beating the whole way, through the night, for up to twenty hours. If it stops, it drowns.",
+     "sfx": "strong wind, waves"
+    },
+    {
+     "n": 7,
+     "dur": 8,
+     "loc": "oit015_coast",
+     "chars": [
+      "oit015_hb"
+     ],
+     "keyframe": "the hummingbird reaching red flowers on the coast at sunrise",
+     "action": "the hummingbird reaching red flowers on the coast at sunrise",
+     "camera": "close-up, slow push-in, then hold",
+     "lines": [],
+     "narration": "At sunrise, a speck of green reaches the coast. It made it. Next spring, it'll do it again.",
+     "sfx": "surf, birdsong"
+    }
+   ],
+   "loop_note": "the final line links back to the opening image (the next generation / the journey again)"
+  }
+ ]
 }

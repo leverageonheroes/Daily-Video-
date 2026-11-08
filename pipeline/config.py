@@ -106,6 +106,13 @@ def _default_price():
     return 0.06   # fal.ai LTX-2.3 Fast i2v @1080p
 
 
+# --- narrator (text-to-speech via fal.ai) for channels whose shots have "narration" ---
+TTS_ENDPOINT = env("TTS_ENDPOINT", "fal-ai/elevenlabs/tts/turbo-v2.5")    # ~$0.05 / 1,000 characters
+TTS_VOICE = env("TTS_VOICE", "")                                          # channel.json narrator.voice wins
+TTS_FALLBACK = env("TTS_FALLBACK", "fal-ai/kokoro/british-english")       # ~$0.02 / 1,000 characters
+TTS_FALLBACK_VOICE = env("TTS_FALLBACK_VOICE", "bm_george")
+TTS_PRICE_PER_1K = float(env("TTS_PRICE_PER_1K", "0.05"))
+
 # --- cost guard (USD). Rough estimate per episode is checked before rendering. ---
 PRICE_PER_VIDEO_SECOND = float(env("PRICE_PER_VIDEO_SECOND", "") or _default_price())
 PRICE_PER_IMAGE = float(env("PRICE_PER_IMAGE", "0.015"))                # flux-2 flash edit keyframe

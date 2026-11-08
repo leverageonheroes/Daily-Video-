@@ -5,8 +5,8 @@ Everything you need to resume is on disk: never rely on chat memory.
 
 | Channel | Folder | Show | Format |
 |---|---|---|---|
-| 1 | `channels/flat4b/` | **Flat 4B** — four animal flatmates in London | Standalone sitcom gag, 30–50 s, punchline in last shot |
-| 2 | `channels/coldhearts/` | **Fridge Hearts** — a soap opera inside a fridge | Melodramatic micro-soap, 60–85 s, cliffhanger ending |
+| 1 | `channels/flat4b/` | **One In A Thousand** (was Flat 4B; old scripts in `archive/`) — true survival stories of creatures and cells | Narrated cinematic explainer, 7 shots = 64 s, one narrator voice (pipeline/narration.py) |
+| 2 | `channels/coldhearts/` | **Fridge Hearts** (folder still `coldhearts`) — a soap opera inside a fridge | Melodramatic micro-soap, 60–85 s, flash-forward cold open + cliffhanger + TO BE CONTINUED card |
 | 3 | `channels/drizzlepudge/` | **Drizzle & Pudge** — a baby rain cloud and her hedgehog best friend | Wordless kids cartoon, 30–45 s, ends with the Puddle Jump |
 | 4 | `channels/elders/` | **Ask The Elders** — realistic AI elders, one life lesson each | 5 elders × 8 s = 40 s, one theme per Short. **Google Flow channel** (see below) |
 | 5 | `channels/cribcommittee/` | **The Crib Committee** — babies hold a meeting about parenting | 5 babies × 8 s = 40 s, one topic per Short. **Google Flow channel** (see below) |
@@ -71,7 +71,7 @@ Hard rules (enforced by `tools/validate.py`):
 - Every speaker must be in that shot's `chars`; every char/loc must exist in channel.json or `guests`.
 - Channels with `"nonverbal": true` must have empty `lines`.
 - Max 2 speaking characters per shot (video models lip-sync two faces reliably, not three).
-- Episode numbers continuous; ids `F4B-NNN` / `CH-NNN`.
+- Episode numbers continuous; ids `OIT-NNN` (was `F4B-NNN`) / `CH-NNN`.
 
 ## Writing the next batch (when status says ACTION NEEDED)
 
@@ -80,7 +80,8 @@ Hard rules (enforced by `tools/validate.py`):
 2. Write 15 new episodes into a new file `eps_<first>-<last>.json` continuing the numbering.
 3. Uniqueness: no premise, punchline or cliffhanger may repeat an earlier one. Vary locations,
    character pairings and music moods. Rotate the lead character every episode.
-4. Flat 4B: one relatable adult-life situation (work, money, flat-sharing, dating, gym, admin),
+4. One In A Thousand: see its section at the end (generator script, not hand-written JSON).
+   (Archived Flat 4B rule:) one relatable adult-life situation (work, money, flat-sharing, dating, gym, admin),
    escalation, a twist punchline in the final shot, and a last frame that loops to the first.
 5b. Drizzle & Pudge: NO dialogue (`lines` always empty; giggles/gasps/hiccups go in `sfx`). Drizzle's surprise
    rain (bubbles, petals, colours, snow...) causes a small problem, friends fix it kindly, one gentle good thing is
@@ -152,3 +153,27 @@ hiccup, sneeze...). Kind humour, mainstream evidence-based parenting ideas, no p
 Writing the next batch: add `channels/cribcommittee/scripts_031-060.md` in the same Markdown format as
 `scripts_001-030.md` (each line ≤ 18 words), copy `tools/generators/build_cribcommittee_001-030.py` to
 `build_cribcommittee_031-060.py` with `SRC`/`START` changed, run it, then validate + `state.py sync`.
+
+## One In A Thousand (channels/flat4b, ids OIT-NNN)
+
+Generator: `tools/generators/build_oneinathousand_001-030.py` (copy to `_031-060.py` for the next batch).
+- 7 shots, durations 6/10/10/10/10/10/8 = 64 s. Each shot: `narration` (<= 2.4 words/s), `lines: []`.
+- Arc: shock hook (stat + action, <= 14 words) -> escalating threats -> explainer mid-chase -> heartbreak ->
+  triumph -> last line loops to the start / next generation.
+- Facts: mainstream biology only, hedged numbers, a `fact_note` per episode goes in the description. No fake
+  rescues, no talking animals, no gore (deaths off-screen).
+- Creatures are episode `guests` and places are episode `locations`, ids prefixed `oitNNN_` (so reference
+  images never collide). Narrator: channel.json `narrator` (ElevenLabs Turbo v2.5 via fal, voice "George",
+  Kokoro "bm_george" fallback). Clip audio is kept at 45% under the narrator.
+- When scripts are replaced with a new id prefix, `state.sync` moves the old records to `archived` and
+  restarts the compilation trackers (old values kept in `archived_trackers`).
+
+## Fridge Hearts drama engine (channels/coldhearts)
+
+`channel.json` `cold_open` takes the first 3.5 s of the LAST shot (desaturated, white flash cut) as a
+flash-forward, then a card ("12 HOURS EARLIER..."), then the story; `end_card` (a text string here) shows
+"TO BE CONTINUED..." for the last 1.9 s. clean.mp4 (compilations) has neither. Per-episode override:
+`"cold_open": {"shot": 6, "start": 0, "seconds": 4}` or `false`. Writing rules: see `drama_rules` in
+channel.json. Above all, the last shot must open on its most shocking beat.
+`end_card` in channel.json is either a text string (drawn as a caption, Fridge Hearts) or an object with an
+image (a 4 s still appended to final.mp4, Elders / Crib Committee); pipeline/assemble.py handles both.

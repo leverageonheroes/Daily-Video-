@@ -268,6 +268,159 @@
     },
     "flat4b": {
       "episodes": {
+        "OIT-001": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "OIT-002": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "OIT-003": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "OIT-004": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "OIT-005": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "OIT-006": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "OIT-007": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "OIT-008": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "OIT-009": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "OIT-010": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "OIT-011": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "OIT-012": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "OIT-013": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "OIT-014": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "OIT-015": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "OIT-016": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "OIT-017": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "OIT-018": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "OIT-019": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "OIT-020": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "OIT-021": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "OIT-022": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "OIT-023": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "OIT-024": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "OIT-025": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "OIT-026": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "OIT-027": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "OIT-028": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "OIT-029": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        },
+        "OIT-030": {
+          "status": "scripted",
+          "history": [],
+          "attempts": 0
+        }
+      },
+      "last_scripted": "OIT-030",
+      "archived": {
         "F4B-001": {
           "status": "published",
           "history": [
@@ -518,8 +671,7 @@
           "history": [],
           "attempts": 0
         }
-      },
-      "last_scripted": "F4B-030"
+      }
     },
     "drizzlepudge": {
       "episodes": {
@@ -1168,5 +1320,5 @@
       "last_scripted": "CC-030"
     }
   },
-  "updated": "2026-11-08T14:02:53+00:00"
+  "updated": "2026-11-08T18:54:19+00:00"
 }

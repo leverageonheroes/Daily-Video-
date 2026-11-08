@@ -189,3 +189,12 @@ Daily, on your phone: open the release → tap `<ID>.mp4` to download → open `
 TikTok app → + → Upload → paste caption → **More options → switch ON "AI-generated content"** → Post.
 Leave the "Made with Veo" watermark on Elders clips. Drizzle & Pudge is made for under-7s and TikTok is 13+,
 so expect it to be restricted there.
+
+## 13. One In A Thousand (replaces Flat 4B on the same YouTube channel)
+
+1. YouTube Studio → Customisation: rename the channel to **One In A Thousand**, new handle (e.g.
+   @OneInAThousandTV), new description, new logo (`logos/OneInAThousand_logo_800x800.png`). Category: Education.
+   Same login, so the existing YT_TOKEN_FLAT4B secret keeps working. Nothing to reconnect.
+2. The narrator voice uses your existing FAL_KEY (about $0.03-0.05 per Short).
+3. Music (optional): add epic-nature-strings.mp3, tense-drums.mp3, tragic-piano.mp3, hopeful-swell.mp3 to music/.
+4. Cost: about $2.20-2.40 per 64 s Short on LTX 720p (video $1.92 + images $0.30 + narrator $0.04).

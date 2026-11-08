@@ -3,7 +3,7 @@
   "show_title": "Fridge Hearts",
   "tagline": "A soap opera inside your fridge. Everyone has an expiry date.",
   "audience": "general (13+), NOT made for kids",
-  "format": "Melodramatic micro-soap, 60-85s, each episode understandable on its own, opens on the most dramatic line, ends on a cliffhanger.",
+  "format": "Melodramatic micro-soap, 60-85s. Opens with a 3.5 s FLASH-FORWARD of the cliffhanger (cold open), then a card (\"12 HOURS EARLIER...\") and the story builds back to that moment, ends on the cliffhanger and a \"TO BE CONTINUED...\" card. Each episode understandable on its own.",
   "episode_id_prefix": "CH",
   "target_seconds": [
     60,
@@ -159,5 +159,24 @@
   "compilations": {
     "weekly": true,
     "monthly": true
-  }
+  },
+  "cold_open": {
+    "seconds": 3.5,
+    "start": 0.0,
+    "cards": [
+      "12 HOURS EARLIER...",
+      "EARLIER THAT DAY...",
+      "THAT MORNING...",
+      "ONE HOUR EARLIER...",
+      "THE NIGHT BEFORE..."
+    ]
+  },
+  "end_card": "TO BE CONTINUED...",
+  "drama_rules": [
+    "The last shot must open on its most shocking beat (line or reveal in the first 3 seconds) because its first 3.5 s become the cold open.",
+    "Every shot ends on a turn: a reveal, a threat, a betrayal or a question. No shot is only small talk.",
+    "Raise the stakes every episode: someone could be Chosen, expire, be exiled to the North or lose love.",
+    "Use dramatic camera language: crash zooms, slow push-ins, whip pans, extreme close-ups on eyes.",
+    "Melodrama played completely straight. The comedy comes from the seriousness."
+  ]
 }

@@ -103,8 +103,10 @@ def clip(bible, episode, shot, key: Path, workdir: Path) -> Path:
 
 
 def estimate_cost(episode) -> float:
+    from . import narration
     secs = sum(s["dur"] for s in episode["shots"])
-    return secs * config.PRICE_PER_VIDEO_SECOND + len(episode["shots"]) * config.PRICE_PER_IMAGE
+    return (secs * config.PRICE_PER_VIDEO_SECOND + len(episode["shots"]) * config.PRICE_PER_IMAGE
+            + narration.estimate_cost(episode))
 
 
 def render_shots(channel: str, episode: dict, workdir: Path) -> list:

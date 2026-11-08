@@ -1,917 +1,3076 @@
 {
-  "episodes": [
+ "episodes": [
+  {
+   "id": "CH-001",
+   "number": 1,
+   "title": "She was CHOSEN... then put back 😱🥑 #shorts",
+   "logline": "Naive tofu Tilly arrives in the fridge and learns its rules just as diva avocado Avery is picked by the Hand, squeezed, and humiliatingly put back.",
+   "hook_text": "Welcome to the fridge. Everyone expires.",
+   "description": "A soap opera inside your fridge. Episode 1 of Fridge Hearts.",
+   "tags": [
+    "fridge drama",
+    "food drama",
+    "soap opera",
+    "ai animation",
+    "avocado",
+    "tofu"
+   ],
+   "music": "telenovela strings",
+   "shots": [
     {
-      "id": "CH-001", "number": 1,
-      "title": "She was CHOSEN... then put back 😱🥑 #shorts",
-      "logline": "Naive tofu Tilly arrives in the fridge and learns its rules just as diva avocado Avery is picked by the Hand, squeezed, and humiliatingly put back.",
-      "hook_text": "Welcome to the fridge. Everyone expires.",
-      "description": "A soap opera inside your fridge. Episode 1 of Fridge Hearts.",
-      "tags": ["fridge drama", "food drama", "soap opera", "ai animation", "avocado", "tofu"],
-      "music": "telenovela strings",
-      "shots": [
-        {"n": 1, "dur": 10, "loc": "fridge_open", "chars": ["tilly", "the_hand"],
-         "keyframe": "blinding white light pouring into the fridge, the Hand lowering Tilly onto the middle shelf while all the groceries hold glamorous poses",
-         "action": "Tilly wobbles, looks around in wonder at everyone frozen in poses",
-         "camera": "wide from the back of the fridge toward the open door",
-         "lines": [{"c": "tilly", "t": "Ooh! Where am I? And why is everyone posing?", "tone": "curious, sweet"}],
-         "sfx": "door whoosh, fridge hum"},
-        {"n": 2, "dur": 8, "loc": "main_shelf", "chars": ["avery", "tilly"],
-         "keyframe": "door closed, cool blue light, Avery gliding toward Tilly like a diva",
-         "action": "Avery flips her leafy hair and looks Tilly up and down",
-         "camera": "medium two-shot, soap-opera lighting",
-         "lines": [{"c": "avery", "t": "Because, darling, when the Light comes... you pose. Or you rot.", "tone": "dramatic"}],
-         "sfx": "dramatic sting"},
-        {"n": 3, "dur": 8, "loc": "main_shelf", "chars": ["brock", "tilly"],
-         "keyframe": "Brock flexing his stalk, offering Tilly a handshake",
-         "action": "Brock flexes, Tilly shakes his little hand",
-         "camera": "medium shot",
-         "lines": [{"c": "brock", "t": "Welcome, new girl! Want some protein?", "tone": "friendly"}, {"c": "tilly", "t": "I AM protein.", "tone": "proud"}],
-         "sfx": "flex creak"},
-        {"n": 4, "dur": 10, "loc": "door_shelf", "chars": ["duchess", "rico"],
-         "keyframe": "Duchess Dijon on the door shelf like a throne, Rico leaning against a jar beside her",
-         "action": "Duchess adjusts her monocle, Rico tilts his cap",
-         "camera": "low angle on the door shelf",
-         "lines": [{"c": "duchess", "t": "Another newcomer. How quaint. Tell her the rules, Rico.", "tone": "aristocratic"}, {"c": "rico", "t": "Rule one. Never trust the Light.", "tone": "smouldering"}],
-         "sfx": "condensation drip"},
-        {"n": 5, "dur": 8, "loc": "main_shelf", "chars": ["milo", "tilly"],
-         "keyframe": "Milo trembling and sweating condensation next to Tilly",
-         "action": "Milo grabs Tilly by the shoulders",
-         "camera": "close two-shot",
-         "lines": [{"c": "milo", "t": "Rule two: check your date! I have FOUR DAYS!", "tone": "panicked"}, {"c": "tilly", "t": "Is that... bad?", "tone": "worried"}],
-         "sfx": "heartbeat"},
-        {"n": 6, "dur": 10, "loc": "dark_corner", "chars": ["lenny", "tilly"],
-         "keyframe": "Tilly wandering into the dark corner, two narrow eyes opening on a foggy container lid",
-         "action": "Lenny's eyes glow, Tilly gulps and steps back",
-         "camera": "slow push-in on Lenny",
-         "lines": [{"c": "lenny", "t": "Some who are Chosen never come back. Some come back... different.", "tone": "gravelly whisper"}],
-         "sfx": "ominous drone"},
-        {"n": 7, "dur": 8, "loc": "fridge_open", "chars": ["avery", "the_hand"],
-         "keyframe": "the door flies open, white light floods in, Avery striking her best pose as the Hand reaches toward her",
-         "action": "the Hand closes around Avery and lifts her up into the light",
-         "camera": "low angle hero shot",
-         "lines": [{"c": "avery", "t": "Finally. My moment.", "tone": "triumphant"}],
-         "sfx": "choir swell"},
-        {"n": 8, "dur": 8, "loc": "main_shelf", "chars": ["avery", "tilly"],
-         "keyframe": "the Hand placing Avery back on the shelf, door closing, Avery frozen in shock",
-         "action": "Avery stares into space; Tilly leans in",
-         "camera": "slow dramatic zoom on Avery",
-         "lines": [{"c": "avery", "t": "He squeezed me. And put me BACK.", "tone": "devastated"}, {"c": "tilly", "t": "What does that mean?", "tone": "whisper"}],
-         "sfx": "door thud, suspense sting"}
-      ],
-      "loop_note": "cliffhanger: what does being put back mean?"
+     "n": 1,
+     "dur": 10,
+     "loc": "fridge_open",
+     "chars": [
+      "tilly",
+      "the_hand"
+     ],
+     "keyframe": "blinding white light pouring into the fridge, the Hand lowering Tilly onto the middle shelf while all the groceries hold glamorous poses",
+     "action": "Tilly wobbles, looks around in wonder at everyone frozen in poses",
+     "camera": "wide from the back of the fridge toward the open door",
+     "lines": [
+      {
+       "c": "tilly",
+       "t": "Ooh! Where am I? And why is everyone posing?",
+       "tone": "curious, sweet"
+      }
+     ],
+     "sfx": "door whoosh, fridge hum"
     },
     {
-      "id": "CH-002", "number": 2,
-      "title": "She ripened overnight... and regretted it 🥑🍌 #shorts",
-      "logline": "Humiliated for being unripe, Avery spends a forbidden night in Banana Bianca's paper bag and wakes up gorgeous, with one tiny brown spot.",
-      "hook_text": "She wasn't ripe enough. So she cheated.",
-      "description": "Avery will do anything to be Chosen. Fridge Hearts, episode 2.",
-      "tags": ["fridge drama", "avocado", "food drama", "soap opera", "banana", "ai animation"],
-      "music": "romantic violin",
-      "guests": {
-        "bianca": {"name": "Banana Bianca", "ref_prompt": "anthropomorphic ripe yellow banana woman with a few freckle spots, lounging in a brown paper bag like a spa robe, cucumber slices on her eyes, small cartoon arms, glamorous older diva", "voice": "husky, sultry older female"}
+     "n": 2,
+     "dur": 8,
+     "loc": "main_shelf",
+     "chars": [
+      "avery",
+      "tilly"
+     ],
+     "keyframe": "door closed, cool blue light, Avery gliding toward Tilly like a diva",
+     "action": "Avery flips her leafy hair and looks Tilly up and down",
+     "camera": "medium two-shot, soap-opera lighting",
+     "lines": [
+      {
+       "c": "avery",
+       "t": "Because, darling, when the Light comes... you pose. Or you rot.",
+       "tone": "dramatic"
+      }
+     ],
+     "sfx": "dramatic sting"
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "main_shelf",
+     "chars": [
+      "brock",
+      "tilly"
+     ],
+     "keyframe": "Brock flexing his stalk, offering Tilly a handshake",
+     "action": "Brock flexes, Tilly shakes his little hand",
+     "camera": "medium shot",
+     "lines": [
+      {
+       "c": "brock",
+       "t": "Welcome, new girl! Want some protein?",
+       "tone": "friendly"
       },
-      "shots": [
-        {"n": 1, "dur": 10, "loc": "main_shelf", "chars": ["avery", "brock"],
-         "keyframe": "Avery slumped dramatically against a jar, Brock beside her offering comfort",
-         "action": "Avery throws her arm over her face, Brock pats her back",
-         "camera": "medium two-shot",
-         "lines": [{"c": "avery", "t": "He put me back. Do you know what that means? I am NOT. RIPE.", "tone": "anguished"}, {"c": "brock", "t": "Hey. Ripe is a journey.", "tone": "gentle"}],
-         "sfx": "tragic piano note"},
-        {"n": 2, "dur": 8, "loc": "door_shelf", "chars": ["duchess", "rico"],
-         "keyframe": "Duchess sipping from a bottle cap like a teacup, Rico gazing down at the main shelf",
-         "action": "Duchess sips, Rico sighs",
-         "camera": "medium shot",
-         "lines": [{"c": "duchess", "t": "Rejected by the Hand. In public. Delicious.", "tone": "gossipy"}, {"c": "rico", "t": "I would never reject her.", "tone": "longing"}],
-         "sfx": "sip"},
-        {"n": 3, "dur": 8, "loc": "main_shelf", "chars": ["tilly", "avery"],
-         "keyframe": "Tilly leaning in to Avery, Avery's eyes widening with an idea",
-         "action": "Avery grabs Tilly's arm",
-         "camera": "close two-shot",
-         "lines": [{"c": "tilly", "t": "Is there a way to ripen faster?", "tone": "innocent"}, {"c": "avery", "t": "There is one way. Forbidden.", "tone": "hushed"}],
-         "sfx": "suspense sting"},
-        {"n": 4, "dur": 10, "loc": "crisper", "chars": ["bianca", "avery"],
-         "keyframe": "Banana Bianca lounging inside a paper bag in the misty crisper, Avery approaching",
-         "action": "Bianca lifts one cucumber slice off her eye",
-         "camera": "slow reveal through the mist",
-         "lines": [{"c": "bianca", "t": "One night in my bag, darling, and you'll wake up a whole new fruit.", "tone": "sultry"}, {"c": "avery", "t": "Do it.", "tone": "determined"}],
-         "sfx": "spa chime"},
-        {"n": 5, "dur": 8, "loc": "crisper", "chars": ["bianca", "avery"],
-         "keyframe": "Avery stepping into the paper bag beside Bianca",
-         "action": "the paper bag begins to fold closed around them",
-         "camera": "medium shot",
-         "lines": [{"c": "bianca", "t": "Fair warning. Ripening is irreversible.", "tone": "serious"}, {"c": "avery", "t": "I've waited my whole life.", "tone": "resolute"}],
-         "sfx": "paper rustle"},
-        {"n": 6, "dur": 8, "loc": "crisper", "chars": ["brock", "avery"],
-         "keyframe": "night, the closed paper bag glowing warmly, Brock outside it looking worried",
-         "action": "Brock knocks on the bag",
-         "camera": "medium shot",
-         "lines": [{"c": "brock", "t": "Avery? You okay in there?", "tone": "worried"}, {"c": "avery", "t": "Never better!", "tone": "muffled, strained"}],
-         "sfx": "paper creak, ticking clock"},
-        {"n": 7, "dur": 10, "loc": "main_shelf", "chars": ["avery", "tilly"],
-         "keyframe": "morning light, Avery stepping onto the main shelf glowing, glossy and gorgeous, everyone gasping",
-         "action": "Avery poses as sparkles drift around her",
-         "camera": "slow-motion hero walk",
-         "lines": [{"c": "avery", "t": "Behold. Peak. Ripeness.", "tone": "triumphant"}, {"c": "tilly", "t": "Wow...", "tone": "awed"}],
-         "sfx": "choir, sparkle"},
-        {"n": 8, "dur": 8, "loc": "main_shelf", "chars": ["tilly", "avery"],
-         "keyframe": "Tilly pointing at Avery's cheek, extreme close up on a tiny brown spot",
-         "action": "Avery slowly touches the spot, her face falling",
-         "camera": "snap zoom to the spot",
-         "lines": [{"c": "tilly", "t": "Avery... what's that?", "tone": "small"}, {"c": "avery", "t": "No. No, no, no.", "tone": "horrified"}],
-         "sfx": "dramatic sting"}
-      ],
-      "loop_note": "cliffhanger: the brown spot"
+      {
+       "c": "tilly",
+       "t": "I AM protein.",
+       "tone": "proud"
+      }
+     ],
+     "sfx": "flex creak"
     },
     {
-      "id": "CH-003", "number": 3,
-      "title": "She made a deal with the Duchess 💛 #shorts",
-      "logline": "Avery hides her brown spot with Duchess Dijon's mustard, but the favour comes with a debt the Duchess will one day collect.",
-      "hook_text": "Never borrow from the Duchess.",
-      "description": "Every jar on this door owes her something. Fridge Hearts, episode 3.",
-      "tags": ["fridge drama", "mustard", "avocado", "soap opera", "food drama", "ai animation"],
-      "music": "villain organ",
-      "shots": [
-        {"n": 1, "dur": 8, "loc": "main_shelf", "chars": ["avery", "tilly"],
-         "keyframe": "Avery hiding half her face behind a lettuce leaf, glaring at Tilly",
-         "action": "Avery pulls Tilly close",
-         "camera": "close two-shot",
-         "lines": [{"c": "avery", "t": "Nobody sees this spot. Nobody. Tilly, you saw nothing.", "tone": "intense whisper"}, {"c": "tilly", "t": "Saw what?", "tone": "nervous"}],
-         "sfx": "suspense drone"},
-        {"n": 2, "dur": 10, "loc": "door_shelf", "chars": ["avery", "duchess"],
-         "keyframe": "Avery climbing onto the golden door shelf, Duchess waiting regally",
-         "action": "Avery bows her head, Duchess's monocle glints",
-         "camera": "low angle on Duchess",
-         "lines": [{"c": "avery", "t": "Duchess. I need your... mustard.", "tone": "humbled"}, {"c": "duchess", "t": "My mustard isn't for sale, darling. It's for favours.", "tone": "silky"}],
-         "sfx": "organ chord"},
-        {"n": 3, "dur": 8, "loc": "door_shelf", "chars": ["duchess", "avery"],
-         "keyframe": "Duchess dabbing a dot of golden mustard onto Avery's brown spot like concealer",
-         "action": "the spot disappears under a golden glow",
-         "camera": "close up on Avery's cheek",
-         "lines": [{"c": "duchess", "t": "There. Flawless.", "tone": "satisfied"}, {"c": "avery", "t": "It stings.", "tone": "wincing"}, {"c": "duchess", "t": "Beauty does.", "tone": "cold"}],
-         "sfx": "shimmer"},
-        {"n": 4, "dur": 8, "loc": "main_shelf", "chars": ["brock", "avery"],
-         "keyframe": "Brock gazing at a glowing Avery, then sniffing the air",
-         "action": "Brock leans closer and sniffs",
-         "camera": "medium two-shot",
-         "lines": [{"c": "brock", "t": "You look amazing. Do you smell... tangy?", "tone": "confused"}, {"c": "avery", "t": "It's a new perfume.", "tone": "quick"}],
-         "sfx": "sniff"},
-        {"n": 5, "dur": 10, "loc": "main_shelf", "chars": ["rico", "avery"],
-         "keyframe": "Rico sliding down from the door shelf to Avery's side",
-         "action": "Rico circles her slowly",
-         "camera": "orbiting shot",
-         "lines": [{"c": "rico", "t": "Funny. Your glow smells like the Door Shelf. Like... aristocracy.", "tone": "knowing"}, {"c": "avery", "t": "Mind your own bottle, Rico.", "tone": "sharp"}],
-         "sfx": "tension strings"},
-        {"n": 6, "dur": 8, "loc": "dark_corner", "chars": ["tilly", "lenny"],
-         "keyframe": "Tilly crouched beside Lenny in the shadows",
-         "action": "Lenny's eyes narrow",
-         "camera": "medium shot",
-         "lines": [{"c": "tilly", "t": "Avery made a deal with the Duchess.", "tone": "worried"}, {"c": "lenny", "t": "Then she belongs to the Door now.", "tone": "ominous"}],
-         "sfx": "ominous drone"},
-        {"n": 7, "dur": 10, "loc": "door_shelf", "chars": ["avery", "duchess"],
-         "keyframe": "Avery returning to the door shelf, Duchess not looking up",
-         "action": "Duchess slowly turns her jar to face Avery",
-         "camera": "two-shot",
-         "lines": [{"c": "avery", "t": "What do I owe you?", "tone": "nervous"}, {"c": "duchess", "t": "Nothing, darling. Yet.", "tone": "smiling"}],
-         "sfx": "clock tick"},
-        {"n": 8, "dur": 8, "loc": "door_shelf", "chars": ["duchess"],
-         "keyframe": "extreme close up on Duchess's monocle reflecting Avery",
-         "action": "Duchess smiles slowly",
-         "camera": "slow push-in",
-         "lines": [{"c": "duchess", "t": "Every jar on this door owes me something. Now, so do you.", "tone": "menacing"}],
-         "sfx": "villain organ sting"}
-      ],
-      "loop_note": "cliffhanger: the debt"
-    },
-    {
-      "id": "CH-004", "number": 4,
-      "title": "His expiry date came... and he SURVIVED 🥛 #shorts",
-      "logline": "Anxious milk carton Milo throws his own farewell party on his last day, gets sniffed by the Hand, and is put back, convincing himself he's immortal.",
-      "hook_text": "Last day before his expiry date 🥛",
-      "description": "Milo doesn't have long. Or does he? Fridge Hearts, episode 4.",
-      "tags": ["fridge drama", "milk", "expiry date", "soap opera", "food drama", "ai animation"],
-      "music": "tragic piano",
-      "shots": [
-        {"n": 1, "dur": 8, "loc": "main_shelf", "chars": ["milo", "tilly"],
-         "keyframe": "Milo pacing the shelf, sweating condensation, Tilly watching",
-         "action": "Milo grabs his own spout in panic",
-         "camera": "handheld medium shot",
-         "lines": [{"c": "milo", "t": "It's my last day! I'm in my final chapter!", "tone": "hysterical"}, {"c": "tilly", "t": "What happens after?", "tone": "innocent"}],
-         "sfx": "heartbeat"},
-        {"n": 2, "dur": 8, "loc": "main_shelf", "chars": ["milo", "tilly"],
-         "keyframe": "Milo dictating to Tilly, who writes with a crumb on a napkin",
-         "action": "Milo gestures grandly",
-         "camera": "medium shot",
-         "lines": [{"c": "milo", "t": "My cold spot goes to Brock. My lid... to science.", "tone": "solemn"}],
-         "sfx": "tragic piano"},
-        {"n": 3, "dur": 10, "loc": "butter_vip", "chars": ["milo", "brock"],
-         "keyframe": "a farewell party in the butter compartment, tiny party hats, string of bottle caps as bunting",
-         "action": "Brock lifts Milo onto a butter dish stage",
-         "camera": "wide party shot",
-         "lines": [{"c": "brock", "t": "Speech! Speech!", "tone": "cheering"}, {"c": "milo", "t": "You were all... mostly fine. I'll miss the hum.", "tone": "teary"}],
-         "sfx": "party noise, sniffles"},
-        {"n": 4, "dur": 8, "loc": "butter_vip", "chars": ["duchess", "milo"],
-         "keyframe": "Duchess raising a bottle cap like a champagne glass",
-         "action": "everyone raises their caps",
-         "camera": "medium shot",
-         "lines": [{"c": "duchess", "t": "To Milo. Gone too soon. Well... exactly on schedule.", "tone": "dry"}],
-         "sfx": "glass clinks"},
-        {"n": 5, "dur": 10, "loc": "fridge_open", "chars": ["milo", "the_hand"],
-         "keyframe": "the door bursts open, light floods in, the Hand grabbing Milo",
-         "action": "Milo is lifted up into the blinding light, flailing",
-         "camera": "low angle",
-         "lines": [{"c": "milo", "t": "This is it! Tell my story! Make it dramatic!", "tone": "screaming"}],
-         "sfx": "door whoosh, choir"},
-        {"n": 6, "dur": 8, "loc": "fridge_open", "chars": ["milo", "the_hand"],
-         "keyframe": "Milo tilted sideways in the Hand in the bright light",
-         "action": "a loud sniffing sound; Milo shrinks in fear",
-         "camera": "close up on Milo",
-         "lines": [{"c": "milo", "t": "Is he... smelling me?", "tone": "terrified whisper"}],
-         "sfx": "giant sniff"},
-        {"n": 7, "dur": 8, "loc": "main_shelf", "chars": ["milo", "tilly"],
-         "keyframe": "Milo placed back on the shelf, door closing, Tilly rushing to him",
-         "action": "Tilly hugs Milo, who stares blankly",
-         "camera": "medium two-shot",
-         "lines": [{"c": "tilly", "t": "You came back!", "tone": "overjoyed"}, {"c": "milo", "t": "He smelled me. And put me back.", "tone": "stunned"}],
-         "sfx": "door thud"},
-        {"n": 8, "dur": 10, "loc": "main_shelf", "chars": ["milo"],
-         "keyframe": "Milo slowly rising tall, dramatic backlight behind him",
-         "action": "Milo raises his arms like a god",
-         "camera": "low angle slow push-in",
-         "lines": [{"c": "milo", "t": "Past my date. Still good. Do you know what this means? I'm... IMMORTAL.", "tone": "awed, growing"}],
-         "sfx": "epic choir"}
-      ],
-      "loop_note": "cliffhanger: Milo thinks he's immortal"
-    },
-    {
-      "id": "CH-005", "number": 5,
-      "title": "His REPLACEMENT just arrived 🥛😳 #shorts",
-      "logline": "Milo brags that he's beaten expiry forever until a brand-new milk carton, Fresh Freddie, is placed right beside him.",
-      "hook_text": "He thought he was immortal. Then HE arrived.",
-      "description": "Every milk gets replaced eventually. Fridge Hearts, episode 5.",
-      "tags": ["fridge drama", "milk", "replacement", "soap opera", "food drama", "ai animation"],
-      "music": "comedic pizzicato",
-      "shots": [
-        {"n": 1, "dur": 8, "loc": "main_shelf", "chars": ["milo", "brock"],
-         "keyframe": "Milo wearing tiny sunglasses, leaning back like royalty",
-         "action": "Milo waves dismissively at Brock",
-         "camera": "low angle",
-         "lines": [{"c": "milo", "t": "Bow down. I've cheated death. Expiry dates are for the weak.", "tone": "arrogant"}, {"c": "brock", "t": "Bro, that's not how dates work.", "tone": "concerned"}],
-         "sfx": "swagger bass"},
-        {"n": 2, "dur": 8, "loc": "main_shelf", "chars": ["milo", "avery"],
-         "keyframe": "Milo smirking at Avery, who is fixing her leafy hair",
-         "action": "Avery freezes mid-preen",
-         "camera": "two-shot",
-         "lines": [{"c": "milo", "t": "Avery, I'll still be here when you're guacamole.", "tone": "smug"}, {"c": "avery", "t": "How DARE you.", "tone": "outraged"}],
-         "sfx": "gasp"},
-        {"n": 3, "dur": 10, "loc": "dark_corner", "chars": ["lenny", "milo"],
-         "keyframe": "Lenny's glowing eyes in the dark, Milo standing confidently in front of him",
-         "action": "Lenny leans forward out of the shadow",
-         "camera": "slow push-in",
-         "lines": [{"c": "lenny", "t": "No one is immortal, Milo. Not even the ketchup.", "tone": "gravelly"}, {"c": "milo", "t": "Spooky. Love it. Still immortal.", "tone": "dismissive"}],
-         "sfx": "ominous drone"},
-        {"n": 4, "dur": 8, "loc": "fridge_open", "chars": ["freddie", "the_hand"],
-         "keyframe": "the door opens, light floods in, the Hand placing a shiny new milk carton on the shelf",
-         "action": "Freddie lands, beaming and waving",
-         "camera": "hero shot on Freddie",
-         "lines": [{"c": "freddie", "t": "Hi, everyone! Fresh as ever!", "tone": "bright"}],
-         "sfx": "angelic chord"},
-        {"n": 5, "dur": 10, "loc": "main_shelf", "chars": ["freddie", "milo"],
-         "keyframe": "Freddie right next to Milo; Milo's sunglasses sliding down his face",
-         "action": "Freddie offers a handshake, Milo stares",
-         "camera": "two-shot",
-         "lines": [{"c": "freddie", "t": "Same brand, same shelf! I'm Freddie. Use-by: next MONTH!", "tone": "cheerful"}],
-         "sfx": "sunglasses sliding"},
-        {"n": 6, "dur": 8, "loc": "main_shelf", "chars": ["avery", "milo"],
-         "keyframe": "Avery leaning in with a cruel smile",
-         "action": "Avery pats Milo on the head",
-         "camera": "close two-shot",
-         "lines": [{"c": "avery", "t": "Oh, Milo. You're not immortal. You're the backup.", "tone": "sweetly vicious"}],
-         "sfx": "comedic pizzicato"},
-        {"n": 7, "dur": 8, "loc": "main_shelf", "chars": ["milo"],
-         "keyframe": "extreme close up of Milo's trembling eyes",
-         "action": "a single condensation drop rolls down his carton",
-         "camera": "extreme close up",
-         "lines": [{"c": "milo", "t": "The backup? I'm... the backup?", "tone": "shattered"}],
-         "sfx": "tragic piano"},
-        {"n": 8, "dur": 10, "loc": "main_shelf", "chars": ["freddie", "milo"],
-         "keyframe": "Freddie cheerfully putting an arm around Milo",
-         "action": "Milo faints backward onto the shelf",
-         "camera": "medium shot",
-         "lines": [{"c": "freddie", "t": "Don't worry, buddy! The Hand always picks the freshest one first!", "tone": "oblivious"}],
-         "sfx": "thud, suspense sting"}
-      ],
-      "loop_note": "cliffhanger: Milo vs Freddie"
-    },
-    {
-      "id": "CH-006", "number": 6,
-      "title": "He came back HALF EMPTY 🥛💔 #shorts",
-      "logline": "Milo bullies his replacement Freddie until the Hand takes Freddie, who returns half-empty with terrifying news about the world outside.",
-      "hook_text": "There can only be one milk.",
-      "description": "Freddie has seen the outside world. Fridge Hearts, episode 6.",
-      "tags": ["fridge drama", "milk", "rivalry", "soap opera", "food drama", "ai animation"],
-      "music": "suspense sting",
-      "shots": [
-        {"n": 1, "dur": 8, "loc": "main_shelf", "chars": ["milo", "freddie"],
-         "keyframe": "Milo and Freddie facing each other like rival cowboys",
-         "action": "Milo steps forward menacingly",
-         "camera": "western-style two-shot",
-         "lines": [{"c": "milo", "t": "There can only be one milk on this shelf.", "tone": "threatening"}, {"c": "freddie", "t": "Why? There's loads of room!", "tone": "confused"}],
-         "sfx": "wind whistle"},
-        {"n": 2, "dur": 10, "loc": "main_shelf", "chars": ["milo", "tilly"],
-         "keyframe": "Milo pushing Freddie toward the back of the shelf, Tilly gasping",
-         "action": "Freddie slides behind a jar",
-         "camera": "medium shot",
-         "lines": [{"c": "tilly", "t": "Milo! That's so mean!", "tone": "upset"}, {"c": "milo", "t": "It's survival, Tilly. It's a milk-eat-milk world.", "tone": "cold"}],
-         "sfx": "scraping"},
-        {"n": 3, "dur": 8, "loc": "fridge_open", "chars": ["freddie", "the_hand"],
-         "keyframe": "light floods in, the Hand reaching past Milo to grab Freddie from the back",
-         "action": "Freddie waves as he is lifted away",
-         "camera": "low angle",
-         "lines": [{"c": "freddie", "t": "Ooh! Me? Bye, everyone!", "tone": "excited"}],
-         "sfx": "door whoosh"},
-        {"n": 4, "dur": 8, "loc": "main_shelf", "chars": ["milo"],
-         "keyframe": "Milo alone on the empty spot in blue light",
-         "action": "Milo looks at the empty space where Freddie was",
-         "camera": "slow push-in",
-         "lines": [{"c": "milo", "t": "I won. So why do I feel... sour?", "tone": "hollow"}],
-         "sfx": "tragic piano"},
-        {"n": 5, "dur": 10, "loc": "main_shelf", "chars": ["brock", "milo"],
-         "keyframe": "Brock sitting down beside Milo",
-         "action": "Brock puts an arm around him",
-         "camera": "two-shot",
-         "lines": [{"c": "brock", "t": "He was a good carton, bro.", "tone": "gentle"}, {"c": "milo", "t": "He was annoying. And bright. And I never said goodbye.", "tone": "guilty"}],
-         "sfx": "fridge hum"},
-        {"n": 6, "dur": 8, "loc": "fridge_open", "chars": ["freddie", "the_hand"],
-         "keyframe": "the door opens again, the Hand placing Freddie back, now visibly half-empty and wobbly",
-         "action": "Freddie sways, eyes wide and haunted",
-         "camera": "medium shot",
-         "lines": [{"c": "freddie", "t": "I'm back. Well... half of me.", "tone": "shaken"}],
-         "sfx": "sloshing"},
-        {"n": 7, "dur": 10, "loc": "main_shelf", "chars": ["milo", "freddie"],
-         "keyframe": "Milo rushing to Freddie, holding him steady",
-         "action": "Freddie stares into the distance",
-         "camera": "close two-shot",
-         "lines": [{"c": "milo", "t": "What's it like out there?", "tone": "urgent"}, {"c": "freddie", "t": "It's warm. It's loud. There's cereal everywhere.", "tone": "haunted"}],
-         "sfx": "distant crunching"},
-        {"n": 8, "dur": 8, "loc": "main_shelf", "chars": ["freddie", "milo"],
-         "keyframe": "Freddie leaning in to whisper to Milo",
-         "action": "Milo's eyes go huge",
-         "camera": "extreme close up",
-         "lines": [{"c": "freddie", "t": "And Milo... there's a cat.", "tone": "whisper"}],
-         "sfx": "distant meow, suspense sting"}
-      ],
-      "loop_note": "cliffhanger: there's a cat"
-    },
-    {
-      "id": "CH-007", "number": 7,
-      "title": "What's inside the mystery container? 🫙 #shorts",
-      "logline": "The fridge argues over what's inside mysterious leftover Lenny until Tilly peeks and returns tinted green with a disturbing answer.",
-      "hook_text": "Nobody knows what's inside him.",
-      "description": "Some leftovers should stay mysteries. Fridge Hearts, episode 7.",
-      "tags": ["fridge drama", "leftovers", "mystery", "soap opera", "food drama", "ai animation"],
-      "music": "ominous drone",
-      "shots": [
-        {"n": 1, "dur": 8, "loc": "main_shelf", "chars": ["tilly", "avery"],
-         "keyframe": "Tilly looking toward the dark corner, Avery filing her nails on a crumb",
-         "action": "Avery stops filing and lowers her voice",
-         "camera": "two-shot",
-         "lines": [{"c": "tilly", "t": "What's inside Lenny?", "tone": "curious"}, {"c": "avery", "t": "Nobody knows. Nobody has EVER known.", "tone": "hushed"}],
-         "sfx": "ominous drone"},
-        {"n": 2, "dur": 10, "loc": "main_shelf", "chars": ["brock", "milo"],
-         "keyframe": "Brock and Milo leaning together conspiratorially",
-         "action": "they trade theories, getting more animated",
-         "camera": "medium shot",
-         "lines": [{"c": "brock", "t": "I heard he's lasagne.", "tone": "serious"}, {"c": "milo", "t": "I heard he's a soup that became self-aware.", "tone": "spooked"}],
-         "sfx": "thunder rumble"},
-        {"n": 3, "dur": 8, "loc": "door_shelf", "chars": ["duchess", "rico"],
-         "keyframe": "Duchess and Rico on the door shelf looking down into the shadows",
-         "action": "Rico lowers his cap",
-         "camera": "high angle",
-         "lines": [{"c": "duchess", "t": "He was here before me. And I arrived in 2019.", "tone": "grave"}, {"c": "rico", "t": "Some say he IS the fridge.", "tone": "mysterious"}],
-         "sfx": "wind howl"},
-        {"n": 4, "dur": 10, "loc": "dark_corner", "chars": ["tilly", "lenny"],
-         "keyframe": "Tilly tiptoeing up to Lenny in the flickering dark",
-         "action": "Lenny's eyes slowly open",
-         "camera": "slow push-in",
-         "lines": [{"c": "tilly", "t": "Lenny? Can I... peek?", "tone": "timid"}, {"c": "lenny", "t": "Many have asked. None have recovered.", "tone": "gravelly"}],
-         "sfx": "flickering light buzz"},
-        {"n": 5, "dur": 8, "loc": "dark_corner", "chars": ["lenny", "tilly"],
-         "keyframe": "Lenny lifting the corner of his lid, an eerie green glow lighting Tilly's face",
-         "action": "green mist curls out and touches Tilly",
-         "camera": "close up on Tilly's face",
-         "lines": [{"c": "tilly", "t": "Ooh! What's that smell?", "tone": "curious"}],
-         "sfx": "lid creak, eerie chime"},
-        {"n": 6, "dur": 8, "loc": "dark_corner", "chars": ["tilly"],
-         "keyframe": "Tilly turning pale green from absorbing the smell, swaying",
-         "action": "she hiccups a tiny green bubble",
-         "camera": "medium shot",
-         "lines": [{"c": "tilly", "t": "I feel... ancient.", "tone": "woozy"}],
-         "sfx": "bubble pop"},
-        {"n": 7, "dur": 10, "loc": "main_shelf", "chars": ["tilly", "avery"],
-         "keyframe": "green-tinted Tilly returning to the main shelf, everyone crowding around",
-         "action": "Avery grabs Tilly by the shoulders",
-         "camera": "medium crowd shot",
-         "lines": [{"c": "avery", "t": "Well? WHAT IS HE?", "tone": "desperate"}, {"c": "tilly", "t": "It's... soup.", "tone": "dazed"}],
-         "sfx": "anticlimactic tuba"},
-        {"n": 8, "dur": 8, "loc": "dark_corner", "chars": ["lenny"],
-         "keyframe": "Lenny alone in the shadows, eyes glowing",
-         "action": "his lid slowly settles shut",
-         "camera": "slow push-in",
-         "lines": [{"c": "lenny", "t": "It WAS soup. Now... it's something else.", "tone": "whisper"}],
-         "sfx": "suspense sting"}
-      ],
-      "loop_note": "cliffhanger: what has the soup become?"
-    },
-    {
-      "id": "CH-008", "number": 8,
-      "title": "He trained all day to be picked... 🥦❄️ #shorts",
-      "logline": "Gym-bro broccoli Brock trains all day to be chosen for dinner, loses out to a frozen pizza, and is accidentally shoved into the freezer.",
-      "hook_text": "He trained his WHOLE life for this moment 🥦",
-      "description": "Brock wanted to be Chosen. He got exiled. Fridge Hearts, episode 8.",
-      "tags": ["fridge drama", "broccoli", "gym", "freezer", "food drama", "ai animation"],
-      "music": "epic choir",
-      "shots": [
-        {"n": 1, "dur": 8, "loc": "crisper", "chars": ["brock"],
-         "keyframe": "Brock doing one-armed push-ups in the misty crisper",
-         "action": "he finishes a rep and stands, determined",
-         "camera": "low angle",
-         "lines": [{"c": "brock", "t": "Tonight's dinner: steamed greens. The Hand WILL choose me.", "tone": "determined"}],
-         "sfx": "grunt, training beat"},
-        {"n": 2, "dur": 10, "loc": "crisper", "chars": ["brock", "tilly"],
-         "keyframe": "Brock steaming himself in a bottle-cap sauna, Tilly watching",
-         "action": "training montage: steam, flexing, stretching",
-         "camera": "montage cuts",
-         "lines": [{"c": "tilly", "t": "Why do you want to be Chosen so badly?", "tone": "curious"}, {"c": "brock", "t": "Glory. Purpose. A plate.", "tone": "noble"}],
-         "sfx": "steam hiss, epic drums"},
-        {"n": 3, "dur": 8, "loc": "main_shelf", "chars": ["avery", "brock"],
-         "keyframe": "Avery holding Brock's little hand",
-         "action": "they look into each other's eyes",
-         "camera": "close two-shot",
-         "lines": [{"c": "avery", "t": "And if you don't come back?", "tone": "worried"}, {"c": "brock", "t": "Then I'll go out green.", "tone": "brave"}],
-         "sfx": "romantic violin"},
-        {"n": 4, "dur": 10, "loc": "fridge_open", "chars": ["brock", "the_hand"],
-         "keyframe": "the door opens, light floods in, Brock posing heroically on the shelf edge",
-         "action": "the Hand reaches toward Brock, then swerves up and out of frame toward the freezer",
-         "camera": "slow motion",
-         "lines": [{"c": "brock", "t": "Here I am! Fully fibrous! Pick me!", "tone": "shouting"}],
-         "sfx": "epic choir, record scratch"},
-        {"n": 5, "dur": 8, "loc": "main_shelf", "chars": ["brock", "milo"],
-         "keyframe": "Brock deflated, watching a frozen pizza box pass by in the Hand",
-         "action": "Brock's florets droop",
-         "camera": "medium shot",
-         "lines": [{"c": "brock", "t": "A frozen pizza. From the NORTH.", "tone": "crushed"}, {"c": "milo", "t": "Ouch. Processed.", "tone": "wincing"}],
-         "sfx": "sad trombone"},
-        {"n": 6, "dur": 8, "loc": "fridge_open", "chars": ["brock", "the_hand"],
-         "keyframe": "the Hand sweeping items aside to make space, scooping Brock up",
-         "action": "the Hand lifts Brock upward toward the freezer door",
-         "camera": "handheld chaos",
-         "lines": [{"c": "brock", "t": "Wait! Wrong way! WRONG WAY!", "tone": "panicked"}],
-         "sfx": "freezer door creak, icy wind"},
-        {"n": 7, "dur": 10, "loc": "main_shelf", "chars": ["avery", "tilly"],
-         "keyframe": "Avery running to the shelf edge reaching up, Tilly beside her",
-         "action": "Avery reaches toward the ceiling as frost drifts down",
-         "camera": "low angle looking up",
-         "lines": [{"c": "avery", "t": "BROCK!", "tone": "anguished"}, {"c": "tilly", "t": "Where did he go?", "tone": "scared"}, {"c": "avery", "t": "The North.", "tone": "whisper"}],
-         "sfx": "tragic piano"},
-        {"n": 8, "dur": 8, "loc": "the_north", "chars": ["brock"],
-         "keyframe": "Brock alone in the icy freezer, frost creeping over his florets, two cold glowing eyes in the darkness behind him",
-         "action": "Brock turns slowly as the eyes open",
-         "camera": "slow push-in",
-         "lines": [{"c": "brock", "t": "Hello? Is anyone... out there?", "tone": "shivering"}],
-         "sfx": "icy wind, suspense sting"}
-      ],
-      "loop_note": "cliffhanger: eyes in the North"
-    },
-    {
-      "id": "CH-009", "number": 9,
-      "title": "Exiled to the freezer ❄️👑 #shorts",
-      "logline": "In the frozen North, Brock meets Queen Pea, the icy ruler of the freezer, who decides he may be useful to her plans.",
-      "hook_text": "Nobody leaves the freezer.",
-      "description": "Welcome to the North. Fridge Hearts, episode 9.",
-      "tags": ["fridge drama", "freezer", "frozen peas", "villain", "food drama", "ai animation"],
-      "music": "villain organ",
-      "shots": [
-        {"n": 1, "dur": 8, "loc": "the_north", "chars": ["brock"],
-         "keyframe": "Brock shivering among frozen bags like snowy mountains, his florets frosted",
-         "action": "Brock hugs himself, breath visible",
-         "camera": "wide icy landscape",
-         "lines": [{"c": "brock", "t": "So cold. Can't feel my florets.", "tone": "shivering"}],
-         "sfx": "icy wind"},
-        {"n": 2, "dur": 10, "loc": "the_north", "chars": ["queen_pea", "brock"],
-         "keyframe": "Queen Pea rising on a throne of ice cubes, frost crown glittering",
-         "action": "frozen peas roll aside like courtiers bowing",
-         "camera": "low angle reveal",
-         "lines": [{"c": "queen_pea", "t": "A fresh vegetable. In MY kingdom.", "tone": "icy"}, {"c": "brock", "t": "Your... kingdom?", "tone": "nervous"}],
-         "sfx": "ice cracking, choir"},
-        {"n": 3, "dur": 8, "loc": "the_north", "chars": ["queen_pea"],
-         "keyframe": "close on Queen Pea's frosty face",
-         "action": "frost spreads across the ground from her throne",
-         "camera": "slow push-in",
-         "lines": [{"c": "queen_pea", "t": "I am Queen Pea. Ruler of the North. Frozen since the Before Times.", "tone": "regal"}],
-         "sfx": "frost crackle"},
-        {"n": 4, "dur": 10, "loc": "the_north", "chars": ["brock", "queen_pea"],
-         "keyframe": "Brock stepping toward the throne bravely",
-         "action": "Queen Pea laughs coldly",
-         "camera": "two-shot",
-         "lines": [{"c": "brock", "t": "I need to get back. Someone's waiting for me.", "tone": "earnest"}, {"c": "queen_pea", "t": "Everyone has someone. Nobody leaves the North.", "tone": "cold"}],
-         "sfx": "wind howl"},
-        {"n": 5, "dur": 8, "loc": "main_shelf", "chars": ["avery", "rico"],
-         "keyframe": "Avery pacing the main shelf, Rico leaning nearby",
-         "action": "Avery stops and stares upward at the freezer",
-         "camera": "medium two-shot",
-         "lines": [{"c": "rico", "t": "Forget him, Avery. The North changes a vegetable.", "tone": "smooth"}, {"c": "avery", "t": "Then I'll wait for whoever comes back.", "tone": "resolute"}],
-         "sfx": "romantic violin"},
-        {"n": 6, "dur": 10, "loc": "the_north", "chars": ["queen_pea", "brock"],
-         "keyframe": "Queen Pea circling Brock",
-         "action": "Brock flexes through the shivers",
-         "camera": "orbiting shot",
-         "lines": [{"c": "queen_pea", "t": "You have warmth in you. How... irritating.", "tone": "disdainful"}, {"c": "brock", "t": "Stay green. Stay mean.", "tone": "defiant"}],
-         "sfx": "ice crack"},
-        {"n": 7, "dur": 8, "loc": "the_north", "chars": ["queen_pea", "brock"],
-         "keyframe": "Queen Pea leaning close to Brock, a thin smile",
-         "action": "she taps his frosty floret",
-         "camera": "close two-shot",
-         "lines": [{"c": "queen_pea", "t": "Interesting. You may be useful to me.", "tone": "scheming"}],
-         "sfx": "villain organ"},
-        {"n": 8, "dur": 8, "loc": "the_north", "chars": ["queen_pea"],
-         "keyframe": "Queen Pea turning directly toward the camera, eyes glowing icy blue",
-         "action": "frost creeps over the lens",
-         "camera": "extreme close up",
-         "lines": [{"c": "queen_pea", "t": "Nobody leaves the North... unthawed.", "tone": "menacing whisper"}],
-         "sfx": "frost freeze, sting"}
-      ],
-      "loop_note": "cliffhanger: Queen Pea's plan"
-    },
-    {
-      "id": "CH-010", "number": 10,
-      "title": "He came back from the freezer CHANGED 🥦🧊 #shorts",
-      "logline": "Brock returns frozen from the North, wins Avery's heart with his loyalty, but reveals he was released as Queen Pea's messenger.",
-      "hook_text": "He came back from the freezer... different.",
-      "description": "Brock is back. So is a warning. Fridge Hearts, episode 10.",
-      "tags": ["fridge drama", "broccoli", "romance", "freezer", "food drama", "ai animation"],
-      "music": "romantic violin",
-      "shots": [
-        {"n": 1, "dur": 10, "loc": "fridge_open", "chars": ["brock", "tilly"],
-         "keyframe": "the Hand placing a frost-covered Brock back on the main shelf, frozen stiff in a heroic pose",
-         "action": "frost mist rolls off Brock, Tilly rushes over",
-         "camera": "low angle",
-         "lines": [{"c": "tilly", "t": "It's Brock! He's back!", "tone": "overjoyed"}],
-         "sfx": "door whoosh, icy crackle"},
-        {"n": 2, "dur": 8, "loc": "main_shelf", "chars": ["avery", "brock"],
-         "keyframe": "Avery hugging the frozen Brock",
-         "action": "Brock's eyes slowly move",
-         "camera": "close two-shot",
-         "lines": [{"c": "avery", "t": "Say something!", "tone": "desperate"}, {"c": "brock", "t": "C... c... cold.", "tone": "frozen stutter"}],
-         "sfx": "teeth chattering"},
-        {"n": 3, "dur": 10, "loc": "main_shelf", "chars": ["brock", "avery"],
-         "keyframe": "Brock thawing, droplets running down his florets, haunted eyes",
-         "action": "Brock stares into the distance",
-         "camera": "slow push-in",
-         "lines": [{"c": "brock", "t": "I've seen things, Avery. Peas. Thousands of peas. And a queen.", "tone": "haunted"}],
-         "sfx": "dripping, ominous drone"},
-        {"n": 4, "dur": 8, "loc": "door_shelf", "chars": ["rico", "duchess"],
-         "keyframe": "Rico glaring down from the door shelf, Duchess fanning herself",
-         "action": "Rico crosses his arms",
-         "camera": "medium shot",
-         "lines": [{"c": "rico", "t": "Look at him. Dripping for attention.", "tone": "jealous"}, {"c": "duchess", "t": "Jealousy is so spicy on you, darling.", "tone": "amused"}],
-         "sfx": "fan flutter"},
-        {"n": 5, "dur": 10, "loc": "main_shelf", "chars": ["milo", "brock"],
-         "keyframe": "Milo leaning in nervously, Brock wrapped in a paper napkin like a blanket",
-         "action": "Brock looks toward Avery",
-         "camera": "two-shot",
-         "lines": [{"c": "milo", "t": "Was it scary?", "tone": "nervous"}, {"c": "brock", "t": "She offered me a crown of frost. I said no. For Avery.", "tone": "sincere"}],
-         "sfx": "soft violin"},
-        {"n": 6, "dur": 8, "loc": "main_shelf", "chars": ["avery", "brock"],
-         "keyframe": "Avery touching Brock's cheek",
-         "action": "they lean their foreheads together",
-         "camera": "close up, soft glow",
-         "lines": [{"c": "avery", "t": "For me?", "tone": "touched"}, {"c": "brock", "t": "Always.", "tone": "tender"}],
-         "sfx": "romantic violin swell"},
-        {"n": 7, "dur": 8, "loc": "main_shelf", "chars": ["rico", "avery"],
-         "keyframe": "Rico arriving behind them, leaning on a jar",
-         "action": "Avery turns sharply",
-         "camera": "over-the-shoulder",
-         "lines": [{"c": "rico", "t": "How touching. And how... convenient.", "tone": "suspicious"}],
-         "sfx": "suspense sting"},
-        {"n": 8, "dur": 10, "loc": "main_shelf", "chars": ["brock"],
-         "keyframe": "Brock suddenly serious, frost reflected in his eyes",
-         "action": "Brock grips Avery's hand tightly",
-         "camera": "slow push-in",
-         "lines": [{"c": "brock", "t": "I wasn't released, Avery. I was sent. Queen Pea is coming.", "tone": "grave"}],
-         "sfx": "ominous drone, ice crack"}
-      ],
-      "loop_note": "cliffhanger: Queen Pea is coming"
-    },
-    {
-      "id": "CH-011", "number": 11,
-      "title": "The ketchup wants the CROWN 🍅👑 #shorts",
-      "logline": "Loud ketchup bottle Kev challenges Duchess Dijon for control of the Door Shelf, and the election ends in a tie that only Tilly can break.",
-      "hook_text": "A ketchup challenged the Duchess 👑",
-      "description": "Election day on the Door Shelf. Fridge Hearts, episode 11.",
-      "tags": ["fridge drama", "ketchup", "mustard", "election", "food drama", "ai animation"],
-      "music": "comedic pizzicato",
-      "shots": [
-        {"n": 1, "dur": 8, "loc": "door_shelf", "chars": ["kev", "duchess"],
-         "keyframe": "Kev Ketchup slamming down onto the door shelf, waving his arms",
-         "action": "Duchess's monocle pops out",
-         "camera": "low angle on Kev",
-         "lines": [{"c": "kev", "t": "Ketchup for the people! This door needs a NEW leader!", "tone": "booming"}, {"c": "duchess", "t": "Who let the ketchup in?", "tone": "appalled"}],
-         "sfx": "crowd murmur"},
-        {"n": 2, "dur": 10, "loc": "door_shelf", "chars": ["kev"],
-         "keyframe": "Kev on top of a bottle cap podium rallying cheering condiment jars",
-         "action": "Kev pumps his fist, jars cheer",
-         "camera": "wide rally shot",
-         "lines": [{"c": "kev", "t": "Equal shelf space! Free lids for all! No more mustard monarchy!", "tone": "rallying"}],
-         "sfx": "cheering"},
-        {"n": 3, "dur": 8, "loc": "door_shelf", "chars": ["duchess", "rico"],
-         "keyframe": "Duchess turning to Rico for support",
-         "action": "Rico avoids her eyes",
-         "camera": "two-shot",
-         "lines": [{"c": "duchess", "t": "Rico. Rally the jars.", "tone": "commanding"}, {"c": "rico", "t": "Sorry, Duchess. I'm... undecided.", "tone": "evasive"}],
-         "sfx": "gasp"},
-        {"n": 4, "dur": 10, "loc": "main_shelf", "chars": ["brock", "avery"],
-         "keyframe": "Brock and Avery watching the rally from below",
-         "action": "Avery touches her mustard-concealed spot nervously",
-         "camera": "two-shot",
-         "lines": [{"c": "brock", "t": "Kev's got good slogans.", "tone": "impressed"}, {"c": "avery", "t": "Slogans aren't a plan. And the Duchess knows my secret.", "tone": "anxious"}],
-         "sfx": "distant chanting"},
-        {"n": 5, "dur": 8, "loc": "door_shelf", "chars": ["kev", "duchess"],
-         "keyframe": "Kev and Duchess on opposite bottle cap podiums like a debate",
-         "action": "they lean toward each other",
-         "camera": "debate two-shot",
-         "lines": [{"c": "kev", "t": "What's YOUR plan, Duchess?", "tone": "challenging"}, {"c": "duchess", "t": "Continuity, darling. I've survived nine Clean-Outs.", "tone": "cool"}],
-         "sfx": "debate buzzer"},
-        {"n": 6, "dur": 8, "loc": "main_shelf", "chars": ["milo", "tilly"],
-         "keyframe": "Milo counting votes made of peppercorns into two piles",
-         "action": "Milo places the last peppercorn and gasps",
-         "camera": "top-down on the piles",
-         "lines": [{"c": "milo", "t": "Kev, six. Duchess, six. It's a TIE!", "tone": "shocked"}],
-         "sfx": "dramatic sting"},
-        {"n": 7, "dur": 10, "loc": "main_shelf", "chars": ["avery", "tilly"],
-         "keyframe": "everyone slowly turning to look at Tilly",
-         "action": "Tilly shrinks under all the stares",
-         "camera": "slow push-in on Tilly",
-         "lines": [{"c": "avery", "t": "Tilly hasn't voted.", "tone": "realising"}, {"c": "tilly", "t": "Me? I don't know anything about politics!", "tone": "panicked"}],
-         "sfx": "heartbeat"},
-        {"n": 8, "dur": 8, "loc": "main_shelf", "chars": ["tilly"],
-         "keyframe": "the shadows of Kev and Duchess falling across Tilly",
-         "action": "Tilly gulps",
-         "camera": "high angle",
-         "lines": [{"c": "tilly", "t": "Can I... sleep on it?", "tone": "tiny"}],
-         "sfx": "suspense sting"}
-      ],
-      "loop_note": "cliffhanger: Tilly's deciding vote"
-    },
-    {
-      "id": "CH-012", "number": 12,
-      "title": "The Duchess's DARKEST secret 💛😱 #shorts",
-      "logline": "Tilly absorbs every candidate's flavour and keeps changing her mind, votes for herself, and forces Duchess to confess she has been expired since 2019.",
-      "hook_text": "She's been hiding this since 2019.",
-      "description": "The vote. The confession. Fridge Hearts, episode 12.",
-      "tags": ["fridge drama", "secret", "tofu", "election", "food drama", "ai animation"],
-      "music": "telenovela strings",
-      "shots": [
-        {"n": 1, "dur": 8, "loc": "door_shelf", "chars": ["kev", "tilly"],
-         "keyframe": "Kev giving Tilly a ketchup spa treatment, Tilly turning red",
-         "action": "Tilly's colour shifts from white to red",
-         "camera": "medium shot",
-         "lines": [{"c": "tilly", "t": "Kev makes so much sense!", "tone": "dazzled"}, {"c": "kev", "t": "Ketchup for the people!", "tone": "booming"}],
-         "sfx": "squelch"},
-        {"n": 2, "dur": 8, "loc": "door_shelf", "chars": ["duchess", "tilly"],
-         "keyframe": "Duchess dabbing Tilly with mustard, Tilly turning yellow",
-         "action": "Tilly's colour shifts to golden yellow",
-         "camera": "medium shot",
-         "lines": [{"c": "tilly", "t": "The Duchess is so... wise!", "tone": "dazzled"}],
-         "sfx": "shimmer"},
-        {"n": 3, "dur": 10, "loc": "crisper", "chars": ["brock", "tilly"],
-         "keyframe": "Brock steaming Tilly in the crisper sauna, Tilly turning green",
-         "action": "Tilly does a squat beside Brock",
-         "camera": "medium shot",
-         "lines": [{"c": "tilly", "t": "Maybe we should all just... exercise?", "tone": "inspired"}, {"c": "brock", "t": "Now you're talking!", "tone": "proud"}],
-         "sfx": "steam hiss"},
-        {"n": 4, "dur": 8, "loc": "main_shelf", "chars": ["avery", "tilly"],
-         "keyframe": "rainbow-streaked Tilly with Avery shaking her",
-         "action": "Tilly's colours flicker",
-         "camera": "close two-shot",
-         "lines": [{"c": "avery", "t": "Stop absorbing everyone! What do YOU think?", "tone": "frustrated"}, {"c": "tilly", "t": "I don't know! I'm tofu!", "tone": "wailing"}],
-         "sfx": "colour-change chime"},
-        {"n": 5, "dur": 10, "loc": "door_shelf", "chars": ["tilly", "kev"],
-         "keyframe": "Tilly, back to plain white, standing at a bottle cap ballot box",
-         "action": "she drops in her peppercorn vote",
-         "camera": "low angle",
-         "lines": [{"c": "tilly", "t": "I vote... for me.", "tone": "surprisingly firm"}, {"c": "kev", "t": "You can't vote for YOURSELF!", "tone": "outraged"}],
-         "sfx": "peppercorn plink, crowd gasp"},
-        {"n": 6, "dur": 8, "loc": "door_shelf", "chars": ["rico", "tilly"],
-         "keyframe": "Rico slowly clapping",
-         "action": "Rico tips his cap to Tilly",
-         "camera": "medium shot",
-         "lines": [{"c": "rico", "t": "Bold. Rebellious. I'm switching my vote to Tilly.", "tone": "admiring"}],
-         "sfx": "slow clap"},
-        {"n": 7, "dur": 10, "loc": "door_shelf", "chars": ["duchess", "kev"],
-         "keyframe": "Duchess rising, cornered, the jars falling silent",
-         "action": "Duchess raises a hand for silence",
-         "camera": "low angle",
-         "lines": [{"c": "duchess", "t": "Enough! You want the truth? Here it is.", "tone": "thunderous"}, {"c": "kev", "t": "Oh, here we go.", "tone": "sarcastic"}],
-         "sfx": "thunder"},
-        {"n": 8, "dur": 10, "loc": "door_shelf", "chars": ["duchess"],
-         "keyframe": "Duchess slowly turning her jar to reveal a faded old date stamp on her back",
-         "action": "everyone gasps; Duchess holds her chin high",
-         "camera": "slow push-in",
-         "lines": [{"c": "duchess", "t": "I expired in 2019. I've been expired for years... and nobody noticed.", "tone": "proud, trembling"}],
-         "sfx": "telenovela strings, mass gasp"}
-      ],
-      "loop_note": "cliffhanger: Duchess's confession"
-    },
-    {
-      "id": "CH-013", "number": 13,
-      "title": "The ancient pickle knows EVERYTHING 🥒 #shorts",
-      "logline": "Desperate to stop browning, Avery journeys into the Dark Corner to consult Old Pickle, who offers a costly cure and hints at the Duchess's lost love.",
-      "hook_text": "She went where no one goes: the Dark Corner.",
-      "description": "Avery seeks a cure. Fridge Hearts, episode 13.",
-      "tags": ["fridge drama", "pickle", "avocado", "mystery", "food drama", "ai animation"],
-      "music": "ominous drone",
-      "guests": {
-        "old_pickle": {"name": "Old Pickle", "ref_prompt": "anthropomorphic very old wrinkled green pickle in a cloudy glass jar, long beard made of dill fronds, squinting wise eyes, small cartoon arms, hermit sage", "voice": "creaky, wheezy, ancient male"}
+     "n": 4,
+     "dur": 10,
+     "loc": "door_shelf",
+     "chars": [
+      "duchess",
+      "rico"
+     ],
+     "keyframe": "Duchess Dijon on the door shelf like a throne, Rico leaning against a jar beside her",
+     "action": "Duchess adjusts her monocle, Rico tilts his cap",
+     "camera": "low angle on the door shelf",
+     "lines": [
+      {
+       "c": "duchess",
+       "t": "Another newcomer. How quaint. Tell her the rules, Rico.",
+       "tone": "aristocratic"
       },
-      "shots": [
-        {"n": 1, "dur": 8, "loc": "main_shelf", "chars": ["avery"],
-         "keyframe": "Avery staring at her reflection in a spoon, mustard flaking off her brown spot",
-         "action": "a flake of mustard falls away",
-         "camera": "close up through the spoon reflection",
-         "lines": [{"c": "avery", "t": "The mustard's wearing off. I need a real cure.", "tone": "desperate"}],
-         "sfx": "tragic piano"},
-        {"n": 2, "dur": 10, "loc": "main_shelf", "chars": ["tilly", "avery"],
-         "keyframe": "Tilly whispering to Avery, both looking toward the shadowy back of the fridge",
-         "action": "Avery stands up resolutely",
-         "camera": "two-shot",
-         "lines": [{"c": "tilly", "t": "Lenny says someone in the Dark Corner knows everything.", "tone": "whisper"}, {"c": "avery", "t": "Then that's where I'm going.", "tone": "determined"}],
-         "sfx": "suspense strings"},
-        {"n": 3, "dur": 8, "loc": "dark_corner", "chars": ["avery", "tilly"],
-         "keyframe": "Avery and Tilly creeping through the flickering shadows past forgotten jars",
-         "action": "the light flickers, they cling to each other",
-         "camera": "tracking shot",
-         "lines": [{"c": "avery", "t": "It smells like... history.", "tone": "nervous"}],
-         "sfx": "flickering buzz, drip"},
-        {"n": 4, "dur": 10, "loc": "dark_corner", "chars": ["old_pickle", "avery"],
-         "keyframe": "Old Pickle emerging from a cloudy jar, dill beard swaying",
-         "action": "Old Pickle squints at them",
-         "camera": "slow reveal",
-         "lines": [{"c": "old_pickle", "t": "Visitors. Haven't had those since the fridge magnet fell.", "tone": "creaky"}],
-         "sfx": "jar lid creak"},
-        {"n": 5, "dur": 8, "loc": "dark_corner", "chars": ["avery", "old_pickle"],
-         "keyframe": "Avery kneeling before the Old Pickle's jar",
-         "action": "Old Pickle chuckles",
-         "camera": "two-shot",
-         "lines": [{"c": "avery", "t": "I need to stop browning. Forever.", "tone": "pleading"}, {"c": "old_pickle", "t": "Easy. Brine. Sixty years in a jar.", "tone": "wheezy"}],
-         "sfx": "bubbling brine"},
-        {"n": 6, "dur": 8, "loc": "dark_corner", "chars": ["avery", "old_pickle"],
-         "keyframe": "Avery recoiling, Old Pickle raising a bony finger",
-         "action": "Old Pickle leans closer",
-         "camera": "close two-shot",
-         "lines": [{"c": "avery", "t": "I am NOT becoming a pickle.", "tone": "horrified"}, {"c": "old_pickle", "t": "Then there's lime. But lime comes at a cost.", "tone": "cryptic"}],
-         "sfx": "ominous chord"},
-        {"n": 7, "dur": 10, "loc": "dark_corner", "chars": ["old_pickle", "tilly"],
-         "keyframe": "Old Pickle squinting at Tilly with a knowing smile",
-         "action": "Tilly leans in",
-         "camera": "two-shot",
-         "lines": [{"c": "old_pickle", "t": "You live near the Duchess? Ha. She wasn't always alone up there.", "tone": "knowing"}, {"c": "tilly", "t": "What do you mean?", "tone": "curious"}],
-         "sfx": "suspense drone"},
-        {"n": 8, "dur": 8, "loc": "dark_corner", "chars": ["old_pickle"],
-         "keyframe": "extreme close up on Old Pickle's eye through the cloudy glass",
-         "action": "the light flickers out",
-         "camera": "slow push-in",
-         "lines": [{"c": "old_pickle", "t": "Ask her... about Lady Mayo.", "tone": "whisper"}],
-         "sfx": "compressor rumble, sting"}
-      ],
-      "loop_note": "cliffhanger: who is Lady Mayo?"
+      {
+       "c": "rico",
+       "t": "Rule one. Never trust the Light.",
+       "tone": "smouldering"
+      }
+     ],
+     "sfx": "condensation drip"
     },
     {
-      "id": "CH-014", "number": 14,
-      "title": "The love the Duchess lost 💔 #shorts",
-      "logline": "The Duchess finally tells the tragic story of Lady Mayo, her partner who was Chosen in 2019 and never returned, just as Lenny unearths Mayo's lost lid.",
-      "hook_text": "Her heartbreak has a name: Lady Mayo.",
-      "description": "The Duchess's past. Fridge Hearts, episode 14.",
-      "tags": ["fridge drama", "heartbreak", "mustard", "mayo", "food drama", "ai animation"],
-      "music": "tragic piano",
-      "guests": {
-        "lady_mayo": {"name": "Lady Mayo", "ref_prompt": "anthropomorphic elegant glass jar of creamy white mayonnaise, white lid with a pearl ribbon tied in a bow, gentle warm eyes, plain label with no text, small cartoon arms, graceful lady", "voice": "soft, warm, elegant adult female"}
+     "n": 5,
+     "dur": 8,
+     "loc": "main_shelf",
+     "chars": [
+      "milo",
+      "tilly"
+     ],
+     "keyframe": "Milo trembling and sweating condensation next to Tilly",
+     "action": "Milo grabs Tilly by the shoulders",
+     "camera": "close two-shot",
+     "lines": [
+      {
+       "c": "milo",
+       "t": "Rule two: check your date! I have FOUR DAYS!",
+       "tone": "panicked"
       },
-      "shots": [
-        {"n": 1, "dur": 8, "loc": "door_shelf", "chars": ["avery", "duchess"],
-         "keyframe": "Avery facing Duchess on the door shelf",
-         "action": "Duchess's monocle drops and dangles",
-         "camera": "two-shot",
-         "lines": [{"c": "avery", "t": "Duchess. Who is Lady Mayo?", "tone": "careful"}],
-         "sfx": "monocle clink"},
-        {"n": 2, "dur": 10, "loc": "door_shelf", "chars": ["duchess"],
-         "keyframe": "Duchess looking away, the light softening",
-         "action": "the frame slowly fades to sepia",
-         "camera": "slow push-in",
-         "lines": [{"c": "duchess", "t": "Sit, darling. It was 2019. The fridge was new. And so was I.", "tone": "wistful"}],
-         "sfx": "music box"},
-        {"n": 3, "dur": 10, "loc": "door_shelf", "chars": ["duchess", "lady_mayo"],
-         "keyframe": "sepia flashback: a younger, shinier Duchess laughing beside Lady Mayo on the door shelf",
-         "action": "they lean their lids together",
-         "camera": "soft-focus sepia two-shot",
-         "lines": [{"c": "lady_mayo", "t": "Darling, we'll rule this door together. Forever.", "tone": "loving"}, {"c": "duchess", "t": "Forever.", "tone": "young, joyful"}],
-         "sfx": "romantic violin"},
-        {"n": 4, "dur": 8, "loc": "fridge_open", "chars": ["lady_mayo", "the_hand"],
-         "keyframe": "sepia: light flooding in, the Hand lifting Lady Mayo away",
-         "action": "Lady Mayo waves back toward the door shelf",
-         "camera": "sepia low angle",
-         "lines": [{"c": "lady_mayo", "t": "I'll come back, darling. I promise.", "tone": "tender"}],
-         "sfx": "door whoosh, echo"},
-        {"n": 5, "dur": 10, "loc": "door_shelf", "chars": ["duchess", "avery"],
-         "keyframe": "back to present colour, Duchess beside an empty circular spot on the shelf",
-         "action": "Duchess touches the empty space",
-         "camera": "two-shot",
-         "lines": [{"c": "duchess", "t": "She never came back. I've kept her spot empty for seven years.", "tone": "heartbroken"}, {"c": "avery", "t": "That's why you never leave.", "tone": "realising"}],
-         "sfx": "tragic piano"},
-        {"n": 6, "dur": 8, "loc": "door_shelf", "chars": ["avery", "duchess"],
-         "keyframe": "Avery resting her hand on Duchess's lid",
-         "action": "Duchess sniffs and straightens up",
-         "camera": "close two-shot",
-         "lines": [{"c": "avery", "t": "I'm so sorry.", "tone": "gentle"}, {"c": "duchess", "t": "Don't be. Pity browns you faster.", "tone": "brave"}],
-         "sfx": "soft violin"},
-        {"n": 7, "dur": 8, "loc": "dark_corner", "chars": ["lenny", "tilly"],
-         "keyframe": "Lenny dragging something out from deep shadows, Tilly watching",
-         "action": "Lenny pulls an object into the light",
-         "camera": "medium shot",
-         "lines": [{"c": "tilly", "t": "Lenny, what's that?", "tone": "curious"}],
-         "sfx": "scraping"},
-        {"n": 8, "dur": 10, "loc": "dark_corner", "chars": ["lenny"],
-         "keyframe": "Lenny holding up an old white jar lid tied with a faded pearl ribbon",
-         "action": "the ribbon sways in the light",
-         "camera": "slow push-in",
-         "lines": [{"c": "lenny", "t": "Found this... in the back. It belonged to a Lady.", "tone": "whisper"}],
-         "sfx": "music box, suspense sting"}
-      ],
-      "loop_note": "cliffhanger: Lady Mayo's lid"
+      {
+       "c": "tilly",
+       "t": "Is that... bad?",
+       "tone": "worried"
+      }
+     ],
+     "sfx": "heartbeat"
     },
     {
-      "id": "CH-015", "number": 15,
-      "title": "A love triangle in the crisper drawer 🥦🥑🌶️ #shorts",
-      "logline": "Brock takes Avery on a romantic date in the crisper while the gossiping Lemon Twins spot jealous Rico watching, and Rico declares war.",
-      "hook_text": "Their date had an audience 👀",
-      "description": "Love is in the crisper. So is war. Fridge Hearts, episode 15.",
-      "tags": ["fridge drama", "love triangle", "romance", "jealousy", "food drama", "ai animation"],
-      "music": "romantic violin",
-      "guests": {
-        "lemon_lou": {"name": "Lemon Lou", "ref_prompt": "anthropomorphic bright yellow lemon woman, gossipy wide eyes, tiny green leaf on top like a bow, small cartoon arms, leaning conspiratorially", "voice": "fast, high, gossipy female"},
-        "lemon_lu": {"name": "Lemon Lu", "ref_prompt": "anthropomorphic bright yellow lemon woman identical to her twin but with a leaf tilted the other way, gossipy wide eyes, small cartoon arms", "voice": "fast, high, gossipy female, slightly lower"}
+     "n": 6,
+     "dur": 10,
+     "loc": "dark_corner",
+     "chars": [
+      "lenny",
+      "tilly"
+     ],
+     "keyframe": "Tilly wandering into the dark corner, two narrow eyes opening on a foggy container lid",
+     "action": "Lenny's eyes glow, Tilly gulps and steps back",
+     "camera": "slow push-in on Lenny",
+     "lines": [
+      {
+       "c": "lenny",
+       "t": "Some who are Chosen never come back. Some come back... different.",
+       "tone": "gravelly whisper"
+      }
+     ],
+     "sfx": "ominous drone"
+    },
+    {
+     "n": 7,
+     "dur": 8,
+     "loc": "fridge_open",
+     "chars": [
+      "avery",
+      "the_hand"
+     ],
+     "keyframe": "the door flies open, white light floods in, Avery striking her best pose as the Hand reaches toward her",
+     "action": "the Hand closes around Avery and lifts her up into the light",
+     "camera": "low angle hero shot",
+     "lines": [
+      {
+       "c": "avery",
+       "t": "Finally. My moment.",
+       "tone": "triumphant"
+      }
+     ],
+     "sfx": "choir swell"
+    },
+    {
+     "n": 8,
+     "dur": 8,
+     "loc": "main_shelf",
+     "chars": [
+      "avery",
+      "tilly"
+     ],
+     "keyframe": "the Hand placing Avery back on the shelf, door closing, Avery frozen in shock",
+     "action": "Avery stares into space; Tilly leans in",
+     "camera": "dramatic crash zoom into an extreme close-up, then hold on the face",
+     "lines": [
+      {
+       "c": "avery",
+       "t": "He squeezed me. And put me BACK.",
+       "tone": "devastated"
       },
-      "shots": [
-        {"n": 1, "dur": 8, "loc": "crisper", "chars": ["brock", "avery"],
-         "keyframe": "the crisper decorated with sparkling condensation like fairy lights, Brock presenting it to Avery",
-         "action": "Avery gasps, hands to her face",
-         "camera": "wide romantic shot",
-         "lines": [{"c": "brock", "t": "I booked the crisper. Just us.", "tone": "shy"}, {"c": "avery", "t": "Brock... it's beautiful.", "tone": "touched"}],
-         "sfx": "twinkle, romantic violin"},
-        {"n": 2, "dur": 10, "loc": "crisper", "chars": ["avery", "brock"],
-         "keyframe": "Avery and Brock lounging in the mist side by side",
-         "action": "Avery turns to Brock",
-         "camera": "close two-shot",
-         "lines": [{"c": "avery", "t": "Do you ever worry about being Chosen?", "tone": "soft"}, {"c": "brock", "t": "Only if I'm Chosen without you.", "tone": "sincere"}],
-         "sfx": "soft violin"},
-        {"n": 3, "dur": 8, "loc": "crisper", "chars": ["lemon_lou", "lemon_lu"],
-         "keyframe": "the Lemon Twins peeking over a lettuce leaf",
-         "action": "they grip each other excitedly",
-         "camera": "over the lettuce",
-         "lines": [{"c": "lemon_lou", "t": "Are you seeing this?", "tone": "gossipy"}, {"c": "lemon_lu", "t": "Seeing it AND squeezing it!", "tone": "giddy"}],
-         "sfx": "giggles"},
-        {"n": 4, "dur": 10, "loc": "crisper", "chars": ["avery", "brock"],
-         "keyframe": "Avery resting her head on Brock's shoulder",
-         "action": "Brock gently tucks a leaf behind her ear",
-         "camera": "slow romantic push-in",
-         "lines": [{"c": "avery", "t": "When I'm with you, I forget about the brown.", "tone": "dreamy"}, {"c": "brock", "t": "What brown? You're perfect.", "tone": "tender"}],
-         "sfx": "romantic violin swell"},
-        {"n": 5, "dur": 8, "loc": "door_shelf", "chars": ["rico"],
-         "keyframe": "Rico watching through a gap in the shelf, trembling with emotion",
-         "action": "Rico clutches a scrap of napkin covered in scribbles",
-         "camera": "close up through the gap",
-         "lines": [{"c": "rico", "t": "Perfect? I wrote her forty poems.", "tone": "bitter"}],
-         "sfx": "paper crumple"},
-        {"n": 6, "dur": 8, "loc": "crisper", "chars": ["lemon_lou", "lemon_lu"],
-         "keyframe": "the Lemon Twins spinning around to spot Rico in the distance",
-         "action": "they gasp in unison",
-         "camera": "whip pan",
-         "lines": [{"c": "lemon_lou", "t": "Rico's watching!", "tone": "scandalised"}, {"c": "lemon_lu", "t": "Love triangle! Zesty!", "tone": "delighted"}],
-         "sfx": "gasp, sting"},
-        {"n": 7, "dur": 10, "loc": "door_shelf", "chars": ["duchess", "rico"],
-         "keyframe": "Duchess appearing beside Rico on the door shelf",
-         "action": "Rico turns away from her",
-         "camera": "two-shot",
-         "lines": [{"c": "duchess", "t": "Let it go, Rico. Bitterness doesn't suit a sauce.", "tone": "wise"}, {"c": "rico", "t": "I'm not bitter. I'm HOT.", "tone": "fiery"}],
-         "sfx": "sizzle"},
-        {"n": 8, "dur": 8, "loc": "door_shelf", "chars": ["rico"],
-         "keyframe": "Rico twisting his cap tight, eyes burning red",
-         "action": "steam rises from his bottle",
-         "camera": "slow push-in",
-         "lines": [{"c": "rico", "t": "If the broccoli wants a war... he's got one.", "tone": "menacing"}],
-         "sfx": "flame whoosh, sting"}
-      ],
-      "loop_note": "cliffhanger: Rico declares war"
+      {
+       "c": "tilly",
+       "t": "What does that mean?",
+       "tone": "whisper"
+      }
+     ],
+     "sfx": "door thud, suspense sting"
     }
-  ]
+   ],
+   "loop_note": "cliffhanger: what does being put back mean?"
+  },
+  {
+   "id": "CH-002",
+   "number": 2,
+   "title": "She ripened overnight... and regretted it 🥑🍌 #shorts",
+   "logline": "Humiliated for being unripe, Avery spends a forbidden night in Banana Bianca's paper bag and wakes up gorgeous, with one tiny brown spot.",
+   "hook_text": "She wasn't ripe enough. So she cheated.",
+   "description": "Avery will do anything to be Chosen. Fridge Hearts, episode 2.",
+   "tags": [
+    "fridge drama",
+    "avocado",
+    "food drama",
+    "soap opera",
+    "banana",
+    "ai animation"
+   ],
+   "music": "romantic violin",
+   "guests": {
+    "bianca": {
+     "name": "Banana Bianca",
+     "ref_prompt": "anthropomorphic ripe yellow banana woman with a few freckle spots, lounging in a brown paper bag like a spa robe, cucumber slices on her eyes, small cartoon arms, glamorous older diva",
+     "voice": "husky, sultry older female"
+    }
+   },
+   "shots": [
+    {
+     "n": 1,
+     "dur": 10,
+     "loc": "main_shelf",
+     "chars": [
+      "avery",
+      "brock"
+     ],
+     "keyframe": "Avery slumped dramatically against a jar, Brock beside her offering comfort",
+     "action": "Avery throws her arm over her face, Brock pats her back",
+     "camera": "medium two-shot",
+     "lines": [
+      {
+       "c": "avery",
+       "t": "He put me back. Do you know what that means? I am NOT. RIPE.",
+       "tone": "anguished"
+      },
+      {
+       "c": "brock",
+       "t": "Hey. Ripe is a journey.",
+       "tone": "gentle"
+      }
+     ],
+     "sfx": "tragic piano note"
+    },
+    {
+     "n": 2,
+     "dur": 8,
+     "loc": "door_shelf",
+     "chars": [
+      "duchess",
+      "rico"
+     ],
+     "keyframe": "Duchess sipping from a bottle cap like a teacup, Rico gazing down at the main shelf",
+     "action": "Duchess sips, Rico sighs",
+     "camera": "medium shot",
+     "lines": [
+      {
+       "c": "duchess",
+       "t": "Rejected by the Hand. In public. Delicious.",
+       "tone": "gossipy"
+      },
+      {
+       "c": "rico",
+       "t": "I would never reject her.",
+       "tone": "longing"
+      }
+     ],
+     "sfx": "sip"
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "main_shelf",
+     "chars": [
+      "tilly",
+      "avery"
+     ],
+     "keyframe": "Tilly leaning in to Avery, Avery's eyes widening with an idea",
+     "action": "Avery grabs Tilly's arm",
+     "camera": "close two-shot",
+     "lines": [
+      {
+       "c": "tilly",
+       "t": "Is there a way to ripen faster?",
+       "tone": "innocent"
+      },
+      {
+       "c": "avery",
+       "t": "There is one way. Forbidden.",
+       "tone": "hushed"
+      }
+     ],
+     "sfx": "suspense sting"
+    },
+    {
+     "n": 4,
+     "dur": 10,
+     "loc": "crisper",
+     "chars": [
+      "bianca",
+      "avery"
+     ],
+     "keyframe": "Banana Bianca lounging inside a paper bag in the misty crisper, Avery approaching",
+     "action": "Bianca lifts one cucumber slice off her eye",
+     "camera": "slow reveal through the mist",
+     "lines": [
+      {
+       "c": "bianca",
+       "t": "One night in my bag, darling, and you'll wake up a whole new fruit.",
+       "tone": "sultry"
+      },
+      {
+       "c": "avery",
+       "t": "Do it.",
+       "tone": "determined"
+      }
+     ],
+     "sfx": "spa chime"
+    },
+    {
+     "n": 5,
+     "dur": 8,
+     "loc": "crisper",
+     "chars": [
+      "bianca",
+      "avery"
+     ],
+     "keyframe": "Avery stepping into the paper bag beside Bianca",
+     "action": "the paper bag begins to fold closed around them",
+     "camera": "medium shot",
+     "lines": [
+      {
+       "c": "bianca",
+       "t": "Fair warning. Ripening is irreversible.",
+       "tone": "serious"
+      },
+      {
+       "c": "avery",
+       "t": "I've waited my whole life.",
+       "tone": "resolute"
+      }
+     ],
+     "sfx": "paper rustle"
+    },
+    {
+     "n": 6,
+     "dur": 8,
+     "loc": "crisper",
+     "chars": [
+      "brock",
+      "avery"
+     ],
+     "keyframe": "night, the closed paper bag glowing warmly, Brock outside it looking worried",
+     "action": "Brock knocks on the bag",
+     "camera": "medium shot",
+     "lines": [
+      {
+       "c": "brock",
+       "t": "Avery? You okay in there?",
+       "tone": "worried"
+      },
+      {
+       "c": "avery",
+       "t": "Never better!",
+       "tone": "muffled, strained"
+      }
+     ],
+     "sfx": "paper creak, ticking clock"
+    },
+    {
+     "n": 7,
+     "dur": 10,
+     "loc": "main_shelf",
+     "chars": [
+      "avery",
+      "tilly"
+     ],
+     "keyframe": "morning light, Avery stepping onto the main shelf glowing, glossy and gorgeous, everyone gasping",
+     "action": "Avery poses as sparkles drift around her",
+     "camera": "slow-motion hero walk",
+     "lines": [
+      {
+       "c": "avery",
+       "t": "Behold. Peak. Ripeness.",
+       "tone": "triumphant"
+      },
+      {
+       "c": "tilly",
+       "t": "Wow...",
+       "tone": "awed"
+      }
+     ],
+     "sfx": "choir, sparkle"
+    },
+    {
+     "n": 8,
+     "dur": 8,
+     "loc": "main_shelf",
+     "chars": [
+      "tilly",
+      "avery"
+     ],
+     "keyframe": "Tilly pointing at Avery's cheek, extreme close up on a tiny brown spot",
+     "action": "Avery slowly touches the spot, her face falling",
+     "camera": "dramatic crash zoom into an extreme close-up, then hold on the face",
+     "lines": [
+      {
+       "c": "tilly",
+       "t": "Avery... what's that?",
+       "tone": "small"
+      },
+      {
+       "c": "avery",
+       "t": "No. No, no, no.",
+       "tone": "horrified"
+      }
+     ],
+     "sfx": "dramatic sting"
+    }
+   ],
+   "loop_note": "cliffhanger: the brown spot"
+  },
+  {
+   "id": "CH-003",
+   "number": 3,
+   "title": "She made a deal with the Duchess 💛 #shorts",
+   "logline": "Avery hides her brown spot with Duchess Dijon's mustard, but the favour comes with a debt the Duchess will one day collect.",
+   "hook_text": "Never borrow from the Duchess.",
+   "description": "Every jar on this door owes her something. Fridge Hearts, episode 3.",
+   "tags": [
+    "fridge drama",
+    "mustard",
+    "avocado",
+    "soap opera",
+    "food drama",
+    "ai animation"
+   ],
+   "music": "villain organ",
+   "shots": [
+    {
+     "n": 1,
+     "dur": 8,
+     "loc": "main_shelf",
+     "chars": [
+      "avery",
+      "tilly"
+     ],
+     "keyframe": "Avery hiding half her face behind a lettuce leaf, glaring at Tilly",
+     "action": "Avery pulls Tilly close",
+     "camera": "close two-shot",
+     "lines": [
+      {
+       "c": "avery",
+       "t": "Nobody sees this spot. Nobody. Tilly, you saw nothing.",
+       "tone": "intense whisper"
+      },
+      {
+       "c": "tilly",
+       "t": "Saw what?",
+       "tone": "nervous"
+      }
+     ],
+     "sfx": "suspense drone"
+    },
+    {
+     "n": 2,
+     "dur": 10,
+     "loc": "door_shelf",
+     "chars": [
+      "avery",
+      "duchess"
+     ],
+     "keyframe": "Avery climbing onto the golden door shelf, Duchess waiting regally",
+     "action": "Avery bows her head, Duchess's monocle glints",
+     "camera": "low angle on Duchess",
+     "lines": [
+      {
+       "c": "avery",
+       "t": "Duchess. I need your... mustard.",
+       "tone": "humbled"
+      },
+      {
+       "c": "duchess",
+       "t": "My mustard isn't for sale, darling. It's for favours.",
+       "tone": "silky"
+      }
+     ],
+     "sfx": "organ chord"
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "door_shelf",
+     "chars": [
+      "duchess",
+      "avery"
+     ],
+     "keyframe": "Duchess dabbing a dot of golden mustard onto Avery's brown spot like concealer",
+     "action": "the spot disappears under a golden glow",
+     "camera": "close up on Avery's cheek",
+     "lines": [
+      {
+       "c": "duchess",
+       "t": "There. Flawless.",
+       "tone": "satisfied"
+      },
+      {
+       "c": "avery",
+       "t": "It stings.",
+       "tone": "wincing"
+      },
+      {
+       "c": "duchess",
+       "t": "Beauty does.",
+       "tone": "cold"
+      }
+     ],
+     "sfx": "shimmer"
+    },
+    {
+     "n": 4,
+     "dur": 8,
+     "loc": "main_shelf",
+     "chars": [
+      "brock",
+      "avery"
+     ],
+     "keyframe": "Brock gazing at a glowing Avery, then sniffing the air",
+     "action": "Brock leans closer and sniffs",
+     "camera": "medium two-shot",
+     "lines": [
+      {
+       "c": "brock",
+       "t": "You look amazing. Do you smell... tangy?",
+       "tone": "confused"
+      },
+      {
+       "c": "avery",
+       "t": "It's a new perfume.",
+       "tone": "quick"
+      }
+     ],
+     "sfx": "sniff"
+    },
+    {
+     "n": 5,
+     "dur": 10,
+     "loc": "main_shelf",
+     "chars": [
+      "rico",
+      "avery"
+     ],
+     "keyframe": "Rico sliding down from the door shelf to Avery's side",
+     "action": "Rico circles her slowly",
+     "camera": "orbiting shot",
+     "lines": [
+      {
+       "c": "rico",
+       "t": "Funny. Your glow smells like the Door Shelf. Like... aristocracy.",
+       "tone": "knowing"
+      },
+      {
+       "c": "avery",
+       "t": "Mind your own bottle, Rico.",
+       "tone": "sharp"
+      }
+     ],
+     "sfx": "tension strings"
+    },
+    {
+     "n": 6,
+     "dur": 8,
+     "loc": "dark_corner",
+     "chars": [
+      "tilly",
+      "lenny"
+     ],
+     "keyframe": "Tilly crouched beside Lenny in the shadows",
+     "action": "Lenny's eyes narrow",
+     "camera": "medium shot",
+     "lines": [
+      {
+       "c": "tilly",
+       "t": "Avery made a deal with the Duchess.",
+       "tone": "worried"
+      },
+      {
+       "c": "lenny",
+       "t": "Then she belongs to the Door now.",
+       "tone": "ominous"
+      }
+     ],
+     "sfx": "ominous drone"
+    },
+    {
+     "n": 7,
+     "dur": 10,
+     "loc": "door_shelf",
+     "chars": [
+      "avery",
+      "duchess"
+     ],
+     "keyframe": "Avery returning to the door shelf, Duchess not looking up",
+     "action": "Duchess slowly turns her jar to face Avery",
+     "camera": "two-shot",
+     "lines": [
+      {
+       "c": "avery",
+       "t": "What do I owe you?",
+       "tone": "nervous"
+      },
+      {
+       "c": "duchess",
+       "t": "Nothing, darling. Yet.",
+       "tone": "smiling"
+      }
+     ],
+     "sfx": "clock tick"
+    },
+    {
+     "n": 8,
+     "dur": 8,
+     "loc": "door_shelf",
+     "chars": [
+      "duchess"
+     ],
+     "keyframe": "extreme close up on Duchess's monocle reflecting Avery",
+     "action": "Duchess smiles slowly",
+     "camera": "dramatic crash zoom into an extreme close-up, then hold on the face",
+     "lines": [
+      {
+       "c": "duchess",
+       "t": "Every jar on this door owes me something. Now, so do you.",
+       "tone": "menacing"
+      }
+     ],
+     "sfx": "villain organ sting"
+    }
+   ],
+   "loop_note": "cliffhanger: the debt"
+  },
+  {
+   "id": "CH-004",
+   "number": 4,
+   "title": "His expiry date came... and he SURVIVED 🥛 #shorts",
+   "logline": "Anxious milk carton Milo throws his own farewell party on his last day, gets sniffed by the Hand, and is put back, convincing himself he's immortal.",
+   "hook_text": "Last day before his expiry date 🥛",
+   "description": "Milo doesn't have long. Or does he? Fridge Hearts, episode 4.",
+   "tags": [
+    "fridge drama",
+    "milk",
+    "expiry date",
+    "soap opera",
+    "food drama",
+    "ai animation"
+   ],
+   "music": "tragic piano",
+   "shots": [
+    {
+     "n": 1,
+     "dur": 8,
+     "loc": "main_shelf",
+     "chars": [
+      "milo",
+      "tilly"
+     ],
+     "keyframe": "Milo pacing the shelf, sweating condensation, Tilly watching",
+     "action": "Milo grabs his own spout in panic",
+     "camera": "handheld medium shot",
+     "lines": [
+      {
+       "c": "milo",
+       "t": "It's my last day! I'm in my final chapter!",
+       "tone": "hysterical"
+      },
+      {
+       "c": "tilly",
+       "t": "What happens after?",
+       "tone": "innocent"
+      }
+     ],
+     "sfx": "heartbeat"
+    },
+    {
+     "n": 2,
+     "dur": 8,
+     "loc": "main_shelf",
+     "chars": [
+      "milo",
+      "tilly"
+     ],
+     "keyframe": "Milo dictating to Tilly, who writes with a crumb on a napkin",
+     "action": "Milo gestures grandly",
+     "camera": "medium shot",
+     "lines": [
+      {
+       "c": "milo",
+       "t": "My cold spot goes to Brock. My lid... to science.",
+       "tone": "solemn"
+      }
+     ],
+     "sfx": "tragic piano"
+    },
+    {
+     "n": 3,
+     "dur": 10,
+     "loc": "butter_vip",
+     "chars": [
+      "milo",
+      "brock"
+     ],
+     "keyframe": "a farewell party in the butter compartment, tiny party hats, string of bottle caps as bunting",
+     "action": "Brock lifts Milo onto a butter dish stage",
+     "camera": "wide party shot",
+     "lines": [
+      {
+       "c": "brock",
+       "t": "Speech! Speech!",
+       "tone": "cheering"
+      },
+      {
+       "c": "milo",
+       "t": "You were all... mostly fine. I'll miss the hum.",
+       "tone": "teary"
+      }
+     ],
+     "sfx": "party noise, sniffles"
+    },
+    {
+     "n": 4,
+     "dur": 8,
+     "loc": "butter_vip",
+     "chars": [
+      "duchess",
+      "milo"
+     ],
+     "keyframe": "Duchess raising a bottle cap like a champagne glass",
+     "action": "everyone raises their caps",
+     "camera": "medium shot",
+     "lines": [
+      {
+       "c": "duchess",
+       "t": "To Milo. Gone too soon. Well... exactly on schedule.",
+       "tone": "dry"
+      }
+     ],
+     "sfx": "glass clinks"
+    },
+    {
+     "n": 5,
+     "dur": 10,
+     "loc": "fridge_open",
+     "chars": [
+      "milo",
+      "the_hand"
+     ],
+     "keyframe": "the door bursts open, light floods in, the Hand grabbing Milo",
+     "action": "Milo is lifted up into the blinding light, flailing",
+     "camera": "low angle",
+     "lines": [
+      {
+       "c": "milo",
+       "t": "This is it! Tell my story! Make it dramatic!",
+       "tone": "screaming"
+      }
+     ],
+     "sfx": "door whoosh, choir"
+    },
+    {
+     "n": 6,
+     "dur": 8,
+     "loc": "fridge_open",
+     "chars": [
+      "milo",
+      "the_hand"
+     ],
+     "keyframe": "Milo tilted sideways in the Hand in the bright light",
+     "action": "a loud sniffing sound; Milo shrinks in fear",
+     "camera": "close up on Milo",
+     "lines": [
+      {
+       "c": "milo",
+       "t": "Is he... smelling me?",
+       "tone": "terrified whisper"
+      }
+     ],
+     "sfx": "giant sniff"
+    },
+    {
+     "n": 7,
+     "dur": 8,
+     "loc": "main_shelf",
+     "chars": [
+      "milo",
+      "tilly"
+     ],
+     "keyframe": "Milo placed back on the shelf, door closing, Tilly rushing to him",
+     "action": "Tilly hugs Milo, who stares blankly",
+     "camera": "medium two-shot",
+     "lines": [
+      {
+       "c": "tilly",
+       "t": "You came back!",
+       "tone": "overjoyed"
+      },
+      {
+       "c": "milo",
+       "t": "He smelled me. And put me back.",
+       "tone": "stunned"
+      }
+     ],
+     "sfx": "door thud"
+    },
+    {
+     "n": 8,
+     "dur": 10,
+     "loc": "main_shelf",
+     "chars": [
+      "milo"
+     ],
+     "keyframe": "Milo slowly rising tall, dramatic backlight behind him",
+     "action": "Milo raises his arms like a god",
+     "camera": "dramatic crash zoom into an extreme close-up, then hold on the face",
+     "lines": [
+      {
+       "c": "milo",
+       "t": "Past my date. Still good. Do you know what this means? I'm... IMMORTAL.",
+       "tone": "awed, growing"
+      }
+     ],
+     "sfx": "epic choir, dramatic soap-opera orchestral sting"
+    }
+   ],
+   "loop_note": "cliffhanger: Milo thinks he's immortal"
+  },
+  {
+   "id": "CH-005",
+   "number": 5,
+   "title": "His REPLACEMENT just arrived 🥛😳 #shorts",
+   "logline": "Milo brags that he's beaten expiry forever until a brand-new milk carton, Fresh Freddie, is placed right beside him.",
+   "hook_text": "He thought he was immortal. Then HE arrived.",
+   "description": "Every milk gets replaced eventually. Fridge Hearts, episode 5.",
+   "tags": [
+    "fridge drama",
+    "milk",
+    "replacement",
+    "soap opera",
+    "food drama",
+    "ai animation"
+   ],
+   "music": "comedic pizzicato",
+   "shots": [
+    {
+     "n": 1,
+     "dur": 8,
+     "loc": "main_shelf",
+     "chars": [
+      "milo",
+      "brock"
+     ],
+     "keyframe": "Milo wearing tiny sunglasses, leaning back like royalty",
+     "action": "Milo waves dismissively at Brock",
+     "camera": "low angle",
+     "lines": [
+      {
+       "c": "milo",
+       "t": "Bow down. I've cheated death. Expiry dates are for the weak.",
+       "tone": "arrogant"
+      },
+      {
+       "c": "brock",
+       "t": "Bro, that's not how dates work.",
+       "tone": "concerned"
+      }
+     ],
+     "sfx": "swagger bass"
+    },
+    {
+     "n": 2,
+     "dur": 8,
+     "loc": "main_shelf",
+     "chars": [
+      "milo",
+      "avery"
+     ],
+     "keyframe": "Milo smirking at Avery, who is fixing her leafy hair",
+     "action": "Avery freezes mid-preen",
+     "camera": "two-shot",
+     "lines": [
+      {
+       "c": "milo",
+       "t": "Avery, I'll still be here when you're guacamole.",
+       "tone": "smug"
+      },
+      {
+       "c": "avery",
+       "t": "How DARE you.",
+       "tone": "outraged"
+      }
+     ],
+     "sfx": "gasp"
+    },
+    {
+     "n": 3,
+     "dur": 10,
+     "loc": "dark_corner",
+     "chars": [
+      "lenny",
+      "milo"
+     ],
+     "keyframe": "Lenny's glowing eyes in the dark, Milo standing confidently in front of him",
+     "action": "Lenny leans forward out of the shadow",
+     "camera": "slow push-in",
+     "lines": [
+      {
+       "c": "lenny",
+       "t": "No one is immortal, Milo. Not even the ketchup.",
+       "tone": "gravelly"
+      },
+      {
+       "c": "milo",
+       "t": "Spooky. Love it. Still immortal.",
+       "tone": "dismissive"
+      }
+     ],
+     "sfx": "ominous drone"
+    },
+    {
+     "n": 4,
+     "dur": 8,
+     "loc": "fridge_open",
+     "chars": [
+      "freddie",
+      "the_hand"
+     ],
+     "keyframe": "the door opens, light floods in, the Hand placing a shiny new milk carton on the shelf",
+     "action": "Freddie lands, beaming and waving",
+     "camera": "hero shot on Freddie",
+     "lines": [
+      {
+       "c": "freddie",
+       "t": "Hi, everyone! Fresh as ever!",
+       "tone": "bright"
+      }
+     ],
+     "sfx": "angelic chord"
+    },
+    {
+     "n": 5,
+     "dur": 10,
+     "loc": "main_shelf",
+     "chars": [
+      "freddie",
+      "milo"
+     ],
+     "keyframe": "Freddie right next to Milo; Milo's sunglasses sliding down his face",
+     "action": "Freddie offers a handshake, Milo stares",
+     "camera": "two-shot",
+     "lines": [
+      {
+       "c": "freddie",
+       "t": "Same brand, same shelf! I'm Freddie. Use-by: next MONTH!",
+       "tone": "cheerful"
+      }
+     ],
+     "sfx": "sunglasses sliding"
+    },
+    {
+     "n": 6,
+     "dur": 8,
+     "loc": "main_shelf",
+     "chars": [
+      "avery",
+      "milo"
+     ],
+     "keyframe": "Avery leaning in with a cruel smile",
+     "action": "Avery pats Milo on the head",
+     "camera": "close two-shot",
+     "lines": [
+      {
+       "c": "avery",
+       "t": "Oh, Milo. You're not immortal. You're the backup.",
+       "tone": "sweetly vicious"
+      }
+     ],
+     "sfx": "comedic pizzicato"
+    },
+    {
+     "n": 7,
+     "dur": 8,
+     "loc": "main_shelf",
+     "chars": [
+      "milo"
+     ],
+     "keyframe": "extreme close up of Milo's trembling eyes",
+     "action": "a single condensation drop rolls down his carton",
+     "camera": "extreme close up",
+     "lines": [
+      {
+       "c": "milo",
+       "t": "The backup? I'm... the backup?",
+       "tone": "shattered"
+      }
+     ],
+     "sfx": "tragic piano"
+    },
+    {
+     "n": 8,
+     "dur": 10,
+     "loc": "main_shelf",
+     "chars": [
+      "freddie",
+      "milo"
+     ],
+     "keyframe": "Freddie cheerfully putting an arm around Milo",
+     "action": "Milo faints backward onto the shelf",
+     "camera": "dramatic crash zoom into an extreme close-up, then hold on the face",
+     "lines": [
+      {
+       "c": "freddie",
+       "t": "Don't worry, buddy! The Hand always picks the freshest one first!",
+       "tone": "oblivious"
+      }
+     ],
+     "sfx": "thud, suspense sting"
+    }
+   ],
+   "loop_note": "cliffhanger: Milo vs Freddie"
+  },
+  {
+   "id": "CH-006",
+   "number": 6,
+   "title": "He came back HALF EMPTY 🥛💔 #shorts",
+   "logline": "Milo bullies his replacement Freddie until the Hand takes Freddie, who returns half-empty with terrifying news about the world outside.",
+   "hook_text": "There can only be one milk.",
+   "description": "Freddie has seen the outside world. Fridge Hearts, episode 6.",
+   "tags": [
+    "fridge drama",
+    "milk",
+    "rivalry",
+    "soap opera",
+    "food drama",
+    "ai animation"
+   ],
+   "music": "suspense sting",
+   "shots": [
+    {
+     "n": 1,
+     "dur": 8,
+     "loc": "main_shelf",
+     "chars": [
+      "milo",
+      "freddie"
+     ],
+     "keyframe": "Milo and Freddie facing each other like rival cowboys",
+     "action": "Milo steps forward menacingly",
+     "camera": "western-style two-shot",
+     "lines": [
+      {
+       "c": "milo",
+       "t": "There can only be one milk on this shelf.",
+       "tone": "threatening"
+      },
+      {
+       "c": "freddie",
+       "t": "Why? There's loads of room!",
+       "tone": "confused"
+      }
+     ],
+     "sfx": "wind whistle"
+    },
+    {
+     "n": 2,
+     "dur": 10,
+     "loc": "main_shelf",
+     "chars": [
+      "milo",
+      "tilly"
+     ],
+     "keyframe": "Milo pushing Freddie toward the back of the shelf, Tilly gasping",
+     "action": "Freddie slides behind a jar",
+     "camera": "medium shot",
+     "lines": [
+      {
+       "c": "tilly",
+       "t": "Milo! That's so mean!",
+       "tone": "upset"
+      },
+      {
+       "c": "milo",
+       "t": "It's survival, Tilly. It's a milk-eat-milk world.",
+       "tone": "cold"
+      }
+     ],
+     "sfx": "scraping"
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "fridge_open",
+     "chars": [
+      "freddie",
+      "the_hand"
+     ],
+     "keyframe": "light floods in, the Hand reaching past Milo to grab Freddie from the back",
+     "action": "Freddie waves as he is lifted away",
+     "camera": "low angle",
+     "lines": [
+      {
+       "c": "freddie",
+       "t": "Ooh! Me? Bye, everyone!",
+       "tone": "excited"
+      }
+     ],
+     "sfx": "door whoosh"
+    },
+    {
+     "n": 4,
+     "dur": 8,
+     "loc": "main_shelf",
+     "chars": [
+      "milo"
+     ],
+     "keyframe": "Milo alone on the empty spot in blue light",
+     "action": "Milo looks at the empty space where Freddie was",
+     "camera": "slow push-in",
+     "lines": [
+      {
+       "c": "milo",
+       "t": "I won. So why do I feel... sour?",
+       "tone": "hollow"
+      }
+     ],
+     "sfx": "tragic piano"
+    },
+    {
+     "n": 5,
+     "dur": 10,
+     "loc": "main_shelf",
+     "chars": [
+      "brock",
+      "milo"
+     ],
+     "keyframe": "Brock sitting down beside Milo",
+     "action": "Brock puts an arm around him",
+     "camera": "two-shot",
+     "lines": [
+      {
+       "c": "brock",
+       "t": "He was a good carton, bro.",
+       "tone": "gentle"
+      },
+      {
+       "c": "milo",
+       "t": "He was annoying. And bright. And I never said goodbye.",
+       "tone": "guilty"
+      }
+     ],
+     "sfx": "fridge hum"
+    },
+    {
+     "n": 6,
+     "dur": 8,
+     "loc": "fridge_open",
+     "chars": [
+      "freddie",
+      "the_hand"
+     ],
+     "keyframe": "the door opens again, the Hand placing Freddie back, now visibly half-empty and wobbly",
+     "action": "Freddie sways, eyes wide and haunted",
+     "camera": "medium shot",
+     "lines": [
+      {
+       "c": "freddie",
+       "t": "I'm back. Well... half of me.",
+       "tone": "shaken"
+      }
+     ],
+     "sfx": "sloshing"
+    },
+    {
+     "n": 7,
+     "dur": 10,
+     "loc": "main_shelf",
+     "chars": [
+      "milo",
+      "freddie"
+     ],
+     "keyframe": "Milo rushing to Freddie, holding him steady",
+     "action": "Freddie stares into the distance",
+     "camera": "close two-shot",
+     "lines": [
+      {
+       "c": "milo",
+       "t": "What's it like out there?",
+       "tone": "urgent"
+      },
+      {
+       "c": "freddie",
+       "t": "It's warm. It's loud. There's cereal everywhere.",
+       "tone": "haunted"
+      }
+     ],
+     "sfx": "distant crunching"
+    },
+    {
+     "n": 8,
+     "dur": 8,
+     "loc": "main_shelf",
+     "chars": [
+      "freddie",
+      "milo"
+     ],
+     "keyframe": "Freddie leaning in to whisper to Milo",
+     "action": "Milo's eyes go huge",
+     "camera": "dramatic crash zoom into an extreme close-up, then hold on the face",
+     "lines": [
+      {
+       "c": "freddie",
+       "t": "And Milo... there's a cat.",
+       "tone": "whisper"
+      }
+     ],
+     "sfx": "distant meow, suspense sting"
+    }
+   ],
+   "loop_note": "cliffhanger: there's a cat"
+  },
+  {
+   "id": "CH-007",
+   "number": 7,
+   "title": "What's inside the mystery container? 🫙 #shorts",
+   "logline": "The fridge argues over what's inside mysterious leftover Lenny until Tilly peeks and returns tinted green with a disturbing answer.",
+   "hook_text": "Nobody knows what's inside him.",
+   "description": "Some leftovers should stay mysteries. Fridge Hearts, episode 7.",
+   "tags": [
+    "fridge drama",
+    "leftovers",
+    "mystery",
+    "soap opera",
+    "food drama",
+    "ai animation"
+   ],
+   "music": "ominous drone",
+   "shots": [
+    {
+     "n": 1,
+     "dur": 8,
+     "loc": "main_shelf",
+     "chars": [
+      "tilly",
+      "avery"
+     ],
+     "keyframe": "Tilly looking toward the dark corner, Avery filing her nails on a crumb",
+     "action": "Avery stops filing and lowers her voice",
+     "camera": "two-shot",
+     "lines": [
+      {
+       "c": "tilly",
+       "t": "What's inside Lenny?",
+       "tone": "curious"
+      },
+      {
+       "c": "avery",
+       "t": "Nobody knows. Nobody has EVER known.",
+       "tone": "hushed"
+      }
+     ],
+     "sfx": "ominous drone"
+    },
+    {
+     "n": 2,
+     "dur": 10,
+     "loc": "main_shelf",
+     "chars": [
+      "brock",
+      "milo"
+     ],
+     "keyframe": "Brock and Milo leaning together conspiratorially",
+     "action": "they trade theories, getting more animated",
+     "camera": "medium shot",
+     "lines": [
+      {
+       "c": "brock",
+       "t": "I heard he's lasagne.",
+       "tone": "serious"
+      },
+      {
+       "c": "milo",
+       "t": "I heard he's a soup that became self-aware.",
+       "tone": "spooked"
+      }
+     ],
+     "sfx": "thunder rumble"
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "door_shelf",
+     "chars": [
+      "duchess",
+      "rico"
+     ],
+     "keyframe": "Duchess and Rico on the door shelf looking down into the shadows",
+     "action": "Rico lowers his cap",
+     "camera": "high angle",
+     "lines": [
+      {
+       "c": "duchess",
+       "t": "He was here before me. And I arrived in 2019.",
+       "tone": "grave"
+      },
+      {
+       "c": "rico",
+       "t": "Some say he IS the fridge.",
+       "tone": "mysterious"
+      }
+     ],
+     "sfx": "wind howl"
+    },
+    {
+     "n": 4,
+     "dur": 10,
+     "loc": "dark_corner",
+     "chars": [
+      "tilly",
+      "lenny"
+     ],
+     "keyframe": "Tilly tiptoeing up to Lenny in the flickering dark",
+     "action": "Lenny's eyes slowly open",
+     "camera": "slow push-in",
+     "lines": [
+      {
+       "c": "tilly",
+       "t": "Lenny? Can I... peek?",
+       "tone": "timid"
+      },
+      {
+       "c": "lenny",
+       "t": "Many have asked. None have recovered.",
+       "tone": "gravelly"
+      }
+     ],
+     "sfx": "flickering light buzz"
+    },
+    {
+     "n": 5,
+     "dur": 8,
+     "loc": "dark_corner",
+     "chars": [
+      "lenny",
+      "tilly"
+     ],
+     "keyframe": "Lenny lifting the corner of his lid, an eerie green glow lighting Tilly's face",
+     "action": "green mist curls out and touches Tilly",
+     "camera": "close up on Tilly's face",
+     "lines": [
+      {
+       "c": "tilly",
+       "t": "Ooh! What's that smell?",
+       "tone": "curious"
+      }
+     ],
+     "sfx": "lid creak, eerie chime"
+    },
+    {
+     "n": 6,
+     "dur": 8,
+     "loc": "dark_corner",
+     "chars": [
+      "tilly"
+     ],
+     "keyframe": "Tilly turning pale green from absorbing the smell, swaying",
+     "action": "she hiccups a tiny green bubble",
+     "camera": "medium shot",
+     "lines": [
+      {
+       "c": "tilly",
+       "t": "I feel... ancient.",
+       "tone": "woozy"
+      }
+     ],
+     "sfx": "bubble pop"
+    },
+    {
+     "n": 7,
+     "dur": 10,
+     "loc": "main_shelf",
+     "chars": [
+      "tilly",
+      "avery"
+     ],
+     "keyframe": "green-tinted Tilly returning to the main shelf, everyone crowding around",
+     "action": "Avery grabs Tilly by the shoulders",
+     "camera": "medium crowd shot",
+     "lines": [
+      {
+       "c": "avery",
+       "t": "Well? WHAT IS HE?",
+       "tone": "desperate"
+      },
+      {
+       "c": "tilly",
+       "t": "It's... soup.",
+       "tone": "dazed"
+      }
+     ],
+     "sfx": "anticlimactic tuba"
+    },
+    {
+     "n": 8,
+     "dur": 8,
+     "loc": "dark_corner",
+     "chars": [
+      "lenny"
+     ],
+     "keyframe": "Lenny alone in the shadows, eyes glowing",
+     "action": "his lid slowly settles shut",
+     "camera": "dramatic crash zoom into an extreme close-up, then hold on the face",
+     "lines": [
+      {
+       "c": "lenny",
+       "t": "It WAS soup. Now... it's something else.",
+       "tone": "whisper"
+      }
+     ],
+     "sfx": "suspense sting"
+    }
+   ],
+   "loop_note": "cliffhanger: what has the soup become?"
+  },
+  {
+   "id": "CH-008",
+   "number": 8,
+   "title": "He trained all day to be picked... 🥦❄️ #shorts",
+   "logline": "Gym-bro broccoli Brock trains all day to be chosen for dinner, loses out to a frozen pizza, and is accidentally shoved into the freezer.",
+   "hook_text": "He trained his WHOLE life for this moment 🥦",
+   "description": "Brock wanted to be Chosen. He got exiled. Fridge Hearts, episode 8.",
+   "tags": [
+    "fridge drama",
+    "broccoli",
+    "gym",
+    "freezer",
+    "food drama",
+    "ai animation"
+   ],
+   "music": "epic choir",
+   "shots": [
+    {
+     "n": 1,
+     "dur": 8,
+     "loc": "crisper",
+     "chars": [
+      "brock"
+     ],
+     "keyframe": "Brock doing one-armed push-ups in the misty crisper",
+     "action": "he finishes a rep and stands, determined",
+     "camera": "low angle",
+     "lines": [
+      {
+       "c": "brock",
+       "t": "Tonight's dinner: steamed greens. The Hand WILL choose me.",
+       "tone": "determined"
+      }
+     ],
+     "sfx": "grunt, training beat"
+    },
+    {
+     "n": 2,
+     "dur": 10,
+     "loc": "crisper",
+     "chars": [
+      "brock",
+      "tilly"
+     ],
+     "keyframe": "Brock steaming himself in a bottle-cap sauna, Tilly watching",
+     "action": "training montage: steam, flexing, stretching",
+     "camera": "montage cuts",
+     "lines": [
+      {
+       "c": "tilly",
+       "t": "Why do you want to be Chosen so badly?",
+       "tone": "curious"
+      },
+      {
+       "c": "brock",
+       "t": "Glory. Purpose. A plate.",
+       "tone": "noble"
+      }
+     ],
+     "sfx": "steam hiss, epic drums"
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "main_shelf",
+     "chars": [
+      "avery",
+      "brock"
+     ],
+     "keyframe": "Avery holding Brock's little hand",
+     "action": "they look into each other's eyes",
+     "camera": "close two-shot",
+     "lines": [
+      {
+       "c": "avery",
+       "t": "And if you don't come back?",
+       "tone": "worried"
+      },
+      {
+       "c": "brock",
+       "t": "Then I'll go out green.",
+       "tone": "brave"
+      }
+     ],
+     "sfx": "romantic violin"
+    },
+    {
+     "n": 4,
+     "dur": 10,
+     "loc": "fridge_open",
+     "chars": [
+      "brock",
+      "the_hand"
+     ],
+     "keyframe": "the door opens, light floods in, Brock posing heroically on the shelf edge",
+     "action": "the Hand reaches toward Brock, then swerves up and out of frame toward the freezer",
+     "camera": "slow motion",
+     "lines": [
+      {
+       "c": "brock",
+       "t": "Here I am! Fully fibrous! Pick me!",
+       "tone": "shouting"
+      }
+     ],
+     "sfx": "epic choir, record scratch"
+    },
+    {
+     "n": 5,
+     "dur": 8,
+     "loc": "main_shelf",
+     "chars": [
+      "brock",
+      "milo"
+     ],
+     "keyframe": "Brock deflated, watching a frozen pizza box pass by in the Hand",
+     "action": "Brock's florets droop",
+     "camera": "medium shot",
+     "lines": [
+      {
+       "c": "brock",
+       "t": "A frozen pizza. From the NORTH.",
+       "tone": "crushed"
+      },
+      {
+       "c": "milo",
+       "t": "Ouch. Processed.",
+       "tone": "wincing"
+      }
+     ],
+     "sfx": "sad trombone"
+    },
+    {
+     "n": 6,
+     "dur": 8,
+     "loc": "fridge_open",
+     "chars": [
+      "brock",
+      "the_hand"
+     ],
+     "keyframe": "the Hand sweeping items aside to make space, scooping Brock up",
+     "action": "the Hand lifts Brock upward toward the freezer door",
+     "camera": "handheld chaos",
+     "lines": [
+      {
+       "c": "brock",
+       "t": "Wait! Wrong way! WRONG WAY!",
+       "tone": "panicked"
+      }
+     ],
+     "sfx": "freezer door creak, icy wind"
+    },
+    {
+     "n": 7,
+     "dur": 10,
+     "loc": "main_shelf",
+     "chars": [
+      "avery",
+      "tilly"
+     ],
+     "keyframe": "Avery running to the shelf edge reaching up, Tilly beside her",
+     "action": "Avery reaches toward the ceiling as frost drifts down",
+     "camera": "low angle looking up",
+     "lines": [
+      {
+       "c": "avery",
+       "t": "BROCK!",
+       "tone": "anguished"
+      },
+      {
+       "c": "tilly",
+       "t": "Where did he go?",
+       "tone": "scared"
+      },
+      {
+       "c": "avery",
+       "t": "The North.",
+       "tone": "whisper"
+      }
+     ],
+     "sfx": "tragic piano"
+    },
+    {
+     "n": 8,
+     "dur": 8,
+     "loc": "the_north",
+     "chars": [
+      "brock"
+     ],
+     "keyframe": "Brock alone in the icy freezer, frost creeping over his florets, two cold glowing eyes in the darkness behind him",
+     "action": "Brock turns slowly as the eyes open",
+     "camera": "dramatic crash zoom into an extreme close-up, then hold on the face",
+     "lines": [
+      {
+       "c": "brock",
+       "t": "Hello? Is anyone... out there?",
+       "tone": "shivering"
+      }
+     ],
+     "sfx": "icy wind, suspense sting"
+    }
+   ],
+   "loop_note": "cliffhanger: eyes in the North"
+  },
+  {
+   "id": "CH-009",
+   "number": 9,
+   "title": "Exiled to the freezer ❄️👑 #shorts",
+   "logline": "In the frozen North, Brock meets Queen Pea, the icy ruler of the freezer, who decides he may be useful to her plans.",
+   "hook_text": "Nobody leaves the freezer.",
+   "description": "Welcome to the North. Fridge Hearts, episode 9.",
+   "tags": [
+    "fridge drama",
+    "freezer",
+    "frozen peas",
+    "villain",
+    "food drama",
+    "ai animation"
+   ],
+   "music": "villain organ",
+   "shots": [
+    {
+     "n": 1,
+     "dur": 8,
+     "loc": "the_north",
+     "chars": [
+      "brock"
+     ],
+     "keyframe": "Brock shivering among frozen bags like snowy mountains, his florets frosted",
+     "action": "Brock hugs himself, breath visible",
+     "camera": "wide icy landscape",
+     "lines": [
+      {
+       "c": "brock",
+       "t": "So cold. Can't feel my florets.",
+       "tone": "shivering"
+      }
+     ],
+     "sfx": "icy wind"
+    },
+    {
+     "n": 2,
+     "dur": 10,
+     "loc": "the_north",
+     "chars": [
+      "queen_pea",
+      "brock"
+     ],
+     "keyframe": "Queen Pea rising on a throne of ice cubes, frost crown glittering",
+     "action": "frozen peas roll aside like courtiers bowing",
+     "camera": "low angle reveal",
+     "lines": [
+      {
+       "c": "queen_pea",
+       "t": "A fresh vegetable. In MY kingdom.",
+       "tone": "icy"
+      },
+      {
+       "c": "brock",
+       "t": "Your... kingdom?",
+       "tone": "nervous"
+      }
+     ],
+     "sfx": "ice cracking, choir"
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "the_north",
+     "chars": [
+      "queen_pea"
+     ],
+     "keyframe": "close on Queen Pea's frosty face",
+     "action": "frost spreads across the ground from her throne",
+     "camera": "slow push-in",
+     "lines": [
+      {
+       "c": "queen_pea",
+       "t": "I am Queen Pea. Ruler of the North. Frozen since the Before Times.",
+       "tone": "regal"
+      }
+     ],
+     "sfx": "frost crackle"
+    },
+    {
+     "n": 4,
+     "dur": 10,
+     "loc": "the_north",
+     "chars": [
+      "brock",
+      "queen_pea"
+     ],
+     "keyframe": "Brock stepping toward the throne bravely",
+     "action": "Queen Pea laughs coldly",
+     "camera": "two-shot",
+     "lines": [
+      {
+       "c": "brock",
+       "t": "I need to get back. Someone's waiting for me.",
+       "tone": "earnest"
+      },
+      {
+       "c": "queen_pea",
+       "t": "Everyone has someone. Nobody leaves the North.",
+       "tone": "cold"
+      }
+     ],
+     "sfx": "wind howl"
+    },
+    {
+     "n": 5,
+     "dur": 8,
+     "loc": "main_shelf",
+     "chars": [
+      "avery",
+      "rico"
+     ],
+     "keyframe": "Avery pacing the main shelf, Rico leaning nearby",
+     "action": "Avery stops and stares upward at the freezer",
+     "camera": "medium two-shot",
+     "lines": [
+      {
+       "c": "rico",
+       "t": "Forget him, Avery. The North changes a vegetable.",
+       "tone": "smooth"
+      },
+      {
+       "c": "avery",
+       "t": "Then I'll wait for whoever comes back.",
+       "tone": "resolute"
+      }
+     ],
+     "sfx": "romantic violin"
+    },
+    {
+     "n": 6,
+     "dur": 10,
+     "loc": "the_north",
+     "chars": [
+      "queen_pea",
+      "brock"
+     ],
+     "keyframe": "Queen Pea circling Brock",
+     "action": "Brock flexes through the shivers",
+     "camera": "orbiting shot",
+     "lines": [
+      {
+       "c": "queen_pea",
+       "t": "You have warmth in you. How... irritating.",
+       "tone": "disdainful"
+      },
+      {
+       "c": "brock",
+       "t": "Stay green. Stay mean.",
+       "tone": "defiant"
+      }
+     ],
+     "sfx": "ice crack"
+    },
+    {
+     "n": 7,
+     "dur": 8,
+     "loc": "the_north",
+     "chars": [
+      "queen_pea",
+      "brock"
+     ],
+     "keyframe": "Queen Pea leaning close to Brock, a thin smile",
+     "action": "she taps his frosty floret",
+     "camera": "close two-shot",
+     "lines": [
+      {
+       "c": "queen_pea",
+       "t": "Interesting. You may be useful to me.",
+       "tone": "scheming"
+      }
+     ],
+     "sfx": "villain organ"
+    },
+    {
+     "n": 8,
+     "dur": 8,
+     "loc": "the_north",
+     "chars": [
+      "queen_pea"
+     ],
+     "keyframe": "Queen Pea turning directly toward the camera, eyes glowing icy blue",
+     "action": "frost creeps over the lens",
+     "camera": "dramatic crash zoom into an extreme close-up, then hold on the face",
+     "lines": [
+      {
+       "c": "queen_pea",
+       "t": "Nobody leaves the North... unthawed.",
+       "tone": "menacing whisper"
+      }
+     ],
+     "sfx": "frost freeze, sting"
+    }
+   ],
+   "loop_note": "cliffhanger: Queen Pea's plan"
+  },
+  {
+   "id": "CH-010",
+   "number": 10,
+   "title": "He came back from the freezer CHANGED 🥦🧊 #shorts",
+   "logline": "Brock returns frozen from the North, wins Avery's heart with his loyalty, but reveals he was released as Queen Pea's messenger.",
+   "hook_text": "He came back from the freezer... different.",
+   "description": "Brock is back. So is a warning. Fridge Hearts, episode 10.",
+   "tags": [
+    "fridge drama",
+    "broccoli",
+    "romance",
+    "freezer",
+    "food drama",
+    "ai animation"
+   ],
+   "music": "romantic violin",
+   "shots": [
+    {
+     "n": 1,
+     "dur": 10,
+     "loc": "fridge_open",
+     "chars": [
+      "brock",
+      "tilly"
+     ],
+     "keyframe": "the Hand placing a frost-covered Brock back on the main shelf, frozen stiff in a heroic pose",
+     "action": "frost mist rolls off Brock, Tilly rushes over",
+     "camera": "low angle",
+     "lines": [
+      {
+       "c": "tilly",
+       "t": "It's Brock! He's back!",
+       "tone": "overjoyed"
+      }
+     ],
+     "sfx": "door whoosh, icy crackle"
+    },
+    {
+     "n": 2,
+     "dur": 8,
+     "loc": "main_shelf",
+     "chars": [
+      "avery",
+      "brock"
+     ],
+     "keyframe": "Avery hugging the frozen Brock",
+     "action": "Brock's eyes slowly move",
+     "camera": "close two-shot",
+     "lines": [
+      {
+       "c": "avery",
+       "t": "Say something!",
+       "tone": "desperate"
+      },
+      {
+       "c": "brock",
+       "t": "C... c... cold.",
+       "tone": "frozen stutter"
+      }
+     ],
+     "sfx": "teeth chattering"
+    },
+    {
+     "n": 3,
+     "dur": 10,
+     "loc": "main_shelf",
+     "chars": [
+      "brock",
+      "avery"
+     ],
+     "keyframe": "Brock thawing, droplets running down his florets, haunted eyes",
+     "action": "Brock stares into the distance",
+     "camera": "slow push-in",
+     "lines": [
+      {
+       "c": "brock",
+       "t": "I've seen things, Avery. Peas. Thousands of peas. And a queen.",
+       "tone": "haunted"
+      }
+     ],
+     "sfx": "dripping, ominous drone"
+    },
+    {
+     "n": 4,
+     "dur": 8,
+     "loc": "door_shelf",
+     "chars": [
+      "rico",
+      "duchess"
+     ],
+     "keyframe": "Rico glaring down from the door shelf, Duchess fanning herself",
+     "action": "Rico crosses his arms",
+     "camera": "medium shot",
+     "lines": [
+      {
+       "c": "rico",
+       "t": "Look at him. Dripping for attention.",
+       "tone": "jealous"
+      },
+      {
+       "c": "duchess",
+       "t": "Jealousy is so spicy on you, darling.",
+       "tone": "amused"
+      }
+     ],
+     "sfx": "fan flutter"
+    },
+    {
+     "n": 5,
+     "dur": 10,
+     "loc": "main_shelf",
+     "chars": [
+      "milo",
+      "brock"
+     ],
+     "keyframe": "Milo leaning in nervously, Brock wrapped in a paper napkin like a blanket",
+     "action": "Brock looks toward Avery",
+     "camera": "two-shot",
+     "lines": [
+      {
+       "c": "milo",
+       "t": "Was it scary?",
+       "tone": "nervous"
+      },
+      {
+       "c": "brock",
+       "t": "She offered me a crown of frost. I said no. For Avery.",
+       "tone": "sincere"
+      }
+     ],
+     "sfx": "soft violin"
+    },
+    {
+     "n": 6,
+     "dur": 8,
+     "loc": "main_shelf",
+     "chars": [
+      "avery",
+      "brock"
+     ],
+     "keyframe": "Avery touching Brock's cheek",
+     "action": "they lean their foreheads together",
+     "camera": "close up, soft glow",
+     "lines": [
+      {
+       "c": "avery",
+       "t": "For me?",
+       "tone": "touched"
+      },
+      {
+       "c": "brock",
+       "t": "Always.",
+       "tone": "tender"
+      }
+     ],
+     "sfx": "romantic violin swell"
+    },
+    {
+     "n": 7,
+     "dur": 8,
+     "loc": "main_shelf",
+     "chars": [
+      "rico",
+      "avery"
+     ],
+     "keyframe": "Rico arriving behind them, leaning on a jar",
+     "action": "Avery turns sharply",
+     "camera": "over-the-shoulder",
+     "lines": [
+      {
+       "c": "rico",
+       "t": "How touching. And how... convenient.",
+       "tone": "suspicious"
+      }
+     ],
+     "sfx": "suspense sting"
+    },
+    {
+     "n": 8,
+     "dur": 10,
+     "loc": "main_shelf",
+     "chars": [
+      "brock"
+     ],
+     "keyframe": "Brock suddenly serious, frost reflected in his eyes",
+     "action": "Brock grips Avery's hand tightly",
+     "camera": "dramatic crash zoom into an extreme close-up, then hold on the face",
+     "lines": [
+      {
+       "c": "brock",
+       "t": "I wasn't released, Avery. I was sent. Queen Pea is coming.",
+       "tone": "grave"
+      }
+     ],
+     "sfx": "ominous drone, ice crack, dramatic soap-opera orchestral sting"
+    }
+   ],
+   "loop_note": "cliffhanger: Queen Pea is coming"
+  },
+  {
+   "id": "CH-011",
+   "number": 11,
+   "title": "The ketchup wants the CROWN 🍅👑 #shorts",
+   "logline": "Loud ketchup bottle Kev challenges Duchess Dijon for control of the Door Shelf, and the election ends in a tie that only Tilly can break.",
+   "hook_text": "A ketchup challenged the Duchess 👑",
+   "description": "Election day on the Door Shelf. Fridge Hearts, episode 11.",
+   "tags": [
+    "fridge drama",
+    "ketchup",
+    "mustard",
+    "election",
+    "food drama",
+    "ai animation"
+   ],
+   "music": "comedic pizzicato",
+   "shots": [
+    {
+     "n": 1,
+     "dur": 8,
+     "loc": "door_shelf",
+     "chars": [
+      "kev",
+      "duchess"
+     ],
+     "keyframe": "Kev Ketchup slamming down onto the door shelf, waving his arms",
+     "action": "Duchess's monocle pops out",
+     "camera": "low angle on Kev",
+     "lines": [
+      {
+       "c": "kev",
+       "t": "Ketchup for the people! This door needs a NEW leader!",
+       "tone": "booming"
+      },
+      {
+       "c": "duchess",
+       "t": "Who let the ketchup in?",
+       "tone": "appalled"
+      }
+     ],
+     "sfx": "crowd murmur"
+    },
+    {
+     "n": 2,
+     "dur": 10,
+     "loc": "door_shelf",
+     "chars": [
+      "kev"
+     ],
+     "keyframe": "Kev on top of a bottle cap podium rallying cheering condiment jars",
+     "action": "Kev pumps his fist, jars cheer",
+     "camera": "wide rally shot",
+     "lines": [
+      {
+       "c": "kev",
+       "t": "Equal shelf space! Free lids for all! No more mustard monarchy!",
+       "tone": "rallying"
+      }
+     ],
+     "sfx": "cheering"
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "door_shelf",
+     "chars": [
+      "duchess",
+      "rico"
+     ],
+     "keyframe": "Duchess turning to Rico for support",
+     "action": "Rico avoids her eyes",
+     "camera": "two-shot",
+     "lines": [
+      {
+       "c": "duchess",
+       "t": "Rico. Rally the jars.",
+       "tone": "commanding"
+      },
+      {
+       "c": "rico",
+       "t": "Sorry, Duchess. I'm... undecided.",
+       "tone": "evasive"
+      }
+     ],
+     "sfx": "gasp"
+    },
+    {
+     "n": 4,
+     "dur": 10,
+     "loc": "main_shelf",
+     "chars": [
+      "brock",
+      "avery"
+     ],
+     "keyframe": "Brock and Avery watching the rally from below",
+     "action": "Avery touches her mustard-concealed spot nervously",
+     "camera": "two-shot",
+     "lines": [
+      {
+       "c": "brock",
+       "t": "Kev's got good slogans.",
+       "tone": "impressed"
+      },
+      {
+       "c": "avery",
+       "t": "Slogans aren't a plan. And the Duchess knows my secret.",
+       "tone": "anxious"
+      }
+     ],
+     "sfx": "distant chanting"
+    },
+    {
+     "n": 5,
+     "dur": 8,
+     "loc": "door_shelf",
+     "chars": [
+      "kev",
+      "duchess"
+     ],
+     "keyframe": "Kev and Duchess on opposite bottle cap podiums like a debate",
+     "action": "they lean toward each other",
+     "camera": "debate two-shot",
+     "lines": [
+      {
+       "c": "kev",
+       "t": "What's YOUR plan, Duchess?",
+       "tone": "challenging"
+      },
+      {
+       "c": "duchess",
+       "t": "Continuity, darling. I've survived nine Clean-Outs.",
+       "tone": "cool"
+      }
+     ],
+     "sfx": "debate buzzer"
+    },
+    {
+     "n": 6,
+     "dur": 8,
+     "loc": "main_shelf",
+     "chars": [
+      "milo",
+      "tilly"
+     ],
+     "keyframe": "Milo counting votes made of peppercorns into two piles",
+     "action": "Milo places the last peppercorn and gasps",
+     "camera": "top-down on the piles",
+     "lines": [
+      {
+       "c": "milo",
+       "t": "Kev, six. Duchess, six. It's a TIE!",
+       "tone": "shocked"
+      }
+     ],
+     "sfx": "dramatic sting"
+    },
+    {
+     "n": 7,
+     "dur": 10,
+     "loc": "main_shelf",
+     "chars": [
+      "avery",
+      "tilly"
+     ],
+     "keyframe": "everyone slowly turning to look at Tilly",
+     "action": "Tilly shrinks under all the stares",
+     "camera": "slow push-in on Tilly",
+     "lines": [
+      {
+       "c": "avery",
+       "t": "Tilly hasn't voted.",
+       "tone": "realising"
+      },
+      {
+       "c": "tilly",
+       "t": "Me? I don't know anything about politics!",
+       "tone": "panicked"
+      }
+     ],
+     "sfx": "heartbeat"
+    },
+    {
+     "n": 8,
+     "dur": 8,
+     "loc": "main_shelf",
+     "chars": [
+      "tilly"
+     ],
+     "keyframe": "the shadows of Kev and Duchess falling across Tilly",
+     "action": "Tilly gulps",
+     "camera": "dramatic crash zoom into an extreme close-up, then hold on the face",
+     "lines": [
+      {
+       "c": "tilly",
+       "t": "Can I... sleep on it?",
+       "tone": "tiny"
+      }
+     ],
+     "sfx": "suspense sting"
+    }
+   ],
+   "loop_note": "cliffhanger: Tilly's deciding vote",
+   "cold_open": {
+    "shot": 6,
+    "start": 0.0,
+    "seconds": 4.5
+   }
+  },
+  {
+   "id": "CH-012",
+   "number": 12,
+   "title": "The Duchess's DARKEST secret 💛😱 #shorts",
+   "logline": "Tilly absorbs every candidate's flavour and keeps changing her mind, votes for herself, and forces Duchess to confess she has been expired since 2019.",
+   "hook_text": "She's been hiding this since 2019.",
+   "description": "The vote. The confession. Fridge Hearts, episode 12.",
+   "tags": [
+    "fridge drama",
+    "secret",
+    "tofu",
+    "election",
+    "food drama",
+    "ai animation"
+   ],
+   "music": "telenovela strings",
+   "shots": [
+    {
+     "n": 1,
+     "dur": 8,
+     "loc": "door_shelf",
+     "chars": [
+      "kev",
+      "tilly"
+     ],
+     "keyframe": "Kev giving Tilly a ketchup spa treatment, Tilly turning red",
+     "action": "Tilly's colour shifts from white to red",
+     "camera": "medium shot",
+     "lines": [
+      {
+       "c": "tilly",
+       "t": "Kev makes so much sense!",
+       "tone": "dazzled"
+      },
+      {
+       "c": "kev",
+       "t": "Ketchup for the people!",
+       "tone": "booming"
+      }
+     ],
+     "sfx": "squelch"
+    },
+    {
+     "n": 2,
+     "dur": 8,
+     "loc": "door_shelf",
+     "chars": [
+      "duchess",
+      "tilly"
+     ],
+     "keyframe": "Duchess dabbing Tilly with mustard, Tilly turning yellow",
+     "action": "Tilly's colour shifts to golden yellow",
+     "camera": "medium shot",
+     "lines": [
+      {
+       "c": "tilly",
+       "t": "The Duchess is so... wise!",
+       "tone": "dazzled"
+      }
+     ],
+     "sfx": "shimmer"
+    },
+    {
+     "n": 3,
+     "dur": 10,
+     "loc": "crisper",
+     "chars": [
+      "brock",
+      "tilly"
+     ],
+     "keyframe": "Brock steaming Tilly in the crisper sauna, Tilly turning green",
+     "action": "Tilly does a squat beside Brock",
+     "camera": "medium shot",
+     "lines": [
+      {
+       "c": "tilly",
+       "t": "Maybe we should all just... exercise?",
+       "tone": "inspired"
+      },
+      {
+       "c": "brock",
+       "t": "Now you're talking!",
+       "tone": "proud"
+      }
+     ],
+     "sfx": "steam hiss"
+    },
+    {
+     "n": 4,
+     "dur": 8,
+     "loc": "main_shelf",
+     "chars": [
+      "avery",
+      "tilly"
+     ],
+     "keyframe": "rainbow-streaked Tilly with Avery shaking her",
+     "action": "Tilly's colours flicker",
+     "camera": "close two-shot",
+     "lines": [
+      {
+       "c": "avery",
+       "t": "Stop absorbing everyone! What do YOU think?",
+       "tone": "frustrated"
+      },
+      {
+       "c": "tilly",
+       "t": "I don't know! I'm tofu!",
+       "tone": "wailing"
+      }
+     ],
+     "sfx": "colour-change chime"
+    },
+    {
+     "n": 5,
+     "dur": 10,
+     "loc": "door_shelf",
+     "chars": [
+      "tilly",
+      "kev"
+     ],
+     "keyframe": "Tilly, back to plain white, standing at a bottle cap ballot box",
+     "action": "she drops in her peppercorn vote",
+     "camera": "low angle",
+     "lines": [
+      {
+       "c": "tilly",
+       "t": "I vote... for me.",
+       "tone": "surprisingly firm"
+      },
+      {
+       "c": "kev",
+       "t": "You can't vote for YOURSELF!",
+       "tone": "outraged"
+      }
+     ],
+     "sfx": "peppercorn plink, crowd gasp"
+    },
+    {
+     "n": 6,
+     "dur": 8,
+     "loc": "door_shelf",
+     "chars": [
+      "rico",
+      "tilly"
+     ],
+     "keyframe": "Rico slowly clapping",
+     "action": "Rico tips his cap to Tilly",
+     "camera": "medium shot",
+     "lines": [
+      {
+       "c": "rico",
+       "t": "Bold. Rebellious. I'm switching my vote to Tilly.",
+       "tone": "admiring"
+      }
+     ],
+     "sfx": "slow clap"
+    },
+    {
+     "n": 7,
+     "dur": 10,
+     "loc": "door_shelf",
+     "chars": [
+      "duchess",
+      "kev"
+     ],
+     "keyframe": "Duchess rising, cornered, the jars falling silent",
+     "action": "Duchess raises a hand for silence",
+     "camera": "low angle",
+     "lines": [
+      {
+       "c": "duchess",
+       "t": "Enough! You want the truth? Here it is.",
+       "tone": "thunderous"
+      },
+      {
+       "c": "kev",
+       "t": "Oh, here we go.",
+       "tone": "sarcastic"
+      }
+     ],
+     "sfx": "thunder"
+    },
+    {
+     "n": 8,
+     "dur": 10,
+     "loc": "door_shelf",
+     "chars": [
+      "duchess"
+     ],
+     "keyframe": "Duchess slowly turning her jar to reveal a faded old date stamp on her back",
+     "action": "everyone gasps; Duchess holds her chin high",
+     "camera": "dramatic crash zoom into an extreme close-up, then hold on the face",
+     "lines": [
+      {
+       "c": "duchess",
+       "t": "I expired in 2019. I've been expired for years... and nobody noticed.",
+       "tone": "proud, trembling"
+      }
+     ],
+     "sfx": "telenovela strings, mass gasp, dramatic soap-opera orchestral sting"
+    }
+   ],
+   "loop_note": "cliffhanger: Duchess's confession"
+  },
+  {
+   "id": "CH-013",
+   "number": 13,
+   "title": "The ancient pickle knows EVERYTHING 🥒 #shorts",
+   "logline": "Desperate to stop browning, Avery journeys into the Dark Corner to consult Old Pickle, who offers a costly cure and hints at the Duchess's lost love.",
+   "hook_text": "She went where no one goes: the Dark Corner.",
+   "description": "Avery seeks a cure. Fridge Hearts, episode 13.",
+   "tags": [
+    "fridge drama",
+    "pickle",
+    "avocado",
+    "mystery",
+    "food drama",
+    "ai animation"
+   ],
+   "music": "ominous drone",
+   "guests": {
+    "old_pickle": {
+     "name": "Old Pickle",
+     "ref_prompt": "anthropomorphic very old wrinkled green pickle in a cloudy glass jar, long beard made of dill fronds, squinting wise eyes, small cartoon arms, hermit sage",
+     "voice": "creaky, wheezy, ancient male"
+    }
+   },
+   "shots": [
+    {
+     "n": 1,
+     "dur": 8,
+     "loc": "main_shelf",
+     "chars": [
+      "avery"
+     ],
+     "keyframe": "Avery staring at her reflection in a spoon, mustard flaking off her brown spot",
+     "action": "a flake of mustard falls away",
+     "camera": "close up through the spoon reflection",
+     "lines": [
+      {
+       "c": "avery",
+       "t": "The mustard's wearing off. I need a real cure.",
+       "tone": "desperate"
+      }
+     ],
+     "sfx": "tragic piano"
+    },
+    {
+     "n": 2,
+     "dur": 10,
+     "loc": "main_shelf",
+     "chars": [
+      "tilly",
+      "avery"
+     ],
+     "keyframe": "Tilly whispering to Avery, both looking toward the shadowy back of the fridge",
+     "action": "Avery stands up resolutely",
+     "camera": "two-shot",
+     "lines": [
+      {
+       "c": "tilly",
+       "t": "Lenny says someone in the Dark Corner knows everything.",
+       "tone": "whisper"
+      },
+      {
+       "c": "avery",
+       "t": "Then that's where I'm going.",
+       "tone": "determined"
+      }
+     ],
+     "sfx": "suspense strings"
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "dark_corner",
+     "chars": [
+      "avery",
+      "tilly"
+     ],
+     "keyframe": "Avery and Tilly creeping through the flickering shadows past forgotten jars",
+     "action": "the light flickers, they cling to each other",
+     "camera": "tracking shot",
+     "lines": [
+      {
+       "c": "avery",
+       "t": "It smells like... history.",
+       "tone": "nervous"
+      }
+     ],
+     "sfx": "flickering buzz, drip"
+    },
+    {
+     "n": 4,
+     "dur": 10,
+     "loc": "dark_corner",
+     "chars": [
+      "old_pickle",
+      "avery"
+     ],
+     "keyframe": "Old Pickle emerging from a cloudy jar, dill beard swaying",
+     "action": "Old Pickle squints at them",
+     "camera": "slow reveal",
+     "lines": [
+      {
+       "c": "old_pickle",
+       "t": "Visitors. Haven't had those since the fridge magnet fell.",
+       "tone": "creaky"
+      }
+     ],
+     "sfx": "jar lid creak"
+    },
+    {
+     "n": 5,
+     "dur": 8,
+     "loc": "dark_corner",
+     "chars": [
+      "avery",
+      "old_pickle"
+     ],
+     "keyframe": "Avery kneeling before the Old Pickle's jar",
+     "action": "Old Pickle chuckles",
+     "camera": "two-shot",
+     "lines": [
+      {
+       "c": "avery",
+       "t": "I need to stop browning. Forever.",
+       "tone": "pleading"
+      },
+      {
+       "c": "old_pickle",
+       "t": "Easy. Brine. Sixty years in a jar.",
+       "tone": "wheezy"
+      }
+     ],
+     "sfx": "bubbling brine"
+    },
+    {
+     "n": 6,
+     "dur": 8,
+     "loc": "dark_corner",
+     "chars": [
+      "avery",
+      "old_pickle"
+     ],
+     "keyframe": "Avery recoiling, Old Pickle raising a bony finger",
+     "action": "Old Pickle leans closer",
+     "camera": "close two-shot",
+     "lines": [
+      {
+       "c": "avery",
+       "t": "I am NOT becoming a pickle.",
+       "tone": "horrified"
+      },
+      {
+       "c": "old_pickle",
+       "t": "Then there's lime. But lime comes at a cost.",
+       "tone": "cryptic"
+      }
+     ],
+     "sfx": "ominous chord"
+    },
+    {
+     "n": 7,
+     "dur": 10,
+     "loc": "dark_corner",
+     "chars": [
+      "old_pickle",
+      "tilly"
+     ],
+     "keyframe": "Old Pickle squinting at Tilly with a knowing smile",
+     "action": "Tilly leans in",
+     "camera": "two-shot",
+     "lines": [
+      {
+       "c": "old_pickle",
+       "t": "You live near the Duchess? Ha. She wasn't always alone up there.",
+       "tone": "knowing"
+      },
+      {
+       "c": "tilly",
+       "t": "What do you mean?",
+       "tone": "curious"
+      }
+     ],
+     "sfx": "suspense drone"
+    },
+    {
+     "n": 8,
+     "dur": 8,
+     "loc": "dark_corner",
+     "chars": [
+      "old_pickle"
+     ],
+     "keyframe": "extreme close up on Old Pickle's eye through the cloudy glass",
+     "action": "the light flickers out",
+     "camera": "dramatic crash zoom into an extreme close-up, then hold on the face",
+     "lines": [
+      {
+       "c": "old_pickle",
+       "t": "Ask her... about Lady Mayo.",
+       "tone": "whisper"
+      }
+     ],
+     "sfx": "compressor rumble, sting"
+    }
+   ],
+   "loop_note": "cliffhanger: who is Lady Mayo?"
+  },
+  {
+   "id": "CH-014",
+   "number": 14,
+   "title": "The love the Duchess lost 💔 #shorts",
+   "logline": "The Duchess finally tells the tragic story of Lady Mayo, her partner who was Chosen in 2019 and never returned, just as Lenny unearths Mayo's lost lid.",
+   "hook_text": "Her heartbreak has a name: Lady Mayo.",
+   "description": "The Duchess's past. Fridge Hearts, episode 14.",
+   "tags": [
+    "fridge drama",
+    "heartbreak",
+    "mustard",
+    "mayo",
+    "food drama",
+    "ai animation"
+   ],
+   "music": "tragic piano",
+   "guests": {
+    "lady_mayo": {
+     "name": "Lady Mayo",
+     "ref_prompt": "anthropomorphic elegant glass jar of creamy white mayonnaise, white lid with a pearl ribbon tied in a bow, gentle warm eyes, plain label with no text, small cartoon arms, graceful lady",
+     "voice": "soft, warm, elegant adult female"
+    }
+   },
+   "shots": [
+    {
+     "n": 1,
+     "dur": 8,
+     "loc": "door_shelf",
+     "chars": [
+      "avery",
+      "duchess"
+     ],
+     "keyframe": "Avery facing Duchess on the door shelf",
+     "action": "Duchess's monocle drops and dangles",
+     "camera": "two-shot",
+     "lines": [
+      {
+       "c": "avery",
+       "t": "Duchess. Who is Lady Mayo?",
+       "tone": "careful"
+      }
+     ],
+     "sfx": "monocle clink"
+    },
+    {
+     "n": 2,
+     "dur": 10,
+     "loc": "door_shelf",
+     "chars": [
+      "duchess"
+     ],
+     "keyframe": "Duchess looking away, the light softening",
+     "action": "the frame slowly fades to sepia",
+     "camera": "slow push-in",
+     "lines": [
+      {
+       "c": "duchess",
+       "t": "Sit, darling. It was 2019. The fridge was new. And so was I.",
+       "tone": "wistful"
+      }
+     ],
+     "sfx": "music box"
+    },
+    {
+     "n": 3,
+     "dur": 10,
+     "loc": "door_shelf",
+     "chars": [
+      "duchess",
+      "lady_mayo"
+     ],
+     "keyframe": "sepia flashback: a younger, shinier Duchess laughing beside Lady Mayo on the door shelf",
+     "action": "they lean their lids together",
+     "camera": "soft-focus sepia two-shot",
+     "lines": [
+      {
+       "c": "lady_mayo",
+       "t": "Darling, we'll rule this door together. Forever.",
+       "tone": "loving"
+      },
+      {
+       "c": "duchess",
+       "t": "Forever.",
+       "tone": "young, joyful"
+      }
+     ],
+     "sfx": "romantic violin"
+    },
+    {
+     "n": 4,
+     "dur": 8,
+     "loc": "fridge_open",
+     "chars": [
+      "lady_mayo",
+      "the_hand"
+     ],
+     "keyframe": "sepia: light flooding in, the Hand lifting Lady Mayo away",
+     "action": "Lady Mayo waves back toward the door shelf",
+     "camera": "sepia low angle",
+     "lines": [
+      {
+       "c": "lady_mayo",
+       "t": "I'll come back, darling. I promise.",
+       "tone": "tender"
+      }
+     ],
+     "sfx": "door whoosh, echo"
+    },
+    {
+     "n": 5,
+     "dur": 10,
+     "loc": "door_shelf",
+     "chars": [
+      "duchess",
+      "avery"
+     ],
+     "keyframe": "back to present colour, Duchess beside an empty circular spot on the shelf",
+     "action": "Duchess touches the empty space",
+     "camera": "two-shot",
+     "lines": [
+      {
+       "c": "duchess",
+       "t": "She never came back. I've kept her spot empty for seven years.",
+       "tone": "heartbroken"
+      },
+      {
+       "c": "avery",
+       "t": "That's why you never leave.",
+       "tone": "realising"
+      }
+     ],
+     "sfx": "tragic piano"
+    },
+    {
+     "n": 6,
+     "dur": 8,
+     "loc": "door_shelf",
+     "chars": [
+      "avery",
+      "duchess"
+     ],
+     "keyframe": "Avery resting her hand on Duchess's lid",
+     "action": "Duchess sniffs and straightens up",
+     "camera": "close two-shot",
+     "lines": [
+      {
+       "c": "avery",
+       "t": "I'm so sorry.",
+       "tone": "gentle"
+      },
+      {
+       "c": "duchess",
+       "t": "Don't be. Pity browns you faster.",
+       "tone": "brave"
+      }
+     ],
+     "sfx": "soft violin"
+    },
+    {
+     "n": 7,
+     "dur": 8,
+     "loc": "dark_corner",
+     "chars": [
+      "lenny",
+      "tilly"
+     ],
+     "keyframe": "Lenny dragging something out from deep shadows, Tilly watching",
+     "action": "Lenny pulls an object into the light",
+     "camera": "medium shot",
+     "lines": [
+      {
+       "c": "tilly",
+       "t": "Lenny, what's that?",
+       "tone": "curious"
+      }
+     ],
+     "sfx": "scraping"
+    },
+    {
+     "n": 8,
+     "dur": 10,
+     "loc": "dark_corner",
+     "chars": [
+      "lenny"
+     ],
+     "keyframe": "Lenny holding up an old white jar lid tied with a faded pearl ribbon",
+     "action": "the ribbon sways in the light",
+     "camera": "dramatic crash zoom into an extreme close-up, then hold on the face",
+     "lines": [
+      {
+       "c": "lenny",
+       "t": "Found this... in the back. It belonged to a Lady.",
+       "tone": "whisper"
+      }
+     ],
+     "sfx": "music box, suspense sting"
+    }
+   ],
+   "loop_note": "cliffhanger: Lady Mayo's lid"
+  },
+  {
+   "id": "CH-015",
+   "number": 15,
+   "title": "A love triangle in the crisper drawer 🥦🥑🌶️ #shorts",
+   "logline": "Brock takes Avery on a romantic date in the crisper while the gossiping Lemon Twins spot jealous Rico watching, and Rico declares war.",
+   "hook_text": "Their date had an audience 👀",
+   "description": "Love is in the crisper. So is war. Fridge Hearts, episode 15.",
+   "tags": [
+    "fridge drama",
+    "love triangle",
+    "romance",
+    "jealousy",
+    "food drama",
+    "ai animation"
+   ],
+   "music": "romantic violin",
+   "guests": {
+    "lemon_lou": {
+     "name": "Lemon Lou",
+     "ref_prompt": "anthropomorphic bright yellow lemon woman, gossipy wide eyes, tiny green leaf on top like a bow, small cartoon arms, leaning conspiratorially",
+     "voice": "fast, high, gossipy female"
+    },
+    "lemon_lu": {
+     "name": "Lemon Lu",
+     "ref_prompt": "anthropomorphic bright yellow lemon woman identical to her twin but with a leaf tilted the other way, gossipy wide eyes, small cartoon arms",
+     "voice": "fast, high, gossipy female, slightly lower"
+    }
+   },
+   "shots": [
+    {
+     "n": 1,
+     "dur": 8,
+     "loc": "crisper",
+     "chars": [
+      "brock",
+      "avery"
+     ],
+     "keyframe": "the crisper decorated with sparkling condensation like fairy lights, Brock presenting it to Avery",
+     "action": "Avery gasps, hands to her face",
+     "camera": "wide romantic shot",
+     "lines": [
+      {
+       "c": "brock",
+       "t": "I booked the crisper. Just us.",
+       "tone": "shy"
+      },
+      {
+       "c": "avery",
+       "t": "Brock... it's beautiful.",
+       "tone": "touched"
+      }
+     ],
+     "sfx": "twinkle, romantic violin"
+    },
+    {
+     "n": 2,
+     "dur": 10,
+     "loc": "crisper",
+     "chars": [
+      "avery",
+      "brock"
+     ],
+     "keyframe": "Avery and Brock lounging in the mist side by side",
+     "action": "Avery turns to Brock",
+     "camera": "close two-shot",
+     "lines": [
+      {
+       "c": "avery",
+       "t": "Do you ever worry about being Chosen?",
+       "tone": "soft"
+      },
+      {
+       "c": "brock",
+       "t": "Only if I'm Chosen without you.",
+       "tone": "sincere"
+      }
+     ],
+     "sfx": "soft violin"
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "crisper",
+     "chars": [
+      "lemon_lou",
+      "lemon_lu"
+     ],
+     "keyframe": "the Lemon Twins peeking over a lettuce leaf",
+     "action": "they grip each other excitedly",
+     "camera": "over the lettuce",
+     "lines": [
+      {
+       "c": "lemon_lou",
+       "t": "Are you seeing this?",
+       "tone": "gossipy"
+      },
+      {
+       "c": "lemon_lu",
+       "t": "Seeing it AND squeezing it!",
+       "tone": "giddy"
+      }
+     ],
+     "sfx": "giggles"
+    },
+    {
+     "n": 4,
+     "dur": 10,
+     "loc": "crisper",
+     "chars": [
+      "avery",
+      "brock"
+     ],
+     "keyframe": "Avery resting her head on Brock's shoulder",
+     "action": "Brock gently tucks a leaf behind her ear",
+     "camera": "slow romantic push-in",
+     "lines": [
+      {
+       "c": "avery",
+       "t": "When I'm with you, I forget about the brown.",
+       "tone": "dreamy"
+      },
+      {
+       "c": "brock",
+       "t": "What brown? You're perfect.",
+       "tone": "tender"
+      }
+     ],
+     "sfx": "romantic violin swell"
+    },
+    {
+     "n": 5,
+     "dur": 8,
+     "loc": "door_shelf",
+     "chars": [
+      "rico"
+     ],
+     "keyframe": "Rico watching through a gap in the shelf, trembling with emotion",
+     "action": "Rico clutches a scrap of napkin covered in scribbles",
+     "camera": "close up through the gap",
+     "lines": [
+      {
+       "c": "rico",
+       "t": "Perfect? I wrote her forty poems.",
+       "tone": "bitter"
+      }
+     ],
+     "sfx": "paper crumple"
+    },
+    {
+     "n": 6,
+     "dur": 8,
+     "loc": "crisper",
+     "chars": [
+      "lemon_lou",
+      "lemon_lu"
+     ],
+     "keyframe": "the Lemon Twins spinning around to spot Rico in the distance",
+     "action": "they gasp in unison",
+     "camera": "whip pan",
+     "lines": [
+      {
+       "c": "lemon_lou",
+       "t": "Rico's watching!",
+       "tone": "scandalised"
+      },
+      {
+       "c": "lemon_lu",
+       "t": "Love triangle! Zesty!",
+       "tone": "delighted"
+      }
+     ],
+     "sfx": "gasp, sting"
+    },
+    {
+     "n": 7,
+     "dur": 10,
+     "loc": "door_shelf",
+     "chars": [
+      "duchess",
+      "rico"
+     ],
+     "keyframe": "Duchess appearing beside Rico on the door shelf",
+     "action": "Rico turns away from her",
+     "camera": "two-shot",
+     "lines": [
+      {
+       "c": "duchess",
+       "t": "Let it go, Rico. Bitterness doesn't suit a sauce.",
+       "tone": "wise"
+      },
+      {
+       "c": "rico",
+       "t": "I'm not bitter. I'm HOT.",
+       "tone": "fiery"
+      }
+     ],
+     "sfx": "sizzle"
+    },
+    {
+     "n": 8,
+     "dur": 8,
+     "loc": "door_shelf",
+     "chars": [
+      "rico"
+     ],
+     "keyframe": "Rico twisting his cap tight, eyes burning red",
+     "action": "steam rises from his bottle",
+     "camera": "dramatic crash zoom into an extreme close-up, then hold on the face",
+     "lines": [
+      {
+       "c": "rico",
+       "t": "If the broccoli wants a war... he's got one.",
+       "tone": "menacing"
+      }
+     ],
+     "sfx": "flame whoosh, sting"
+    }
+   ],
+   "loop_note": "cliffhanger: Rico declares war"
+  }
+ ]
 }

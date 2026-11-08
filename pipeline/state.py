@@ -55,6 +55,19 @@ def sync(s):
     for ch_dir in sorted(CHANNELS_DIR.iterdir()):
         ch = s["channels"].setdefault(ch_dir.name, {"episodes": {}})
         ids = [e["id"] for e in episodes(ch_dir.name)]
+        gone = [k for k in ch["episodes"] if k not in set(ids)]
+        if gone and ids:
+            # scripts were replaced (new format): keep the old records out of the way, and restart the
+            # compilation trackers if the episode numbering restarted with a new id prefix
+            arch = ch.setdefault("archived", {})
+            for k in gone:
+                arch[k] = ch["episodes"].pop(k)
+            new_prefix = ids[0].split("-")[0]
+            if all(k.split("-")[0] != new_prefix for k in gone):
+                for t in ("last_compiled", "last_compiled_weekly"):
+                    if ch.get(t):
+                        ch.setdefault("archived_trackers", {})[t] = ch[t]
+                        ch[t] = 0
         for ep_id in ids:
             rec = ch["episodes"].setdefault(ep_id, {"status": "scripted", "history": []})
             rec.setdefault("attempts", 0)

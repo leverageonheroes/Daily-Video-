@@ -1,0 +1,1969 @@
+{
+ "episodes": [
+  {
+   "id": "F4B-016",
+   "number": 16,
+   "title": "'Unexpected item in bagging area' 🛒 #shorts",
+   "logline": "Margo battles a self-checkout that keeps detecting an unexpected item, which turns out to be Sloane asleep in the bagging area.",
+   "hook_text": "UNEXPECTED ITEM IN BAGGING AREA 🛒",
+   "description": "The self-checkout was right for once. Flat 4B.",
+   "tags": [
+    "self checkout",
+    "supermarket",
+    "shopping",
+    "relatable",
+    "animation",
+    "comedy"
+   ],
+   "music": "tense comedic strings",
+   "shots": [
+    {
+     "n": 1,
+     "dur": 6,
+     "loc": "supermarket",
+     "chars": [
+      "margo"
+     ],
+     "keyframe": "Margo at a self-checkout scanning a single apple, the machine screen flashing red",
+     "action": "the machine flashes, Margo's eye twitches",
+     "camera": "medium shot",
+     "lines": [
+      {
+       "c": "margo",
+       "t": "Unexpected item in bagging area. Again.",
+       "tone": "through gritted teeth"
+      }
+     ],
+     "sfx": "error beep"
+    },
+    {
+     "n": 2,
+     "dur": 8,
+     "loc": "supermarket",
+     "chars": [
+      "margo"
+     ],
+     "keyframe": "Margo removing items from the bag one by one, glaring at the screen",
+     "action": "she lifts the apple, puts it back; the machine beeps red each time",
+     "camera": "close up on her paws and the flashing light",
+     "lines": [
+      {
+       "c": "margo",
+       "t": "I have one apple. ONE. I have a degree in maths.",
+       "tone": "seething"
+      }
+     ],
+     "sfx": "beep, beep, beep"
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "supermarket",
+     "chars": [
+      "dougie",
+      "margo"
+     ],
+     "keyframe": "Dougie arriving with a basket, peering at the bagging area",
+     "action": "Dougie leans over and lifts the edge of a large shopping bag",
+     "camera": "two-shot",
+     "lines": [
+      {
+       "c": "dougie",
+       "t": "Margo... I think the machine's right.",
+       "tone": "nervous"
+      }
+     ],
+     "sfx": "rustling bag"
+    },
+    {
+     "n": 4,
+     "dur": 8,
+     "loc": "supermarket",
+     "chars": [
+      "sloane",
+      "margo"
+     ],
+     "keyframe": "Sloane curled up asleep inside the bagging area, beanie over his eyes, cosy",
+     "action": "Sloane slowly lifts his beanie and opens one eye",
+     "camera": "top-down into the bagging area",
+     "lines": [
+      {
+       "c": "sloane",
+       "t": "It's... warm... in here.",
+       "tone": "sleepy"
+      },
+      {
+       "c": "margo",
+       "t": "How long have you been there?",
+       "tone": "flat"
+      }
+     ],
+     "sfx": "soft snore"
+    },
+    {
+     "n": 5,
+     "dur": 6,
+     "loc": "supermarket",
+     "chars": [
+      "sloane"
+     ],
+     "keyframe": "Sloane sitting up in the bagging area, the machine screen flashing green",
+     "action": "the machine happily prints a very long receipt",
+     "camera": "medium shot",
+     "lines": [
+      {
+       "c": "sloane",
+       "t": "Since... Tuesday.",
+       "tone": "slow"
+      }
+     ],
+     "sfx": "happy checkout chime, printer whirr"
+    }
+   ],
+   "loop_note": "loops to the first red error beep"
+  },
+  {
+   "id": "F4B-017",
+   "number": 17,
+   "title": "Planning a surprise for the friend who hates surprises 🎂 #shorts",
+   "logline": "The flatmates plan Margo's surprise party on a spreadsheet they accidentally shared with her, only for Margo to have planned a surprise party for all of them the same night.",
+   "hook_text": "She hates surprises. We did it anyway.",
+   "description": "Surprise! (She knew.) Flat 4B.",
+   "tags": [
+    "surprise party",
+    "birthday",
+    "friends",
+    "fail",
+    "animation",
+    "comedy"
+   ],
+   "music": "spy heist",
+   "shots": [
+    {
+     "n": 1,
+     "dur": 8,
+     "loc": "living_room",
+     "chars": [
+      "dougie",
+      "pidge"
+     ],
+     "keyframe": "Dougie and Pidge whispering over a laptop, a party hat on Dougie",
+     "action": "they huddle, Dougie hides balloons behind his back",
+     "camera": "close two-shot",
+     "lines": [
+      {
+       "c": "dougie",
+       "t": "Operation Birthday Cat. She can never find out.",
+       "tone": "whispered, excited"
+      },
+      {
+       "c": "pidge",
+       "t": "Sharing the plan now.",
+       "tone": "whispered"
+      }
+     ],
+     "sfx": "click"
+    },
+    {
+     "n": 2,
+     "dur": 6,
+     "loc": "kitchen",
+     "chars": [
+      "margo"
+     ],
+     "keyframe": "Margo in the kitchen, her laptop pinging with a notification",
+     "action": "she opens the laptop, reads, raises one eyebrow",
+     "camera": "close up",
+     "lines": [
+      {
+       "c": "margo",
+       "t": "They shared it with me.",
+       "tone": "flat"
+      }
+     ],
+     "sfx": "notification ping"
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "hallway",
+     "chars": [
+      "dougie",
+      "pidge"
+     ],
+     "keyframe": "dark hallway, Dougie and Pidge crouched with a cake and confetti cannons",
+     "action": "the front door opens, they leap up",
+     "camera": "wide",
+     "lines": [
+      {
+       "c": "dougie",
+       "t": "SURPRISE!",
+       "tone": "shouting"
+      },
+      {
+       "c": "pidge",
+       "t": "SURPRISE!",
+       "tone": "shouting"
+      }
+     ],
+     "sfx": "confetti cannons pop"
+    },
+    {
+     "n": 4,
+     "dur": 8,
+     "loc": "hallway",
+     "chars": [
+      "margo"
+     ],
+     "keyframe": "Margo standing in the doorway calmly holding her own cake, wearing a party hat",
+     "action": "she pulls a string and her own confetti cannon goes off",
+     "camera": "medium shot",
+     "lines": [
+      {
+       "c": "margo",
+       "t": "Surprise. Your party. Today. I have a spreadsheet.",
+       "tone": "deadpan"
+      }
+     ],
+     "sfx": "confetti pop"
+    },
+    {
+     "n": 5,
+     "dur": 8,
+     "loc": "living_room",
+     "chars": [
+      "sloane",
+      "dougie"
+     ],
+     "keyframe": "living room covered in confetti, two cakes, Sloane slowly blowing a party horn",
+     "action": "the party horn uncurls very slowly",
+     "camera": "slow push-in",
+     "lines": [
+      {
+       "c": "dougie",
+       "t": "Wait, whose birthday is it?",
+       "tone": "confused"
+      },
+      {
+       "c": "sloane",
+       "t": "Mine... was in March.",
+       "tone": "slow"
+      }
+     ],
+     "sfx": "slow party horn"
+    }
+   ],
+   "loop_note": "loops to the whispering huddle"
+  },
+  {
+   "id": "F4B-018",
+   "number": 18,
+   "title": "The smart speaker hates fast talkers 🔊 #shorts",
+   "logline": "Pidge's new smart speaker can't understand his rapid hustle-talk but obeys Sloane's ultra-slow voice perfectly.",
+   "hook_text": "His smart speaker only obeys ONE flatmate",
+   "description": "Speak... slowly... Flat 4B.",
+   "tags": [
+    "smart speaker",
+    "technology",
+    "voice assistant",
+    "flatmates",
+    "animation",
+    "comedy"
+   ],
+   "music": "lofi chill",
+   "guests": {
+    "orb": {
+     "name": "Orb",
+     "ref_prompt": "a small round glowing smart speaker on the coffee table with a ring of soft blue light that pulses when it talks, two simple cartoon eyes in the light",
+     "voice": "calm, polite synthetic female assistant"
+    }
+   },
+   "shots": [
+    {
+     "n": 1,
+     "dur": 8,
+     "loc": "living_room",
+     "chars": [
+      "pidge",
+      "orb"
+     ],
+     "keyframe": "Pidge unboxing a glowing smart speaker on the coffee table",
+     "action": "Pidge speaks rapidly at the speaker, its light pulses confused",
+     "camera": "medium shot",
+     "lines": [
+      {
+       "c": "pidge",
+       "t": "Play-music-volume-ten-order-chips-and-text-my-mum!",
+       "tone": "rapid fire"
+      },
+      {
+       "c": "orb",
+       "t": "Sorry, I didn't catch that.",
+       "tone": "polite"
+      }
+     ],
+     "sfx": "error chime"
+    },
+    {
+     "n": 2,
+     "dur": 6,
+     "loc": "living_room",
+     "chars": [
+      "pidge",
+      "orb"
+     ],
+     "keyframe": "Pidge leaning in close to the speaker, nose to light",
+     "action": "he repeats himself even faster",
+     "camera": "extreme close up",
+     "lines": [
+      {
+       "c": "pidge",
+       "t": "MUSIC! Chips! Mum!",
+       "tone": "shouting"
+      },
+      {
+       "c": "orb",
+       "t": "Sorry.",
+       "tone": "polite"
+      }
+     ],
+     "sfx": "error chime"
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "living_room",
+     "chars": [
+      "sloane",
+      "orb"
+     ],
+     "keyframe": "Sloane drifting into frame, leaning slowly toward the speaker",
+     "action": "the speaker light glows bright happy green as Sloane speaks",
+     "camera": "two-shot",
+     "lines": [
+      {
+       "c": "sloane",
+       "t": "Play... some... music.",
+       "tone": "very slow"
+      },
+      {
+       "c": "orb",
+       "t": "Of course, Sloane.",
+       "tone": "warm"
+      }
+     ],
+     "sfx": "happy chime, lofi music starts"
+    },
+    {
+     "n": 4,
+     "dur": 8,
+     "loc": "living_room",
+     "chars": [
+      "pidge"
+     ],
+     "keyframe": "Pidge sitting cross-legged, breathing deeply, eyes closed like meditating",
+     "action": "Pidge opens his eyes and speaks with painful slowness",
+     "camera": "medium shot",
+     "lines": [
+      {
+       "c": "pidge",
+       "t": "Order... one... large... pizza.",
+       "tone": "forced slow"
+      }
+     ],
+     "sfx": "meditation bell"
+    },
+    {
+     "n": 5,
+     "dur": 8,
+     "loc": "hallway",
+     "chars": [
+      "pidge",
+      "margo"
+     ],
+     "keyframe": "the hallway filling with pizza boxes stacked to the ceiling, delivery drivers queuing out the door",
+     "action": "boxes keep sliding in through the door, Margo pinned against the wall",
+     "camera": "wide",
+     "lines": [
+      {
+       "c": "margo",
+       "t": "How many did you order?",
+       "tone": "muffled"
+      },
+      {
+       "c": "pidge",
+       "t": "I paused too long between 'one' and 'large'.",
+       "tone": "guilty"
+      }
+     ],
+     "sfx": "doorbell ringing repeatedly"
+    }
+   ],
+   "loop_note": "loops to unboxing"
+  },
+  {
+   "id": "F4B-019",
+   "number": 19,
+   "title": "I accidentally hit 'reply all' 😰 #shorts",
+   "logline": "Dougie accidentally sends a Monday-meetings rant to the whole company and attempts a heist to stop it, only for everyone, including his boss, to reply 'me too'.",
+   "hook_text": "He hit REPLY ALL 😰",
+   "description": "We've all been there. Flat 4B.",
+   "tags": [
+    "reply all",
+    "email",
+    "office",
+    "work fail",
+    "animation",
+    "comedy"
+   ],
+   "music": "spy heist",
+   "guests": {
+    "heron": {
+     "name": "Mr Heron",
+     "ref_prompt": "anthropomorphic tall grey heron man, thin long beak, tiny rectangular glasses, slim grey suit and skinny tie, holding a coffee cup, stands upright",
+     "voice": "nasal, monotone middle-aged male manager"
+    }
+   },
+   "shots": [
+    {
+     "n": 1,
+     "dur": 6,
+     "loc": "office_desk",
+     "chars": [
+      "dougie"
+     ],
+     "keyframe": "Dougie at his desk smirking and typing an email",
+     "action": "he clicks send with a flourish",
+     "camera": "over-the-shoulder",
+     "lines": [
+      {
+       "c": "dougie",
+       "t": "Does anyone else hate Monday meetings? Sent to Pidge.",
+       "tone": "cheeky"
+      }
+     ],
+     "sfx": "whoosh"
+    },
+    {
+     "n": 2,
+     "dur": 6,
+     "loc": "office_desk",
+     "chars": [
+      "dougie"
+     ],
+     "keyframe": "close on Dougie's face as the monitor light turns red on him",
+     "action": "his ears shoot straight up, his pupils shrink",
+     "camera": "snap zoom",
+     "lines": [
+      {
+       "c": "dougie",
+       "t": "Sent to... ALL STAFF.",
+       "tone": "horrified"
+      }
+     ],
+     "sfx": "horror sting"
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "office_desk",
+     "chars": [
+      "dougie"
+     ],
+     "keyframe": "Dougie in a black turtleneck rolling across the office floor like a spy",
+     "action": "he dodges between desks, leaps over a photocopier, dives toward a server cabinet",
+     "camera": "dynamic slow motion",
+     "lines": [
+      {
+       "c": "dougie",
+       "t": "If I unplug the internet... nobody reads it.",
+       "tone": "determined whisper"
+      }
+     ],
+     "sfx": "spy music, slow-motion whoosh"
+    },
+    {
+     "n": 4,
+     "dur": 8,
+     "loc": "office_desk",
+     "chars": [
+      "heron",
+      "dougie"
+     ],
+     "keyframe": "Dougie frozen mid-dive, Mr Heron standing over him with a coffee",
+     "action": "Heron looks down at Dougie on the floor",
+     "camera": "low angle from the floor",
+     "lines": [
+      {
+       "c": "heron",
+       "t": "Dougie. About your email.",
+       "tone": "flat"
+      },
+      {
+       "c": "dougie",
+       "t": "I can explain. I cannot explain.",
+       "tone": "terrified"
+      }
+     ],
+     "sfx": "spy music stops"
+    },
+    {
+     "n": 5,
+     "dur": 8,
+     "loc": "office_desk",
+     "chars": [
+      "heron",
+      "dougie"
+     ],
+     "keyframe": "the whole office behind them, every monitor lighting up with a ping",
+     "action": "ping after ping across all the screens, coworkers nodding",
+     "camera": "wide reveal",
+     "lines": [
+      {
+       "c": "heron",
+       "t": "Me too. Meeting cancelled. Forever.",
+       "tone": "flat but sincere"
+      },
+      {
+       "c": "dougie",
+       "t": "BIG DAY!",
+       "tone": "ecstatic"
+      }
+     ],
+     "sfx": "cascade of email pings, cheering"
+    }
+   ],
+   "loop_note": "loops to Dougie typing"
+  },
+  {
+   "id": "F4B-020",
+   "number": 20,
+   "title": "We all secretly watered the plant 🪴 #shorts",
+   "logline": "Each flatmate secretly waters Margo's dying plant at night until it floods, and Margo reveals it's plastic just as it sprouts a real flower.",
+   "hook_text": "Everyone secretly watered the plant 🪴",
+   "description": "Love finds a way. So does water. Flat 4B.",
+   "tags": [
+    "plant parent",
+    "houseplant",
+    "flatmates",
+    "wholesome",
+    "animation",
+    "comedy"
+   ],
+   "music": "upbeat ukulele",
+   "shots": [
+    {
+     "n": 1,
+     "dur": 6,
+     "loc": "living_room",
+     "chars": [
+      "margo"
+     ],
+     "keyframe": "Margo looking at a droopy potted plant on the windowsill",
+     "action": "a single leaf flops down",
+     "camera": "medium shot",
+     "lines": [
+      {
+       "c": "margo",
+       "t": "Nobody touch the plant. I have a system.",
+       "tone": "stern"
+      }
+     ],
+     "sfx": "sad leaf flop"
+    },
+    {
+     "n": 2,
+     "dur": 8,
+     "loc": "living_room",
+     "chars": [
+      "dougie",
+      "pidge"
+     ],
+     "keyframe": "night, Dougie sneaking to the plant with a watering can",
+     "action": "Dougie waters it and sneaks away; Pidge immediately sneaks in and pours a whole bottle",
+     "camera": "locked-off night shot",
+     "lines": [
+      {
+       "c": "dougie",
+       "t": "Just a little drink, buddy.",
+       "tone": "whisper"
+      },
+      {
+       "c": "pidge",
+       "t": "Hydration is a business model.",
+       "tone": "whisper"
+      }
+     ],
+     "sfx": "pouring water, tiptoeing"
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "living_room",
+     "chars": [
+      "sloane"
+     ],
+     "keyframe": "Sloane very slowly carrying a full bucket to the plant",
+     "action": "he tips the whole bucket; water overflows across the windowsill and onto the floor",
+     "camera": "slow-motion wide",
+     "lines": [
+      {
+       "c": "sloane",
+       "t": "There... you go.",
+       "tone": "gentle, slow"
+      }
+     ],
+     "sfx": "big splash, dripping"
+    },
+    {
+     "n": 4,
+     "dur": 8,
+     "loc": "living_room",
+     "chars": [
+      "margo",
+      "dougie"
+     ],
+     "keyframe": "morning, the living room flooded ankle-deep, the plant floating in its pot, Margo in wellies",
+     "action": "everyone sheepishly avoids eye contact",
+     "camera": "wide",
+     "lines": [
+      {
+       "c": "margo",
+       "t": "It's plastic. I bought it to see who cared.",
+       "tone": "deadpan"
+      },
+      {
+       "c": "dougie",
+       "t": "So... we all passed?",
+       "tone": "hopeful"
+      }
+     ],
+     "sfx": "water sloshing"
+    },
+    {
+     "n": 5,
+     "dur": 6,
+     "loc": "living_room",
+     "chars": [
+      "margo"
+     ],
+     "keyframe": "close on the plastic plant",
+     "action": "a real tiny pink flower slowly blooms from the plastic plant; Margo stares",
+     "camera": "slow push-in on the flower",
+     "lines": [
+      {
+       "c": "margo",
+       "t": "...That's not in the spreadsheet.",
+       "tone": "stunned"
+      }
+     ],
+     "sfx": "magical twinkle"
+    }
+   ],
+   "loop_note": "loops to the droopy plant"
+  },
+  {
+   "id": "F4B-021",
+   "number": 21,
+   "title": "When the Wi-Fi goes down 📶 #shorts",
+   "logline": "When the Wi-Fi dies the flatmates are forced to play a board game and bond, until it reconnects and they instantly go silent on their phones.",
+   "hook_text": "The Wi-Fi went down 📶😱",
+   "description": "Forty minutes of human connection. Flat 4B.",
+   "tags": [
+    "wifi down",
+    "no internet",
+    "board games",
+    "friends",
+    "animation",
+    "comedy"
+   ],
+   "music": "dramatic organ",
+   "shots": [
+    {
+     "n": 1,
+     "dur": 6,
+     "loc": "living_room",
+     "chars": [
+      "pidge",
+      "dougie"
+     ],
+     "keyframe": "all four flatmates on the sofa staring at phones, then the router light blinks red",
+     "action": "everyone gasps and looks up from their phones",
+     "camera": "wide",
+     "lines": [
+      {
+       "c": "pidge",
+       "t": "The Wi-Fi's down!",
+       "tone": "horrified"
+      },
+      {
+       "c": "dougie",
+       "t": "Is this... the end?",
+       "tone": "terrified"
+      }
+     ],
+     "sfx": "power-down sound, dramatic organ chord"
+    },
+    {
+     "n": 2,
+     "dur": 8,
+     "loc": "living_room",
+     "chars": [
+      "margo"
+     ],
+     "keyframe": "Margo pulling a dusty board game box from under the sofa",
+     "action": "she blows dust off the box dramatically",
+     "camera": "low angle hero shot",
+     "lines": [
+      {
+       "c": "margo",
+       "t": "Stay calm. We have... the ancient ways.",
+       "tone": "grave"
+      }
+     ],
+     "sfx": "dust whoosh, choir"
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "living_room",
+     "chars": [
+      "dougie",
+      "pidge"
+     ],
+     "keyframe": "the flatmates around the coffee table playing the game, laughing",
+     "action": "montage of laughing, high-fives, Dougie hugging Pidge",
+     "camera": "warm golden handheld",
+     "lines": [
+      {
+       "c": "dougie",
+       "t": "I love you guys!",
+       "tone": "teary"
+      },
+      {
+       "c": "pidge",
+       "t": "Nobody tell my followers.",
+       "tone": "laughing"
+      }
+     ],
+     "sfx": "laughter, dice rolling"
+    },
+    {
+     "n": 4,
+     "dur": 6,
+     "loc": "living_room",
+     "chars": [
+      "margo"
+     ],
+     "keyframe": "close on the router, its light turns green",
+     "action": "everyone's heads snap toward the router",
+     "camera": "snap zoom",
+     "lines": [],
+     "sfx": "connection chime"
+    },
+    {
+     "n": 5,
+     "dur": 8,
+     "loc": "living_room",
+     "chars": [
+      "sloane"
+     ],
+     "keyframe": "everyone back on the sofa staring at phones in silence, except Sloane still holding a game piece",
+     "action": "Sloane slowly places the game piece on the board, alone",
+     "camera": "slow push-in on Sloane",
+     "lines": [
+      {
+       "c": "sloane",
+       "t": "My turn... anyone?",
+       "tone": "slow, hopeful"
+      }
+     ],
+     "sfx": "silence, one game piece click"
+    }
+   ],
+   "loop_note": "loops to everyone on phones"
+  },
+  {
+   "id": "F4B-022",
+   "number": 22,
+   "title": "The last biscuit standoff 🍪 #shorts",
+   "logline": "Margo, Dougie and Pidge face off in a western-style standoff over the last biscuit until the landlady snatches it citing house rules.",
+   "hook_text": "One biscuit. Three flatmates. 🍪",
+   "description": "There can only be one. Flat 4B.",
+   "tags": [
+    "last biscuit",
+    "standoff",
+    "snacks",
+    "flatmates",
+    "animation",
+    "comedy"
+   ],
+   "music": "western standoff",
+   "shots": [
+    {
+     "n": 1,
+     "dur": 6,
+     "loc": "kitchen",
+     "chars": [
+      "margo"
+     ],
+     "keyframe": "a single biscuit on a plate in the centre of the kitchen table, lit like treasure",
+     "action": "camera circles the biscuit as a dust bunny rolls past like tumbleweed",
+     "camera": "slow orbit",
+     "lines": [
+      {
+       "c": "margo",
+       "t": "The last biscuit.",
+       "tone": "low, dramatic"
+      }
+     ],
+     "sfx": "western whistle, wind"
+    },
+    {
+     "n": 2,
+     "dur": 8,
+     "loc": "kitchen",
+     "chars": [
+      "margo",
+      "dougie"
+     ],
+     "keyframe": "extreme close ups of Margo's narrowed eyes, then Dougie's twitching paw",
+     "action": "quick cuts between eyes and twitching paws",
+     "camera": "western-style extreme close ups",
+     "lines": [
+      {
+       "c": "margo",
+       "t": "I bought that packet.",
+       "tone": "cold"
+      },
+      {
+       "c": "dougie",
+       "t": "I opened that packet.",
+       "tone": "gritty"
+      }
+     ],
+     "sfx": "spurs jingle"
+    },
+    {
+     "n": 3,
+     "dur": 6,
+     "loc": "kitchen",
+     "chars": [
+      "pidge"
+     ],
+     "keyframe": "Pidge chewing a toothpick, cap pulled low like a cowboy",
+     "action": "Pidge flexes his wing toward the plate",
+     "camera": "low angle",
+     "lines": [
+      {
+       "c": "pidge",
+       "t": "I've got crumbs to feed.",
+       "tone": "gravelly"
+      }
+     ],
+     "sfx": "bell tolls"
+    },
+    {
+     "n": 4,
+     "dur": 8,
+     "loc": "kitchen",
+     "chars": [
+      "margo",
+      "dougie"
+     ],
+     "keyframe": "all three lunging toward the biscuit in slow motion",
+     "action": "just before they grab it, a paw in a floral sleeve snatches it through the window",
+     "camera": "slow-motion wide",
+     "lines": [
+      {
+       "c": "dougie",
+       "t": "Nooooo!",
+       "tone": "slow motion"
+      }
+     ],
+     "sfx": "slow-motion whoosh, window slam"
+    },
+    {
+     "n": 5,
+     "dur": 8,
+     "loc": "stairwell",
+     "chars": [
+      "mrs_badger"
+     ],
+     "keyframe": "Mrs Badger on the stairs eating the biscuit, holding her clipboard",
+     "action": "she takes a satisfied bite and walks upstairs",
+     "camera": "medium shot",
+     "lines": [
+      {
+       "c": "mrs_badger",
+       "t": "Rule number forty-seven. Last biscuit goes to the landlady.",
+       "tone": "smug"
+      }
+     ],
+     "sfx": "crunch, western sting"
+    }
+   ],
+   "loop_note": "loops to the single biscuit"
+  },
+  {
+   "id": "F4B-023",
+   "number": 23,
+   "title": "Monday motivation vs. actual Monday ☔ #shorts",
+   "logline": "Dougie's motivational Monday post is followed by a disastrous commute, while Sloane's video of doing nothing goes viral.",
+   "hook_text": "Monday motivation vs. Monday",
+   "description": "Rise and grind. Or don't. Flat 4B.",
+   "tags": [
+    "monday",
+    "motivation",
+    "commute",
+    "viral",
+    "animation",
+    "comedy"
+   ],
+   "music": "triumphant brass sting",
+   "shots": [
+    {
+     "n": 1,
+     "dur": 6,
+     "loc": "bedroom",
+     "chars": [
+      "dougie"
+     ],
+     "keyframe": "Dougie by a sunny window holding his phone, posing with a mug",
+     "action": "he takes a selfie with a huge grin",
+     "camera": "selfie angle",
+     "lines": [
+      {
+       "c": "dougie",
+       "t": "Rise and grind! Mondays are a gift!",
+       "tone": "inspirational"
+      }
+     ],
+     "sfx": "camera shutter, birdsong"
+    },
+    {
+     "n": 2,
+     "dur": 8,
+     "loc": "street",
+     "chars": [
+      "dougie"
+     ],
+     "keyframe": "Dougie walking down the street with an umbrella, smiling",
+     "action": "the umbrella flips inside out, a bus drives past and splashes him with a wave of puddle water",
+     "camera": "wide, slow motion on the splash",
+     "lines": [
+      {
+       "c": "dougie",
+       "t": "A gift. A gift. A wet gift.",
+       "tone": "trying to stay positive"
+      }
+     ],
+     "sfx": "wind gust, bus splash"
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "living_room",
+     "chars": [
+      "pidge",
+      "sloane"
+     ],
+     "keyframe": "Pidge filming Sloane lying motionless on the sofa",
+     "action": "Sloane blinks once very slowly; Pidge posts the clip",
+     "camera": "phone POV",
+     "lines": [
+      {
+       "c": "pidge",
+       "t": "Sloane doing absolutely nothing. Posting it.",
+       "tone": "bored"
+      }
+     ],
+     "sfx": "post whoosh"
+    },
+    {
+     "n": 4,
+     "dur": 8,
+     "loc": "living_room",
+     "chars": [
+      "pidge",
+      "sloane"
+     ],
+     "keyframe": "Pidge's phone exploding with glowing notification hearts flying everywhere",
+     "action": "hearts swirl around the room, Pidge stares at the screen",
+     "camera": "medium shot",
+     "lines": [
+      {
+       "c": "pidge",
+       "t": "Mate. A million views. They're calling you 'Monday Mood'.",
+       "tone": "stunned"
+      }
+     ],
+     "sfx": "notification avalanche"
+    },
+    {
+     "n": 5,
+     "dur": 6,
+     "loc": "hallway",
+     "chars": [
+      "dougie",
+      "sloane"
+     ],
+     "keyframe": "soaked Dougie entering the hallway as Sloane lies on the floor in a sunbeam",
+     "action": "Dougie drips, Sloane gives a slow thumbs up",
+     "camera": "two-shot",
+     "lines": [
+      {
+       "c": "sloane",
+       "t": "Rise... and... don't.",
+       "tone": "slow, wise"
+      }
+     ],
+     "sfx": "dripping, rimshot"
+    }
+   ],
+   "loop_note": "loops to the sunny selfie"
+  },
+  {
+   "id": "F4B-024",
+   "number": 24,
+   "title": "Fancy restaurant portions be like 🍽️ #shorts",
+   "logline": "At a fancy restaurant Pidge eats the tiny decorative leaf on his plate and learns it was ninety pounds of edible gold.",
+   "hook_text": "£90 for THIS? 🍽️",
+   "description": "Fine dining for a pigeon. Flat 4B.",
+   "tags": [
+    "fine dining",
+    "tiny portions",
+    "expensive food",
+    "restaurant",
+    "animation",
+    "comedy"
+   ],
+   "music": "dramatic organ",
+   "guests": {
+    "gerald": {
+     "name": "Gerald",
+     "ref_prompt": "anthropomorphic emperor penguin waiter, natural tuxedo plumage, white napkin over one flipper, small silver tray, very upright posture",
+     "voice": "posh, polite, older male waiter"
+    }
+   },
+   "shots": [
+    {
+     "n": 1,
+     "dur": 8,
+     "loc": "restaurant",
+     "chars": [
+      "gerald",
+      "pidge"
+     ],
+     "keyframe": "Gerald placing a giant white plate with one tiny dot of food and a small shiny gold leaf in front of Pidge",
+     "action": "Pidge leans in, squinting at the tiny portion",
+     "camera": "top-down on the giant plate",
+     "lines": [
+      {
+       "c": "gerald",
+       "t": "Deconstructed essence of carrot, sir.",
+       "tone": "posh"
+      },
+      {
+       "c": "pidge",
+       "t": "Where's the rest of it?",
+       "tone": "confused"
+      }
+     ],
+     "sfx": "plate clink"
+    },
+    {
+     "n": 2,
+     "dur": 6,
+     "loc": "restaurant",
+     "chars": [
+      "pidge"
+     ],
+     "keyframe": "Pidge pecking the tiny dot of food in one go",
+     "action": "he swallows, looks around, then pecks the shiny leaf too",
+     "camera": "close up",
+     "lines": [
+      {
+       "c": "pidge",
+       "t": "Still starving. Bit of garnish then.",
+       "tone": "shrug"
+      }
+     ],
+     "sfx": "peck, gulp"
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "restaurant",
+     "chars": [
+      "gerald",
+      "pidge"
+     ],
+     "keyframe": "Gerald frozen, holding the bill, Pidge with a gold fleck on his beak",
+     "action": "Gerald slowly sets down the bill",
+     "camera": "two-shot",
+     "lines": [
+      {
+       "c": "gerald",
+       "t": "Sir. That was the gold leaf. Ninety pounds.",
+       "tone": "horrified, polite"
+      }
+     ],
+     "sfx": "dramatic organ chord"
+    },
+    {
+     "n": 4,
+     "dur": 8,
+     "loc": "restaurant",
+     "chars": [
+      "pidge",
+      "margo"
+     ],
+     "keyframe": "Pidge sweating, turning to Margo across the table",
+     "action": "Margo calmly sips water without looking up",
+     "camera": "medium shot",
+     "lines": [
+      {
+       "c": "pidge",
+       "t": "Margo. Bestie. Favourite flatmate.",
+       "tone": "desperate"
+      },
+      {
+       "c": "margo",
+       "t": "No.",
+       "tone": "deadpan"
+      }
+     ],
+     "sfx": "sip"
+    },
+    {
+     "n": 5,
+     "dur": 8,
+     "loc": "restaurant",
+     "chars": [
+      "pidge",
+      "gerald"
+     ],
+     "keyframe": "Pidge offering Gerald a handful of breadsticks from his vest pocket",
+     "action": "Gerald considers, then takes one breadstick and bites it",
+     "camera": "close two-shot",
+     "lines": [
+      {
+       "c": "pidge",
+       "t": "Can I pay in breadsticks?",
+       "tone": "hopeful"
+      },
+      {
+       "c": "gerald",
+       "t": "...Deconstructed payment accepted.",
+       "tone": "posh"
+      }
+     ],
+     "sfx": "crunch, ding"
+    }
+   ],
+   "loop_note": "loops to the giant plate"
+  },
+  {
+   "id": "F4B-025",
+   "number": 25,
+   "title": "Working from home with flatmates 💻 #shorts",
+   "logline": "Margo stays perfectly composed on a work video call while total chaos erupts behind her, protected by a virtual background, until it glitches.",
+   "hook_text": "Her video call vs. her flat 💻",
+   "description": "Professional from the shoulders up. Flat 4B.",
+   "tags": [
+    "work from home",
+    "video call",
+    "wfh",
+    "zoom fail",
+    "animation",
+    "comedy"
+   ],
+   "music": "tense comedic strings",
+   "guests": {
+    "heron": {
+     "name": "Mr Heron",
+     "ref_prompt": "anthropomorphic tall grey heron man, thin long beak, tiny rectangular glasses, slim grey suit and skinny tie, holding a coffee cup, stands upright",
+     "voice": "nasal, monotone middle-aged male manager"
+    }
+   },
+   "shots": [
+    {
+     "n": 1,
+     "dur": 6,
+     "loc": "living_room",
+     "chars": [
+      "margo"
+     ],
+     "keyframe": "Margo in a blazer at the coffee table facing a laptop, perfectly composed",
+     "action": "she straightens her glasses and smiles professionally",
+     "camera": "laptop webcam POV",
+     "lines": [
+      {
+       "c": "margo",
+       "t": "Good morning, everyone. Let's begin.",
+       "tone": "professional"
+      }
+     ],
+     "sfx": "call connect chime"
+    },
+    {
+     "n": 2,
+     "dur": 8,
+     "loc": "living_room",
+     "chars": [
+      "dougie",
+      "pidge"
+     ],
+     "keyframe": "behind Margo, Dougie chasing a tennis ball and Pidge running a market stall selling socks",
+     "action": "chaos behind Margo: Dougie crashes into the stall, socks fly everywhere",
+     "camera": "wide behind Margo",
+     "lines": [
+      {
+       "c": "pidge",
+       "t": "Socks! Three for a fiver!",
+       "tone": "market trader"
+      },
+      {
+       "c": "dougie",
+       "t": "BALL!",
+       "tone": "excited"
+      }
+     ],
+     "sfx": "crash, barking, market shouting"
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "living_room",
+     "chars": [
+      "heron",
+      "margo"
+     ],
+     "keyframe": "split view: Mr Heron on the laptop screen, Margo calm in front of a serene virtual office background",
+     "action": "a sock lands on Margo's head; she doesn't react",
+     "camera": "webcam POV",
+     "lines": [
+      {
+       "c": "heron",
+       "t": "Margo, your office looks so peaceful.",
+       "tone": "impressed"
+      },
+      {
+       "c": "margo",
+       "t": "I value calm.",
+       "tone": "serene"
+      }
+     ],
+     "sfx": "muffled chaos"
+    },
+    {
+     "n": 4,
+     "dur": 8,
+     "loc": "living_room",
+     "chars": [
+      "sloane"
+     ],
+     "keyframe": "Sloane slowly crawling across the back of the room carrying a full bowl of cereal",
+     "action": "Sloane crawls behind Margo; the virtual background glitches and flickers",
+     "camera": "webcam POV with glitch effect",
+     "lines": [
+      {
+       "c": "sloane",
+       "t": "Just... passing... through.",
+       "tone": "slow whisper"
+      }
+     ],
+     "sfx": "digital glitch"
+    },
+    {
+     "n": 5,
+     "dur": 6,
+     "loc": "living_room",
+     "chars": [
+      "heron",
+      "margo"
+     ],
+     "keyframe": "the virtual background gone, revealing total chaos, Margo still composed with a sock on her head",
+     "action": "Margo slowly reaches for the laptop lid",
+     "camera": "webcam POV",
+     "lines": [
+      {
+       "c": "heron",
+       "t": "Margo... is that a sock market?",
+       "tone": "confused"
+      },
+      {
+       "c": "margo",
+       "t": "Connection's bad. Bye.",
+       "tone": "fast"
+      }
+     ],
+     "sfx": "laptop slam"
+    }
+   ],
+   "loop_note": "loops to the call connect"
+  },
+  {
+   "id": "F4B-026",
+   "number": 26,
+   "title": "Parallel parking a scooter be like 🛵 #shorts",
+   "logline": "Pidge fails to park his scooter in an enormous empty space despite Dougie's directions and finally parks it in the flat's bathtub.",
+   "hook_text": "The parking space was HUGE 🛵",
+   "description": "Parking is a state of mind. Flat 4B.",
+   "tags": [
+    "parking fail",
+    "scooter",
+    "driving",
+    "fails",
+    "animation",
+    "comedy"
+   ],
+   "music": "sitcom pluck",
+   "shots": [
+    {
+     "n": 1,
+     "dur": 6,
+     "loc": "street",
+     "chars": [
+      "pidge"
+     ],
+     "keyframe": "Pidge on his scooter beside a huge empty parking space big enough for a bus",
+     "action": "Pidge revs confidently",
+     "camera": "wide establishing",
+     "lines": [
+      {
+       "c": "pidge",
+       "t": "Watch and learn. Professional rider.",
+       "tone": "cocky"
+      }
+     ],
+     "sfx": "scooter rev"
+    },
+    {
+     "n": 2,
+     "dur": 8,
+     "loc": "street",
+     "chars": [
+      "dougie",
+      "pidge"
+     ],
+     "keyframe": "Dougie on the pavement waving directions like an airport marshal",
+     "action": "Pidge reverses the wrong way and bumps the kerb each time",
+     "camera": "medium shot",
+     "lines": [
+      {
+       "c": "dougie",
+       "t": "Left! Your other left! The left that's right!",
+       "tone": "frantic"
+      },
+      {
+       "c": "pidge",
+       "t": "Which left?!",
+       "tone": "panicked"
+      }
+     ],
+     "sfx": "bumps, scooter beeps"
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "street",
+     "chars": [
+      "pidge"
+     ],
+     "keyframe": "the scooter wedged sideways across the giant space, Pidge upside down in a hedge",
+     "action": "Pidge pops out of the hedge with leaves in his feathers",
+     "camera": "top-down showing the huge empty space",
+     "lines": [
+      {
+       "c": "pidge",
+       "t": "Space is too big. That's the problem. Too big.",
+       "tone": "defensive"
+      }
+     ],
+     "sfx": "rustling, crash"
+    },
+    {
+     "n": 4,
+     "dur": 8,
+     "loc": "bathroom",
+     "chars": [
+      "margo"
+     ],
+     "keyframe": "Margo opening the bathroom door to find the scooter parked neatly in the bathtub",
+     "action": "Margo stares, the scooter's headlight blinks at her",
+     "camera": "doorway POV",
+     "lines": [
+      {
+       "c": "margo",
+       "t": "Why is there a scooter in the bath?",
+       "tone": "deadpan"
+      }
+     ],
+     "sfx": "headlight click"
+    },
+    {
+     "n": 5,
+     "dur": 8,
+     "loc": "bathroom",
+     "chars": [
+      "pidge",
+      "margo"
+     ],
+     "keyframe": "Pidge leaning casually in the bathroom doorway with a towel over his shoulder",
+     "action": "Pidge points at the perfectly aligned scooter proudly",
+     "camera": "two-shot",
+     "lines": [
+      {
+       "c": "pidge",
+       "t": "Look at that. Perfectly parallel.",
+       "tone": "proud"
+      },
+      {
+       "c": "margo",
+       "t": "Rule forty-seven is going to hear about this.",
+       "tone": "ominous"
+      }
+     ],
+     "sfx": "triumphant sting"
+    }
+   ],
+   "loop_note": "loops to the huge empty space"
+  },
+  {
+   "id": "F4B-027",
+   "number": 27,
+   "title": "The landlady's surprise fire drill 🔥 #shorts",
+   "logline": "Margo's toast sets off the fire alarm and everyone evacuates in pyjamas, only to find the landlady timing them for a surprise fire drill.",
+   "hook_text": "3AM fire alarm 🚨",
+   "description": "Two minutes forty. Pathetic. Flat 4B.",
+   "tags": [
+    "fire alarm",
+    "fire drill",
+    "landlord",
+    "pyjamas",
+    "animation",
+    "comedy"
+   ],
+   "music": "tense comedic strings",
+   "shots": [
+    {
+     "n": 1,
+     "dur": 6,
+     "loc": "kitchen",
+     "chars": [
+      "margo"
+     ],
+     "keyframe": "Margo at the toaster at night in pyjamas, a thin wisp of smoke rising",
+     "action": "the smoke alarm on the ceiling begins to flash",
+     "camera": "medium shot",
+     "lines": [
+      {
+       "c": "margo",
+       "t": "It's barely toasted.",
+       "tone": "defensive"
+      }
+     ],
+     "sfx": "fire alarm blaring"
+    },
+    {
+     "n": 2,
+     "dur": 8,
+     "loc": "hallway",
+     "chars": [
+      "dougie",
+      "pidge"
+     ],
+     "keyframe": "hallway chaos: Dougie carrying a houseplant and a pillow, Pidge carrying his scooter helmet and a cash box",
+     "action": "they collide in the doorway and squeeze out together",
+     "camera": "handheld chaos",
+     "lines": [
+      {
+       "c": "dougie",
+       "t": "Save the plant!",
+       "tone": "panicked"
+      },
+      {
+       "c": "pidge",
+       "t": "Save the business!",
+       "tone": "panicked"
+      }
+     ],
+     "sfx": "alarm, crashing"
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "street",
+     "chars": [
+      "margo",
+      "dougie"
+     ],
+     "keyframe": "the flatmates on the rainy street at night in pyjamas, counting heads",
+     "action": "Margo counts on her claws, Dougie looks around worried",
+     "camera": "wide",
+     "lines": [
+      {
+       "c": "margo",
+       "t": "One, two, three... where's Sloane?",
+       "tone": "worried"
+      },
+      {
+       "c": "dougie",
+       "t": "He's too slow! He's still inside!",
+       "tone": "panicked"
+      }
+     ],
+     "sfx": "rain, alarm faint in background"
+    },
+    {
+     "n": 4,
+     "dur": 6,
+     "loc": "street",
+     "chars": [
+      "sloane"
+     ],
+     "keyframe": "Sloane already sitting on a garden wall behind them in a raincoat with a flask of tea",
+     "action": "Sloane sips slowly",
+     "camera": "reveal pan",
+     "lines": [
+      {
+       "c": "sloane",
+       "t": "I left... when she bought the toaster.",
+       "tone": "slow"
+      }
+     ],
+     "sfx": "sip"
+    },
+    {
+     "n": 5,
+     "dur": 8,
+     "loc": "street",
+     "chars": [
+      "mrs_badger",
+      "margo"
+     ],
+     "keyframe": "Mrs Badger stepping out of the shadows in a hard hat with a clipboard and stopwatch",
+     "action": "she clicks the stopwatch and writes on the clipboard",
+     "camera": "low angle",
+     "lines": [
+      {
+       "c": "mrs_badger",
+       "t": "Two minutes forty. Pathetic. Again.",
+       "tone": "drill sergeant"
+      },
+      {
+       "c": "margo",
+       "t": "It's three in the morning.",
+       "tone": "flat"
+      }
+     ],
+     "sfx": "stopwatch click, whistle blow"
+    }
+   ],
+   "loop_note": "whistle loops to the alarm"
+  },
+  {
+   "id": "F4B-028",
+   "number": 28,
+   "title": "When you see your ex and try to act cool 😎 #shorts",
+   "logline": "Dougie tries to act cool when his ex walks into the cafe and walks straight into a glass door, but she finds it charming.",
+   "hook_text": "Acting cool in front of your ex 😎",
+   "description": "Smooth. So smooth. Flat 4B.",
+   "tags": [
+    "ex",
+    "acting cool",
+    "dating",
+    "awkward",
+    "animation",
+    "comedy"
+   ],
+   "music": "upbeat ukulele",
+   "guests": {
+    "bella": {
+     "name": "Bella",
+     "ref_prompt": "anthropomorphic elegant white standard poodle woman in her late twenties, fluffy styled fur, kind eyes, camel coat and red scarf, holding a coffee cup, stands upright",
+     "voice": "warm, amused adult female"
+    }
+   },
+   "shots": [
+    {
+     "n": 1,
+     "dur": 6,
+     "loc": "cafe",
+     "chars": [
+      "dougie",
+      "pidge"
+     ],
+     "keyframe": "Dougie and Pidge at a cafe table, Dougie spotting someone at the door and stiffening",
+     "action": "Dougie's tail goes rigid, his ears perk up",
+     "camera": "two-shot",
+     "lines": [
+      {
+       "c": "dougie",
+       "t": "It's Bella. My ex. Act cool.",
+       "tone": "panicked whisper"
+      }
+     ],
+     "sfx": "door bell jingle"
+    },
+    {
+     "n": 2,
+     "dur": 8,
+     "loc": "cafe",
+     "chars": [
+      "dougie"
+     ],
+     "keyframe": "Dougie leaning on the counter trying to look casual, wearing sunglasses indoors",
+     "action": "his elbow slips and he knocks a tower of cups over",
+     "camera": "medium shot",
+     "lines": [
+      {
+       "c": "dougie",
+       "t": "Oh hey. Didn't see you there. I'm very relaxed.",
+       "tone": "fake casual"
+      }
+     ],
+     "sfx": "cups crashing"
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "cafe",
+     "chars": [
+      "dougie"
+     ],
+     "keyframe": "Dougie strutting toward the exit in sunglasses",
+     "action": "he walks face-first into the closed glass door and slides down it",
+     "camera": "outside the glass looking in",
+     "lines": [
+      {
+       "c": "dougie",
+       "t": "Anyway, I'm off to my very busy life.",
+       "tone": "confident"
+      }
+     ],
+     "sfx": "thud, squeaky slide"
+    },
+    {
+     "n": 4,
+     "dur": 8,
+     "loc": "cafe",
+     "chars": [
+      "bella",
+      "dougie"
+     ],
+     "keyframe": "Bella crouching beside Dougie on the floor, holding his fallen lanyard",
+     "action": "she hands him the lanyard with a laugh",
+     "camera": "close two-shot",
+     "lines": [
+      {
+       "c": "bella",
+       "t": "Dougie. You dropped your lanyard. And your dignity.",
+       "tone": "amused"
+      },
+      {
+       "c": "dougie",
+       "t": "Big... day.",
+       "tone": "dazed"
+      }
+     ],
+     "sfx": "soft piano"
+    },
+    {
+     "n": 5,
+     "dur": 8,
+     "loc": "cafe",
+     "chars": [
+      "bella",
+      "pidge"
+     ],
+     "keyframe": "Bella sitting down at their table, Pidge pretending to read a menu",
+     "action": "Dougie's tail starts wagging furiously behind him",
+     "camera": "medium shot",
+     "lines": [
+      {
+       "c": "bella",
+       "t": "Still clumsy. Still cute. Coffee?",
+       "tone": "warm"
+      },
+      {
+       "c": "pidge",
+       "t": "Mate, your tail is helicoptering.",
+       "tone": "whisper"
+      }
+     ],
+     "sfx": "helicopter whirr"
+    }
+   ],
+   "loop_note": "loops to Dougie spotting her"
+  },
+  {
+   "id": "F4B-029",
+   "number": 29,
+   "title": "Secret Santa in our flat 🎁 #shorts",
+   "logline": "In the flat's Secret Santa every gift turns out to be a regift that circles back to its original buyer, and Sloane's gift is still being wrapped.",
+   "hook_text": "Our Secret Santa went full circle 🎁",
+   "description": "It's the thought that counts. The same thought. Flat 4B.",
+   "tags": [
+    "secret santa",
+    "christmas",
+    "regifting",
+    "presents",
+    "animation",
+    "comedy"
+   ],
+   "music": "upbeat ukulele",
+   "shots": [
+    {
+     "n": 1,
+     "dur": 6,
+     "loc": "living_room",
+     "chars": [
+      "margo"
+     ],
+     "keyframe": "the flatmates in Christmas jumpers around a small tree, Margo opening a gift",
+     "action": "she pulls out a label maker refill and smiles",
+     "camera": "medium shot",
+     "lines": [
+      {
+       "c": "margo",
+       "t": "Label maker refills. I love it.",
+       "tone": "warm"
+      }
+     ],
+     "sfx": "wrapping paper tearing, fireplace crackle"
+    },
+    {
+     "n": 2,
+     "dur": 8,
+     "loc": "living_room",
+     "chars": [
+      "margo",
+      "pidge"
+     ],
+     "keyframe": "Margo noticing her own handwriting on the gift tag",
+     "action": "she slowly turns the tag toward Pidge",
+     "camera": "close up on tag, rack focus to Pidge",
+     "lines": [
+      {
+       "c": "margo",
+       "t": "This is the gift I gave you last year.",
+       "tone": "suspicious"
+      },
+      {
+       "c": "pidge",
+       "t": "And it's still brilliant!",
+       "tone": "nervous"
+      }
+     ],
+     "sfx": "suspicious sting"
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "living_room",
+     "chars": [
+      "dougie",
+      "pidge"
+     ],
+     "keyframe": "Dougie opening his gift, revealing the novelty mug he bought someone else",
+     "action": "Dougie and Pidge look at each other, then at all the gifts",
+     "camera": "two-shot",
+     "lines": [
+      {
+       "c": "dougie",
+       "t": "Wait. This is MY mug. I gave this away!",
+       "tone": "shocked"
+      },
+      {
+       "c": "pidge",
+       "t": "Everything's a regift. It's the circle of life.",
+       "tone": "wise"
+      }
+     ],
+     "sfx": "dramatic jungle drum hit"
+    },
+    {
+     "n": 4,
+     "dur": 8,
+     "loc": "living_room",
+     "chars": [
+      "sloane",
+      "dougie"
+     ],
+     "keyframe": "Sloane in the corner slowly wrapping a present, tape stuck to his claws",
+     "action": "Sloane tears a single piece of tape, very slowly",
+     "camera": "slow push-in",
+     "lines": [
+      {
+       "c": "dougie",
+       "t": "Sloane, where's your Secret Santa gift?",
+       "tone": "curious"
+      },
+      {
+       "c": "sloane",
+       "t": "Almost... done.",
+       "tone": "slow"
+      }
+     ],
+     "sfx": "tape stretching slowly"
+    },
+    {
+     "n": 5,
+     "dur": 6,
+     "loc": "living_room",
+     "chars": [
+      "sloane"
+     ],
+     "keyframe": "Sloane holding up the wrapped gift with a tag",
+     "action": "the tag flips around in close up",
+     "camera": "close up on tag",
+     "lines": [
+      {
+       "c": "sloane",
+       "t": "It's for... next year.",
+       "tone": "proud, slow"
+      }
+     ],
+     "sfx": "sleigh bells"
+    }
+   ],
+   "loop_note": "loops to the first gift opening"
+  },
+  {
+   "id": "F4B-030",
+   "number": 30,
+   "title": "Who keeps rearranging the fridge at 3AM? 🕵️ #shorts",
+   "logline": "Margo calls a formal flat meeting to expose who rearranges the fridge every night, and the hidden camera footage reveals she does it in her sleep.",
+   "hook_text": "She called a FLAT MEETING 📊",
+   "description": "The call is coming from inside the cardigan. Flat 4B.",
+   "tags": [
+    "flat meeting",
+    "roommates",
+    "sleepwalking",
+    "mystery",
+    "animation",
+    "comedy"
+   ],
+   "music": "dramatic organ",
+   "shots": [
+    {
+     "n": 1,
+     "dur": 8,
+     "loc": "living_room",
+     "chars": [
+      "margo",
+      "pidge"
+     ],
+     "keyframe": "Margo in front of a projected presentation with charts, the flatmates sitting in a row like students",
+     "action": "Margo clicks to the next slide with a laser pointer",
+     "camera": "wide",
+     "lines": [
+      {
+       "c": "margo",
+       "t": "Agenda item one. Someone reorganises the fridge every night at 3AM.",
+       "tone": "formal"
+      },
+      {
+       "c": "pidge",
+       "t": "Not me.",
+       "tone": "fast"
+      }
+     ],
+     "sfx": "projector hum, click"
+    },
+    {
+     "n": 2,
+     "dur": 8,
+     "loc": "living_room",
+     "chars": [
+      "dougie",
+      "margo"
+     ],
+     "keyframe": "Dougie raising his paw nervously",
+     "action": "Margo points the laser at Dougie's chest, he sweats",
+     "camera": "two-shot",
+     "lines": [
+      {
+       "c": "dougie",
+       "t": "I only open the fridge to say hello to the cheese.",
+       "tone": "honest"
+      },
+      {
+       "c": "margo",
+       "t": "Noted. Suspicious.",
+       "tone": "dry"
+      }
+     ],
+     "sfx": "laser hum"
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "living_room",
+     "chars": [
+      "margo"
+     ],
+     "keyframe": "Margo holding up a tiny hidden camera triumphantly",
+     "action": "she presses play on the remote, the room darkens",
+     "camera": "low angle",
+     "lines": [
+      {
+       "c": "margo",
+       "t": "Luckily, I installed a camera. Let's meet our criminal.",
+       "tone": "triumphant"
+      }
+     ],
+     "sfx": "dramatic organ"
+    },
+    {
+     "n": 4,
+     "dur": 8,
+     "loc": "kitchen",
+     "chars": [
+      "margo"
+     ],
+     "keyframe": "grainy night-vision footage of Margo sleepwalking in her pyjamas with a label maker, eyes closed",
+     "action": "sleeping Margo labels and rearranges the fridge, humming",
+     "camera": "CCTV angle with night-vision tint",
+     "lines": [
+      {
+       "c": "margo",
+       "t": "Mine... mine... alphabetical... mine...",
+       "tone": "sleep-mumbling"
+      }
+     ],
+     "sfx": "label maker clicks, humming"
+    },
+    {
+     "n": 5,
+     "dur": 6,
+     "loc": "living_room",
+     "chars": [
+      "sloane",
+      "margo"
+     ],
+     "keyframe": "everyone slowly turning to look at Margo, who stands frozen with the remote",
+     "action": "Sloane slowly raises his hand",
+     "camera": "slow push-in on Margo",
+     "lines": [
+      {
+       "c": "sloane",
+       "t": "Motion... to adjourn.",
+       "tone": "slow"
+      },
+      {
+       "c": "margo",
+       "t": "Seconded.",
+       "tone": "mortified"
+      }
+     ],
+     "sfx": "gavel bang"
+    }
+   ],
+   "loop_note": "gavel loops to the presentation click"
+  }
+ ]
+}

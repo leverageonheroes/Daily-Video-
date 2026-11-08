@@ -202,7 +202,7 @@
      ],
      "keyframe": "Brock meeting her eyes, frost glinting in his own",
      "action": "the whole fridge gasps",
-     "camera": "slow push-in",
+     "camera": "dramatic crash zoom into an extreme close-up, then hold on the face",
      "lines": [
       {
        "c": "brock",
@@ -412,7 +412,7 @@
      ],
      "keyframe": "Brock and Rico face to face on the main shelf",
      "action": "Rico lowers his cap, eyes dark",
-     "camera": "tight two-shot",
+     "camera": "dramatic crash zoom into an extreme close-up, then hold on the face",
      "lines": [
       {
        "c": "brock",
@@ -617,7 +617,7 @@
      ],
      "keyframe": "the door shut, the Dark Corner empty, Tilly staring at the space",
      "action": "a single light flickers in the corner and goes out",
-     "camera": "slow push-in on the empty corner",
+     "camera": "dramatic crash zoom into an extreme close-up, then hold on the face",
      "lines": [
       {
        "c": "tilly",
@@ -630,7 +630,7 @@
        "tone": "shaken"
       }
      ],
-     "sfx": "silence, light buzz cuts out"
+     "sfx": "silence, light buzz cuts out, dramatic soap-opera orchestral sting"
     }
    ],
    "loop_note": "cliffhanger: Lenny is gone"
@@ -827,7 +827,7 @@
      ],
      "keyframe": "Lenny now crystal clear and empty, big innocent eyes on his lid, looking around brightly",
      "action": "Lenny waves cheerfully at everyone",
-     "camera": "slow push-in",
+     "camera": "dramatic crash zoom into an extreme close-up, then hold on the face",
      "lines": [
       {
        "c": "lenny",
@@ -1036,7 +1036,7 @@
      ],
      "keyframe": "Lenny suddenly frozen, eyes going dark and hollow",
      "action": "he speaks in his old voice, then blinks back to cheerful",
-     "camera": "snap zoom",
+     "camera": "dramatic crash zoom into an extreme close-up, then hold on the face",
      "lines": [
       {
        "c": "lenny",
@@ -1244,7 +1244,7 @@
      ],
      "keyframe": "Queen Pea rising, frost climbing the fridge wall toward the door shelf",
      "action": "ice spreads upward",
-     "camera": "slow push-in",
+     "camera": "dramatic crash zoom into an extreme close-up, then hold on the face",
      "lines": [
       {
        "c": "queen_pea",
@@ -1446,7 +1446,7 @@
      ],
      "keyframe": "Freddie trembling, everyone gathered around him",
      "action": "the light flickers",
-     "camera": "slow push-in",
+     "camera": "dramatic crash zoom into an extreme close-up, then hold on the face",
      "lines": [
       {
        "c": "freddie",
@@ -1666,7 +1666,7 @@
      ],
      "keyframe": "Duchess removing her gold lid-crown and holding it out",
      "action": "the fridge gasps",
-     "camera": "slow push-in",
+     "camera": "dramatic crash zoom into an extreme close-up, then hold on the face",
      "lines": [
       {
        "c": "duchess",
@@ -1674,7 +1674,7 @@
        "tone": "dignified"
       }
      ],
-     "sfx": "mass gasp, epic choir"
+     "sfx": "mass gasp, epic choir, dramatic soap-opera orchestral sting"
     }
    ],
    "loop_note": "cliffhanger: who will rule the door?"
@@ -1880,7 +1880,7 @@
      ],
      "keyframe": "morning, the door blasting open, blinding light, many Hands reaching in",
      "action": "Avery stands tall as the light hits her",
-     "camera": "slow motion low angle",
+     "camera": "dramatic crash zoom into an extreme close-up, then hold on the face",
      "lines": [
       {
        "c": "avery",
@@ -1888,7 +1888,7 @@
        "tone": "brave"
       }
      ],
-     "sfx": "door whoosh, epic choir"
+     "sfx": "door whoosh, epic choir, dramatic soap-opera orchestral sting"
     }
    ],
    "loop_note": "cliffhanger: Feast morning"
@@ -2086,7 +2086,7 @@
      ],
      "keyframe": "Tilly at the shelf edge staring at the closed door, faint laughter and plate clinks beyond it",
      "action": "Tilly sits down to wait",
-     "camera": "slow push-in from behind",
+     "camera": "dramatic crash zoom into an extreme close-up, then hold on the face",
      "lines": [
       {
        "c": "tilly",
@@ -2097,7 +2097,12 @@
      "sfx": "muffled laughter, plates clinking, sting"
     }
    ],
-   "loop_note": "cliffhanger: who will return?"
+   "loop_note": "cliffhanger: who will return?",
+   "cold_open": {
+    "shot": 6,
+    "start": 0.0,
+    "seconds": 4.0
+   }
   },
   {
    "id": "CH-026",
@@ -2279,7 +2284,7 @@
      ],
      "keyframe": "extreme close up on Brock's face, condensation running like tears",
      "action": "he closes his eyes",
-     "camera": "slow push-in",
+     "camera": "dramatic crash zoom into an extreme close-up, then hold on the face",
      "lines": [
       {
        "c": "brock",
@@ -2287,7 +2292,7 @@
        "tone": "broken whisper"
       }
      ],
-     "sfx": "tragic piano, silence"
+     "sfx": "tragic piano, silence, dramatic soap-opera orchestral sting"
     }
    ],
    "loop_note": "cliffhanger: Avery is gone"
@@ -2471,7 +2476,7 @@
      ],
      "keyframe": "Avery's face formed in the surface of the guacamole, a lime slice worn like a hair clip, the pit gone",
      "action": "Avery smiles nervously up at Brock",
-     "camera": "slow push-in",
+     "camera": "dramatic crash zoom into an extreme close-up, then hold on the face",
      "lines": [
       {
        "c": "avery",
@@ -2663,7 +2668,7 @@
      ],
      "keyframe": "Duchess addressing the whole fridge from the door shelf",
      "action": "everyone turns; the camera finds a shocked Tilly far below",
-     "camera": "wide, then snap zoom",
+     "camera": "dramatic crash zoom into an extreme close-up, then hold on the face",
      "lines": [
       {
        "c": "duchess",
@@ -2671,7 +2676,7 @@
        "tone": "proclaiming"
       }
      ],
-     "sfx": "mass gasp, epic choir"
+     "sfx": "mass gasp, epic choir, dramatic soap-opera orchestral sting"
     }
    ],
    "loop_note": "cliffhanger: Queen Tilly?"
@@ -2872,7 +2877,7 @@
      ],
      "keyframe": "dozens of eyes glinting in the darkness",
      "action": "the eyes dart around nervously",
-     "camera": "slow pan across the dark",
+     "camera": "dramatic crash zoom into an extreme close-up, then hold on the face",
      "lines": [
       {
        "c": "milo",
@@ -3093,7 +3098,7 @@
      ],
      "keyframe": "the door opens, the Hand placing a huge spiky durian on the shelf, everyone recoiling from its stink cloud",
      "action": "the durian grins slowly at the camera",
-     "camera": "low angle slow push-in",
+     "camera": "dramatic crash zoom into an extreme close-up, then hold on the face",
      "lines": [
       {
        "c": "durian",

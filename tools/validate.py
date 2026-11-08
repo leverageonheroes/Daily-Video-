@@ -36,7 +36,7 @@ def words(text):
 def validate_channel(ch_dir):
     errors, warns = [], []
     bible = json.loads((ch_dir / "channel.json").read_text())
-    chars, locs = set(bible["characters"]), set(bible["locations"])
+    chars, base_locs = set(bible.get("characters", {})), set(bible.get("locations", {}))
     lo, hi = bible["target_seconds"]
     eps = load_episodes(ch_dir)
     seen_ids, loglines = set(), []
@@ -60,6 +60,8 @@ def validate_channel(ch_dir):
             warns.append(f"{tag}: hook_text over 45 chars (hard to read in 2s)")
 
         guests = set(ep.get("guests", {}))
+        locs = base_locs | set(ep.get("locations", {}))
+        narrated = 0
         total = 0
         for s in ep.get("shots", []):
             st = f"{tag} shot {s.get('n')}"
@@ -87,10 +89,21 @@ def validate_channel(ch_dir):
             speakers = {ln.get("c") for ln in s.get("lines", [])}
             if len(speakers) > 2:
                 errors.append(f"{st}: {len(speakers)} speakers - max 2 per shot")
+            nw = words(s.get("narration", ""))
+            if nw:
+                narrated += 1
+                if dur and nw / dur > MAX_WPS_ERROR:
+                    errors.append(f"{st}: narration {nw} words in {dur}s is too fast")
+                elif dur and nw / dur > MAX_WPS_WARN:
+                    warns.append(f"{st}: narration {nw} words in {dur}s is rushed")
+                if s.get("lines"):
+                    warns.append(f"{st}: has both narration and dialogue - they will overlap")
             if dur and spoken / dur > MAX_WPS_ERROR:
                 errors.append(f"{st}: {spoken} words in {dur}s is too fast")
             elif dur and spoken / dur > MAX_WPS_WARN:
                 warns.append(f"{st}: {spoken} words in {dur}s is rushed")
+        if bible.get("narrator") and narrated < len(ep.get("shots", [])) - 1:
+            errors.append(f"{tag}: narrated channel - every shot (except at most one) needs 'narration'")
         if bible.get("source") == "flow":
             for s in ep.get("shots", []):
                 if s.get("dur") != 8:

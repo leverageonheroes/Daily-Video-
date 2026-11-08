@@ -60,7 +60,28 @@ def _clean(text: str) -> str:
     return re.sub(r"\s+", " ", re.sub(r"[{}\\]", "", text)).strip()
 
 
-def build_ass(episode: dict, dest: Path, hook: bool = True, captions: bool = True):
+def _chunks(text: str, max_words: int = 7):
+    """Split narration into short caption phrases (sentence / comma boundaries, max ~7 words)."""
+    out = []
+    for sent in re.split(r"(?<=[.!?])\s+", text.strip()):
+        cur = []
+        for w in sent.split():
+            cur.append(w)
+            if len(cur) >= max_words or (w.endswith(",") and len(cur) >= 3):
+                out.append(" ".join(cur))
+                cur = []
+        if cur:
+            if out and len(cur) <= 2 and not out[-1].endswith((".", "!", "?")):
+                out[-1] += " " + " ".join(cur)
+            else:
+                out.append(" ".join(cur))
+    return out
+
+
+def build_ass(episode: dict, dest: Path, hook: bool = True, captions: bool = True,
+              offset: float = 0.0, card: str = "", end_text: str = "", end_at: float = 0.0):
+    """offset = seconds of cold open before the story starts (captions shift by it).
+    end_text is shown for the 1.9 s before end_at (the end of the story)."""
     font = config.CAPTION_FONT
     header = f"""[Script Info]
 ScriptType: v4.00+
@@ -73,22 +94,38 @@ ScaledBorderAndShadow: yes
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: Hook,{font},74,&H00FFFFFF,&H00FFFFFF,&H00000000,&HB0000000,1,0,0,0,100,100,0,0,3,18,0,8,70,70,230,1
 Style: Line,{font},66,&H00FFFFFF,&H00FFFFFF,&H00000000,&H64000000,1,0,0,0,100,100,0,0,1,6,2,2,90,90,520,1
+Style: Card,{font},82,&H00FFFFFF,&H00FFFFFF,&H00000000,&HA0000000,1,1,0,0,100,100,4,0,3,22,0,5,80,80,0,1
+Style: End,{font},76,&H0000D7FF,&H00FFFFFF,&H00000000,&HA0000000,1,0,0,0,100,100,3,0,3,20,0,2,80,80,300,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 """
     events = [f"Dialogue: 1,{_ts(0)},{_ts(2.6)},Hook,,0,0,0,,{_clean(episode['hook_text'])}"] if hook else []
-    t0 = 0.0
+    if card:
+        events.append(f"Dialogue: 2,{_ts(offset + 0.05)},{_ts(offset + 1.7)},Card,,0,0,0,,{{\\fad(150,250)}}{_clean(card)}")
+    t0 = offset
     for shot in episode["shots"]:
-        lines = shot.get("lines", []) if captions else []
-        words = [max(len(l["t"].split()), 1) for l in lines]
-        usable = shot["dur"] - 0.6
-        t = t0 + 0.3
-        for ln, wc in zip(lines, words):
-            span = usable * wc / sum(words)
-            events.append(f"Dialogue: 0,{_ts(t)},{_ts(t + span)},Line,,0,0,0,,{_clean(ln['t'])}")
-            t += span
+        if captions:
+            if shot.get("narration"):
+                parts = _chunks(shot["narration"])
+                nw = [max(len(p.split()), 1) for p in parts]
+                speech = min(shot["dur"] - 0.35, sum(nw) / 2.5 + 0.2)   # narrator speaks ~2.5 words/s
+                t = t0 + 0.1
+                for p, w in zip(parts, nw):
+                    span = speech * w / sum(nw)
+                    events.append(f"Dialogue: 0,{_ts(t)},{_ts(t + span)},Line,,0,0,0,,{_clean(p)}")
+                    t += span
+            lines = shot.get("lines", [])
+            words = [max(len(l["t"].split()), 1) for l in lines]
+            usable = shot["dur"] - 0.6
+            t = t0 + 0.3
+            for ln, wc in zip(lines, words):
+                span = usable * wc / sum(words)
+                events.append(f"Dialogue: 0,{_ts(t)},{_ts(t + span)},Line,,0,0,0,,{_clean(ln['t'])}")
+                t += span
         t0 += shot["dur"]
+    if end_text and end_at:
+        events.append(f"Dialogue: 2,{_ts(end_at - 1.9)},{_ts(end_at)},End,,0,0,0,,{{\\fad(200,0)}}{_clean(end_text)}")
     dest.write_text(header + "\n".join(events) + "\n", encoding="utf-8")
     return dest
 
@@ -106,6 +143,8 @@ def find_music(mood: str):
 def end_card(bible: dict | None, workdir: Path):
     """Render channel.json `end_card` (a still PNG) as a short clip with a fade-in, or None if not configured."""
     cfg = (bible or {}).get("end_card") or {}
+    if not isinstance(cfg, dict):          # a text end card (e.g. "TO BE CONTINUED...") is drawn in captions
+        return None, 0
     img = config.ROOT / cfg.get("image", "")
     if not cfg.get("enabled") or not cfg.get("image") or not img.is_file():
         return None, 0
@@ -120,59 +159,137 @@ def end_card(bible: dict | None, workdir: Path):
     return out, sec
 
 
-def assemble(episode: dict, clips: list, workdir: Path, bible: dict | None = None) -> Path:
-    ov = (bible or {}).get("overlays", {})
+CARDS = ["EARLIER THAT DAY...", "12 HOURS EARLIER...", "THAT MORNING...", "ONE HOUR EARLIER..."]
+
+
+def cold_open_spec(episode: dict, bible: dict):
+    """Flash-forward teaser: a few seconds of a later shot (default: the last) before the story starts.
+    channel.json "cold_open": {"seconds": 3.5, "cards": [...]}; an episode can override with
+    "cold_open": {"shot": 7, "start": 0.5, "seconds": 3, "card": "..."} or false to switch it off."""
+    base = bible.get("cold_open")
+    ep = episode.get("cold_open", {})
+    if not base or ep is False:
+        return None
+    shots = episode["shots"]
+    n = ep.get("shot", shots[-1]["n"])
+    idx = next(i for i, sh in enumerate(shots) if sh["n"] == n)
+    secs = float(ep.get("seconds", base.get("seconds", 3.5)))
+    start = float(ep.get("start", base.get("start", 0.0)))
+    secs = min(secs, shots[idx]["dur"] - start)
+    cards = base.get("cards", CARDS)
+    card = ep.get("card", cards[(episode.get("number", 1) - 1) % len(cards)])
+    return {"idx": idx, "start": start, "seconds": secs, "card": card}
+
+
+def _cold_open(src: Path, dest: Path, start: float, secs: float):
+    vf = (f"eq=saturation=0.7:contrast=1.12,vignette=PI/4,"
+          f"fade=t=out:st={secs - 0.18:.2f}:d=0.18:color=white,format=yuv420p")
+    _run(["ffmpeg", "-y", "-loglevel", "error", "-ss", f"{start:.2f}", "-i", str(src), "-t", f"{secs:.2f}",
+          "-vf", vf, "-af", f"afade=t=out:st={max(secs - 0.6, 0):.2f}:d=0.6",
+          "-c:v", "libx264", "-preset", "veryfast", "-crf", "18", "-r", str(FPS),
+          "-c:a", "aac", "-ar", "48000", "-ac", "2", "-b:a", "192k", str(dest)])
+
+
+def _narration_track(episode: dict, narration: list, workdir: Path) -> Path:
+    """One story-length track: each shot's narration placed at that shot's start."""
+    total = sum(s["dur"] for s in episode["shots"])
+    inputs, filters, labels, t0 = [], [], [], 0.0
+    for shot, a in zip(episode["shots"], narration):
+        if a:
+            k = len(inputs) // 2
+            inputs += ["-i", str(a)]
+            ms = int(t0 * 1000)
+            filters.append(f"[{k}:a]adelay={ms}|{ms}[n{k}]")
+            labels.append(f"[n{k}]")
+        t0 += shot["dur"]
+    dest = workdir / "narration.wav"
+    fc = ";".join(filters) + f";{''.join(labels)}amix=inputs={len(labels)}:duration=longest:normalize=0,apad[a]"
+    _run(["ffmpeg", "-y", "-loglevel", "error", *inputs, "-filter_complex", fc, "-map", "[a]",
+          "-t", str(total), "-ar", "48000", "-ac", "2", str(dest)])
+    return dest
+
+
+def _render(video: Path, ass: str, out: str, total: float, workdir: Path, music, narr, narr_delay: float,
+            bed: float):
+    cmd = ["ffmpeg", "-y", "-loglevel", "error", "-i", str(video)]
+    has_text = "Dialogue:" in (workdir / ass).read_text(encoding="utf-8")
+    vf = f"[0:v]subtitles={ass}[v]" if has_text else "[0:v]null[v]"
+    loud = f"loudnorm=I={config.TARGET_LUFS}:TP=-1.5:LRA=11"
+    chains, mix = [f"[0:a]volume={bed}[b]"], ["[b]"]
+    k = 1
+    if narr:
+        cmd += ["-i", str(narr)]
+        ms = int(narr_delay * 1000)
+        chains.append(f"[{k}:a]adelay={ms}|{ms},apad[n]")
+        mix.append("[n]")
+        k += 1
+    if music:
+        cmd += ["-stream_loop", "-1", "-i", str(music.resolve())]
+        chains.append(f"[{k}:a]volume={config.MUSIC_VOLUME},afade=t=out:st={max(total - 1.5, 0)}:d=1.5[m]")
+        mix.append("[m]")
+    af = ";".join(chains) + f";{''.join(mix)}amix=inputs={len(mix)}:duration=first:dropout_transition=0:normalize=0,{loud}[a]"
+    cmd += ["-filter_complex", f"{vf};{af}", "-map", "[v]", "-map", "[a]", "-t", f"{total:.2f}",
+            "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", "-pix_fmt", "yuv420p",
+            "-c:a", "aac", "-b:a", "192k", "-ar", "48000", "-movflags", "+faststart", out]
+    _run(cmd, cwd=workdir)
+
+
+def _concat(workdir: Path, parts: list, out: str):
+    (workdir / f"{out}.txt").write_text("".join(f"file '{p}'\n" for p in parts))
+    _run(["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", f"{out}.txt",
+          "-c", "copy", out], cwd=workdir)
+    (workdir / f"{out}.txt").unlink(missing_ok=True)
+
+
+def assemble(episode: dict, clips: list, workdir: Path, bible: dict | None = None,
+             narration: list | None = None) -> Path:
+    bible = bible or {}
+    ov = bible.get("overlays", {})
     show_hook, show_caps = ov.get("hook", True), ov.get("captions", True)
     norm = []
     for shot, c in zip(episode["shots"], clips):
         n = workdir / f"norm{shot['n']:02d}.mp4"
         normalise(c, n, shot["dur"])
         norm.append(n)
-    (workdir / "concat.txt").write_text("".join(f"file '{p.name}'\n" for p in norm))
-    _run(["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", "concat.txt",
-          "-c", "copy", "base.mp4"], cwd=workdir)
-    build_ass(episode, workdir / "captions.ass", hook=show_hook, captions=show_caps)
-    build_ass(episode, workdir / "captions_clean.ass", hook=False, captions=show_caps)
+    _concat(workdir, [p.name for p in norm], "base.mp4")
+    story = sum(s["dur"] for s in episode["shots"])
 
-    total = sum(s["dur"] for s in episode["shots"])
-    # The end card goes on the Short only; clean.mp4 (compilations) stays without it.
+    # final.mp4 = [flash-forward cold open] + story + [image end card]; clean.mp4 (compilations) = story only
+    co = cold_open_spec(episode, bible)
+    lead, parts = 0.0, ["base.mp4"]
+    if co:
+        _cold_open(norm[co["idx"]], workdir / "cold.mp4", co["start"], co["seconds"])
+        lead = duration(workdir / "cold.mp4")
+        parts.insert(0, "cold.mp4")
     card, card_sec = end_card(bible, workdir)
     if card:
-        (workdir / "concat_card.txt").write_text("file 'base.mp4'\nfile 'endcard.mp4'\n")
-        _run(["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", "concat_card.txt",
-              "-c", "copy", "base_card.mp4"], cwd=workdir)
+        parts.append("endcard.mp4")
+    src = "base.mp4"
+    if len(parts) > 1:
+        _concat(workdir, parts, "full.mp4")
+        src = "full.mp4"
+    total = lead + story + card_sec
+    end_text = bible.get("end_card") if isinstance(bible.get("end_card"), str) else ""
+    build_ass(episode, workdir / "captions.ass", hook=show_hook, captions=show_caps, offset=lead,
+              card=co["card"] if co else "", end_text=end_text, end_at=lead + story)
+    build_ass(episode, workdir / "captions_clean.ass", hook=False, captions=show_caps)
+
+    narr = _narration_track(episode, narration, workdir) if narration and any(narration) else None
+    bed = float(bible.get("clip_audio_volume", 0.45 if narr else 1.0))
     music = find_music(episode.get("music", ""))
-    loud = f"loudnorm=I={config.TARGET_LUFS}:TP=-1.5:LRA=11"
-    # final.mp4 = the Short (with hook text); clean.mp4 = same without hook, used for long compilations
-    jobs = [("captions.ass", "final.mp4", "base_card.mp4" if card else "base.mp4", total + card_sec),
-            ("captions_clean.ass", "clean.mp4", "base.mp4", total)]
-    for ass, out, src, length in jobs:
-        cmd = ["ffmpeg", "-y", "-loglevel", "error", "-i", src]
-        has_text = "Dialogue:" in (workdir / ass).read_text(encoding="utf-8")
-        vf = f"[0:v]subtitles={ass}[v]" if has_text else "[0:v]null[v]"
-        if music:
-            cmd += ["-stream_loop", "-1", "-i", str(music.resolve())]
-            af = (f"[1:a]volume={config.MUSIC_VOLUME},afade=t=out:st={length - 1.5}:d=1.5[m];"
-                  f"[0:a][m]amix=inputs=2:duration=first:dropout_transition=0:normalize=0,{loud}[a]")
-        else:
-            af = f"[0:a]{loud}[a]"
-        cmd += ["-filter_complex", f"{vf};{af}", "-map", "[v]", "-map", "[a]", "-t", str(length),
-                "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", "-pix_fmt", "yuv420p",
-                "-c:a", "aac", "-b:a", "192k", "-ar", "48000", "-movflags", "+faststart", out]
-        _run(cmd, cwd=workdir)
+    _render(workdir / src, "captions.ass", "final.mp4", total, workdir, music, narr, lead, bed)
+    _render(workdir / "base.mp4", "captions_clean.ass", "clean.mp4", story, workdir, music, narr, 0.0, bed)
 
     meta = {
         "title": episode["title"][:100],
-        "description": f"{episode['description']}\n\n{(bible or {}).get('ai_disclosure', config.AI_DISCLOSURE)}\n\n"
+        "description": f"{episode['description']}\n\n{bible.get('ai_disclosure', config.AI_DISCLOSURE)}\n\n"
                        + " ".join("#" + re.sub(r"\W", "", t) for t in episode["tags"][:4]) + " #shorts",
-        "made_for_kids": bool((bible or {}).get("made_for_kids", False)),
+        "made_for_kids": bool(bible.get("made_for_kids", False)),
         "tags": episode["tags"][:15],
         "music": str(music.name) if music else None,
-        "seconds": total + card_sec,
+        "seconds": round(total, 2),
     }
     (workdir / "metadata.json").write_text(json.dumps(meta, indent=2))
-    for n in norm:
-        n.unlink(missing_ok=True)
-    for tmp in ("base.mp4", "base_card.mp4", "endcard.mp4", "concat_card.txt"):
-        (workdir / tmp).unlink(missing_ok=True)
+    for f in norm + [workdir / t for t in ("base.mp4", "full.mp4", "cold.mp4", "endcard.mp4")]:
+        f.unlink(missing_ok=True)
     return workdir / "final.mp4"

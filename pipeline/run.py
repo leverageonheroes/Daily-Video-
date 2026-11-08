@@ -34,7 +34,10 @@ def render(s, ch, ep_id):
     wd = workdir(ch, ep_id)
     print(f"\n== Rendering {ep_id}: {ep['title']}  (est. ${generate.estimate_cost(ep):.2f})")
     clips = generate.render_shots(ch, ep, wd)
-    final = assemble.assemble(ep, clips, wd, generate.load_bible(ch))
+    bible = generate.load_bible(ch)
+    from . import narration
+    narr = narration.render(ch, ep, wd, bible)
+    final = assemble.assemble(ep, clips, wd, bible, narration=narr)
     state.mark(s, ch, ep_id, "rendered", f"{assemble.duration(final):.1f}s", final=str(final.relative_to(config.ROOT)))
     state.save(s)
     try:

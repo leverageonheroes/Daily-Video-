@@ -9,6 +9,11 @@ def cast(bible: dict, episode: dict) -> dict:
     return c
 
 
+def locations(bible: dict, episode: dict) -> dict:
+    """Bible locations + episode-only locations (episode "locations" field)."""
+    return {**bible.get("locations", {}), **episode.get("locations", {})}
+
+
 def reference_prompt(bible: dict, char: dict) -> str:
     return (
         f"Character reference sheet. {char['ref_prompt']}. "
@@ -26,7 +31,7 @@ def keyframe_prompt(bible: dict, episode: dict, shot: dict, ref_names: list) -> 
         f"Create one vertical 9:16 film frame. Reference images: {refs}. "
         f"Every character must look exactly like their reference image (same colours, clothing, proportions). "
         f"Scene: {shot['keyframe']}. "
-        f"Setting: {bible['locations'][shot['loc']]}. "
+        f"Setting: {locations(bible, episode)[shot['loc']]}. "
         f"Characters in frame: {who}. "
         f"Camera: {shot['camera']}. "
         f"Style: {bible['style_prompt']}. "
@@ -48,7 +53,8 @@ def clip_prompt(bible: dict, episode: dict, shot: dict) -> str:
         parts.append("No spoken words at all: characters only make cute non-verbal sounds (giggles, gasps, "
                      "hiccups, 'ooh', 'uh-oh', 'yay') as described in Sound. Mouths move only for those sounds.")
     elif not shot.get("lines"):
-        parts.append("No dialogue.")
+        parts.append("No dialogue." + (" No talking, no voiceover, no narration: natural sound effects only."
+                                       if shot.get("narration") else ""))
     parts.append(f"Sound: {shot['sfx']}. {bible['audio_prompt']}")
     parts.append(f"Style: {bible['style_prompt']}. Smooth natural motion, mouths move only for the speaking character. "
                  "No on-screen text, subtitles or captions.")
