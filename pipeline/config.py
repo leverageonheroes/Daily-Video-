@@ -21,7 +21,7 @@ def _expand_bundles():
     page ids). Unpack it so each key works as if it were its own secret; real individual values win."""
     import re
     for name in ("META_TOKEN_FACEBOOK_INSTAGRAM", "FACEBOOK_INSTAGRAM_PAGE_IDS", "FACEBOOK_INSTAGRAM_PAGE_IDS_CRIB",
-                 "META_BUNDLE"):
+                 "FACEBOOK_INSTAGRAM_PAGE_IDS_ELDERS", "META_BUNDLE"):
         raw = os.environ.get(name, "").strip()
         # accepts KEY=VALUE or KEY: VALUE, separated by newlines, spaces, commas or semicolons
         for k, v in re.findall(r"([A-Z][A-Z0-9_]*)\s*[=:]\s*['\"]?([^\s,;'\"]+)", raw):
@@ -29,30 +29,36 @@ def _expand_bundles():
                 os.environ[k] = v
 
 
-def _expand_crib_ids():
-    """FACEBOOK_INSTAGRAM_PAGE_IDS_CRIB holds The Crib Committee's ids in any loose form: CRIBCOMMITTEE_FB_ID=..,
+# Per-channel page-id secrets for the Google Flow channels -> env prefix used by pipeline/meta.py
+CHANNEL_ID_SECRETS = {"FACEBOOK_INSTAGRAM_PAGE_IDS_CRIB": "CRIBCOMMITTEE",
+                      "FACEBOOK_INSTAGRAM_PAGE_IDS_ELDERS": "ELDERS"}
+
+
+def _expand_channel_ids():
+    """FACEBOOK_INSTAGRAM_PAGE_IDS_CRIB / _ELDERS hold one channel's ids in any loose form: <PREFIX>_FB_ID=..,
     FB_ID=.., Facebook: .., Instagram: .., or just two numbers (Facebook first, then Instagram)."""
     import re
-    raw = os.environ.get("FACEBOOK_INSTAGRAM_PAGE_IDS_CRIB", "").strip()
-    if not raw:
-        return
-    found = {}
-    for k, v in re.findall(r"([A-Za-z][A-Za-z0-9_ ]*?)\s*[=:]\s*['\"]?(\d{5,})", raw):
-        k = k.upper()
-        kind = "IG" if ("IG" in k or "INSTA" in k) else "FB" if ("FB" in k or "FACEBOOK" in k or "PAGE" in k) else None
-        if kind:
-            found.setdefault(kind, v)
-    if not found:
-        nums = re.findall(r"\d{5,}", raw)
-        found = dict(zip(("FB", "IG"), nums))
-    for kind, v in found.items():
-        if not os.environ.get(f"CRIBCOMMITTEE_{kind}_ID"):
-            os.environ[f"CRIBCOMMITTEE_{kind}_ID"] = v
+    for secret, prefix in CHANNEL_ID_SECRETS.items():
+        raw = os.environ.get(secret, "").strip()
+        if not raw:
+            continue
+        found = {}
+        for k, v in re.findall(r"([A-Za-z][A-Za-z0-9_ ]*?)\s*[=:]\s*['\"]?(\d{5,})", raw):
+            k = k.upper()
+            kind = "IG" if ("IG" in k or "INSTA" in k) else "FB" if ("FB" in k or "FACEBOOK" in k or "PAGE" in k) else None
+            if kind:
+                found.setdefault(kind, v)
+        if not found:
+            nums = re.findall(r"\d{5,}", raw)
+            found = dict(zip(("FB", "IG"), nums))
+        for kind, v in found.items():
+            if not os.environ.get(f"{prefix}_{kind}_ID"):
+                os.environ[f"{prefix}_{kind}_ID"] = v
 
 
 _load_dotenv()
 _expand_bundles()
-_expand_crib_ids()
+_expand_channel_ids()
 
 
 def env(name, default=None):

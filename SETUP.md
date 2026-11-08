@@ -154,7 +154,7 @@ To switch model, set `VIDEO_I2V` (and `PRICE_PER_VIDEO_SECOND`) in `.env` and as
 1. Create the YouTube channel (name **Ask The Elders**, handle e.g. @AskTheEldersTV), category People & Blogs.
 2. Connect it: `python tools/auth_youtube.py elders`, then add the token as the GitHub secret **YT_TOKEN_ELDERS**.
 3. If you set a repository variable `CHANNELS`, add `elders` to it (weekly/monthly compilations).
-4. Facebook + Instagram Stories: put the Page and Instagram IDs in `.env` as `FB_ID_ELDERS` / `IG_ID_ELDERS` (or `ELDERS_FB_ID` / `ELDERS_IG_ID`) and add the same names as GitHub secrets (or inside the `FACEBOOK_INSTAGRAM_PAGE_IDS` bundle). The shared `META_TOKEN` posts to them after each flow import.
+4. Facebook + Instagram Stories: put the Page and Instagram IDs in `.env` as `FB_ID_ELDERS` / `IG_ID_ELDERS` (or `ELDERS_FB_ID` / `ELDERS_IG_ID`) and add the same names as GitHub secrets, or put both ids in the secret `FACEBOOK_INSTAGRAM_PAGE_IDS_ELDERS` (any form: `FB_ID=.. IG_ID=..`, `Facebook: .. Instagram: ..`, or two numbers, Facebook first). The shared `META_TOKEN` posts to them after each flow import.
 4. Actions tab → **Flow prompts (Google Flow channels)** → Run workflow. An issue with 5 prompts appears.
 5. Daily, on your phone (about 5 minutes, before 14:00 UK time):
    - Open labs.google/flow → New project → model **Veo 3.1 Lite**, aspect **9:16**, outputs **1**.
