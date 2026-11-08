@@ -95,10 +95,9 @@ def instagram_story(ig_id, token, video: Path) -> str:
 
 
 def story_parts(video: Path, episode: dict, total: float) -> list[Path]:
-    """<= 60 s: the video itself. Longer: cut at the shot boundary closest to equal parts."""
-    if total <= MAX_STORY_SECONDS:
-        return [video]
-    n = int(total // MAX_STORY_SECONDS) + 1
+    """<= 60 s: one re-encoded copy (Instagram rejects some original final.mp4 uploads with ProcessingFailedError).
+    Longer: cut at the shot boundary closest to equal parts."""
+    n = 1 if total <= MAX_STORY_SECONDS else int(total // MAX_STORY_SECONDS) + 1
     bounds, t = [], 0.0
     for shot in episode["shots"][:-1]:
         t += shot["dur"]
@@ -119,6 +118,15 @@ def story_parts(video: Path, episode: dict, total: float) -> list[Path]:
     return parts
 
 
+def _retry_once(fn, target, token, part):
+    try:
+        return fn(target, token, part)
+    except Exception as e:
+        print(f"   story upload failed ({e}); retrying once in 30 s")
+        time.sleep(30)
+        return fn(target, token, part)
+
+
 def post_stories(channel, video: Path, episode: dict, total: float, done: dict) -> dict:
     """Posts to whichever of FB/IG isn't in `done` yet. Returns {"facebook": [...], "instagram": [...]}."""
     fb_id, ig_id, token = ids(channel)
@@ -131,7 +139,7 @@ def post_stories(channel, video: Path, episode: dict, total: float, done: dict) 
         if not target or out.get(name):
             continue
         try:
-            out[name] = [fn(target, ptoken, p) for p in parts]
+            out[name] = [_retry_once(fn, target, ptoken, p) for p in parts]
             print(f"   {name} story posted ({len(parts)} part{'s' * (len(parts) > 1)})")
         except Exception as e:
             errors.append(f"{name}: {e}")
