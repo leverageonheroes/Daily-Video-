@@ -722,7 +722,15 @@
             "5.mp4_1dad3098.mp4"
           ],
           "youtube_id": "NawsQT8_xaA",
-          "publish_at": "2026-11-07T20:52:49Z"
+          "publish_at": "2026-11-07T20:52:49Z",
+          "stories": {
+            "facebook": [
+              "1637053651299746"
+            ],
+            "instagram": [
+              "18136622026656261"
+            ]
+          }
         },
         "ELD-002": {
           "status": "scripted",
@@ -1028,5 +1036,5 @@
       "last_scripted": "CC-030"
     }
   },
-  "updated": "2026-11-07T14:16:59+00:00"
+  "updated": "2026-11-08T01:56:49+00:00"
 }
