@@ -185,6 +185,13 @@ TikTok's posting API needs an app review, so TikTok is posted by hand. The pipel
 `tiktok-flat4b`, `tiktok-coldhearts`, `tiktok-drizzlepudge`, `tiktok-elders`, `tiktok-cribcommittee`
 (github.com/leverageonheroes/Daily-Video-/releases).
 
+Phone links (repo is public, no login needed; bookmark them):
+- Elders: https://github.com/leverageonheroes/Daily-Video-/releases/tag/tiktok-elders
+- Crib Committee: https://github.com/leverageonheroes/Daily-Video-/releases/tag/tiktok-cribcommittee
+- Direct download: `https://github.com/leverageonheroes/Daily-Video-/releases/download/tiktok-<channel>/<ID>.mp4`
+  (e.g. `.../tiktok-elders/ELD-003.mp4`, `.../tiktok-cribcommittee/CC-002.mp4`). If it plays instead of
+  downloading, long-press the link → "Download link".
+
 Daily, on your phone: open the release → tap `<ID>.mp4` to download → open `<ID>.txt` and copy the caption →
 TikTok app → + → Upload → paste caption → **More options → switch ON "AI-generated content"** → Post.
 Leave the "Made with Veo" watermark on Elders clips. Drizzle & Pudge is made for under-7s and TikTok is 13+,
