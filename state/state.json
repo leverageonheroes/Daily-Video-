@@ -105,7 +105,7 @@
           }
         },
         "CH-004": {
-          "status": "uploaded",
+          "status": "published",
           "history": [
             {
               "status": "rendered",
@@ -116,6 +116,11 @@
               "status": "uploaded",
               "at": "2026-11-08T13:44:24+00:00",
               "note": "https://youtu.be/1Y2zTqG7DoM publishes 2026-11-08T23:44:21Z"
+            },
+            {
+              "status": "published",
+              "at": "2026-11-09T16:38:35+00:00",
+              "note": "https://youtu.be/1Y2zTqG7DoM"
             }
           ],
           "attempts": 1,
@@ -134,9 +139,33 @@
           }
         },
         "CH-005": {
-          "status": "scripted",
-          "history": [],
-          "attempts": 0
+          "status": "uploaded",
+          "history": [
+            {
+              "status": "rendered",
+              "at": "2026-11-09T16:47:43+00:00",
+              "note": "73.5s"
+            },
+            {
+              "status": "uploaded",
+              "at": "2026-11-09T16:47:59+00:00",
+              "note": "https://youtu.be/S0Phdec-xEU publishes 2026-11-10T02:47:56Z"
+            }
+          ],
+          "attempts": 1,
+          "final": "output/coldhearts/CH-005/final.mp4",
+          "youtube_id": "S0Phdec-xEU",
+          "publish_at": "2026-11-10T02:47:56Z",
+          "stories": {
+            "facebook": [
+              "1492812629577166",
+              "1528286845788335"
+            ],
+            "instagram": [
+              "18109263386254731",
+              "17874125628640680"
+            ]
+          }
         },
         "CH-006": {
           "status": "scripted",
@@ -269,9 +298,33 @@
     "flat4b": {
       "episodes": {
         "OIT-001": {
-          "status": "scripted",
-          "history": [],
-          "attempts": 0
+          "status": "uploaded",
+          "history": [
+            {
+              "status": "rendered",
+              "at": "2026-11-09T16:41:52+00:00",
+              "note": "64.0s"
+            },
+            {
+              "status": "uploaded",
+              "at": "2026-11-09T16:42:06+00:00",
+              "note": "https://youtu.be/saSp1FWB5YM publishes 2026-11-10T02:42:03Z"
+            }
+          ],
+          "attempts": 1,
+          "final": "output/flat4b/OIT-001/final.mp4",
+          "youtube_id": "saSp1FWB5YM",
+          "publish_at": "2026-11-10T02:42:03Z",
+          "stories": {
+            "facebook": [
+              "4395089107455956",
+              "1767288744348034"
+            ],
+            "instagram": [
+              "18099141977398258",
+              "18123856984967806"
+            ]
+          }
         },
         "OIT-002": {
           "status": "scripted",
@@ -772,7 +825,7 @@
           }
         },
         "DP-004": {
-          "status": "uploaded",
+          "status": "published",
           "history": [
             {
               "status": "rendered",
@@ -783,6 +836,11 @@
               "status": "uploaded",
               "at": "2026-11-08T13:49:24+00:00",
               "note": "https://youtu.be/FhwWnDWOVhE publishes 2026-11-08T23:49:21Z"
+            },
+            {
+              "status": "published",
+              "at": "2026-11-09T16:38:35+00:00",
+              "note": "https://youtu.be/FhwWnDWOVhE"
             }
           ],
           "attempts": 1,
@@ -796,9 +854,31 @@
           }
         },
         "DP-005": {
-          "status": "scripted",
-          "history": [],
-          "attempts": 0
+          "status": "uploaded",
+          "history": [
+            {
+              "status": "rendered",
+              "at": "2026-11-09T16:51:49+00:00",
+              "note": "38.0s"
+            },
+            {
+              "status": "uploaded",
+              "at": "2026-11-09T16:52:01+00:00",
+              "note": "https://youtu.be/hKfeMUedJsg publishes 2026-11-10T02:51:58Z"
+            }
+          ],
+          "attempts": 1,
+          "final": "output/drizzlepudge/DP-005/final.mp4",
+          "youtube_id": "hKfeMUedJsg",
+          "publish_at": "2026-11-10T02:51:58Z",
+          "stories": {
+            "facebook": [
+              "1631469411808977"
+            ],
+            "instagram": [
+              "18075494009771329"
+            ]
+          }
         },
         "DP-006": {
           "status": "scripted",
@@ -1375,5 +1455,5 @@
       "last_scripted": "CC-030"
     }
   },
-  "updated": "2026-11-09T14:29:29+00:00"
+  "updated": "2026-11-09T16:52:56+00:00"
 }
