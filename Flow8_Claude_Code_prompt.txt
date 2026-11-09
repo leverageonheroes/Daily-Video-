@@ -1,0 +1,36 @@
+TASK: make Ask The Elders and The Crib Committee 64 seconds long (8 Google Flow clips per Short, two Google
+accounts per channel). Read CLAUDE.md first. I'm on a PHONE: short messages, numbered choices, one step at a time.
+
+RULES: never commit .env, secrets/, tokens or zips. No paid API calls. Don't touch other channels. Never
+overwrite my own fixes: if a patch hunk fails, make the change by hand.
+
+1. `git status` and `git pull`. Check that both inboxes are empty (inbox/elders/ and inbox/cribcommittee/
+   contain only README.md and PROMPTS.md). If clips are waiting there, STOP and tell me. Today's Short must
+   post first, because the new scripts change what each clip should show.
+2. Check that the One In A Thousand add-on is installed (pipeline/narration.py exists). If not, tell me and
+   install oit-addon.zip first (its own prompt).
+3. Unzip flow8-addon.zip to /tmp/flow8 (ask me to upload it if it's missing). Read README.md.
+4. `git apply /tmp/flow8/flow8-addon/flow8-changes.patch` (try --3way if it refuses, else do it by hand).
+   It changes pipeline/flow.py (account labels per clip, N clips), tools/validate.py (clip limit comes from
+   channel.json flow.accounts) and CLAUDE.md / SETUP.md.
+5. Copy tools/upgrades/merge_flow8.py and the two generators (tools/generators/build_elders_001-030.py,
+   build_cribcommittee_001-030.py) from /tmp/flow8/flow8-addon/files/ into the repo.
+6. Run `python tools/upgrades/merge_flow8.py /tmp/flow8/flow8-addon/files`. This installs the new 8-clip
+   scripts but KEEPS the original script of every episode already rendered, uploaded or published, so
+   compilations stay correct. Show me its output.
+7. `python tools/validate.py` must end RESULT: OK (WARNs about kept 40 s episodes are fine).
+8. Mock test (free): 8 dummy 8 s 720x1280 clips named 1.mp4-8.mp4 in output_mock/inbox/elders/ and
+   output_mock/inbox/cribcommittee/, then `MOCK=1 python -m pipeline.run flow-import`. Confirm both final.mp4
+   files are 64 s at 1080x1920. Show me lines 7-9 of
+   `MOCK=1 python -m pipeline.run flow-prompts cribcommittee` (the account split). Delete output_mock/,
+   state/state.mock.json and flow_result.json.
+9. Commit "Flow channels: 8 clips (64 s), two accounts each" and push.
+10. Run the "Flow prompts (Google Flow channels)" workflow so today's issues show the new 8-clip prompts,
+    closing any old open issue for the same episode first (only if its inbox is empty). Give me the links.
+11. Finish with my new daily routine in 6 short lines:
+    - 2 issues each morning, 8 prompts each, every clip labelled with its Google account
+    - Elders account 1 = clips 1-5, Elders account 2 = clips 6-8; Crib account 1 = 1-5, Crib account 2 = 6-8
+    - Veo 3.1 Lite, 9:16, 1 output. Finish before 2 pm UK time
+    - Name files 1.mp4-8.mp4, upload to inbox/elders/ and inbox/cribcommittee/
+    - Each Short posts automatically when its 8th clip arrives
+    - Each second account has 2 spare clips a day for retakes
