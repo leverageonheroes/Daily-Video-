@@ -1201,9 +1201,35 @@
           }
         },
         "CC-002": {
-          "status": "scripted",
-          "history": [],
-          "attempts": 0
+          "status": "uploaded",
+          "history": [
+            {
+              "status": "rendered",
+              "at": "2026-11-09T14:27:18+00:00",
+              "note": "44.0s from Google Flow clips"
+            },
+            {
+              "status": "uploaded",
+              "at": "2026-11-09T14:27:26+00:00",
+              "note": "https://youtu.be/mekiXwPSMmk publishes 2026-11-10T01:27:23Z"
+            }
+          ],
+          "attempts": 1,
+          "final": "output/cribcommittee/CC-002/final.mp4",
+          "clips": [
+            "1.mp4_0784a24b.mp4",
+            "2.mp4_6a0aaba7.mp4",
+            "3.mp4_d815e5a6.mp4",
+            "4.mp4_78576bb4.mp4",
+            "5.mp4_a2268de3.mp4"
+          ],
+          "youtube_id": "mekiXwPSMmk",
+          "publish_at": "2026-11-10T01:27:23Z",
+          "stories": {
+            "facebook": [
+              "29514591744830831"
+            ]
+          }
         },
         "CC-003": {
           "status": "scripted",
@@ -1349,5 +1375,5 @@
       "last_scripted": "CC-030"
     }
   },
-  "updated": "2026-11-09T14:13:48+00:00"
+  "updated": "2026-11-09T14:29:29+00:00"
 }
