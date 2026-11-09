@@ -122,6 +122,14 @@ def sync_youtube(s):
     state.save(s)
 
 
+def rendered_today(s, ch):
+    """True if this channel already rendered an episode today (UTC). Lets backup cron times re-run
+    the workflow safely when GitHub delays or drops the first scheduled run."""
+    today = state.now()[:10]
+    return any(h["status"] == "rendered" and h["at"].startswith(today)
+               for rec in s["channels"].get(ch, {}).get("episodes", {}).values() for h in rec.get("history", []))
+
+
 def daily(s, channels):
     do_upload = os.environ.get("YT_UPLOAD", "1") == "1" and not config.MOCK
     spent, failures = 0.0, 0
@@ -133,6 +141,9 @@ def daily(s, channels):
     for ch in channels:
         if flow.is_flow(ch):
             print(f"   {ch}: Google Flow channel - made by flow-import, skipped by daily (never paid)")
+            continue
+        if os.environ.get("ONCE_PER_DAY") == "1" and rendered_today(s, ch):
+            print(f"   {ch}: already made an episode today (UTC) -> skipped (backup schedule)")
             continue
         # 1) finish anything rendered but not uploaded (e.g. an upload failed yesterday).
         #    Runners are ephemeral, so the files are restored from the GitHub Release (no paid re-render).

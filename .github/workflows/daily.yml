@@ -2,7 +2,11 @@ name: Daily Shorts
 
 on:
   schedule:
-    - cron: "23 6 * * *"     # every day 06:23 UTC; with REVIEW_HOURS=10 videos go public ~16:20 UK time
+    - cron: "23 6 * * *"     # every day 06:23 UTC; with REVIEW_HOURS=10 videos go public ~10 h after upload
+    # Backups: GitHub often starts scheduled runs hours late or drops them. Scheduled runs set
+    # ONCE_PER_DAY=1, so a channel that already rendered today (UTC) is skipped: no double posts or spend.
+    - cron: "47 11 * * *"
+    - cron: "17 17 * * *"
   workflow_dispatch:
     inputs:
       channels:
@@ -68,6 +72,7 @@ jobs:
           YT_UPLOAD: ${{ vars.YT_UPLOAD || '1' }}
           MOCK: ${{ vars.MOCK || '0' }}
           STORE_RELEASES: "1"
+          ONCE_PER_DAY: ${{ github.event_name == 'schedule' && '1' || '0' }}
           GH_TOKEN: ${{ github.token }}
           VIDEO_I2V: ${{ vars.VIDEO_I2V || 'fal-ai/ltx-2-19b/distilled/image-to-video' }}
           IMAGE_EDIT: ${{ vars.IMAGE_EDIT || 'fal-ai/flux-2/flash/edit' }}
