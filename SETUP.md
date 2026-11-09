@@ -205,3 +205,11 @@ so expect it to be restricted there.
 2. The narrator voice uses your existing FAL_KEY (about $0.03-0.05 per Short).
 3. Music (optional): add epic-nature-strings.mp3, tense-drums.mp3, tragic-piano.mp3, hopeful-swell.mp3 to music/.
 4. Cost: about $2.20-2.40 per 64 s Short on LTX 720p (video $1.92 + images $0.30 + narrator $0.04).
+
+## 14. Longer Flow Shorts: 8 clips = 64 s (4 Google accounts)
+
+Each Flow channel now needs 8 clips a day, so each channel uses two free Google accounts:
+- Ask The Elders: Elders account 1 = clips 1-5, Elders account 2 = clips 6-8 (2 spare credits-worth = 2 retakes)
+- The Crib Committee: Crib account 1 = clips 1-5, Crib account 2 = clips 6-8
+The daily issue labels every clip with its account. Name uploads 1.mp4 ... 8.mp4.
+Episodes are 64 s, over one minute, so they also qualify for TikTok's Creator Rewards Program.

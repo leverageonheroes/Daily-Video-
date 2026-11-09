@@ -1,10 +1,10 @@
 """Google Flow channels (channel.json "source": "flow"): a human makes the clips, the pipeline does the rest.
 
-Daily loop (free, uses the 50 daily Google Flow credits = 5 x Veo 3.1 Lite 8 s clips):
+Daily loop (free, uses the 50 daily Google Flow credits per account = 5 x Veo 3.1 Lite 8 s clips; 2 accounts = 8 clips):
   1. `flow-prompts <ch>`  -> writes inbox/<ch>/PROMPTS.md for the next episode (also posted as a GitHub issue)
-  2. Human: paste each prompt into Google Flow (Veo 3.1 Lite, 9:16, 1 output), download the 5 clips,
+  2. Human: paste each prompt into Google Flow (Veo 3.1 Lite, 9:16, 1 output), download the clips,
      upload them to inbox/<ch>/ on GitHub.
-  3. `flow-import <ch>`   -> once 5 clips are there: order them, assemble (captions, hook, music, loudness),
+  3. `flow-import <ch>`   -> once all clips are there: order them, assemble (captions, hook, music, loudness),
      store the clean copy, upload to YouTube, delete the clips from inbox/.
 
 Clip order: a leading number in the file name wins (1.mp4, 2_clip.mp4, clip-3.mp4 ...). Otherwise the order
@@ -39,7 +39,7 @@ def inbox(channel: str):
 def current_episode(s, channel):
     """Strict order, never date-based: the lowest-numbered episode that has not been assembled yet.
     A missed day (or a failed import, however many times) never skips an episode - the same prompts
-    stay current until their 5 clips have been imported."""
+    stay current until all their clips have been imported."""
     eps = s["channels"][channel]["episodes"]
     for ep_id in sorted(eps, key=lambda k: int(k.rsplit("-", 1)[-1])):
         if eps[ep_id]["status"] in ("scripted", "failed"):
@@ -62,11 +62,18 @@ def prompts_markdown(s, channel) -> str:
            "",
            f"**Then:** download the clips and upload them to `inbox/{channel}/` "
            "(GitHub website > inbox > " + channel + " > Add file > Upload files). "
-           "Name them 1.mp4 to 5.mp4, OR upload them one at a time in order. "
-           "The video is assembled and posted automatically when the 5th clip arrives.",
+           f"Name them 1.mp4 to {len(ep['shots'])}.mp4, OR upload them one at a time in order. "
+           f"The video is assembled and posted automatically when clip {len(ep['shots'])} arrives.",
            ""]
+    accounts = f.get("accounts") or []
+    per_acct = f.get("daily_free_credits", 50) // max(f.get("credits_per_clip", 10), 1)
+    if len(accounts) > 1:
+        split = ", ".join(f"**{a}**: clips {i * per_acct + 1}-{min((i + 1) * per_acct, len(ep['shots']))}"
+                          for i, a in enumerate(accounts) if i * per_acct < len(ep["shots"]))
+        out += [f"**Flow accounts:** {split}.", ""]
     for shot in ep["shots"]:
-        out += [f"### Clip {shot['n']}", "```", shot["flow_prompt"], "```", ""]
+        who = f" ({accounts[(shot['n'] - 1) // per_acct]})" if len(accounts) > 1 else ""
+        out += [f"### Clip {shot['n']}{who}", "```", shot["flow_prompt"], "```", ""]
     return "\n".join(out)
 
 

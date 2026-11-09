@@ -8,8 +8,8 @@ Everything you need to resume is on disk: never rely on chat memory.
 | 1 | `channels/flat4b/` | **One In A Thousand** (was Flat 4B; old scripts in `archive/`) — true survival stories of creatures and cells | Narrated cinematic explainer, 7 shots = 64 s, one narrator voice (pipeline/narration.py) |
 | 2 | `channels/coldhearts/` | **Fridge Hearts** (folder still `coldhearts`) — a soap opera inside a fridge | Melodramatic micro-soap, 60–85 s, flash-forward cold open + cliffhanger + TO BE CONTINUED card |
 | 3 | `channels/drizzlepudge/` | **Drizzle & Pudge** — a baby rain cloud and her hedgehog best friend | Wordless kids cartoon, 30–45 s, ends with the Puddle Jump |
-| 4 | `channels/elders/` | **Ask The Elders** — realistic AI elders, one life lesson each | 5 elders × 8 s = 40 s, one theme per Short. **Google Flow channel** (see below) |
-| 5 | `channels/cribcommittee/` | **The Crib Committee** — babies hold a meeting about parenting | 5 babies × 8 s = 40 s, one topic per Short. **Google Flow channel** (see below) |
+| 4 | `channels/elders/` | **Ask The Elders** — realistic AI elders, one life lesson each | 8 elders × 8 s = 64 s, one theme per Short (2 Flow accounts). **Google Flow channel** (see below) |
+| 5 | `channels/cribcommittee/` | **The Crib Committee** — babies hold a meeting about parenting | 8 babies × 8 s = 64 s, one topic per Short (2 Flow accounts). **Google Flow channel** (see below) |
 
 Channels 1–2, 4 and 5 are **general audience, NOT "made for kids"**. Keep humour clean (no swearing,
 sexual content, gore, cruelty, real brands, real people, or copyrighted characters).
@@ -120,12 +120,15 @@ then mark the episode `failed` with a note instead of publishing a bad video.
 ## Google Flow channel: Ask The Elders (`"source": "flow"` in channel.json)
 
 No paid API is ever called for this channel; `daily` skips it. The human makes the clips with the free
-50 daily Google Flow credits (5 × Veo 3.1 Lite, 8 s, 9:16, 1 output per prompt).
+50 daily Google Flow credits per Google account (5 × Veo 3.1 Lite, 8 s, 9:16, 1 output per prompt).
+Each Flow channel uses TWO accounts (channel.json `flow.accounts`): clips 1-5 on the first, 6-8 on the second,
+so 8 clips = 64 s (over one minute, which TikTok's Creator Rewards require). PROMPTS.md labels each clip with its account.
+Episodes made before the switch (ELD-001..003, CC-001..002) keep their original 5-clip scripts.
 
 1. `flow-prompts.yml` (05:41 UTC) runs `python -m pipeline.run flow-prompts` → `inbox/elders/PROMPTS.md`
-   and a GitHub issue labelled `flow-clips` with the 5 prompts.
-2. The human uploads the 5 clips to `inbox/elders/` (named 1–5, or one at a time in order).
-3. `flow-import.yml` runs on every upload: `python -m pipeline.run flow-import` waits until 5 clips exist,
+   and a GitHub issue labelled `flow-clips` with the 8 prompts.
+2. The human uploads the 8 clips to `inbox/elders/` (named 1–8, or one at a time in order).
+3. `flow-import.yml` runs on every upload: `python -m pipeline.run flow-import` waits until all of the episode's clips exist,
    orders them (file-name number > git upload order > alphabetical), assembles with captions/hook/music,
    stores clean.mp4 in Releases, uploads (secret `YT_TOKEN_ELDERS`), deletes the clips, closes the issue.
 4. Weekly/monthly compilations include it like any other channel.
@@ -136,7 +139,7 @@ appended in pipeline/assemble.py to final.mp4 only, not clean.mp4/compilations).
 
 Writing the next Ask The Elders batch: edit/extend `tools/generators/build_elders_001-030.py` (copy it to
 `build_elders_031-060.py`): every line ≤ 18 words, line 1 states the age ("I'm {age}. ...") and promises the
-theme, line 5 is the emotional closer, 5 different elders per episode, original lines (no famous quotes),
+theme, lines 2-7 are six lessons, line 8 is the emotional closer, 8 different elders per episode, original lines (no famous quotes),
 no specific investment/medical/legal advice. Every shot needs a `flow_prompt` that contains the exact spoken
 line (the validator checks this, because captions are burned from `lines`). Never name the elders or claim
 they are real people.
@@ -146,13 +149,17 @@ they are real people.
 Works exactly like Ask The Elders (same flow-prompts / flow-import workflows; its own issue labelled
 `flow-cribcommittee`, inbox `inbox/cribcommittee/`, secret `YT_TOKEN_CRIBCOMMITTEE`, end card from
 `assets/cribcommittee/logo.png`). It publishes `review_hours` (channel.json, 11 h) after upload, about 1 h after Elders.
-Each Short: 5 different babies (never named) in fixed roles: Chair (tiny tie + reading glasses) opens the meeting,
-then Sassy / Wise / Dramatic in any order, then the Closer ends "Motion carried." while a newborn reacts (burp,
+Each Short: 8 different babies (never named): Chair (tiny tie + reading glasses) opens the meeting,
+six members make one wish each (sassy / wise / dramatic tones), then the Closer ends "Motion carried." while a newborn reacts (burp,
 hiccup, sneeze...). Kind humour, mainstream evidence-based parenting ideas, no products or medical advice.
 
-Writing the next batch: add `channels/cribcommittee/scripts_031-060.md` in the same Markdown format as
-`scripts_001-030.md` (each line ≤ 18 words), copy `tools/generators/build_cribcommittee_001-030.py` to
-`build_cribcommittee_031-060.py` with `SRC`/`START` changed, run it, then validate + `state.py sync`.
+Writing the next batch: copy `tools/generators/build_cribcommittee_001-030.py` to `build_cribcommittee_031-060.py`
+(8 clips, each line ≤ 18 words; readable copy of the scripts in `channels/cribcommittee/scripts_001-030.md`),
+run it, then validate + `state.py sync`.
+
+WARNING (both Flow channels): do NOT re-run the `_001-030` generators. They rewrite channel.json (dropping
+`end_card` and the old crib characters) and the episode files (replacing the kept 5-clip ELD-001..003 / CC-001..002).
+New-batch generators must write only their own new episode file, not channel.json.
 
 ## One In A Thousand (channels/flat4b, ids OIT-NNN)
 

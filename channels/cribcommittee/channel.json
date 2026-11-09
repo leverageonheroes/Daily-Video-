@@ -1,21 +1,202 @@
 {
   "channel_id": "cribcommittee",
   "show_title": "The Crib Committee",
-  "tagline": "Babies hold a meeting about you. Real parenting wisdom, 40 seconds, motion carried.",
-  "audience": "general (parents), NOT made for kids",
-  "format": "One parenting topic per Short. Five different babies (Chair, Sassy, Wise, Dramatic, Closer), one line each, 8 s per clip, spoken to camera. The Closer ends with 'Motion carried.' and a newborn reaction.",
+  "tagline": "Babies have notes for their parents.",
+  "audience": "parents and carers (adults). NOT made for kids.",
+  "format": "A board meeting run by babies. Every clip is a different baby (new delegation every day, no names). The Chair (tiny tie + reading glasses) opens, six members make one wish each, an eighth member closes, the newborn intern delivers the gag. 8 x 8 s = 64 s.",
   "source": "flow",
   "episode_id_prefix": "CC",
   "target_seconds": [
-    36,
-    44
+    60,
+    70
   ],
   "max_seconds": 90,
-  "review_hours": 11,
-  "style_prompt": "Vertical 9:16, photorealistic, cinematic shallow depth of field, soft warm window light, gentle pastel nursery colours, natural baby skin texture, shot on a 50mm lens",
-  "audio_prompt": "No music. No subtitles, no captions, no text on screen.",
-  "negative_prompt": "text, subtitles, logos, brands, celebrities, real identifiable people, unsafe sleep setups, babies left unattended near hazards",
+  "style_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade",
+  "set": "seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
+  "audio_prompt": "No music. No subtitles, no captions, no text or writing anywhere in the frame.",
+  "negative_prompt": "text, writing, name plates, signs, logos, real identifiable people, unsafe situations",
   "characters": {
+    "d01": {
+      "name": "Delegate 01",
+      "ref_prompt": "a chubby 18-month-old East Asian baby boy with short spiky black hair, in a white nappy and a tiny grey cardigan",
+      "pronoun": "he",
+      "voice": "toddler voice set per role",
+      "tts_voice_id": ""
+    },
+    "d02": {
+      "name": "Delegate 02",
+      "ref_prompt": "a chubby 2-year-old Black toddler girl with curly hair in two puffs tied with pink bows, a pink knitted cardigan over her white nappy",
+      "pronoun": "she",
+      "voice": "toddler voice set per role",
+      "tts_voice_id": ""
+    },
+    "d03": {
+      "name": "Delegate 03",
+      "ref_prompt": "a 2-year-old toddler girl with wispy ginger hair and freckles, a mustard-yellow headband, a tiny green knitted vest over her white nappy",
+      "pronoun": "she",
+      "voice": "toddler voice set per role",
+      "tts_voice_id": ""
+    },
+    "d04": {
+      "name": "Delegate 04",
+      "ref_prompt": "a 3-year-old toddler boy with big dark curls, a red superhero cape over a white vest and nappy",
+      "pronoun": "he",
+      "voice": "toddler voice set per role",
+      "tts_voice_id": ""
+    },
+    "d05": {
+      "name": "Delegate 05",
+      "ref_prompt": "a chubby 1-year-old blond baby boy with a single curl on top, a tiny blue bow tie over his nappy",
+      "pronoun": "he",
+      "voice": "toddler voice set per role",
+      "tts_voice_id": ""
+    },
+    "d06": {
+      "name": "Delegate 06",
+      "ref_prompt": "a 2-year-old South Asian toddler girl with a short black bob and tiny gold-coloured hair clips, a lilac romper",
+      "pronoun": "she",
+      "voice": "toddler voice set per role",
+      "tts_voice_id": ""
+    },
+    "d07": {
+      "name": "Delegate 07",
+      "ref_prompt": "a chubby 18-month-old Black baby boy with a short neat afro, a tiny pinstripe waistcoat over his nappy",
+      "pronoun": "he",
+      "voice": "toddler voice set per role",
+      "tts_voice_id": ""
+    },
+    "d08": {
+      "name": "Delegate 08",
+      "ref_prompt": "a 1-year-old baby girl with almost no hair and huge blue eyes, a white frilly bib like a cravat over her nappy",
+      "pronoun": "she",
+      "voice": "toddler voice set per role",
+      "tts_voice_id": ""
+    },
+    "d09": {
+      "name": "Delegate 09",
+      "ref_prompt": "a 2-year-old Latino toddler boy with thick wavy brown hair, a tiny denim jacket over a white nappy",
+      "pronoun": "he",
+      "voice": "toddler voice set per role",
+      "tts_voice_id": ""
+    },
+    "d10": {
+      "name": "Delegate 10",
+      "ref_prompt": "a chubby 2-year-old Middle Eastern toddler girl with long dark curls, a cream knitted jumper",
+      "pronoun": "she",
+      "voice": "toddler voice set per role",
+      "tts_voice_id": ""
+    },
+    "d11": {
+      "name": "Delegate 11",
+      "ref_prompt": "a 3-year-old red-haired toddler boy with freckles, tiny round sunglasses pushed up on his head, a striped t-shirt and nappy",
+      "pronoun": "he",
+      "voice": "toddler voice set per role",
+      "tts_voice_id": ""
+    },
+    "d12": {
+      "name": "Delegate 12",
+      "ref_prompt": "a 18-month-old East Asian baby girl with a tiny top-knot, a mint-green dungaree romper",
+      "pronoun": "she",
+      "voice": "toddler voice set per role",
+      "tts_voice_id": ""
+    },
+    "d13": {
+      "name": "Delegate 13",
+      "ref_prompt": "a chubby 1-year-old mixed-race baby boy with soft curly brown hair, a tiny knitted beanie and a nappy",
+      "pronoun": "he",
+      "voice": "toddler voice set per role",
+      "tts_voice_id": ""
+    },
+    "d14": {
+      "name": "Delegate 14",
+      "ref_prompt": "a 2-year-old Black toddler girl with neat cornrows and beads, a yellow sundress",
+      "pronoun": "she",
+      "voice": "toddler voice set per role",
+      "tts_voice_id": ""
+    },
+    "d15": {
+      "name": "Delegate 15",
+      "ref_prompt": "a 2-year-old South Asian toddler boy with a side parting, a tiny checked shirt over his nappy",
+      "pronoun": "he",
+      "voice": "toddler voice set per role",
+      "tts_voice_id": ""
+    },
+    "d16": {
+      "name": "Delegate 16",
+      "ref_prompt": "a chubby 1-year-old blonde baby girl with a big pink flower headband, a white nappy",
+      "pronoun": "she",
+      "voice": "toddler voice set per role",
+      "tts_voice_id": ""
+    },
+    "d17": {
+      "name": "Delegate 17",
+      "ref_prompt": "a 3-year-old toddler boy with a buzz cut, a tiny orange hi-vis vest over a white vest and nappy",
+      "pronoun": "he",
+      "voice": "toddler voice set per role",
+      "tts_voice_id": ""
+    },
+    "d18": {
+      "name": "Delegate 18",
+      "ref_prompt": "a 2-year-old Latina toddler girl with two braids, a tiny pearl-style toy necklace, a navy dress",
+      "pronoun": "she",
+      "voice": "toddler voice set per role",
+      "tts_voice_id": ""
+    },
+    "d19": {
+      "name": "Delegate 19",
+      "ref_prompt": "a chubby 18-month-old baby boy with wild white-blond hair, a tiny tweed flat cap and a nappy",
+      "pronoun": "he",
+      "voice": "toddler voice set per role",
+      "tts_voice_id": ""
+    },
+    "d20": {
+      "name": "Delegate 20",
+      "ref_prompt": "a 2-year-old toddler girl with short brown curls, tiny star-shaped toy glasses, a rainbow t-shirt",
+      "pronoun": "she",
+      "voice": "toddler voice set per role",
+      "tts_voice_id": ""
+    },
+    "d21": {
+      "name": "Delegate 21",
+      "ref_prompt": "a 2-year-old East Asian toddler boy with a bowl haircut, a tiny navy blazer over his nappy",
+      "pronoun": "he",
+      "voice": "toddler voice set per role",
+      "tts_voice_id": ""
+    },
+    "d22": {
+      "name": "Delegate 22",
+      "ref_prompt": "a chubby 18-month-old Black baby girl with a soft afro and a white headband, a lemon-yellow romper",
+      "pronoun": "she",
+      "voice": "toddler voice set per role",
+      "tts_voice_id": ""
+    },
+    "d23": {
+      "name": "Delegate 23",
+      "ref_prompt": "a 1-year-old baby boy with chubby rosy cheeks and a dark curl, a tiny green bow tie and a nappy",
+      "pronoun": "he",
+      "voice": "toddler voice set per role",
+      "tts_voice_id": ""
+    },
+    "d24": {
+      "name": "Delegate 24",
+      "ref_prompt": "a 3-year-old toddler girl with a long auburn ponytail, a tiny clipboard tucked under one arm, a blue pinafore",
+      "pronoun": "she",
+      "voice": "toddler voice set per role",
+      "tts_voice_id": ""
+    },
+    "d25": {
+      "name": "Delegate 25",
+      "ref_prompt": "a 2-year-old Middle Eastern toddler boy with thick black hair and long eyelashes, a cosy brown jumper",
+      "pronoun": "he",
+      "voice": "toddler voice set per role",
+      "tts_voice_id": ""
+    },
+    "bean": {
+      "name": "The Intern",
+      "ref_prompt": "a tiny newborn baby swaddled in a cream blanket, lying in a wicker bassinet",
+      "voice": "baby noises only",
+      "tts_voice_id": ""
+    },
     "chair": {
       "name": "Chair",
       "ref_prompt": "a baby wearing a tiny navy necktie over a white onesie and little round reading glasses, sitting at the head of the toddler table",
@@ -59,16 +240,36 @@
       "tts_voice_id": ""
     }
   },
+  "roles": {
+    "chair": {
+      "voice": "a serious, deadpan little toddler voice",
+      "prop": "wearing a white shirt collar and a tiny navy tie over the nappy, and small round wire reading glasses"
+    },
+    "zuri": {
+      "voice": "a sassy, confident little toddler voice"
+    },
+    "ada": {
+      "voice": "a calm, soft, wise little toddler voice"
+    },
+    "rocco": {
+      "voice": "a loud, dramatic, theatrical little toddler voice"
+    },
+    "closer": {
+      "voice": "a soft, sincere little toddler voice"
+    }
+  },
   "locations": {
-    "boardroom": "a cosy nursery set up like a tiny boardroom: a low toddler-sized wooden table, stacked building blocks, a sippy cup and a little water jug, a crib with wooden bars softly blurred behind",
+    "boardroom": "seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
     "crib_side": "beside a white wooden crib with a soft knitted blanket, plush toys lined up like a panel, warm lamp light, mobile slowly turning above"
   },
   "content_rules": [
-    "Babies are AI-generated; never name them, never claim they are real children.",
-    "Evidence-based, mainstream parenting ideas only. No medical, sleep-training, feeding or legal advice beyond general guidance; no products or brands.",
-    "Line 1 is always the Chair opening the meeting; line 5 is the Closer ending 'Motion carried.'",
-    "Each line <= 18 words so Veo can say it naturally in 8 s.",
-    "Humour is kind: the babies tease parents lovingly, never shame them."
+    "Audience is parents: humour is for adults, the advice is mainstream child-development guidance (no fringe claims, no medical advice).",
+    "No names: every clip is a different baby (New babies, same complaints). Only the opener's tiny tie + reading glasses mark the Chair.",
+    "Wish deliveries rotate three comic tones: sassy (zuri), wise (ada), dramatic (rocco).",
+    "Babies are always safe: seated, supervised setting, nothing a real child could copy dangerously.",
+    "Never mock real parents or children; the joke is babies behaving like executives.",
+    "Each line <= 18 words; the spoken line must appear exactly in flow_prompt.",
+    "No writing in frame (name plates and signs come out garbled)."
   ],
   "music_moods": [
     "playful pizzicato",
@@ -79,10 +280,34 @@
   "made_for_kids": false,
   "youtube_category": "22",
   "nonverbal": false,
-  "ai_disclosure": "The babies in this video are AI-generated characters (Google Veo). The parenting tips are general guidance, not professional advice.",
+  "review_hours": 11,
+  "ai_disclosure": "All babies in this video are AI-generated characters. Parenting notes are general information, not professional advice.",
   "overlays": {
     "hook": true,
     "captions": true
+  },
+  "flow": {
+    "model": "Veo 3.1 Lite",
+    "aspect": "9:16",
+    "outputs_per_prompt": 1,
+    "clip_seconds": 8,
+    "credits_per_clip": 10,
+    "daily_free_credits": 50,
+    "clips_per_episode": 8,
+    "accounts": [
+      "Crib account 1",
+      "Crib account 2"
+    ]
+  },
+  "compilation_title": "{show} | {label} - {n} Meetings Back to Back",
+  "compilation_tags": [
+    "parenting",
+    "funny babies",
+    "parenting tips"
+  ],
+  "compilations": {
+    "weekly": true,
+    "monthly": true
   },
   "end_card": {
     "enabled": true,
@@ -103,24 +328,5 @@
     "_note": "Shorts only (not compilations). Edit text/colours here, then: python tools/make_endcard.py cribcommittee",
     "logo_size": 470,
     "logo_top": 190
-  },
-  "flow": {
-    "model": "Veo 3.1 Lite",
-    "aspect": "9:16",
-    "outputs_per_prompt": 1,
-    "clip_seconds": 8,
-    "credits_per_clip": 10,
-    "daily_free_credits": 50
-  },
-  "compilation_title": "{show} | {label} - {n} Committee Meetings Back to Back",
-  "compilation_tags": [
-    "parenting",
-    "parenting tips",
-    "funny babies",
-    "toddler"
-  ],
-  "compilations": {
-    "weekly": true,
-    "monthly": true
   }
 }

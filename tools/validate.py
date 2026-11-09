@@ -113,8 +113,11 @@ def validate_channel(ch_dir):
                 for ln in s.get("lines", []):
                     if ln.get("t", "") not in s.get("flow_prompt", ""):
                         errors.append(f"{tag} shot {s.get('n')}: spoken line not inside flow_prompt (captions would not match)")
-            if len(ep.get("shots", [])) > 5:
-                errors.append(f"{tag}: {len(ep['shots'])} clips - free Google Flow credits make 5 per day")
+            fl = bible.get("flow", {})
+            per_acct = fl.get("daily_free_credits", 50) // max(fl.get("credits_per_clip", 10), 1)
+            max_clips = per_acct * max(len(fl.get("accounts", [])), 1)
+            if len(ep.get("shots", [])) > max_clips:
+                errors.append(f"{tag}: {len(ep['shots'])} clips but channel.json flow.accounts only allows {max_clips} a day")
         if total > bible["max_seconds"]:
             errors.append(f"{tag}: {total}s exceeds {bible['max_seconds']}s")
         elif not lo <= total <= hi:

@@ -3,12 +3,12 @@
   "show_title": "Ask The Elders",
   "tagline": "Life lessons from people who've lived it. One theme, five voices, 40 seconds.",
   "audience": "general (16+), NOT made for kids",
-  "format": "One theme per Short. Five different elders (70-95), one hard-earned lesson each, 8 s per clip, spoken to camera.",
+  "format": "One theme per Short. Eight different elders (70-95), one hard-earned lesson each, 8 s per clip = 64 s, spoken to camera.",
   "source": "flow",
   "episode_id_prefix": "ELD",
   "target_seconds": [
-    36,
-    44
+    60,
+    70
   ],
   "max_seconds": 90,
   "style_prompt": "Vertical 9:16, hyper-realistic documentary portrait, shot on a 50mm lens, shallow depth of field, natural skin texture with real wrinkles and pores, soft natural light, cinematic colour grade",
@@ -255,7 +255,7 @@
   "content_rules": [
     "Characters are AI-generated; never name them, never claim they are real people or real interviews.",
     "Universal life lessons only. No specific investments, products, medical treatments, legal advice or politics.",
-    "Line 1 always states the elder's age and promises the theme. Line 5 is the emotional closer.",
+    "Line 1 always states the elder's age and promises the theme. Lines 2-7 are six lessons. Line 8 is the emotional closer.",
     "Each line <= 18 words so Veo can say it naturally in 8 s.",
     "No famous quotes attributed to anyone; write original lines."
   ],
@@ -272,6 +272,30 @@
   "overlays": {
     "hook": true,
     "captions": true
+  },
+  "flow": {
+    "model": "Veo 3.1 Lite",
+    "aspect": "9:16",
+    "outputs_per_prompt": 1,
+    "clip_seconds": 8,
+    "credits_per_clip": 10,
+    "daily_free_credits": 50,
+    "clips_per_episode": 8,
+    "accounts": [
+      "Elders account 1",
+      "Elders account 2"
+    ]
+  },
+  "compilation_title": "{show} | {label} - {n} Life Lessons Back to Back",
+  "compilation_tags": [
+    "life lessons",
+    "elders",
+    "wisdom",
+    "advice"
+  ],
+  "compilations": {
+    "weekly": true,
+    "monthly": true
   },
   "end_card": {
     "enabled": true,
@@ -292,24 +316,5 @@
     "_note": "Shorts only (not compilations). Edit text/colours here, then: python tools/make_endcard.py elders",
     "logo_size": 470,
     "logo_top": 190
-  },
-  "flow": {
-    "model": "Veo 3.1 Lite",
-    "aspect": "9:16",
-    "outputs_per_prompt": 1,
-    "clip_seconds": 8,
-    "credits_per_clip": 10,
-    "daily_free_credits": 50
-  },
-  "compilation_title": "{show} | {label} - {n} Life Lessons Back to Back",
-  "compilation_tags": [
-    "life lessons",
-    "elders",
-    "wisdom",
-    "advice"
-  ],
-  "compilations": {
-    "weekly": true,
-    "monthly": true
   }
 }
