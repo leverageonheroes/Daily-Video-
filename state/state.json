@@ -996,9 +996,38 @@
           }
         },
         "ELD-003": {
-          "status": "scripted",
-          "history": [],
-          "attempts": 0
+          "status": "uploaded",
+          "history": [
+            {
+              "status": "rendered",
+              "at": "2026-11-09T14:12:41+00:00",
+              "note": "44.0s from Google Flow clips"
+            },
+            {
+              "status": "uploaded",
+              "at": "2026-11-09T14:12:49+00:00",
+              "note": "https://youtu.be/zs8pMA_U8js publishes 2026-11-10T00:12:46Z"
+            }
+          ],
+          "attempts": 1,
+          "final": "output/elders/ELD-003/final.mp4",
+          "clips": [
+            "1.mp4_a455aade.mp4",
+            "2.mp4_362b1003.mp4",
+            "3.mp4_3d296533.mp4",
+            "4.mp4_45b2c06c.mp4",
+            "5.mp4_292165b0.mp4"
+          ],
+          "youtube_id": "zs8pMA_U8js",
+          "publish_at": "2026-11-10T00:12:46Z",
+          "stories": {
+            "facebook": [
+              "1663917778613868"
+            ],
+            "instagram": [
+              "18031985015688121"
+            ]
+          }
         },
         "ELD-004": {
           "status": "scripted",
@@ -1320,5 +1349,5 @@
       "last_scripted": "CC-030"
     }
   },
-  "updated": "2026-11-08T18:54:19+00:00"
+  "updated": "2026-11-09T14:13:48+00:00"
 }
