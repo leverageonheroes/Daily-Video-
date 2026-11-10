@@ -26,6 +26,15 @@ class ImageError(RuntimeError):
     pass
 
 
+
+def _env(*names):
+    """First non-empty env var among names (secrets are often saved under slightly different names)."""
+    for n in names:
+        v = (os.environ.get(n) or "").strip()
+        if v:
+            return v
+    return None
+
 def _post(url, body, headers, timeout=180):
     req = urllib.request.Request(url, data=json.dumps(body).encode(), method="POST",
                                  headers={**UA, "Content-Type": "application/json", **headers})
@@ -37,7 +46,9 @@ def _post(url, body, headers, timeout=180):
 
 
 def cloudflare(prompt, seed, dest: Path):
-    acct, tok = os.environ.get("CF_ACCOUNT_ID"), os.environ.get("CF_API_TOKEN")
+    acct = _env("CF_ACCOUNT_ID", "CLOUDFLARE_ACCOUNT_ID", "CF_ACCOUNT", "CLOUDFLARE_ID", "CF_ID")
+    tok = _env("CF_API_TOKEN", "CLOUDFLARE_API_TOKEN", "CF_API_KEY", "CLOUDFLARE_API_KEY", "CLOUDFLARE_API", "CF_API",
+               "CLOUDFLARE_TOKEN", "CF_TOKEN")
     if not (acct and tok):
         raise ImageError("CF_ACCOUNT_ID / CF_API_TOKEN not set")
     model = os.environ.get("CF_IMAGE_MODEL", "@cf/black-forest-labs/flux-1-schnell")
