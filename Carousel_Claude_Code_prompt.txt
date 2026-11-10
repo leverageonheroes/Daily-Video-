@@ -1,0 +1,50 @@
+TASK: add a SECOND daily video to Ask The Elders and The Crib Committee: a 66 s image carousel (8 AI images from
+FREE providers) with the day's 8 lines scrolling gently up, music, and a hook card at the end. It runs daily on my
+Railway worker and posts at 13:30 (Elders) and 14:30 (Crib), UK time.
+Read CLAUDE.md first. I'm on a PHONE: short messages, numbered choices, one step at a time, wait for me.
+
+RULES: never commit .env, secrets/, tokens or zips. Never print a token. No paid API calls (free Cloudflare/Together
+image calls are allowed ONLY in step 7, after I say "go ahead"). Don't touch other channels. Never overwrite my fixes.
+
+PART A - Install
+1. `git status`, `git pull`. Find carousel-addon.zip (ask me to upload it if it's missing), unzip it to /tmp/car,
+   and read README.md.
+2. `git apply /tmp/car/carousel-addon/carousel-changes.patch` (try --3way, else by hand). Copy everything under
+   /tmp/car/carousel-addon/files/ into the repo at the same paths. `pip install -r requirements.txt`.
+3. `python tools/validate.py` must end RESULT: OK.
+
+PART B - Free mock test
+4. `MOCK=1 python -m pipeline.run carousel`. Both videos must be 66 s at 1080x1920 (ffprobe). Extract frames at
+   3 s, 30 s and 62 s of each into one PNG, upload it to a GitHub Release "carousel-preview", and send me the link.
+   Delete output_mock/ and state/carousel.mock.json afterwards.
+5. Commit "Daily carousel videos" and push.
+
+PART C - Free image provider (guide me, wait at each step)
+6. Walk me through getting free Cloudflare Workers AI keys on my phone: dash.cloudflare.com → sign up → copy the
+   Account ID → My Profile → API Tokens → Create Token → "Workers AI" template → copy the token.
+   Put both into .env as CF_ACCOUNT_ID and CF_API_TOKEN (never commit .env). Optionally a Together AI key
+   (TOGETHER_API_KEY) as backup.
+7. After I say "go ahead": `YT_UPLOAD=0 python -m pipeline.run carousel elders`. This is a real render with free
+   images and no upload. Upload final.mp4 to the carousel-preview release so I can watch it. Then run
+   `python tools/state.py status` and reset state/carousel.json so day 1 is still unused: delete the test entry
+   (set next back to 1) and don't commit the test.
+
+PART D - Railway worker (guide me in the Railway dashboard, step by step)
+8. GitHub fine-grained token for the worker: github.com/settings/tokens?type=beta → Only select repositories (this
+   repo) → Repository permissions → Contents: Read and write → Generate. I'll paste it into Railway myself.
+9. Railway → New Project (or my existing project) → Deploy from GitHub repo → this repo. In the new service:
+   Settings → Config-as-code / Railway config file path = tools/railway/railway.json (Dockerfile build + cron
+   "17 5 * * *" = 05:17 UTC daily). Make sure it is NOT set to always-restart.
+10. Variables (I'll paste the values): GH_TOKEN, GIT_REPO (= owner/repo, tell me the exact value), CF_ACCOUNT_ID,
+    CF_API_TOKEN, YT_TOKEN_ELDERS, YT_TOKEN_CRIBCOMMITTEE (same JSON as the GitHub secrets; show me how to copy
+    them from secrets/youtube_elders.json etc. in the Codespace without printing them in chat; e.g. open the
+    file in the editor), CAROUSEL_CHANNELS=elders,cribcommittee, YT_UPLOAD=0 for the first test,
+    optional TOGETHER_API_KEY.
+11. First Railway test: trigger a manual run (Deployments → Run now / redeploy). Check the logs show
+    "== Carousel ..." and "(upload off)", and that a commit "carousel: <date>" appeared in GitHub. Then reset
+    state/carousel.json back to next=1 for both channels, commit, and tell me to delete YT_UPLOAD from Railway.
+12. Music: tell me to add calm-piano.mp3, warm-strings.mp3, gentle-lullaby.mp3 and music-box.mp3 (YouTube Audio
+    Library, free) to music/ and commit them. The worker reads music from the repo.
+
+Finish with an "ALL DONE" checklist (A-D) and my new daily picture: 2 main Shorts (from my Flow clips, public
+~10-11 h after upload) + 2 carousels (13:30 and 14:30 UK). The carousels need nothing from me.
