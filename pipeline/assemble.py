@@ -4,7 +4,7 @@ import re
 import subprocess
 from pathlib import Path
 
-from . import config
+from . import config, seo
 
 W, H, FPS = config.OUT_W, config.OUT_H, config.OUT_FPS
 
@@ -283,10 +283,11 @@ def assemble(episode: dict, clips: list, workdir: Path, bible: dict | None = Non
 
     meta = {
         "title": episode["title"][:100],
-        "description": f"{episode['description']}\n\n{bible.get('ai_disclosure', config.AI_DISCLOSURE)}\n\n"
-                       + " ".join("#" + re.sub(r"\W", "", t) for t in episode["tags"][:4]) + " #shorts",
+        "description": "\n\n".join(x for x in (episode["description"], seo.about(bible),
+                                                bible.get("ai_disclosure", config.AI_DISCLOSURE),
+                                                seo.hashtag_line(bible, episode["tags"])) if x),
         "made_for_kids": bool(bible.get("made_for_kids", False)),
-        "tags": episode["tags"][:15],
+        "tags": seo.youtube_tags(bible, episode["tags"]),
         "music": str(music.name) if music else None,
         "seconds": round(total, 2),
     }

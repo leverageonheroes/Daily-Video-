@@ -329,5 +329,25 @@
     "_note": "Shorts only (not compilations). Edit text/colours here, then: python tools/make_endcard.py cribcommittee",
     "logo_size": 470,
     "logo_top": 190
+  },
+  "seo": {
+    "about": "The Crib Committee: funny babies hold a meeting about parenting, with gentle parenting tips for new parents in every episode.",
+    "hashtags": [
+      "#parenting",
+      "#funnybabies"
+    ],
+    "keywords": [
+      "parenting tips",
+      "parenting",
+      "funny babies",
+      "babies",
+      "toddlers",
+      "gentle parenting",
+      "new parents",
+      "mom life",
+      "dad life",
+      "baby",
+      "crib committee"
+    ]
   }
 }

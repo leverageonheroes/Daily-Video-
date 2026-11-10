@@ -17,7 +17,7 @@ import random
 import subprocess
 from pathlib import Path
 
-from . import assemble, config, images
+from . import assemble, config, images, seo
 
 W, H, FPS = 1080, 1920, 30
 IMG_X, IMG_Y, IMG = 60, 250, 960
@@ -293,7 +293,8 @@ def post_meta(ch, final: Path, meta: dict) -> dict:
         print(f"   (no Meta token/page IDs for {ch}: Facebook/Instagram skipped)")
         return {}
     try:
-        ep = {"title": meta["title"], "description": meta["description"], "shots": []}
+        ep = {"title": meta["title"], "description": meta["description"], "shots": [],
+              "tags": meta.get("topic_tags") or meta.get("tags", [])}
         res = fbig.post_stories(ch, final, ep, assemble.duration(final), {})
     except Exception as e:
         print(f"!! {ch}: Facebook/Instagram failed: {e}")
@@ -318,11 +319,12 @@ def publish_time(cfg) -> str:
 def metadata(cfg, ep, bible):
     title = cfg["title_template"].format(theme=ep["theme"].title(), title=ep.get("title", ""))[:100]
     body = "\n".join(f"• {l}" for l in ep["lines"])
-    tags = cfg.get("tags", []) + ep.get("tags", [])
+    tags = ep.get("tags", []) + cfg.get("tags", [])
     desc = (f"{cfg.get('intro', '')} {ep['theme'].title()}.\n\n{body}\n\n{ep['hook']} {cfg.get('cta', '')}\n\n"
-            f"{cfg.get('ai_disclosure', bible.get('ai_disclosure', config.AI_DISCLOSURE))}\n\n"
-            + " ".join("#" + "".join(ch for ch in t if ch.isalnum()) for t in tags[:4]) + " #shorts")
-    return {"title": title, "description": desc[:4900], "tags": tags[:15],
+            + (f"{seo.about(bible)}\n\n" if seo.about(bible) else "")
+            + f"{cfg.get('ai_disclosure', bible.get('ai_disclosure', config.AI_DISCLOSURE))}\n\n"
+            + seo.hashtag_line(bible, tags))
+    return {"title": title, "description": desc[:4900], "tags": seo.youtube_tags(bible, tags), "topic_tags": tags,
             "made_for_kids": bool(bible.get("made_for_kids", False))}
 
 

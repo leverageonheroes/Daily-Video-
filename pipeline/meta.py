@@ -18,6 +18,8 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 
+from . import seo
+
 VERSION = os.environ.get("META_GRAPH_VERSION", "v23.0")
 GRAPH = f"https://graph.facebook.com/{VERSION}"
 RUPLOAD = "https://rupload.facebook.com"
@@ -98,8 +100,16 @@ def _encode(video: Path, out: Path, start=None, end=None) -> Path:
     return out
 
 
-def caption(video: Path, episode: dict) -> tuple[str, str]:
-    """(title, caption) from the episode's metadata.json (same text as YouTube), #shorts swapped for #reels."""
+def _bible(channel) -> dict:
+    p = Path(__file__).resolve().parents[1] / "channels" / channel / "channel.json"
+    try:
+        return json.loads(p.read_text())
+    except (OSError, ValueError):
+        return {}
+
+
+def caption(video: Path, episode: dict, bible: dict | None = None) -> tuple[str, str]:
+    """(title, caption) from the episode's metadata.json (same text as YouTube) with Instagram/Facebook hashtags."""
     meta = {}
     mf = video.parent / "metadata.json"
     if mf.exists():
@@ -109,7 +119,8 @@ def caption(video: Path, episode: dict) -> tuple[str, str]:
             meta = {}
     title = (meta.get("title") or episode.get("title") or "").replace("#shorts", "").strip()
     desc = meta.get("description") or (episode.get("description", "") + "\n\n" + AI_DISCLOSURE)
-    desc = desc.replace("#shorts", "#reels #fyp")
+    desc = seo.strip_hashtag_lines(desc.replace("#shorts", ""))
+    desc = f"{desc}\n\n{seo.hashtag_line(bible or {}, episode.get('tags') or meta.get('tags', []), 'meta')}"
     return title, f"{title}\n\n{desc}".strip()[:2200]
 
 
@@ -193,7 +204,7 @@ def post_stories(channel, video: Path, episode: dict, total: float, done: dict, 
     if not token:
         raise MetaError("No Meta token: set META_TOKEN (System User token) in .env / GitHub secrets")
     ptoken = page_token(fb_id, token) if fb_id else token
-    title, text = caption(video, episode)
+    title, text = caption(video, episode, _bible(channel))
     full = None
     out, errors = dict(done), []
     for name in placements:

@@ -4,13 +4,14 @@ One release per channel, tag `episodes-<channel>`, one asset per episode: <EPISO
 without the hook text). Used by the monthly compilation. Enabled with STORE_RELEASES=1 (set in the workflows).
 Needs the `gh` CLI with GH_TOKEN (GitHub Actions and Codespaces provide both).
 """
+import json
 import os
 import shutil
 import subprocess
 import time
 from pathlib import Path
 
-from . import config
+from . import config, seo
 
 ENABLED = os.environ.get("STORE_RELEASES", "0") == "1" and not config.MOCK
 
@@ -63,12 +64,11 @@ TIKTOK_NOTES = ("Videos for manual TikTok posting. Each episode: <ID>.mp4 (uploa
                 "caption). When posting, switch ON 'AI-generated content' (More options). Managed by the pipeline.")
 
 
-def tiktok_caption(episode: dict) -> str:
+def tiktok_caption(episode: dict, bible: dict | None = None) -> str:
     """Paste-ready TikTok caption: title without #shorts + TikTok-style hashtags (max 5, under 2200 chars)."""
     import re
     title = re.sub(r"\s*#shorts\b", "", episode["title"], flags=re.I).strip()
-    tags = ["#" + re.sub(r"\W", "", t).lower() for t in episode.get("tags", [])[:4]]
-    tags = [t for t in dict.fromkeys(tags) if len(t) > 1] + ["#fyp"]
+    tags = seo.hashtags(bible or {}, episode.get("tags", []), "tiktok")
     return f"{title}\n\n{episode.get('description', '').strip()}\n\n{' '.join(tags)}\n"[:2200]
 
 
@@ -81,7 +81,11 @@ def save_tiktok(channel: str, ep_id: str, video: Path, episode: dict):
         _gh("release", "create", tag, "--title", f"TikTok - {channel}", "--notes", TIKTOK_NOTES, check=False)
     mp4, txt = video.parent / f"{ep_id}.mp4", video.parent / f"{ep_id}.txt"
     shutil.copy(video, mp4)
-    txt.write_text(tiktok_caption(episode), encoding="utf-8")
+    try:
+        bible = json.loads((config.CHANNELS_DIR / channel / "channel.json").read_text())
+    except (OSError, ValueError):
+        bible = {}
+    txt.write_text(tiktok_caption(episode, bible), encoding="utf-8")
     try:
         _upload(tag, channel, [mp4, txt])
     finally:

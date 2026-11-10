@@ -73,5 +73,26 @@
     "_note": "Shorts only (not compilations). Edit text/colours here, then: python tools/make_endcard.py <channel>",
     "logo_size": 470,
     "logo_top": 190
+  },
+  "seo": {
+    "about": "One In A Thousand tells true survival stories of animals, cells and tiny creatures beating impossible odds. A short nature documentary with real biology, every day.",
+    "hashtags": [
+      "#wildlife",
+      "#naturedocumentary"
+    ],
+    "keywords": [
+      "nature documentary",
+      "wildlife",
+      "animal facts",
+      "survival story",
+      "true survival stories",
+      "amazing animals",
+      "biology",
+      "science",
+      "animal documentary",
+      "nature facts",
+      "educational",
+      "one in a thousand"
+    ]
   }
 }

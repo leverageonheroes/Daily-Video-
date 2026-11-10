@@ -317,5 +317,24 @@
     "_note": "Shorts only (not compilations). Edit text/colours here, then: python tools/make_endcard.py elders",
     "logo_size": 470,
     "logo_top": 190
+  },
+  "seo": {
+    "about": "Ask The Elders: life lessons and advice from people who have lived it. One theme, eight voices of wisdom, every day.",
+    "hashtags": [
+      "#lifelessons",
+      "#wisdom"
+    ],
+    "keywords": [
+      "life lessons",
+      "life advice",
+      "wisdom",
+      "advice from elders",
+      "words of wisdom",
+      "motivation",
+      "self improvement",
+      "regrets",
+      "life wisdom",
+      "ask the elders"
+    ]
   }
 }
