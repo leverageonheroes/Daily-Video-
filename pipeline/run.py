@@ -9,7 +9,7 @@
   python -m pipeline.run weekly                # Sundays: compile a channel once it has 8.5+ min of new episodes
   python -m pipeline.run monthly               # 1st of month: compile all of last month's episodes
   python -m pipeline.run sync-youtube          # mark uploaded episodes that went public as published
-  python -m pipeline.run stories <ch> <id>     # post a rendered episode to Facebook + Instagram Stories
+  python -m pipeline.run stories <ch> <id>     # post a rendered episode to Facebook + Instagram (Stories, Reels, feed)
   python -m pipeline.run check                 # test YouTube, Meta, LTX and fal.ai connections (free)
   python -m pipeline.run status
   python -m pipeline.run flow-prompts [ch]     # Google Flow channels: write today's 5 prompts to inbox/<ch>/PROMPTS.md
@@ -70,7 +70,7 @@ def upload(s, ch, ep_id):
 
 
 def stories(s, ch, ep_id):
-    """Facebook + Instagram Stories (live and public immediately). Skips platforms already posted."""
+    """Facebook + Instagram Stories, Reels and feed (live and public immediately). Skips placements already posted."""
     from . import meta
     if not meta.enabled(ch):
         print(f"   (no Meta token/page IDs for {ch}: stories skipped)")
