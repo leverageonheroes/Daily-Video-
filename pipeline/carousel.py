@@ -319,7 +319,8 @@ def run_channel(s, ch, upload=True):
            "seconds": round(assemble.duration(final), 2)}
     if upload:
         from . import youtube
-        meta["publish_at"] = publish_time(cfg)
+        if os.environ.get("YT_PUBLISH_NOW") != "1":      # YT_PUBLISH_NOW=1: public straight away (catch-up runs)
+            meta["publish_at"] = publish_time(cfg)
         res = youtube.upload(ch, final, meta)
         rec.update(res)
         print(f"   -> https://youtu.be/{res['youtube_id']} (public at {res['publish_at']})")

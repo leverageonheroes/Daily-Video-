@@ -13,6 +13,10 @@ on:
         description: "Upload to YouTube (1) or render only (0)"
         required: false
         default: "0"
+      publish_now:
+        description: "Make public immediately (1) instead of the fixed publish_local slot (0)"
+        required: false
+        default: "0"
 
 permissions:
   contents: write
@@ -41,6 +45,7 @@ jobs:
           YT_TOKEN_ELDERS: ${{ secrets.YT_TOKEN_ELDERS }}
           YT_TOKEN_CRIBCOMMITTEE: ${{ secrets.YT_TOKEN_CRIBCOMMITTEE }}
           YT_UPLOAD: ${{ inputs.upload }}
+          YT_PUBLISH_NOW: ${{ inputs.publish_now }}
         run: python -m pipeline.run carousel ${{ inputs.channels }}
       - name: Save progress
         if: always() && inputs.upload == '1'
