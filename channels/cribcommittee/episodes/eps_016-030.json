@@ -29,7 +29,7 @@
       "d06"
      ],
      "role": "chair",
-     "keyframe": "a 2-year-old South Asian toddler girl with a short black bob and tiny gold-coloured hair clips, a lilac romper, wearing a white shirt collar and a tiny navy tie over the nappy, and small round wire reading glasses, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
+     "keyframe": "a 2-year-old toddler girl with light brown skin, a short black bob and tiny gold-coloured hair clips, a lilac romper, wearing a white shirt collar and a tiny navy tie over the nappy, and small round wire reading glasses, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
      "action": "taps one little finger slowly on the table and raises one eyebrow",
      "camera": "static medium close-up",
      "lines": [
@@ -40,7 +40,7 @@
       }
      ],
      "sfx": "quiet room tone",
-     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A 2-year-old South Asian toddler girl with a short black bob and tiny gold-coloured hair clips, a lilac romper, wearing a white shirt collar and a tiny navy tie over the nappy, and small round wire reading glasses, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: static medium close-up. She taps one little finger slowly on the table and raises one eyebrow, then says in a serious, deadpan little toddler voice: \"Order. Agenda item: mud. The Committee would like more of it.\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
+     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A 2-year-old toddler girl with light brown skin, a short black bob and tiny gold-coloured hair clips, a lilac romper, wearing a white shirt collar and a tiny navy tie over the nappy, and small round wire reading glasses, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: static medium close-up. She taps one little finger slowly on the table and raises one eyebrow, then says in a serious, deadpan little toddler voice: \"Order. Agenda item: mud. The Committee would like more of it.\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
     },
     {
      "n": 2,
@@ -50,7 +50,7 @@
       "d09"
      ],
      "role": "rocco",
-     "keyframe": "a 2-year-old Latino toddler boy with thick wavy brown hair, a tiny denim jacket over a white nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
+     "keyframe": "a 2-year-old toddler boy with tan skin and thick wavy brown hair, a tiny denim jacket over a white nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
      "action": "clutches the chest theatrically",
      "camera": "static medium close-up",
      "lines": [
@@ -61,7 +61,7 @@
       }
      ],
      "sfx": "quiet room tone",
-     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A 2-year-old Latino toddler boy with thick wavy brown hair, a tiny denim jacket over a white nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: static medium close-up. He clutches the chest theatrically, then says in a loud, dramatic, theatrical little toddler voice: \"You put me in white clothes then panic when I find a puddle! It's a trap!\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
+     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A 2-year-old toddler boy with tan skin and thick wavy brown hair, a tiny denim jacket over a white nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: static medium close-up. He clutches the chest theatrically, then says in a loud, dramatic, theatrical little toddler voice: \"You put me in white clothes then panic when I find a puddle! It's a trap!\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
     },
     {
      "n": 3,
@@ -71,7 +71,7 @@
       "d12"
      ],
      "role": "ada",
-     "keyframe": "a 18-month-old East Asian baby girl with a tiny top-knot, a mint-green dungaree romper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
+     "keyframe": "an 18-month-old baby girl with light skin, dark eyes and a tiny top-knot, a mint-green dungaree romper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
      "action": "steeples little fingers thoughtfully",
      "camera": "slow push-in on the face",
      "lines": [
@@ -82,7 +82,7 @@
       }
      ],
      "sfx": "quiet room tone",
-     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A 18-month-old East Asian baby girl with a tiny top-knot, a mint-green dungaree romper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: slow push-in on the face. She steeples little fingers thoughtfully, then says in a calm, soft, wise little toddler voice: \"Dirt, sticks, rain. Outside, my body learns things no screen can teach.\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
+     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. An 18-month-old baby girl with light skin, dark eyes and a tiny top-knot, a mint-green dungaree romper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: slow push-in on the face. She steeples little fingers thoughtfully, then says in a calm, soft, wise little toddler voice: \"Dirt, sticks, rain. Outside, my body learns things no screen can teach.\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
     },
     {
      "n": 4,
@@ -92,7 +92,7 @@
       "d15"
      ],
      "role": "zuri",
-     "keyframe": "a 2-year-old South Asian toddler boy with a side parting, a tiny checked shirt over his nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
+     "keyframe": "a 2-year-old toddler boy with warm brown skin and a side parting, a tiny checked shirt over his nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
      "action": "tilts the head and wags one tiny finger",
      "camera": "medium shot, gentle handheld drift",
      "lines": [
@@ -103,7 +103,7 @@
       }
      ],
      "sfx": "quiet room tone",
-     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A 2-year-old South Asian toddler boy with a side parting, a tiny checked shirt over his nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: medium shot, gentle handheld drift. He tilts the head and wags one tiny finger, then says in a sassy, confident little toddler voice: \"The washing machine exists, darling. Let me jump.\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
+     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A 2-year-old toddler boy with warm brown skin and a side parting, a tiny checked shirt over his nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: medium shot, gentle handheld drift. He tilts the head and wags one tiny finger, then says in a sassy, confident little toddler voice: \"The washing machine exists, darling. Let me jump.\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
     },
     {
      "n": 5,
@@ -113,7 +113,7 @@
       "d18"
      ],
      "role": "ada",
-     "keyframe": "a 2-year-old Latina toddler girl with two braids, a tiny pearl-style toy necklace, a navy dress, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
+     "keyframe": "a 2-year-old toddler girl with tan skin and two braids, a tiny pearl-style toy necklace, a navy dress, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
      "action": "places both hands on the table and speaks very sincerely",
      "camera": "close-up, slight handheld drift",
      "lines": [
@@ -124,7 +124,7 @@
       }
      ],
      "sfx": "quiet room tone",
-     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A 2-year-old Latina toddler girl with two braids, a tiny pearl-style toy necklace, a navy dress, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: close-up, slight handheld drift. She places both hands on the table and speaks very sincerely, then says in a calm, soft, wise little toddler voice: \"When I climb, I'm learning what my body can do. Watch, don't panic.\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
+     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A 2-year-old toddler girl with tan skin and two braids, a tiny pearl-style toy necklace, a navy dress, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: close-up, slight handheld drift. She places both hands on the table and speaks very sincerely, then says in a calm, soft, wise little toddler voice: \"When I climb, I'm learning what my body can do. Watch, don't panic.\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
     },
     {
      "n": 6,
@@ -134,7 +134,7 @@
       "d21"
      ],
      "role": "rocco",
-     "keyframe": "a 2-year-old East Asian toddler boy with a bowl haircut, a tiny navy blazer over his nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
+     "keyframe": "a 2-year-old toddler boy with light skin and a black bowl haircut, a tiny navy blazer over his nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
      "action": "throws both arms in the air",
      "camera": "static medium close-up",
      "lines": [
@@ -145,7 +145,7 @@
       }
      ],
      "sfx": "quiet room tone",
-     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A 2-year-old East Asian toddler boy with a bowl haircut, a tiny navy blazer over his nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: static medium close-up. He throws both arms in the air, then says in a loud, dramatic, theatrical little toddler voice: \"You said don't touch the snail! But he LOOKED at me! We're friends now!\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
+     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A 2-year-old toddler boy with light skin and a black bowl haircut, a tiny navy blazer over his nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: static medium close-up. He throws both arms in the air, then says in a loud, dramatic, theatrical little toddler voice: \"You said don't touch the snail! But he LOOKED at me! We're friends now!\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
     },
     {
      "n": 7,
@@ -177,7 +177,7 @@
       "bean"
      ],
      "role": "closer",
-     "keyframe": "a chubby 2-year-old Black toddler girl with curly hair in two puffs tied with pink bows, a pink knitted cardigan over her white nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
+     "keyframe": "a chubby 2-year-old toddler girl with deep brown skin and curly hair in two puffs tied with pink bows, a pink knitted cardigan over her white nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
      "action": "nods once, slowly; the newborn hiccups once, loudly after the last word",
      "camera": "slow push-in to a medium close-up",
      "lines": [
@@ -188,7 +188,7 @@
       }
      ],
      "sfx": "newborn once, loudly",
-     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A chubby 2-year-old Black toddler girl with curly hair in two puffs tied with pink bows, a pink knitted cardigan over her white nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: slow push-in to a medium close-up. She nods once, slowly, then says in a soft, sincere little toddler voice: \"Let us play outside every day. Messy kids are learning kids. Motion carried.\" Beside the table, a tiny newborn baby swaddled in a cream blanket, lying in a wicker bassinet, hiccups once, loudly right after the last word, and the speaker glances at the newborn, then back at the camera. Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
+     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A chubby 2-year-old toddler girl with deep brown skin and curly hair in two puffs tied with pink bows, a pink knitted cardigan over her white nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: slow push-in to a medium close-up. She nods once, slowly, then says in a soft, sincere little toddler voice: \"Let us play outside every day. Messy kids are learning kids. Motion carried.\" Beside the table, a tiny newborn baby swaddled in a cream blanket, lying in a wicker bassinet, hiccups once, loudly right after the last word, and the speaker glances at the newborn, then back at the camera. Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
     }
    ],
    "loop_note": "the closing line and the newborn's gag end the meeting; tomorrow a new delegation takes the seats"
@@ -285,7 +285,7 @@
       "d22"
      ],
      "role": "rocco",
-     "keyframe": "a chubby 18-month-old Black baby girl with a soft afro and a white headband, a lemon-yellow romper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
+     "keyframe": "a chubby 18-month-old baby girl with deep brown skin and a soft afro and a white headband, a lemon-yellow romper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
      "action": "slumps down in the chair in despair, then pops back up",
      "camera": "close-up, slight handheld drift",
      "lines": [
@@ -296,7 +296,7 @@
       }
      ],
      "sfx": "quiet room tone",
-     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A chubby 18-month-old Black baby girl with a soft afro and a white headband, a lemon-yellow romper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: close-up, slight handheld drift. She slumps down in the chair in despair, then pops back up, then says in a loud, dramatic, theatrical little toddler voice: \"Watch the show with me! Then we can talk about the singing potato together!\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
+     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A chubby 18-month-old baby girl with deep brown skin and a soft afro and a white headband, a lemon-yellow romper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: close-up, slight handheld drift. She slumps down in the chair in despair, then pops back up, then says in a loud, dramatic, theatrical little toddler voice: \"Watch the show with me! Then we can talk about the singing potato together!\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
     },
     {
      "n": 5,
@@ -306,7 +306,7 @@
       "d25"
      ],
      "role": "ada",
-     "keyframe": "a 2-year-old Middle Eastern toddler boy with thick black hair and long eyelashes, a cosy brown jumper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
+     "keyframe": "a 2-year-old toddler boy with olive skin, thick black hair and long eyelashes, a cosy brown jumper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
      "action": "rests the chin on one hand and nods slowly",
      "camera": "static medium close-up",
      "lines": [
@@ -317,7 +317,7 @@
       }
      ],
      "sfx": "quiet room tone",
-     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A 2-year-old Middle Eastern toddler boy with thick black hair and long eyelashes, a cosy brown jumper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: static medium close-up. He rests the chin on one hand and nods slowly, then says in a calm, soft, wise little toddler voice: \"Screens before bed keep my brain awake. Books put it to sleep.\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
+     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A 2-year-old toddler boy with olive skin, thick black hair and long eyelashes, a cosy brown jumper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: static medium close-up. He rests the chin on one hand and nods slowly, then says in a calm, soft, wise little toddler voice: \"Screens before bed keep my brain awake. Books put it to sleep.\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
     },
     {
      "n": 6,
@@ -348,7 +348,7 @@
       "d06"
      ],
      "role": "rocco",
-     "keyframe": "a 2-year-old South Asian toddler girl with a short black bob and tiny gold-coloured hair clips, a lilac romper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
+     "keyframe": "a 2-year-old toddler girl with light brown skin, a short black bob and tiny gold-coloured hair clips, a lilac romper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
      "action": "points at the camera in outrage",
      "camera": "medium shot, gentle handheld drift",
      "lines": [
@@ -359,7 +359,7 @@
       }
      ],
      "sfx": "quiet room tone",
-     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A 2-year-old South Asian toddler girl with a short black bob and tiny gold-coloured hair clips, a lilac romper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: medium shot, gentle handheld drift. She points at the camera in outrage, then says in a loud, dramatic, theatrical little toddler voice: \"The tablet died and I screamed! Then I found a box and it was GREAT!\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
+     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A 2-year-old toddler girl with light brown skin, a short black bob and tiny gold-coloured hair clips, a lilac romper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: medium shot, gentle handheld drift. She points at the camera in outrage, then says in a loud, dramatic, theatrical little toddler voice: \"The tablet died and I screamed! Then I found a box and it was GREAT!\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
     },
     {
      "n": 8,
@@ -370,7 +370,7 @@
       "bean"
      ],
      "role": "closer",
-     "keyframe": "a 2-year-old Latino toddler boy with thick wavy brown hair, a tiny denim jacket over a white nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
+     "keyframe": "a 2-year-old toddler boy with tan skin and thick wavy brown hair, a tiny denim jacket over a white nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
      "action": "looks straight into the lens with big sincere eyes; the newborn does a tiny sneeze after the last word",
      "camera": "slow push-in to a medium close-up",
      "lines": [
@@ -381,7 +381,7 @@
       }
      ],
      "sfx": "newborn a tiny sneeze",
-     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A 2-year-old Latino toddler boy with thick wavy brown hair, a tiny denim jacket over a white nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: slow push-in to a medium close-up. He looks straight into the lens with big sincere eyes, then says in a soft, sincere little toddler voice: \"Less screen, more you. And when we watch, watch with us. Motion carried.\" Beside the table, a tiny newborn baby swaddled in a cream blanket, lying in a wicker bassinet, does a tiny sneeze right after the last word, and the speaker glances at the newborn, then back at the camera. Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
+     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A 2-year-old toddler boy with tan skin and thick wavy brown hair, a tiny denim jacket over a white nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: slow push-in to a medium close-up. He looks straight into the lens with big sincere eyes, then says in a soft, sincere little toddler voice: \"Less screen, more you. And when we watch, watch with us. Motion carried.\" Beside the table, a tiny newborn baby swaddled in a cream blanket, lying in a wicker bassinet, does a tiny sneeze right after the last word, and the speaker glances at the newborn, then back at the camera. Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
     }
    ],
    "loop_note": "the closing line and the newborn's gag end the meeting; tomorrow a new delegation takes the seats"
@@ -457,7 +457,7 @@
       "d01"
      ],
      "role": "ada",
-     "keyframe": "a chubby 18-month-old East Asian baby boy with short spiky black hair, in a white nappy and a tiny grey cardigan, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
+     "keyframe": "a chubby 18-month-old baby boy with light skin, short spiky black hair and almond eyes, in a white nappy and a tiny grey cardigan, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
      "action": "places both hands on the table and speaks very sincerely",
      "camera": "close-up, slight handheld drift",
      "lines": [
@@ -468,7 +468,7 @@
       }
      ],
      "sfx": "quiet room tone",
-     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A chubby 18-month-old East Asian baby boy with short spiky black hair, in a white nappy and a tiny grey cardigan, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: close-up, slight handheld drift. He places both hands on the table and speaks very sincerely, then says in a calm, soft, wise little toddler voice: \"I live in this exact minute. That's not slow. That's being a child.\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
+     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A chubby 18-month-old baby boy with light skin, short spiky black hair and almond eyes, in a white nappy and a tiny grey cardigan, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: close-up, slight handheld drift. He places both hands on the table and speaks very sincerely, then says in a calm, soft, wise little toddler voice: \"I live in this exact minute. That's not slow. That's being a child.\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
     },
     {
      "n": 4,
@@ -499,7 +499,7 @@
       "d07"
      ],
      "role": "rocco",
-     "keyframe": "a chubby 18-month-old Black baby boy with a short neat afro, a tiny pinstripe waistcoat over his nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
+     "keyframe": "a chubby 18-month-old baby boy with dark brown skin and a short neat afro, a tiny pinstripe waistcoat over his nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
      "action": "clutches the chest theatrically",
      "camera": "slow push-in on the face",
      "lines": [
@@ -510,7 +510,7 @@
       }
      ],
      "sfx": "quiet room tone",
-     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A chubby 18-month-old Black baby boy with a short neat afro, a tiny pinstripe waistcoat over his nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: slow push-in on the face. He clutches the chest theatrically, then says in a loud, dramatic, theatrical little toddler voice: \"I can't find my other shoe! It's not lost! It's on an adventure!\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
+     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A chubby 18-month-old baby boy with dark brown skin and a short neat afro, a tiny pinstripe waistcoat over his nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: slow push-in on the face. He clutches the chest theatrically, then says in a loud, dramatic, theatrical little toddler voice: \"I can't find my other shoe! It's not lost! It's on an adventure!\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
     },
     {
      "n": 6,
@@ -520,7 +520,7 @@
       "d10"
      ],
      "role": "ada",
-     "keyframe": "a chubby 2-year-old Middle Eastern toddler girl with long dark curls, a cream knitted jumper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
+     "keyframe": "a chubby 2-year-old toddler girl with olive skin and long dark curls, a cream knitted jumper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
      "action": "steeples little fingers thoughtfully",
      "camera": "medium shot, gentle handheld drift",
      "lines": [
@@ -531,7 +531,7 @@
       }
      ],
      "sfx": "quiet room tone",
-     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A chubby 2-year-old Middle Eastern toddler girl with long dark curls, a cream knitted jumper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: medium shot, gentle handheld drift. She steeples little fingers thoughtfully, then says in a calm, soft, wise little toddler voice: \"When you rush me, I freeze. When you give me time, I flow.\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
+     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A chubby 2-year-old toddler girl with olive skin and long dark curls, a cream knitted jumper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: medium shot, gentle handheld drift. She steeples little fingers thoughtfully, then says in a calm, soft, wise little toddler voice: \"When you rush me, I freeze. When you give me time, I flow.\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
     },
     {
      "n": 7,
@@ -608,7 +608,7 @@
       "d02"
      ],
      "role": "chair",
-     "keyframe": "a chubby 2-year-old Black toddler girl with curly hair in two puffs tied with pink bows, a pink knitted cardigan over her white nappy, wearing a white shirt collar and a tiny navy tie over the nappy, and small round wire reading glasses, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
+     "keyframe": "a chubby 2-year-old toddler girl with deep brown skin and curly hair in two puffs tied with pink bows, a pink knitted cardigan over her white nappy, wearing a white shirt collar and a tiny navy tie over the nappy, and small round wire reading glasses, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
      "action": "folds chubby arms and nods gravely",
      "camera": "low angle medium shot, slow push-in",
      "lines": [
@@ -619,7 +619,7 @@
       }
      ],
      "sfx": "quiet room tone",
-     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A chubby 2-year-old Black toddler girl with curly hair in two puffs tied with pink bows, a pink knitted cardigan over her white nappy, wearing a white shirt collar and a tiny navy tie over the nappy, and small round wire reading glasses, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: low angle medium shot, slow push-in. She folds chubby arms and nods gravely, then says in a serious, deadpan little toddler voice: \"This meeting is in session. Agenda: sneaky goodbyes at nursery drop-off.\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
+     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A chubby 2-year-old toddler girl with deep brown skin and curly hair in two puffs tied with pink bows, a pink knitted cardigan over her white nappy, wearing a white shirt collar and a tiny navy tie over the nappy, and small round wire reading glasses, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: low angle medium shot, slow push-in. She folds chubby arms and nods gravely, then says in a serious, deadpan little toddler voice: \"This meeting is in session. Agenda: sneaky goodbyes at nursery drop-off.\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
     },
     {
      "n": 2,
@@ -692,7 +692,7 @@
       "d14"
      ],
      "role": "ada",
-     "keyframe": "a 2-year-old Black toddler girl with neat cornrows and beads, a yellow sundress, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
+     "keyframe": "a 2-year-old toddler girl with dark brown skin and neat braids with beads, a yellow sundress, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
      "action": "steeples little fingers thoughtfully",
      "camera": "medium shot, gentle handheld drift",
      "lines": [
@@ -703,7 +703,7 @@
       }
      ],
      "sfx": "quiet room tone",
-     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A 2-year-old Black toddler girl with neat cornrows and beads, a yellow sundress, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: medium shot, gentle handheld drift. She steeples little fingers thoughtfully, then says in a calm, soft, wise little toddler voice: \"Tell me who'll pick me up, and when. Knowing helps me feel brave.\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
+     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A 2-year-old toddler girl with dark brown skin and neat braids with beads, a yellow sundress, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: medium shot, gentle handheld drift. She steeples little fingers thoughtfully, then says in a calm, soft, wise little toddler voice: \"Tell me who'll pick me up, and when. Knowing helps me feel brave.\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
     },
     {
      "n": 6,
@@ -801,7 +801,7 @@
       "d09"
      ],
      "role": "chair",
-     "keyframe": "a 2-year-old Latino toddler boy with thick wavy brown hair, a tiny denim jacket over a white nappy, wearing a white shirt collar and a tiny navy tie over the nappy, and small round wire reading glasses, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
+     "keyframe": "a 2-year-old toddler boy with tan skin and thick wavy brown hair, a tiny denim jacket over a white nappy, wearing a white shirt collar and a tiny navy tie over the nappy, and small round wire reading glasses, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
      "action": "straightens the tiny tie with both hands, then looks into the lens",
      "camera": "static medium close-up",
      "lines": [
@@ -812,7 +812,7 @@
       }
      ],
      "sfx": "quiet room tone",
-     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A 2-year-old Latino toddler boy with thick wavy brown hair, a tiny denim jacket over a white nappy, wearing a white shirt collar and a tiny navy tie over the nappy, and small round wire reading glasses, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: static medium close-up. He straightens the tiny tie with both hands, then looks into the lens, then says in a serious, deadpan little toddler voice: \"Order. Agenda: the labels you put on us in front of other people.\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
+     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A 2-year-old toddler boy with tan skin and thick wavy brown hair, a tiny denim jacket over a white nappy, wearing a white shirt collar and a tiny navy tie over the nappy, and small round wire reading glasses, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: static medium close-up. He straightens the tiny tie with both hands, then looks into the lens, then says in a serious, deadpan little toddler voice: \"Order. Agenda: the labels you put on us in front of other people.\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
     },
     {
      "n": 2,
@@ -822,7 +822,7 @@
       "d12"
      ],
      "role": "zuri",
-     "keyframe": "a 18-month-old East Asian baby girl with a tiny top-knot, a mint-green dungaree romper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
+     "keyframe": "an 18-month-old baby girl with light skin, dark eyes and a tiny top-knot, a mint-green dungaree romper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
      "action": "sips from a sippy cup like an espresso, then gives the camera a slow side-eye",
      "camera": "static medium close-up",
      "lines": [
@@ -833,7 +833,7 @@
       }
      ],
      "sfx": "quiet room tone",
-     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A 18-month-old East Asian baby girl with a tiny top-knot, a mint-green dungaree romper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: static medium close-up. She sips from a sippy cup like an espresso, then gives the camera a slow side-eye, then says in a sassy, confident little toddler voice: \"You told the lady I'm shy. Now I'm shy, apparently. Thanks for that.\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
+     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. An 18-month-old baby girl with light skin, dark eyes and a tiny top-knot, a mint-green dungaree romper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: static medium close-up. She sips from a sippy cup like an espresso, then gives the camera a slow side-eye, then says in a sassy, confident little toddler voice: \"You told the lady I'm shy. Now I'm shy, apparently. Thanks for that.\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
     },
     {
      "n": 3,
@@ -843,7 +843,7 @@
       "d15"
      ],
      "role": "ada",
-     "keyframe": "a 2-year-old South Asian toddler boy with a side parting, a tiny checked shirt over his nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
+     "keyframe": "a 2-year-old toddler boy with warm brown skin and a side parting, a tiny checked shirt over his nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
      "action": "taps the temple with one tiny finger",
      "camera": "slow push-in on the face",
      "lines": [
@@ -854,7 +854,7 @@
       }
      ],
      "sfx": "quiet room tone",
-     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A 2-year-old South Asian toddler boy with a side parting, a tiny checked shirt over his nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: slow push-in on the face. He taps the temple with one tiny finger, then says in a calm, soft, wise little toddler voice: \"Call me naughty often enough and I'll believe it. Name the behaviour, not me.\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
+     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A 2-year-old toddler boy with warm brown skin and a side parting, a tiny checked shirt over his nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: slow push-in on the face. He taps the temple with one tiny finger, then says in a calm, soft, wise little toddler voice: \"Call me naughty often enough and I'll believe it. Name the behaviour, not me.\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
     },
     {
      "n": 4,
@@ -864,7 +864,7 @@
       "d18"
      ],
      "role": "rocco",
-     "keyframe": "a 2-year-old Latina toddler girl with two braids, a tiny pearl-style toy necklace, a navy dress, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
+     "keyframe": "a 2-year-old toddler girl with tan skin and two braids, a tiny pearl-style toy necklace, a navy dress, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
      "action": "points at the camera in outrage",
      "camera": "medium shot, gentle handheld drift",
      "lines": [
@@ -875,7 +875,7 @@
       }
      ],
      "sfx": "quiet room tone",
-     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A 2-year-old Latina toddler girl with two braids, a tiny pearl-style toy necklace, a navy dress, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: medium shot, gentle handheld drift. She points at the camera in outrage, then says in a loud, dramatic, theatrical little toddler voice: \"I'm not the difficult one! I'm the passionate one! There's a difference!\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
+     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A 2-year-old toddler girl with tan skin and two braids, a tiny pearl-style toy necklace, a navy dress, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: medium shot, gentle handheld drift. She points at the camera in outrage, then says in a loud, dramatic, theatrical little toddler voice: \"I'm not the difficult one! I'm the passionate one! There's a difference!\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
     },
     {
      "n": 5,
@@ -885,7 +885,7 @@
       "d21"
      ],
      "role": "ada",
-     "keyframe": "a 2-year-old East Asian toddler boy with a bowl haircut, a tiny navy blazer over his nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
+     "keyframe": "a 2-year-old toddler boy with light skin and a black bowl haircut, a tiny navy blazer over his nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
      "action": "gazes out of the window, then turns back to the lens",
      "camera": "close-up, slight handheld drift",
      "lines": [
@@ -896,7 +896,7 @@
       }
      ],
      "sfx": "quiet room tone",
-     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A 2-year-old East Asian toddler boy with a bowl haircut, a tiny navy blazer over his nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: close-up, slight handheld drift. He gazes out of the window, then turns back to the lens, then says in a calm, soft, wise little toddler voice: \"Tell me what I did well instead. I'll do more of that.\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
+     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A 2-year-old toddler boy with light skin and a black bowl haircut, a tiny navy blazer over his nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: close-up, slight handheld drift. He gazes out of the window, then turns back to the lens, then says in a calm, soft, wise little toddler voice: \"Tell me what I did well instead. I'll do more of that.\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
     },
     {
      "n": 6,
@@ -927,7 +927,7 @@
       "d02"
      ],
      "role": "rocco",
-     "keyframe": "a chubby 2-year-old Black toddler girl with curly hair in two puffs tied with pink bows, a pink knitted cardigan over her white nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
+     "keyframe": "a chubby 2-year-old toddler girl with deep brown skin and curly hair in two puffs tied with pink bows, a pink knitted cardigan over her white nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
      "action": "throws both arms in the air",
      "camera": "slow push-in on the face",
      "lines": [
@@ -938,7 +938,7 @@
       }
      ],
      "sfx": "quiet room tone",
-     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A chubby 2-year-old Black toddler girl with curly hair in two puffs tied with pink bows, a pink knitted cardigan over her white nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: slow push-in on the face. She throws both arms in the air, then says in a loud, dramatic, theatrical little toddler voice: \"Call me brave! Call me kind! Call me the dragon tamer! I'll grow into it!\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
+     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A chubby 2-year-old toddler girl with deep brown skin and curly hair in two puffs tied with pink bows, a pink knitted cardigan over her white nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: slow push-in on the face. She throws both arms in the air, then says in a loud, dramatic, theatrical little toddler voice: \"Call me brave! Call me kind! Call me the dragon tamer! I'll grow into it!\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
     },
     {
      "n": 8,
@@ -1036,7 +1036,7 @@
       "d22"
      ],
      "role": "ada",
-     "keyframe": "a chubby 18-month-old Black baby girl with a soft afro and a white headband, a lemon-yellow romper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
+     "keyframe": "a chubby 18-month-old baby girl with deep brown skin and a soft afro and a white headband, a lemon-yellow romper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
      "action": "steeples little fingers thoughtfully",
      "camera": "medium shot, gentle handheld drift",
      "lines": [
@@ -1047,7 +1047,7 @@
       }
      ],
      "sfx": "quiet room tone",
-     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A chubby 18-month-old Black baby girl with a soft afro and a white headband, a lemon-yellow romper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: medium shot, gentle handheld drift. She steeples little fingers thoughtfully, then says in a calm, soft, wise little toddler voice: \"My fear is real to me, even if the monster isn't. Take it seriously.\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
+     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A chubby 18-month-old baby girl with deep brown skin and a soft afro and a white headband, a lemon-yellow romper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: medium shot, gentle handheld drift. She steeples little fingers thoughtfully, then says in a calm, soft, wise little toddler voice: \"My fear is real to me, even if the monster isn't. Take it seriously.\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
     },
     {
      "n": 4,
@@ -1057,7 +1057,7 @@
       "d25"
      ],
      "role": "zuri",
-     "keyframe": "a 2-year-old Middle Eastern toddler boy with thick black hair and long eyelashes, a cosy brown jumper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
+     "keyframe": "a 2-year-old toddler boy with olive skin, thick black hair and long eyelashes, a cosy brown jumper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
      "action": "tilts the head and wags one tiny finger",
      "camera": "close-up, slight handheld drift",
      "lines": [
@@ -1068,7 +1068,7 @@
       }
      ],
      "sfx": "quiet room tone",
-     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A 2-year-old Middle Eastern toddler boy with thick black hair and long eyelashes, a cosy brown jumper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: close-up, slight handheld drift. He tilts the head and wags one tiny finger, then says in a sassy, confident little toddler voice: \"Check under the bed with me. Torch, please. Ten seconds. Problem solved.\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
+     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A 2-year-old toddler boy with olive skin, thick black hair and long eyelashes, a cosy brown jumper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: close-up, slight handheld drift. He tilts the head and wags one tiny finger, then says in a sassy, confident little toddler voice: \"Check under the bed with me. Torch, please. Ten seconds. Problem solved.\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
     },
     {
      "n": 5,
@@ -1099,7 +1099,7 @@
       "d06"
      ],
      "role": "zuri",
-     "keyframe": "a 2-year-old South Asian toddler girl with a short black bob and tiny gold-coloured hair clips, a lilac romper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
+     "keyframe": "a 2-year-old toddler girl with light brown skin, a short black bob and tiny gold-coloured hair clips, a lilac romper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
      "action": "sips from a sippy cup like an espresso, then gives the camera a slow side-eye",
      "camera": "slow push-in on the face",
      "lines": [
@@ -1110,7 +1110,7 @@
       }
      ],
      "sfx": "quiet room tone",
-     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A 2-year-old South Asian toddler girl with a short black bob and tiny gold-coloured hair clips, a lilac romper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: slow push-in on the face. She sips from a sippy cup like an espresso, then gives the camera a slow side-eye, then says in a sassy, confident little toddler voice: \"Don't push me to hug the scary clown, darling. My fear, my pace.\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
+     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A 2-year-old toddler girl with light brown skin, a short black bob and tiny gold-coloured hair clips, a lilac romper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: slow push-in on the face. She sips from a sippy cup like an espresso, then gives the camera a slow side-eye, then says in a sassy, confident little toddler voice: \"Don't push me to hug the scary clown, darling. My fear, my pace.\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
     },
     {
      "n": 7,
@@ -1120,7 +1120,7 @@
       "d09"
      ],
      "role": "rocco",
-     "keyframe": "a 2-year-old Latino toddler boy with thick wavy brown hair, a tiny denim jacket over a white nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
+     "keyframe": "a 2-year-old toddler boy with tan skin and thick wavy brown hair, a tiny denim jacket over a white nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
      "action": "clutches the chest theatrically",
      "camera": "medium shot, gentle handheld drift",
      "lines": [
@@ -1131,7 +1131,7 @@
       }
      ],
      "sfx": "quiet room tone",
-     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A 2-year-old Latino toddler boy with thick wavy brown hair, a tiny denim jacket over a white nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: medium shot, gentle handheld drift. He clutches the chest theatrically, then says in a loud, dramatic, theatrical little toddler voice: \"Leave a little light on! Monsters hate light! Everyone knows this!\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
+     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A 2-year-old toddler boy with tan skin and thick wavy brown hair, a tiny denim jacket over a white nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: medium shot, gentle handheld drift. He clutches the chest theatrically, then says in a loud, dramatic, theatrical little toddler voice: \"Leave a little light on! Monsters hate light! Everyone knows this!\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
     },
     {
      "n": 8,
@@ -1142,7 +1142,7 @@
       "bean"
      ],
      "role": "closer",
-     "keyframe": "a 18-month-old East Asian baby girl with a tiny top-knot, a mint-green dungaree romper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
+     "keyframe": "an 18-month-old baby girl with light skin, dark eyes and a tiny top-knot, a mint-green dungaree romper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
      "action": "looks straight into the lens with big sincere eyes; the newborn startles and flings both tiny arms up after the last word",
      "camera": "slow push-in to a medium close-up",
      "lines": [
@@ -1153,7 +1153,7 @@
       }
      ],
      "sfx": "newborn and flings both tiny arms up",
-     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A 18-month-old East Asian baby girl with a tiny top-knot, a mint-green dungaree romper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: slow push-in to a medium close-up. She looks straight into the lens with big sincere eyes, then says in a soft, sincere little toddler voice: \"Don't laugh off our fears. Help us face them. Motion carried.\" Beside the table, a tiny newborn baby swaddled in a cream blanket, lying in a wicker bassinet, startles and flings both tiny arms up right after the last word, and the speaker glances at the newborn, then back at the camera. Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
+     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. An 18-month-old baby girl with light skin, dark eyes and a tiny top-knot, a mint-green dungaree romper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: slow push-in to a medium close-up. She looks straight into the lens with big sincere eyes, then says in a soft, sincere little toddler voice: \"Don't laugh off our fears. Help us face them. Motion carried.\" Beside the table, a tiny newborn baby swaddled in a cream blanket, lying in a wicker bassinet, startles and flings both tiny arms up right after the last word, and the speaker glances at the newborn, then back at the camera. Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
     }
    ],
    "loop_note": "the closing line and the newborn's gag end the meeting; tomorrow a new delegation takes the seats"
@@ -1208,7 +1208,7 @@
       "d01"
      ],
      "role": "rocco",
-     "keyframe": "a chubby 18-month-old East Asian baby boy with short spiky black hair, in a white nappy and a tiny grey cardigan, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
+     "keyframe": "a chubby 18-month-old baby boy with light skin, short spiky black hair and almond eyes, in a white nappy and a tiny grey cardigan, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
      "action": "points at the camera in outrage",
      "camera": "medium shot, gentle handheld drift",
      "lines": [
@@ -1219,7 +1219,7 @@
       }
      ],
      "sfx": "quiet room tone",
-     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A chubby 18-month-old East Asian baby boy with short spiky black hair, in a white nappy and a tiny grey cardigan, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: medium shot, gentle handheld drift. He points at the camera in outrage, then says in a loud, dramatic, theatrical little toddler voice: \"Everyone visits the new baby! Nobody asks how I'M coping! I'm the original!\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
+     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A chubby 18-month-old baby boy with light skin, short spiky black hair and almond eyes, in a white nappy and a tiny grey cardigan, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: medium shot, gentle handheld drift. He points at the camera in outrage, then says in a loud, dramatic, theatrical little toddler voice: \"Everyone visits the new baby! Nobody asks how I'M coping! I'm the original!\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
     },
     {
      "n": 3,
@@ -1250,7 +1250,7 @@
       "d07"
      ],
      "role": "zuri",
-     "keyframe": "a chubby 18-month-old Black baby boy with a short neat afro, a tiny pinstripe waistcoat over his nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
+     "keyframe": "a chubby 18-month-old baby boy with dark brown skin and a short neat afro, a tiny pinstripe waistcoat over his nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
      "action": "leans back in a little chair, completely unimpressed",
      "camera": "static medium close-up",
      "lines": [
@@ -1261,7 +1261,7 @@
       }
      ],
      "sfx": "quiet room tone",
-     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A chubby 18-month-old Black baby boy with a short neat afro, a tiny pinstripe waistcoat over his nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: static medium close-up. He leans back in a little chair, completely unimpressed, then says in a sassy, confident little toddler voice: \"Ten minutes a day, just me. No baby. I'll be much nicer about the whole thing.\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
+     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A chubby 18-month-old baby boy with dark brown skin and a short neat afro, a tiny pinstripe waistcoat over his nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: static medium close-up. He leans back in a little chair, completely unimpressed, then says in a sassy, confident little toddler voice: \"Ten minutes a day, just me. No baby. I'll be much nicer about the whole thing.\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
     },
     {
      "n": 5,
@@ -1271,7 +1271,7 @@
       "d10"
      ],
      "role": "ada",
-     "keyframe": "a chubby 2-year-old Middle Eastern toddler girl with long dark curls, a cream knitted jumper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
+     "keyframe": "a chubby 2-year-old toddler girl with olive skin and long dark curls, a cream knitted jumper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
      "action": "rests the chin on one hand and nods slowly",
      "camera": "slow push-in on the face",
      "lines": [
@@ -1282,7 +1282,7 @@
       }
      ],
      "sfx": "quiet room tone",
-     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A chubby 2-year-old Middle Eastern toddler girl with long dark curls, a cream knitted jumper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: slow push-in on the face. She rests the chin on one hand and nods slowly, then says in a calm, soft, wise little toddler voice: \"Tell me I'm a big brother or big sister like it's a promotion. It is.\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
+     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A chubby 2-year-old toddler girl with olive skin and long dark curls, a cream knitted jumper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: slow push-in on the face. She rests the chin on one hand and nods slowly, then says in a calm, soft, wise little toddler voice: \"Tell me I'm a big brother or big sister like it's a promotion. It is.\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
     },
     {
      "n": 6,
@@ -1443,7 +1443,7 @@
       "d14"
      ],
      "role": "zuri",
-     "keyframe": "a 2-year-old Black toddler girl with neat cornrows and beads, a yellow sundress, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
+     "keyframe": "a 2-year-old toddler girl with dark brown skin and neat braids with beads, a yellow sundress, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
      "action": "sips from a sippy cup like an espresso, then gives the camera a slow side-eye",
      "camera": "slow push-in on the face",
      "lines": [
@@ -1454,7 +1454,7 @@
       }
      ],
      "sfx": "quiet room tone",
-     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A 2-year-old Black toddler girl with neat cornrows and beads, a yellow sundress, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: slow push-in on the face. She sips from a sippy cup like an espresso, then gives the camera a slow side-eye, then says in a sassy, confident little toddler voice: \"Stickers, cheering, calm. Mm-hm. Shame never trained anyone, darling.\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
+     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A 2-year-old toddler girl with dark brown skin and neat braids with beads, a yellow sundress, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: slow push-in on the face. She sips from a sippy cup like an espresso, then gives the camera a slow side-eye, then says in a sassy, confident little toddler voice: \"Stickers, cheering, calm. Mm-hm. Shame never trained anyone, darling.\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
     },
     {
      "n": 5,
@@ -1528,7 +1528,7 @@
       "bean"
      ],
      "role": "closer",
-     "keyframe": "a chubby 18-month-old East Asian baby boy with short spiky black hair, in a white nappy and a tiny grey cardigan, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
+     "keyframe": "a chubby 18-month-old baby boy with light skin, short spiky black hair and almond eyes, in a white nappy and a tiny grey cardigan, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
      "action": "rests both hands calmly on the table; the newborn hiccups once, loudly after the last word",
      "camera": "slow push-in to a medium close-up",
      "lines": [
@@ -1539,7 +1539,7 @@
       }
      ],
      "sfx": "newborn once, loudly",
-     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A chubby 18-month-old East Asian baby boy with short spiky black hair, in a white nappy and a tiny grey cardigan, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: slow push-in to a medium close-up. He rests both hands calmly on the table, then says in a soft, sincere little toddler voice: \"Patience, no pressure, no shame. We'll get there. Motion carried.\" Beside the table, a tiny newborn baby swaddled in a cream blanket, lying in a wicker bassinet, hiccups once, loudly right after the last word, and the speaker glances at the newborn, then back at the camera. Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
+     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A chubby 18-month-old baby boy with light skin, short spiky black hair and almond eyes, in a white nappy and a tiny grey cardigan, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: slow push-in to a medium close-up. He rests both hands calmly on the table, then says in a soft, sincere little toddler voice: \"Patience, no pressure, no shame. We'll get there. Motion carried.\" Beside the table, a tiny newborn baby swaddled in a cream blanket, lying in a wicker bassinet, hiccups once, loudly right after the last word, and the speaker glances at the newborn, then back at the camera. Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
     }
    ],
    "loop_note": "the closing line and the newborn's gag end the meeting; tomorrow a new delegation takes the seats"
@@ -1573,7 +1573,7 @@
       "d12"
      ],
      "role": "chair",
-     "keyframe": "a 18-month-old East Asian baby girl with a tiny top-knot, a mint-green dungaree romper, wearing a white shirt collar and a tiny navy tie over the nappy, and small round wire reading glasses, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
+     "keyframe": "an 18-month-old baby girl with light skin, dark eyes and a tiny top-knot, a mint-green dungaree romper, wearing a white shirt collar and a tiny navy tie over the nappy, and small round wire reading glasses, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
      "action": "folds chubby arms and nods gravely",
      "camera": "static medium close-up",
      "lines": [
@@ -1584,7 +1584,7 @@
       }
      ],
      "sfx": "quiet room tone",
-     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A 18-month-old East Asian baby girl with a tiny top-knot, a mint-green dungaree romper, wearing a white shirt collar and a tiny navy tie over the nappy, and small round wire reading glasses, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: static medium close-up. She folds chubby arms and nods gravely, then says in a serious, deadpan little toddler voice: \"Order. Agenda: talking. We can't say much yet, but we're listening to everything.\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
+     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. An 18-month-old baby girl with light skin, dark eyes and a tiny top-knot, a mint-green dungaree romper, wearing a white shirt collar and a tiny navy tie over the nappy, and small round wire reading glasses, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: static medium close-up. She folds chubby arms and nods gravely, then says in a serious, deadpan little toddler voice: \"Order. Agenda: talking. We can't say much yet, but we're listening to everything.\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
     },
     {
      "n": 2,
@@ -1594,7 +1594,7 @@
       "d15"
      ],
      "role": "ada",
-     "keyframe": "a 2-year-old South Asian toddler boy with a side parting, a tiny checked shirt over his nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
+     "keyframe": "a 2-year-old toddler boy with warm brown skin and a side parting, a tiny checked shirt over his nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
      "action": "places both hands on the table and speaks very sincerely",
      "camera": "static medium close-up",
      "lines": [
@@ -1605,7 +1605,7 @@
       }
      ],
      "sfx": "quiet room tone",
-     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A 2-year-old South Asian toddler boy with a side parting, a tiny checked shirt over his nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: static medium close-up. He places both hands on the table and speaks very sincerely, then says in a calm, soft, wise little toddler voice: \"When I babble, babble back. Every little conversation builds my brain.\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
+     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A 2-year-old toddler boy with warm brown skin and a side parting, a tiny checked shirt over his nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: static medium close-up. He places both hands on the table and speaks very sincerely, then says in a calm, soft, wise little toddler voice: \"When I babble, babble back. Every little conversation builds my brain.\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
     },
     {
      "n": 3,
@@ -1615,7 +1615,7 @@
       "d18"
      ],
      "role": "zuri",
-     "keyframe": "a 2-year-old Latina toddler girl with two braids, a tiny pearl-style toy necklace, a navy dress, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
+     "keyframe": "a 2-year-old toddler girl with tan skin and two braids, a tiny pearl-style toy necklace, a navy dress, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
      "action": "sips from a sippy cup like an espresso, then gives the camera a slow side-eye",
      "camera": "slow push-in on the face",
      "lines": [
@@ -1626,7 +1626,7 @@
       }
      ],
      "sfx": "quiet room tone",
-     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A 2-year-old Latina toddler girl with two braids, a tiny pearl-style toy necklace, a navy dress, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: slow push-in on the face. She sips from a sippy cup like an espresso, then gives the camera a slow side-eye, then says in a sassy, confident little toddler voice: \"Narrate your day to me. Now we're putting on socks. Now we're cooking. Riveting.\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
+     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A 2-year-old toddler girl with tan skin and two braids, a tiny pearl-style toy necklace, a navy dress, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: slow push-in on the face. She sips from a sippy cup like an espresso, then gives the camera a slow side-eye, then says in a sassy, confident little toddler voice: \"Narrate your day to me. Now we're putting on socks. Now we're cooking. Riveting.\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
     },
     {
      "n": 4,
@@ -1636,7 +1636,7 @@
       "d21"
      ],
      "role": "rocco",
-     "keyframe": "a 2-year-old East Asian toddler boy with a bowl haircut, a tiny navy blazer over his nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
+     "keyframe": "a 2-year-old toddler boy with light skin and a black bowl haircut, a tiny navy blazer over his nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
      "action": "clutches the chest theatrically",
      "camera": "medium shot, gentle handheld drift",
      "lines": [
@@ -1647,7 +1647,7 @@
       }
      ],
      "sfx": "quiet room tone",
-     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A 2-year-old East Asian toddler boy with a bowl haircut, a tiny navy blazer over his nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: medium shot, gentle handheld drift. He clutches the chest theatrically, then says in a loud, dramatic, theatrical little toddler voice: \"I said ba and you said ball! Do you know how proud I was? Do it again!\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
+     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A 2-year-old toddler boy with light skin and a black bowl haircut, a tiny navy blazer over his nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: medium shot, gentle handheld drift. He clutches the chest theatrically, then says in a loud, dramatic, theatrical little toddler voice: \"I said ba and you said ball! Do you know how proud I was? Do it again!\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
     },
     {
      "n": 5,
@@ -1678,7 +1678,7 @@
       "d02"
      ],
      "role": "rocco",
-     "keyframe": "a chubby 2-year-old Black toddler girl with curly hair in two puffs tied with pink bows, a pink knitted cardigan over her white nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
+     "keyframe": "a chubby 2-year-old toddler girl with deep brown skin and curly hair in two puffs tied with pink bows, a pink knitted cardigan over her white nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
      "action": "flops across the table, then sits bolt upright",
      "camera": "static medium close-up",
      "lines": [
@@ -1689,7 +1689,7 @@
       }
      ],
      "sfx": "quiet room tone",
-     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A chubby 2-year-old Black toddler girl with curly hair in two puffs tied with pink bows, a pink knitted cardigan over her white nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: static medium close-up. She flops across the table, then sits bolt upright, then says in a loud, dramatic, theatrical little toddler voice: \"When I point and grunt, give me the word! I'm trying! Very hard!\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
+     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A chubby 2-year-old toddler girl with deep brown skin and curly hair in two puffs tied with pink bows, a pink knitted cardigan over her white nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: static medium close-up. She flops across the table, then sits bolt upright, then says in a loud, dramatic, theatrical little toddler voice: \"When I point and grunt, give me the word! I'm trying! Very hard!\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
     },
     {
      "n": 7,
@@ -1787,7 +1787,7 @@
       "d22"
      ],
      "role": "zuri",
-     "keyframe": "a chubby 18-month-old Black baby girl with a soft afro and a white headband, a lemon-yellow romper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
+     "keyframe": "a chubby 18-month-old baby girl with deep brown skin and a soft afro and a white headband, a lemon-yellow romper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
      "action": "sips from a sippy cup like an espresso, then gives the camera a slow side-eye",
      "camera": "slow push-in on the face",
      "lines": [
@@ -1798,7 +1798,7 @@
       }
      ],
      "sfx": "quiet room tone",
-     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A chubby 18-month-old Black baby girl with a soft afro and a white headband, a lemon-yellow romper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: slow push-in on the face. She sips from a sippy cup like an espresso, then gives the camera a slow side-eye, then says in a sassy, confident little toddler voice: \"No more cartoons ever? Darling, we both know cartoons are back tomorrow.\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
+     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A chubby 18-month-old baby girl with deep brown skin and a soft afro and a white headband, a lemon-yellow romper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: slow push-in on the face. She sips from a sippy cup like an espresso, then gives the camera a slow side-eye, then says in a sassy, confident little toddler voice: \"No more cartoons ever? Darling, we both know cartoons are back tomorrow.\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
     },
     {
      "n": 3,
@@ -1808,7 +1808,7 @@
       "d25"
      ],
      "role": "ada",
-     "keyframe": "a 2-year-old Middle Eastern toddler boy with thick black hair and long eyelashes, a cosy brown jumper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
+     "keyframe": "a 2-year-old toddler boy with olive skin, thick black hair and long eyelashes, a cosy brown jumper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
      "action": "taps the temple with one tiny finger",
      "camera": "medium shot, gentle handheld drift",
      "lines": [
@@ -1819,7 +1819,7 @@
       }
      ],
      "sfx": "quiet room tone",
-     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A 2-year-old Middle Eastern toddler boy with thick black hair and long eyelashes, a cosy brown jumper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: medium shot, gentle handheld drift. He taps the temple with one tiny finger, then says in a calm, soft, wise little toddler voice: \"Small consequences you actually keep work better than big ones you won't.\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
+     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A 2-year-old toddler boy with olive skin, thick black hair and long eyelashes, a cosy brown jumper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: medium shot, gentle handheld drift. He taps the temple with one tiny finger, then says in a calm, soft, wise little toddler voice: \"Small consequences you actually keep work better than big ones you won't.\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
     },
     {
      "n": 4,
@@ -1850,7 +1850,7 @@
       "d06"
      ],
      "role": "ada",
-     "keyframe": "a 2-year-old South Asian toddler girl with a short black bob and tiny gold-coloured hair clips, a lilac romper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
+     "keyframe": "a 2-year-old toddler girl with light brown skin, a short black bob and tiny gold-coloured hair clips, a lilac romper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
      "action": "gazes out of the window, then turns back to the lens",
      "camera": "static medium close-up",
      "lines": [
@@ -1861,7 +1861,7 @@
       }
      ],
      "sfx": "quiet room tone",
-     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A 2-year-old South Asian toddler girl with a short black bob and tiny gold-coloured hair clips, a lilac romper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: static medium close-up. She gazes out of the window, then turns back to the lens, then says in a calm, soft, wise little toddler voice: \"When rules change every day, I test them every day. Be steady.\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
+     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A 2-year-old toddler girl with light brown skin, a short black bob and tiny gold-coloured hair clips, a lilac romper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: static medium close-up. She gazes out of the window, then turns back to the lens, then says in a calm, soft, wise little toddler voice: \"When rules change every day, I test them every day. Be steady.\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
     },
     {
      "n": 6,
@@ -1871,7 +1871,7 @@
       "d09"
      ],
      "role": "zuri",
-     "keyframe": "a 2-year-old Latino toddler boy with thick wavy brown hair, a tiny denim jacket over a white nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
+     "keyframe": "a 2-year-old toddler boy with tan skin and thick wavy brown hair, a tiny denim jacket over a white nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
      "action": "leans back in a little chair, completely unimpressed",
      "camera": "slow push-in on the face",
      "lines": [
@@ -1882,7 +1882,7 @@
       }
      ],
      "sfx": "quiet room tone",
-     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A 2-year-old Latino toddler boy with thick wavy brown hair, a tiny denim jacket over a white nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: slow push-in on the face. He leans back in a little chair, completely unimpressed, then says in a sassy, confident little toddler voice: \"If you count to three, darling, finish at three. Not three and a half.\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
+     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A 2-year-old toddler boy with tan skin and thick wavy brown hair, a tiny denim jacket over a white nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: slow push-in on the face. He leans back in a little chair, completely unimpressed, then says in a sassy, confident little toddler voice: \"If you count to three, darling, finish at three. Not three and a half.\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
     },
     {
      "n": 7,
@@ -1892,7 +1892,7 @@
       "d12"
      ],
      "role": "rocco",
-     "keyframe": "a 18-month-old East Asian baby girl with a tiny top-knot, a mint-green dungaree romper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
+     "keyframe": "an 18-month-old baby girl with light skin, dark eyes and a tiny top-knot, a mint-green dungaree romper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
      "action": "throws both arms in the air",
      "camera": "medium shot, gentle handheld drift",
      "lines": [
@@ -1903,7 +1903,7 @@
       }
      ],
      "sfx": "quiet room tone",
-     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A 18-month-old East Asian baby girl with a tiny top-knot, a mint-green dungaree romper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: medium shot, gentle handheld drift. She throws both arms in the air, then says in a loud, dramatic, theatrical little toddler voice: \"You said no sweets, then Grandma gave me sweets! Who's in charge here?!\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
+     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. An 18-month-old baby girl with light skin, dark eyes and a tiny top-knot, a mint-green dungaree romper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: medium shot, gentle handheld drift. She throws both arms in the air, then says in a loud, dramatic, theatrical little toddler voice: \"You said no sweets, then Grandma gave me sweets! Who's in charge here?!\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
     },
     {
      "n": 8,
@@ -1914,7 +1914,7 @@
       "bean"
      ],
      "role": "closer",
-     "keyframe": "a 2-year-old South Asian toddler boy with a side parting, a tiny checked shirt over his nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
+     "keyframe": "a 2-year-old toddler boy with warm brown skin and a side parting, a tiny checked shirt over his nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
      "action": "looks straight into the lens with big sincere eyes; the newborn gives a huge slow yawn after the last word",
      "camera": "slow push-in to a medium close-up",
      "lines": [
@@ -1925,7 +1925,7 @@
       }
      ],
      "sfx": "newborn a huge slow yawn",
-     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A 2-year-old South Asian toddler boy with a side parting, a tiny checked shirt over his nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: slow push-in to a medium close-up. He looks straight into the lens with big sincere eyes, then says in a soft, sincere little toddler voice: \"Say what you mean, then do what you say. Motion carried.\" Beside the table, a tiny newborn baby swaddled in a cream blanket, lying in a wicker bassinet, gives a huge slow yawn right after the last word, and the speaker glances at the newborn, then back at the camera. Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
+     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A 2-year-old toddler boy with warm brown skin and a side parting, a tiny checked shirt over his nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: slow push-in to a medium close-up. He looks straight into the lens with big sincere eyes, then says in a soft, sincere little toddler voice: \"Say what you mean, then do what you say. Motion carried.\" Beside the table, a tiny newborn baby swaddled in a cream blanket, lying in a wicker bassinet, gives a huge slow yawn right after the last word, and the speaker glances at the newborn, then back at the camera. Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
     }
    ],
    "loop_note": "the closing line and the newborn's gag end the meeting; tomorrow a new delegation takes the seats"
@@ -1959,7 +1959,7 @@
       "d01"
      ],
      "role": "chair",
-     "keyframe": "a chubby 18-month-old East Asian baby boy with short spiky black hair, in a white nappy, a tiny grey cardigan, wearing a white shirt collar and a tiny navy tie over the nappy, and small round wire reading glasses, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
+     "keyframe": "a chubby 18-month-old baby boy with light skin, short spiky black hair and almond eyes, in a white nappy, a tiny grey cardigan, wearing a white shirt collar and a tiny navy tie over the nappy, and small round wire reading glasses, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
      "action": "taps one little finger slowly on the table and raises one eyebrow",
      "camera": "static medium shot from across the table",
      "lines": [
@@ -1970,7 +1970,7 @@
       }
      ],
      "sfx": "quiet room tone",
-     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A chubby 18-month-old East Asian baby boy with short spiky black hair, in a white nappy, a tiny grey cardigan, wearing a white shirt collar and a tiny navy tie over the nappy, and small round wire reading glasses, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: static medium shot from across the table. He taps one little finger slowly on the table and raises one eyebrow, then says in a serious, deadpan little toddler voice: \"Order. Today the Committee wishes to discuss you. Yes, you.\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
+     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A chubby 18-month-old baby boy with light skin, short spiky black hair and almond eyes, in a white nappy, a tiny grey cardigan, wearing a white shirt collar and a tiny navy tie over the nappy, and small round wire reading glasses, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: static medium shot from across the table. He taps one little finger slowly on the table and raises one eyebrow, then says in a serious, deadpan little toddler voice: \"Order. Today the Committee wishes to discuss you. Yes, you.\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
     },
     {
      "n": 2,
@@ -2001,7 +2001,7 @@
       "d07"
      ],
      "role": "zuri",
-     "keyframe": "a chubby 18-month-old Black baby boy with a short neat afro, a tiny pinstripe waistcoat over his nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
+     "keyframe": "a chubby 18-month-old baby boy with dark brown skin and a short neat afro, a tiny pinstripe waistcoat over his nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
      "action": "sets a sippy cup down very deliberately",
      "camera": "close-up, slight handheld drift",
      "lines": [
@@ -2012,7 +2012,7 @@
       }
      ],
      "sfx": "quiet room tone",
-     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A chubby 18-month-old Black baby boy with a short neat afro, a tiny pinstripe waistcoat over his nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: close-up, slight handheld drift. He sets a sippy cup down very deliberately, then says in a sassy, confident little toddler voice: \"Eat something that isn't my leftover crusts, darling. Sit down. Breathe.\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
+     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A chubby 18-month-old baby boy with dark brown skin and a short neat afro, a tiny pinstripe waistcoat over his nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: close-up, slight handheld drift. He sets a sippy cup down very deliberately, then says in a sassy, confident little toddler voice: \"Eat something that isn't my leftover crusts, darling. Sit down. Breathe.\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
     },
     {
      "n": 4,
@@ -2022,7 +2022,7 @@
       "d10"
      ],
      "role": "rocco",
-     "keyframe": "a chubby 2-year-old Middle Eastern toddler girl with long dark curls, a cream knitted jumper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
+     "keyframe": "a chubby 2-year-old toddler girl with olive skin and long dark curls, a cream knitted jumper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
      "action": "flops across the table, then sits bolt upright",
      "camera": "static medium close-up",
      "lines": [
@@ -2033,7 +2033,7 @@
       }
      ],
      "sfx": "quiet room tone",
-     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A chubby 2-year-old Middle Eastern toddler girl with long dark curls, a cream knitted jumper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: static medium close-up. She flops across the table, then sits bolt upright, then says in a loud, dramatic, theatrical little toddler voice: \"You were crying in the kitchen. I saw. You don't have to be strong every second.\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
+     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A chubby 2-year-old toddler girl with olive skin and long dark curls, a cream knitted jumper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: static medium close-up. She flops across the table, then sits bolt upright, then says in a loud, dramatic, theatrical little toddler voice: \"You were crying in the kitchen. I saw. You don't have to be strong every second.\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
     },
     {
      "n": 5,
@@ -2107,7 +2107,7 @@
       "bean"
      ],
      "role": "closer",
-     "keyframe": "a chubby 18-month-old Black baby girl with a soft afro and a white headband, a lemon-yellow romper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
+     "keyframe": "a chubby 18-month-old baby girl with deep brown skin and a soft afro and a white headband, a lemon-yellow romper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
      "action": "leans forward with a small warm smile; the newborn blows a little raspberry after the last word",
      "camera": "slow push-in to a medium close-up",
      "lines": [
@@ -2118,7 +2118,7 @@
       }
      ],
      "sfx": "newborn a little raspberry",
-     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A chubby 18-month-old Black baby girl with a soft afro and a white headband, a lemon-yellow romper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: slow push-in to a medium close-up. She leans forward with a small warm smile, then says in a soft, sincere little toddler voice: \"Ask for help when you need it. A happy parent is our favourite thing. Motion carried.\" Beside the table, a tiny newborn baby swaddled in a cream blanket, lying in a wicker bassinet, blows a little raspberry right after the last word, and the speaker glances at the newborn, then back at the camera. Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
+     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A chubby 18-month-old baby girl with deep brown skin and a soft afro and a white headband, a lemon-yellow romper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: slow push-in to a medium close-up. She leans forward with a small warm smile, then says in a soft, sincere little toddler voice: \"Ask for help when you need it. A happy parent is our favourite thing. Motion carried.\" Beside the table, a tiny newborn baby swaddled in a cream blanket, lying in a wicker bassinet, blows a little raspberry right after the last word, and the speaker glances at the newborn, then back at the camera. Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
     }
    ],
    "loop_note": "the closing line and the newborn's gag end the meeting; tomorrow a new delegation takes the seats"
@@ -2194,7 +2194,7 @@
       "d14"
      ],
      "role": "zuri",
-     "keyframe": "a 2-year-old Black toddler girl with neat cornrows and beads, a yellow sundress, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
+     "keyframe": "a 2-year-old toddler girl with dark brown skin and neat braids with beads, a yellow sundress, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
      "action": "tilts the head and wags one tiny finger",
      "camera": "static medium close-up",
      "lines": [
@@ -2205,7 +2205,7 @@
       }
      ],
      "sfx": "quiet room tone",
-     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A 2-year-old Black toddler girl with neat cornrows and beads, a yellow sundress, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: static medium close-up. She tilts the head and wags one tiny finger, then says in a sassy, confident little toddler voice: \"You tell me to be kind, then you're rude to the waiter. Hmm. Interesting.\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
+     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A 2-year-old toddler girl with dark brown skin and neat braids with beads, a yellow sundress, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: static medium close-up. She tilts the head and wags one tiny finger, then says in a sassy, confident little toddler voice: \"You tell me to be kind, then you're rude to the waiter. Hmm. Interesting.\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
     },
     {
      "n": 4,
@@ -2278,7 +2278,7 @@
       "d01"
      ],
      "role": "ada",
-     "keyframe": "a chubby 18-month-old East Asian baby boy with short spiky black hair, in a white nappy and a tiny grey cardigan, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
+     "keyframe": "a chubby 18-month-old baby boy with light skin, short spiky black hair and almond eyes, in a white nappy and a tiny grey cardigan, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
      "action": "steeples little fingers thoughtfully",
      "camera": "static medium close-up",
      "lines": [
@@ -2289,7 +2289,7 @@
       }
      ],
      "sfx": "quiet room tone",
-     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A chubby 18-month-old East Asian baby boy with short spiky black hair, in a white nappy and a tiny grey cardigan, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: static medium close-up. He steeples little fingers thoughtfully, then says in a calm, soft, wise little toddler voice: \"When you calm down by breathing slowly, I learn to breathe slowly too.\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
+     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A chubby 18-month-old baby boy with light skin, short spiky black hair and almond eyes, in a white nappy and a tiny grey cardigan, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: static medium close-up. He steeples little fingers thoughtfully, then says in a calm, soft, wise little toddler voice: \"When you calm down by breathing slowly, I learn to breathe slowly too.\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
     },
     {
      "n": 8,
@@ -2345,7 +2345,7 @@
       "d15"
      ],
      "role": "chair",
-     "keyframe": "a 2-year-old South Asian toddler boy with a side parting, a tiny checked shirt over his nappy, wearing a white shirt collar and a tiny navy tie over the nappy, and small round wire reading glasses, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
+     "keyframe": "a 2-year-old toddler boy with warm brown skin and a side parting, a tiny checked shirt over his nappy, wearing a white shirt collar and a tiny navy tie over the nappy, and small round wire reading glasses, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
      "action": "slaps one tiny palm flat on the table like a gavel",
      "camera": "static medium close-up",
      "lines": [
@@ -2356,7 +2356,7 @@
       }
      ],
      "sfx": "quiet room tone",
-     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A 2-year-old South Asian toddler boy with a side parting, a tiny checked shirt over his nappy, wearing a white shirt collar and a tiny navy tie over the nappy, and small round wire reading glasses, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: static medium close-up. He slaps one tiny palm flat on the table like a gavel, then says in a serious, deadpan little toddler voice: \"Order. Agenda item: forced hugs at family gatherings. A sensitive subject.\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
+     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A 2-year-old toddler boy with warm brown skin and a side parting, a tiny checked shirt over his nappy, wearing a white shirt collar and a tiny navy tie over the nappy, and small round wire reading glasses, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: static medium close-up. He slaps one tiny palm flat on the table like a gavel, then says in a serious, deadpan little toddler voice: \"Order. Agenda item: forced hugs at family gatherings. A sensitive subject.\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
     },
     {
      "n": 2,
@@ -2366,7 +2366,7 @@
       "d18"
      ],
      "role": "zuri",
-     "keyframe": "a 2-year-old Latina toddler girl with two braids, a tiny pearl-style toy necklace, a navy dress, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
+     "keyframe": "a 2-year-old toddler girl with tan skin and two braids, a tiny pearl-style toy necklace, a navy dress, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
      "action": "tilts the head and wags one tiny finger",
      "camera": "static medium close-up",
      "lines": [
@@ -2377,7 +2377,7 @@
       }
      ],
      "sfx": "quiet room tone",
-     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A 2-year-old Latina toddler girl with two braids, a tiny pearl-style toy necklace, a navy dress, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: static medium close-up. She tilts the head and wags one tiny finger, then says in a sassy, confident little toddler voice: \"Auntie wants a kiss? Mm-hm. Can I offer a high five instead?\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
+     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A 2-year-old toddler girl with tan skin and two braids, a tiny pearl-style toy necklace, a navy dress, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: static medium close-up. She tilts the head and wags one tiny finger, then says in a sassy, confident little toddler voice: \"Auntie wants a kiss? Mm-hm. Can I offer a high five instead?\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
     },
     {
      "n": 3,
@@ -2387,7 +2387,7 @@
       "d21"
      ],
      "role": "ada",
-     "keyframe": "a 2-year-old East Asian toddler boy with a bowl haircut, a tiny navy blazer over his nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
+     "keyframe": "a 2-year-old toddler boy with light skin and a black bowl haircut, a tiny navy blazer over his nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
      "action": "places both hands on the table and speaks very sincerely",
      "camera": "slow push-in on the face",
      "lines": [
@@ -2398,7 +2398,7 @@
       }
      ],
      "sfx": "quiet room tone",
-     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A 2-year-old East Asian toddler boy with a bowl haircut, a tiny navy blazer over his nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: slow push-in on the face. He places both hands on the table and speaks very sincerely, then says in a calm, soft, wise little toddler voice: \"When you let me choose how I say hello, you teach me my body is mine.\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
+     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A 2-year-old toddler boy with light skin and a black bowl haircut, a tiny navy blazer over his nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: slow push-in on the face. He places both hands on the table and speaks very sincerely, then says in a calm, soft, wise little toddler voice: \"When you let me choose how I say hello, you teach me my body is mine.\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
     },
     {
      "n": 4,
@@ -2429,7 +2429,7 @@
       "d02"
      ],
      "role": "ada",
-     "keyframe": "a chubby 2-year-old Black toddler girl with curly hair in two puffs tied with pink bows, a pink knitted cardigan over her white nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
+     "keyframe": "a chubby 2-year-old toddler girl with deep brown skin and curly hair in two puffs tied with pink bows, a pink knitted cardigan over her white nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
      "action": "taps the temple with one tiny finger",
      "camera": "close-up, slight handheld drift",
      "lines": [
@@ -2440,7 +2440,7 @@
       }
      ],
      "sfx": "quiet room tone",
-     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A chubby 2-year-old Black toddler girl with curly hair in two puffs tied with pink bows, a pink knitted cardigan over her white nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: close-up, slight handheld drift. She taps the temple with one tiny finger, then says in a calm, soft, wise little toddler voice: \"Use the real names for body parts. It helps me speak up if something's wrong.\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
+     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A chubby 2-year-old toddler girl with deep brown skin and curly hair in two puffs tied with pink bows, a pink knitted cardigan over her white nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: close-up, slight handheld drift. She taps the temple with one tiny finger, then says in a calm, soft, wise little toddler voice: \"Use the real names for body parts. It helps me speak up if something's wrong.\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
     },
     {
      "n": 6,
@@ -2538,7 +2538,7 @@
       "d22"
      ],
      "role": "chair",
-     "keyframe": "a chubby 18-month-old Black baby girl with a soft afro and a white headband, a lemon-yellow romper, wearing a white shirt collar and a tiny navy tie over the nappy, and small round wire reading glasses, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
+     "keyframe": "a chubby 18-month-old baby girl with deep brown skin and a soft afro and a white headband, a lemon-yellow romper, wearing a white shirt collar and a tiny navy tie over the nappy, and small round wire reading glasses, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
      "action": "folds chubby arms and nods gravely",
      "camera": "slow push-in from a medium shot",
      "lines": [
@@ -2549,7 +2549,7 @@
       }
      ],
      "sfx": "quiet room tone",
-     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A chubby 18-month-old Black baby girl with a soft afro and a white headband, a lemon-yellow romper, wearing a white shirt collar and a tiny navy tie over the nappy, and small round wire reading glasses, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: slow push-in from a medium shot. She folds chubby arms and nods gravely, then says in a serious, deadpan little toddler voice: \"This meeting is in session. Today: one simple request that changes everything.\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
+     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A chubby 18-month-old baby girl with deep brown skin and a soft afro and a white headband, a lemon-yellow romper, wearing a white shirt collar and a tiny navy tie over the nappy, and small round wire reading glasses, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: slow push-in from a medium shot. She folds chubby arms and nods gravely, then says in a serious, deadpan little toddler voice: \"This meeting is in session. Today: one simple request that changes everything.\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
     },
     {
      "n": 2,
@@ -2559,7 +2559,7 @@
       "d25"
      ],
      "role": "ada",
-     "keyframe": "a 2-year-old Middle Eastern toddler boy with thick black hair and long eyelashes, a cosy brown jumper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
+     "keyframe": "a 2-year-old toddler boy with olive skin, thick black hair and long eyelashes, a cosy brown jumper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
      "action": "places both hands on the table and speaks very sincerely",
      "camera": "slow push-in on the face",
      "lines": [
@@ -2570,7 +2570,7 @@
       }
      ],
      "sfx": "quiet room tone",
-     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A 2-year-old Middle Eastern toddler boy with thick black hair and long eyelashes, a cosy brown jumper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: slow push-in on the face. He places both hands on the table and speaks very sincerely, then says in a calm, soft, wise little toddler voice: \"Ten minutes a day, just you and me, no phone. That's my whole wish.\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
+     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A 2-year-old toddler boy with olive skin, thick black hair and long eyelashes, a cosy brown jumper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: slow push-in on the face. He places both hands on the table and speaks very sincerely, then says in a calm, soft, wise little toddler voice: \"Ten minutes a day, just you and me, no phone. That's my whole wish.\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
     },
     {
      "n": 3,
@@ -2601,7 +2601,7 @@
       "d06"
      ],
      "role": "zuri",
-     "keyframe": "a 2-year-old South Asian toddler girl with a short black bob and tiny gold-coloured hair clips, a lilac romper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
+     "keyframe": "a 2-year-old toddler girl with light brown skin, a short black bob and tiny gold-coloured hair clips, a lilac romper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
      "action": "raises one eyebrow and purses the lips",
      "camera": "close-up, slight handheld drift",
      "lines": [
@@ -2612,7 +2612,7 @@
       }
      ],
      "sfx": "quiet room tone",
-     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A 2-year-old South Asian toddler girl with a short black bob and tiny gold-coloured hair clips, a lilac romper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: close-up, slight handheld drift. She raises one eyebrow and purses the lips, then says in a sassy, confident little toddler voice: \"Put it in your calendar, darling. Between the emails. I'll wait.\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
+     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A 2-year-old toddler girl with light brown skin, a short black bob and tiny gold-coloured hair clips, a lilac romper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: close-up, slight handheld drift. She raises one eyebrow and purses the lips, then says in a sassy, confident little toddler voice: \"Put it in your calendar, darling. Between the emails. I'll wait.\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
     },
     {
      "n": 5,
@@ -2622,7 +2622,7 @@
       "d09"
      ],
      "role": "ada",
-     "keyframe": "a 2-year-old Latino toddler boy with thick wavy brown hair, a tiny denim jacket over a white nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
+     "keyframe": "a 2-year-old toddler boy with tan skin and thick wavy brown hair, a tiny denim jacket over a white nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
      "action": "steeples little fingers thoughtfully",
      "camera": "static medium close-up",
      "lines": [
@@ -2633,7 +2633,7 @@
       }
      ],
      "sfx": "quiet room tone",
-     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A 2-year-old Latino toddler boy with thick wavy brown hair, a tiny denim jacket over a white nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: static medium close-up. He steeples little fingers thoughtfully, then says in a calm, soft, wise little toddler voice: \"When you're fully with me, I feel it. Even if it's only a few minutes.\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
+     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A 2-year-old toddler boy with tan skin and thick wavy brown hair, a tiny denim jacket over a white nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: static medium close-up. He steeples little fingers thoughtfully, then says in a calm, soft, wise little toddler voice: \"When you're fully with me, I feel it. Even if it's only a few minutes.\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
     },
     {
      "n": 6,
@@ -2643,7 +2643,7 @@
       "d12"
      ],
      "role": "rocco",
-     "keyframe": "a 18-month-old East Asian baby girl with a tiny top-knot, a mint-green dungaree romper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
+     "keyframe": "an 18-month-old baby girl with light skin, dark eyes and a tiny top-knot, a mint-green dungaree romper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
      "action": "flops across the table, then sits bolt upright",
      "camera": "slow push-in on the face",
      "lines": [
@@ -2654,7 +2654,7 @@
       }
      ],
      "sfx": "quiet room tone",
-     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A 18-month-old East Asian baby girl with a tiny top-knot, a mint-green dungaree romper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: slow push-in on the face. She flops across the table, then sits bolt upright, then says in a loud, dramatic, theatrical little toddler voice: \"Take me on a date! The park! The swings! Just us! No sister!\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
+     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. An 18-month-old baby girl with light skin, dark eyes and a tiny top-knot, a mint-green dungaree romper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: slow push-in on the face. She flops across the table, then sits bolt upright, then says in a loud, dramatic, theatrical little toddler voice: \"Take me on a date! The park! The swings! Just us! No sister!\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
     },
     {
      "n": 7,
@@ -2664,7 +2664,7 @@
       "d15"
      ],
      "role": "zuri",
-     "keyframe": "a 2-year-old South Asian toddler boy with a side parting, a tiny checked shirt over his nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
+     "keyframe": "a 2-year-old toddler boy with warm brown skin and a side parting, a tiny checked shirt over his nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
      "action": "leans back in a little chair, completely unimpressed",
      "camera": "medium shot, gentle handheld drift",
      "lines": [
@@ -2675,7 +2675,7 @@
       }
      ],
      "sfx": "quiet room tone",
-     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A 2-year-old South Asian toddler boy with a side parting, a tiny checked shirt over his nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: medium shot, gentle handheld drift. He leans back in a little chair, completely unimpressed, then says in a sassy, confident little toddler voice: \"Laugh with me. Silly voices, terrible dancing. Best ten minutes of my day.\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
+     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A 2-year-old toddler boy with warm brown skin and a side parting, a tiny checked shirt over his nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: medium shot, gentle handheld drift. He leans back in a little chair, completely unimpressed, then says in a sassy, confident little toddler voice: \"Laugh with me. Silly voices, terrible dancing. Best ten minutes of my day.\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
     },
     {
      "n": 8,
@@ -2686,7 +2686,7 @@
       "bean"
      ],
      "role": "closer",
-     "keyframe": "a 2-year-old Latina toddler girl with two braids, a tiny pearl-style toy necklace, a navy dress, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
+     "keyframe": "a 2-year-old toddler girl with tan skin and two braids, a tiny pearl-style toy necklace, a navy dress, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
      "action": "looks straight into the lens with big sincere eyes; the newborn lets out a tiny loud burp after the last word",
      "camera": "slow push-in to a medium close-up",
      "lines": [
@@ -2697,7 +2697,7 @@
       }
      ],
      "sfx": "newborn out a tiny loud burp",
-     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A 2-year-old Latina toddler girl with two braids, a tiny pearl-style toy necklace, a navy dress, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: slow push-in to a medium close-up. She looks straight into the lens with big sincere eyes, then says in a soft, sincere little toddler voice: \"Small daily moments beat big expensive days. Motion carried.\" Beside the table, a tiny newborn baby swaddled in a cream blanket, lying in a wicker bassinet, lets out a tiny loud burp right after the last word, and the speaker glances at the newborn, then back at the camera. Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
+     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A 2-year-old toddler girl with tan skin and two braids, a tiny pearl-style toy necklace, a navy dress, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: slow push-in to a medium close-up. She looks straight into the lens with big sincere eyes, then says in a soft, sincere little toddler voice: \"Small daily moments beat big expensive days. Motion carried.\" Beside the table, a tiny newborn baby swaddled in a cream blanket, lying in a wicker bassinet, lets out a tiny loud burp right after the last word, and the speaker glances at the newborn, then back at the camera. Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
     }
    ],
    "loop_note": "the closing line and the newborn's gag end the meeting; tomorrow a new delegation takes the seats"
@@ -2752,7 +2752,7 @@
       "d07"
      ],
      "role": "zuri",
-     "keyframe": "a chubby 18-month-old Black baby boy with a short neat afro, a tiny pinstripe waistcoat over his nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
+     "keyframe": "a chubby 18-month-old baby boy with dark brown skin and a short neat afro, a tiny pinstripe waistcoat over his nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
      "action": "sips from a sippy cup like an espresso, then gives the camera a slow side-eye",
      "camera": "medium shot, gentle handheld drift",
      "lines": [
@@ -2763,7 +2763,7 @@
       }
      ],
      "sfx": "quiet room tone",
-     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A chubby 18-month-old Black baby boy with a short neat afro, a tiny pinstripe waistcoat over his nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: medium shot, gentle handheld drift. He sips from a sippy cup like an espresso, then gives the camera a slow side-eye, then says in a sassy, confident little toddler voice: \"Love me on my worst days too. Those are the days I need it most.\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
+     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A chubby 18-month-old baby boy with dark brown skin and a short neat afro, a tiny pinstripe waistcoat over his nappy, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: medium shot, gentle handheld drift. He sips from a sippy cup like an espresso, then gives the camera a slow side-eye, then says in a sassy, confident little toddler voice: \"Love me on my worst days too. Those are the days I need it most.\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
     },
     {
      "n": 3,
@@ -2773,7 +2773,7 @@
       "d10"
      ],
      "role": "ada",
-     "keyframe": "a chubby 2-year-old Middle Eastern toddler girl with long dark curls, a cream knitted jumper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
+     "keyframe": "a chubby 2-year-old toddler girl with olive skin and long dark curls, a cream knitted jumper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
      "action": "taps the temple with one tiny finger",
      "camera": "close-up, slight handheld drift",
      "lines": [
@@ -2784,7 +2784,7 @@
       }
      ],
      "sfx": "quiet room tone",
-     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A chubby 2-year-old Middle Eastern toddler girl with long dark curls, a cream knitted jumper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: close-up, slight handheld drift. She taps the temple with one tiny finger, then says in a calm, soft, wise little toddler voice: \"Even when you're cross about what I did, show me you still love who I am.\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
+     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A chubby 2-year-old toddler girl with olive skin and long dark curls, a cream knitted jumper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: close-up, slight handheld drift. She taps the temple with one tiny finger, then says in a calm, soft, wise little toddler voice: \"Even when you're cross about what I did, show me you still love who I am.\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
     },
     {
      "n": 4,
@@ -2857,7 +2857,7 @@
       "d22"
      ],
      "role": "rocco",
-     "keyframe": "a chubby 18-month-old Black baby girl with a soft afro and a white headband, a lemon-yellow romper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
+     "keyframe": "a chubby 18-month-old baby girl with deep brown skin and a soft afro and a white headband, a lemon-yellow romper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
      "action": "throws both arms in the air",
      "camera": "close-up, slight handheld drift",
      "lines": [
@@ -2868,7 +2868,7 @@
       }
      ],
      "sfx": "quiet room tone",
-     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A chubby 18-month-old Black baby girl with a soft afro and a white headband, a lemon-yellow romper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: close-up, slight handheld drift. She throws both arms in the air, then says in a loud, dramatic, theatrical little toddler voice: \"When I'm grown and grumpy, remember this! Remember me in my cape!\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
+     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A chubby 18-month-old baby girl with deep brown skin and a soft afro and a white headband, a lemon-yellow romper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: close-up, slight handheld drift. She throws both arms in the air, then says in a loud, dramatic, theatrical little toddler voice: \"When I'm grown and grumpy, remember this! Remember me in my cape!\" Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
     },
     {
      "n": 8,
@@ -2879,7 +2879,7 @@
       "bean"
      ],
      "role": "closer",
-     "keyframe": "a 2-year-old Middle Eastern toddler boy with thick black hair and long eyelashes, a cosy brown jumper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
+     "keyframe": "a 2-year-old toddler boy with olive skin, thick black hair and long eyelashes, a cosy brown jumper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs",
      "action": "leans forward with a small warm smile; the newborn hiccups once, loudly after the last word",
      "camera": "slow push-in to a medium close-up",
      "lines": [
@@ -2890,7 +2890,7 @@
       }
      ],
      "sfx": "newborn once, loudly",
-     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A 2-year-old Middle Eastern toddler boy with thick black hair and long eyelashes, a cosy brown jumper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: slow push-in to a medium close-up. He leans forward with a small warm smile, then says in a soft, sincere little toddler voice: \"That's all, Mum and Dad. You're doing better than you think. Meeting adjourned.\" Beside the table, a tiny newborn baby swaddled in a cream blanket, lying in a wicker bassinet, hiccups once, loudly right after the last word, and the speaker glances at the newborn, then back at the camera. Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
+     "flow_prompt": "Vertical 9:16, hyper-realistic cinematic photo style, shallow depth of field, soft warm window light, natural baby skin texture, warm cinematic colour grade. A 2-year-old toddler boy with olive skin, thick black hair and long eyelashes, a cosy brown jumper, seated at a miniature boardroom table made of wooden building blocks, in a sunlit nursery set up like a grand executive office, tall window softly blurred behind, no name plates, no signs. Camera: slow push-in to a medium close-up. He leans forward with a small warm smile, then says in a soft, sincere little toddler voice: \"That's all, Mum and Dad. You're doing better than you think. Meeting adjourned.\" Beside the table, a tiny newborn baby swaddled in a cream blanket, lying in a wicker bassinet, hiccups once, loudly right after the last word, and the speaker glances at the newborn, then back at the camera. Ambient: quiet room tone, soft clock tick. No music. No subtitles, no captions, no text or writing anywhere in the frame."
     }
    ],
    "loop_note": "the closing line and the newborn's gag end the meeting; tomorrow a new delegation takes the seats"

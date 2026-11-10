@@ -56,33 +56,34 @@ LOCATIONS = {
 }
 
 # ---------------------------------------------------------------- elders (recurring cast)
-# id: (age, he/she, look, location, accent)
+# id: (age, he/she, look, location, voice)
 ELDERS = {
-    "e01": (84, "he", "an 84-year-old white British farmer, flat cap, tweed jacket, grey stubble, deep laugh lines", "farm_fence", "a gentle Yorkshire accent"),
-    "e02": (79, "she", "a 79-year-old Nigerian grandmother, colourful ankara headwrap and matching dress, warm round face", "veranda", "a warm Nigerian accent"),
-    "e03": (88, "he", "an 88-year-old Black American man, neat silver beard, brown cardigan, reading glasses on a chain", "porch", "a slow Southern American drawl"),
-    "e04": (91, "she", "a 91-year-old Irish woman, short white curls, floral blouse, gardening gloves", "garden", "a soft Irish accent"),
-    "e05": (82, "he", "an 82-year-old Indian man, white kurta, thin wire glasses, grey moustache", "city_balcony", "a gentle Indian accent"),
-    "e06": (86, "she", "an 86-year-old Jamaican woman, silver locs tied up, bright yellow blouse, gold hoop earrings", "kitchen", "a warm Jamaican accent"),
-    "e07": (77, "he", "a 77-year-old Scottish fisherman, full white beard, cream wool fisherman's jumper", "fishing_dock", "a Scottish accent"),
-    "e08": (93, "she", "a 93-year-old Japanese woman, silver hair in a neat bun, simple grey cardigan", "tea_house", "soft Japanese-accented English"),
-    "e09": (80, "he", "an 80-year-old Italian craftsman, white hair swept back, waistcoat, rolled-up shirt sleeves", "workshop", "an Italian accent"),
-    "e10": (85, "she", "an 85-year-old white American woman, silver bob, denim shirt, turquoise necklace", "diner", "a Midwestern American accent"),
-    "e11": (89, "he", "an 89-year-old Ghanaian man, short white hair, smock with kente trim", "market", "a Ghanaian accent"),
-    "e12": (78, "she", "a 78-year-old Chinese woman, short grey hair, jade bracelet, quilted jacket", "park_bench", "gentle Chinese-accented English"),
-    "e13": (83, "he", "an 83-year-old Welsh man, bald with white hair at the sides, knitted cardigan", "allotment", "a Welsh accent"),
-    "e14": (90, "she", "a 90-year-old Indian woman, cream saree, long silver braid", "living_room", "an Indian accent"),
-    "e15": (81, "he", "an 81-year-old Mexican man, straw hat, white moustache, checked shirt", "beach", "a Mexican accent"),
-    "e16": (87, "she", "an 87-year-old elegant English woman, pearl necklace, navy cardigan, silver hair set in waves", "piano_room", "a refined English accent"),
-    "e17": (92, "he", "a 92-year-old Black British Caribbean gentleman, trilby hat, smart grey suit jacket", "barbershop", "a London Caribbean accent"),
-    "e18": (76, "she", "a 76-year-old Polish woman, patterned headscarf, knitted shawl", "window_rain", "a Polish accent"),
-    "e19": (84, "he", "an 84-year-old Greek man, white curly hair, white linen shirt, worry beads in hand", "harbour", "a Greek accent"),
-    "e20": (80, "she", "an 80-year-old Filipino woman, short black-and-grey hair, floral dress", "veranda", "a Filipino accent"),
-    "e21": (95, "he", "a 95-year-old thin white English gentleman, tweed waistcoat, pocket watch chain", "library", "a soft upper-class English accent"),
-    "e22": (82, "she", "an 82-year-old Kenyan woman, short grey afro, beaded necklace, knitted shawl", "garden", "a Kenyan accent"),
-    "e23": (86, "he", "an 86-year-old Pakistani man, neat white beard, grey waistcoat over a shalwar kameez", "city_balcony", "a Pakistani accent"),
-    "e24": (79, "she", "a 79-year-old African American woman, silver twist-out hair, silk scarf", "porch", "a warm Southern American accent"),
-    "e25": (88, "he", "an 88-year-old Irish man, tweed flat cap, worn wool coat", "window_rain", "an Irish accent"),
+    # No nationalities, no accents, no national dress: a diverse cast described only by what you can see.
+    "e01": (84, "he", "an 84-year-old man with fair, weathered skin, a flat cap, tweed jacket, grey stubble and deep laugh lines", "farm_fence", "a warm, slightly gravelly voice"),
+    "e02": (79, "she", "a 79-year-old woman with deep brown skin, short silver hair, a soft lilac cardigan and a warm round face", "veranda", "a warm, gentle voice"),
+    "e03": (88, "he", "an 88-year-old man with dark brown skin, a neat silver beard, a brown cardigan and reading glasses on a chain", "porch", "a slow, deep, calm voice"),
+    "e04": (91, "she", "a 91-year-old woman with pale skin, short white curls, a floral blouse and gardening gloves", "garden", "a soft, bright voice"),
+    "e05": (82, "he", "an 82-year-old man with light brown skin, thin wire glasses, a grey moustache and a white linen shirt", "city_balcony", "a gentle, thoughtful voice"),
+    "e06": (86, "she", "an 86-year-old woman with dark skin, silver locs tied up, a bright yellow blouse and small gold earrings", "kitchen", "a warm, rich voice"),
+    "e07": (77, "he", "a 77-year-old man with a full white beard, ruddy cheeks and a cream wool jumper", "fishing_dock", "a deep, steady voice"),
+    "e08": (93, "she", "a 93-year-old woman with silver hair in a neat bun, gentle eyes and a simple grey cardigan", "tea_house", "a soft, quiet voice"),
+    "e09": (80, "he", "an 80-year-old man with olive skin, white hair swept back, a waistcoat and rolled-up shirt sleeves", "workshop", "a lively, expressive voice"),
+    "e10": (85, "she", "an 85-year-old woman with a silver bob, a denim shirt and a turquoise necklace", "diner", "a friendly, clear voice"),
+    "e11": (89, "he", "an 89-year-old man with very dark skin, short white hair, a crisp blue shirt and a gentle smile", "market", "a deep, warm voice"),
+    "e12": (78, "she", "a 78-year-old woman with short grey hair, a jade bracelet and a quilted jacket", "park_bench", "a gentle, clear voice"),
+    "e13": (83, "he", "an 83-year-old man, bald with white hair at the sides, in a knitted cardigan", "allotment", "a cheerful, musical voice"),
+    "e14": (90, "she", "a 90-year-old woman with warm brown skin, a long silver braid and a cream shawl", "living_room", "a calm, soothing voice"),
+    "e15": (81, "he", "an 81-year-old man with tanned skin, a straw hat, a white moustache and a checked shirt", "beach", "a warm, relaxed voice"),
+    "e16": (87, "she", "an 87-year-old elegant woman with a pearl necklace, a navy cardigan and silver hair set in waves", "piano_room", "a refined, gentle voice"),
+    "e17": (92, "he", "a 92-year-old man with deep brown skin, a trilby hat and a smart grey suit jacket", "barbershop", "a smooth, deep voice"),
+    "e18": (76, "she", "a 76-year-old woman with rosy cheeks, a patterned headscarf and a knitted shawl", "window_rain", "a soft, kind voice"),
+    "e19": (84, "he", "an 84-year-old man with olive skin, curly white hair and a white linen shirt", "harbour", "a warm, unhurried voice"),
+    "e20": (80, "she", "an 80-year-old woman with light brown skin, short black-and-grey hair and a floral dress", "veranda", "a bright, warm voice"),
+    "e21": (95, "he", "a 95-year-old thin man with pale skin, a tweed waistcoat and a pocket watch chain", "library", "a quiet, measured voice"),
+    "e22": (82, "she", "an 82-year-old woman with dark skin, a short grey afro, a beaded necklace and a knitted shawl", "garden", "a warm, steady voice"),
+    "e23": (86, "he", "an 86-year-old man with brown skin, a neat white beard and a grey waistcoat over a long cream shirt", "city_balcony", "a calm, gentle voice"),
+    "e24": (79, "she", "a 79-year-old woman with dark brown skin, silver twist-out hair and a silk scarf", "porch", "a warm, soulful voice"),
+    "e25": (88, "he", "an 88-year-old man with fair skin, a tweed flat cap and a worn wool coat", "window_rain", "a gentle, slightly husky voice"),
 }
 ORDER = sorted(ELDERS)
 
@@ -463,12 +464,12 @@ def pick_elders(i):
 
 
 def flow_prompt(eid, k, line):
-    age, pron, look, loc, accent = ELDERS[eid]
+    age, pron, look, loc, voice = ELDERS[eid]
     place, ambience = LOCATIONS[loc]
     tone, gesture = DELIVERY[k]
     Pron = pron.capitalize()
     return (f"{STYLE}. {look[0].upper() + look[1:]}. Setting: {place}. {Pron} {gesture}. Camera: {CAMERA[k]}. "
-            f"{Pron} speaks {tone}, in {accent}, saying: \"{line}\" "
+            f"{Pron} speaks {tone}, in {voice}, saying: \"{line}\" "
             f"Ambient sound: {ambience}. {AUDIO_TAIL}")
 
 
@@ -480,7 +481,7 @@ def build():
         lines = lines[:4] + EXTRA[i] + lines[4:]     # hook, 6 lessons, closer
         shots = []
         for k, (eid, line) in enumerate(zip(cast, lines)):
-            age, pron, look, loc, accent = ELDERS[eid]
+            age, pron, look, loc, voice = ELDERS[eid]
             line = line.replace("{age}", age_words(age).capitalize() if line.startswith("{age}") else age_words(age))
             tone, gesture = DELIVERY[POS[k]]
             shots.append({
@@ -519,8 +520,8 @@ def bible():
         "audio_prompt": AUDIO_TAIL,
         "negative_prompt": "text, subtitles, watermarks added by us, logos, celebrities, real identifiable people, uniforms of real organisations",
         "characters": {eid: {"name": f"Elder {eid[1:]}", "age": a, "ref_prompt": look, "home_location": loc,
-                             "voice": accent, "tts_voice_id": ""}
-                       for eid, (a, p, look, loc, accent) in ELDERS.items()},
+                             "voice": voice, "tts_voice_id": ""}
+                       for eid, (a, p, look, loc, voice) in ELDERS.items()},
         "locations": {k: v[0] for k, v in LOCATIONS.items()},
         "themes": ["money", "love", "regret", "work", "health", "friendship", "family", "kindness", "peace", "people", "aging", "meaning"],
         "content_rules": [
@@ -529,6 +530,7 @@ def bible():
             "Line 1 always states the elder's age and promises the theme. Lines 2-7 are six lessons. Line 8 is the emotional closer.",
             "Each line <= 18 words so Veo can say it naturally in 8 s.",
             "No famous quotes attributed to anyone; write original lines.",
+            "Diverse cast described only visually (skin tone, hair, clothes). Never name nationalities or ethnicities, never ask for accents or national dress: TikTok's automated hate-speech filters read AI people performing accents as stereotyping.",
         ],
         "music_moods": ["soft piano", "warm acoustic guitar", "gentle strings", "ambient pads"],
         "made_for_kids": False,

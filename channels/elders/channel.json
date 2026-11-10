@@ -18,201 +18,201 @@
     "e01": {
       "name": "Elder 01",
       "age": 84,
-      "ref_prompt": "an 84-year-old white British farmer, flat cap, tweed jacket, grey stubble, deep laugh lines",
+      "ref_prompt": "an 84-year-old man with fair, weathered skin, a flat cap, tweed jacket, grey stubble and deep laugh lines",
       "home_location": "farm_fence",
-      "voice": "a gentle Yorkshire accent",
+      "voice": "a warm, slightly gravelly voice",
       "tts_voice_id": ""
     },
     "e02": {
       "name": "Elder 02",
       "age": 79,
-      "ref_prompt": "a 79-year-old Nigerian grandmother, colourful ankara headwrap and matching dress, warm round face",
+      "ref_prompt": "a 79-year-old woman with deep brown skin, short silver hair, a soft lilac cardigan and a warm round face",
       "home_location": "veranda",
-      "voice": "a warm Nigerian accent",
+      "voice": "a warm, gentle voice",
       "tts_voice_id": ""
     },
     "e03": {
       "name": "Elder 03",
       "age": 88,
-      "ref_prompt": "an 88-year-old Black American man, neat silver beard, brown cardigan, reading glasses on a chain",
+      "ref_prompt": "an 88-year-old man with dark brown skin, a neat silver beard, a brown cardigan and reading glasses on a chain",
       "home_location": "porch",
-      "voice": "a slow Southern American drawl",
+      "voice": "a slow, deep, calm voice",
       "tts_voice_id": ""
     },
     "e04": {
       "name": "Elder 04",
       "age": 91,
-      "ref_prompt": "a 91-year-old Irish woman, short white curls, floral blouse, gardening gloves",
+      "ref_prompt": "a 91-year-old woman with pale skin, short white curls, a floral blouse and gardening gloves",
       "home_location": "garden",
-      "voice": "a soft Irish accent",
+      "voice": "a soft, bright voice",
       "tts_voice_id": ""
     },
     "e05": {
       "name": "Elder 05",
       "age": 82,
-      "ref_prompt": "an 82-year-old Indian man, white kurta, thin wire glasses, grey moustache",
+      "ref_prompt": "an 82-year-old man with light brown skin, thin wire glasses, a grey moustache and a white linen shirt",
       "home_location": "city_balcony",
-      "voice": "a gentle Indian accent",
+      "voice": "a gentle, thoughtful voice",
       "tts_voice_id": ""
     },
     "e06": {
       "name": "Elder 06",
       "age": 86,
-      "ref_prompt": "an 86-year-old Jamaican woman, silver locs tied up, bright yellow blouse, gold hoop earrings",
+      "ref_prompt": "an 86-year-old woman with dark skin, silver locs tied up, a bright yellow blouse and small gold earrings",
       "home_location": "kitchen",
-      "voice": "a warm Jamaican accent",
+      "voice": "a warm, rich voice",
       "tts_voice_id": ""
     },
     "e07": {
       "name": "Elder 07",
       "age": 77,
-      "ref_prompt": "a 77-year-old Scottish fisherman, full white beard, cream wool fisherman's jumper",
+      "ref_prompt": "a 77-year-old man with a full white beard, ruddy cheeks and a cream wool jumper",
       "home_location": "fishing_dock",
-      "voice": "a Scottish accent",
+      "voice": "a deep, steady voice",
       "tts_voice_id": ""
     },
     "e08": {
       "name": "Elder 08",
       "age": 93,
-      "ref_prompt": "a 93-year-old Japanese woman, silver hair in a neat bun, simple grey cardigan",
+      "ref_prompt": "a 93-year-old woman with silver hair in a neat bun, gentle eyes and a simple grey cardigan",
       "home_location": "tea_house",
-      "voice": "soft Japanese-accented English",
+      "voice": "a soft, quiet voice",
       "tts_voice_id": ""
     },
     "e09": {
       "name": "Elder 09",
       "age": 80,
-      "ref_prompt": "an 80-year-old Italian craftsman, white hair swept back, waistcoat, rolled-up shirt sleeves",
+      "ref_prompt": "an 80-year-old man with olive skin, white hair swept back, a waistcoat and rolled-up shirt sleeves",
       "home_location": "workshop",
-      "voice": "an Italian accent",
+      "voice": "a lively, expressive voice",
       "tts_voice_id": ""
     },
     "e10": {
       "name": "Elder 10",
       "age": 85,
-      "ref_prompt": "an 85-year-old white American woman, silver bob, denim shirt, turquoise necklace",
+      "ref_prompt": "an 85-year-old woman with a silver bob, a denim shirt and a turquoise necklace",
       "home_location": "diner",
-      "voice": "a Midwestern American accent",
+      "voice": "a friendly, clear voice",
       "tts_voice_id": ""
     },
     "e11": {
       "name": "Elder 11",
       "age": 89,
-      "ref_prompt": "an 89-year-old Ghanaian man, short white hair, smock with kente trim",
+      "ref_prompt": "an 89-year-old man with very dark skin, short white hair, a crisp blue shirt and a gentle smile",
       "home_location": "market",
-      "voice": "a Ghanaian accent",
+      "voice": "a deep, warm voice",
       "tts_voice_id": ""
     },
     "e12": {
       "name": "Elder 12",
       "age": 78,
-      "ref_prompt": "a 78-year-old Chinese woman, short grey hair, jade bracelet, quilted jacket",
+      "ref_prompt": "a 78-year-old woman with short grey hair, a jade bracelet and a quilted jacket",
       "home_location": "park_bench",
-      "voice": "gentle Chinese-accented English",
+      "voice": "a gentle, clear voice",
       "tts_voice_id": ""
     },
     "e13": {
       "name": "Elder 13",
       "age": 83,
-      "ref_prompt": "an 83-year-old Welsh man, bald with white hair at the sides, knitted cardigan",
+      "ref_prompt": "an 83-year-old man, bald with white hair at the sides, in a knitted cardigan",
       "home_location": "allotment",
-      "voice": "a Welsh accent",
+      "voice": "a cheerful, musical voice",
       "tts_voice_id": ""
     },
     "e14": {
       "name": "Elder 14",
       "age": 90,
-      "ref_prompt": "a 90-year-old Indian woman, cream saree, long silver braid",
+      "ref_prompt": "a 90-year-old woman with warm brown skin, a long silver braid and a cream shawl",
       "home_location": "living_room",
-      "voice": "an Indian accent",
+      "voice": "a calm, soothing voice",
       "tts_voice_id": ""
     },
     "e15": {
       "name": "Elder 15",
       "age": 81,
-      "ref_prompt": "an 81-year-old Mexican man, straw hat, white moustache, checked shirt",
+      "ref_prompt": "an 81-year-old man with tanned skin, a straw hat, a white moustache and a checked shirt",
       "home_location": "beach",
-      "voice": "a Mexican accent",
+      "voice": "a warm, relaxed voice",
       "tts_voice_id": ""
     },
     "e16": {
       "name": "Elder 16",
       "age": 87,
-      "ref_prompt": "an 87-year-old elegant English woman, pearl necklace, navy cardigan, silver hair set in waves",
+      "ref_prompt": "an 87-year-old elegant woman with a pearl necklace, a navy cardigan and silver hair set in waves",
       "home_location": "piano_room",
-      "voice": "a refined English accent",
+      "voice": "a refined, gentle voice",
       "tts_voice_id": ""
     },
     "e17": {
       "name": "Elder 17",
       "age": 92,
-      "ref_prompt": "a 92-year-old Black British Caribbean gentleman, trilby hat, smart grey suit jacket",
+      "ref_prompt": "a 92-year-old man with deep brown skin, a trilby hat and a smart grey suit jacket",
       "home_location": "barbershop",
-      "voice": "a London Caribbean accent",
+      "voice": "a smooth, deep voice",
       "tts_voice_id": ""
     },
     "e18": {
       "name": "Elder 18",
       "age": 76,
-      "ref_prompt": "a 76-year-old Polish woman, patterned headscarf, knitted shawl",
+      "ref_prompt": "a 76-year-old woman with rosy cheeks, a patterned headscarf and a knitted shawl",
       "home_location": "window_rain",
-      "voice": "a Polish accent",
+      "voice": "a soft, kind voice",
       "tts_voice_id": ""
     },
     "e19": {
       "name": "Elder 19",
       "age": 84,
-      "ref_prompt": "an 84-year-old Greek man, white curly hair, white linen shirt, worry beads in hand",
+      "ref_prompt": "an 84-year-old man with olive skin, curly white hair and a white linen shirt",
       "home_location": "harbour",
-      "voice": "a Greek accent",
+      "voice": "a warm, unhurried voice",
       "tts_voice_id": ""
     },
     "e20": {
       "name": "Elder 20",
       "age": 80,
-      "ref_prompt": "an 80-year-old Filipino woman, short black-and-grey hair, floral dress",
+      "ref_prompt": "an 80-year-old woman with light brown skin, short black-and-grey hair and a floral dress",
       "home_location": "veranda",
-      "voice": "a Filipino accent",
+      "voice": "a bright, warm voice",
       "tts_voice_id": ""
     },
     "e21": {
       "name": "Elder 21",
       "age": 95,
-      "ref_prompt": "a 95-year-old thin white English gentleman, tweed waistcoat, pocket watch chain",
+      "ref_prompt": "a 95-year-old thin man with pale skin, a tweed waistcoat and a pocket watch chain",
       "home_location": "library",
-      "voice": "a soft upper-class English accent",
+      "voice": "a quiet, measured voice",
       "tts_voice_id": ""
     },
     "e22": {
       "name": "Elder 22",
       "age": 82,
-      "ref_prompt": "an 82-year-old Kenyan woman, short grey afro, beaded necklace, knitted shawl",
+      "ref_prompt": "an 82-year-old woman with dark skin, a short grey afro, a beaded necklace and a knitted shawl",
       "home_location": "garden",
-      "voice": "a Kenyan accent",
+      "voice": "a warm, steady voice",
       "tts_voice_id": ""
     },
     "e23": {
       "name": "Elder 23",
       "age": 86,
-      "ref_prompt": "an 86-year-old Pakistani man, neat white beard, grey waistcoat over a shalwar kameez",
+      "ref_prompt": "an 86-year-old man with brown skin, a neat white beard and a grey waistcoat over a long cream shirt",
       "home_location": "city_balcony",
-      "voice": "a Pakistani accent",
+      "voice": "a calm, gentle voice",
       "tts_voice_id": ""
     },
     "e24": {
       "name": "Elder 24",
       "age": 79,
-      "ref_prompt": "a 79-year-old African American woman, silver twist-out hair, silk scarf",
+      "ref_prompt": "a 79-year-old woman with dark brown skin, silver twist-out hair and a silk scarf",
       "home_location": "porch",
-      "voice": "a warm Southern American accent",
+      "voice": "a warm, soulful voice",
       "tts_voice_id": ""
     },
     "e25": {
       "name": "Elder 25",
       "age": 88,
-      "ref_prompt": "an 88-year-old Irish man, tweed flat cap, worn wool coat",
+      "ref_prompt": "an 88-year-old man with fair skin, a tweed flat cap and a worn wool coat",
       "home_location": "window_rain",
-      "voice": "an Irish accent",
+      "voice": "a gentle, slightly husky voice",
       "tts_voice_id": ""
     }
   },
@@ -257,7 +257,8 @@
     "Universal life lessons only. No specific investments, products, medical treatments, legal advice or politics.",
     "Line 1 always states the elder's age and promises the theme. Lines 2-7 are six lessons. Line 8 is the emotional closer.",
     "Each line <= 18 words so Veo can say it naturally in 8 s.",
-    "No famous quotes attributed to anyone; write original lines."
+    "No famous quotes attributed to anyone; write original lines.",
+    "Diverse cast described only visually (skin tone, hair, clothes). Never name nationalities or ethnicities, never ask for accents or national dress: TikTok's automated hate-speech filters read AI people performing accents as stereotyping."
   ],
   "music_moods": [
     "soft piano",

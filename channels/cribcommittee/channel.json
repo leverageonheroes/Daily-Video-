@@ -18,14 +18,14 @@
   "characters": {
     "d01": {
       "name": "Delegate 01",
-      "ref_prompt": "a chubby 18-month-old East Asian baby boy with short spiky black hair, in a white nappy and a tiny grey cardigan",
+      "ref_prompt": "a chubby 18-month-old baby boy with light skin, short spiky black hair and almond eyes, in a white nappy and a tiny grey cardigan",
       "pronoun": "he",
       "voice": "toddler voice set per role",
       "tts_voice_id": ""
     },
     "d02": {
       "name": "Delegate 02",
-      "ref_prompt": "a chubby 2-year-old Black toddler girl with curly hair in two puffs tied with pink bows, a pink knitted cardigan over her white nappy",
+      "ref_prompt": "a chubby 2-year-old toddler girl with deep brown skin and curly hair in two puffs tied with pink bows, a pink knitted cardigan over her white nappy",
       "pronoun": "she",
       "voice": "toddler voice set per role",
       "tts_voice_id": ""
@@ -53,14 +53,14 @@
     },
     "d06": {
       "name": "Delegate 06",
-      "ref_prompt": "a 2-year-old South Asian toddler girl with a short black bob and tiny gold-coloured hair clips, a lilac romper",
+      "ref_prompt": "a 2-year-old toddler girl with light brown skin, a short black bob and tiny gold-coloured hair clips, a lilac romper",
       "pronoun": "she",
       "voice": "toddler voice set per role",
       "tts_voice_id": ""
     },
     "d07": {
       "name": "Delegate 07",
-      "ref_prompt": "a chubby 18-month-old Black baby boy with a short neat afro, a tiny pinstripe waistcoat over his nappy",
+      "ref_prompt": "a chubby 18-month-old baby boy with dark brown skin and a short neat afro, a tiny pinstripe waistcoat over his nappy",
       "pronoun": "he",
       "voice": "toddler voice set per role",
       "tts_voice_id": ""
@@ -74,14 +74,14 @@
     },
     "d09": {
       "name": "Delegate 09",
-      "ref_prompt": "a 2-year-old Latino toddler boy with thick wavy brown hair, a tiny denim jacket over a white nappy",
+      "ref_prompt": "a 2-year-old toddler boy with tan skin and thick wavy brown hair, a tiny denim jacket over a white nappy",
       "pronoun": "he",
       "voice": "toddler voice set per role",
       "tts_voice_id": ""
     },
     "d10": {
       "name": "Delegate 10",
-      "ref_prompt": "a chubby 2-year-old Middle Eastern toddler girl with long dark curls, a cream knitted jumper",
+      "ref_prompt": "a chubby 2-year-old toddler girl with olive skin and long dark curls, a cream knitted jumper",
       "pronoun": "she",
       "voice": "toddler voice set per role",
       "tts_voice_id": ""
@@ -95,7 +95,7 @@
     },
     "d12": {
       "name": "Delegate 12",
-      "ref_prompt": "a 18-month-old East Asian baby girl with a tiny top-knot, a mint-green dungaree romper",
+      "ref_prompt": "an 18-month-old baby girl with light skin, dark eyes and a tiny top-knot, a mint-green dungaree romper",
       "pronoun": "she",
       "voice": "toddler voice set per role",
       "tts_voice_id": ""
@@ -109,14 +109,14 @@
     },
     "d14": {
       "name": "Delegate 14",
-      "ref_prompt": "a 2-year-old Black toddler girl with neat cornrows and beads, a yellow sundress",
+      "ref_prompt": "a 2-year-old toddler girl with dark brown skin and neat braids with beads, a yellow sundress",
       "pronoun": "she",
       "voice": "toddler voice set per role",
       "tts_voice_id": ""
     },
     "d15": {
       "name": "Delegate 15",
-      "ref_prompt": "a 2-year-old South Asian toddler boy with a side parting, a tiny checked shirt over his nappy",
+      "ref_prompt": "a 2-year-old toddler boy with warm brown skin and a side parting, a tiny checked shirt over his nappy",
       "pronoun": "he",
       "voice": "toddler voice set per role",
       "tts_voice_id": ""
@@ -137,7 +137,7 @@
     },
     "d18": {
       "name": "Delegate 18",
-      "ref_prompt": "a 2-year-old Latina toddler girl with two braids, a tiny pearl-style toy necklace, a navy dress",
+      "ref_prompt": "a 2-year-old toddler girl with tan skin and two braids, a tiny pearl-style toy necklace, a navy dress",
       "pronoun": "she",
       "voice": "toddler voice set per role",
       "tts_voice_id": ""
@@ -158,14 +158,14 @@
     },
     "d21": {
       "name": "Delegate 21",
-      "ref_prompt": "a 2-year-old East Asian toddler boy with a bowl haircut, a tiny navy blazer over his nappy",
+      "ref_prompt": "a 2-year-old toddler boy with light skin and a black bowl haircut, a tiny navy blazer over his nappy",
       "pronoun": "he",
       "voice": "toddler voice set per role",
       "tts_voice_id": ""
     },
     "d22": {
       "name": "Delegate 22",
-      "ref_prompt": "a chubby 18-month-old Black baby girl with a soft afro and a white headband, a lemon-yellow romper",
+      "ref_prompt": "a chubby 18-month-old baby girl with deep brown skin and a soft afro and a white headband, a lemon-yellow romper",
       "pronoun": "she",
       "voice": "toddler voice set per role",
       "tts_voice_id": ""
@@ -186,7 +186,7 @@
     },
     "d25": {
       "name": "Delegate 25",
-      "ref_prompt": "a 2-year-old Middle Eastern toddler boy with thick black hair and long eyelashes, a cosy brown jumper",
+      "ref_prompt": "a 2-year-old toddler boy with olive skin, thick black hair and long eyelashes, a cosy brown jumper",
       "pronoun": "he",
       "voice": "toddler voice set per role",
       "tts_voice_id": ""
@@ -269,7 +269,8 @@
     "Babies are always safe: seated, supervised setting, nothing a real child could copy dangerously.",
     "Never mock real parents or children; the joke is babies behaving like executives.",
     "Each line <= 18 words; the spoken line must appear exactly in flow_prompt.",
-    "No writing in frame (name plates and signs come out garbled)."
+    "No writing in frame (name plates and signs come out garbled).",
+    "Diverse cast described only visually (skin tone, hair, clothes). Never name nationalities or ethnicities, never ask for accents or national dress: TikTok's automated hate-speech filters read AI people performing accents as stereotyping."
   ],
   "music_moods": [
     "playful pizzicato",
