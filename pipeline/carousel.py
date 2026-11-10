@@ -268,6 +268,41 @@ def render(cfg, ep, imgs: list, workdir: Path) -> Path:
     return out
 
 
+def add_end_card(final: Path, bible: dict, wd: Path) -> Path:
+    """Append the channel's end card (channel.json end_card image, same as the main Shorts) to the carousel."""
+    card, sec = assemble.end_card(bible, wd)
+    if not card:
+        return final
+    tmp = wd / "final_card.mp4"
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(final), "-i", str(card), "-filter_complex",
+                    f"[0:v]fps={FPS},setsar=1[v0];[1:v]scale={W}:{H},fps={FPS},setsar=1[v1];"
+                    "[0:a]aresample=48000,aformat=channel_layouts=stereo[a0];"
+                    "[1:a]aresample=48000,aformat=channel_layouts=stereo[a1];"
+                    "[v0][a0][v1][a1]concat=n=2:v=1:a=1[v][a]", "-map", "[v]", "-map", "[a]",
+                    "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", "-pix_fmt", "yuv420p",
+                    "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", str(tmp)], check=True)
+    tmp.replace(final)
+    print(f"   end card added ({sec:.0f} s)")
+    return final
+
+
+def post_meta(ch, final: Path, meta: dict) -> dict:
+    """Facebook + Instagram Stories and Reels (feed) for the carousel too. Never blocks the YouTube upload."""
+    from . import meta as fbig
+    if not fbig.enabled(ch):
+        print(f"   (no Meta token/page IDs for {ch}: Facebook/Instagram skipped)")
+        return {}
+    try:
+        ep = {"title": meta["title"], "description": meta["description"], "shots": []}
+        res = fbig.post_stories(ch, final, ep, assemble.duration(final), {})
+    except Exception as e:
+        print(f"!! {ch}: Facebook/Instagram failed: {e}")
+        return {"errors": [str(e)[:300]]}
+    for e in res.get("errors", []):
+        print(f"!! {ch}: {e}")
+    return res
+
+
 # ---------------------------------------------------------------- publishing
 def publish_time(cfg) -> str:
     from zoneinfo import ZoneInfo
@@ -311,7 +346,7 @@ def run_channel(s, ch, upload=True):
     for j, p in enumerate(plan):
         print(f"   image {j + 1}/{len(plan)}")
         paths.append(images.generate(p["prompt"], p["seed"], wd / f"img{j + 1:02d}.jpg"))
-    final = render(cfg, ep, paths, wd)
+    final = add_end_card(render(cfg, ep, paths, wd), bible, wd)
     meta = metadata(cfg, ep, bible)
     (wd / "metadata.json").write_text(json.dumps(meta, indent=2))
     (wd / "prompts.json").write_text(json.dumps(plan, indent=2))
@@ -324,6 +359,7 @@ def run_channel(s, ch, upload=True):
         res = youtube.upload(ch, final, meta)
         rec.update(res)
         print(f"   -> https://youtu.be/{res['youtube_id']} (public at {res['publish_at']})")
+        rec["meta"] = post_meta(ch, final, meta)
     else:
         print(f"   -> {final} (upload off)")
     st["done"][ep_id] = rec

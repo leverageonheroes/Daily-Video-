@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 # Daily carousel run on Railway. Needs env: GH_TOKEN (fine-grained PAT, Contents read/write on the repo),
 # GIT_REPO (owner/name), YT_TOKEN_ELDERS, YT_TOKEN_CRIBCOMMITTEE, CF_ACCOUNT_ID, CF_API_TOKEN
+# Facebook/Instagram (optional): META_TOKEN_FACEBOOK_INSTAGRAM (or META_TOKEN), FACEBOOK_INSTAGRAM_PAGE_IDS_ELDERS,
+# FACEBOOK_INSTAGRAM_PAGE_IDS_CRIB (same values as the GitHub secrets)
 # Optional: TOGETHER_API_KEY, POLLINATIONS_TOKEN, GEMINI_API_KEY, IMAGE_PROVIDERS, CAROUSEL_CHANNELS, YT_UPLOAD=0
 set -uo pipefail
 : "${GH_TOKEN:?set GH_TOKEN}" "${GIT_REPO:?set GIT_REPO (owner/name)}"

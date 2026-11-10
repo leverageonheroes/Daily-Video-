@@ -23,6 +23,7 @@ GRAPH = f"https://graph.facebook.com/{VERSION}"
 RUPLOAD = "https://rupload.facebook.com"
 MAX_STORY_SECONDS = 59.5
 MAX_FB_REEL_SECONDS = 90
+AI_DISCLOSURE = "Made with AI-generated animation."
 META_PREFIX = {"flat4b": "FLAT_4B", "coldhearts": "FRIDGE_HEARTS", "drizzlepudge": "DRIZZLE_AND_PUDGE",
                "elders": "ELDERS", "cribcommittee": "CRIBCOMMITTEE"}
 TOKEN_NAMES = ("META_TOKEN", "META_SYSTEM_USER_TOKEN", "SYSTEM_USER_TOKEN", "META_ACCESS_TOKEN")
@@ -107,7 +108,7 @@ def caption(video: Path, episode: dict) -> tuple[str, str]:
         except ValueError:
             meta = {}
     title = (meta.get("title") or episode.get("title") or "").replace("#shorts", "").strip()
-    desc = meta.get("description") or episode.get("description") or ""
+    desc = meta.get("description") or (episode.get("description", "") + "\n\n" + AI_DISCLOSURE)
     desc = desc.replace("#shorts", "#reels #fyp")
     return title, f"{title}\n\n{desc}".strip()[:2200]
 
@@ -182,8 +183,11 @@ def _retry_once(fn, *args):
         return fn(*args)
 
 
-def post_stories(channel, video: Path, episode: dict, total: float, done: dict) -> dict:
-    """Posts every placement not already in `done` (so reruns never double-post).
+PLACEMENTS = ("facebook", "instagram", "facebook_reel", "instagram_reel")   # facebook/instagram = Stories
+
+
+def post_stories(channel, video: Path, episode: dict, total: float, done: dict, placements=PLACEMENTS) -> dict:
+    """Posts every placement (of `placements`) not already in `done` (so reruns never double-post).
     Returns {"facebook": [story ids], "instagram": [story ids], "facebook_reel": id, "instagram_reel": id}."""
     fb_id, ig_id, token = ids(channel)
     if not token:
@@ -192,7 +196,8 @@ def post_stories(channel, video: Path, episode: dict, total: float, done: dict) 
     title, text = caption(video, episode)
     full = None
     out, errors = dict(done), []
-    for name, target in (("facebook", fb_id), ("instagram", ig_id), ("facebook_reel", fb_id), ("instagram_reel", ig_id)):
+    for name in placements:
+        target = fb_id if name.startswith("facebook") else ig_id
         if not target or out.get(name):
             continue
         try:

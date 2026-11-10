@@ -1,0 +1,56 @@
+name: Reels backfill (Facebook + Instagram)
+
+# Posts the missing Facebook/Instagram Reels for episodes that were only posted as Stories.
+# Start it by editing triggers/reels-backfill and pushing (or Actions tab -> Run workflow).
+on:
+  push:
+    paths: ["triggers/reels-backfill"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: state-writers
+  cancel-in-progress: false
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: sudo apt-get update && sudo apt-get install -y ffmpeg
+      - run: pip install -r requirements.txt
+      - name: Post missing Reels
+        env:
+          GH_TOKEN: ${{ github.token }}
+          META_TOKEN: ${{ secrets.META_TOKEN }}
+          META_TOKEN_FACEBOOK_INSTAGRAM: ${{ secrets.META_TOKEN_FACEBOOK_INSTAGRAM }}
+          FACEBOOK_INSTAGRAM_PAGE_IDS: ${{ secrets.FACEBOOK_INSTAGRAM_PAGE_IDS }}
+          FACEBOOK_INSTAGRAM_PAGE_IDS_CRIB: ${{ secrets.FACEBOOK_INSTAGRAM_PAGE_IDS_CRIB }}
+          FACEBOOK_INSTAGRAM_PAGE_IDS_ELDERS: ${{ secrets.FACEBOOK_INSTAGRAM_PAGE_IDS_ELDERS }}
+          FLAT_4B_FB_ID: ${{ vars.FLAT_4B_FB_ID || secrets.FLAT_4B_FB_ID }}
+          FLAT_4B_IG_ID: ${{ vars.FLAT_4B_IG_ID || secrets.FLAT_4B_IG_ID }}
+          FRIDGE_HEARTS_FB_ID: ${{ vars.FRIDGE_HEARTS_FB_ID || secrets.FRIDGE_HEARTS_FB_ID }}
+          FRIDGE_HEARTS_IG_ID: ${{ vars.FRIDGE_HEARTS_IG_ID || secrets.FRIDGE_HEARTS_IG_ID }}
+          DRIZZLE_AND_PUDGE_FB_ID: ${{ vars.DRIZZLE_AND_PUDGE_FB_ID || secrets.DRIZZLE_AND_PUDGE_FB_ID }}
+          DRIZZLE_AND_PUDGE_IG_ID: ${{ vars.DRIZZLE_AND_PUDGE_IG_ID || secrets.DRIZZLE_AND_PUDGE_IG_ID }}
+          FB_ID_ELDERS: ${{ vars.FB_ID_ELDERS || secrets.FB_ID_ELDERS }}
+          IG_ID_ELDERS: ${{ vars.IG_ID_ELDERS || secrets.IG_ID_ELDERS }}
+          ELDERS_FB_ID: ${{ vars.ELDERS_FB_ID || secrets.ELDERS_FB_ID }}
+          ELDERS_IG_ID: ${{ vars.ELDERS_IG_ID || secrets.ELDERS_IG_ID }}
+          CRIBCOMMITTEE_FB_ID: ${{ vars.CRIBCOMMITTEE_FB_ID || secrets.CRIBCOMMITTEE_FB_ID }}
+          CRIBCOMMITTEE_IG_ID: ${{ vars.CRIBCOMMITTEE_IG_ID || secrets.CRIBCOMMITTEE_IG_ID }}
+        run: python -m pipeline.run reels-backfill
+      - name: Save progress
+        if: always()
+        run: |
+          git config user.name "shorts-bot"
+          git config user.email "shorts-bot@users.noreply.github.com"
+          git add state/state.json
+          if ! git diff --cached --quiet; then git commit -m "meta: reels backfill $(date -u +%F)"; git pull --rebase -X theirs; git push; fi

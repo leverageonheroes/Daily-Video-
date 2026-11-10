@@ -10,6 +10,7 @@
   python -m pipeline.run monthly               # 1st of month: compile all of last month's episodes
   python -m pipeline.run sync-youtube          # mark uploaded episodes that went public as published
   python -m pipeline.run stories <ch> <id>     # post a rendered episode to Facebook + Instagram (Stories, Reels, feed)
+  python -m pipeline.run reels-backfill [ch]   # add FB/IG Reels to already-posted episodes (video from Release tiktok-<ch>)
   python -m pipeline.run check                 # test YouTube, Meta, LTX and fal.ai connections (free)
   python -m pipeline.run status
   python -m pipeline.run flow-prompts [ch]     # Google Flow channels: write today's 5 prompts to inbox/<ch>/PROMPTS.md
@@ -84,6 +85,49 @@ def stories(s, ch, ep_id):
     for e in errors:
         print(f"!! {ch} {ep_id} stories: {e}")
     return not errors
+
+
+def reels_backfill(s, chs):
+    """Episodes posted to Stories before Reels existed: fetch the finished Short from Release tiktok-<ch>
+    and post only the missing Facebook/Instagram Reels."""
+    import subprocess
+    from . import meta
+    failed = False
+    for ch in chs:
+        if not meta.enabled(ch):
+            print(f"   (no Meta token/page IDs for {ch}: skipped)")
+            continue
+        for ep_id, rec in s["channels"][ch]["episodes"].items():
+            done = rec.get("stories") or {}
+            if rec.get("status") not in ("uploaded", "published") or not done:
+                continue
+            fb, ig, _ = meta.ids(ch)
+            if (not fb or done.get("facebook_reel")) and (not ig or done.get("instagram_reel")):
+                continue
+            wd = config.OUTPUT / "backfill" / ch / ep_id
+            wd.mkdir(parents=True, exist_ok=True)
+            video = wd / "final.mp4"
+            if not video.exists():
+                r = subprocess.run(["gh", "release", "download", f"tiktok-{ch}", "-p", f"{ep_id}.mp4", "-O", str(video),
+                                    "--clobber"], capture_output=True, text=True)
+                if r.returncode != 0:
+                    print(f"!! {ch} {ep_id}: no video in release tiktok-{ch}: {r.stderr.strip()[:200]}")
+                    failed = True
+                    continue
+            print(f"== {ch} {ep_id}: posting Reels")
+            try:
+                res = meta.post_stories(ch, video, state.get_episode(ch, ep_id), assemble.duration(video), done,
+                                        placements=("facebook_reel", "instagram_reel"))
+            except Exception as e:
+                print(f"!! {ch} {ep_id}: {e}")
+                failed = True
+                continue
+            for e in res.pop("errors", []):
+                print(f"!! {ch} {ep_id}: {e}")
+                failed = True
+            rec["stories"] = res
+            state.save(s)
+    return failed
 
 
 def check():
@@ -222,6 +266,8 @@ def main(argv):
         upload(s, argv[1], argv[2])
     elif cmd == "stories":
         stories(s, argv[1], argv[2])
+    elif cmd == "reels-backfill":
+        sys.exit(1 if reels_backfill(s, argv[1:] or list(s["channels"])) else 0)
     elif cmd == "check":
         check()
     elif cmd in ("compile", "weekly", "monthly"):

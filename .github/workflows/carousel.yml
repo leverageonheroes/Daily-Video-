@@ -66,6 +66,17 @@ jobs:
           TOGETHER_API_KEY: ${{ secrets.TOGETHER_API_KEY }}
           YT_TOKEN_ELDERS: ${{ secrets.YT_TOKEN_ELDERS }}
           YT_TOKEN_CRIBCOMMITTEE: ${{ secrets.YT_TOKEN_CRIBCOMMITTEE }}
+          META_TOKEN: ${{ secrets.META_TOKEN }}
+          META_TOKEN_FACEBOOK_INSTAGRAM: ${{ secrets.META_TOKEN_FACEBOOK_INSTAGRAM }}
+          FACEBOOK_INSTAGRAM_PAGE_IDS: ${{ secrets.FACEBOOK_INSTAGRAM_PAGE_IDS }}
+          FACEBOOK_INSTAGRAM_PAGE_IDS_CRIB: ${{ secrets.FACEBOOK_INSTAGRAM_PAGE_IDS_CRIB }}
+          FACEBOOK_INSTAGRAM_PAGE_IDS_ELDERS: ${{ secrets.FACEBOOK_INSTAGRAM_PAGE_IDS_ELDERS }}
+          FB_ID_ELDERS: ${{ vars.FB_ID_ELDERS || secrets.FB_ID_ELDERS }}
+          IG_ID_ELDERS: ${{ vars.IG_ID_ELDERS || secrets.IG_ID_ELDERS }}
+          ELDERS_FB_ID: ${{ vars.ELDERS_FB_ID || secrets.ELDERS_FB_ID }}
+          ELDERS_IG_ID: ${{ vars.ELDERS_IG_ID || secrets.ELDERS_IG_ID }}
+          CRIBCOMMITTEE_FB_ID: ${{ vars.CRIBCOMMITTEE_FB_ID || secrets.CRIBCOMMITTEE_FB_ID }}
+          CRIBCOMMITTEE_IG_ID: ${{ vars.CRIBCOMMITTEE_IG_ID || secrets.CRIBCOMMITTEE_IG_ID }}
           YT_UPLOAD: ${{ github.event_name == 'push' && '1' || inputs.upload }}
           YT_PUBLISH_NOW: ${{ github.event_name == 'push' && '1' || inputs.publish_now }}
         run: |
