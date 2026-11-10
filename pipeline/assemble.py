@@ -269,7 +269,8 @@ def assemble(episode: dict, clips: list, workdir: Path, bible: dict | None = Non
         _concat(workdir, parts, "full.mp4")
         src = "full.mp4"
     total = lead + story + card_sec
-    end_text = bible.get("end_card") if isinstance(bible.get("end_card"), str) else ""
+    ec = bible.get("end_card")   # a string, or an image-card dict whose optional "text" shows over the last story beat
+    end_text = ec if isinstance(ec, str) else (ec or {}).get("text", "")
     build_ass(episode, workdir / "captions.ass", hook=show_hook, captions=show_caps, offset=lead,
               card=co["card"] if co else "", end_text=end_text, end_at=lead + story)
     build_ass(episode, workdir / "captions_clean.ass", hook=False, captions=show_caps)

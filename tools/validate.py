@@ -133,6 +133,38 @@ def validate_channel(ch_dir):
     return eps, errors, warns
 
 
+def validate_carousel(ch_dir):
+    """channels/<ch>/carousel.json: the second daily video (image carousel + scrolling words)."""
+    import string
+    errors, warns = [], []
+    p = ch_dir / "carousel.json"
+    if not p.exists():
+        return errors, warns
+    c = json.loads(p.read_text())
+    tpl = c["image_prompt"]["template"]
+    keys = {f for _, f, _, _ in string.Formatter().parse(tpl) if f}
+    missing = keys - set(c["image_prompt"]["pools"])
+    if missing:
+        errors.append(f"carousel image template uses unknown pools: {sorted(missing)}")
+    for k in c["image_prompt"].get("unique_per_video", []):
+        if len(c["image_prompt"]["pools"].get(k, [])) < c.get("images_per_video", 8):
+            warns.append(f"carousel pool '{k}' has fewer options than images per video")
+    seen = set()
+    for i, ep in enumerate(c["episodes"]):
+        tag = f"carousel #{i + 1} ({ep.get('theme')})"
+        if not 6 <= len(ep.get("lines", [])) <= 10:
+            errors.append(f"{tag}: needs 6-10 lines")
+        for ln in ep.get("lines", []):
+            if words(ln) > 16:
+                warns.append(f"{tag}: line over 16 words: {ln[:40]}")
+            if ln in seen:
+                errors.append(f"{tag}: duplicate line: {ln[:50]}")
+            seen.add(ln)
+        if len(ep.get("hook", "")) > 60:
+            warns.append(f"{tag}: hook over 60 chars")
+    return errors, warns
+
+
 def main():
     only = sys.argv[1] if len(sys.argv) > 1 else None
     bad = False
@@ -146,6 +178,9 @@ def main():
             print(f", {min(durs)}-{max(durs)}s (avg {sum(durs) / len(durs):.0f}s)")
         else:
             print()
+        ce, cw = validate_carousel(ch_dir)
+        errors += ce
+        warns += cw
         for w in warns:
             print("  WARN ", w)
         for e in errors:

@@ -1,0 +1,642 @@
+{
+  "duration": 66,
+  "hook_seconds": 8,
+  "images_per_video": 8,
+  "timezone": "Europe/London",
+  "series_title": "Wishes from the Crib",
+  "publish_local": "14:30",
+  "layout": {
+    "font": "sans",
+    "accent": "#ffd27a",
+    "bg_top": "#1f3a5f",
+    "bg_bottom": "#0f1f36",
+    "header": "WISHES FROM THE CRIB",
+    "footer": "The Crib Committee",
+    "line_size": 48,
+    "lines_bold": true
+  },
+  "title_template": "What Babies Wish You Knew About {theme} | The Crib Committee #shorts",
+  "intro": "If babies could talk, this is what they'd wish for. Today:",
+  "cta": "Follow for tomorrow's wishes.",
+  "tags": [
+    "parenting tips",
+    "baby wishes",
+    "gentle parenting",
+    "crib committee",
+    "toddlers"
+  ],
+  "music_moods": [
+    "gentle lullaby",
+    "music box",
+    "soft piano"
+  ],
+  "ai_disclosure": "Images are AI-generated. Wishes reflect mainstream child-development guidance; general information, not professional advice.",
+  "image_prompt": {
+    "template": "Candid award-winning photograph of {baby} {outfit}, {expression}, {pose}, in {setting}, {light}, fully clothed, safe and cosy, shallow depth of field, warm natural colours, joyful and wholesome, photorealistic, no text, no watermark, no logo",
+    "unique_per_video": [
+      "baby",
+      "setting",
+      "expression"
+    ],
+    "pools": {
+      "baby": [
+        "a chubby 10-month-old Ghanaian baby girl with tiny curls",
+        "a 14-month-old Japanese baby boy with a tuft of black hair",
+        "a 9-month-old ginger-haired Irish baby girl with freckles",
+        "a 16-month-old Indian baby boy with big brown eyes",
+        "an 11-month-old Brazilian baby girl with soft brown curls",
+        "a 13-month-old Nigerian baby boy with chubby cheeks",
+        "a 12-month-old blonde Swedish baby girl",
+        "an 18-month-old Mexican baby boy with thick dark hair",
+        "a 10-month-old Korean baby girl with a tiny top-knot",
+        "a 15-month-old Ethiopian baby boy with long eyelashes",
+        "a 9-month-old mixed-race baby girl with golden curls",
+        "a 17-month-old Filipino baby boy with a big grin",
+        "an 11-month-old Lebanese baby girl with dark ringlets",
+        "a 14-month-old Jamaican baby boy with a little afro",
+        "a 12-month-old Chinese baby girl with rosy cheeks",
+        "a 16-month-old Pakistani baby boy with bright eyes",
+        "a 10-month-old Italian baby boy with a single dark curl",
+        "a 13-month-old Kenyan baby girl with a flower headband",
+        "a 15-month-old Vietnamese baby boy with a bowl haircut",
+        "an 18-month-old Scottish baby girl with red pigtails",
+        "a 12-month-old Moroccan baby boy with curly black hair",
+        "a 9-month-old Native American baby girl with dark eyes",
+        "a 14-month-old Polish baby boy with wispy white-blond hair",
+        "a 17-month-old Senegalese baby girl with tiny braids"
+      ],
+      "outfit": [
+        "in a cosy knitted cardigan and soft trousers",
+        "in a mustard-yellow romper",
+        "in striped dungarees",
+        "in a tiny denim jacket and soft leggings",
+        "in a pastel knitted jumper",
+        "in a little floral dress and cardigan",
+        "in a bear-ear hooded onesie",
+        "in a tiny shirt and bow tie",
+        "in a soft woolly hat and jumper",
+        "in a green corduroy romper",
+        "in a rainbow-striped top and trousers"
+      ],
+      "expression": [
+        "with a wise, thoughtful look and one hand on the chin",
+        "raising one eyebrow sceptically",
+        "giggling with eyes squeezed shut",
+        "frowning seriously like a tiny professor",
+        "with a mouth open in delighted surprise",
+        "beaming a huge gummy smile",
+        "pouting dramatically",
+        "mid-yawn, eyes nearly closed",
+        "with a calm, wise little gaze",
+        "looking up with big hopeful eyes"
+      ],
+      "pose": [
+        "sitting up on a soft rug",
+        "lying on the tummy, propped up on elbows",
+        "holding a wooden toy block",
+        "reaching both arms towards the camera",
+        "peeking over a stack of cushions",
+        "sitting in a small wicker basket",
+        "clapping tiny hands",
+        "tapping one tiny finger on a little wooden table",
+        "hugging a soft teddy bear",
+        "sitting beside a stack of picture books",
+        "holding a parent's finger"
+      ],
+      "setting": [
+        "a sunlit nursery with wooden toys",
+        "a picnic blanket in a summer garden",
+        "a cosy living room with fairy lights",
+        "a bright kitchen with plants",
+        "a soft white bed with morning light",
+        "a meadow of wildflowers",
+        "a reading nook with cushions",
+        "a snowy window with warm lights inside",
+        "a beach blanket under a parasol",
+        "an autumn park on a blanket of leaves",
+        "a playroom with colourful blocks",
+        "a sunny window seat"
+      ],
+      "light": [
+        "soft natural window light",
+        "warm golden-hour light",
+        "gentle morning light",
+        "bright airy daylight",
+        "cosy warm lamplight"
+      ]
+    }
+  },
+  "id_prefix": "CRW",
+  "episodes": [
+    {
+      "theme": "bedtime",
+      "lines": [
+        "I wish you'd read one more page, slowly, with the voices.",
+        "I wish bedtime didn't feel like a race.",
+        "I wish you'd stay until my eyes get heavy.",
+        "I wish the house felt calm and quiet at night.",
+        "I wish you'd say goodnight to my teddy too.",
+        "I wish you knew I'm scared of the dark sometimes.",
+        "I wish we had the same bedtime song every night.",
+        "I wish you'd whisper I love you before you go."
+      ],
+      "hook": "Which wish is your little one making?",
+      "tags": [
+        "bedtime"
+      ]
+    },
+    {
+      "theme": "big feelings",
+      "lines": [
+        "I wish you'd name my feelings when I can't.",
+        "I wish you'd stay calm when I can't.",
+        "I wish you'd hug me after the storm passes.",
+        "I wish you knew big feelings scare me too.",
+        "I wish you wouldn't say stop crying.",
+        "I wish you'd ask what happened, not what's wrong with me.",
+        "I wish you'd let me be angry, safely.",
+        "I wish you'd remind me that feelings pass."
+      ],
+      "hook": "Tag a parent who needs this today.",
+      "tags": [
+        "bigfeelings"
+      ]
+    },
+    {
+      "theme": "attention",
+      "lines": [
+        "I wish you'd look at me when I talk.",
+        "I wish the phone stayed in another room at dinner.",
+        "I wish you'd watch my trick all the way to the end.",
+        "I wish you'd notice when I go quiet.",
+        "I wish you'd say tell me more.",
+        "I wish ten minutes a day were just mine.",
+        "I wish you'd laugh at my jokes, even the bad ones.",
+        "I wish you knew your attention is my favourite toy."
+      ],
+      "hook": "Save this for the hard days.",
+      "tags": [
+        "attention"
+      ]
+    },
+    {
+      "theme": "play",
+      "lines": [
+        "I wish you'd get down on the floor with me.",
+        "I wish you'd let me lead the game.",
+        "I wish you'd be the dragon, not the teacher.",
+        "I wish we played outside more.",
+        "I wish you'd let me get messy.",
+        "I wish my tower stayed up until I'd finished.",
+        "I wish you'd play pretend with me.",
+        "I wish you knew playing is how I learn."
+      ],
+      "hook": "Which wish made you smile?",
+      "tags": [
+        "play"
+      ]
+    },
+    {
+      "theme": "routines",
+      "lines": [
+        "I wish mornings felt the same every day.",
+        "I wish you'd tell me what happens next.",
+        "I wish we had a special goodbye.",
+        "I wish meals came at the same time.",
+        "I wish you'd warn me before we leave.",
+        "I wish my routine had pictures on the wall.",
+        "I wish weekends had a little routine too.",
+        "I wish you knew routines make me feel safe."
+      ],
+      "hook": "Send this to a tired parent.",
+      "tags": [
+        "routines"
+      ]
+    },
+    {
+      "theme": "independence",
+      "lines": [
+        "I wish you'd let me try first.",
+        "I wish you'd wait while I do it slowly.",
+        "I wish I could choose my clothes sometimes.",
+        "I wish I had little jobs at home.",
+        "I wish you'd let me pour, even if I spill.",
+        "I wish you'd say you can do it.",
+        "I wish you'd let me solve small problems.",
+        "I wish you knew I'm proud when I do it myself."
+      ],
+      "hook": "Which wish would your baby add?",
+      "tags": [
+        "independence"
+      ]
+    },
+    {
+      "theme": "mealtimes",
+      "lines": [
+        "I wish dinner wasn't a battle.",
+        "I wish you'd let me decide how much.",
+        "I wish you'd keep offering new foods, without pressure.",
+        "I wish I could help you cook.",
+        "I wish we ate together at the table.",
+        "I wish you ate your vegetables too.",
+        "I wish pudding wasn't a prize.",
+        "I wish you knew my tummy is smaller than yours."
+      ],
+      "hook": "Which wish is your little one making?",
+      "tags": [
+        "mealtimes"
+      ]
+    },
+    {
+      "theme": "encouragement",
+      "lines": [
+        "I wish you'd praise my effort, not just the result.",
+        "I wish you'd tell me what you liked about it.",
+        "I wish you'd let me try again after I fail.",
+        "I wish you didn't compare my drawing to my sister's.",
+        "I wish you'd say I can see you worked hard.",
+        "I wish you'd ask how I did it.",
+        "I wish mistakes didn't feel so scary.",
+        "I wish you knew I'm learning, not failing."
+      ],
+      "hook": "Tag a parent who needs this today.",
+      "tags": [
+        "encouragement"
+      ]
+    },
+    {
+      "theme": "stories",
+      "lines": [
+        "I wish you'd read to me every single day.",
+        "I wish you'd let me pick the book.",
+        "I wish you'd do the funny voices.",
+        "I wish we went to the library together.",
+        "I wish you'd let me turn the pages.",
+        "I wish you'd ask what I think happens next.",
+        "I wish you'd read the same book again. And again.",
+        "I wish you knew stories fill my head with words."
+      ],
+      "hook": "Save this for the hard days.",
+      "tags": [
+        "stories"
+      ]
+    },
+    {
+      "theme": "boundaries",
+      "lines": [
+        "I wish your no meant no, every time.",
+        "I wish you both had the same rules.",
+        "I wish you'd explain why, simply.",
+        "I wish you'd stay kind when you say no.",
+        "I wish you'd stay calm when I test the rules.",
+        "I wish you'd follow through, gently.",
+        "I wish the rules didn't change with your mood.",
+        "I wish you knew limits help me feel safe."
+      ],
+      "hook": "Which wish made you smile?",
+      "tags": [
+        "boundaries"
+      ]
+    },
+    {
+      "theme": "comparison",
+      "lines": [
+        "I wish you'd stop comparing me to my cousin.",
+        "I wish you'd celebrate my small wins.",
+        "I wish you knew every child grows at their own speed.",
+        "I wish you'd love what makes me different.",
+        "I wish you'd see my strengths first.",
+        "I wish you'd tell me I'm doing great.",
+        "I wish milestones weren't a race.",
+        "I wish you knew I'm right on time for me."
+      ],
+      "hook": "Send this to a tired parent.",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "theme": "listening",
+      "lines": [
+        "I wish you'd kneel down to my height.",
+        "I wish you'd let me finish my sentence.",
+        "I wish you'd listen to my long stories.",
+        "I wish you'd repeat back what I said.",
+        "I wish you'd ask about my day properly.",
+        "I wish you'd believe me when I'm scared.",
+        "I wish you'd listen even when I'm whining.",
+        "I wish you knew listening now means talking later."
+      ],
+      "hook": "Which wish would your baby add?",
+      "tags": [
+        "listening"
+      ]
+    },
+    {
+      "theme": "a calm home",
+      "lines": [
+        "I wish voices stayed soft in our home.",
+        "I wish you'd make up where I can see.",
+        "I wish arguments didn't happen at bedtime.",
+        "I wish you'd tell me it's not my fault.",
+        "I wish we had quiet time together.",
+        "I wish the TV wasn't always on.",
+        "I wish you'd breathe before you shout.",
+        "I wish you knew I feel everything in our home."
+      ],
+      "hook": "Which wish is your little one making?",
+      "tags": [
+        "acalmhome"
+      ]
+    },
+    {
+      "theme": "saying sorry",
+      "lines": [
+        "I wish you'd say sorry when you get it wrong.",
+        "I wish sorry came with a hug.",
+        "I wish you'd help me fix things after I mess up.",
+        "I wish you didn't make me say sorry while I'm still upset.",
+        "I wish you'd show me how to make up.",
+        "I wish you'd forgive me quickly.",
+        "I wish every morning was a fresh start.",
+        "I wish you knew your sorry teaches me mine."
+      ],
+      "hook": "Tag a parent who needs this today.",
+      "tags": [
+        "sayingsorry"
+      ]
+    },
+    {
+      "theme": "confidence",
+      "lines": [
+        "I wish you'd let me climb a little higher.",
+        "I wish you'd call me brave.",
+        "I wish you didn't rescue me every time.",
+        "I wish you'd trust me with small jobs.",
+        "I wish you'd cheer when I try.",
+        "I wish you'd let me speak for myself.",
+        "I wish you'd show me mistakes are okay.",
+        "I wish you knew your belief becomes my belief."
+      ],
+      "hook": "Save this for the hard days.",
+      "tags": [
+        "confidence"
+      ]
+    },
+    {
+      "theme": "the outdoors",
+      "lines": [
+        "I wish we went outside every day.",
+        "I wish I could jump in every puddle.",
+        "I wish you'd let me collect sticks and stones.",
+        "I wish muddy knees didn't upset you.",
+        "I wish we watched the clouds together.",
+        "I wish we went to the park more.",
+        "I wish I could run until I'm tired.",
+        "I wish you knew nature calms me down."
+      ],
+      "hook": "Which wish made you smile?",
+      "tags": [
+        "theoutdoors"
+      ]
+    },
+    {
+      "theme": "screens",
+      "lines": [
+        "I wish the tablet wasn't my babysitter.",
+        "I wish we watched shows together.",
+        "I wish screens stayed out of bedtime.",
+        "I wish you'd play with me instead.",
+        "I wish you'd help me switch it off gently.",
+        "I wish you looked at me more than your screen.",
+        "I wish we had screen-free Sundays.",
+        "I wish you knew your face is my favourite screen."
+      ],
+      "hook": "Send this to a tired parent.",
+      "tags": [
+        "screens"
+      ]
+    },
+    {
+      "theme": "slowing down",
+      "lines": [
+        "I wish mornings weren't always rushed.",
+        "I wish you'd let me look at the snail.",
+        "I wish we strolled instead of hurried.",
+        "I wish you'd give me time with my shoes.",
+        "I wish we had slow weekends.",
+        "I wish you'd let me finish my game.",
+        "I wish you knew hurrying makes me freeze.",
+        "I wish we noticed the little things together."
+      ],
+      "hook": "Which wish would your baby add?",
+      "tags": [
+        "slowingdown"
+      ]
+    },
+    {
+      "theme": "goodbyes",
+      "lines": [
+        "I wish you'd always say goodbye, never sneak away.",
+        "I wish you'd tell me when you're coming back.",
+        "I wish goodbyes were short and sweet.",
+        "I wish you'd leave me something of yours.",
+        "I wish you'd smile when you leave.",
+        "I wish you'd come back when you promised.",
+        "I wish you'd ask about my day afterwards.",
+        "I wish you knew trust grows with every return."
+      ],
+      "hook": "Which wish is your little one making?",
+      "tags": [
+        "goodbyes"
+      ]
+    },
+    {
+      "theme": "kind words",
+      "lines": [
+        "I wish you'd never call me naughty.",
+        "I wish you'd describe what I did, not who I am.",
+        "I wish you'd say I love you every day.",
+        "I wish you'd speak kindly about me to others.",
+        "I wish you'd say thank you to me too.",
+        "I wish you'd call me brave and kind.",
+        "I wish your words stayed gentle when you're tired.",
+        "I wish you knew I believe everything you say about me."
+      ],
+      "hook": "Tag a parent who needs this today.",
+      "tags": [
+        "kindwords"
+      ]
+    },
+    {
+      "theme": "fears",
+      "lines": [
+        "I wish you wouldn't laugh at my fears.",
+        "I wish you'd check under the bed with me.",
+        "I wish you'd leave a little light on.",
+        "I wish you'd hold my hand at the doctor's.",
+        "I wish being scared didn't get me called a baby.",
+        "I wish you'd help me be brave, step by step.",
+        "I wish you'd tell me what to expect.",
+        "I wish you knew my fears feel huge to me."
+      ],
+      "hook": "Save this for the hard days.",
+      "tags": [
+        "fears"
+      ]
+    },
+    {
+      "theme": "siblings",
+      "lines": [
+        "I wish I had time with you without the baby.",
+        "I wish you'd notice when I'm gentle with my sister.",
+        "I wish you wouldn't compare us.",
+        "I wish you'd let us solve small fights ourselves.",
+        "I wish we each had one special thing.",
+        "I wish you'd tell us you love us both completely.",
+        "I wish I could help with the baby.",
+        "I wish you knew being the big one is hard sometimes."
+      ],
+      "hook": "Which wish made you smile?",
+      "tags": [
+        "siblings"
+      ]
+    },
+    {
+      "theme": "growing up",
+      "lines": [
+        "I wish you'd wait until I'm ready.",
+        "I wish accidents didn't make you sigh.",
+        "I wish you'd cheer for trying.",
+        "I wish you'd let me watch and learn.",
+        "I wish there was no rush.",
+        "I wish you'd remind me gently.",
+        "I wish I could choose my own pants.",
+        "I wish you knew my body has its own timetable."
+      ],
+      "hook": "Send this to a tired parent.",
+      "tags": [
+        "growingup"
+      ]
+    },
+    {
+      "theme": "talking",
+      "lines": [
+        "I wish you'd talk to me all day long.",
+        "I wish you'd answer my babbles.",
+        "I wish you'd sing to me.",
+        "I wish you'd name everything we see.",
+        "I wish you'd wait for my answer.",
+        "I wish you'd read my face and reply.",
+        "I wish you'd speak your home language with me.",
+        "I wish you knew every word you say grows my brain."
+      ],
+      "hook": "Which wish would your baby add?",
+      "tags": [
+        "talking"
+      ]
+    },
+    {
+      "theme": "consistency",
+      "lines": [
+        "I wish you'd mean what you say.",
+        "I wish threats were promises, or nothing at all.",
+        "I wish both of you agreed.",
+        "I wish you'd follow through calmly.",
+        "I wish Grandma knew our rules too.",
+        "I wish you'd count to three and stop at three.",
+        "I wish consequences were small and fair.",
+        "I wish you knew steady parents make steady children."
+      ],
+      "hook": "Which wish is your little one making?",
+      "tags": [
+        "consistency"
+      ]
+    },
+    {
+      "theme": "tired parents",
+      "lines": [
+        "I wish you'd rest when I nap sometimes.",
+        "I wish you'd ask for help.",
+        "I wish you'd eat a proper meal.",
+        "I wish you knew I don't need perfect.",
+        "I wish you'd laugh more.",
+        "I wish you had time for your friends.",
+        "I wish you'd be gentle with yourself.",
+        "I wish you knew a happy parent is my favourite thing."
+      ],
+      "hook": "Tag a parent who needs this today.",
+      "tags": [
+        "tiredparents"
+      ]
+    },
+    {
+      "theme": "copying you",
+      "lines": [
+        "I wish you'd show me how to say please.",
+        "I wish you'd show me how to calm down.",
+        "I wish I saw you reading books.",
+        "I wish you were kind to strangers in front of me.",
+        "I wish you tried new foods in front of me.",
+        "I wish you put your phone away like you ask me to.",
+        "I wish you showed me how to say sorry.",
+        "I wish you knew I'm always watching."
+      ],
+      "hook": "Save this for the hard days.",
+      "tags": [
+        "copyingyou"
+      ]
+    },
+    {
+      "theme": "respect",
+      "lines": [
+        "I wish you'd let me choose a hug or a wave.",
+        "I wish you'd ask before tickling.",
+        "I wish you'd stop when I say stop.",
+        "I wish you'd teach me the right words for my body.",
+        "I wish you'd believe me if something feels wrong.",
+        "I wish I could say no to kisses from relatives.",
+        "I wish you'd knock before coming in when I'm older.",
+        "I wish you knew respect starts small."
+      ],
+      "hook": "Which wish made you smile?",
+      "tags": [
+        "respect"
+      ]
+    },
+    {
+      "theme": "time together",
+      "lines": [
+        "I wish we had one special date each week.",
+        "I wish you'd build a fort with me.",
+        "I wish we baked together.",
+        "I wish you'd dance with me in the kitchen.",
+        "I wish you'd tell me stories about when you were little.",
+        "I wish we had breakfast together on Saturdays.",
+        "I wish you'd go on little adventures with me.",
+        "I wish you knew moments matter more than money."
+      ],
+      "hook": "Send this to a tired parent.",
+      "tags": [
+        "timetogether"
+      ]
+    },
+    {
+      "theme": "love",
+      "lines": [
+        "I wish you'd love me on my worst days.",
+        "I wish you'd hug me every morning.",
+        "I wish you'd tell me I'm enough.",
+        "I wish you'd love me quietly too.",
+        "I wish you'd remember these days when I'm big.",
+        "I wish you'd say I'm proud of you.",
+        "I wish you knew I picked you too.",
+        "I wish you knew you're my whole world."
+      ],
+      "hook": "Which wish would your baby add?",
+      "tags": [
+        "love"
+      ]
+    }
+  ]
+}

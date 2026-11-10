@@ -1,0 +1,637 @@
+{
+  "duration": 66,
+  "hook_seconds": 8,
+  "images_per_video": 8,
+  "timezone": "Europe/London",
+  "series_title": "The Elders Council",
+  "publish_local": "13:30",
+  "layout": {
+    "font": "serif",
+    "accent": "#ffb347",
+    "bg_top": "#2a1d38",
+    "bg_bottom": "#0d0a12",
+    "header": "THE ELDERS COUNCIL",
+    "footer": "Ask The Elders TV",
+    "line_size": 50
+  },
+  "title_template": "Words of Wisdom on {theme} | The Elders Council #shorts",
+  "intro": "Every day, the Elders Council shares its wisdom. Today:",
+  "cta": "Follow for tomorrow's Council.",
+  "tags": [
+    "words of wisdom",
+    "life lessons",
+    "elders",
+    "ask the elders",
+    "motivation"
+  ],
+  "music_moods": [
+    "calm piano",
+    "warm strings",
+    "soft piano"
+  ],
+  "ai_disclosure": "Images are AI-generated. The words are original life lessons in the spirit of our elders.",
+  "image_prompt": {
+    "template": "Award-winning documentary portrait photograph of {person}, {pose}, in {setting}, {light}, 85mm lens, shallow depth of field, rich natural colours, dignified, warm and hopeful, photorealistic, no text, no watermark, no logo",
+    "unique_per_video": [
+      "person",
+      "setting",
+      "pose"
+    ],
+    "pools": {
+      "person": [
+        "a 78-year-old Nigerian grandmother with a bright gele headwrap",
+        "an 84-year-old Scottish fisherman with a white beard",
+        "a 91-year-old Japanese woman with silver hair in a bun",
+        "an 80-year-old Ghanaian elder in kente cloth",
+        "a 76-year-old Indian grandfather with a white moustache and turban",
+        "an 88-year-old Irish woman with soft white curls",
+        "an 82-year-old Mexican farmer in a straw hat",
+        "a 79-year-old Jamaican grandmother with silver locs",
+        "an 86-year-old Italian craftsman with weathered hands",
+        "a 90-year-old Korean grandmother in a hanbok",
+        "an 83-year-old Black American jazz musician with a grey goatee",
+        "a 77-year-old Kenyan grandmother with a beaded necklace",
+        "an 85-year-old Greek fisherman with curly white hair",
+        "an 81-year-old Filipino grandmother with a warm smile",
+        "an 89-year-old Polish grandfather in a flat cap",
+        "a 78-year-old Brazilian grandmother with laugh lines",
+        "an 87-year-old Pakistani grandfather with a neat white beard",
+        "an 80-year-old Chinese grandfather practising calligraphy",
+        "a 92-year-old English gentleman in a tweed jacket",
+        "a 76-year-old Ethiopian grandmother in a white netela shawl",
+        "an 84-year-old Native American elder with long silver braids",
+        "a 79-year-old Vietnamese grandmother in a conical hat",
+        "an 83-year-old Moroccan grandfather in a djellaba",
+        "an 88-year-old Swedish grandmother with rosy cheeks",
+        "an 81-year-old Lebanese grandmother with kind eyes",
+        "a 90-year-old Senegalese elder in a flowing boubou",
+        "an 85-year-old Welsh coal miner, retired, with a gentle smile",
+        "a 77-year-old Peruvian grandmother in a woven shawl",
+        "an 86-year-old Russian grandmother in a floral headscarf",
+        "an 82-year-old Australian farmer with sun-worn skin"
+      ],
+      "pose": [
+        "laughing with eyes crinkled shut",
+        "resting both hands on a wooden walking stick",
+        "looking thoughtfully out of a window",
+        "holding a steaming cup of tea in both hands",
+        "reading a well-worn book",
+        "smiling gently straight at the camera",
+        "hands folded peacefully in the lap",
+        "tending a pot of herbs",
+        "walking slowly along a quiet path",
+        "feeding birds from a bench",
+        "playing a game of chess",
+        "knitting by the fire",
+        "writing in a leather journal",
+        "dancing slowly with eyes closed",
+        "sitting on a doorstep at sunset",
+        "looking at old photographs with a smile"
+      ],
+      "setting": [
+        "a sunlit kitchen with copper pans",
+        "a blooming summer garden",
+        "a misty mountain village",
+        "a quiet seaside harbour",
+        "a cosy library full of books",
+        "a busy colourful market",
+        "a golden wheat field",
+        "a wooden porch at dusk",
+        "a rainy city window",
+        "an autumn park with falling leaves",
+        "a terracotta courtyard with bougainvillea",
+        "a tea house with paper screens",
+        "a snowy cottage doorway",
+        "a fishing boat at dawn",
+        "a vineyard at harvest",
+        "an olive grove at golden hour",
+        "a riverside bench at sunrise",
+        "a lantern-lit street at night",
+        "a sunflower field",
+        "a carpenter's workshop full of sawdust light"
+      ],
+      "light": [
+        "warm golden-hour light",
+        "soft window light",
+        "gentle morning sunlight",
+        "glowing sunset backlight",
+        "soft overcast light",
+        "warm lamplight",
+        "dappled light through leaves"
+      ]
+    }
+  },
+  "id_prefix": "ELC",
+  "episodes": [
+    {
+      "theme": "money",
+      "lines": [
+        "Spend less than you earn, and you'll never be poor.",
+        "A full fridge and no debt is a kind of wealth.",
+        "Never lend what you can't afford to lose.",
+        "Buy quality once instead of cheap things three times.",
+        "The richest people I knew were rarely the loudest.",
+        "Save for a rainy day. It always rains eventually.",
+        "Let money work for you, never the other way round.",
+        "Generosity has never once made me poorer."
+      ],
+      "hook": "Which line did you need today?",
+      "tags": [
+        "money"
+      ]
+    },
+    {
+      "theme": "love",
+      "lines": [
+        "Love is shown in small, boring, everyday ways.",
+        "Make them a cup of tea without being asked.",
+        "Never stop saying please and thank you to each other.",
+        "Argue about the problem, never about the person.",
+        "Laughter has rescued more marriages than you'd think.",
+        "Choose each other again every morning.",
+        "Kindness is the most attractive thing anyone can wear.",
+        "The best love feels like coming home."
+      ],
+      "hook": "Send this to someone who needs it today.",
+      "tags": [
+        "love"
+      ]
+    },
+    {
+      "theme": "regret",
+      "lines": [
+        "I regret the words I swallowed, not the ones I said.",
+        "I wish I'd danced more and worried less.",
+        "Say yes to the trip. Money comes back. Time doesn't.",
+        "I should have told my father I was proud of him.",
+        "I wasted years pleasing people who never noticed.",
+        "The things you never try haunt you longer than the things you fail at.",
+        "Write the letter. Make the call. Ring the bell.",
+        "Nobody gets a second go at today."
+      ],
+      "hook": "Which one hit hardest? Tell the Council.",
+      "tags": [
+        "regret"
+      ]
+    },
+    {
+      "theme": "work",
+      "lines": [
+        "Do good work, then go home to your people.",
+        "Be someone others can rely on. It's rarer than talent.",
+        "Learn something new every year, at any age.",
+        "A good boss remembers your name and your children's names.",
+        "Never burn a bridge you may need to cross again.",
+        "Your health is your first job. Everything else comes second.",
+        "Pride in small tasks leads to bigger ones.",
+        "Rest isn't the opposite of work. It's part of it."
+      ],
+      "hook": "Save this for the day you need it.",
+      "tags": [
+        "work"
+      ]
+    },
+    {
+      "theme": "health",
+      "lines": [
+        "Walk a little every day, whatever the weather.",
+        "Drink water before you think you need it.",
+        "Sleep is the best medicine I ever took.",
+        "Laugh until your belly hurts, as often as you can.",
+        "Look after your hearing, your teeth and your feet.",
+        "Climb the stairs while you can. One day you'll miss them.",
+        "Eat at a table, slowly, with people you love.",
+        "Your mind needs exercise too. Read, puzzle, learn."
+      ],
+      "hook": "Read it again tomorrow. It will mean more.",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "theme": "friendship",
+      "lines": [
+        "Old friends are worth more than new things.",
+        "Call them on their birthday. A text isn't enough.",
+        "Friends who can sit with you in silence are rare. Keep them.",
+        "Never let pride end a friendship.",
+        "Show up when it's inconvenient. That's when it counts.",
+        "Make friends of every age. Young ones keep you curious.",
+        "Share your table. Food tastes better with company.",
+        "One true friend is a fortune."
+      ],
+      "hook": "Which lesson would you add?",
+      "tags": [
+        "friendship"
+      ]
+    },
+    {
+      "theme": "family",
+      "lines": [
+        "Eat dinner together as often as you can.",
+        "Tell your children stories about where they come from.",
+        "Forgive your parents. They were learning too.",
+        "Visit the grandparents. Their time is shorter than you think.",
+        "Keep the old photographs. Write the names on the back.",
+        "Siblings are the only people who remember your whole story.",
+        "Hug for longer than feels normal.",
+        "Home is people, not a place."
+      ],
+      "hook": "Which line did you need today?",
+      "tags": [
+        "family"
+      ]
+    },
+    {
+      "theme": "kindness",
+      "lines": [
+        "Kindness is free and never wasted.",
+        "Hold the door. Say good morning. Small things add up.",
+        "Be gentle with grieving people. Grief lasts longer than you think.",
+        "Speak to cleaners and bosses in the same voice.",
+        "Pay the compliment out loud.",
+        "Help without being asked, and without telling anyone.",
+        "Be kind to yourself too. You're doing your best.",
+        "People remember kindness long after they forget cleverness."
+      ],
+      "hook": "Send this to someone who needs it today.",
+      "tags": [
+        "kindness"
+      ]
+    },
+    {
+      "theme": "courage",
+      "lines": [
+        "Brave people are scared too. They just keep walking.",
+        "Ask the question. Raise your hand. Speak up.",
+        "Start before you feel ready. Nobody ever feels ready.",
+        "Courage is quiet more often than loud.",
+        "You can do hard things. You already have.",
+        "Leave what hurts you, even if it feels familiar.",
+        "Fear shrinks when you walk towards it.",
+        "One brave minute can change a whole life."
+      ],
+      "hook": "Which one hit hardest? Tell the Council.",
+      "tags": [
+        "courage"
+      ]
+    },
+    {
+      "theme": "patience",
+      "lines": [
+        "Good things grow slowly. So do good people.",
+        "Plant things you may never see fully grown.",
+        "Wait a day before answering in anger.",
+        "Children, gardens and bread all need patience.",
+        "Most problems look smaller in the morning.",
+        "Hurrying has rarely saved me time.",
+        "Be patient with old people. You're practising for yourself.",
+        "Seasons change. So will this."
+      ],
+      "hook": "Save this for the day you need it.",
+      "tags": [
+        "patience"
+      ]
+    },
+    {
+      "theme": "gratitude",
+      "lines": [
+        "Count what you have before what you lack.",
+        "Say thank you to the bus driver.",
+        "Gratitude turns enough into plenty.",
+        "Write down three good things every night.",
+        "Thank your body for carrying you this far.",
+        "The ordinary days were the precious ones.",
+        "Thank the people who raised you, while you still can.",
+        "A grateful heart is a peaceful one."
+      ],
+      "hook": "Read it again tomorrow. It will mean more.",
+      "tags": [
+        "gratitude"
+      ]
+    },
+    {
+      "theme": "time",
+      "lines": [
+        "You can always earn more money. Never more time.",
+        "Spend your hours like they're your last coins.",
+        "The days feel long, but the years fly.",
+        "Be where your feet are.",
+        "Phones steal hours you'll never get back.",
+        "Make time for people who make time for you.",
+        "Ten minutes of real attention beats an hour of distraction.",
+        "Time spent laughing is never wasted."
+      ],
+      "hook": "Which lesson would you add?",
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "theme": "forgiveness",
+      "lines": [
+        "Forgiving isn't saying it was fine. It's setting yourself free.",
+        "Forgive quickly. Grudges are heavy luggage.",
+        "Apologise sincerely, without a but.",
+        "Forgive yourself for what you didn't know then.",
+        "Some people never apologise. Make peace anyway.",
+        "Anger hurts the one who carries it most.",
+        "Let the old argument go. Nobody remembers who started it.",
+        "Mercy is strength, not weakness."
+      ],
+      "hook": "Which line did you need today?",
+      "tags": [
+        "forgiveness"
+      ]
+    },
+    {
+      "theme": "happiness",
+      "lines": [
+        "Happiness is a cup of tea with someone you love.",
+        "Stop waiting for happiness to arrive. Go and meet it.",
+        "Joy hides in ordinary Tuesdays.",
+        "Comparison is the quickest road to unhappiness.",
+        "Sing badly and often.",
+        "Get outside every day. The sky is good for you.",
+        "Help someone. It's the fastest way to feel better.",
+        "Contentment is wanting what you already have."
+      ],
+      "hook": "Send this to someone who needs it today.",
+      "tags": [
+        "happiness"
+      ]
+    },
+    {
+      "theme": "failure",
+      "lines": [
+        "Failure is a lesson with a sore price tag.",
+        "Every expert was once a beginner who kept going.",
+        "I failed more than I succeeded. That's how I succeeded.",
+        "Fall down, get up, dust off. Repeat as needed.",
+        "Don't let one bad chapter end your story.",
+        "Mistakes mean you were trying.",
+        "Laugh at your failures. It takes away their power.",
+        "The only real failure is never trying."
+      ],
+      "hook": "Which one hit hardest? Tell the Council.",
+      "tags": [
+        "failure"
+      ]
+    },
+    {
+      "theme": "home",
+      "lines": [
+        "A home is made of meals, not furniture.",
+        "Keep your door open and the kettle warm.",
+        "Fill your home with books and laughter.",
+        "A tidy home is nice. A happy home is better.",
+        "Know your neighbours' names.",
+        "Grow something, even a single plant.",
+        "Make your bed. A little order brings calm.",
+        "Wherever your people are, that's home."
+      ],
+      "hook": "Save this for the day you need it.",
+      "tags": [
+        "home"
+      ]
+    },
+    {
+      "theme": "learning",
+      "lines": [
+        "Read every day, even one page.",
+        "Ask why. It's the most powerful word there is.",
+        "Learn a skill with your hands.",
+        "Young people can teach you plenty. Listen to them.",
+        "Learn a little of another language.",
+        "Curiosity keeps you young.",
+        "Admit what you don't know. That's where learning starts.",
+        "Teach what you know. That's how you truly learn it."
+      ],
+      "hook": "Read it again tomorrow. It will mean more.",
+      "tags": [
+        "learning"
+      ]
+    },
+    {
+      "theme": "simplicity",
+      "lines": [
+        "Own less. Worry less.",
+        "The best things in my life cost nothing.",
+        "Simple food, good sleep, kind people.",
+        "Clear the clutter, and your mind clears too.",
+        "You don't need to be busy to be important.",
+        "Say no to the things that drain you.",
+        "A long walk fixes more than you'd think.",
+        "Keep life simple enough to enjoy."
+      ],
+      "hook": "Which lesson would you add?",
+      "tags": [
+        "simplicity"
+      ]
+    },
+    {
+      "theme": "listening",
+      "lines": [
+        "Listen to understand, not to reply.",
+        "Silence is an answer too.",
+        "When people show you who they are, believe them.",
+        "Listen to old people's stories. They won't be here forever.",
+        "Put your phone down when someone is talking.",
+        "Most people just want to feel heard.",
+        "Listen to your body. It whispers before it shouts.",
+        "Hear children out. Their worries are real to them."
+      ],
+      "hook": "Which line did you need today?",
+      "tags": [
+        "listening"
+      ]
+    },
+    {
+      "theme": "ageing",
+      "lines": [
+        "Growing old is a privilege denied to many.",
+        "Wrinkles are where the smiles have been.",
+        "Keep moving, keep learning, keep laughing.",
+        "Old age takes courage, but it's beautiful.",
+        "You're never too old to start something new.",
+        "Grey hair is earned. Wear it proudly.",
+        "The older I get, the fewer things I worry about.",
+        "Every age has its own gifts."
+      ],
+      "hook": "Send this to someone who needs it today.",
+      "tags": [
+        "ageing"
+      ]
+    },
+    {
+      "theme": "marriage",
+      "lines": [
+        "Marriage is choosing the same person, again and again.",
+        "Never go to sleep without saying goodnight.",
+        "Keep your private arguments private.",
+        "Share the chores. Love lives in the dishes too.",
+        "Grow together, not apart.",
+        "Talk about money, children and dreams early.",
+        "Respect is the foundation. Love is the house.",
+        "Laugh together every single day."
+      ],
+      "hook": "Which one hit hardest? Tell the Council.",
+      "tags": [
+        "marriage"
+      ]
+    },
+    {
+      "theme": "children",
+      "lines": [
+        "Children learn from what you do, not what you say.",
+        "Let them be bored. Boredom makes them creative.",
+        "Praise their effort, not just their results.",
+        "Read to them every night.",
+        "Let them help, even when it's slower.",
+        "Say sorry to them when you're wrong.",
+        "They grow up faster than anyone warns you.",
+        "Love them loudly."
+      ],
+      "hook": "Save this for the day you need it.",
+      "tags": [
+        "children"
+      ]
+    },
+    {
+      "theme": "loss",
+      "lines": [
+        "Grief is love that has lost its address.",
+        "Say their name. It keeps them close.",
+        "There's no timetable for grief.",
+        "Sit with grieving friends. You don't need words.",
+        "Loss teaches you what really mattered.",
+        "Cry when you need to. Tears aren't weakness.",
+        "Keep their recipes, their songs, their sayings.",
+        "Love outlives everything."
+      ],
+      "hook": "Read it again tomorrow. It will mean more.",
+      "tags": [
+        "loss"
+      ]
+    },
+    {
+      "theme": "hope",
+      "lines": [
+        "The darkest night still ends in morning.",
+        "Hope is a decision you make each day.",
+        "Hard times don't last forever.",
+        "Small steps still move you forward.",
+        "Someone, somewhere, is rooting for you.",
+        "Plant seeds even when the ground looks hard.",
+        "Tomorrow is unwritten. Pick up the pen.",
+        "Keep a little light on, always."
+      ],
+      "hook": "Which lesson would you add?",
+      "tags": [
+        "hope"
+      ]
+    },
+    {
+      "theme": "change",
+      "lines": [
+        "Everything changes. Learn to bend, not break.",
+        "New chapters can start at any age.",
+        "Let go of who you were expected to be.",
+        "Moving house taught me how little I need.",
+        "The scary decision is often the right one.",
+        "Don't fear the new. You were new once too.",
+        "Changing your mind is a sign of growth.",
+        "Seasons end so new ones can begin."
+      ],
+      "hook": "Which line did you need today?",
+      "tags": [
+        "change"
+      ]
+    },
+    {
+      "theme": "honesty",
+      "lines": [
+        "Tell the truth. It's easier to remember.",
+        "Honest words, kindly said, are a gift.",
+        "Trust takes years to build and seconds to break.",
+        "Admit your mistakes quickly.",
+        "Keep your promises, even the small ones.",
+        "Be honest with yourself first.",
+        "A clear conscience is a soft pillow.",
+        "Integrity is what you do when nobody's watching."
+      ],
+      "hook": "Send this to someone who needs it today.",
+      "tags": [
+        "honesty"
+      ]
+    },
+    {
+      "theme": "rest",
+      "lines": [
+        "Rest before you're exhausted.",
+        "Take the nap. Life will wait.",
+        "Sundays were made for slowing down.",
+        "A quiet morning sets the whole day.",
+        "Switch off the news sometimes.",
+        "Sit in the sun for ten minutes. You'll thank me.",
+        "Burnout isn't a badge of honour.",
+        "Rest is how you last."
+      ],
+      "hook": "Which one hit hardest? Tell the Council.",
+      "tags": [
+        "rest"
+      ]
+    },
+    {
+      "theme": "purpose",
+      "lines": [
+        "Find something bigger than yourself to care about.",
+        "Purpose often hides inside helping others.",
+        "Your work doesn't have to be grand to matter.",
+        "Be useful to someone every day.",
+        "Do what makes time disappear.",
+        "Your purpose can change with the seasons of life.",
+        "Small purposes add up to a meaningful life.",
+        "Ask yourself who would miss you if you stopped."
+      ],
+      "hook": "Save this for the day you need it.",
+      "tags": [
+        "purpose"
+      ]
+    },
+    {
+      "theme": "community",
+      "lines": [
+        "Know your neighbours. You'll need each other.",
+        "Show up for weddings, funerals and fundraisers.",
+        "Shop locally when you can.",
+        "A street where people wave is a rich street.",
+        "Volunteer, even an hour a month.",
+        "Share what you grow, cook and know.",
+        "Look out for the lonely ones.",
+        "Nobody gets through life alone."
+      ],
+      "hook": "Read it again tomorrow. It will mean more.",
+      "tags": [
+        "community"
+      ]
+    },
+    {
+      "theme": "legacy",
+      "lines": [
+        "Your legacy is how you made people feel.",
+        "Plant gardens, write letters, tell stories.",
+        "Teach someone what you know.",
+        "Be the ancestor someone will be proud of.",
+        "Leave places better than you found them.",
+        "Kindness echoes for generations.",
+        "Your grandchildren will carry your words.",
+        "Live a life worth retelling."
+      ],
+      "hook": "Which lesson would you add?",
+      "tags": [
+        "legacy"
+      ]
+    }
+  ]
+}

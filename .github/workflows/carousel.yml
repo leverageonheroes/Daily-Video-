@@ -1,0 +1,58 @@
+name: Carousel (manual test / backup)
+
+# The carousel normally runs on the Railway worker (tools/railway/). This workflow is for testing it by hand,
+# or as a backup if Railway is down: Actions tab -> Carousel -> Run workflow.
+on:
+  workflow_dispatch:
+    inputs:
+      channels:
+        description: "Channels (blank = all with carousel.json)"
+        required: false
+        default: ""
+      upload:
+        description: "Upload to YouTube (1) or render only (0)"
+        required: false
+        default: "0"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: carousel
+  cancel-in-progress: false
+
+jobs:
+  carousel:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: sudo apt-get update && sudo apt-get install -y ffmpeg fonts-dejavu-core
+      - run: pip install -r requirements.txt
+      - name: Render (and upload)
+        env:
+          CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+          TOGETHER_API_KEY: ${{ secrets.TOGETHER_API_KEY }}
+          YT_TOKEN_ELDERS: ${{ secrets.YT_TOKEN_ELDERS }}
+          YT_TOKEN_CRIBCOMMITTEE: ${{ secrets.YT_TOKEN_CRIBCOMMITTEE }}
+          YT_UPLOAD: ${{ inputs.upload }}
+        run: python -m pipeline.run carousel ${{ inputs.channels }}
+      - name: Save progress
+        if: always() && inputs.upload == '1'
+        run: |
+          git config user.name "shorts-bot"
+          git config user.email "shorts-bot@users.noreply.github.com"
+          git add state/carousel.json
+          if ! git diff --cached --quiet; then git commit -m "carousel: $(date -u +%F)"; git pull --rebase; git push; fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: carousel-${{ github.run_id }}
+          path: output/carousel/**/final.mp4
+          retention-days: 7
+          if-no-files-found: ignore

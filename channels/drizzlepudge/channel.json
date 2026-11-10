@@ -107,5 +107,26 @@
   "compilations": {
     "weekly": true,
     "monthly": true
+  },
+  "end_card": {
+    "enabled": true,
+    "seconds": 7,
+    "image": "assets/drizzlepudge/endcard.png",
+    "logo": "assets/drizzlepudge/drizzle.png",
+    "cta": "GROWN-UPS: LIKE, SHARE AND SUBSCRIBE TO",
+    "name": "DRIZZLE & PUDGE",
+    "sub": "NEW ADVENTURES DAILY!",
+    "handle": "DRIZZLE & PUDGE",
+    "initials": "D&P",
+    "colors": {
+      "bg_top": "#9fdcf7",
+      "bg_bottom": "#d4f5df",
+      "accent": "#8a5cc2",
+      "text": "#2f3a66"
+    },
+    "_note": "Shorts only (not compilations). Edit text/colours here, then: python tools/make_endcard.py <channel>",
+    "logo_size": 470,
+    "logo_top": 190,
+    "shadow": false
   }
 }

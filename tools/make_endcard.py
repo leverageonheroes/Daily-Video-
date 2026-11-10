@@ -50,9 +50,12 @@ def wrap(draw, text, f, max_w):
     return lines + [cur]
 
 
-def centred(draw, y, text, f, fill, shadow=True):
+SHADOW = True   # set per channel from end_card.shadow (pastel cards look cleaner without it)
+
+
+def centred(draw, y, text, f, fill, shadow=None):
     x = (W - draw.textlength(text, font=f)) / 2
-    if shadow:
+    if SHADOW if shadow is None else shadow:
         draw.text((x + 4, y + 5), text, font=f, fill=(0, 0, 0, 150))
     draw.text((x, y), text, font=f, fill=fill)
     return y + f.size * 1.18
@@ -118,6 +121,8 @@ def emblem(cfg, s, accent, ink):
 def build(channel):
     bible = json.loads((ROOT / "channels" / channel / "channel.json").read_text())
     cfg = bible["end_card"]
+    global SHADOW
+    SHADOW = cfg.get("shadow", True)
     col = {k: rgb(v) for k, v in cfg["colors"].items()}
     img = gradient(col["bg_top"], col["bg_bottom"]).convert("RGBA")
 

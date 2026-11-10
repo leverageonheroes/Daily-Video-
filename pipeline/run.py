@@ -13,6 +13,7 @@
   python -m pipeline.run check                 # test YouTube, Meta, LTX and fal.ai connections (free)
   python -m pipeline.run status
   python -m pipeline.run flow-prompts [ch]     # Google Flow channels: write today's 5 prompts to inbox/<ch>/PROMPTS.md
+  python -m pipeline.run carousel [ch]         # second daily video: image carousel + scrolling words (Railway)
   python -m pipeline.run flow-import [ch]      # Google Flow channels: once 5 clips are in inbox/<ch>/, assemble + upload
 
 Env: MOCK=1 (free test mode, no API calls), YT_UPLOAD=0 (render only), REVIEW_HOURS, DAILY_BUDGET_USD.
@@ -296,6 +297,9 @@ def main(argv):
         if failed:
             state.save(s)
             sys.exit(1)
+    elif cmd == "carousel":
+        from . import carousel
+        sys.exit(1 if carousel.run(argv[1:]) else 0)
     elif cmd == "sync-youtube":
         sync_youtube(s)
     elif cmd == "status":

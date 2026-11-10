@@ -213,3 +213,18 @@ Each Flow channel now needs 8 clips a day, so each channel uses two free Google 
 - The Crib Committee: Crib account 1 = clips 1-5, Crib account 2 = clips 6-8
 The daily issue labels every clip with its account. Name uploads 1.mp4 ... 8.mp4.
 Episodes are 64 s, over one minute, so they also qualify for TikTok's Creator Rewards Program.
+
+## 15. Daily carousel videos on Railway (Elders Council + Wishes from the Crib)
+
+1. Cloudflare (free images): dash.cloudflare.com → sign up → copy your Account ID (right sidebar) →
+   My Profile → API Tokens → Create Token → template "Workers AI" (or custom: Account › Workers AI › Read) → copy.
+2. Optional fallback: together.ai account → API key (free FLUX.1-schnell-Free endpoint).
+3. GitHub fine-grained token: github.com/settings/tokens?type=beta → only this repo → Contents: Read and write.
+4. Railway: New → Deploy from GitHub repo (this repo) → service Settings:
+   - Config-as-code path: `tools/railway/railway.json` (sets the Dockerfile + daily cron 05:17 UTC)
+   - Variables: GH_TOKEN, GIT_REPO (owner/name), CF_ACCOUNT_ID, CF_API_TOKEN, YT_TOKEN_ELDERS,
+     YT_TOKEN_CRIBCOMMITTEE (same JSON as the GitHub secrets), optional TOGETHER_API_KEY,
+     CAROUSEL_CHANNELS=elders,cribcommittee. First test with YT_UPLOAD=0, then remove it.
+5. Music: commit calm tracks to music/ named calm-piano.mp3, warm-strings.mp3, gentle-lullaby.mp3,
+   music-box.mp3 (YouTube Audio Library). Without them a soft synthesised pad is used.
+6. Timing: Elders carousel goes public 13:30, Crib 14:30 (UK). Change `publish_local` in carousel.json.

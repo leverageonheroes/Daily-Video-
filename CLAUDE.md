@@ -184,3 +184,15 @@ flash-forward, then a card ("12 HOURS EARLIER..."), then the story; `end_card` (
 channel.json. Above all, the last shot must open on its most shocking beat.
 `end_card` in channel.json is either a text string (drawn as a caption, Fridge Hearts) or an object with an
 image (a 4 s still appended to final.mp4, Elders / Crib Committee); pipeline/assemble.py handles both.
+
+## Daily carousel videos (second daily Short for elders + cribcommittee)
+
+`python -m pipeline.run carousel [ch]` makes a 66 s vertical video: 8 AI images (free FLUX via Cloudflare
+Workers AI, fallbacks Together AI / Pollinations: pipeline/images.py) in a rounded Ken Burns carousel with soft
+crossfades, the day's 8 lines scrolling gently up, music from music/ (moods in carousel.json), and a hook card
+for the last 8 s. Content: `channels/<ch>/carousel.json` (look, image prompt pools, 30 episodes), written by
+`tools/generators/build_carousel_content.py`. Progress: `state/carousel.json` (only the carousel writes it).
+Uploads private with a fixed `publishAt` (carousel.json `publish_local`, Europe/London): Elders 13:30, Crib 14:30.
+Runs daily on Railway (tools/railway/: Dockerfile, run_carousel.sh, railway.json cron 05:17 UTC). Backup /
+manual test: GitHub Actions "Carousel" workflow. Next batch: append 30 new episodes (8 new lines + hook, never
+repeating a line from the main scripts or earlier carousels) and run tools/validate.py.

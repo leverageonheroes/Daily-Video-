@@ -53,5 +53,25 @@
   "compilations": {
     "weekly": true,
     "monthly": true
+  },
+  "end_card": {
+    "enabled": true,
+    "seconds": 7,
+    "image": "assets/flat4b/endcard.png",
+    "logo": "assets/flat4b/logo.png",
+    "cta": "LIKE, SHARE AND SUBSCRIBE TO",
+    "name": "ONE IN A THOUSAND",
+    "sub": "A NEW SURVIVOR EVERY DAY",
+    "handle": "ONE IN A THOUSAND",
+    "initials": "OIT",
+    "colors": {
+      "bg_top": "#0f2b35",
+      "bg_bottom": "#040e13",
+      "accent": "#ffd06e",
+      "text": "#d8eef7"
+    },
+    "_note": "Shorts only (not compilations). Edit text/colours here, then: python tools/make_endcard.py <channel>",
+    "logo_size": 470,
+    "logo_top": 190
   }
 }

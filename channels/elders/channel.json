@@ -299,7 +299,7 @@
   },
   "end_card": {
     "enabled": true,
-    "seconds": 4,
+    "seconds": 7,
     "image": "assets/elders/endcard.png",
     "logo": "assets/elders/logo.png",
     "cta": "LIKE, SHARE AND SUBSCRIBE TO",
