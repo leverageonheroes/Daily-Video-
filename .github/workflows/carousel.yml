@@ -43,11 +43,17 @@ jobs:
       - name: Render (and upload)
         env:
           CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
-          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           CF_ACCOUNT: ${{ secrets.CF_ACCOUNT }}
+          CLOUDFLARE_ACCOUNT: ${{ secrets.CLOUDFLARE_ACCOUNT }}
           CLOUDFLARE_ID: ${{ secrets.CLOUDFLARE_ID }}
           CF_ID: ${{ secrets.CF_ID }}
+          CLOUDFLARE_ACC_ID: ${{ secrets.CLOUDFLARE_ACC_ID }}
+          CF_ACC_ID: ${{ secrets.CF_ACC_ID }}
+          CLOUDFLARE_ACCOUNTID: ${{ secrets.CLOUDFLARE_ACCOUNTID }}
+          CF_ACCOUNTID: ${{ secrets.CF_ACCOUNTID }}
+          ACCOUNT_ID: ${{ secrets.ACCOUNT_ID }}
+          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CF_API_KEY: ${{ secrets.CF_API_KEY }}
           CLOUDFLARE_API_KEY: ${{ secrets.CLOUDFLARE_API_KEY }}
@@ -55,13 +61,15 @@ jobs:
           CF_API: ${{ secrets.CF_API }}
           CLOUDFLARE_TOKEN: ${{ secrets.CLOUDFLARE_TOKEN }}
           CF_TOKEN: ${{ secrets.CF_TOKEN }}
+          CLOUDFLARE_KEY: ${{ secrets.CLOUDFLARE_KEY }}
+          CF_KEY: ${{ secrets.CF_KEY }}
           TOGETHER_API_KEY: ${{ secrets.TOGETHER_API_KEY }}
           YT_TOKEN_ELDERS: ${{ secrets.YT_TOKEN_ELDERS }}
           YT_TOKEN_CRIBCOMMITTEE: ${{ secrets.YT_TOKEN_CRIBCOMMITTEE }}
           YT_UPLOAD: ${{ github.event_name == 'push' && '1' || inputs.upload }}
           YT_PUBLISH_NOW: ${{ github.event_name == 'push' && '1' || inputs.publish_now }}
         run: |
-          for v in CF_ACCOUNT_ID CF_API_TOKEN CLOUDFLARE_ACCOUNT_ID CF_ACCOUNT CLOUDFLARE_ID CF_ID CLOUDFLARE_API_TOKEN CF_API_KEY CLOUDFLARE_API_KEY CLOUDFLARE_API CF_API CLOUDFLARE_TOKEN CF_TOKEN; do [ -n "${!v:-}" ] && echo "secret $v: set"; done
+          for v in CF_ACCOUNT_ID CLOUDFLARE_ACCOUNT_ID CF_ACCOUNT CLOUDFLARE_ACCOUNT CLOUDFLARE_ID CF_ID CLOUDFLARE_ACC_ID CF_ACC_ID CLOUDFLARE_ACCOUNTID CF_ACCOUNTID ACCOUNT_ID CF_API_TOKEN CLOUDFLARE_API_TOKEN CF_API_KEY CLOUDFLARE_API_KEY CLOUDFLARE_API CF_API CLOUDFLARE_TOKEN CF_TOKEN CLOUDFLARE_KEY CF_KEY; do [ -n "${!v:-}" ] && echo "secret $v: set"; done
           python -m pipeline.run carousel ${{ inputs.channels }}
       - name: Save progress
         if: always() && (github.event_name == 'push' || inputs.upload == '1')

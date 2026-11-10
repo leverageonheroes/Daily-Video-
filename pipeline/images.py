@@ -45,12 +45,36 @@ def _post(url, body, headers, timeout=180):
         raise ImageError(f"HTTP {e.code}: {e.read()[:300]!r}")
 
 
+CF_ACCOUNT_NAMES = ("CF_ACCOUNT_ID", "CLOUDFLARE_ACCOUNT_ID", "CF_ACCOUNT", "CLOUDFLARE_ACCOUNT", "CLOUDFLARE_ID",
+                    "CF_ID", "CLOUDFLARE_ACC_ID", "CF_ACC_ID", "CLOUDFLARE_ACCOUNTID", "CF_ACCOUNTID", "ACCOUNT_ID")
+CF_TOKEN_NAMES = ("CF_API_TOKEN", "CLOUDFLARE_API_TOKEN", "CF_API_KEY", "CLOUDFLARE_API_KEY", "CLOUDFLARE_API",
+                  "CF_API", "CLOUDFLARE_TOKEN", "CF_TOKEN", "CLOUDFLARE_KEY", "CF_KEY")
+_CF_ACCT = {}
+
+
+def _cf_account(tok):
+    """No account-id secret found: ask Cloudflare which account this API token belongs to."""
+    if tok in _CF_ACCT:
+        return _CF_ACCT[tok]
+    req = urllib.request.Request("https://api.cloudflare.com/client/v4/accounts?per_page=5",
+                                 headers={"Authorization": f"Bearer {tok}", "User-Agent": "shorts-studio"})
+    try:
+        with urllib.request.urlopen(req, timeout=30) as r:
+            accts = json.loads(r.read()).get("result") or []
+    except urllib.error.HTTPError as e:
+        raise ImageError(f"no CF account id secret, and /accounts lookup failed: HTTP {e.code} {e.read()[:200]!r}")
+    if not accts:
+        raise ImageError("no CF account id secret, and the token sees no accounts (add CF_ACCOUNT_ID)")
+    _CF_ACCT[tok] = accts[0]["id"]
+    print(f"   cloudflare: using account from token ({len(accts)} found)")
+    return _CF_ACCT[tok]
+
+
 def cloudflare(prompt, seed, dest: Path):
-    acct = _env("CF_ACCOUNT_ID", "CLOUDFLARE_ACCOUNT_ID", "CF_ACCOUNT", "CLOUDFLARE_ID", "CF_ID")
-    tok = _env("CF_API_TOKEN", "CLOUDFLARE_API_TOKEN", "CF_API_KEY", "CLOUDFLARE_API_KEY", "CLOUDFLARE_API", "CF_API",
-               "CLOUDFLARE_TOKEN", "CF_TOKEN")
-    if not (acct and tok):
-        raise ImageError("CF_ACCOUNT_ID / CF_API_TOKEN not set")
+    tok = _env(*CF_TOKEN_NAMES)
+    if not tok:
+        raise ImageError("CF_API_TOKEN not set")
+    acct = _env(*CF_ACCOUNT_NAMES) or _cf_account(tok)
     model = os.environ.get("CF_IMAGE_MODEL", "@cf/black-forest-labs/flux-1-schnell")
     res = _post(f"https://api.cloudflare.com/client/v4/accounts/{acct}/ai/run/{model}",
                 {"prompt": prompt, "steps": 8, "seed": seed}, {"Authorization": f"Bearer {tok}"})
