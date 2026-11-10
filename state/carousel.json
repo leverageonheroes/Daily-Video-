@@ -1,0 +1,15 @@
+{
+  "channels": {
+    "cribcommittee": {
+      "next": 1,
+      "done": {},
+      "used_images": []
+    },
+    "elders": {
+      "next": 1,
+      "done": {},
+      "used_images": []
+    }
+  },
+  "updated": "2026-11-10T15:48:52+00:00"
+}
