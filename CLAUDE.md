@@ -28,7 +28,7 @@ Channel 3 (Moral Of The Story TV) is general audience too, `made_for_kids: false
    episodes after `last_compiled_weekly` reach 8.5 min; `monthly` (1st) compiles everything after `last_compiled`.
    Both make long 16:9 videos with chapters; toggles live in channel.json `compilations`.
    Every finished Short + a TikTok caption is also kept in Release `tiktok-<channel>` for manual TikTok posting (SETUP.md §12).
-   Phone downloads (Elders + Crib): DOWNLOADS.md (tools/make_downloads_page.py, refreshed by flow-import) links each release video + caption.
+   Phone downloads (all 5 channels): DOWNLOADS.md (tools/make_downloads_page.py, refreshed by flow-import + daily) links each release video + caption.
 
 ## File layout
 
