@@ -6,20 +6,37 @@ import os
 from . import config
 
 SCOPES = ["https://www.googleapis.com/auth/youtube.upload",
-          "https://www.googleapis.com/auth/youtube.readonly"]
+          "https://www.googleapis.com/auth/youtube.readonly",
+          "https://www.googleapis.com/auth/youtube.force-ssl"]     # comments + playlists (pipeline/engage.py)
+MANAGE = "https://www.googleapis.com/auth/youtube.force-ssl"
+
+
+def token_info(channel: str):
+    raw = os.environ.get(f"YT_TOKEN_{channel.upper()}") or (os.environ.get("YT_TOKEN_CRIB") if channel == "cribcommittee" else None)
+    path = config.SECRETS / f"youtube_{channel}.json"
+    if not raw and path.exists():
+        raw = path.read_text()
+    return json.loads(raw) if raw else None
+
+
+def can_manage(channel: str) -> bool:
+    """True when the channel's login includes comments/playlists permission (older logins are upload-only)."""
+    info = token_info(channel) or {}
+    return MANAGE in (info.get("scopes") or []) or "https://www.googleapis.com/auth/youtube" in (info.get("scopes") or [])
+
+
+def is_quota_error(e) -> bool:
+    return "quotaExceeded" in str(e) or "dailyLimitExceeded" in str(e) or "uploadLimitExceeded" in str(e)
 
 
 def credentials(channel: str):
     from google.auth.transport.requests import Request
     from google.oauth2.credentials import Credentials
 
-    raw = os.environ.get(f"YT_TOKEN_{channel.upper()}") or (os.environ.get("YT_TOKEN_CRIB") if channel == "cribcommittee" else None)
-    path = config.SECRETS / f"youtube_{channel}.json"
-    if not raw and path.exists():
-        raw = path.read_text()
-    if not raw:
+    info = token_info(channel)
+    if not info:
         raise RuntimeError(f"No YouTube token for {channel}. Run: python tools/auth_youtube.py {channel}")
-    creds = Credentials.from_authorized_user_info(json.loads(raw), SCOPES)
+    creds = Credentials.from_authorized_user_info(info)     # the scopes this login was actually granted
     if not creds.valid:
         creds.refresh(Request())
     return creds

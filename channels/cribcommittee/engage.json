@@ -1,0 +1,103 @@
+{
+ "playlist_description": "Babies hold a meeting about parenting. Kind, funny, and based on mainstream child-development ideas.",
+ "formats_by_title": [
+  {
+   "match": "What Babies Wish You Knew About",
+   "format": "carousel"
+  },
+  {
+   "match": "What babies really mean",
+   "format": "babymean"
+  }
+ ],
+ "questions": {
+  "default": [
+   "Which baby is YOUR baby? Tell us below.",
+   "Which wish would your little one make first?",
+   "Parents: which one made you laugh, and which one made you think?",
+   "What topic should the Committee meet about next?"
+  ],
+  "carousel": [
+   "Which wish is your little one making today?",
+   "Which of these did you need to hear?"
+  ],
+  "babymean": [
+   "Which one is SO your baby? Tell us below.",
+   "What does YOUR baby really mean when they do this?",
+   "Add one to the list: what does your little one REALLY mean?"
+  ]
+ },
+ "playlists": [
+  {
+   "name": "Babies on Sleep & Bedtime",
+   "match": [
+    "sleep",
+    "bed",
+    "night",
+    "nap"
+   ]
+  },
+  {
+   "name": "Babies on Screens & Phones",
+   "match": [
+    "screen",
+    "phone"
+   ]
+  },
+  {
+   "name": "Babies on Big Feelings",
+   "match": [
+    "tantrum",
+    "feeling",
+    "cry",
+    "fear",
+    "conflict",
+    "separation",
+    "apolog"
+   ]
+  },
+  {
+   "name": "Babies on Play & Learning",
+   "match": [
+    "play",
+    "read",
+    "learn",
+    "language",
+    "outdoor",
+    "independ"
+   ]
+  },
+  {
+   "name": "Babies on Food & Mealtimes",
+   "match": [
+    "food",
+    "eat",
+    "meal",
+    "picky"
+   ]
+  },
+  {
+   "name": "Babies on Love & Attention",
+   "match": [
+    "love",
+    "attention",
+    "quality time",
+    "listen",
+    "praise",
+    "hug"
+   ]
+  },
+  {
+   "name": "What Babies Really Mean",
+   "formats": [
+    "babymean"
+   ]
+  },
+  {
+   "name": "Wishes from the Crib (daily)",
+   "formats": [
+    "carousel"
+   ]
+  }
+ ]
+}

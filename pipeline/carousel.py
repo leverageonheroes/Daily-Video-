@@ -18,7 +18,7 @@ import random
 import subprocess
 from pathlib import Path
 
-from . import assemble, config, images, seo
+from . import assemble, config, engage, images, seo
 
 W, H, FPS = 1080, 1920, 30
 WIN_X, WIN_Y, WIN_W, WIN_H = 150, 380, 780, 860       # Shorts safe zone: nothing here is covered by the app UI
@@ -333,11 +333,13 @@ def run_channel(s, ch, upload=True):
     cfg = load_cfg(ch)
     bible = json.loads((config.CHANNELS_DIR / ch / "channel.json").read_text())
     st = s["channels"].setdefault(ch, {"next": 1, "done": {}, "used_images": []})
-    n = st["next"]
     eps = cfg["episodes"]
-    if n > len(eps):
+    used = {int(k.split("-")[-1]) - 1 for k in st["done"]}
+    idx = engage.pick_episode(ch, eps, used)       # best-performing theme among the next 5 unused scripts
+    if idx is None:
         print(f"!! {ch}: all {len(eps)} carousel episodes are used - write the next batch (CLAUDE.md)")
         return None
+    n = idx + 1
     today = dt.datetime.now(dt.timezone.utc).date().isoformat()
     if upload and os.environ.get("YT_PUBLISH_NOW") != "1" and \
             any(r.get("rendered", "").startswith(today) and r.get("youtube_id") for r in st["done"].values()):
@@ -373,8 +375,8 @@ def run_channel(s, ch, upload=True):
         print(f"   -> {final} (upload off)")
     st["done"][ep_id] = rec
     st["used_images"] = sorted(used)[-2000:]
-    st["next"] = n + 1
-    left = len(eps) - n
+    st["next"] = len(st["done"]) + 1
+    left = len(eps) - len(st["done"])
     if left < 7:
         print(f"!! {ch}: only {left} carousel episodes left - write the next batch soon")
     return final

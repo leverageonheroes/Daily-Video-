@@ -1,0 +1,142 @@
+{
+ "playlist_description": "Original life lessons from our elders, one theme at a time. New wisdom every day.",
+ "formats_by_title": [
+  {
+   "match": "Elders Council",
+   "format": "carousel"
+  },
+  {
+   "match": "Finish the elder",
+   "format": "finish"
+  },
+  {
+   "match": "Then vs Now",
+   "format": "thennow"
+  }
+ ],
+ "questions": {
+  "default": [
+   "Which lesson hit you hardest? Tell us below.",
+   "What's the best advice an elder ever gave you?",
+   "Which of these do you wish you'd heard at 20?",
+   "Who in your life taught you something like this?",
+   "Which line are you going to remember this week?"
+  ],
+  "carousel": [
+   "Which line did you need today?",
+   "Pick one line and tell us why it spoke to you.",
+   "If you could add one lesson to the Council, what would it be?"
+  ],
+  "finish": [
+   "Did you guess the ending before it appeared? Be honest!",
+   "How would YOU have finished that sentence?",
+   "Got it right? Type your version below before scrolling."
+  ],
+  "thennow": [
+   "Which do you prefer, then or now? Tell us why.",
+   "What's one thing from the old days you wish would come back?",
+   "Old enough to remember the 'then'? Share a memory below."
+  ]
+ },
+ "playlists": [
+  {
+   "name": "Elders on Money",
+   "match": [
+    "money",
+    "rich",
+    "debt",
+    "sav",
+    "spend",
+    "wealth"
+   ]
+  },
+  {
+   "name": "Elders on Love & Marriage",
+   "match": [
+    "love",
+    "marri",
+    "romance",
+    "partner",
+    "dating"
+   ]
+  },
+  {
+   "name": "Elders on Regret",
+   "match": [
+    "regret"
+   ]
+  },
+  {
+   "name": "Elders on Family & Children",
+   "match": [
+    "family",
+    "child",
+    "parent",
+    "grand",
+    "kids"
+   ]
+  },
+  {
+   "name": "Elders on Health & Ageing",
+   "match": [
+    "health",
+    "aging",
+    "ageing",
+    "body",
+    "rest"
+   ]
+  },
+  {
+   "name": "Elders on Work & Purpose",
+   "match": [
+    "work",
+    "job",
+    "career",
+    "purpose",
+    "meaning",
+    "legacy"
+   ]
+  },
+  {
+   "name": "Elders on Friendship & Kindness",
+   "match": [
+    "friend",
+    "kind",
+    "people",
+    "community",
+    "listening",
+    "forgiv"
+   ]
+  },
+  {
+   "name": "Elders on Happiness & Peace",
+   "match": [
+    "happi",
+    "peace",
+    "gratitude",
+    "simplicity",
+    "hope",
+    "patience",
+    "time"
+   ]
+  },
+  {
+   "name": "Finish The Elder's Sentence",
+   "formats": [
+    "finish"
+   ]
+  },
+  {
+   "name": "Then vs Now",
+   "formats": [
+    "thennow"
+   ]
+  },
+  {
+   "name": "The Elders Council (daily wisdom)",
+   "formats": [
+    "carousel"
+   ]
+  }
+ ]
+}

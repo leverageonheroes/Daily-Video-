@@ -346,6 +346,15 @@ def main(argv):
     elif cmd == "carousel":
         from . import carousel
         sys.exit(1 if carousel.run(argv[1:]) else 0)
+    elif cmd == "extras":
+        from . import extras
+        sys.exit(1 if extras.run(argv[1:]) else 0)
+    elif cmd == "engage":
+        from . import engage
+        sys.exit(1 if engage.run_engage(argv[1:]) else 0)
+    elif cmd == "insights":
+        from . import engage
+        sys.exit(1 if engage.run_insights(argv[1:]) else 0)
     elif cmd == "sync-youtube":
         sync_youtube(s)
     elif cmd == "status":

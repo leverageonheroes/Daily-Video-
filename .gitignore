@@ -7,3 +7,4 @@ output_mock/
 state/state.mock.json
 flow_result.json
 uploads/
+state/*.mock.json

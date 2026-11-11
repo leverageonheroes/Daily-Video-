@@ -1,0 +1,62 @@
+{
+ "playlist_description": "One In A Thousand: true survival stories of creatures and cells.",
+ "questions": {
+  "default": [
+   "Did you know this before? Tell us below.",
+   "Which creature should we follow next?",
+   "What part surprised you most?"
+  ]
+ },
+ "playlists": [
+  {
+   "name": "One In A Thousand: Ocean Survivors",
+   "match": [
+    "turtle",
+    "octopus",
+    "eel",
+    "seahorse",
+    "jellyfish",
+    "coral",
+    "humpback",
+    "salmon",
+    "whale",
+    "sea",
+    "ocean",
+    "tern",
+    "albatross",
+    "penguin"
+   ]
+  },
+  {
+   "name": "One In A Thousand: Inside Your Body",
+   "match": [
+    "cell",
+    "heart",
+    "blood",
+    "first breath",
+    "firstbreath",
+    "body"
+   ]
+  },
+  {
+   "name": "One In A Thousand: Land & Sky Survivors",
+   "match": [
+    "elephant",
+    "wolf",
+    "bee",
+    "ant",
+    "beetle",
+    "kiwi",
+    "mayfly",
+    "monarch",
+    "frog",
+    "polar",
+    "sloth",
+    "tardigrade",
+    "wildebeest",
+    "hummingbird",
+    "sequoia"
+   ]
+  }
+ ]
+}

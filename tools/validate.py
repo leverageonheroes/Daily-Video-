@@ -165,6 +165,52 @@ def validate_carousel(ch_dir):
     return errors, warns
 
 
+def validate_extras(ch_dir):
+    """channels/<ch>/extras.json: short daily extra formats (pipeline/extras.py)."""
+    errors, warns = [], []
+    p = ch_dir / "extras.json"
+    if not p.exists():
+        return errors, warns
+    c = json.loads(p.read_text())
+    known = set()
+    cp = ch_dir / "carousel.json"
+    if cp.exists():
+        known = {ln for e in json.loads(cp.read_text())["episodes"] for ln in e["lines"]}
+    need = {"finish": ("theme", "start", "end"), "thennow": ("theme", "topic", "then_img", "now_img", "pairs", "lesson"),
+            "babymean": ("theme", "topic", "pairs")}
+    for name in c.get("priority", []):
+        if name not in c["formats"]:
+            errors.append(f"extras priority names unknown format {name}")
+    for name, fmt in c["formats"].items():
+        if name not in need:
+            errors.append(f"extras: unknown format {name} (pipeline/extras.py MAKERS)")
+            continue
+        seen = set()
+        for i, ep in enumerate(fmt["episodes"]):
+            tag = f"extras {name} #{i + 1}"
+            for k in need[name]:
+                if not ep.get(k):
+                    errors.append(f"{tag}: missing {k}")
+            texts = []
+            if name == "finish":
+                texts = [f"{ep.get('start', '')} {ep.get('end', '')}"]
+            elif ep.get("pairs"):
+                if len(ep["pairs"]) != 3:
+                    errors.append(f"{tag}: needs exactly 3 pairs")
+                texts = [" ".join(pr) for pr in ep["pairs"]] + ([ep["lesson"]] if ep.get("lesson") else [])
+            for t in texts:
+                if words(t) > 18:
+                    warns.append(f"{tag}: over 18 words: {t[:50]}")
+                if t in seen or t in known:
+                    errors.append(f"{tag}: repeats an earlier line: {t[:50]}")
+                seen.add(t)
+            try:
+                fmt["title_template"].format(**ep)
+            except KeyError as e:
+                errors.append(f"{tag}: title_template needs {e}")
+    return errors, warns
+
+
 def main():
     only = sys.argv[1] if len(sys.argv) > 1 else None
     bad = False
@@ -179,6 +225,9 @@ def main():
         else:
             print()
         ce, cw = validate_carousel(ch_dir)
+        errors += ce
+        warns += cw
+        ce, cw = validate_extras(ch_dir)
         errors += ce
         warns += cw
         for w in warns:

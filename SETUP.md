@@ -228,3 +228,39 @@ Episodes are 64 s, over one minute, so they also qualify for TikTok's Creator Re
 5. Music: commit calm tracks to music/ named calm-piano.mp3, warm-strings.mp3, gentle-lullaby.mp3,
    music-box.mp3 (YouTube Audio Library). Without them a soft synthesised pad is used.
 6. Timing: Elders carousel goes public 13:30, Crib 14:30 (UK). Change `publish_local` in carousel.json.
+
+**Update 2026-11-11:** the carousel now runs on GitHub Actions ("Carousel" workflow, 05:17 UTC). Railway is no
+longer used; delete the Railway project so it can't post twice (a same-day guard skips a second upload anyway).
+`music/calm-piano.mp3` and `music/gentle-lullaby.mp3` are our own synthesised tracks (tools/make_music.py).
+
+## 16. Growth autopilot: comments, playlists, weekly insights, daily extras
+
+**What runs by itself**
+- **Engage** workflow, every 3 h: a question comment on each newly public video (not the kids channel) and adds
+  it to theme playlists (created automatically). Settings per channel: `channels/<ch>/engage.json`.
+  The API cannot pin comments: pin the bot's question yourself in YouTube Studio if you like (optional).
+- **Engage** workflow, Sundays: `reports/insights.md` (views per video type and theme). Carousels and extras
+  then pick the best-scoring theme from their next 5 scripts (a theme needs 2+ videos before it counts).
+- **Extras** workflow, nightly: Finish the Elder's Sentence (17:00 UK), What Babies Really Mean (18:00 UK),
+  Then vs Now (20:00 UK). Scripts: `tools/generators/build_extras.py` (30 each).
+
+**One-time step A: give the logins comment + playlist permission** (until then engage skips those channels;
+uploads keep working). In the Codespace, for each channel:
+```
+python tools/auth_youtube.py elders          # open the link, pick the channel, Allow, paste the localhost URL
+```
+Then replace the GitHub secret `YT_TOKEN_<CHANNEL>` with the new contents of `secrets/youtube_<channel>.json`
+(Settings -> Secrets and variables -> Actions). Same Google project: do NOT create a new one (a new, unaudited
+project forces every upload to private).
+
+**One-time step B: ask Google for more upload quota (free).** All five channels share one Google Cloud project:
+10,000 units a day, and one upload costs 1,600, so about 6 uploads a day in total. The main Shorts and carousels
+already use about 5, so the extras only post when there is quota left over (they run last in the quota day and
+stop cleanly on "quotaExceeded"). Fill in Google's **"YouTube API Services - Audit and Quota Extension Form"**:
+- Project: the existing Shorts Studio project (same client ID as the tokens).
+- Requested quota: 30,000 units per day.
+- Use case: "Internal tool used only by me to publish my own original Shorts to my own five YouTube channels.
+  Daily: about 10 uploads (videos.insert, 1,600 units each), plus comments and playlist updates on my own videos
+  and reading my own video statistics. No other users, no public app, no data shared with anyone."
+- Answer the questions honestly; screenshots of the GitHub workflow and a sample video help.
+Approval takes days to a few weeks. Nothing needs changing afterwards: the extras simply start posting every day.

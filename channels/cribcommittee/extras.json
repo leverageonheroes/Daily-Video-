@@ -1,0 +1,565 @@
+{
+ "priority": [
+  "babymean"
+ ],
+ "formats": {
+  "babymean": {
+   "id_prefix": "CBM",
+   "publish_local": "18:00",
+   "duration": 22,
+   "header": "WHAT BABIES REALLY MEAN",
+   "cta": "Which one is SO your baby?",
+   "title_template": "What babies really mean: {topic} | The Crib Committee #shorts",
+   "intro": "If babies could explain themselves... Today:",
+   "tags": [
+    "baby behaviour",
+    "parenting",
+    "toddlers",
+    "gentle parenting",
+    "crib committee"
+   ],
+   "episodes": [
+    {
+     "theme": "sleep",
+     "topic": "Sleep",
+     "pairs": [
+      [
+       "When I fight sleep at 8pm,",
+       "I'm so tired I forgot how to stop."
+      ],
+      [
+       "When I wake at 3am just to see you,",
+       "I'm checking you're still there."
+      ],
+      [
+       "When I only nap on you,",
+       "you're my favourite place in the world."
+      ]
+     ]
+    },
+    {
+     "theme": "food",
+     "topic": "Mealtimes",
+     "pairs": [
+      [
+       "When I throw my spoon on the floor,",
+       "I'm doing science. Gravity still works."
+      ],
+      [
+       "When I refuse broccoli again,",
+       "keep offering. One day I might try it."
+      ],
+      [
+       "When I eat off your plate,",
+       "your food is the food I trust."
+      ]
+     ]
+    },
+    {
+     "theme": "crying",
+     "topic": "Crying",
+     "pairs": [
+      [
+       "When I cry the moment you leave,",
+       "I love you, and I'm learning you come back."
+      ],
+      [
+       "When I cry and you can't tell why,",
+       "just hold me. That's enough."
+      ],
+      [
+       "When I cry at new faces,",
+       "I'm not rude, just a tiny bit unsure."
+      ]
+     ]
+    },
+    {
+     "theme": "big feelings",
+     "topic": "Tantrums",
+     "pairs": [
+      [
+       "When I scream because my banana broke,",
+       "my feelings are bigger than my body."
+      ],
+      [
+       "When I go floppy on the floor,",
+       "I need you calm, not a lecture."
+      ],
+      [
+       "When I stomp my feet,",
+       "show me what to do with mad."
+      ]
+     ]
+    },
+    {
+     "theme": "play",
+     "topic": "Play",
+     "pairs": [
+      [
+       "When I empty every cupboard,",
+       "I'm learning where things live."
+      ],
+      [
+       "When I want the same game twenty times,",
+       "repeating is how my brain learns."
+      ],
+      [
+       "When I play with the box, not the toy,",
+       "the box can be anything."
+      ]
+     ]
+    },
+    {
+     "theme": "parent phone use",
+     "topic": "Your phone",
+     "pairs": [
+      [
+       "When I grab your phone,",
+       "I want what has your attention."
+      ],
+      [
+       "When I bring you a book while you scroll,",
+       "pick me, just for five minutes."
+      ],
+      [
+       "When I pretend to tap a remote,",
+       "I'm learning everything from you."
+      ]
+     ]
+    },
+    {
+     "theme": "independence",
+     "topic": "Doing it myself",
+     "pairs": [
+      [
+       "When I shout 'me do it!',",
+       "let me try, even if it's slow."
+      ],
+      [
+       "When my shoes are on the wrong feet,",
+       "I did it myself, and I'm proud."
+      ],
+      [
+       "When I say no to everything,",
+       "I'm finding out I'm my own person."
+      ]
+     ]
+    },
+    {
+     "theme": "bath time",
+     "topic": "Bath time",
+     "pairs": [
+      [
+       "When I splash the whole bathroom,",
+       "bath time is my favourite show."
+      ],
+      [
+       "When I cry at hair washing,",
+       "water in my eyes feels scary."
+      ],
+      [
+       "When I won't get out,",
+       "warm water feels like a hug."
+      ]
+     ]
+    },
+    {
+     "theme": "separation",
+     "topic": "Nursery drop-off",
+     "pairs": [
+      [
+       "When I cling to your leg at nursery,",
+       "say goodbye, then trust me to be brave."
+      ],
+      [
+       "When I ignore you at pickup,",
+       "I held it together all day."
+      ],
+      [
+       "When I'm extra wild at home,",
+       "home is where I can let it all out."
+      ]
+     ]
+    },
+    {
+     "theme": "language",
+     "topic": "Talking",
+     "pairs": [
+      [
+       "When I babble at you for ages,",
+       "talk back. We're having a conversation."
+      ],
+      [
+       "When I point and shout 'dat!',",
+       "tell me the word for it."
+      ],
+      [
+       "When I say a word wrong,",
+       "say it back the right way, kindly."
+      ]
+     ]
+    },
+    {
+     "theme": "new sibling",
+     "topic": "A new baby",
+     "pairs": [
+      [
+       "When I want to hold the new baby,",
+       "I'm practising being big."
+      ],
+      [
+       "When I act like a baby again,",
+       "I'm checking there's still room for me."
+      ],
+      [
+       "When I take my sister's toy,",
+       "sharing is really, really hard."
+      ]
+     ]
+    },
+    {
+     "theme": "outdoor play",
+     "topic": "Outside",
+     "pairs": [
+      [
+       "When I stop to stare at a snail,",
+       "no rush. This is my nature documentary."
+      ],
+      [
+       "When I jump in every puddle,",
+       "wellies were made for this."
+      ],
+      [
+       "When I collect sticks,",
+       "they're all treasure, I promise."
+      ]
+     ]
+    },
+    {
+     "theme": "bedtime",
+     "topic": "Bedtime",
+     "pairs": [
+      [
+       "When I ask for one more story,",
+       "I don't want our day to end."
+      ],
+      [
+       "When I need water, then a hug, then a song,",
+       "I'm stretching our time together."
+      ],
+      [
+       "When I want the same song every night,",
+       "same feels safe."
+      ]
+     ]
+    },
+    {
+     "theme": "choices",
+     "topic": "Getting dressed",
+     "pairs": [
+      [
+       "When I run off after my bath,",
+       "freedom! Then pyjamas. Fine."
+      ],
+      [
+       "When I insist on wearing the cape,",
+       "I feel braver in it."
+      ],
+      [
+       "When I refuse my coat,",
+       "give me two to choose from."
+      ]
+     ]
+    },
+    {
+     "theme": "praise",
+     "topic": "Praise",
+     "pairs": [
+      [
+       "When I show you my scribble,",
+       "tell me what you see, not just 'good job'."
+      ],
+      [
+       "When I clap for myself,",
+       "I'm proud. Clap with me!"
+      ],
+      [
+       "When I try again after falling,",
+       "notice the trying, not just the winning."
+      ]
+     ]
+    },
+    {
+     "theme": "fears",
+     "topic": "Fears",
+     "pairs": [
+      [
+       "When I'm scared of the hoover,",
+       "it's loud and I'm small."
+      ],
+      [
+       "When I hide behind your legs,",
+       "I'm brave, just warming up slowly."
+      ],
+      [
+       "When the dark feels scary,",
+       "your voice makes it smaller."
+      ]
+     ]
+    },
+    {
+     "theme": "helping",
+     "topic": "Helping",
+     "pairs": [
+      [
+       "When I 'help' you unload the dishwasher,",
+       "it's slower, but I'm learning I matter."
+      ],
+      [
+       "When I sweep and make it worse,",
+       "thank me anyway."
+      ],
+      [
+       "When I want to carry the shopping,",
+       "give me the bread. I'll be proud all day."
+      ]
+     ]
+    },
+    {
+     "theme": "comfort",
+     "topic": "Grumpy days",
+     "pairs": [
+      [
+       "When I chew everything,",
+       "my mouth is busy and curious."
+      ],
+      [
+       "When I'm grumpy for no reason,",
+       "there's usually a reason. Be patient."
+      ],
+      [
+       "When I want cuddles all day,",
+       "some days I just need you more."
+      ]
+     ]
+    },
+    {
+     "theme": "mealtime mess",
+     "topic": "Mess",
+     "pairs": [
+      [
+       "When I paint with my yoghurt,",
+       "I'm exploring textures, artistically."
+      ],
+      [
+       "When I feed myself and miss,",
+       "practice is messy. Let me keep going."
+      ],
+      [
+       "When I want to sit at the big table,",
+       "I want to eat just like you."
+      ]
+     ]
+    },
+    {
+     "theme": "reading",
+     "topic": "Books",
+     "pairs": [
+      [
+       "When I chew the book,",
+       "I love it in every way I know."
+      ],
+      [
+       "When I turn three pages at once,",
+       "I'm in charge of the story now."
+      ],
+      [
+       "When I bring the same book again,",
+       "I love knowing what happens next."
+      ]
+     ]
+    },
+    {
+     "theme": "attention",
+     "topic": "Watch me!",
+     "pairs": [
+      [
+       "When I say 'watch me!' fifty times,",
+       "I just want you to see me."
+      ],
+      [
+       "When I act up right after you sit down,",
+       "I miss you already."
+      ],
+      [
+       "When I climb into your lap,",
+       "no reason. Just love."
+      ]
+     ]
+    },
+    {
+     "theme": "car journeys",
+     "topic": "Car journeys",
+     "pairs": [
+      [
+       "When I yell in the car seat,",
+       "I'm bored and I can't see you."
+      ],
+      [
+       "When I fall asleep five minutes from home,",
+       "sorry, the car is magic."
+      ],
+      [
+       "When I wave at every lorry,",
+       "waving is my favourite hobby."
+      ]
+     ]
+    },
+    {
+     "theme": "transitions",
+     "topic": "Leaving the park",
+     "pairs": [
+      [
+       "When I melt down leaving the park,",
+       "warn me five minutes before."
+      ],
+      [
+       "When I won't stop playing,",
+       "switching is hard for small brains."
+      ],
+      [
+       "When I want to choose the cup,",
+       "small choices help me cooperate."
+      ]
+     ]
+    },
+    {
+     "theme": "apologising",
+     "topic": "Sharing and sorry",
+     "pairs": [
+      [
+       "When I snatch a toy back,",
+       "I don't have the words yet. Teach me."
+      ],
+      [
+       "When you say sorry to me,",
+       "I learn sorry from you."
+      ],
+      [
+       "When I hug my friend too hard,",
+       "I'm still learning gentle."
+      ]
+     ]
+    },
+    {
+     "theme": "shopping",
+     "topic": "The supermarket",
+     "pairs": [
+      [
+       "When I grab everything at the shop,",
+       "everything is new and shiny to me."
+      ],
+      [
+       "When I lie down in the aisle,",
+       "I'm overwhelmed. Let's take a break."
+      ],
+      [
+       "When I want to put things in the trolley,",
+       "give me a job and I'll shine."
+      ]
+     ]
+    },
+    {
+     "theme": "parent wellbeing",
+     "topic": "Tired parents",
+     "pairs": [
+      [
+       "When you're tired and I'm still awake,",
+       "it's okay to ask for help."
+      ],
+      [
+       "When you snap, then hug me,",
+       "making up matters more than perfect."
+      ],
+      [
+       "When you take a break,",
+       "a rested you is my favourite you."
+      ]
+     ]
+    },
+    {
+     "theme": "grandparents",
+     "topic": "Grandparents",
+     "pairs": [
+      [
+       "When I run to Grandma first,",
+       "she has biscuits and time."
+      ],
+      [
+       "When I fall asleep on Grandad,",
+       "he's the comfiest chair."
+      ],
+      [
+       "When I'm shy with them at first,",
+       "I just need a minute to remember."
+      ]
+     ]
+    },
+    {
+     "theme": "animals",
+     "topic": "Animals",
+     "pairs": [
+      [
+       "When I squeal at a dog,",
+       "everything fluffy is my friend."
+      ],
+      [
+       "When I reach for the cat's tail,",
+       "teach me gentle hands."
+      ],
+      [
+       "When I meow at you,",
+       "we're pretending. Please meow back."
+      ]
+     ]
+    },
+    {
+     "theme": "music",
+     "topic": "Music",
+     "pairs": [
+      [
+       "When I bounce to every song,",
+       "my body loves music before I know words."
+      ],
+      [
+       "When I bang pots and pans,",
+       "I'm a drummer. Find me a spoon."
+      ],
+      [
+       "When I want you to sing,",
+       "your voice is my favourite song."
+      ]
+     ]
+    },
+    {
+     "theme": "potty training",
+     "topic": "Potty training",
+     "pairs": [
+      [
+       "When I tell you after the accident,",
+       "I'm learning to notice. That's progress."
+      ],
+      [
+       "When I want to flush ten times,",
+       "flushing is fascinating."
+      ],
+      [
+       "When I sit on the potty for ages,",
+       "I'm thinking. Give me time."
+      ]
+     ]
+    }
+   ]
+  }
+ }
+}

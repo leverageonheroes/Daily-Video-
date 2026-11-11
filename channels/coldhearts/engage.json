@@ -1,0 +1,16 @@
+{
+ "playlist_description": "Fridge Hearts: the full soap opera inside a fridge, episode by episode.",
+ "questions": {
+  "default": [
+   "Team who? Pick a side below.",
+   "What happens next? Your theory below!",
+   "Who's the real villain of this fridge?",
+   "Rate the drama from 1 to 10."
+  ]
+ },
+ "playlists": [
+  {
+   "name": "Fridge Hearts: The Full Saga (in order)"
+  }
+ ]
+}

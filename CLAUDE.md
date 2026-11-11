@@ -198,3 +198,19 @@ Uploads private with a fixed `publishAt` (carousel.json `publish_local`, Europe/
 Runs daily on GitHub Actions ("Carousel" workflow, cron 05:17 UTC; moved off Railway 2026-11-11, tools/railway/ is
 unused). A channel that already uploaded a carousel today (UTC) is skipped, except catch-up runs (YT_PUBLISH_NOW=1). Next batch: append 30 new episodes (8 new lines + hook, never
 repeating a line from the main scripts or earlier carousels) and run tools/validate.py.
+
+## Growth autopilot (all GitHub Actions, free)
+
+- `python -m pipeline.run extras` (workflow Extras, nightly): short extra formats for the Flow channels,
+  pipeline/extras.py + `channels/<ch>/extras.json` (generator `tools/generators/build_extras.py`; append new
+  scripts there, never reorder published ones). Formats: elders:finish, elders:thennow, cribcommittee:babymean.
+  Progress `state/extras.json`. Runs only 22:00-24:00 Los Angeles time (end of the shared quota day) and stops on
+  quotaExceeded, so it never takes upload quota from the main Shorts. Catch-up: create/edit `triggers/extras-now` and push.
+- `python -m pipeline.run engage` (workflow Engage, every 3 h): question comment + theme playlists on newly public
+  videos (`channels/<ch>/engage.json`), max 20 inserts/day in total. Needs logins with the youtube.force-ssl scope
+  (SETUP.md section 16); upload-only logins are skipped with a note. State `state/engage.json`.
+- `python -m pipeline.run insights` (Engage, Sundays): `reports/insights.md` + `state/insights.json`. Carousel
+  and extras pick the best-scoring theme among their next 5 unused scripts (engage.pick_episode). When writing new
+  batches, read reports/insights.md and write more of what works.
+- QUOTA: all 5 channels share ONE Google Cloud project (10,000 units/day; upload 1,600). Never create a new
+  project for uploads: unaudited projects force uploads private. More quota = Google's audit/quota form (SETUP.md 16).
