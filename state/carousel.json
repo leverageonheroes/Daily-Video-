@@ -1,9 +1,40 @@
 {
   "channels": {
     "cribcommittee": {
-      "next": 1,
-      "done": {},
-      "used_images": []
+      "next": 2,
+      "done": {
+        "CRW-001": {
+          "theme": "bedtime",
+          "rendered": "2026-11-11T10:32:18+00:00",
+          "seconds": 73.02,
+          "youtube_id": "l-F25Zx1L5w",
+          "publish_at": null,
+          "meta": {
+            "facebook": [
+              "1008660331534872",
+              "1435774004824232"
+            ],
+            "instagram": [
+              "18459123574133262",
+              "18096568088253920"
+            ],
+            "facebook_reel": "122108732673535249",
+            "errors": [
+              "instagram_reel: POST https://rupload.facebook.com/ig-api-upload/v23.0/18018909548755506 -> HTTP 400: {\"debug_info\":{\"retriable\":false,\"type\":\"ProcessingFailedError\",\"message\":\"Request processing failed\"}}"
+            ]
+          }
+        }
+      },
+      "used_images": [
+        "03c4a6e66b5e",
+        "13d38b3b9fca",
+        "26f41187b48e",
+        "3e0c29d18015",
+        "3f49e55e963a",
+        "554dbe9a89d4",
+        "83d6ee961e98",
+        "8eefbc806fce"
+      ]
     },
     "elders": {
       "next": 2,
@@ -42,5 +73,5 @@
       ]
     }
   },
-  "updated": "2026-11-11T10:29:13+00:00"
+  "updated": "2026-11-11T10:37:08+00:00"
 }
