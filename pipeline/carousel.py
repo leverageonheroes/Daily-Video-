@@ -338,6 +338,12 @@ def run_channel(s, ch, upload=True):
     if n > len(eps):
         print(f"!! {ch}: all {len(eps)} carousel episodes are used - write the next batch (CLAUDE.md)")
         return None
+    today = dt.datetime.now(dt.timezone.utc).date().isoformat()
+    if upload and os.environ.get("YT_PUBLISH_NOW") != "1" and \
+            any(r.get("rendered", "").startswith(today) and r.get("youtube_id") for r in st["done"].values()):
+        # guard: two schedulers (GitHub + an old Railway cron) must never post the same channel twice a day
+        print(f"   {ch}: a carousel was already uploaded today ({today}) - skipped")
+        return None
     ep = eps[n - 1]
     ep_id = f"{cfg['id_prefix']}-{n:03d}"
     wd = config.OUTPUT / "carousel" / ch / ep_id

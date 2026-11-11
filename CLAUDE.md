@@ -195,6 +195,6 @@ are our own synthesised tracks from tools/make_music.py, replace with Audio Libr
 and a hook card for the last 8 s. Content: `channels/<ch>/carousel.json` (look, image prompt pools, 30 episodes), written by
 `tools/generators/build_carousel_content.py`. Progress: `state/carousel.json` (only the carousel writes it).
 Uploads private with a fixed `publishAt` (carousel.json `publish_local`, Europe/London): Elders 13:30, Crib 14:30.
-Runs daily on Railway (tools/railway/: Dockerfile, run_carousel.sh, railway.json cron 05:17 UTC). Backup /
-manual test: GitHub Actions "Carousel" workflow. Next batch: append 30 new episodes (8 new lines + hook, never
+Runs daily on GitHub Actions ("Carousel" workflow, cron 05:17 UTC; moved off Railway 2026-11-11, tools/railway/ is
+unused). A channel that already uploaded a carousel today (UTC) is skipped, except catch-up runs (YT_PUBLISH_NOW=1). Next batch: append 30 new episodes (8 new lines + hook, never
 repeating a line from the main scripts or earlier carousels) and run tools/validate.py.
