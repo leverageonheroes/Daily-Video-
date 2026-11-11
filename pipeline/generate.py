@@ -28,10 +28,18 @@ def reference_image(channel: str, bible: dict, char_id: str, char: dict) -> Path
     print(f"   reference image: {char['name']}")
     if config.MOCK:
         return fal_api.mock_image(dest, f"REF {char['name']}", COLORS[hash(char_id) % len(COLORS)], "1024x1024")
-    res = fal_api.run(config.IMAGE_T2I, {
-        "prompt": prompts.reference_prompt(bible, char),
-        "num_images": 1, "aspect_ratio": "1:1", "output_format": "png",
-    })
+    try:
+        res = fal_api.run(config.IMAGE_T2I, {
+            "prompt": prompts.reference_prompt(bible, char),
+            "num_images": 1, "aspect_ratio": "1:1", "output_format": "png",
+        })
+    except fal_api.GenerationError as e:     # nano-banana's checker sometimes rejects a harmless person prompt
+        if "content_policy" not in str(e):
+            raise
+        print(f"   {char['name']}: refused by {config.IMAGE_T2I}, using {config.IMAGE_KEY_T2I}")
+        res = fal_api.run(config.IMAGE_KEY_T2I, {
+            "prompt": prompts.reference_prompt(bible, char), "num_images": 1,
+            "image_size": {"width": 1024, "height": 1024}, "output_format": "png"})
     return fal_api.download(_first_image_url(res), dest)
 
 
