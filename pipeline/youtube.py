@@ -13,7 +13,7 @@ def credentials(channel: str):
     from google.auth.transport.requests import Request
     from google.oauth2.credentials import Credentials
 
-    raw = os.environ.get(f"YT_TOKEN_{channel.upper()}")
+    raw = os.environ.get(f"YT_TOKEN_{channel.upper()}") or (os.environ.get("YT_TOKEN_CRIB") if channel == "cribcommittee" else None)
     path = config.SECRETS / f"youtube_{channel}.json"
     if not raw and path.exists():
         raw = path.read_text()
