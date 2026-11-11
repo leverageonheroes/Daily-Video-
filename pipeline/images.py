@@ -10,6 +10,7 @@ Standard library only. Every image is cached on disk, so reruns never regenerate
 """
 import base64
 import json
+import re
 import os
 import time
 import urllib.error
@@ -52,6 +53,25 @@ CF_TOKEN_NAMES = ("CF_API_TOKEN", "CLOUDFLARE_API_TOKEN", "CF_API_KEY", "CLOUDFL
 _CF_ACCT = {}
 
 
+def _cf_account_scan():
+    """Account id saved under an unexpected name (or as a GitHub Variable): look at every env var, plus the
+    ALL_SECRETS / ALL_VARS JSON the workflow passes, for a Cloudflare-ish name holding a 32-hex id."""
+    pools = [dict(os.environ)]
+    for k in ("ALL_SECRETS", "ALL_VARS"):
+        try:
+            pools.append(json.loads(os.environ.get(k) or "{}") or {})
+        except ValueError:
+            pass
+    for pool in pools:
+        for name, v in pool.items():
+            n = name.upper()
+            v = str(v or "").strip()
+            if ("CF" in n or "CLOUDFLARE" in n or "ACCOUNT" in n) and re.fullmatch(r"[0-9a-fA-F]{32}", v):
+                print(f"   cloudflare: account id found in {name}")
+                return v
+    return None
+
+
 def _cf_account(tok):
     """No account-id secret found: ask Cloudflare which account this API token belongs to."""
     if tok in _CF_ACCT:
@@ -74,7 +94,7 @@ def cloudflare(prompt, seed, dest: Path):
     tok = _env(*CF_TOKEN_NAMES)
     if not tok:
         raise ImageError("CF_API_TOKEN not set")
-    acct = _env(*CF_ACCOUNT_NAMES) or _cf_account(tok)
+    acct = _env(*CF_ACCOUNT_NAMES) or _cf_account_scan() or _cf_account(tok)
     model = os.environ.get("CF_IMAGE_MODEL", "@cf/black-forest-labs/flux-1-schnell")
     res = _post(f"https://api.cloudflare.com/client/v4/accounts/{acct}/ai/run/{model}",
                 {"prompt": prompt, "steps": 8, "seed": seed}, {"Authorization": f"Bearer {tok}"})
