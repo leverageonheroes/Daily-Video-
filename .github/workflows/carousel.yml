@@ -70,6 +70,7 @@ jobs:
           CF_TOKEN: ${{ secrets.CF_TOKEN }}
           CLOUDFLARE_KEY: ${{ secrets.CLOUDFLARE_KEY }}
           CF_KEY: ${{ secrets.CF_KEY }}
+          GH_TOKEN: ${{ github.token }}
           TOGETHER_API_KEY: ${{ secrets.TOGETHER_API_KEY }}
           YT_TOKEN_ELDERS: ${{ secrets.YT_TOKEN_ELDERS }}
           YT_TOKEN_CRIBCOMMITTEE: ${{ secrets.YT_TOKEN_CRIBCOMMITTEE || secrets.YT_TOKEN_CRIB }}

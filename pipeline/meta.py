@@ -150,8 +150,62 @@ def facebook_video(fb_id, token, video: Path, title: str, text: str) -> str:
 def _ig_publish(ig_id, token, video: Path, **fields) -> str:
     box = _post(f"{ig_id}/media", token, upload_type="resumable", **fields)
     _rupload(f"{RUPLOAD}/ig-api-upload/{VERSION}/{box['id']}", token, video)
+    return _ig_wait_publish(ig_id, token, box["id"])
+
+
+def _encode_ig(video: Path, out: Path) -> Path:
+    """Instagram Reels spec copy: H.264 High 4.1, 30 fps, capped bitrate, AAC 48 kHz stereo, moov first.
+    Smaller than reel.mp4 (rupload rejects big single-request uploads with ProcessingFailedError)."""
+    if not out.exists():
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(video),
+                        "-vf", "scale=1080:1920:force_original_aspect_ratio=decrease,pad=1080:1920:(ow-iw)/2:(oh-ih)/2,fps=30",
+                        "-c:v", "libx264", "-profile:v", "high", "-level", "4.1", "-preset", "medium", "-crf", "23",
+                        "-maxrate", "6M", "-bufsize", "12M", "-g", "60", "-pix_fmt", "yuv420p",
+                        "-c:a", "aac", "-b:a", "128k", "-ar", "48000", "-ac", "2",
+                        "-movflags", "+faststart", str(out)], check=True)
+    return out
+
+
+IG_STAGING = "ig-staging"
+
+
+def _repo():
+    return os.environ.get("GITHUB_REPOSITORY") or os.environ.get("GIT_REPO") or ""
+
+
+def _gh_api(method, url, data=None, ctype="application/json"):
+    tok = os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN")
+    body = json.dumps(data).encode() if isinstance(data, dict) else data
+    return _call(method, url if url.startswith("https") else f"https://api.github.com/repos/{_repo()}/{url}",
+                 data=body, headers={"Authorization": f"Bearer {tok}", "Accept": "application/vnd.github+json",
+                                     "Content-Type": ctype, "User-Agent": "shorts-studio"})
+
+
+def _public_url(video: Path, name: str):
+    """Put the video on a public GitHub Release so Instagram can fetch it by URL (the repo is public).
+    Returns (url, asset_id)."""
+    if not _repo() or not (os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN")):
+        raise MetaError("video_url fallback needs GH_TOKEN and GITHUB_REPOSITORY/GIT_REPO")
+    try:
+        rel = _gh_api("GET", f"releases/tags/{IG_STAGING}")
+    except MetaError:
+        rel = _gh_api("POST", "releases", {"tag_name": IG_STAGING, "name": "Instagram staging (temporary)",
+                                           "body": "Temporary copies Instagram fetches by URL; deleted after posting."})
+    up = rel["upload_url"].split("{")[0] + "?name=" + urllib.parse.quote(name)
+    asset = _gh_api("POST", up, video.read_bytes(), ctype="video/mp4")
+    return asset["browser_download_url"], asset["id"]
+
+
+def _drop_staged(asset_id):
+    try:
+        _gh_api("DELETE", f"releases/assets/{asset_id}")
+    except Exception as e:
+        print(f"   (could not delete staged asset {asset_id}: {e})")
+
+
+def _ig_wait_publish(ig_id, token, cid) -> str:
     for _ in range(60):                      # processing usually takes 10-60 s
-        st = _call("GET", f"{GRAPH}/{box['id']}", {"fields": "status_code,status", "access_token": token})
+        st = _call("GET", f"{GRAPH}/{cid}", {"fields": "status_code,status", "access_token": token})
         if st.get("status_code") == "FINISHED":
             break
         if st.get("status_code") in ("ERROR", "EXPIRED"):
@@ -159,11 +213,32 @@ def _ig_publish(ig_id, token, video: Path, **fields) -> str:
         time.sleep(10)
     else:
         raise MetaError("Instagram processing timed out")
-    return str(_post(f"{ig_id}/media_publish", token, creation_id=box["id"])["id"])
+    return str(_post(f"{ig_id}/media_publish", token, creation_id=cid)["id"])
 
 
 def instagram_reel(ig_id, token, video: Path, text: str) -> str:
-    return _ig_publish(ig_id, token, video, media_type="REELS", caption=text, share_to_feed="true")
+    """1) resumable upload of an IG-spec copy (twice); 2) fallback: Instagram fetches it from a public URL."""
+    ig = _encode_ig(video, video.parent / "ig_reel.mp4")
+    fields = {"media_type": "REELS", "caption": text, "share_to_feed": "true"}
+    err = None
+    for attempt in (1, 2):
+        try:
+            return _ig_publish(ig_id, token, ig, **fields)
+        except Exception as e:
+            err = e
+            print(f"   instagram reel upload attempt {attempt} failed ({str(e)[:160]})")
+            time.sleep(15)
+    name = f"{ig_id}-{int(time.time())}.mp4"
+    try:
+        url, asset_id = _public_url(ig, name)
+    except Exception as e:
+        raise MetaError(f"{err} | url fallback: {e}")
+    print("   instagram reel: trying video_url fallback")
+    try:
+        box = _post(f"{ig_id}/media", token, video_url=url, **fields)
+        return _ig_wait_publish(ig_id, token, box["id"])
+    finally:
+        _drop_staged(asset_id)
 
 
 def story_parts(video: Path, episode: dict, total: float) -> list[Path]:
@@ -220,7 +295,7 @@ def post_stories(channel, video: Path, episode: dict, total: float, done: dict, 
                 continue
             full = full or _encode(video, video.parent / "reel.mp4")
             if name == "instagram_reel":
-                out[name] = _retry_once(instagram_reel, target, ptoken, full, text)
+                out[name] = instagram_reel(target, ptoken, full, text)
                 print("   instagram reel posted (shared to feed)")
             elif total <= MAX_FB_REEL_SECONDS:
                 out[name] = _retry_once(facebook_reel, target, ptoken, full, text)
