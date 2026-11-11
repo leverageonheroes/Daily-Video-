@@ -6,8 +6,9 @@ Content lives in channels/<ch>/carousel.json (series look, image prompt pools, 3
 Progress lives in state/carousel.json (separate from state/state.json, so the Railway worker and GitHub
 Actions never edit the same file). Images come from free providers (pipeline/images.py).
 
-Layout (1080x1920): header (series + theme) / 960x960 rounded image carousel with slow Ken Burns and soft
-crossfades / text window where the lines scroll up / hook card for the last seconds / small footer.
+Layout (1080x1920): full-screen images (slow Ken Burns, soft crossfades) under a dark scrim; header (series +
+theme) at the top; the lines scroll up over the images inside the YouTube Shorts SAFE ZONE (y 380-1240,
+x 150-930), clear of the title/channel/buttons that cover the bottom ~35% and the right edge; hook card last.
 """
 import datetime as dt
 import hashlib
@@ -20,8 +21,7 @@ from pathlib import Path
 from . import assemble, config, images, seo
 
 W, H, FPS = 1080, 1920, 30
-IMG_X, IMG_Y, IMG = 60, 250, 960
-WIN_X, WIN_Y, WIN_W, WIN_H = 80, 1265, 920, 520
+WIN_X, WIN_Y, WIN_W, WIN_H = 150, 380, 780, 860       # Shorts safe zone: nothing here is covered by the app UI
 STATE = config.ROOT / "state" / ("carousel.mock.json" if config.MOCK else "carousel.json")
 FONTS = {
     "serif": ("/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf", "/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf"),
@@ -102,31 +102,34 @@ def _hex(c):
 
 
 def draw_base(cfg, ep, dest: Path):
-    from PIL import Image, ImageDraw, ImageFilter
+    """Transparent overlay: dark scrim (stronger at the top and behind the text zone) + header + divider."""
+    from PIL import Image, ImageChops, ImageDraw, ImageFilter
     lay = cfg["layout"]
-    top, bot = _hex(lay["bg_top"]), _hex(lay["bg_bottom"])
-    im = Image.new("RGB", (W, H))
-    d = ImageDraw.Draw(im)
+    shade = Image.new("L", (W, H), 0)
+    d = ImageDraw.Draw(shade)
     for y in range(H):
-        t = y / (H - 1)
-        d.line([(0, y), (W, y)], fill=tuple(int(a + (b - a) * t) for a, b in zip(top, bot)))
-    # soft glow behind the image frame
-    glow = Image.new("L", (W, H), 0)
-    ImageDraw.Draw(glow).rounded_rectangle([IMG_X - 10, IMG_Y - 10, IMG_X + IMG + 10, IMG_Y + IMG + 10], 48, fill=110)
-    glow = glow.filter(ImageFilter.GaussianBlur(28))
-    im.paste(Image.new("RGB", (W, H), _hex(lay["accent"])), (0, 0), glow)
+        a = 95                                                   # whole frame ~37% darker
+        if y < 420:
+            a += int(120 * (1 - y / 420))                        # header readable
+        if y > 1500:
+            a += int(90 * (y - 1500) / (H - 1500))               # app UI readable
+        d.line([(0, y), (W, y)], fill=min(a, 235))
+    band = Image.new("L", (W, H), 0)
+    ImageDraw.Draw(band).rounded_rectangle([WIN_X - 40, WIN_Y - 30, WIN_X + WIN_W + 40, WIN_Y + WIN_H + 30],
+                                           60, fill=70)
+    band = band.filter(ImageFilter.GaussianBlur(40))
+    alpha = ImageChops.add(shade, band)                          # extra darkening behind the scrolling words
+    im = Image.new("RGBA", (W, H), (8, 6, 12, 0))
+    im.putalpha(alpha)
     d = ImageDraw.Draw(im)
     acc = _hex(lay["accent"])
     f1, f2 = _font(cfg, True, 40), _font(cfg, True, 74)
     head = lay["header"]
-    d.text(((W - d.textlength(head, font=f1)) / 2, 72), head, font=f1, fill=acc)
     sub = ep.get("subtitle") or f"on {ep['theme'].title()}"
-    d.text(((W - d.textlength(sub, font=f2)) / 2, 128), sub, font=f2, fill=(250, 246, 238))
-    # thin divider above the text window
-    d.line([(W / 2 - 90, WIN_Y - 32), (W / 2 + 90, WIN_Y - 32)], fill=acc, width=3)
-    ff = _font(cfg, False, 30)
-    foot = lay.get("footer", "")
-    d.text(((W - d.textlength(foot, font=ff)) / 2, H - 92), foot, font=ff, fill=(200, 195, 190))
+    for text, f, y, col in ((head, f1, 150, acc), (sub, f2, 202, (250, 246, 238))):
+        d.text(((W - d.textlength(text, font=f)) / 2, y), text, font=f, fill=col + (255,),
+               stroke_width=3, stroke_fill=(0, 0, 0, 170))
+    d.line([(W / 2 - 90, WIN_Y - 40), (W / 2 + 90, WIN_Y - 40)], fill=acc + (255,), width=3)
     im.save(dest)
     return dest
 
@@ -147,8 +150,8 @@ def draw_text_strip(cfg, ep, dest: Path):
     for i, b in enumerate(blocks):
         for ln in b:
             x = (WIN_W - d.textlength(ln, font=f)) / 2
-            d.text((x + 2, y + 3), ln, font=f, fill=(0, 0, 0, 150))      # soft shadow
-            d.text((x, y), ln, font=f, fill=(252, 248, 240, 255))
+            d.text((x + 2, y + 4), ln, font=f, fill=(0, 0, 0, 170))      # soft shadow
+            d.text((x, y), ln, font=f, fill=(255, 252, 245, 255), stroke_width=3, stroke_fill=(0, 0, 0, 200))
             y += lh
         if i < len(blocks) - 1:
             cy = y + (gap - lh) // 2 + lh // 2 - 6
@@ -169,11 +172,13 @@ def draw_hook(cfg, ep, dest: Path):
     total = len(lines) * 78 + (len(cta) * 58 + 30 if cta else 0)
     y = WIN_Y + (WIN_H - total) / 2
     for ln in lines:
-        d.text(((W - d.textlength(ln, font=big)) / 2, y), ln, font=big, fill=(252, 248, 240, 255))
+        d.text(((W - d.textlength(ln, font=big)) / 2, y), ln, font=big, fill=(255, 252, 245, 255),
+               stroke_width=3, stroke_fill=(0, 0, 0, 200))
         y += 78
     y += 30
     for ln in cta:
-        d.text(((W - d.textlength(ln, font=small)) / 2, y), ln, font=small, fill=acc + (255,))
+        d.text(((W - d.textlength(ln, font=small)) / 2, y), ln, font=small, fill=acc + (255,),
+               stroke_width=2, stroke_fill=(0, 0, 0, 200))
         y += 58
     im.save(dest)
     return dest
@@ -181,9 +186,6 @@ def draw_hook(cfg, ep, dest: Path):
 
 def draw_masks(workdir: Path):
     from PIL import Image, ImageDraw
-    m = Image.new("L", (IMG, IMG), 0)
-    ImageDraw.Draw(m).rounded_rectangle([0, 0, IMG - 1, IMG - 1], 40, fill=255)
-    m.save(workdir / "mask_round.png")
     g = Image.new("L", (WIN_W, WIN_H), 255)
     dg = ImageDraw.Draw(g)
     edge = 90
@@ -213,24 +215,23 @@ def render(cfg, ep, imgs: list, workdir: Path) -> Path:
     k = n + 1
     cmd += ["-loop", "1", "-framerate", str(FPS), "-i", str(strip),
             "-loop", "1", "-framerate", str(FPS), "-i", str(hook),
-            "-loop", "1", "-framerate", str(FPS), "-i", str(workdir / "mask_round.png"),
             "-loop", "1", "-framerate", str(FPS), "-i", str(workdir / "mask_fade.png")]
-    i_txt, i_hook, i_round, i_fade = k, k + 1, k + 2, k + 3
+    i_txt, i_hook, i_fade = k, k + 1, k + 2
     frames = int(seg * FPS)
     fc = []
     for j in range(n):
         zx = ["iw/2-(iw/zoom/2)", "0", "iw-iw/zoom", "iw/2-(iw/zoom/2)"][j % 4]
         zy = ["ih/2-(ih/zoom/2)", "ih/2-(ih/zoom/2)", "ih/2-(ih/zoom/2)", "0"][j % 4]
-        fc.append(f"[{j + 1}:v]scale=1440:1440,zoompan=z='min(zoom+0.0007,1.14)':x='{zx}':y='{zy}':"
-                  f"d={frames}:s={IMG}x{IMG}:fps={FPS},setsar=1,format=yuv420p[s{j}]")
+        # square source -> fill the whole 9:16 frame (centre crop), then slow Ken Burns
+        fc.append(f"[{j + 1}:v]scale=2160:2160,crop=1215:2160,zoompan=z='min(zoom+0.0006,1.12)':x='{zx}':y='{zy}':"
+                  f"d={frames}:s={W}x{H}:fps={FPS},setsar=1,format=yuv420p[s{j}]")
     last = "s0"
     for j in range(1, n):
         off = j * (seg - 1)
         tr = TRANSITIONS[(j - 1) % len(TRANSITIONS)]
         fc.append(f"[{last}][s{j}]xfade=transition={tr}:duration=1:offset={off:.3f}[x{j}]")
         last = f"x{j}"
-    fc.append(f"[{last}]format=rgba[sl];[{i_round}:v]format=gray,scale={IMG}:{IMG}[rm];[sl][rm]alphamerge[slr]")
-    fc.append(f"[0:v][slr]overlay={IMG_X}:{IMG_Y}:shortest=1[v1]")
+    fc.append(f"[0:v]format=rgba[scrim];[{last}][scrim]overlay=0:0:shortest=1[v1]")
     # scroll the (transparent) text layer itself: pad it with empty space, slide a window down it over time,
     # then fade its alpha at the window's top and bottom edges
     fc.append(f"[{i_txt}:v]format=rgba,pad={WIN_W}:ih+{2 * WIN_H}:0:{WIN_H}:color=black@0,"

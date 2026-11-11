@@ -188,9 +188,11 @@ image (a 4 s still appended to final.mp4, Elders / Crib Committee); pipeline/ass
 ## Daily carousel videos (second daily Short for elders + cribcommittee)
 
 `python -m pipeline.run carousel [ch]` makes a 66 s vertical video: 8 AI images (free FLUX via Cloudflare
-Workers AI, fallbacks Together AI / Pollinations: pipeline/images.py) in a rounded Ken Burns carousel with soft
-crossfades, the day's 8 lines scrolling gently up, music from music/ (moods in carousel.json), and a hook card
-for the last 8 s. Content: `channels/<ch>/carousel.json` (look, image prompt pools, 30 episodes), written by
+Workers AI, fallbacks Together AI / Pollinations: pipeline/images.py) full-screen with Ken Burns and soft
+crossfades, the day's 8 lines scrolling up OVER the images inside the Shorts safe zone (y 380-1240: the bottom ~35%
+is hidden by YouTube's title/buttons), music from music/ (moods in carousel.json; `calm-piano` / `gentle-lullaby`
+are our own synthesised tracks from tools/make_music.py, replace with Audio Library tracks of the same name any time),
+and a hook card for the last 8 s. Content: `channels/<ch>/carousel.json` (look, image prompt pools, 30 episodes), written by
 `tools/generators/build_carousel_content.py`. Progress: `state/carousel.json` (only the carousel writes it).
 Uploads private with a fixed `publishAt` (carousel.json `publish_local`, Europe/London): Elders 13:30, Crib 14:30.
 Runs daily on Railway (tools/railway/: Dockerfile, run_carousel.sh, railway.json cron 05:17 UTC). Backup /

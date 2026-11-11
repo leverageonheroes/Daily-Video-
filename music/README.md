@@ -16,3 +16,6 @@ Drizzle & Pudge (kids):
 playful-xylophone.mp3  bouncy-ukulele.mp3  gentle-music-box.mp3  silly-tuba.mp3  magic-twinkle.mp3  happy-whistle.mp3
 ```
 mp3, m4a, wav or ogg all work. Tracks loop automatically and sit at 12% volume under the dialogue.
+
+Carousel tracks `calm-piano.mp3` (Elders) and `gentle-lullaby.mp3` (Crib) are original, synthesised by
+`tools/make_music.py` (no copyright). Drop a real track with the same name here to replace one.
