@@ -204,6 +204,9 @@ def daily(s, channels):
         if flow.is_flow(ch):
             print(f"   {ch}: Google Flow channel - made by flow-import, skipped by daily (never paid)")
             continue
+        if generate.load_bible(ch).get("paused"):
+            print(f"   {ch}: paused in channel.json (\"paused\": true) -> skipped")
+            continue
         if os.environ.get("ONCE_PER_DAY") == "1" and rendered_today(s, ch):
             print(f"   {ch}: already made an episode today (UTC) -> skipped (backup schedule)")
             continue
