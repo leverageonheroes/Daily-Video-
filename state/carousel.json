@@ -6,10 +6,41 @@
       "used_images": []
     },
     "elders": {
-      "next": 1,
-      "done": {},
-      "used_images": []
+      "next": 2,
+      "done": {
+        "ELC-001": {
+          "theme": "money",
+          "rendered": "2026-11-11T10:24:04+00:00",
+          "seconds": 73.02,
+          "youtube_id": "zFFt1Wcl3xo",
+          "publish_at": null,
+          "meta": {
+            "facebook": [
+              "3008213672870412",
+              "2680090992435484"
+            ],
+            "instagram": [
+              "18351396607284257",
+              "18118616828327600"
+            ],
+            "facebook_reel": "122104056045541373",
+            "errors": [
+              "instagram_reel: POST https://rupload.facebook.com/ig-api-upload/v23.0/18089323607398291 -> HTTP 400: {\"debug_info\":{\"retriable\":false,\"type\":\"ProcessingFailedError\",\"message\":\"Request processing failed\"}}"
+            ]
+          }
+        }
+      },
+      "used_images": [
+        "413b98f2dde4",
+        "5e503aa532d6",
+        "6f41032d88fa",
+        "84f393662157",
+        "b7f830bcda58",
+        "ce42964ee269",
+        "edb0448ffb1a",
+        "ff7a9b0502c5"
+      ]
     }
   },
-  "updated": "2026-11-11T10:19:52+00:00"
+  "updated": "2026-11-11T10:29:13+00:00"
 }
