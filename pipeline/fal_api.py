@@ -23,7 +23,7 @@ def upload(path: Path) -> str:
     """Upload a local file to fal storage and return its URL."""
     if config.MOCK:
         return f"file://{path}"
-    return _client().upload_file(str(path))
+    return _client().upload_file(Path(path))
 
 
 def run(endpoint: str, arguments: dict, retries: int = 2) -> dict:

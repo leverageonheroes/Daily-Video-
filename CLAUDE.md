@@ -7,13 +7,13 @@ Everything you need to resume is on disk: never rely on chat memory.
 |---|---|---|---|
 | 1 | `channels/flat4b/` | **One In A Thousand** (was Flat 4B; old scripts in `archive/`) — true survival stories of creatures and cells | Narrated cinematic explainer, 7 shots = 64 s, one narrator voice (pipeline/narration.py) |
 | 2 | `channels/coldhearts/` | **Fridge Hearts** (folder still `coldhearts`) — a soap opera inside a fridge | Melodramatic micro-soap, 60–85 s, flash-forward cold open + cliffhanger + TO BE CONTINUED card |
-| 3 | `channels/drizzlepudge/` | **Drizzle & Pudge** — a baby rain cloud and her hedgehog best friend | Wordless kids cartoon, 30–45 s, ends with the Puddle Jump |
+| 3 | `channels/drizzlepudge/` | **Moral Of The Story TV** (slot formerly Drizzle & Pudge) — live-action African drama arcs | 6-part arcs, ~80 s per part on Veo 3.1 Lite, recap + cliffhanger freeze, full movie auto-compiled 24 h after each finale |
 | 4 | `channels/elders/` | **Ask The Elders** — realistic AI elders, one life lesson each | 8 elders × 8 s = 64 s, one theme per Short (2 Flow accounts). **Google Flow channel** (see below) |
 | 5 | `channels/cribcommittee/` | **The Crib Committee** — babies hold a meeting about parenting | 8 babies × 8 s = 64 s, one topic per Short (2 Flow accounts). **Google Flow channel** (see below) |
 
 Channels 1–2, 4 and 5 are **general audience, NOT "made for kids"**. Keep humour clean (no swearing,
 sexual content, gore, cruelty, real brands, real people, or copyrighted characters).
-Channel 3 is **MADE FOR KIDS** (ages 2–7): `made_for_kids: true` in its channel.json sets it on every upload.
+Channel 3 (Moral Of The Story TV) is general audience too, `made_for_kids: false`. (Its old Drizzle & Pudge kids show is archived.)
 
 ## Resume checklist (do this at the start of every session)
 
@@ -83,7 +83,7 @@ Hard rules (enforced by `tools/validate.py`):
 4. One In A Thousand: see its section at the end (generator script, not hand-written JSON).
    (Archived Flat 4B rule:) one relatable adult-life situation (work, money, flat-sharing, dating, gym, admin),
    escalation, a twist punchline in the final shot, and a last frame that loops to the first.
-5b. Drizzle & Pudge: NO dialogue (`lines` always empty; giggles/gasps/hiccups go in `sfx`). Drizzle's surprise
+5b. (Archived, see channels/drizzlepudge/archive/) Drizzle & Pudge: NO dialogue (`lines` always empty; giggles/gasps/hiccups go in `sfx`). Drizzle's surprise
    rain (bubbles, petals, colours, snow...) causes a small problem, friends fix it kindly, one gentle good thing is
    modelled (sharing, helping, trying again, sorry, counting, colours, shapes), and the LAST shot is always the
    6-second Puddle Jump. Obey every rule in `kids_safety_rules` (nothing unsafe a child could copy, nobody left
@@ -214,3 +214,16 @@ repeating a line from the main scripts or earlier carousels) and run tools/valid
   batches, read reports/insights.md and write more of what works.
 - QUOTA: all 5 channels share ONE Google Cloud project (10,000 units/day; upload 1,600). Never create a new
   project for uploads: unaudited projects force uploads private. More quota = Google's audit/quota form (SETUP.md 16).
+
+
+## Moral Of The Story TV (drizzlepudge slot)
+- Scripts are generated: edit `tools/generators/mos_arcs_screenplay.txt`, then run
+  `python tools/generators/build_moraloftheStory_s1.py` (writes channel.json + episodes, archives old files).
+  Readable copy: `channels/drizzlepudge/SCRIPTS.md`.
+- 6 arcs x 6 parts (MOS-001..036). Part 6 has `arc_finale` + `moral`; the movie (`compile.compile_arc`)
+  is published 24 h after the finale. Manual retry: `python -m pipeline.run movie drizzlepudge MOS-006`.
+- Provider: fal `fal-ai/veo3.1/lite/image-to-video` ($0.05/s with audio, uses FAL_KEY); per-shot fallback `fal_backup` = Veo 3.1 Fast ($0.15/s).
+  (Gemini API Veo preview IDs were shut down 22 Oct 2026; pipeline/veo_api.py is optional and needs VEO_MODEL.)
+- Cast are written as ordinary, dignified people in a real setting: never accents to 'perform', never caricature,
+  costume clichés or jokes about a group (TikTok hate-speech filter). Keep `negative_prompt` as is.
+- No children on screen; made_for_kids false; AI disclosure in every description.

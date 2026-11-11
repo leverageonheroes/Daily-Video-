@@ -9,6 +9,7 @@ Each shot's narration is fitted to the shot: if the speech runs longer than the 
 """
 import subprocess
 from pathlib import Path
+from typing import Optional
 
 from . import assemble, config, fal_api
 
@@ -16,7 +17,7 @@ FIT_MARGIN = 0.35        # seconds of air left at the end of each shot
 MAX_SPEEDUP = 1.25
 
 
-def _audio_url(res: dict) -> str:
+def _audio_url(res: dict) -> Optional[str]:
     a = res.get("audio") or res.get("audio_file") or res.get("output")
     if isinstance(a, dict):
         return a.get("url")
@@ -39,8 +40,11 @@ def _tts(text: str, cfg: dict, dest: Path) -> Path:
             if cfg.get("speed"):
                 args["speed"] = cfg["speed"]
             res = fal_api.run(ep, args, retries=1)
-            raw = dest.with_suffix(".src" + Path(_audio_url(res).split("?")[0]).suffix)
-            fal_api.download(_audio_url(res), raw)
+            url = _audio_url(res)
+            if not url:
+                raise RuntimeError("no audio url in response")
+            raw = dest.with_suffix(".src" + Path(url.split("?")[0]).suffix)
+            fal_api.download(url, raw)
             return raw
         except Exception as e:
             errors.append(f"{ep}: {e}")
@@ -62,7 +66,7 @@ def render(channel: str, episode: dict, workdir: Path, bible: dict):
     if not any(s.get("narration") for s in episode["shots"]):
         return None
     cfg = bible.get("narrator", {})
-    out = []
+    out: list[Optional[Path]] = []
     for shot in episode["shots"]:
         text = (shot.get("narration") or "").strip()
         if not text:

@@ -178,7 +178,7 @@ def make_finish(ch, ccfg, fmt, ep, n, st, wd):
     total = float(fmt.get("duration", 16))
     img = pool_images(ccfg, ch, "finish", n, 1, st, wd)
     reveal = 9.0
-    L = [(scrim(ccfg, fmt, fmt["subtitle"], wd), 0, total)]
+    L = [(scrim(ccfg, fmt, fmt["subtitle"], wd), 0.0, total)]
     L.append((save_layer(lambda d: (text_block(d, ccfg, plain(ep["start"]), 64, 470),
                                     text_block(d, ccfg, [("_______", acc)], 64, 760)), wd / "q.png"), 0.4, reveal))
     for i, num in enumerate("321"):
@@ -197,7 +197,7 @@ def make_babymean(ch, ccfg, fmt, ep, n, st, wd):
     imgs = pool_images(ccfg, ch, "babymean", n, 3, st, wd)
     segs = [7.6, 7.6, 8.4]
     total = sum(segs) - 0.8 * 2
-    L = [(scrim(ccfg, fmt, ep["topic"], wd), 0, total)]
+    L = [(scrim(ccfg, fmt, ep["topic"], wd), 0.0, total)]
     t0 = 0.0
     for i, ((when, mean), seg) in enumerate(zip(ep["pairs"], segs)):
         start = t0 + (0.3 if i == 0 else 0.5)
@@ -222,7 +222,7 @@ def make_thennow(ch, ccfg, fmt, ep, n, st, wd):
         pill(d, ccfg, "THEN", 150, 330, (232, 210, 170))
         pill(d, ccfg, "NOW", 150, 985, acc)
         d.line([(0, H // 2), (W, H // 2)], fill=(255, 255, 255, 230), width=6)
-    L = [(scrim(ccfg, fmt, ep["topic"], wd), 0, total), (save_layer(labels, wd / "labels.png"), 0, total - 6)]
+    L = [(scrim(ccfg, fmt, ep["topic"], wd), 0.0, total), (save_layer(labels, wd / "labels.png"), 0.0, total - 6)]
     for i, (a, b) in enumerate(ep["pairs"]):
         s, e = 0.5 + i * 6, 0.5 + (i + 1) * 6
         L.append((save_layer(lambda d, a=a: text_block(d, ccfg, plain(a), 54, 690), wd / f"t{i}.png"), s, e))
@@ -269,6 +269,8 @@ def in_window():
 
 def run_one(s, ch, fmt_name, upload=True):
     cfg = load(ch)
+    if cfg is None:
+        raise RuntimeError(f"{ch}: channels/{ch}/extras.json not found")
     fmt = cfg["formats"][fmt_name]
     key = f"{ch}:{fmt_name}"
     st = s["channels"].setdefault(key, {"done": {}, "used_images": []})

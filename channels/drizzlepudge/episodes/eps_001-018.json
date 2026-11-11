@@ -1,0 +1,5016 @@
+{
+ "episodes": [
+  {
+   "id": "MOS-001",
+   "number": 1,
+   "arc": "a1",
+   "arc_title": "The Wedding Fund",
+   "arc_logline": "A proud mother demands a fifteen-million-naira wedding, but the family wedding account is empty, and someone has been lying for years.",
+   "part": 1,
+   "part_title": "The List",
+   "part_label": "PART 1 OF 6 · THE WEDDING FUND",
+   "title": "Fifteen million naira. Or no wedding. | The Wedding Fund Part 1 #shorts",
+   "hook_text": "Fifteen million naira. Or no wedding.",
+   "logline": "The Wedding Fund part 1, The List: Fifteen million naira. Or there will be no wedding in this family. / Ma, my father is a retired teacher. Where will he find that? / Mummy, please. / My son is an engineer. I will not wed him like a no",
+   "description": "A proud mother demands a fifteen-million-naira wedding, but the family wedding account is empty, and someone has been lying for years.\n\nThe Wedding Fund, part 1 of 6: The List.\n\nWhere did the money go? Tell us in the comments.\n\nMoral Of The Story TV: a new story every week, and the full movie after every finale.",
+   "tags": [
+    "moral of the story",
+    "nigerian drama",
+    "short drama",
+    "african drama",
+    "family drama",
+    "the wedding fund",
+    "storytime",
+    "drama series"
+   ],
+   "music": "nollywood suspense",
+   "guests": {
+    "a1_tobi": {
+     "name": "Tobi",
+     "ref_prompt": "a 29-year-old Nigerian man, slim, short neat haircut, light beard, crisp white shirt with rolled sleeves",
+     "voice": "a calm, warm young male voice",
+     "species": "human"
+    },
+    "a1_amara": {
+     "name": "Amara",
+     "ref_prompt": "a 27-year-old Nigerian woman, natural hair in a neat bun, small gold earrings, soft peach blouse",
+     "voice": "a clear, gentle but confident female voice",
+     "species": "human"
+    },
+    "a1_mama": {
+     "name": "Mrs Adebayo",
+     "ref_prompt": "a 58-year-old Nigerian woman, elegant emerald lace blouse and wrapper with a matching head tie, gold necklace",
+     "voice": "a commanding, proud older female voice",
+     "species": "human"
+    },
+    "a1_okafor": {
+     "name": "Mr Okafor",
+     "ref_prompt": "a 62-year-old Nigerian man, short grey hair, reading glasses, simple cream kaftan",
+     "voice": "a slow, dignified older male voice",
+     "species": "human"
+    },
+    "a1_femi": {
+     "name": "Uncle Femi",
+     "ref_prompt": "a 50-year-old Nigerian man, slicked-back hair, gold watch, flashy patterned shirt",
+     "voice": "a smooth, charming male voice",
+     "species": "human"
+    }
+   },
+   "locations": {
+    "a1_parlour": "an upscale Lagos family living room, cream sofas, framed family portraits, a crystal chandelier, evening light through curtains",
+    "a1_okafor_home": "a modest, tidy sitting room with bookshelves, a wall clock and a ceiling fan, warm afternoon light",
+    "a1_office": "a modern tech office at night, glass walls, the glow of a laptop",
+    "a1_lounge": "a busy upscale lounge at night, neon accents, blurred patrons",
+    "a1_bank": "a bright modern bank hall with glass counters",
+    "a1_garden": "a garden decorated for a small wedding, fairy lights, white chairs, golden hour",
+    "a1_car": "the inside of a parked car at night, streetlights through a rain-streaked windscreen",
+    "a1_estate_gate": "a gated Lagos estate driveway at dusk, palm trees, a gleaming new SUV with a red ribbon",
+    "a1_okafor_gate": "the gate of a modest house at night, lit by a single bulb"
+   },
+   "end_card": "WHERE DID THE MONEY GO?|PART 2 TOMORROW",
+   "captions": {
+    "tiktok": "Fifteen million naira. Or no wedding. 😳 Part 1/6 · The Wedding Fund. Where did the money go? #moralofthestory #nigeriandrama #shortdrama #storytime #aidrama",
+    "facebook": "The Wedding Fund, part 1 of 6: The List. A proud mother demands a fifteen-million-naira wedding, but the family wedding account is empty, and someone has been lying for years. Where did the money go? Follow Moral Of The Story TV for part 2."
+   },
+   "shots": [
+    {
+     "n": 1,
+     "dur": 8,
+     "loc": "a1_parlour",
+     "chars": [
+      "a1_mama",
+      "a1_tobi",
+      "a1_amara"
+     ],
+     "keyframe": "Mrs Adebayo stands rigid under the chandelier while Tobi and Amara sit frozen on the cream sofa",
+     "action": "Mrs Adebayo stands rigid under the chandelier while Tobi and Amara sit frozen on the cream sofa",
+     "camera": "dramatic crash zoom into a close-up, then hold",
+     "lines": [
+      {
+       "c": "a1_mama",
+       "t": "Fifteen million naira. Or there will be no wedding in this family.",
+       "tone": "icy, final"
+      }
+     ],
+     "sfx": "deep cinematic boom",
+     "transition": "cut"
+    },
+    {
+     "n": 2,
+     "dur": 8,
+     "loc": "a1_parlour",
+     "chars": [
+      "a1_amara",
+      "a1_tobi"
+     ],
+     "keyframe": "Amara grips Tobi's hand, eyes pleading, Tobi caught between them",
+     "action": "Amara grips Tobi's hand, eyes pleading, Tobi caught between them",
+     "camera": "two-shot, shallow focus, slow lateral dolly",
+     "lines": [
+      {
+       "c": "a1_amara",
+       "t": "Ma, my father is a retired teacher. Where will he find that?",
+       "tone": "shaken"
+      },
+      {
+       "c": "a1_tobi",
+       "t": "Mummy, please.",
+       "tone": "quiet"
+      }
+     ],
+     "sfx": "clock ticking",
+     "transition": "cut"
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "a1_parlour",
+     "chars": [
+      "a1_mama"
+     ],
+     "keyframe": "Mrs Adebayo adjusts her gold necklace, chin raised, unmoved",
+     "action": "Mrs Adebayo adjusts her gold necklace, chin raised, unmoved",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a1_mama",
+       "t": "My son is an engineer. I will not wed him like a nobody.",
+       "tone": "proud"
+      }
+     ],
+     "sfx": "soft orchestral sting",
+     "transition": "cut"
+    },
+    {
+     "n": 4,
+     "dur": 8,
+     "loc": "a1_okafor_home",
+     "chars": [
+      "a1_okafor",
+      "a1_amara"
+     ],
+     "keyframe": "Mr Okafor lowers his reading glasses at his small dining table, Amara standing beside him",
+     "action": "Mr Okafor lowers his reading glasses at his small dining table, Amara standing beside him",
+     "camera": "wide establishing shot, slow dolly-in",
+     "lines": [
+      {
+       "c": "a1_okafor",
+       "t": "Fifteen million, for a ceremony? Amara, love is not a market.",
+       "tone": "slow, wounded"
+      }
+     ],
+     "sfx": "ceiling fan whirring",
+     "transition": "dip"
+    },
+    {
+     "n": 5,
+     "dur": 8,
+     "loc": "a1_okafor_home",
+     "chars": [
+      "a1_amara"
+     ],
+     "keyframe": "Amara wipes a tear, forcing a brave face",
+     "action": "Amara wipes a tear, forcing a brave face",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a1_amara",
+       "t": "Daddy, Tobi's family has money. They saved for years. They told us so.",
+       "tone": "hopeful"
+      }
+     ],
+     "sfx": "fan, distant traffic",
+     "transition": "cut"
+    },
+    {
+     "n": 6,
+     "dur": 8,
+     "loc": "a1_office",
+     "chars": [
+      "a1_tobi"
+     ],
+     "keyframe": "Tobi alone in the dark office opens a banking app on his laptop, screen light on his face",
+     "action": "Tobi alone in the dark office opens a banking app on his laptop, screen light on his face",
+     "camera": "tracking shot following the character, handheld",
+     "lines": [
+      {
+       "c": "a1_tobi",
+       "t": "The family wedding account. Mummy said it has twenty million.",
+       "tone": "to himself"
+      }
+     ],
+     "sfx": "keyboard clicks",
+     "transition": "flash"
+    },
+    {
+     "n": 7,
+     "dur": 8,
+     "loc": "a1_office",
+     "chars": [
+      "a1_tobi"
+     ],
+     "keyframe": "extreme close-up of Tobi's eyes widening as the laptop light flickers",
+     "action": "extreme close-up of Tobi's eyes widening as the laptop light flickers",
+     "camera": "extreme close-up on the eyes, very slow push-in",
+     "lines": [
+      {
+       "c": "a1_tobi",
+       "t": "Balance... zero naira?",
+       "tone": "whisper, disbelief"
+      }
+     ],
+     "sfx": "heartbeat, low drone",
+     "transition": "cut"
+    },
+    {
+     "n": 8,
+     "dur": 8,
+     "loc": "a1_car",
+     "chars": [
+      "a1_tobi"
+     ],
+     "keyframe": "Tobi in his parked car at night, phone to his ear, streetlights sliding across his face",
+     "action": "Tobi in his parked car at night, phone to his ear, streetlights sliding across his face",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a1_tobi",
+       "t": "Uncle Femi, where is the wedding money? Pick up. Pick up!",
+       "tone": "desperate"
+      }
+     ],
+     "sfx": "phone ringing, rain on the roof",
+     "transition": "dip"
+    },
+    {
+     "n": 9,
+     "dur": 8,
+     "loc": "a1_lounge",
+     "chars": [
+      "a1_femi"
+     ],
+     "keyframe": "Uncle Femi laughing in a neon-lit lounge, raising a glass, his phone buzzing on the table",
+     "action": "Uncle Femi laughing in a neon-lit lounge, raising a glass, his phone buzzing on the table",
+     "camera": "wide establishing shot, slow dolly-in",
+     "lines": [
+      {
+       "c": "a1_femi",
+       "t": "Tonight we celebrate! Drinks are on me!",
+       "tone": "loud, flashy"
+      }
+     ],
+     "sfx": "crowd cheer, glasses clinking",
+     "transition": "flash"
+    },
+    {
+     "n": 10,
+     "dur": 8,
+     "loc": "a1_lounge",
+     "chars": [
+      "a1_femi"
+     ],
+     "keyframe": "Femi glances at his ringing phone, his smile dies, the party blurs behind him",
+     "action": "Femi glances at his ringing phone, his smile dies, the party blurs behind him",
+     "camera": "dramatic crash zoom into a close-up, then hold",
+     "lines": [
+      {
+       "c": "a1_femi",
+       "t": "He knows.",
+       "tone": "cold whisper"
+      }
+     ],
+     "sfx": "music cuts out, deep boom",
+     "transition": "cut",
+     "freeze": 1.5
+    }
+   ],
+   "loop_note": "cliffhanger freeze-frame; tomorrow opens with a 3 s 'previously' flash of it"
+  },
+  {
+   "id": "MOS-002",
+   "number": 2,
+   "arc": "a1",
+   "arc_title": "The Wedding Fund",
+   "arc_logline": "A proud mother demands a fifteen-million-naira wedding, but the family wedding account is empty, and someone has been lying for years.",
+   "part": 2,
+   "part_title": "Uncle Femi",
+   "part_label": "PART 2 OF 6 · THE WEDDING FUND",
+   "title": "The money is gone. Who took it? | The Wedding Fund Part 2 #shorts",
+   "hook_text": "The money is gone. Who took it?",
+   "logline": "The Wedding Fund part 2, Uncle Femi: Twenty million naira, Uncle. Where is it? / Calm down, my boy. It's in a fixed deposit. Earning interest. / Tobi! You will not question your uncle in my house.",
+   "description": "A proud mother demands a fifteen-million-naira wedding, but the family wedding account is empty, and someone has been lying for years.\n\nThe Wedding Fund, part 2 of 6: Uncle Femi.\n\nWhat is mama hiding? Tell us in the comments.\n\nMoral Of The Story TV: a new story every week, and the full movie after every finale.",
+   "tags": [
+    "moral of the story",
+    "nigerian drama",
+    "short drama",
+    "african drama",
+    "family drama",
+    "the wedding fund",
+    "storytime",
+    "drama series"
+   ],
+   "music": "nollywood suspense",
+   "guests": {
+    "a1_tobi": {
+     "name": "Tobi",
+     "ref_prompt": "a 29-year-old Nigerian man, slim, short neat haircut, light beard, crisp white shirt with rolled sleeves",
+     "voice": "a calm, warm young male voice",
+     "species": "human"
+    },
+    "a1_amara": {
+     "name": "Amara",
+     "ref_prompt": "a 27-year-old Nigerian woman, natural hair in a neat bun, small gold earrings, soft peach blouse",
+     "voice": "a clear, gentle but confident female voice",
+     "species": "human"
+    },
+    "a1_mama": {
+     "name": "Mrs Adebayo",
+     "ref_prompt": "a 58-year-old Nigerian woman, elegant emerald lace blouse and wrapper with a matching head tie, gold necklace",
+     "voice": "a commanding, proud older female voice",
+     "species": "human"
+    },
+    "a1_okafor": {
+     "name": "Mr Okafor",
+     "ref_prompt": "a 62-year-old Nigerian man, short grey hair, reading glasses, simple cream kaftan",
+     "voice": "a slow, dignified older male voice",
+     "species": "human"
+    },
+    "a1_femi": {
+     "name": "Uncle Femi",
+     "ref_prompt": "a 50-year-old Nigerian man, slicked-back hair, gold watch, flashy patterned shirt",
+     "voice": "a smooth, charming male voice",
+     "species": "human"
+    }
+   },
+   "locations": {
+    "a1_parlour": "an upscale Lagos family living room, cream sofas, framed family portraits, a crystal chandelier, evening light through curtains",
+    "a1_okafor_home": "a modest, tidy sitting room with bookshelves, a wall clock and a ceiling fan, warm afternoon light",
+    "a1_office": "a modern tech office at night, glass walls, the glow of a laptop",
+    "a1_lounge": "a busy upscale lounge at night, neon accents, blurred patrons",
+    "a1_bank": "a bright modern bank hall with glass counters",
+    "a1_garden": "a garden decorated for a small wedding, fairy lights, white chairs, golden hour",
+    "a1_car": "the inside of a parked car at night, streetlights through a rain-streaked windscreen",
+    "a1_estate_gate": "a gated Lagos estate driveway at dusk, palm trees, a gleaming new SUV with a red ribbon",
+    "a1_okafor_gate": "the gate of a modest house at night, lit by a single bulb"
+   },
+   "end_card": "WHAT IS MAMA HIDING?|PART 3 TOMORROW",
+   "captions": {
+    "tiktok": "The money is gone. Who took it? 😳 Part 2/6 · The Wedding Fund. What is mama hiding? #moralofthestory #nigeriandrama #shortdrama #storytime #aidrama",
+    "facebook": "The Wedding Fund, part 2 of 6: Uncle Femi. A proud mother demands a fifteen-million-naira wedding, but the family wedding account is empty, and someone has been lying for years. What is mama hiding? Follow Moral Of The Story TV for part 3."
+   },
+   "shots": [
+    {
+     "n": 1,
+     "dur": 8,
+     "loc": "a1_parlour",
+     "chars": [
+      "a1_tobi",
+      "a1_femi"
+     ],
+     "keyframe": "Tobi blocks the doorway as Uncle Femi strolls in, jangling new car keys",
+     "action": "Tobi blocks the doorway as Uncle Femi strolls in, jangling new car keys",
+     "camera": "dramatic crash zoom into a close-up, then hold",
+     "lines": [
+      {
+       "c": "a1_tobi",
+       "t": "Twenty million naira, Uncle. Where is it?",
+       "tone": "controlled anger"
+      }
+     ],
+     "sfx": "deep boom",
+     "transition": "cut"
+    },
+    {
+     "n": 2,
+     "dur": 8,
+     "loc": "a1_parlour",
+     "chars": [
+      "a1_femi"
+     ],
+     "keyframe": "Femi smiles smoothly, spreading his hands",
+     "action": "Femi smiles smoothly, spreading his hands",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a1_femi",
+       "t": "Calm down, my boy. It's in a fixed deposit. Earning interest.",
+       "tone": "smooth"
+      }
+     ],
+     "sfx": "ice clinking in a glass",
+     "transition": "cut"
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "a1_parlour",
+     "chars": [
+      "a1_mama",
+      "a1_tobi"
+     ],
+     "keyframe": "Mrs Adebayo descends the stairs and points at her son",
+     "action": "Mrs Adebayo descends the stairs and points at her son",
+     "camera": "two-shot, shallow focus, slow lateral dolly",
+     "lines": [
+      {
+       "c": "a1_mama",
+       "t": "Tobi! You will not question your uncle in my house.",
+       "tone": "sharp"
+      }
+     ],
+     "sfx": "footsteps on marble",
+     "transition": "cut"
+    },
+    {
+     "n": 4,
+     "dur": 8,
+     "loc": "a1_parlour",
+     "chars": [
+      "a1_tobi"
+     ],
+     "keyframe": "Tobi holds his ground, jaw tight",
+     "action": "Tobi holds his ground, jaw tight",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a1_tobi",
+       "t": "Then show me the papers, Uncle. Just the papers.",
+       "tone": "steady"
+      }
+     ],
+     "sfx": "tense strings",
+     "transition": "cut"
+    },
+    {
+     "n": 5,
+     "dur": 8,
+     "loc": "a1_estate_gate",
+     "chars": [
+      "a1_amara"
+     ],
+     "keyframe": "Amara arrives at the estate gate and stops beside a gleaming new SUV with a red ribbon",
+     "action": "Amara arrives at the estate gate and stops beside a gleaming new SUV with a red ribbon",
+     "camera": "wide establishing shot, slow dolly-in",
+     "lines": [
+      {
+       "c": "a1_amara",
+       "t": "Whose car is this?",
+       "tone": "curious"
+      }
+     ],
+     "sfx": "cicadas, distant generator",
+     "transition": "dip"
+    },
+    {
+     "n": 6,
+     "dur": 8,
+     "loc": "a1_estate_gate",
+     "chars": [
+      "a1_femi",
+      "a1_amara"
+     ],
+     "keyframe": "Femi strolls out, patting the bonnet proudly",
+     "action": "Femi strolls out, patting the bonnet proudly",
+     "camera": "two-shot, shallow focus, slow lateral dolly",
+     "lines": [
+      {
+       "c": "a1_femi",
+       "t": "Ah, my in-law! You like it? Brand new. Small blessing.",
+       "tone": "boastful"
+      }
+     ],
+     "sfx": "car alarm chirp",
+     "transition": "cut"
+    },
+    {
+     "n": 7,
+     "dur": 8,
+     "loc": "a1_estate_gate",
+     "chars": [
+      "a1_amara"
+     ],
+     "keyframe": "Amara peers through the windscreen at a dealer receipt on the dashboard",
+     "action": "Amara peers through the windscreen at a dealer receipt on the dashboard",
+     "camera": "extreme close-up on the eyes, very slow push-in",
+     "lines": [
+      {
+       "c": "a1_amara",
+       "t": "Bought last Tuesday.",
+       "tone": "whisper"
+      }
+     ],
+     "sfx": "heartbeat",
+     "transition": "cut"
+    },
+    {
+     "n": 8,
+     "dur": 8,
+     "loc": "a1_car",
+     "chars": [
+      "a1_amara"
+     ],
+     "keyframe": "Amara in a taxi at dusk, phone pressed to her ear",
+     "action": "Amara in a taxi at dusk, phone pressed to her ear",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a1_amara",
+       "t": "Tobi, your uncle's new car. He bought it the day the money left.",
+       "tone": "urgent"
+      }
+     ],
+     "sfx": "traffic, horn",
+     "transition": "dip"
+    },
+    {
+     "n": 9,
+     "dur": 8,
+     "loc": "a1_parlour",
+     "chars": [
+      "a1_mama"
+     ],
+     "keyframe": "Mrs Adebayo on the dark staircase, overhearing, hand on her chest",
+     "action": "Mrs Adebayo on the dark staircase, overhearing, hand on her chest",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a1_mama",
+       "t": "No. Not again.",
+       "tone": "trembling whisper"
+      }
+     ],
+     "sfx": "low drone",
+     "transition": "flash"
+    },
+    {
+     "n": 10,
+     "dur": 8,
+     "loc": "a1_parlour",
+     "chars": [
+      "a1_mama"
+     ],
+     "keyframe": "Mrs Adebayo grips the banister, eyes closed in shame",
+     "action": "Mrs Adebayo grips the banister, eyes closed in shame",
+     "camera": "dramatic crash zoom into a close-up, then hold",
+     "lines": [
+      {
+       "c": "a1_mama",
+       "t": "Femi, what have you done to us?",
+       "tone": "broken"
+      }
+     ],
+     "sfx": "deep boom",
+     "transition": "cut",
+     "freeze": 1.5
+    }
+   ],
+   "loop_note": "cliffhanger freeze-frame; tomorrow opens with a 3 s 'previously' flash of it"
+  },
+  {
+   "id": "MOS-003",
+   "number": 3,
+   "arc": "a1",
+   "arc_title": "The Wedding Fund",
+   "arc_logline": "A proud mother demands a fifteen-million-naira wedding, but the family wedding account is empty, and someone has been lying for years.",
+   "part": 3,
+   "part_title": "Blame",
+   "part_label": "PART 3 OF 6 · THE WEDDING FUND",
+   "title": "She says I'm destroying her family. | The Wedding Fund Part 3 #shorts",
+   "hook_text": "She says I'm destroying her family.",
+   "logline": "The Wedding Fund part 3, Blame: Since you came, this family has known no peace! / Ma, I only told the truth about the car. / Amara, not now. Let me handle my family.",
+   "description": "A proud mother demands a fifteen-million-naira wedding, but the family wedding account is empty, and someone has been lying for years.\n\nThe Wedding Fund, part 3 of 6: Blame.\n\nCan tobi save it? Tell us in the comments.\n\nMoral Of The Story TV: a new story every week, and the full movie after every finale.",
+   "tags": [
+    "moral of the story",
+    "nigerian drama",
+    "short drama",
+    "african drama",
+    "family drama",
+    "the wedding fund",
+    "storytime",
+    "drama series"
+   ],
+   "music": "nollywood suspense",
+   "guests": {
+    "a1_tobi": {
+     "name": "Tobi",
+     "ref_prompt": "a 29-year-old Nigerian man, slim, short neat haircut, light beard, crisp white shirt with rolled sleeves",
+     "voice": "a calm, warm young male voice",
+     "species": "human"
+    },
+    "a1_amara": {
+     "name": "Amara",
+     "ref_prompt": "a 27-year-old Nigerian woman, natural hair in a neat bun, small gold earrings, soft peach blouse",
+     "voice": "a clear, gentle but confident female voice",
+     "species": "human"
+    },
+    "a1_mama": {
+     "name": "Mrs Adebayo",
+     "ref_prompt": "a 58-year-old Nigerian woman, elegant emerald lace blouse and wrapper with a matching head tie, gold necklace",
+     "voice": "a commanding, proud older female voice",
+     "species": "human"
+    },
+    "a1_okafor": {
+     "name": "Mr Okafor",
+     "ref_prompt": "a 62-year-old Nigerian man, short grey hair, reading glasses, simple cream kaftan",
+     "voice": "a slow, dignified older male voice",
+     "species": "human"
+    },
+    "a1_femi": {
+     "name": "Uncle Femi",
+     "ref_prompt": "a 50-year-old Nigerian man, slicked-back hair, gold watch, flashy patterned shirt",
+     "voice": "a smooth, charming male voice",
+     "species": "human"
+    }
+   },
+   "locations": {
+    "a1_parlour": "an upscale Lagos family living room, cream sofas, framed family portraits, a crystal chandelier, evening light through curtains",
+    "a1_okafor_home": "a modest, tidy sitting room with bookshelves, a wall clock and a ceiling fan, warm afternoon light",
+    "a1_office": "a modern tech office at night, glass walls, the glow of a laptop",
+    "a1_lounge": "a busy upscale lounge at night, neon accents, blurred patrons",
+    "a1_bank": "a bright modern bank hall with glass counters",
+    "a1_garden": "a garden decorated for a small wedding, fairy lights, white chairs, golden hour",
+    "a1_car": "the inside of a parked car at night, streetlights through a rain-streaked windscreen",
+    "a1_estate_gate": "a gated Lagos estate driveway at dusk, palm trees, a gleaming new SUV with a red ribbon",
+    "a1_okafor_gate": "the gate of a modest house at night, lit by a single bulb"
+   },
+   "end_card": "CAN TOBI SAVE IT?|PART 4 TOMORROW",
+   "captions": {
+    "tiktok": "She says I'm destroying her family. 😳 Part 3/6 · The Wedding Fund. Can tobi save it? #moralofthestory #nigeriandrama #shortdrama #storytime #aidrama",
+    "facebook": "The Wedding Fund, part 3 of 6: Blame. A proud mother demands a fifteen-million-naira wedding, but the family wedding account is empty, and someone has been lying for years. Can tobi save it? Follow Moral Of The Story TV for part 4."
+   },
+   "shots": [
+    {
+     "n": 1,
+     "dur": 8,
+     "loc": "a1_parlour",
+     "chars": [
+      "a1_mama",
+      "a1_amara"
+     ],
+     "keyframe": "Mrs Adebayo confronts Amara in the living room, finger raised",
+     "action": "Mrs Adebayo confronts Amara in the living room, finger raised",
+     "camera": "dramatic crash zoom into a close-up, then hold",
+     "lines": [
+      {
+       "c": "a1_mama",
+       "t": "Since you came, this family has known no peace!",
+       "tone": "furious"
+      }
+     ],
+     "sfx": "deep boom",
+     "transition": "cut"
+    },
+    {
+     "n": 2,
+     "dur": 8,
+     "loc": "a1_parlour",
+     "chars": [
+      "a1_amara"
+     ],
+     "keyframe": "Amara stands tall, voice shaking but firm",
+     "action": "Amara stands tall, voice shaking but firm",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a1_amara",
+       "t": "Ma, I only told the truth about the car.",
+       "tone": "hurt"
+      }
+     ],
+     "sfx": "clock ticking",
+     "transition": "cut"
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "a1_parlour",
+     "chars": [
+      "a1_tobi",
+      "a1_amara"
+     ],
+     "keyframe": "Tobi steps between them, not meeting Amara's eyes",
+     "action": "Tobi steps between them, not meeting Amara's eyes",
+     "camera": "two-shot, shallow focus, slow lateral dolly",
+     "lines": [
+      {
+       "c": "a1_tobi",
+       "t": "Amara, not now. Let me handle my family.",
+       "tone": "tired"
+      }
+     ],
+     "sfx": "tense strings",
+     "transition": "cut"
+    },
+    {
+     "n": 4,
+     "dur": 8,
+     "loc": "a1_parlour",
+     "chars": [
+      "a1_amara"
+     ],
+     "keyframe": "Amara's eyes fill with tears",
+     "action": "Amara's eyes fill with tears",
+     "camera": "extreme close-up on the eyes, very slow push-in",
+     "lines": [
+      {
+       "c": "a1_amara",
+       "t": "Your family? I thought I was becoming your family.",
+       "tone": "quiet devastation"
+      }
+     ],
+     "sfx": "single piano note",
+     "transition": "cut"
+    },
+    {
+     "n": 5,
+     "dur": 8,
+     "loc": "a1_okafor_home",
+     "chars": [
+      "a1_okafor",
+      "a1_amara"
+     ],
+     "keyframe": "Mr Okafor holds his crying daughter at the door of their modest home",
+     "action": "Mr Okafor holds his crying daughter at the door of their modest home",
+     "camera": "wide establishing shot, slow dolly-in",
+     "lines": [
+      {
+       "c": "a1_okafor",
+       "t": "My daughter will not beg to be accepted.",
+       "tone": "firm, protective"
+      }
+     ],
+     "sfx": "rain outside",
+     "transition": "dip"
+    },
+    {
+     "n": 6,
+     "dur": 8,
+     "loc": "a1_okafor_home",
+     "chars": [
+      "a1_okafor"
+     ],
+     "keyframe": "Mr Okafor picks up his phone, decision made",
+     "action": "Mr Okafor picks up his phone, decision made",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a1_okafor",
+       "t": "Tell Tobi's mother: the engagement is off.",
+       "tone": "final"
+      }
+     ],
+     "sfx": "deep boom",
+     "transition": "cut"
+    },
+    {
+     "n": 7,
+     "dur": 8,
+     "loc": "a1_office",
+     "chars": [
+      "a1_tobi"
+     ],
+     "keyframe": "Tobi at his desk reads a message, colour draining from his face",
+     "action": "Tobi at his desk reads a message, colour draining from his face",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a1_tobi",
+       "t": "Engagement off? No, no, no.",
+       "tone": "panicking"
+      }
+     ],
+     "sfx": "phone vibration",
+     "transition": "flash"
+    },
+    {
+     "n": 8,
+     "dur": 8,
+     "loc": "a1_car",
+     "chars": [
+      "a1_tobi"
+     ],
+     "keyframe": "Tobi drives through Lagos at night, city lights streaking past",
+     "action": "Tobi drives through Lagos at night, city lights streaking past",
+     "camera": "tracking shot following the character, handheld",
+     "lines": [
+      {
+       "c": "a1_tobi",
+       "t": "I chose silence to protect them. And I lost her.",
+       "tone": "bitter"
+      }
+     ],
+     "sfx": "engine hum, rain",
+     "transition": "cut"
+    },
+    {
+     "n": 9,
+     "dur": 8,
+     "loc": "a1_okafor_gate",
+     "chars": [
+      "a1_tobi"
+     ],
+     "keyframe": "Tobi knocks at a modest gate under a single bulb",
+     "action": "Tobi knocks at a modest gate under a single bulb",
+     "camera": "wide establishing shot, slow dolly-in",
+     "lines": [
+      {
+       "c": "a1_tobi",
+       "t": "Sir, please. Give me one week. I'll bring the truth.",
+       "tone": "begging"
+      }
+     ],
+     "sfx": "knocking, crickets",
+     "transition": "dip"
+    },
+    {
+     "n": 10,
+     "dur": 8,
+     "loc": "a1_okafor_gate",
+     "chars": [
+      "a1_okafor"
+     ],
+     "keyframe": "The gate creaks open and Mr Okafor studies him coldly",
+     "action": "The gate creaks open and Mr Okafor studies him coldly",
+     "camera": "dramatic crash zoom into a close-up, then hold",
+     "lines": [
+      {
+       "c": "a1_okafor",
+       "t": "One week. After that, don't come back.",
+       "tone": "cold"
+      }
+     ],
+     "sfx": "gate creak, boom",
+     "transition": "cut",
+     "freeze": 1.5
+    }
+   ],
+   "loop_note": "cliffhanger freeze-frame; tomorrow opens with a 3 s 'previously' flash of it"
+  },
+  {
+   "id": "MOS-004",
+   "number": 4,
+   "arc": "a1",
+   "arc_title": "The Wedding Fund",
+   "arc_logline": "A proud mother demands a fifteen-million-naira wedding, but the family wedding account is empty, and someone has been lying for years.",
+   "part": 4,
+   "part_title": "The Bank",
+   "part_label": "PART 4 OF 6 · THE WEDDING FUND",
+   "title": "Seven withdrawals. One name. | The Wedding Fund Part 4 #shorts",
+   "hook_text": "Seven withdrawals. One name.",
+   "logline": "The Wedding Fund part 4, The Bank: Seven withdrawals, Mummy. Every one signed by Uncle Femi. / Put it away, Tobi. Please. / You're not surprised. Mummy, you knew?",
+   "description": "A proud mother demands a fifteen-million-naira wedding, but the family wedding account is empty, and someone has been lying for years.\n\nThe Wedding Fund, part 4 of 6: The Bank.\n\nWhat will femi do? Tell us in the comments.\n\nMoral Of The Story TV: a new story every week, and the full movie after every finale.",
+   "tags": [
+    "moral of the story",
+    "nigerian drama",
+    "short drama",
+    "african drama",
+    "family drama",
+    "the wedding fund",
+    "storytime",
+    "drama series"
+   ],
+   "music": "nollywood suspense",
+   "guests": {
+    "a1_tobi": {
+     "name": "Tobi",
+     "ref_prompt": "a 29-year-old Nigerian man, slim, short neat haircut, light beard, crisp white shirt with rolled sleeves",
+     "voice": "a calm, warm young male voice",
+     "species": "human"
+    },
+    "a1_amara": {
+     "name": "Amara",
+     "ref_prompt": "a 27-year-old Nigerian woman, natural hair in a neat bun, small gold earrings, soft peach blouse",
+     "voice": "a clear, gentle but confident female voice",
+     "species": "human"
+    },
+    "a1_mama": {
+     "name": "Mrs Adebayo",
+     "ref_prompt": "a 58-year-old Nigerian woman, elegant emerald lace blouse and wrapper with a matching head tie, gold necklace",
+     "voice": "a commanding, proud older female voice",
+     "species": "human"
+    },
+    "a1_okafor": {
+     "name": "Mr Okafor",
+     "ref_prompt": "a 62-year-old Nigerian man, short grey hair, reading glasses, simple cream kaftan",
+     "voice": "a slow, dignified older male voice",
+     "species": "human"
+    },
+    "a1_femi": {
+     "name": "Uncle Femi",
+     "ref_prompt": "a 50-year-old Nigerian man, slicked-back hair, gold watch, flashy patterned shirt",
+     "voice": "a smooth, charming male voice",
+     "species": "human"
+    }
+   },
+   "locations": {
+    "a1_parlour": "an upscale Lagos family living room, cream sofas, framed family portraits, a crystal chandelier, evening light through curtains",
+    "a1_okafor_home": "a modest, tidy sitting room with bookshelves, a wall clock and a ceiling fan, warm afternoon light",
+    "a1_office": "a modern tech office at night, glass walls, the glow of a laptop",
+    "a1_lounge": "a busy upscale lounge at night, neon accents, blurred patrons",
+    "a1_bank": "a bright modern bank hall with glass counters",
+    "a1_garden": "a garden decorated for a small wedding, fairy lights, white chairs, golden hour",
+    "a1_car": "the inside of a parked car at night, streetlights through a rain-streaked windscreen",
+    "a1_estate_gate": "a gated Lagos estate driveway at dusk, palm trees, a gleaming new SUV with a red ribbon",
+    "a1_okafor_gate": "the gate of a modest house at night, lit by a single bulb"
+   },
+   "end_card": "WHAT WILL FEMI DO?|PART 5 TOMORROW",
+   "captions": {
+    "tiktok": "Seven withdrawals. One name. 😳 Part 4/6 · The Wedding Fund. What will femi do? #moralofthestory #nigeriandrama #shortdrama #storytime #aidrama",
+    "facebook": "The Wedding Fund, part 4 of 6: The Bank. A proud mother demands a fifteen-million-naira wedding, but the family wedding account is empty, and someone has been lying for years. What will femi do? Follow Moral Of The Story TV for part 5."
+   },
+   "shots": [
+    {
+     "n": 1,
+     "dur": 8,
+     "loc": "a1_bank",
+     "chars": [
+      "a1_tobi",
+      "a1_mama"
+     ],
+     "keyframe": "Tobi spreads a bank statement on the counter in front of his mother",
+     "action": "Tobi spreads a bank statement on the counter in front of his mother",
+     "camera": "dramatic crash zoom into a close-up, then hold",
+     "lines": [
+      {
+       "c": "a1_tobi",
+       "t": "Seven withdrawals, Mummy. Every one signed by Uncle Femi.",
+       "tone": "hard"
+      }
+     ],
+     "sfx": "paper slap, boom",
+     "transition": "cut"
+    },
+    {
+     "n": 2,
+     "dur": 8,
+     "loc": "a1_bank",
+     "chars": [
+      "a1_mama"
+     ],
+     "keyframe": "Mrs Adebayo closes her eyes, not looking at the paper",
+     "action": "Mrs Adebayo closes her eyes, not looking at the paper",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a1_mama",
+       "t": "Put it away, Tobi. Please.",
+       "tone": "quiet"
+      }
+     ],
+     "sfx": "bank murmur",
+     "transition": "cut"
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "a1_bank",
+     "chars": [
+      "a1_tobi",
+      "a1_mama"
+     ],
+     "keyframe": "Tobi stares at his mother, realisation dawning",
+     "action": "Tobi stares at his mother, realisation dawning",
+     "camera": "two-shot, shallow focus, slow lateral dolly",
+     "lines": [
+      {
+       "c": "a1_tobi",
+       "t": "You're not surprised. Mummy, you knew?",
+       "tone": "stunned"
+      }
+     ],
+     "sfx": "low drone",
+     "transition": "cut"
+    },
+    {
+     "n": 4,
+     "dur": 8,
+     "loc": "a1_car",
+     "chars": [
+      "a1_mama",
+      "a1_tobi"
+     ],
+     "keyframe": "Mother and son sit in the parked car, rain streaking the windows",
+     "action": "Mother and son sit in the parked car, rain streaking the windows",
+     "camera": "two-shot, shallow focus, slow lateral dolly",
+     "lines": [
+      {
+       "c": "a1_mama",
+       "t": "Fifteen years ago, I was dying. Femi paid my hospital bills.",
+       "tone": "confessing"
+      }
+     ],
+     "sfx": "rain on the roof",
+     "transition": "dip"
+    },
+    {
+     "n": 5,
+     "dur": 8,
+     "loc": "a1_car",
+     "chars": [
+      "a1_mama"
+     ],
+     "keyframe": "Mrs Adebayo stares ahead, tears on her cheeks",
+     "action": "Mrs Adebayo stares ahead, tears on her cheeks",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a1_mama",
+       "t": "When he took the money, I told myself I owed him.",
+       "tone": "shame"
+      }
+     ],
+     "sfx": "soft piano",
+     "transition": "cut"
+    },
+    {
+     "n": 6,
+     "dur": 8,
+     "loc": "a1_car",
+     "chars": [
+      "a1_tobi"
+     ],
+     "keyframe": "Tobi pieces it together, shaking his head",
+     "action": "Tobi pieces it together, shaking his head",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a1_tobi",
+       "t": "So the fifteen million was to cover his hole?",
+       "tone": "disbelief"
+      }
+     ],
+     "sfx": "rain",
+     "transition": "cut"
+    },
+    {
+     "n": 7,
+     "dur": 8,
+     "loc": "a1_car",
+     "chars": [
+      "a1_mama"
+     ],
+     "keyframe": "Mrs Adebayo's trembling lips",
+     "action": "Mrs Adebayo's trembling lips",
+     "camera": "extreme close-up on the eyes, very slow push-in",
+     "lines": [
+      {
+       "c": "a1_mama",
+       "t": "If the in-laws paid, nobody would ask questions. God forgive me.",
+       "tone": "whisper"
+      }
+     ],
+     "sfx": "heartbeat",
+     "transition": "cut"
+    },
+    {
+     "n": 8,
+     "dur": 8,
+     "loc": "a1_parlour",
+     "chars": [
+      "a1_mama"
+     ],
+     "keyframe": "Mrs Adebayo alone at night before a large family portrait",
+     "action": "Mrs Adebayo alone at night before a large family portrait",
+     "camera": "wide establishing shot, slow dolly-in",
+     "lines": [
+      {
+       "c": "a1_mama",
+       "t": "I protected my brother and broke my son.",
+       "tone": "broken"
+      }
+     ],
+     "sfx": "clock ticking",
+     "transition": "dip"
+    },
+    {
+     "n": 9,
+     "dur": 8,
+     "loc": "a1_parlour",
+     "chars": [
+      "a1_tobi",
+      "a1_mama"
+     ],
+     "keyframe": "Tobi kneels beside his mother and takes her hands",
+     "action": "Tobi kneels beside his mother and takes her hands",
+     "camera": "two-shot, shallow focus, slow lateral dolly",
+     "lines": [
+      {
+       "c": "a1_tobi",
+       "t": "Then fix it with me, Mummy. Tomorrow we go to the Okafors.",
+       "tone": "gentle"
+      }
+     ],
+     "sfx": "warm strings",
+     "transition": "cut"
+    },
+    {
+     "n": 10,
+     "dur": 8,
+     "loc": "a1_parlour",
+     "chars": [
+      "a1_femi"
+     ],
+     "keyframe": "Uncle Femi in the doorway, listening, his face hardening",
+     "action": "Uncle Femi in the doorway, listening, his face hardening",
+     "camera": "dramatic crash zoom into a close-up, then hold",
+     "lines": [
+      {
+       "c": "a1_femi",
+       "t": "Nobody is going anywhere.",
+       "tone": "menacing"
+      }
+     ],
+     "sfx": "deep boom",
+     "transition": "flash",
+     "freeze": 1.5
+    }
+   ],
+   "loop_note": "cliffhanger freeze-frame; tomorrow opens with a 3 s 'previously' flash of it"
+  },
+  {
+   "id": "MOS-005",
+   "number": 5,
+   "arc": "a1",
+   "arc_title": "The Wedding Fund",
+   "arc_logline": "A proud mother demands a fifteen-million-naira wedding, but the family wedding account is empty, and someone has been lying for years.",
+   "part": 5,
+   "part_title": "Pride",
+   "part_label": "PART 5 OF 6 · THE WEDDING FUND",
+   "title": "A proud woman on her knees. | The Wedding Fund Part 5 #shorts",
+   "hook_text": "A proud woman on her knees.",
+   "logline": "The Wedding Fund part 5, Pride: You will ruin my name for that small family? / Your name was ruined the day you stole from my son. / Stole? I invested! The market crashed. It happens!",
+   "description": "A proud mother demands a fifteen-million-naira wedding, but the family wedding account is empty, and someone has been lying for years.\n\nThe Wedding Fund, part 5 of 6: Pride.\n\nWhat's in the briefcase? Tell us in the comments.\n\nMoral Of The Story TV: a new story every week, and the full movie after every finale.",
+   "tags": [
+    "moral of the story",
+    "nigerian drama",
+    "short drama",
+    "african drama",
+    "family drama",
+    "the wedding fund",
+    "storytime",
+    "drama series"
+   ],
+   "music": "nollywood suspense",
+   "guests": {
+    "a1_tobi": {
+     "name": "Tobi",
+     "ref_prompt": "a 29-year-old Nigerian man, slim, short neat haircut, light beard, crisp white shirt with rolled sleeves",
+     "voice": "a calm, warm young male voice",
+     "species": "human"
+    },
+    "a1_amara": {
+     "name": "Amara",
+     "ref_prompt": "a 27-year-old Nigerian woman, natural hair in a neat bun, small gold earrings, soft peach blouse",
+     "voice": "a clear, gentle but confident female voice",
+     "species": "human"
+    },
+    "a1_mama": {
+     "name": "Mrs Adebayo",
+     "ref_prompt": "a 58-year-old Nigerian woman, elegant emerald lace blouse and wrapper with a matching head tie, gold necklace",
+     "voice": "a commanding, proud older female voice",
+     "species": "human"
+    },
+    "a1_okafor": {
+     "name": "Mr Okafor",
+     "ref_prompt": "a 62-year-old Nigerian man, short grey hair, reading glasses, simple cream kaftan",
+     "voice": "a slow, dignified older male voice",
+     "species": "human"
+    },
+    "a1_femi": {
+     "name": "Uncle Femi",
+     "ref_prompt": "a 50-year-old Nigerian man, slicked-back hair, gold watch, flashy patterned shirt",
+     "voice": "a smooth, charming male voice",
+     "species": "human"
+    }
+   },
+   "locations": {
+    "a1_parlour": "an upscale Lagos family living room, cream sofas, framed family portraits, a crystal chandelier, evening light through curtains",
+    "a1_okafor_home": "a modest, tidy sitting room with bookshelves, a wall clock and a ceiling fan, warm afternoon light",
+    "a1_office": "a modern tech office at night, glass walls, the glow of a laptop",
+    "a1_lounge": "a busy upscale lounge at night, neon accents, blurred patrons",
+    "a1_bank": "a bright modern bank hall with glass counters",
+    "a1_garden": "a garden decorated for a small wedding, fairy lights, white chairs, golden hour",
+    "a1_car": "the inside of a parked car at night, streetlights through a rain-streaked windscreen",
+    "a1_estate_gate": "a gated Lagos estate driveway at dusk, palm trees, a gleaming new SUV with a red ribbon",
+    "a1_okafor_gate": "the gate of a modest house at night, lit by a single bulb"
+   },
+   "end_card": "WHAT'S IN THE BRIEFCASE?|FINALE TOMORROW",
+   "captions": {
+    "tiktok": "A proud woman on her knees. 😳 Part 5/6 · The Wedding Fund. What's in the briefcase? #moralofthestory #nigeriandrama #shortdrama #storytime #aidrama",
+    "facebook": "The Wedding Fund, part 5 of 6: Pride. A proud mother demands a fifteen-million-naira wedding, but the family wedding account is empty, and someone has been lying for years. What's in the briefcase? Follow Moral Of The Story TV for part 6."
+   },
+   "shots": [
+    {
+     "n": 1,
+     "dur": 8,
+     "loc": "a1_parlour",
+     "chars": [
+      "a1_femi",
+      "a1_mama"
+     ],
+     "keyframe": "Femi looms over his sister in the living room",
+     "action": "Femi looms over his sister in the living room",
+     "camera": "dramatic crash zoom into a close-up, then hold",
+     "lines": [
+      {
+       "c": "a1_femi",
+       "t": "You will ruin my name for that small family?",
+       "tone": "threatening"
+      }
+     ],
+     "sfx": "deep boom",
+     "transition": "cut"
+    },
+    {
+     "n": 2,
+     "dur": 8,
+     "loc": "a1_parlour",
+     "chars": [
+      "a1_mama"
+     ],
+     "keyframe": "Mrs Adebayo stands up straight, fearless for the first time",
+     "action": "Mrs Adebayo stands up straight, fearless for the first time",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a1_mama",
+       "t": "Your name was ruined the day you stole from my son.",
+       "tone": "iron"
+      }
+     ],
+     "sfx": "tense strings",
+     "transition": "cut"
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "a1_parlour",
+     "chars": [
+      "a1_femi"
+     ],
+     "keyframe": "Femi throws up his hands",
+     "action": "Femi throws up his hands",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a1_femi",
+       "t": "Stole? I invested! The market crashed. It happens!",
+       "tone": "defensive"
+      }
+     ],
+     "sfx": "glass set down hard",
+     "transition": "cut"
+    },
+    {
+     "n": 4,
+     "dur": 8,
+     "loc": "a1_parlour",
+     "chars": [
+      "a1_tobi",
+      "a1_femi"
+     ],
+     "keyframe": "Tobi holds out his palm for the car keys",
+     "action": "Tobi holds out his palm for the car keys",
+     "camera": "two-shot, shallow focus, slow lateral dolly",
+     "lines": [
+      {
+       "c": "a1_tobi",
+       "t": "Then sell the car, Uncle. Today.",
+       "tone": "cold"
+      }
+     ],
+     "sfx": "keys jangling",
+     "transition": "cut"
+    },
+    {
+     "n": 5,
+     "dur": 8,
+     "loc": "a1_okafor_home",
+     "chars": [
+      "a1_mama",
+      "a1_okafor"
+     ],
+     "keyframe": "Mrs Adebayo enters the modest sitting room humbly, head bowed",
+     "action": "Mrs Adebayo enters the modest sitting room humbly, head bowed",
+     "camera": "wide establishing shot, slow dolly-in",
+     "lines": [
+      {
+       "c": "a1_mama",
+       "t": "Mr Okafor, I came to apologise. I was wrong.",
+       "tone": "humble"
+      }
+     ],
+     "sfx": "ceiling fan",
+     "transition": "dip"
+    },
+    {
+     "n": 6,
+     "dur": 8,
+     "loc": "a1_okafor_home",
+     "chars": [
+      "a1_okafor"
+     ],
+     "keyframe": "Mr Okafor studies her over his glasses",
+     "action": "Mr Okafor studies her over his glasses",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a1_okafor",
+       "t": "Madam, pride is an expensive habit. Who will pay for it?",
+       "tone": "measured"
+      }
+     ],
+     "sfx": "clock ticking",
+     "transition": "cut"
+    },
+    {
+     "n": 7,
+     "dur": 8,
+     "loc": "a1_okafor_home",
+     "chars": [
+      "a1_mama"
+     ],
+     "keyframe": "Mrs Adebayo slowly kneels on the rug",
+     "action": "Mrs Adebayo slowly kneels on the rug",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a1_mama",
+       "t": "I will. Please, don't punish our children for my sins.",
+       "tone": "tearful"
+      }
+     ],
+     "sfx": "soft piano",
+     "transition": "cut"
+    },
+    {
+     "n": 8,
+     "dur": 8,
+     "loc": "a1_okafor_home",
+     "chars": [
+      "a1_amara"
+     ],
+     "keyframe": "Amara appears in the doorway, hand over her mouth",
+     "action": "Amara appears in the doorway, hand over her mouth",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a1_amara",
+       "t": "Mummy, please, get up.",
+       "tone": "emotional"
+      }
+     ],
+     "sfx": "gasp, strings swell",
+     "transition": "flash"
+    },
+    {
+     "n": 9,
+     "dur": 8,
+     "loc": "a1_okafor_home",
+     "chars": [
+      "a1_okafor",
+      "a1_mama"
+     ],
+     "keyframe": "Mr Okafor helps her to her feet",
+     "action": "Mr Okafor helps her to her feet",
+     "camera": "two-shot, shallow focus, slow lateral dolly",
+     "lines": [
+      {
+       "c": "a1_okafor",
+       "t": "Get up, my sister. Now let us talk like family.",
+       "tone": "warm"
+      }
+     ],
+     "sfx": "warm strings",
+     "transition": "cut"
+    },
+    {
+     "n": 10,
+     "dur": 8,
+     "loc": "a1_okafor_gate",
+     "chars": [
+      "a1_femi"
+     ],
+     "keyframe": "Femi stands outside the gate at dusk holding a black briefcase",
+     "action": "Femi stands outside the gate at dusk holding a black briefcase",
+     "camera": "dramatic crash zoom into a close-up, then hold",
+     "lines": [
+      {
+       "c": "a1_femi",
+       "t": "Before you decide anything, open this.",
+       "tone": "urgent"
+      }
+     ],
+     "sfx": "deep boom",
+     "transition": "cut",
+     "freeze": 1.5
+    }
+   ],
+   "loop_note": "cliffhanger freeze-frame; tomorrow opens with a 3 s 'previously' flash of it"
+  },
+  {
+   "id": "MOS-006",
+   "number": 6,
+   "arc": "a1",
+   "arc_title": "The Wedding Fund",
+   "arc_logline": "A proud mother demands a fifteen-million-naira wedding, but the family wedding account is empty, and someone has been lying for years.",
+   "part": 6,
+   "part_title": "The Truth",
+   "part_label": "PART 6 OF 6 · THE WEDDING FUND",
+   "title": "The briefcase changes everything. | The Wedding Fund Part 6 #shorts",
+   "hook_text": "The briefcase changes everything.",
+   "logline": "The Wedding Fund part 6, The Truth: The car is sold. This is eight million. All I have. / I gambled your wedding away, Tobi. I'm sorry. / Thank you for finally telling the truth, Uncle.",
+   "description": "A proud mother demands a fifteen-million-naira wedding, but the family wedding account is empty, and someone has been lying for years.\n\nThe Wedding Fund, part 6 of 6: The Truth.\n\nMoral Of The Story TV: a new story every week, and the full movie after every finale.",
+   "tags": [
+    "moral of the story",
+    "nigerian drama",
+    "short drama",
+    "african drama",
+    "family drama",
+    "the wedding fund",
+    "storytime",
+    "drama series"
+   ],
+   "music": "nollywood suspense",
+   "guests": {
+    "a1_tobi": {
+     "name": "Tobi",
+     "ref_prompt": "a 29-year-old Nigerian man, slim, short neat haircut, light beard, crisp white shirt with rolled sleeves",
+     "voice": "a calm, warm young male voice",
+     "species": "human"
+    },
+    "a1_amara": {
+     "name": "Amara",
+     "ref_prompt": "a 27-year-old Nigerian woman, natural hair in a neat bun, small gold earrings, soft peach blouse",
+     "voice": "a clear, gentle but confident female voice",
+     "species": "human"
+    },
+    "a1_mama": {
+     "name": "Mrs Adebayo",
+     "ref_prompt": "a 58-year-old Nigerian woman, elegant emerald lace blouse and wrapper with a matching head tie, gold necklace",
+     "voice": "a commanding, proud older female voice",
+     "species": "human"
+    },
+    "a1_okafor": {
+     "name": "Mr Okafor",
+     "ref_prompt": "a 62-year-old Nigerian man, short grey hair, reading glasses, simple cream kaftan",
+     "voice": "a slow, dignified older male voice",
+     "species": "human"
+    },
+    "a1_femi": {
+     "name": "Uncle Femi",
+     "ref_prompt": "a 50-year-old Nigerian man, slicked-back hair, gold watch, flashy patterned shirt",
+     "voice": "a smooth, charming male voice",
+     "species": "human"
+    }
+   },
+   "locations": {
+    "a1_parlour": "an upscale Lagos family living room, cream sofas, framed family portraits, a crystal chandelier, evening light through curtains",
+    "a1_okafor_home": "a modest, tidy sitting room with bookshelves, a wall clock and a ceiling fan, warm afternoon light",
+    "a1_office": "a modern tech office at night, glass walls, the glow of a laptop",
+    "a1_lounge": "a busy upscale lounge at night, neon accents, blurred patrons",
+    "a1_bank": "a bright modern bank hall with glass counters",
+    "a1_garden": "a garden decorated for a small wedding, fairy lights, white chairs, golden hour",
+    "a1_car": "the inside of a parked car at night, streetlights through a rain-streaked windscreen",
+    "a1_estate_gate": "a gated Lagos estate driveway at dusk, palm trees, a gleaming new SUV with a red ribbon",
+    "a1_okafor_gate": "the gate of a modest house at night, lit by a single bulb"
+   },
+   "end_card": "",
+   "moral": "A marriage built on secrets cannot stand. Build yours on the truth.",
+   "arc_finale": true,
+   "captions": {
+    "tiktok": "The briefcase changes everything. 😳 Part 6/6 · The Wedding Fund. The moral of the story: A marriage built on secrets cannot stand. Build yours on the truth. #moralofthestory #nigeriandrama #shortdrama #storytime #aidrama",
+    "facebook": "The Wedding Fund, part 6 of 6: The Truth. A proud mother demands a fifteen-million-naira wedding, but the family wedding account is empty, and someone has been lying for years. The moral of the story: A marriage built on secrets cannot stand. Build yours on the truth."
+   },
+   "shots": [
+    {
+     "n": 1,
+     "dur": 8,
+     "loc": "a1_okafor_home",
+     "chars": [
+      "a1_femi"
+     ],
+     "keyframe": "Femi opens the briefcase on the table: bundles of cash and car papers",
+     "action": "Femi opens the briefcase on the table: bundles of cash and car papers",
+     "camera": "dramatic crash zoom into a close-up, then hold",
+     "lines": [
+      {
+       "c": "a1_femi",
+       "t": "The car is sold. This is eight million. All I have.",
+       "tone": "humbled"
+      }
+     ],
+     "sfx": "latches click, boom",
+     "transition": "cut"
+    },
+    {
+     "n": 2,
+     "dur": 8,
+     "loc": "a1_okafor_home",
+     "chars": [
+      "a1_femi"
+     ],
+     "keyframe": "Femi lowers his eyes, voice cracking",
+     "action": "Femi lowers his eyes, voice cracking",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a1_femi",
+       "t": "I gambled your wedding away, Tobi. I'm sorry.",
+       "tone": "ashamed"
+      }
+     ],
+     "sfx": "soft piano",
+     "transition": "cut"
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "a1_okafor_home",
+     "chars": [
+      "a1_tobi"
+     ],
+     "keyframe": "Tobi exhales, the anger leaving his face",
+     "action": "Tobi exhales, the anger leaving his face",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a1_tobi",
+       "t": "Thank you for finally telling the truth, Uncle.",
+       "tone": "quiet"
+      }
+     ],
+     "sfx": "warm strings",
+     "transition": "cut"
+    },
+    {
+     "n": 4,
+     "dur": 8,
+     "loc": "a1_okafor_home",
+     "chars": [
+      "a1_okafor",
+      "a1_mama"
+     ],
+     "keyframe": "Mr Okafor gently pushes the briefcase back",
+     "action": "Mr Okafor gently pushes the briefcase back",
+     "camera": "two-shot, shallow focus, slow lateral dolly",
+     "lines": [
+      {
+       "c": "a1_okafor",
+       "t": "Keep your millions. Our children need a home, not a show.",
+       "tone": "wise"
+      }
+     ],
+     "sfx": "clock ticking",
+     "transition": "cut"
+    },
+    {
+     "n": 5,
+     "dur": 8,
+     "loc": "a1_okafor_home",
+     "chars": [
+      "a1_mama"
+     ],
+     "keyframe": "Mrs Adebayo smiles through tears",
+     "action": "Mrs Adebayo smiles through tears",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a1_mama",
+       "t": "A small wedding, then. With truth, and with love.",
+       "tone": "warm"
+      }
+     ],
+     "sfx": "strings swell",
+     "transition": "cut"
+    },
+    {
+     "n": 6,
+     "dur": 8,
+     "loc": "a1_garden",
+     "chars": [
+      "a1_amara",
+      "a1_tobi"
+     ],
+     "keyframe": "Golden hour, a small garden wedding under fairy lights, Amara and Tobi facing each other",
+     "action": "Golden hour, a small garden wedding under fairy lights, Amara and Tobi facing each other",
+     "camera": "wide establishing shot, slow dolly-in",
+     "lines": [
+      {
+       "c": "a1_amara",
+       "t": "No more secrets?",
+       "tone": "soft"
+      },
+      {
+       "c": "a1_tobi",
+       "t": "No more secrets. Ever.",
+       "tone": "sincere"
+      }
+     ],
+     "sfx": "birdsong, gentle music",
+     "transition": "dip"
+    },
+    {
+     "n": 7,
+     "dur": 8,
+     "loc": "a1_garden",
+     "chars": [
+      "a1_mama",
+      "a1_okafor"
+     ],
+     "keyframe": "Mrs Adebayo and Mr Okafor laughing together over plates of jollof rice",
+     "action": "Mrs Adebayo and Mr Okafor laughing together over plates of jollof rice",
+     "camera": "two-shot, shallow focus, slow lateral dolly",
+     "lines": [
+      {
+       "c": "a1_mama",
+       "t": "In-law, your jollof is better than mine.",
+       "tone": "laughing"
+      },
+      {
+       "c": "a1_okafor",
+       "t": "I know.",
+       "tone": "dry"
+      }
+     ],
+     "sfx": "laughter, cutlery",
+     "transition": "flash"
+    },
+    {
+     "n": 8,
+     "dur": 8,
+     "loc": "a1_garden",
+     "chars": [
+      "a1_femi"
+     ],
+     "keyframe": "Femi in a plain shirt serving drinks to guests, humbled",
+     "action": "Femi in a plain shirt serving drinks to guests, humbled",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a1_femi",
+       "t": "Today, I serve. It's the least I can do.",
+       "tone": "sincere"
+      }
+     ],
+     "sfx": "glasses clinking",
+     "transition": "cut"
+    },
+    {
+     "n": 9,
+     "dur": 8,
+     "loc": "a1_garden",
+     "chars": [
+      "a1_amara",
+      "a1_tobi"
+     ],
+     "keyframe": "Amara and Tobi dance slowly, foreheads touching",
+     "action": "Amara and Tobi dance slowly, foreheads touching",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a1_amara",
+       "t": "We built this on the truth.",
+       "tone": "tender"
+      }
+     ],
+     "sfx": "gentle music",
+     "transition": "cut"
+    },
+    {
+     "n": 10,
+     "dur": 8,
+     "loc": "a1_garden",
+     "chars": [],
+     "keyframe": "slow crane shot rising over the glowing garden wedding at sunset",
+     "action": "slow crane shot rising over the glowing garden wedding at sunset",
+     "camera": "wide establishing shot, slow dolly-in",
+     "lines": [],
+     "sfx": "soft wind, music",
+     "transition": "cut"
+    }
+   ],
+   "loop_note": "cliffhanger freeze-frame; tomorrow opens with a 3 s 'previously' flash of it"
+  },
+  {
+   "id": "MOS-007",
+   "number": 7,
+   "arc": "a2",
+   "arc_title": "Mama's House",
+   "arc_logline": "After Mama's funeral, three siblings fight over the family house until her will and a hidden video reveal who really stayed.",
+   "part": 1,
+   "part_title": "After the Funeral",
+   "part_label": "PART 1 OF 6 · MAMA'S HOUSE",
+   "title": "The funeral is over. The war begins. | Mama's House Part 1 #shorts",
+   "hook_text": "The funeral is over. The war begins.",
+   "logline": "Mama's House part 1, After the Funeral: I'm the first son. This house is mine. That's tradition. / Tradition? I paid for the funeral. Every naira. / Can we at least wait one week? Mama's flowers are still fresh.",
+   "description": "After Mama's funeral, three siblings fight over the family house until her will and a hidden video reveal who really stayed.\n\nMama's House, part 1 of 6: After the Funeral.\n\nWhat did mama record? Tell us in the comments.\n\nMoral Of The Story TV: a new story every week, and the full movie after every finale.",
+   "tags": [
+    "moral of the story",
+    "nigerian drama",
+    "short drama",
+    "african drama",
+    "family drama",
+    "mama's house",
+    "storytime",
+    "drama series"
+   ],
+   "music": "tender strings",
+   "guests": {
+    "a2_chidi": {
+     "name": "Chidi",
+     "ref_prompt": "a 45-year-old Nigerian man, tall, rimless glasses, navy blazer over a black polo shirt",
+     "voice": "a deep, clipped male voice",
+     "species": "human"
+    },
+    "a2_ngozi": {
+     "name": "Ngozi",
+     "ref_prompt": "a 40-year-old Nigerian woman, sleek bob, red designer dress, gold bangles",
+     "voice": "a sharp, assertive female voice",
+     "species": "human"
+    },
+    "a2_ifeoma": {
+     "name": "Ifeoma",
+     "ref_prompt": "a 33-year-old Nigerian woman, simple braids tied back, plain grey blouse, gentle face",
+     "voice": "a soft, steady female voice",
+     "species": "human"
+    },
+    "a2_barrister": {
+     "name": "Barrister Eze",
+     "ref_prompt": "a 60-year-old Nigerian man, grey beard, black suit and tie, holding a folder",
+     "voice": "a measured, formal older male voice",
+     "species": "human"
+    },
+    "a2_mama": {
+     "name": "Mama",
+     "ref_prompt": "a 75-year-old Nigerian woman, short grey hair, soft blue blouse, kind eyes, seated in an armchair",
+     "voice": "a frail, loving elderly female voice",
+     "species": "human"
+    },
+    "a2_emeka": {
+     "name": "Emeka",
+     "ref_prompt": "a 38-year-old Nigerian man, kind face, short hair, brown suit jacket, chalk on his fingers",
+     "voice": "a soft, warm male voice",
+     "species": "human"
+    }
+   },
+   "locations": {
+    "a2_house": "a large old family house in Enugu, faded green walls, framed photos, an old armchair by the window",
+    "a2_compound": "the dusty front compound of an old family house, a big mango tree, parked cars",
+    "a2_lawyer_office": "a wood-panelled lawyer's office, shelves of files, a ceiling fan",
+    "a2_kitchen": "a small family kitchen, old pots, a window over the yard",
+    "a2_hospital": "a hospital room in soft hazy morning light",
+    "a2_road": "a highway at dawn through green hills, seen from inside a car",
+    "a2_school": "a modest primary school classroom, wooden desks, a chalkboard, children's drawings on the wall"
+   },
+   "end_card": "WHAT DID MAMA RECORD?|PART 2 TOMORROW",
+   "captions": {
+    "tiktok": "The funeral is over. The war begins. 😳 Part 1/6 · Mama's House. What did mama record? #moralofthestory #nigeriandrama #shortdrama #storytime #aidrama",
+    "facebook": "Mama's House, part 1 of 6: After the Funeral. After Mama's funeral, three siblings fight over the family house until her will and a hidden video reveal who really stayed. What did mama record? Follow Moral Of The Story TV for part 2."
+   },
+   "shots": [
+    {
+     "n": 1,
+     "dur": 8,
+     "loc": "a2_house",
+     "chars": [
+      "a2_chidi",
+      "a2_ngozi",
+      "a2_ifeoma"
+     ],
+     "keyframe": "Three siblings in mourning clothes stand in the old family living room, tension crackling",
+     "action": "Three siblings in mourning clothes stand in the old family living room, tension crackling",
+     "camera": "dramatic crash zoom into a close-up, then hold",
+     "lines": [
+      {
+       "c": "a2_chidi",
+       "t": "I'm the first son. This house is mine. That's tradition.",
+       "tone": "cold"
+      }
+     ],
+     "sfx": "deep boom",
+     "transition": "cut"
+    },
+    {
+     "n": 2,
+     "dur": 8,
+     "loc": "a2_house",
+     "chars": [
+      "a2_ngozi"
+     ],
+     "keyframe": "Ngozi folds her arms, gold bangles clinking",
+     "action": "Ngozi folds her arms, gold bangles clinking",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a2_ngozi",
+       "t": "Tradition? I paid for the funeral. Every naira.",
+       "tone": "sharp"
+      }
+     ],
+     "sfx": "bangles clink",
+     "transition": "cut"
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "a2_house",
+     "chars": [
+      "a2_ifeoma"
+     ],
+     "keyframe": "Ifeoma speaks softly from beside Mama's empty armchair",
+     "action": "Ifeoma speaks softly from beside Mama's empty armchair",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a2_ifeoma",
+       "t": "Can we at least wait one week? Mama's flowers are still fresh.",
+       "tone": "gentle"
+      }
+     ],
+     "sfx": "clock ticking",
+     "transition": "cut"
+    },
+    {
+     "n": 4,
+     "dur": 8,
+     "loc": "a2_house",
+     "chars": [
+      "a2_chidi",
+      "a2_ngozi"
+     ],
+     "keyframe": "Ngozi turns on her younger sister",
+     "action": "Ngozi turns on her younger sister",
+     "camera": "two-shot, shallow focus, slow lateral dolly",
+     "lines": [
+      {
+       "c": "a2_ngozi",
+       "t": "Stay out of it, Ifeoma. You never contributed anything.",
+       "tone": "dismissive"
+      }
+     ],
+     "sfx": "tense strings",
+     "transition": "cut"
+    },
+    {
+     "n": 5,
+     "dur": 8,
+     "loc": "a2_kitchen",
+     "chars": [
+      "a2_ifeoma"
+     ],
+     "keyframe": "Ifeoma alone, washing Mama's old teacup, tears falling into the sink",
+     "action": "Ifeoma alone, washing Mama's old teacup, tears falling into the sink",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a2_ifeoma",
+       "t": "Never contributed. If only they knew, Mama.",
+       "tone": "whisper"
+      }
+     ],
+     "sfx": "running water",
+     "transition": "dip"
+    },
+    {
+     "n": 6,
+     "dur": 8,
+     "loc": "a2_compound",
+     "chars": [
+      "a2_chidi"
+     ],
+     "keyframe": "Chidi under the mango tree on his phone, scanning the house like a buyer",
+     "action": "Chidi under the mango tree on his phone, scanning the house like a buyer",
+     "camera": "wide establishing shot, slow dolly-in",
+     "lines": [
+      {
+       "c": "a2_chidi",
+       "t": "Yes, the buyer can come Monday. Two hundred million, minimum.",
+       "tone": "businesslike"
+      }
+     ],
+     "sfx": "birds, distant traffic",
+     "transition": "flash"
+    },
+    {
+     "n": 7,
+     "dur": 8,
+     "loc": "a2_compound",
+     "chars": [
+      "a2_ngozi"
+     ],
+     "keyframe": "Ngozi listening from behind the mango tree, eyes narrowing",
+     "action": "Ngozi listening from behind the mango tree, eyes narrowing",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a2_ngozi",
+       "t": "Selling it already? Over my dead body.",
+       "tone": "seething"
+      }
+     ],
+     "sfx": "leaves rustling",
+     "transition": "cut"
+    },
+    {
+     "n": 8,
+     "dur": 8,
+     "loc": "a2_house",
+     "chars": [
+      "a2_barrister"
+     ],
+     "keyframe": "Barrister Eze enters at dusk holding a folder",
+     "action": "Barrister Eze enters at dusk holding a folder",
+     "camera": "wide establishing shot, slow dolly-in",
+     "lines": [
+      {
+       "c": "a2_barrister",
+       "t": "Good evening. Your mother left a will. And a video.",
+       "tone": "formal"
+      }
+     ],
+     "sfx": "door creak",
+     "transition": "dip"
+    },
+    {
+     "n": 9,
+     "dur": 8,
+     "loc": "a2_house",
+     "chars": [
+      "a2_chidi",
+      "a2_ngozi"
+     ],
+     "keyframe": "Chidi and Ngozi exchange stunned looks",
+     "action": "Chidi and Ngozi exchange stunned looks",
+     "camera": "two-shot, shallow focus, slow lateral dolly",
+     "lines": [
+      {
+       "c": "a2_chidi",
+       "t": "A video?",
+       "tone": "confused"
+      },
+      {
+       "c": "a2_ngozi",
+       "t": "Mama never even used a smartphone.",
+       "tone": "scoffing"
+      }
+     ],
+     "sfx": "low drone",
+     "transition": "cut"
+    },
+    {
+     "n": 10,
+     "dur": 8,
+     "loc": "a2_house",
+     "chars": [
+      "a2_ifeoma"
+     ],
+     "keyframe": "Ifeoma looks down, quietly guilty",
+     "action": "Ifeoma looks down, quietly guilty",
+     "camera": "dramatic crash zoom into a close-up, then hold",
+     "lines": [
+      {
+       "c": "a2_ifeoma",
+       "t": "She did. I taught her.",
+       "tone": "quiet"
+      }
+     ],
+     "sfx": "deep boom",
+     "transition": "cut",
+     "freeze": 1.5
+    }
+   ],
+   "loop_note": "cliffhanger freeze-frame; tomorrow opens with a 3 s 'previously' flash of it"
+  },
+  {
+   "id": "MOS-008",
+   "number": 8,
+   "arc": "a2",
+   "arc_title": "Mama's House",
+   "arc_logline": "After Mama's funeral, three siblings fight over the family house until her will and a hidden video reveal who really stayed.",
+   "part": 2,
+   "part_title": "The Will",
+   "part_label": "PART 2 OF 6 · MAMA'S HOUSE",
+   "title": "Mama's will. Nobody expected this. | Mama's House Part 2 #shorts",
+   "hook_text": "Mama's will. Nobody expected this.",
+   "logline": "Mama's House part 2, The Will: The house in Enugu goes to the person who stayed. / Stayed? What does that mean? Read the name. / Your mother asked that you watch her video first. Then I read the name.",
+   "description": "After Mama's funeral, three siblings fight over the family house until her will and a hidden video reveal who really stayed.\n\nMama's House, part 2 of 6: The Will.\n\nWhat's in the tin box? Tell us in the comments.\n\nMoral Of The Story TV: a new story every week, and the full movie after every finale.",
+   "tags": [
+    "moral of the story",
+    "nigerian drama",
+    "short drama",
+    "african drama",
+    "family drama",
+    "mama's house",
+    "storytime",
+    "drama series"
+   ],
+   "music": "tender strings",
+   "guests": {
+    "a2_chidi": {
+     "name": "Chidi",
+     "ref_prompt": "a 45-year-old Nigerian man, tall, rimless glasses, navy blazer over a black polo shirt",
+     "voice": "a deep, clipped male voice",
+     "species": "human"
+    },
+    "a2_ngozi": {
+     "name": "Ngozi",
+     "ref_prompt": "a 40-year-old Nigerian woman, sleek bob, red designer dress, gold bangles",
+     "voice": "a sharp, assertive female voice",
+     "species": "human"
+    },
+    "a2_ifeoma": {
+     "name": "Ifeoma",
+     "ref_prompt": "a 33-year-old Nigerian woman, simple braids tied back, plain grey blouse, gentle face",
+     "voice": "a soft, steady female voice",
+     "species": "human"
+    },
+    "a2_barrister": {
+     "name": "Barrister Eze",
+     "ref_prompt": "a 60-year-old Nigerian man, grey beard, black suit and tie, holding a folder",
+     "voice": "a measured, formal older male voice",
+     "species": "human"
+    },
+    "a2_mama": {
+     "name": "Mama",
+     "ref_prompt": "a 75-year-old Nigerian woman, short grey hair, soft blue blouse, kind eyes, seated in an armchair",
+     "voice": "a frail, loving elderly female voice",
+     "species": "human"
+    },
+    "a2_emeka": {
+     "name": "Emeka",
+     "ref_prompt": "a 38-year-old Nigerian man, kind face, short hair, brown suit jacket, chalk on his fingers",
+     "voice": "a soft, warm male voice",
+     "species": "human"
+    }
+   },
+   "locations": {
+    "a2_house": "a large old family house in Enugu, faded green walls, framed photos, an old armchair by the window",
+    "a2_compound": "the dusty front compound of an old family house, a big mango tree, parked cars",
+    "a2_lawyer_office": "a wood-panelled lawyer's office, shelves of files, a ceiling fan",
+    "a2_kitchen": "a small family kitchen, old pots, a window over the yard",
+    "a2_hospital": "a hospital room in soft hazy morning light",
+    "a2_road": "a highway at dawn through green hills, seen from inside a car",
+    "a2_school": "a modest primary school classroom, wooden desks, a chalkboard, children's drawings on the wall"
+   },
+   "end_card": "WHAT'S IN THE TIN BOX?|PART 3 TOMORROW",
+   "captions": {
+    "tiktok": "Mama's will. Nobody expected this. 😳 Part 2/6 · Mama's House. What's in the tin box? #moralofthestory #nigeriandrama #shortdrama #storytime #aidrama",
+    "facebook": "Mama's House, part 2 of 6: The Will. After Mama's funeral, three siblings fight over the family house until her will and a hidden video reveal who really stayed. What's in the tin box? Follow Moral Of The Story TV for part 3."
+   },
+   "shots": [
+    {
+     "n": 1,
+     "dur": 8,
+     "loc": "a2_lawyer_office",
+     "chars": [
+      "a2_barrister"
+     ],
+     "keyframe": "Barrister Eze reads from the will, siblings leaning forward",
+     "action": "Barrister Eze reads from the will, siblings leaning forward",
+     "camera": "dramatic crash zoom into a close-up, then hold",
+     "lines": [
+      {
+       "c": "a2_barrister",
+       "t": "The house in Enugu goes to the person who stayed.",
+       "tone": "measured"
+      }
+     ],
+     "sfx": "deep boom",
+     "transition": "cut"
+    },
+    {
+     "n": 2,
+     "dur": 8,
+     "loc": "a2_lawyer_office",
+     "chars": [
+      "a2_chidi"
+     ],
+     "keyframe": "Chidi leans in, impatient",
+     "action": "Chidi leans in, impatient",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a2_chidi",
+       "t": "Stayed? What does that mean? Read the name.",
+       "tone": "demanding"
+      }
+     ],
+     "sfx": "ceiling fan",
+     "transition": "cut"
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "a2_lawyer_office",
+     "chars": [
+      "a2_barrister"
+     ],
+     "keyframe": "Barrister Eze closes the folder calmly",
+     "action": "Barrister Eze closes the folder calmly",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a2_barrister",
+       "t": "Your mother asked that you watch her video first. Then I read the name.",
+       "tone": "calm"
+      }
+     ],
+     "sfx": "folder thud",
+     "transition": "cut"
+    },
+    {
+     "n": 4,
+     "dur": 8,
+     "loc": "a2_lawyer_office",
+     "chars": [
+      "a2_ngozi"
+     ],
+     "keyframe": "Ngozi scoffs, shaking her head",
+     "action": "Ngozi scoffs, shaking her head",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a2_ngozi",
+       "t": "This is manipulation. Somebody wrote that will for her.",
+       "tone": "suspicious"
+      }
+     ],
+     "sfx": "tense strings",
+     "transition": "cut"
+    },
+    {
+     "n": 5,
+     "dur": 8,
+     "loc": "a2_lawyer_office",
+     "chars": [
+      "a2_ngozi",
+      "a2_ifeoma"
+     ],
+     "keyframe": "Ngozi turns slowly to her sister",
+     "action": "Ngozi turns slowly to her sister",
+     "camera": "two-shot, shallow focus, slow lateral dolly",
+     "lines": [
+      {
+       "c": "a2_ngozi",
+       "t": "Ifeoma. You were always in that house. What did you do?",
+       "tone": "accusing"
+      }
+     ],
+     "sfx": "low drone",
+     "transition": "cut"
+    },
+    {
+     "n": 6,
+     "dur": 8,
+     "loc": "a2_lawyer_office",
+     "chars": [
+      "a2_ifeoma"
+     ],
+     "keyframe": "Ifeoma meets her eyes, steady",
+     "action": "Ifeoma meets her eyes, steady",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a2_ifeoma",
+       "t": "I cooked. I bathed her. I held her hand at night.",
+       "tone": "quiet strength"
+      }
+     ],
+     "sfx": "soft piano",
+     "transition": "cut"
+    },
+    {
+     "n": 7,
+     "dur": 8,
+     "loc": "a2_house",
+     "chars": [
+      "a2_chidi",
+      "a2_ngozi"
+     ],
+     "keyframe": "Back at the house at night, Chidi and Ngozi plot by lamplight",
+     "action": "Back at the house at night, Chidi and Ngozi plot by lamplight",
+     "camera": "two-shot, shallow focus, slow lateral dolly",
+     "lines": [
+      {
+       "c": "a2_chidi",
+       "t": "We contest the will. I have the best lawyers in Lagos.",
+       "tone": "determined"
+      }
+     ],
+     "sfx": "crickets",
+     "transition": "dip"
+    },
+    {
+     "n": 8,
+     "dur": 8,
+     "loc": "a2_house",
+     "chars": [
+      "a2_ngozi"
+     ],
+     "keyframe": "Ngozi nods coldly",
+     "action": "Ngozi nods coldly",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a2_ngozi",
+       "t": "For once, brother, we agree.",
+       "tone": "icy"
+      }
+     ],
+     "sfx": "tense strings",
+     "transition": "cut"
+    },
+    {
+     "n": 9,
+     "dur": 8,
+     "loc": "a2_kitchen",
+     "chars": [
+      "a2_ifeoma"
+     ],
+     "keyframe": "Ifeoma opens Mama's old tin box: letters and hospital receipts",
+     "action": "Ifeoma opens Mama's old tin box: letters and hospital receipts",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a2_ifeoma",
+       "t": "They want a war, Mama. I just wanted you.",
+       "tone": "tearful"
+      }
+     ],
+     "sfx": "tin lid creak",
+     "transition": "dip"
+    },
+    {
+     "n": 10,
+     "dur": 8,
+     "loc": "a2_kitchen",
+     "chars": [
+      "a2_ifeoma"
+     ],
+     "keyframe": "Among the receipts, Ifeoma finds a large signed cheque made out to her",
+     "action": "Among the receipts, Ifeoma finds a large signed cheque made out to her",
+     "camera": "dramatic crash zoom into a close-up, then hold",
+     "lines": [
+      {
+       "c": "a2_ifeoma",
+       "t": "Mama, what is this?",
+       "tone": "shocked"
+      }
+     ],
+     "sfx": "deep boom",
+     "transition": "cut",
+     "freeze": 1.5
+    }
+   ],
+   "loop_note": "cliffhanger freeze-frame; tomorrow opens with a 3 s 'previously' flash of it"
+  },
+  {
+   "id": "MOS-009",
+   "number": 9,
+   "arc": "a2",
+   "arc_title": "Mama's House",
+   "arc_logline": "After Mama's funeral, three siblings fight over the family house until her will and a hidden video reveal who really stayed.",
+   "part": 3,
+   "part_title": "Receipts",
+   "part_label": "PART 3 OF 6 · MAMA'S HOUSE",
+   "title": "Three years of receipts. Nobody knew. | Mama's House Part 3 #shorts",
+   "hook_text": "Three years of receipts. Nobody knew.",
+   "logline": "Mama's House part 3, Receipts: Fifty million naira? You stole from our mother! / I never cashed it. Look at the date. She wrote it last month. / Then why hide it? Why hide anything?",
+   "description": "After Mama's funeral, three siblings fight over the family house until her will and a hidden video reveal who really stayed.\n\nMama's House, part 3 of 6: Receipts.\n\nWho paid for mama? Tell us in the comments.\n\nMoral Of The Story TV: a new story every week, and the full movie after every finale.",
+   "tags": [
+    "moral of the story",
+    "nigerian drama",
+    "short drama",
+    "african drama",
+    "family drama",
+    "mama's house",
+    "storytime",
+    "drama series"
+   ],
+   "music": "tender strings",
+   "guests": {
+    "a2_chidi": {
+     "name": "Chidi",
+     "ref_prompt": "a 45-year-old Nigerian man, tall, rimless glasses, navy blazer over a black polo shirt",
+     "voice": "a deep, clipped male voice",
+     "species": "human"
+    },
+    "a2_ngozi": {
+     "name": "Ngozi",
+     "ref_prompt": "a 40-year-old Nigerian woman, sleek bob, red designer dress, gold bangles",
+     "voice": "a sharp, assertive female voice",
+     "species": "human"
+    },
+    "a2_ifeoma": {
+     "name": "Ifeoma",
+     "ref_prompt": "a 33-year-old Nigerian woman, simple braids tied back, plain grey blouse, gentle face",
+     "voice": "a soft, steady female voice",
+     "species": "human"
+    },
+    "a2_barrister": {
+     "name": "Barrister Eze",
+     "ref_prompt": "a 60-year-old Nigerian man, grey beard, black suit and tie, holding a folder",
+     "voice": "a measured, formal older male voice",
+     "species": "human"
+    },
+    "a2_mama": {
+     "name": "Mama",
+     "ref_prompt": "a 75-year-old Nigerian woman, short grey hair, soft blue blouse, kind eyes, seated in an armchair",
+     "voice": "a frail, loving elderly female voice",
+     "species": "human"
+    },
+    "a2_emeka": {
+     "name": "Emeka",
+     "ref_prompt": "a 38-year-old Nigerian man, kind face, short hair, brown suit jacket, chalk on his fingers",
+     "voice": "a soft, warm male voice",
+     "species": "human"
+    }
+   },
+   "locations": {
+    "a2_house": "a large old family house in Enugu, faded green walls, framed photos, an old armchair by the window",
+    "a2_compound": "the dusty front compound of an old family house, a big mango tree, parked cars",
+    "a2_lawyer_office": "a wood-panelled lawyer's office, shelves of files, a ceiling fan",
+    "a2_kitchen": "a small family kitchen, old pots, a window over the yard",
+    "a2_hospital": "a hospital room in soft hazy morning light",
+    "a2_road": "a highway at dawn through green hills, seen from inside a car",
+    "a2_school": "a modest primary school classroom, wooden desks, a chalkboard, children's drawings on the wall"
+   },
+   "end_card": "WHO PAID FOR MAMA?|PART 4 TOMORROW",
+   "captions": {
+    "tiktok": "Three years of receipts. Nobody knew. 😳 Part 3/6 · Mama's House. Who paid for mama? #moralofthestory #nigeriandrama #shortdrama #storytime #aidrama",
+    "facebook": "Mama's House, part 3 of 6: Receipts. After Mama's funeral, three siblings fight over the family house until her will and a hidden video reveal who really stayed. Who paid for mama? Follow Moral Of The Story TV for part 4."
+   },
+   "shots": [
+    {
+     "n": 1,
+     "dur": 8,
+     "loc": "a2_house",
+     "chars": [
+      "a2_ngozi",
+      "a2_ifeoma"
+     ],
+     "keyframe": "Ngozi snatches the cheque from Ifeoma's hand",
+     "action": "Ngozi snatches the cheque from Ifeoma's hand",
+     "camera": "dramatic crash zoom into a close-up, then hold",
+     "lines": [
+      {
+       "c": "a2_ngozi",
+       "t": "Fifty million naira? You stole from our mother!",
+       "tone": "furious"
+      }
+     ],
+     "sfx": "paper snatch, boom",
+     "transition": "cut"
+    },
+    {
+     "n": 2,
+     "dur": 8,
+     "loc": "a2_house",
+     "chars": [
+      "a2_ifeoma"
+     ],
+     "keyframe": "Ifeoma stays calm, pointing at the date",
+     "action": "Ifeoma stays calm, pointing at the date",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a2_ifeoma",
+       "t": "I never cashed it. Look at the date. She wrote it last month.",
+       "tone": "calm"
+      }
+     ],
+     "sfx": "clock ticking",
+     "transition": "cut"
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "a2_house",
+     "chars": [
+      "a2_chidi"
+     ],
+     "keyframe": "Chidi frowns, confused",
+     "action": "Chidi frowns, confused",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a2_chidi",
+       "t": "Then why hide it? Why hide anything?",
+       "tone": "frustrated"
+      }
+     ],
+     "sfx": "tense strings",
+     "transition": "cut"
+    },
+    {
+     "n": 4,
+     "dur": 8,
+     "loc": "a2_house",
+     "chars": [
+      "a2_ifeoma"
+     ],
+     "keyframe": "Ifeoma looks at both of them",
+     "action": "Ifeoma looks at both of them",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a2_ifeoma",
+       "t": "Because you would make it about money. Like now.",
+       "tone": "hurt"
+      }
+     ],
+     "sfx": "single piano note",
+     "transition": "cut"
+    },
+    {
+     "n": 5,
+     "dur": 8,
+     "loc": "a2_hospital",
+     "chars": [
+      "a2_mama",
+      "a2_ifeoma"
+     ],
+     "keyframe": "warm hazy flashback: Ifeoma spoon-feeds Mama soup in a hospital bed",
+     "action": "warm hazy flashback: Ifeoma spoon-feeds Mama soup in a hospital bed",
+     "camera": "two-shot, shallow focus, slow lateral dolly",
+     "lines": [
+      {
+       "c": "a2_mama",
+       "t": "My daughter, you gave up your job for me.",
+       "tone": "frail, loving"
+      }
+     ],
+     "sfx": "heart monitor beeping",
+     "transition": "dip"
+    },
+    {
+     "n": 6,
+     "dur": 8,
+     "loc": "a2_hospital",
+     "chars": [
+      "a2_ifeoma"
+     ],
+     "keyframe": "flashback, Ifeoma smiles at Mama",
+     "action": "flashback, Ifeoma smiles at Mama",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a2_ifeoma",
+       "t": "You gave up everything for us, Mama. My turn.",
+       "tone": "tender"
+      }
+     ],
+     "sfx": "soft strings",
+     "transition": "cut"
+    },
+    {
+     "n": 7,
+     "dur": 8,
+     "loc": "a2_house",
+     "chars": [
+      "a2_ngozi"
+     ],
+     "keyframe": "Ngozi reads the receipts, her anger turning to horror",
+     "action": "Ngozi reads the receipts, her anger turning to horror",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a2_ngozi",
+       "t": "Dialysis three times a week. For three years?",
+       "tone": "stunned"
+      }
+     ],
+     "sfx": "paper rustle",
+     "transition": "dip"
+    },
+    {
+     "n": 8,
+     "dur": 8,
+     "loc": "a2_house",
+     "chars": [
+      "a2_chidi"
+     ],
+     "keyframe": "Chidi sinks into Mama's armchair",
+     "action": "Chidi sinks into Mama's armchair",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a2_chidi",
+       "t": "Mama told me she was fine. Every single call, she said fine.",
+       "tone": "broken"
+      }
+     ],
+     "sfx": "clock ticking",
+     "transition": "cut"
+    },
+    {
+     "n": 9,
+     "dur": 8,
+     "loc": "a2_house",
+     "chars": [
+      "a2_ifeoma"
+     ],
+     "keyframe": "Ifeoma speaks without bitterness",
+     "action": "Ifeoma speaks without bitterness",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a2_ifeoma",
+       "t": "She didn't want to disturb your lives. I didn't have a life to disturb.",
+       "tone": "gentle"
+      }
+     ],
+     "sfx": "soft piano",
+     "transition": "cut"
+    },
+    {
+     "n": 10,
+     "dur": 8,
+     "loc": "a2_house",
+     "chars": [
+      "a2_chidi",
+      "a2_ngozi"
+     ],
+     "keyframe": "Chidi and Ngozi stare at their sister, stunned",
+     "action": "Chidi and Ngozi stare at their sister, stunned",
+     "camera": "dramatic crash zoom into a close-up, then hold",
+     "lines": [
+      {
+       "c": "a2_ngozi",
+       "t": "Then who paid for all of it?",
+       "tone": "whisper"
+      }
+     ],
+     "sfx": "deep boom",
+     "transition": "cut",
+     "freeze": 1.5
+    }
+   ],
+   "loop_note": "cliffhanger freeze-frame; tomorrow opens with a 3 s 'previously' flash of it"
+  },
+  {
+   "id": "MOS-010",
+   "number": 10,
+   "arc": "a2",
+   "arc_title": "Mama's House",
+   "arc_logline": "After Mama's funeral, three siblings fight over the family house until her will and a hidden video reveal who really stayed.",
+   "part": 4,
+   "part_title": "Who Paid",
+   "part_label": "PART 4 OF 6 · MAMA'S HOUSE",
+   "title": "Who really paid for Mama's treatment? | Mama's House Part 4 #shorts",
+   "hook_text": "Who really paid for Mama's treatment?",
+   "logline": "Mama's House part 4, Who Paid: I sold my shop. Then my car. Then my wedding jewellery. / Your wedding? Is that why the engagement ended? / He said a woman with debts is a bad investment.",
+   "description": "After Mama's funeral, three siblings fight over the family house until her will and a hidden video reveal who really stayed.\n\nMama's House, part 4 of 6: Who Paid.\n\nMama's secret? Tell us in the comments.\n\nMoral Of The Story TV: a new story every week, and the full movie after every finale.",
+   "tags": [
+    "moral of the story",
+    "nigerian drama",
+    "short drama",
+    "african drama",
+    "family drama",
+    "mama's house",
+    "storytime",
+    "drama series"
+   ],
+   "music": "tender strings",
+   "guests": {
+    "a2_chidi": {
+     "name": "Chidi",
+     "ref_prompt": "a 45-year-old Nigerian man, tall, rimless glasses, navy blazer over a black polo shirt",
+     "voice": "a deep, clipped male voice",
+     "species": "human"
+    },
+    "a2_ngozi": {
+     "name": "Ngozi",
+     "ref_prompt": "a 40-year-old Nigerian woman, sleek bob, red designer dress, gold bangles",
+     "voice": "a sharp, assertive female voice",
+     "species": "human"
+    },
+    "a2_ifeoma": {
+     "name": "Ifeoma",
+     "ref_prompt": "a 33-year-old Nigerian woman, simple braids tied back, plain grey blouse, gentle face",
+     "voice": "a soft, steady female voice",
+     "species": "human"
+    },
+    "a2_barrister": {
+     "name": "Barrister Eze",
+     "ref_prompt": "a 60-year-old Nigerian man, grey beard, black suit and tie, holding a folder",
+     "voice": "a measured, formal older male voice",
+     "species": "human"
+    },
+    "a2_mama": {
+     "name": "Mama",
+     "ref_prompt": "a 75-year-old Nigerian woman, short grey hair, soft blue blouse, kind eyes, seated in an armchair",
+     "voice": "a frail, loving elderly female voice",
+     "species": "human"
+    },
+    "a2_emeka": {
+     "name": "Emeka",
+     "ref_prompt": "a 38-year-old Nigerian man, kind face, short hair, brown suit jacket, chalk on his fingers",
+     "voice": "a soft, warm male voice",
+     "species": "human"
+    }
+   },
+   "locations": {
+    "a2_house": "a large old family house in Enugu, faded green walls, framed photos, an old armchair by the window",
+    "a2_compound": "the dusty front compound of an old family house, a big mango tree, parked cars",
+    "a2_lawyer_office": "a wood-panelled lawyer's office, shelves of files, a ceiling fan",
+    "a2_kitchen": "a small family kitchen, old pots, a window over the yard",
+    "a2_hospital": "a hospital room in soft hazy morning light",
+    "a2_road": "a highway at dawn through green hills, seen from inside a car",
+    "a2_school": "a modest primary school classroom, wooden desks, a chalkboard, children's drawings on the wall"
+   },
+   "end_card": "MAMA'S SECRET?|PART 5 TOMORROW",
+   "captions": {
+    "tiktok": "Who really paid for Mama's treatment? 😳 Part 4/6 · Mama's House. Mama's secret? #moralofthestory #nigeriandrama #shortdrama #storytime #aidrama",
+    "facebook": "Mama's House, part 4 of 6: Who Paid. After Mama's funeral, three siblings fight over the family house until her will and a hidden video reveal who really stayed. Mama's secret? Follow Moral Of The Story TV for part 5."
+   },
+   "shots": [
+    {
+     "n": 1,
+     "dur": 8,
+     "loc": "a2_house",
+     "chars": [
+      "a2_ifeoma"
+     ],
+     "keyframe": "Ifeoma lists it plainly, hands folded",
+     "action": "Ifeoma lists it plainly, hands folded",
+     "camera": "dramatic crash zoom into a close-up, then hold",
+     "lines": [
+      {
+       "c": "a2_ifeoma",
+       "t": "I sold my shop. Then my car. Then my wedding jewellery.",
+       "tone": "plain"
+      }
+     ],
+     "sfx": "deep boom",
+     "transition": "cut"
+    },
+    {
+     "n": 2,
+     "dur": 8,
+     "loc": "a2_house",
+     "chars": [
+      "a2_ngozi"
+     ],
+     "keyframe": "Ngozi covers her mouth",
+     "action": "Ngozi covers her mouth",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a2_ngozi",
+       "t": "Your wedding? Is that why the engagement ended?",
+       "tone": "horrified"
+      }
+     ],
+     "sfx": "low drone",
+     "transition": "cut"
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "a2_house",
+     "chars": [
+      "a2_ifeoma"
+     ],
+     "keyframe": "Ifeoma gives a small, sad smile",
+     "action": "Ifeoma gives a small, sad smile",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a2_ifeoma",
+       "t": "He said a woman with debts is a bad investment.",
+       "tone": "quiet"
+      }
+     ],
+     "sfx": "single piano note",
+     "transition": "cut"
+    },
+    {
+     "n": 4,
+     "dur": 8,
+     "loc": "a2_house",
+     "chars": [
+      "a2_chidi"
+     ],
+     "keyframe": "Chidi shakes, ashamed",
+     "action": "Chidi shakes, ashamed",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a2_chidi",
+       "t": "And I sent five hundred dollars at Christmas. Like a visitor.",
+       "tone": "ashamed"
+      }
+     ],
+     "sfx": "soft strings",
+     "transition": "cut"
+    },
+    {
+     "n": 5,
+     "dur": 8,
+     "loc": "a2_compound",
+     "chars": [
+      "a2_chidi"
+     ],
+     "keyframe": "Chidi under the mango tree, phone to his ear",
+     "action": "Chidi under the mango tree, phone to his ear",
+     "camera": "wide establishing shot, slow dolly-in",
+     "lines": [
+      {
+       "c": "a2_chidi",
+       "t": "Cancel Monday. The house is not for sale.",
+       "tone": "decisive"
+      }
+     ],
+     "sfx": "birds",
+     "transition": "dip"
+    },
+    {
+     "n": 6,
+     "dur": 8,
+     "loc": "a2_compound",
+     "chars": [
+      "a2_ngozi",
+      "a2_chidi"
+     ],
+     "keyframe": "Ngozi joins him under the tree",
+     "action": "Ngozi joins him under the tree",
+     "camera": "two-shot, shallow focus, slow lateral dolly",
+     "lines": [
+      {
+       "c": "a2_ngozi",
+       "t": "So we drop the contest?",
+       "tone": "quiet"
+      },
+      {
+       "c": "a2_chidi",
+       "t": "We drop our pride.",
+       "tone": "firm"
+      }
+     ],
+     "sfx": "leaves rustling",
+     "transition": "cut"
+    },
+    {
+     "n": 7,
+     "dur": 8,
+     "loc": "a2_house",
+     "chars": [
+      "a2_barrister"
+     ],
+     "keyframe": "Barrister Eze returns and opens a laptop on the table",
+     "action": "Barrister Eze returns and opens a laptop on the table",
+     "camera": "wide establishing shot, slow dolly-in",
+     "lines": [
+      {
+       "c": "a2_barrister",
+       "t": "It's time for the video.",
+       "tone": "gentle"
+      }
+     ],
+     "sfx": "laptop chime",
+     "transition": "dip"
+    },
+    {
+     "n": 8,
+     "dur": 8,
+     "loc": "a2_house",
+     "chars": [
+      "a2_chidi",
+      "a2_ngozi",
+      "a2_ifeoma"
+     ],
+     "keyframe": "The three siblings sit close together on the old sofa, holding hands",
+     "action": "The three siblings sit close together on the old sofa, holding hands",
+     "camera": "wide establishing shot, slow dolly-in",
+     "lines": [
+      {
+       "c": "a2_ngozi",
+       "t": "Let's watch her. Together.",
+       "tone": "soft"
+      }
+     ],
+     "sfx": "clock ticking",
+     "transition": "cut"
+    },
+    {
+     "n": 9,
+     "dur": 8,
+     "loc": "a2_house",
+     "chars": [
+      "a2_mama"
+     ],
+     "keyframe": "On the laptop screen, Mama sits in her armchair, smiling at the camera",
+     "action": "On the laptop screen, Mama sits in her armchair, smiling at the camera",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a2_mama",
+       "t": "My children. If you are watching this, I'm gone. Please, don't fight.",
+       "tone": "loving"
+      }
+     ],
+     "sfx": "soft strings",
+     "transition": "flash"
+    },
+    {
+     "n": 10,
+     "dur": 8,
+     "loc": "a2_house",
+     "chars": [
+      "a2_mama"
+     ],
+     "keyframe": "On the screen, Mama leans closer, her smile fading",
+     "action": "On the screen, Mama leans closer, her smile fading",
+     "camera": "dramatic crash zoom into a close-up, then hold",
+     "lines": [
+      {
+       "c": "a2_mama",
+       "t": "There is one secret I never told any of you.",
+       "tone": "serious"
+      }
+     ],
+     "sfx": "deep boom",
+     "transition": "cut",
+     "freeze": 1.5
+    }
+   ],
+   "loop_note": "cliffhanger freeze-frame; tomorrow opens with a 3 s 'previously' flash of it"
+  },
+  {
+   "id": "MOS-011",
+   "number": 11,
+   "arc": "a2",
+   "arc_title": "Mama's House",
+   "arc_logline": "After Mama's funeral, three siblings fight over the family house until her will and a hidden video reveal who really stayed.",
+   "part": 5,
+   "part_title": "Mama's Secret",
+   "part_label": "PART 5 OF 6 · MAMA'S HOUSE",
+   "title": "Mama's last secret. | Mama's House Part 5 #shorts",
+   "hook_text": "Mama's last secret.",
+   "logline": "Mama's House part 5, Mama's Secret: Ifeoma is not the youngest. You had a brother. / A brother? / Emeka. I gave him to my sister when we were too poor to feed four.",
+   "description": "After Mama's funeral, three siblings fight over the family house until her will and a hidden video reveal who really stayed.\n\nMama's House, part 5 of 6: Mama's Secret.\n\nWill they find him? Tell us in the comments.\n\nMoral Of The Story TV: a new story every week, and the full movie after every finale.",
+   "tags": [
+    "moral of the story",
+    "nigerian drama",
+    "short drama",
+    "african drama",
+    "family drama",
+    "mama's house",
+    "storytime",
+    "drama series"
+   ],
+   "music": "tender strings",
+   "guests": {
+    "a2_chidi": {
+     "name": "Chidi",
+     "ref_prompt": "a 45-year-old Nigerian man, tall, rimless glasses, navy blazer over a black polo shirt",
+     "voice": "a deep, clipped male voice",
+     "species": "human"
+    },
+    "a2_ngozi": {
+     "name": "Ngozi",
+     "ref_prompt": "a 40-year-old Nigerian woman, sleek bob, red designer dress, gold bangles",
+     "voice": "a sharp, assertive female voice",
+     "species": "human"
+    },
+    "a2_ifeoma": {
+     "name": "Ifeoma",
+     "ref_prompt": "a 33-year-old Nigerian woman, simple braids tied back, plain grey blouse, gentle face",
+     "voice": "a soft, steady female voice",
+     "species": "human"
+    },
+    "a2_barrister": {
+     "name": "Barrister Eze",
+     "ref_prompt": "a 60-year-old Nigerian man, grey beard, black suit and tie, holding a folder",
+     "voice": "a measured, formal older male voice",
+     "species": "human"
+    },
+    "a2_mama": {
+     "name": "Mama",
+     "ref_prompt": "a 75-year-old Nigerian woman, short grey hair, soft blue blouse, kind eyes, seated in an armchair",
+     "voice": "a frail, loving elderly female voice",
+     "species": "human"
+    },
+    "a2_emeka": {
+     "name": "Emeka",
+     "ref_prompt": "a 38-year-old Nigerian man, kind face, short hair, brown suit jacket, chalk on his fingers",
+     "voice": "a soft, warm male voice",
+     "species": "human"
+    }
+   },
+   "locations": {
+    "a2_house": "a large old family house in Enugu, faded green walls, framed photos, an old armchair by the window",
+    "a2_compound": "the dusty front compound of an old family house, a big mango tree, parked cars",
+    "a2_lawyer_office": "a wood-panelled lawyer's office, shelves of files, a ceiling fan",
+    "a2_kitchen": "a small family kitchen, old pots, a window over the yard",
+    "a2_hospital": "a hospital room in soft hazy morning light",
+    "a2_road": "a highway at dawn through green hills, seen from inside a car",
+    "a2_school": "a modest primary school classroom, wooden desks, a chalkboard, children's drawings on the wall"
+   },
+   "end_card": "WILL THEY FIND HIM?|FINALE TOMORROW",
+   "captions": {
+    "tiktok": "Mama's last secret. 😳 Part 5/6 · Mama's House. Will they find him? #moralofthestory #nigeriandrama #shortdrama #storytime #aidrama",
+    "facebook": "Mama's House, part 5 of 6: Mama's Secret. After Mama's funeral, three siblings fight over the family house until her will and a hidden video reveal who really stayed. Will they find him? Follow Moral Of The Story TV for part 6."
+   },
+   "shots": [
+    {
+     "n": 1,
+     "dur": 8,
+     "loc": "a2_house",
+     "chars": [
+      "a2_mama"
+     ],
+     "keyframe": "On the laptop screen, Mama speaks steadily",
+     "action": "On the laptop screen, Mama speaks steadily",
+     "camera": "dramatic crash zoom into a close-up, then hold",
+     "lines": [
+      {
+       "c": "a2_mama",
+       "t": "Ifeoma is not the youngest. You had a brother.",
+       "tone": "heavy"
+      }
+     ],
+     "sfx": "deep boom",
+     "transition": "cut"
+    },
+    {
+     "n": 2,
+     "dur": 8,
+     "loc": "a2_house",
+     "chars": [
+      "a2_chidi"
+     ],
+     "keyframe": "Chidi stares at the screen",
+     "action": "Chidi stares at the screen",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a2_chidi",
+       "t": "A brother?",
+       "tone": "stunned"
+      }
+     ],
+     "sfx": "low drone",
+     "transition": "cut"
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "a2_house",
+     "chars": [
+      "a2_mama"
+     ],
+     "keyframe": "On the screen, Mama's eyes fill with tears",
+     "action": "On the screen, Mama's eyes fill with tears",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a2_mama",
+       "t": "Emeka. I gave him to my sister when we were too poor to feed four.",
+       "tone": "shame"
+      }
+     ],
+     "sfx": "soft piano",
+     "transition": "cut"
+    },
+    {
+     "n": 4,
+     "dur": 8,
+     "loc": "a2_house",
+     "chars": [
+      "a2_ngozi"
+     ],
+     "keyframe": "Ngozi presses a hand to her chest",
+     "action": "Ngozi presses a hand to her chest",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a2_ngozi",
+       "t": "Mama gave away a child to survive.",
+       "tone": "whisper"
+      }
+     ],
+     "sfx": "heartbeat",
+     "transition": "cut"
+    },
+    {
+     "n": 5,
+     "dur": 8,
+     "loc": "a2_house",
+     "chars": [
+      "a2_mama"
+     ],
+     "keyframe": "On the screen, Mama folds her hands",
+     "action": "On the screen, Mama folds her hands",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a2_mama",
+       "t": "I carried that shame forty years. Find him. Bring my family home.",
+       "tone": "pleading"
+      }
+     ],
+     "sfx": "strings swell",
+     "transition": "cut"
+    },
+    {
+     "n": 6,
+     "dur": 8,
+     "loc": "a2_house",
+     "chars": [
+      "a2_ifeoma"
+     ],
+     "keyframe": "Ifeoma remembers, eyes wide",
+     "action": "Ifeoma remembers, eyes wide",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a2_ifeoma",
+       "t": "There was a man at the funeral. He cried more than anyone.",
+       "tone": "realising"
+      }
+     ],
+     "sfx": "low drone",
+     "transition": "dip"
+    },
+    {
+     "n": 7,
+     "dur": 8,
+     "loc": "a2_compound",
+     "chars": [
+      "a2_chidi",
+      "a2_ifeoma"
+     ],
+     "keyframe": "Chidi and Ifeoma by the gate in the evening light",
+     "action": "Chidi and Ifeoma by the gate in the evening light",
+     "camera": "two-shot, shallow focus, slow lateral dolly",
+     "lines": [
+      {
+       "c": "a2_chidi",
+       "t": "The man by the gate? In the brown suit?",
+       "tone": "urgent"
+      },
+      {
+       "c": "a2_ifeoma",
+       "t": "He left a card.",
+       "tone": "quiet"
+      }
+     ],
+     "sfx": "crickets",
+     "transition": "flash"
+    },
+    {
+     "n": 8,
+     "dur": 8,
+     "loc": "a2_compound",
+     "chars": [
+      "a2_ngozi"
+     ],
+     "keyframe": "Ngozi reads a small business card",
+     "action": "Ngozi reads a small business card",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a2_ngozi",
+       "t": "Emeka Obi. Primary school teacher. Onitsha.",
+       "tone": "reading"
+      }
+     ],
+     "sfx": "paper rustle",
+     "transition": "cut"
+    },
+    {
+     "n": 9,
+     "dur": 8,
+     "loc": "a2_road",
+     "chars": [
+      "a2_chidi",
+      "a2_ngozi"
+     ],
+     "keyframe": "Chidi drives along a highway at dawn, Ngozi beside him",
+     "action": "Chidi drives along a highway at dawn, Ngozi beside him",
+     "camera": "two-shot, shallow focus, slow lateral dolly",
+     "lines": [
+      {
+       "c": "a2_chidi",
+       "t": "Three hours to Onitsha.",
+       "tone": "focused"
+      },
+      {
+       "c": "a2_ngozi",
+       "t": "Drive.",
+       "tone": "determined"
+      }
+     ],
+     "sfx": "engine, wind",
+     "transition": "dip"
+    },
+    {
+     "n": 10,
+     "dur": 8,
+     "loc": "a2_school",
+     "chars": [
+      "a2_emeka"
+     ],
+     "keyframe": "A man at a chalkboard in a small school turns around slowly",
+     "action": "A man at a chalkboard in a small school turns around slowly",
+     "camera": "dramatic crash zoom into a close-up, then hold",
+     "lines": [
+      {
+       "c": "a2_emeka",
+       "t": "I knew one day you would come.",
+       "tone": "soft"
+      }
+     ],
+     "sfx": "children's laughter fading, boom",
+     "transition": "cut",
+     "freeze": 1.5
+    }
+   ],
+   "loop_note": "cliffhanger freeze-frame; tomorrow opens with a 3 s 'previously' flash of it"
+  },
+  {
+   "id": "MOS-012",
+   "number": 12,
+   "arc": "a2",
+   "arc_title": "Mama's House",
+   "arc_logline": "After Mama's funeral, three siblings fight over the family house until her will and a hidden video reveal who really stayed.",
+   "part": 6,
+   "part_title": "Home",
+   "part_label": "PART 6 OF 6 · MAMA'S HOUSE",
+   "title": "Forty years apart. One house. | Mama's House Part 6 #shorts",
+   "hook_text": "Forty years apart. One house.",
+   "logline": "Mama's House part 6, Home: You knew about us? / Mama visited every year. She called it her holiday. / She paid my school fees with money she said she found. / Found? She sold her gold for you, and told us she lost it.",
+   "description": "After Mama's funeral, three siblings fight over the family house until her will and a hidden video reveal who really stayed.\n\nMama's House, part 6 of 6: Home.\n\nMoral Of The Story TV: a new story every week, and the full movie after every finale.",
+   "tags": [
+    "moral of the story",
+    "nigerian drama",
+    "short drama",
+    "african drama",
+    "family drama",
+    "mama's house",
+    "storytime",
+    "drama series"
+   ],
+   "music": "tender strings",
+   "guests": {
+    "a2_chidi": {
+     "name": "Chidi",
+     "ref_prompt": "a 45-year-old Nigerian man, tall, rimless glasses, navy blazer over a black polo shirt",
+     "voice": "a deep, clipped male voice",
+     "species": "human"
+    },
+    "a2_ngozi": {
+     "name": "Ngozi",
+     "ref_prompt": "a 40-year-old Nigerian woman, sleek bob, red designer dress, gold bangles",
+     "voice": "a sharp, assertive female voice",
+     "species": "human"
+    },
+    "a2_ifeoma": {
+     "name": "Ifeoma",
+     "ref_prompt": "a 33-year-old Nigerian woman, simple braids tied back, plain grey blouse, gentle face",
+     "voice": "a soft, steady female voice",
+     "species": "human"
+    },
+    "a2_barrister": {
+     "name": "Barrister Eze",
+     "ref_prompt": "a 60-year-old Nigerian man, grey beard, black suit and tie, holding a folder",
+     "voice": "a measured, formal older male voice",
+     "species": "human"
+    },
+    "a2_mama": {
+     "name": "Mama",
+     "ref_prompt": "a 75-year-old Nigerian woman, short grey hair, soft blue blouse, kind eyes, seated in an armchair",
+     "voice": "a frail, loving elderly female voice",
+     "species": "human"
+    },
+    "a2_emeka": {
+     "name": "Emeka",
+     "ref_prompt": "a 38-year-old Nigerian man, kind face, short hair, brown suit jacket, chalk on his fingers",
+     "voice": "a soft, warm male voice",
+     "species": "human"
+    }
+   },
+   "locations": {
+    "a2_house": "a large old family house in Enugu, faded green walls, framed photos, an old armchair by the window",
+    "a2_compound": "the dusty front compound of an old family house, a big mango tree, parked cars",
+    "a2_lawyer_office": "a wood-panelled lawyer's office, shelves of files, a ceiling fan",
+    "a2_kitchen": "a small family kitchen, old pots, a window over the yard",
+    "a2_hospital": "a hospital room in soft hazy morning light",
+    "a2_road": "a highway at dawn through green hills, seen from inside a car",
+    "a2_school": "a modest primary school classroom, wooden desks, a chalkboard, children's drawings on the wall"
+   },
+   "end_card": "",
+   "moral": "Love is measured in presence, not in money.",
+   "arc_finale": true,
+   "captions": {
+    "tiktok": "Forty years apart. One house. 😳 Part 6/6 · Mama's House. The moral of the story: Love is measured in presence, not in money. #moralofthestory #nigeriandrama #shortdrama #storytime #aidrama",
+    "facebook": "Mama's House, part 6 of 6: Home. After Mama's funeral, three siblings fight over the family house until her will and a hidden video reveal who really stayed. The moral of the story: Love is measured in presence, not in money."
+   },
+   "shots": [
+    {
+     "n": 1,
+     "dur": 8,
+     "loc": "a2_school",
+     "chars": [
+      "a2_emeka",
+      "a2_chidi"
+     ],
+     "keyframe": "Chidi faces Emeka across the classroom",
+     "action": "Chidi faces Emeka across the classroom",
+     "camera": "dramatic crash zoom into a close-up, then hold",
+     "lines": [
+      {
+       "c": "a2_chidi",
+       "t": "You knew about us?",
+       "tone": "stunned"
+      },
+      {
+       "c": "a2_emeka",
+       "t": "Mama visited every year. She called it her holiday.",
+       "tone": "gentle"
+      }
+     ],
+     "sfx": "deep boom",
+     "transition": "cut"
+    },
+    {
+     "n": 2,
+     "dur": 8,
+     "loc": "a2_school",
+     "chars": [
+      "a2_emeka"
+     ],
+     "keyframe": "Emeka smiles sadly",
+     "action": "Emeka smiles sadly",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a2_emeka",
+       "t": "She paid my school fees with money she said she found.",
+       "tone": "tender"
+      }
+     ],
+     "sfx": "soft piano",
+     "transition": "cut"
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "a2_school",
+     "chars": [
+      "a2_ngozi"
+     ],
+     "keyframe": "Ngozi's voice breaks",
+     "action": "Ngozi's voice breaks",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a2_ngozi",
+       "t": "Found? She sold her gold for you, and told us she lost it.",
+       "tone": "emotional"
+      }
+     ],
+     "sfx": "strings",
+     "transition": "cut"
+    },
+    {
+     "n": 4,
+     "dur": 8,
+     "loc": "a2_lawyer_office",
+     "chars": [
+      "a2_barrister"
+     ],
+     "keyframe": "Barrister Eze reads the final line of the will to all four siblings",
+     "action": "Barrister Eze reads the final line of the will to all four siblings",
+     "camera": "wide establishing shot, slow dolly-in",
+     "lines": [
+      {
+       "c": "a2_barrister",
+       "t": "The house goes to Ifeoma and Emeka. Equally.",
+       "tone": "warm"
+      }
+     ],
+     "sfx": "ceiling fan",
+     "transition": "dip"
+    },
+    {
+     "n": 5,
+     "dur": 8,
+     "loc": "a2_lawyer_office",
+     "chars": [
+      "a2_ifeoma",
+      "a2_emeka"
+     ],
+     "keyframe": "Ifeoma takes Emeka's hand",
+     "action": "Ifeoma takes Emeka's hand",
+     "camera": "two-shot, shallow focus, slow lateral dolly",
+     "lines": [
+      {
+       "c": "a2_ifeoma",
+       "t": "Then it's not my house. It's our house.",
+       "tone": "warm"
+      }
+     ],
+     "sfx": "warm strings",
+     "transition": "cut"
+    },
+    {
+     "n": 6,
+     "dur": 8,
+     "loc": "a2_house",
+     "chars": [
+      "a2_chidi"
+     ],
+     "keyframe": "Chidi repaints the faded green wall, sleeves rolled up",
+     "action": "Chidi repaints the faded green wall, sleeves rolled up",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a2_chidi",
+       "t": "I'm moving back. At least half the year.",
+       "tone": "resolved"
+      }
+     ],
+     "sfx": "brush strokes, birds",
+     "transition": "dip"
+    },
+    {
+     "n": 7,
+     "dur": 8,
+     "loc": "a2_house",
+     "chars": [
+      "a2_ngozi",
+      "a2_ifeoma"
+     ],
+     "keyframe": "Ngozi hands Ifeoma a velvet jewellery box",
+     "action": "Ngozi hands Ifeoma a velvet jewellery box",
+     "camera": "two-shot, shallow focus, slow lateral dolly",
+     "lines": [
+      {
+       "c": "a2_ngozi",
+       "t": "Your wedding jewellery. I bought it back.",
+       "tone": "tearful"
+      }
+     ],
+     "sfx": "box opening, gasp",
+     "transition": "flash"
+    },
+    {
+     "n": 8,
+     "dur": 8,
+     "loc": "a2_house",
+     "chars": [
+      "a2_ifeoma",
+      "a2_ngozi"
+     ],
+     "keyframe": "The sisters embrace",
+     "action": "The sisters embrace",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a2_ifeoma",
+       "t": "Ngozi.",
+       "tone": "crying"
+      },
+      {
+       "c": "a2_ngozi",
+       "t": "Sister. I'm sorry.",
+       "tone": "crying"
+      }
+     ],
+     "sfx": "soft strings",
+     "transition": "cut"
+    },
+    {
+     "n": 9,
+     "dur": 8,
+     "loc": "a2_compound",
+     "chars": [
+      "a2_chidi",
+      "a2_ngozi",
+      "a2_ifeoma",
+      "a2_emeka"
+     ],
+     "keyframe": "All four siblings eat together under the mango tree, laughing",
+     "action": "All four siblings eat together under the mango tree, laughing",
+     "camera": "wide establishing shot, slow dolly-in",
+     "lines": [
+      {
+       "c": "a2_emeka",
+       "t": "Mama would be laughing right now.",
+       "tone": "joyful"
+      }
+     ],
+     "sfx": "laughter, birds",
+     "transition": "cut"
+    },
+    {
+     "n": 10,
+     "dur": 8,
+     "loc": "a2_house",
+     "chars": [],
+     "keyframe": "Mama's empty armchair by the sunlit window, a framed photo of all five on the sill",
+     "action": "Mama's empty armchair by the sunlit window, a framed photo of all five on the sill",
+     "camera": "wide establishing shot, slow dolly-in",
+     "lines": [],
+     "sfx": "soft wind, strings",
+     "transition": "cut"
+    }
+   ],
+   "loop_note": "cliffhanger freeze-frame; tomorrow opens with a 3 s 'previously' flash of it"
+  },
+  {
+   "id": "MOS-013",
+   "number": 13,
+   "arc": "a3",
+   "arc_title": "The Cleaner",
+   "arc_logline": "An arrogant manager humiliates the office cleaner, never suspecting who she really is.",
+   "part": 1,
+   "part_title": "The Spill",
+   "part_label": "PART 1 OF 6 · THE CLEANER",
+   "title": "He humiliated the cleaner. Big mistake. | The Cleaner Part 1 #shorts",
+   "hook_text": "He humiliated the cleaner. Big mistake.",
+   "logline": "The Cleaner part 1, The Spill: Are you blind? These shoes cost more than your salary! / I'm sorry, sir. Let me clean it. / On your knees. Everybody, watch.",
+   "description": "An arrogant manager humiliates the office cleaner, never suspecting who she really is.\n\nThe Cleaner, part 1 of 6: The Spill.\n\nWho is she really? Tell us in the comments.\n\nMoral Of The Story TV: a new story every week, and the full movie after every finale.",
+   "tags": [
+    "moral of the story",
+    "nigerian drama",
+    "short drama",
+    "african drama",
+    "family drama",
+    "the cleaner",
+    "storytime",
+    "drama series"
+   ],
+   "music": "tension drums",
+   "guests": {
+    "a3_grace": {
+     "name": "Madam Grace",
+     "ref_prompt": "a 62-year-old Nigerian woman, neat grey braids in a bun, kind eyes, dignified posture, light-blue cleaner's uniform",
+     "voice": "a calm, warm, dignified older female voice",
+     "species": "human"
+    },
+    "a3_kelechi": {
+     "name": "Kelechi",
+     "ref_prompt": "a 32-year-old Nigerian man, sharp grey suit, sharp fade haircut, smartwatch",
+     "voice": "an arrogant, clipped male voice",
+     "species": "human"
+    },
+    "a3_tolu": {
+     "name": "Tolu",
+     "ref_prompt": "a 26-year-old Nigerian woman, round glasses, white blouse, staff lanyard",
+     "voice": "a bright, earnest young female voice",
+     "species": "human"
+    }
+   },
+   "locations": {
+    "a3_office_floor": "a modern open-plan Lagos office, desks, glass meeting rooms, city view",
+    "a3_lobby": "a glossy corporate lobby, marble floors, glass doors and a glass lift",
+    "a3_boardroom": "a sleek boardroom with a long table and a city skyline view",
+    "a3_pantry": "a small office kitchen with a kettle and mugs",
+    "a3_grace_home": "a humble, tidy flat with plants and old framed photographs",
+    "a3_car": "the back seat of a sleek black car at night, city lights passing",
+    "a3_street_night": "a busy Lagos roadside at night, food stalls, headlights"
+   },
+   "end_card": "WHO IS SHE REALLY?|PART 2 TOMORROW",
+   "captions": {
+    "tiktok": "He humiliated the cleaner. Big mistake. 😳 Part 1/6 · The Cleaner. Who is she really? #moralofthestory #nigeriandrama #shortdrama #storytime #aidrama",
+    "facebook": "The Cleaner, part 1 of 6: The Spill. An arrogant manager humiliates the office cleaner, never suspecting who she really is. Who is she really? Follow Moral Of The Story TV for part 2."
+   },
+   "shots": [
+    {
+     "n": 1,
+     "dur": 8,
+     "loc": "a3_office_floor",
+     "chars": [
+      "a3_kelechi",
+      "a3_grace"
+     ],
+     "keyframe": "Coffee splashes onto Kelechi's polished shoes as Grace freezes with her mop",
+     "action": "Coffee splashes onto Kelechi's polished shoes as Grace freezes with her mop",
+     "camera": "dramatic crash zoom into a close-up, then hold",
+     "lines": [
+      {
+       "c": "a3_kelechi",
+       "t": "Are you blind? These shoes cost more than your salary!",
+       "tone": "vicious"
+      }
+     ],
+     "sfx": "cup clatter, boom",
+     "transition": "cut"
+    },
+    {
+     "n": 2,
+     "dur": 8,
+     "loc": "a3_office_floor",
+     "chars": [
+      "a3_grace"
+     ],
+     "keyframe": "Grace stays calm and dignified",
+     "action": "Grace stays calm and dignified",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a3_grace",
+       "t": "I'm sorry, sir. Let me clean it.",
+       "tone": "calm"
+      }
+     ],
+     "sfx": "office murmur",
+     "transition": "cut"
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "a3_office_floor",
+     "chars": [
+      "a3_kelechi"
+     ],
+     "keyframe": "Kelechi points at the floor, playing to the room",
+     "action": "Kelechi points at the floor, playing to the room",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a3_kelechi",
+       "t": "On your knees. Everybody, watch.",
+       "tone": "cruel"
+      }
+     ],
+     "sfx": "murmurs stop",
+     "transition": "cut"
+    },
+    {
+     "n": 4,
+     "dur": 8,
+     "loc": "a3_office_floor",
+     "chars": [
+      "a3_tolu"
+     ],
+     "keyframe": "Tolu, the intern, stands up from her desk",
+     "action": "Tolu, the intern, stands up from her desk",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a3_tolu",
+       "t": "Sir, that's not right. She's old enough to be your mother.",
+       "tone": "brave"
+      }
+     ],
+     "sfx": "chair scrape",
+     "transition": "cut"
+    },
+    {
+     "n": 5,
+     "dur": 8,
+     "loc": "a3_office_floor",
+     "chars": [
+      "a3_kelechi",
+      "a3_tolu"
+     ],
+     "keyframe": "Kelechi turns on Tolu with a cold smile",
+     "action": "Kelechi turns on Tolu with a cold smile",
+     "camera": "two-shot, shallow focus, slow lateral dolly",
+     "lines": [
+      {
+       "c": "a3_kelechi",
+       "t": "Intern. One more word and you're done here.",
+       "tone": "threatening"
+      }
+     ],
+     "sfx": "tense strings",
+     "transition": "cut"
+    },
+    {
+     "n": 6,
+     "dur": 8,
+     "loc": "a3_pantry",
+     "chars": [
+      "a3_grace",
+      "a3_tolu"
+     ],
+     "keyframe": "Tolu helps Grace wring out the mop in the small office kitchen",
+     "action": "Tolu helps Grace wring out the mop in the small office kitchen",
+     "camera": "two-shot, shallow focus, slow lateral dolly",
+     "lines": [
+      {
+       "c": "a3_tolu",
+       "t": "Mama, why do you let him talk to you like that?",
+       "tone": "upset"
+      }
+     ],
+     "sfx": "tap running",
+     "transition": "dip"
+    },
+    {
+     "n": 7,
+     "dur": 8,
+     "loc": "a3_pantry",
+     "chars": [
+      "a3_grace"
+     ],
+     "keyframe": "Grace smiles knowingly",
+     "action": "Grace smiles knowingly",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a3_grace",
+       "t": "People show you who they are when they think you're nobody.",
+       "tone": "wise"
+      }
+     ],
+     "sfx": "soft piano",
+     "transition": "cut"
+    },
+    {
+     "n": 8,
+     "dur": 8,
+     "loc": "a3_boardroom",
+     "chars": [
+      "a3_kelechi"
+     ],
+     "keyframe": "Kelechi on the phone in the empty boardroom, grinning",
+     "action": "Kelechi on the phone in the empty boardroom, grinning",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a3_kelechi",
+       "t": "Friday's board meeting? That promotion is mine.",
+       "tone": "smug"
+      }
+     ],
+     "sfx": "city hum",
+     "transition": "flash"
+    },
+    {
+     "n": 9,
+     "dur": 8,
+     "loc": "a3_grace_home",
+     "chars": [
+      "a3_grace"
+     ],
+     "keyframe": "Grace at home holds an old photo of a young couple cutting a ribbon outside the same office building",
+     "action": "Grace at home holds an old photo of a young couple cutting a ribbon outside the same office building",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a3_grace",
+       "t": "Your company has lost its heart, my love.",
+       "tone": "sad"
+      }
+     ],
+     "sfx": "clock ticking",
+     "transition": "dip"
+    },
+    {
+     "n": 10,
+     "dur": 8,
+     "loc": "a3_grace_home",
+     "chars": [
+      "a3_grace"
+     ],
+     "keyframe": "Grace opens her wardrobe: an elegant navy suit and a gold executive badge",
+     "action": "Grace opens her wardrobe: an elegant navy suit and a gold executive badge",
+     "camera": "dramatic crash zoom into a close-up, then hold",
+     "lines": [
+      {
+       "c": "a3_grace",
+       "t": "Friday, then.",
+       "tone": "quiet resolve"
+      }
+     ],
+     "sfx": "deep boom",
+     "transition": "cut",
+     "freeze": 1.5
+    }
+   ],
+   "loop_note": "cliffhanger freeze-frame; tomorrow opens with a 3 s 'previously' flash of it"
+  },
+  {
+   "id": "MOS-014",
+   "number": 14,
+   "arc": "a3",
+   "arc_title": "The Cleaner",
+   "arc_logline": "An arrogant manager humiliates the office cleaner, never suspecting who she really is.",
+   "part": 2,
+   "part_title": "Watching",
+   "part_label": "PART 2 OF 6 · THE CLEANER",
+   "title": "She sees everything. He sees nothing. | The Cleaner Part 2 #shorts",
+   "hook_text": "She sees everything. He sees nothing.",
+   "logline": "The Cleaner part 2, Watching: Staff lift is at the back. This one is for executives. / Of course, sir. Good morning. / He made me redo the report five times. Then took the credit.",
+   "description": "An arrogant manager humiliates the office cleaner, never suspecting who she really is.\n\nThe Cleaner, part 2 of 6: Watching.\n\nWill he silence her? Tell us in the comments.\n\nMoral Of The Story TV: a new story every week, and the full movie after every finale.",
+   "tags": [
+    "moral of the story",
+    "nigerian drama",
+    "short drama",
+    "african drama",
+    "family drama",
+    "the cleaner",
+    "storytime",
+    "drama series"
+   ],
+   "music": "tension drums",
+   "guests": {
+    "a3_grace": {
+     "name": "Madam Grace",
+     "ref_prompt": "a 62-year-old Nigerian woman, neat grey braids in a bun, kind eyes, dignified posture, light-blue cleaner's uniform",
+     "voice": "a calm, warm, dignified older female voice",
+     "species": "human"
+    },
+    "a3_kelechi": {
+     "name": "Kelechi",
+     "ref_prompt": "a 32-year-old Nigerian man, sharp grey suit, sharp fade haircut, smartwatch",
+     "voice": "an arrogant, clipped male voice",
+     "species": "human"
+    },
+    "a3_tolu": {
+     "name": "Tolu",
+     "ref_prompt": "a 26-year-old Nigerian woman, round glasses, white blouse, staff lanyard",
+     "voice": "a bright, earnest young female voice",
+     "species": "human"
+    }
+   },
+   "locations": {
+    "a3_office_floor": "a modern open-plan Lagos office, desks, glass meeting rooms, city view",
+    "a3_lobby": "a glossy corporate lobby, marble floors, glass doors and a glass lift",
+    "a3_boardroom": "a sleek boardroom with a long table and a city skyline view",
+    "a3_pantry": "a small office kitchen with a kettle and mugs",
+    "a3_grace_home": "a humble, tidy flat with plants and old framed photographs",
+    "a3_car": "the back seat of a sleek black car at night, city lights passing",
+    "a3_street_night": "a busy Lagos roadside at night, food stalls, headlights"
+   },
+   "end_card": "WILL HE SILENCE HER?|PART 3 TOMORROW",
+   "captions": {
+    "tiktok": "She sees everything. He sees nothing. 😳 Part 2/6 · The Cleaner. Will he silence her? #moralofthestory #nigeriandrama #shortdrama #storytime #aidrama",
+    "facebook": "The Cleaner, part 2 of 6: Watching. An arrogant manager humiliates the office cleaner, never suspecting who she really is. Will he silence her? Follow Moral Of The Story TV for part 3."
+   },
+   "shots": [
+    {
+     "n": 1,
+     "dur": 8,
+     "loc": "a3_lobby",
+     "chars": [
+      "a3_kelechi",
+      "a3_grace"
+     ],
+     "keyframe": "Kelechi blocks Grace from stepping into a glass lift",
+     "action": "Kelechi blocks Grace from stepping into a glass lift",
+     "camera": "dramatic crash zoom into a close-up, then hold",
+     "lines": [
+      {
+       "c": "a3_kelechi",
+       "t": "Staff lift is at the back. This one is for executives.",
+       "tone": "sneering"
+      }
+     ],
+     "sfx": "lift ding, boom",
+     "transition": "cut"
+    },
+    {
+     "n": 2,
+     "dur": 8,
+     "loc": "a3_lobby",
+     "chars": [
+      "a3_grace"
+     ],
+     "keyframe": "Grace smiles politely and steps back",
+     "action": "Grace smiles politely and steps back",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a3_grace",
+       "t": "Of course, sir. Good morning.",
+       "tone": "gracious"
+      }
+     ],
+     "sfx": "lobby echo",
+     "transition": "cut"
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "a3_office_floor",
+     "chars": [
+      "a3_tolu"
+     ],
+     "keyframe": "Tolu at her desk, wiping tears, staring at her screen",
+     "action": "Tolu at her desk, wiping tears, staring at her screen",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a3_tolu",
+       "t": "He made me redo the report five times. Then took the credit.",
+       "tone": "hurt"
+      }
+     ],
+     "sfx": "keyboard tapping",
+     "transition": "dip"
+    },
+    {
+     "n": 4,
+     "dur": 8,
+     "loc": "a3_office_floor",
+     "chars": [
+      "a3_grace",
+      "a3_tolu"
+     ],
+     "keyframe": "Grace leans close, speaking quietly",
+     "action": "Grace leans close, speaking quietly",
+     "camera": "two-shot, shallow focus, slow lateral dolly",
+     "lines": [
+      {
+       "c": "a3_grace",
+       "t": "Write down everything he does. Dates. Times. Keep copies.",
+       "tone": "serious"
+      }
+     ],
+     "sfx": "office murmur",
+     "transition": "cut"
+    },
+    {
+     "n": 5,
+     "dur": 8,
+     "loc": "a3_office_floor",
+     "chars": [
+      "a3_tolu"
+     ],
+     "keyframe": "Tolu looks doubtful",
+     "action": "Tolu looks doubtful",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a3_tolu",
+       "t": "Why? Who would listen to us?",
+       "tone": "hopeless"
+      }
+     ],
+     "sfx": "low drone",
+     "transition": "cut"
+    },
+    {
+     "n": 6,
+     "dur": 8,
+     "loc": "a3_office_floor",
+     "chars": [
+      "a3_grace"
+     ],
+     "keyframe": "Grace pats her hand",
+     "action": "Grace pats her hand",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a3_grace",
+       "t": "The truth always finds someone who listens.",
+       "tone": "certain"
+      }
+     ],
+     "sfx": "soft strings",
+     "transition": "cut"
+    },
+    {
+     "n": 7,
+     "dur": 8,
+     "loc": "a3_boardroom",
+     "chars": [
+      "a3_kelechi"
+     ],
+     "keyframe": "Kelechi rehearses his pitch to an empty room",
+     "action": "Kelechi rehearses his pitch to an empty room",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a3_kelechi",
+       "t": "I built this department from nothing!",
+       "tone": "theatrical"
+      }
+     ],
+     "sfx": "echo",
+     "transition": "flash"
+    },
+    {
+     "n": 8,
+     "dur": 8,
+     "loc": "a3_pantry",
+     "chars": [
+      "a3_kelechi",
+      "a3_grace"
+     ],
+     "keyframe": "Kelechi on a phone call by the pantry door, unaware of Grace behind him",
+     "action": "Kelechi on a phone call by the pantry door, unaware of Grace behind him",
+     "camera": "two-shot, shallow focus, slow lateral dolly",
+     "lines": [
+      {
+       "c": "a3_kelechi",
+       "t": "Move the client money through my cousin's account first. Nobody checks.",
+       "tone": "hushed"
+      }
+     ],
+     "sfx": "kettle boiling",
+     "transition": "dip"
+    },
+    {
+     "n": 9,
+     "dur": 8,
+     "loc": "a3_pantry",
+     "chars": [
+      "a3_grace"
+     ],
+     "keyframe": "Grace's eyes narrow",
+     "action": "Grace's eyes narrow",
+     "camera": "extreme close-up on the eyes, very slow push-in",
+     "lines": [
+      {
+       "c": "a3_grace",
+       "t": "Now it's not just rudeness.",
+       "tone": "whisper"
+      }
+     ],
+     "sfx": "heartbeat",
+     "transition": "cut"
+    },
+    {
+     "n": 10,
+     "dur": 8,
+     "loc": "a3_pantry",
+     "chars": [
+      "a3_kelechi"
+     ],
+     "keyframe": "Kelechi spins around and sees her",
+     "action": "Kelechi spins around and sees her",
+     "camera": "dramatic crash zoom into a close-up, then hold",
+     "lines": [
+      {
+       "c": "a3_kelechi",
+       "t": "Cleaner. How long have you been standing there?",
+       "tone": "dangerous"
+      }
+     ],
+     "sfx": "deep boom",
+     "transition": "cut",
+     "freeze": 1.5
+    }
+   ],
+   "loop_note": "cliffhanger freeze-frame; tomorrow opens with a 3 s 'previously' flash of it"
+  },
+  {
+   "id": "MOS-015",
+   "number": 15,
+   "arc": "a3",
+   "arc_title": "The Cleaner",
+   "arc_logline": "An arrogant manager humiliates the office cleaner, never suspecting who she really is.",
+   "part": 3,
+   "part_title": "Fired",
+   "part_label": "PART 3 OF 6 · THE CLEANER",
+   "title": "He fired the cleaner on the spot. | The Cleaner Part 3 #shorts",
+   "hook_text": "He fired the cleaner on the spot.",
+   "logline": "The Cleaner part 3, Fired: You're fired. Pack your bucket and get out. / Fired for cleaning? On what grounds, sir? / Theft. My wallet went missing. Security will escort you.",
+   "description": "An arrogant manager humiliates the office cleaner, never suspecting who she really is.\n\nThe Cleaner, part 3 of 6: Fired.\n\nFriday is coming.? Tell us in the comments.\n\nMoral Of The Story TV: a new story every week, and the full movie after every finale.",
+   "tags": [
+    "moral of the story",
+    "nigerian drama",
+    "short drama",
+    "african drama",
+    "family drama",
+    "the cleaner",
+    "storytime",
+    "drama series"
+   ],
+   "music": "tension drums",
+   "guests": {
+    "a3_grace": {
+     "name": "Madam Grace",
+     "ref_prompt": "a 62-year-old Nigerian woman, neat grey braids in a bun, kind eyes, dignified posture, light-blue cleaner's uniform",
+     "voice": "a calm, warm, dignified older female voice",
+     "species": "human"
+    },
+    "a3_kelechi": {
+     "name": "Kelechi",
+     "ref_prompt": "a 32-year-old Nigerian man, sharp grey suit, sharp fade haircut, smartwatch",
+     "voice": "an arrogant, clipped male voice",
+     "species": "human"
+    },
+    "a3_tolu": {
+     "name": "Tolu",
+     "ref_prompt": "a 26-year-old Nigerian woman, round glasses, white blouse, staff lanyard",
+     "voice": "a bright, earnest young female voice",
+     "species": "human"
+    }
+   },
+   "locations": {
+    "a3_office_floor": "a modern open-plan Lagos office, desks, glass meeting rooms, city view",
+    "a3_lobby": "a glossy corporate lobby, marble floors, glass doors and a glass lift",
+    "a3_boardroom": "a sleek boardroom with a long table and a city skyline view",
+    "a3_pantry": "a small office kitchen with a kettle and mugs",
+    "a3_grace_home": "a humble, tidy flat with plants and old framed photographs",
+    "a3_car": "the back seat of a sleek black car at night, city lights passing",
+    "a3_street_night": "a busy Lagos roadside at night, food stalls, headlights"
+   },
+   "end_card": "FRIDAY IS COMING.|PART 4 TOMORROW",
+   "captions": {
+    "tiktok": "He fired the cleaner on the spot. 😳 Part 3/6 · The Cleaner. Friday is coming. #moralofthestory #nigeriandrama #shortdrama #storytime #aidrama",
+    "facebook": "The Cleaner, part 3 of 6: Fired. An arrogant manager humiliates the office cleaner, never suspecting who she really is. Friday is coming. Follow Moral Of The Story TV for part 4."
+   },
+   "shots": [
+    {
+     "n": 1,
+     "dur": 8,
+     "loc": "a3_office_floor",
+     "chars": [
+      "a3_kelechi",
+      "a3_grace"
+     ],
+     "keyframe": "Kelechi points at the door in front of the whole office",
+     "action": "Kelechi points at the door in front of the whole office",
+     "camera": "dramatic crash zoom into a close-up, then hold",
+     "lines": [
+      {
+       "c": "a3_kelechi",
+       "t": "You're fired. Pack your bucket and get out.",
+       "tone": "cruel"
+      }
+     ],
+     "sfx": "deep boom",
+     "transition": "cut"
+    },
+    {
+     "n": 2,
+     "dur": 8,
+     "loc": "a3_office_floor",
+     "chars": [
+      "a3_grace"
+     ],
+     "keyframe": "Grace stands calmly",
+     "action": "Grace stands calmly",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a3_grace",
+       "t": "Fired for cleaning? On what grounds, sir?",
+       "tone": "calm"
+      }
+     ],
+     "sfx": "silence",
+     "transition": "cut"
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "a3_office_floor",
+     "chars": [
+      "a3_kelechi"
+     ],
+     "keyframe": "Kelechi lies smoothly",
+     "action": "Kelechi lies smoothly",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a3_kelechi",
+       "t": "Theft. My wallet went missing. Security will escort you.",
+       "tone": "lying"
+      }
+     ],
+     "sfx": "murmurs",
+     "transition": "cut"
+    },
+    {
+     "n": 4,
+     "dur": 8,
+     "loc": "a3_office_floor",
+     "chars": [
+      "a3_tolu"
+     ],
+     "keyframe": "Tolu jumps up",
+     "action": "Tolu jumps up",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a3_tolu",
+       "t": "That's a lie! Your wallet is in your jacket!",
+       "tone": "outraged"
+      }
+     ],
+     "sfx": "gasp",
+     "transition": "cut"
+    },
+    {
+     "n": 5,
+     "dur": 8,
+     "loc": "a3_office_floor",
+     "chars": [
+      "a3_kelechi",
+      "a3_tolu"
+     ],
+     "keyframe": "Kelechi turns on her",
+     "action": "Kelechi turns on her",
+     "camera": "two-shot, shallow focus, slow lateral dolly",
+     "lines": [
+      {
+       "c": "a3_kelechi",
+       "t": "And you, intern. Fired too. Both of you, out.",
+       "tone": "icy"
+      }
+     ],
+     "sfx": "tense strings",
+     "transition": "cut"
+    },
+    {
+     "n": 6,
+     "dur": 8,
+     "loc": "a3_lobby",
+     "chars": [
+      "a3_grace",
+      "a3_tolu"
+     ],
+     "keyframe": "Grace and Tolu walk out through the marble lobby carrying boxes, staff watching",
+     "action": "Grace and Tolu walk out through the marble lobby carrying boxes, staff watching",
+     "camera": "wide establishing shot, slow dolly-in",
+     "lines": [
+      {
+       "c": "a3_tolu",
+       "t": "I needed this job, Mama. My mother is sick.",
+       "tone": "crying"
+      }
+     ],
+     "sfx": "footsteps echo",
+     "transition": "dip"
+    },
+    {
+     "n": 7,
+     "dur": 8,
+     "loc": "a3_lobby",
+     "chars": [
+      "a3_grace"
+     ],
+     "keyframe": "Grace stops and holds Tolu's shoulders",
+     "action": "Grace stops and holds Tolu's shoulders",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a3_grace",
+       "t": "Trust me, my daughter. Come back on Friday. Wear your best.",
+       "tone": "warm, certain"
+      }
+     ],
+     "sfx": "soft strings",
+     "transition": "cut"
+    },
+    {
+     "n": 8,
+     "dur": 8,
+     "loc": "a3_car",
+     "chars": [
+      "a3_grace"
+     ],
+     "keyframe": "Grace in the back of a sleek black car, phone to her ear",
+     "action": "Grace in the back of a sleek black car, phone to her ear",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a3_grace",
+       "t": "Barrister, call an emergency board meeting. Friday, nine a.m.",
+       "tone": "commanding"
+      }
+     ],
+     "sfx": "engine purr",
+     "transition": "flash"
+    },
+    {
+     "n": 9,
+     "dur": 8,
+     "loc": "a3_office_floor",
+     "chars": [
+      "a3_kelechi"
+     ],
+     "keyframe": "Kelechi toasts with colleagues",
+     "action": "Kelechi toasts with colleagues",
+     "camera": "wide establishing shot, slow dolly-in",
+     "lines": [
+      {
+       "c": "a3_kelechi",
+       "t": "Some people must learn their place!",
+       "tone": "laughing"
+      }
+     ],
+     "sfx": "laughter, clinking",
+     "transition": "dip"
+    },
+    {
+     "n": 10,
+     "dur": 8,
+     "loc": "a3_boardroom",
+     "chars": [
+      "a3_kelechi"
+     ],
+     "keyframe": "Kelechi reads a printed agenda, his face freezing",
+     "action": "Kelechi reads a printed agenda, his face freezing",
+     "camera": "dramatic crash zoom into a close-up, then hold",
+     "lines": [
+      {
+       "c": "a3_kelechi",
+       "t": "The chairperson attending in person? She never attends.",
+       "tone": "alarmed"
+      }
+     ],
+     "sfx": "deep boom",
+     "transition": "cut",
+     "freeze": 1.5
+    }
+   ],
+   "loop_note": "cliffhanger freeze-frame; tomorrow opens with a 3 s 'previously' flash of it"
+  },
+  {
+   "id": "MOS-016",
+   "number": 16,
+   "arc": "a3",
+   "arc_title": "The Cleaner",
+   "arc_logline": "An arrogant manager humiliates the office cleaner, never suspecting who she really is.",
+   "part": 4,
+   "part_title": "Friday",
+   "part_label": "PART 4 OF 6 · THE CLEANER",
+   "title": "The chairperson walks in. Everyone stands. | The Cleaner Part 4 #shorts",
+   "hook_text": "The chairperson walks in. Everyone stands.",
+   "logline": "The Cleaner part 4, Friday: Good morning, everyone. / Mama Grace? / Good morning, Madam Chair, I'm Kelechi, head of...",
+   "description": "An arrogant manager humiliates the office cleaner, never suspecting who she really is.\n\nThe Cleaner, part 4 of 6: Friday.\n\nWhat happens to kelechi? Tell us in the comments.\n\nMoral Of The Story TV: a new story every week, and the full movie after every finale.",
+   "tags": [
+    "moral of the story",
+    "nigerian drama",
+    "short drama",
+    "african drama",
+    "family drama",
+    "the cleaner",
+    "storytime",
+    "drama series"
+   ],
+   "music": "tension drums",
+   "guests": {
+    "a3_grace": {
+     "name": "Madam Grace",
+     "ref_prompt": "a 62-year-old Nigerian woman, neat grey braids in a bun, kind eyes, dignified posture, light-blue cleaner's uniform",
+     "voice": "a calm, warm, dignified older female voice",
+     "species": "human"
+    },
+    "a3_kelechi": {
+     "name": "Kelechi",
+     "ref_prompt": "a 32-year-old Nigerian man, sharp grey suit, sharp fade haircut, smartwatch",
+     "voice": "an arrogant, clipped male voice",
+     "species": "human"
+    },
+    "a3_tolu": {
+     "name": "Tolu",
+     "ref_prompt": "a 26-year-old Nigerian woman, round glasses, white blouse, staff lanyard",
+     "voice": "a bright, earnest young female voice",
+     "species": "human"
+    }
+   },
+   "locations": {
+    "a3_office_floor": "a modern open-plan Lagos office, desks, glass meeting rooms, city view",
+    "a3_lobby": "a glossy corporate lobby, marble floors, glass doors and a glass lift",
+    "a3_boardroom": "a sleek boardroom with a long table and a city skyline view",
+    "a3_pantry": "a small office kitchen with a kettle and mugs",
+    "a3_grace_home": "a humble, tidy flat with plants and old framed photographs",
+    "a3_car": "the back seat of a sleek black car at night, city lights passing",
+    "a3_street_night": "a busy Lagos roadside at night, food stalls, headlights"
+   },
+   "end_card": "WHAT HAPPENS TO KELECHI?|PART 5 TOMORROW",
+   "captions": {
+    "tiktok": "The chairperson walks in. Everyone stands. 😳 Part 4/6 · The Cleaner. What happens to kelechi? #moralofthestory #nigeriandrama #shortdrama #storytime #aidrama",
+    "facebook": "The Cleaner, part 4 of 6: Friday. An arrogant manager humiliates the office cleaner, never suspecting who she really is. What happens to kelechi? Follow Moral Of The Story TV for part 5."
+   },
+   "shots": [
+    {
+     "n": 1,
+     "dur": 8,
+     "loc": "a3_lobby",
+     "chars": [
+      "a3_grace"
+     ],
+     "keyframe": "Low angle: Grace walks through the lobby in an elegant navy suit, staff turning to stare",
+     "action": "Low angle: Grace walks through the lobby in an elegant navy suit, staff turning to stare",
+     "camera": "dramatic crash zoom into a close-up, then hold",
+     "lines": [
+      {
+       "c": "a3_grace",
+       "t": "Good morning, everyone.",
+       "tone": "regal"
+      }
+     ],
+     "sfx": "heels on marble, boom",
+     "transition": "cut"
+    },
+    {
+     "n": 2,
+     "dur": 8,
+     "loc": "a3_lobby",
+     "chars": [
+      "a3_tolu"
+     ],
+     "keyframe": "Tolu at the entrance in her best blouse, stunned",
+     "action": "Tolu at the entrance in her best blouse, stunned",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a3_tolu",
+       "t": "Mama Grace?",
+       "tone": "gasping"
+      }
+     ],
+     "sfx": "gasp",
+     "transition": "cut"
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "a3_boardroom",
+     "chars": [
+      "a3_kelechi"
+     ],
+     "keyframe": "Kelechi stands to greet the chair, sweating",
+     "action": "Kelechi stands to greet the chair, sweating",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a3_kelechi",
+       "t": "Good morning, Madam Chair, I'm Kelechi, head of...",
+       "tone": "nervous"
+      }
+     ],
+     "sfx": "chairs scraping",
+     "transition": "dip"
+    },
+    {
+     "n": 4,
+     "dur": 8,
+     "loc": "a3_boardroom",
+     "chars": [
+      "a3_grace",
+      "a3_kelechi"
+     ],
+     "keyframe": "Grace sits at the head of the table",
+     "action": "Grace sits at the head of the table",
+     "camera": "two-shot, shallow focus, slow lateral dolly",
+     "lines": [
+      {
+       "c": "a3_grace",
+       "t": "I know who you are. We've met. You made me kneel.",
+       "tone": "cool"
+      }
+     ],
+     "sfx": "deep boom",
+     "transition": "cut"
+    },
+    {
+     "n": 5,
+     "dur": 8,
+     "loc": "a3_boardroom",
+     "chars": [
+      "a3_kelechi"
+     ],
+     "keyframe": "Kelechi's face collapses",
+     "action": "Kelechi's face collapses",
+     "camera": "dramatic crash zoom into a close-up, then hold",
+     "lines": [
+      {
+       "c": "a3_kelechi",
+       "t": "Madam, I... I didn't know.",
+       "tone": "stammering"
+      }
+     ],
+     "sfx": "heartbeat",
+     "transition": "cut"
+    },
+    {
+     "n": 6,
+     "dur": 8,
+     "loc": "a3_boardroom",
+     "chars": [
+      "a3_grace"
+     ],
+     "keyframe": "Grace leans forward",
+     "action": "Grace leans forward",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a3_grace",
+       "t": "That is exactly the problem. You only respect people you think matter.",
+       "tone": "firm"
+      }
+     ],
+     "sfx": "tense strings",
+     "transition": "cut"
+    },
+    {
+     "n": 7,
+     "dur": 8,
+     "loc": "a3_boardroom",
+     "chars": [
+      "a3_grace"
+     ],
+     "keyframe": "Grace gestures to the door",
+     "action": "Grace gestures to the door",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a3_grace",
+       "t": "Tolu, please. Show the board your notes.",
+       "tone": "warm"
+      }
+     ],
+     "sfx": "door opens",
+     "transition": "cut"
+    },
+    {
+     "n": 8,
+     "dur": 8,
+     "loc": "a3_boardroom",
+     "chars": [
+      "a3_tolu"
+     ],
+     "keyframe": "Tolu presents a thick folder to the board",
+     "action": "Tolu presents a thick folder to the board",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a3_tolu",
+       "t": "Fourteen incidents. And transfers to a private account. Dates and amounts.",
+       "tone": "confident"
+      }
+     ],
+     "sfx": "papers sliding",
+     "transition": "flash"
+    },
+    {
+     "n": 9,
+     "dur": 8,
+     "loc": "a3_boardroom",
+     "chars": [
+      "a3_kelechi"
+     ],
+     "keyframe": "Kelechi panics",
+     "action": "Kelechi panics",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a3_kelechi",
+       "t": "This is a setup! She's a cleaner!",
+       "tone": "desperate"
+      }
+     ],
+     "sfx": "murmurs",
+     "transition": "cut"
+    },
+    {
+     "n": 10,
+     "dur": 8,
+     "loc": "a3_boardroom",
+     "chars": [
+      "a3_grace"
+     ],
+     "keyframe": "Grace stands at the head of the table",
+     "action": "Grace stands at the head of the table",
+     "camera": "dramatic crash zoom into a close-up, then hold",
+     "lines": [
+      {
+       "c": "a3_grace",
+       "t": "I'm the co-founder of this company. And yes, I'm also a cleaner.",
+       "tone": "powerful"
+      }
+     ],
+     "sfx": "deep boom",
+     "transition": "cut",
+     "freeze": 1.5
+    }
+   ],
+   "loop_note": "cliffhanger freeze-frame; tomorrow opens with a 3 s 'previously' flash of it"
+  },
+  {
+   "id": "MOS-017",
+   "number": 17,
+   "arc": "a3",
+   "arc_title": "The Cleaner",
+   "arc_logline": "An arrogant manager humiliates the office cleaner, never suspecting who she really is.",
+   "part": 5,
+   "part_title": "Consequences",
+   "part_label": "PART 5 OF 6 · THE CLEANER",
+   "title": "Bosses hear lies. Cleaners hear everything. | The Cleaner Part 5 #shorts",
+   "hook_text": "Bosses hear lies. Cleaners hear everything.",
+   "logline": "The Cleaner part 5, Consequences: Security, please escort Mr Kelechi out. With his things. / I gave this company five years! / Five years. And a cleaner ended it.",
+   "description": "An arrogant manager humiliates the office cleaner, never suspecting who she really is.\n\nThe Cleaner, part 5 of 6: Consequences.\n\nWhy did she come? Tell us in the comments.\n\nMoral Of The Story TV: a new story every week, and the full movie after every finale.",
+   "tags": [
+    "moral of the story",
+    "nigerian drama",
+    "short drama",
+    "african drama",
+    "family drama",
+    "the cleaner",
+    "storytime",
+    "drama series"
+   ],
+   "music": "tension drums",
+   "guests": {
+    "a3_grace": {
+     "name": "Madam Grace",
+     "ref_prompt": "a 62-year-old Nigerian woman, neat grey braids in a bun, kind eyes, dignified posture, light-blue cleaner's uniform",
+     "voice": "a calm, warm, dignified older female voice",
+     "species": "human"
+    },
+    "a3_kelechi": {
+     "name": "Kelechi",
+     "ref_prompt": "a 32-year-old Nigerian man, sharp grey suit, sharp fade haircut, smartwatch",
+     "voice": "an arrogant, clipped male voice",
+     "species": "human"
+    },
+    "a3_tolu": {
+     "name": "Tolu",
+     "ref_prompt": "a 26-year-old Nigerian woman, round glasses, white blouse, staff lanyard",
+     "voice": "a bright, earnest young female voice",
+     "species": "human"
+    }
+   },
+   "locations": {
+    "a3_office_floor": "a modern open-plan Lagos office, desks, glass meeting rooms, city view",
+    "a3_lobby": "a glossy corporate lobby, marble floors, glass doors and a glass lift",
+    "a3_boardroom": "a sleek boardroom with a long table and a city skyline view",
+    "a3_pantry": "a small office kitchen with a kettle and mugs",
+    "a3_grace_home": "a humble, tidy flat with plants and old framed photographs",
+    "a3_car": "the back seat of a sleek black car at night, city lights passing",
+    "a3_street_night": "a busy Lagos roadside at night, food stalls, headlights"
+   },
+   "end_card": "WHY DID SHE COME?|FINALE TOMORROW",
+   "captions": {
+    "tiktok": "Bosses hear lies. Cleaners hear everything. 😳 Part 5/6 · The Cleaner. Why did she come? #moralofthestory #nigeriandrama #shortdrama #storytime #aidrama",
+    "facebook": "The Cleaner, part 5 of 6: Consequences. An arrogant manager humiliates the office cleaner, never suspecting who she really is. Why did she come? Follow Moral Of The Story TV for part 6."
+   },
+   "shots": [
+    {
+     "n": 1,
+     "dur": 8,
+     "loc": "a3_boardroom",
+     "chars": [
+      "a3_grace"
+     ],
+     "keyframe": "Grace speaks to the security guards at the door",
+     "action": "Grace speaks to the security guards at the door",
+     "camera": "dramatic crash zoom into a close-up, then hold",
+     "lines": [
+      {
+       "c": "a3_grace",
+       "t": "Security, please escort Mr Kelechi out. With his things.",
+       "tone": "calm"
+      }
+     ],
+     "sfx": "deep boom",
+     "transition": "cut"
+    },
+    {
+     "n": 2,
+     "dur": 8,
+     "loc": "a3_lobby",
+     "chars": [
+      "a3_kelechi"
+     ],
+     "keyframe": "Kelechi walks out carrying a box as staff watch in silence",
+     "action": "Kelechi walks out carrying a box as staff watch in silence",
+     "camera": "wide establishing shot, slow dolly-in",
+     "lines": [
+      {
+       "c": "a3_kelechi",
+       "t": "I gave this company five years!",
+       "tone": "bitter"
+      }
+     ],
+     "sfx": "footsteps echo",
+     "transition": "dip"
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "a3_lobby",
+     "chars": [
+      "a3_kelechi"
+     ],
+     "keyframe": "Kelechi stops at the glass doors",
+     "action": "Kelechi stops at the glass doors",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a3_kelechi",
+       "t": "Five years. And a cleaner ended it.",
+       "tone": "stunned"
+      }
+     ],
+     "sfx": "low drone",
+     "transition": "cut"
+    },
+    {
+     "n": 4,
+     "dur": 8,
+     "loc": "a3_pantry",
+     "chars": [
+      "a3_grace",
+      "a3_tolu"
+     ],
+     "keyframe": "Grace, back in her blue uniform, makes tea with Tolu",
+     "action": "Grace, back in her blue uniform, makes tea with Tolu",
+     "camera": "two-shot, shallow focus, slow lateral dolly",
+     "lines": [
+      {
+       "c": "a3_tolu",
+       "t": "Why go back to cleaning? You own the place!",
+       "tone": "amazed"
+      }
+     ],
+     "sfx": "kettle",
+     "transition": "dip"
+    },
+    {
+     "n": 5,
+     "dur": 8,
+     "loc": "a3_pantry",
+     "chars": [
+      "a3_grace"
+     ],
+     "keyframe": "Grace smiles",
+     "action": "Grace smiles",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a3_grace",
+       "t": "My husband and I started this company with one mop and one desk.",
+       "tone": "fond"
+      }
+     ],
+     "sfx": "soft piano",
+     "transition": "cut"
+    },
+    {
+     "n": 6,
+     "dur": 8,
+     "loc": "a3_pantry",
+     "chars": [
+      "a3_grace"
+     ],
+     "keyframe": "Grace sips her tea",
+     "action": "Grace sips her tea",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a3_grace",
+       "t": "Bosses hear lies. Cleaners hear everything.",
+       "tone": "wise"
+      }
+     ],
+     "sfx": "soft strings",
+     "transition": "cut"
+    },
+    {
+     "n": 7,
+     "dur": 8,
+     "loc": "a3_office_floor",
+     "chars": [
+      "a3_tolu"
+     ],
+     "keyframe": "Colleagues applaud Tolu at her new desk",
+     "action": "Colleagues applaud Tolu at her new desk",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a3_tolu",
+       "t": "Head of compliance? Me? I'm an intern!",
+       "tone": "overwhelmed"
+      }
+     ],
+     "sfx": "applause",
+     "transition": "flash"
+    },
+    {
+     "n": 8,
+     "dur": 8,
+     "loc": "a3_office_floor",
+     "chars": [
+      "a3_grace"
+     ],
+     "keyframe": "Grace beams",
+     "action": "Grace beams",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a3_grace",
+       "t": "You were the only one brave enough to speak. That's leadership.",
+       "tone": "proud"
+      }
+     ],
+     "sfx": "warm strings",
+     "transition": "cut"
+    },
+    {
+     "n": 9,
+     "dur": 8,
+     "loc": "a3_street_night",
+     "chars": [
+      "a3_kelechi"
+     ],
+     "keyframe": "Kelechi on a busy roadside at night, phone to his ear",
+     "action": "Kelechi on a busy roadside at night, phone to his ear",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a3_kelechi",
+       "t": "Mum, I lost my job. Yes, Mum. I deserved it.",
+       "tone": "broken"
+      }
+     ],
+     "sfx": "traffic, horns",
+     "transition": "dip"
+    },
+    {
+     "n": 10,
+     "dur": 8,
+     "loc": "a3_street_night",
+     "chars": [
+      "a3_grace"
+     ],
+     "keyframe": "A black car pulls up, the back window lowers to reveal Grace",
+     "action": "A black car pulls up, the back window lowers to reveal Grace",
+     "camera": "dramatic crash zoom into a close-up, then hold",
+     "lines": [
+      {
+       "c": "a3_grace",
+       "t": "Get in, Kelechi. We need to talk.",
+       "tone": "calm"
+      }
+     ],
+     "sfx": "car door, boom",
+     "transition": "cut",
+     "freeze": 1.5
+    }
+   ],
+   "loop_note": "cliffhanger freeze-frame; tomorrow opens with a 3 s 'previously' flash of it"
+  },
+  {
+   "id": "MOS-018",
+   "number": 18,
+   "arc": "a3",
+   "arc_title": "The Cleaner",
+   "arc_logline": "An arrogant manager humiliates the office cleaner, never suspecting who she really is.",
+   "part": 6,
+   "part_title": "Second Chance",
+   "part_label": "PART 6 OF 6 · THE CLEANER",
+   "title": "Why did she come back for him? | The Cleaner Part 6 #shorts",
+   "hook_text": "Why did she come back for him?",
+   "logline": "The Cleaner part 6, Second Chance: I didn't come to punish you more. I came to ask why. / My father was a cleaner. People treated him like dirt. / I swore never to be him. So I treated people like dirt first.",
+   "description": "An arrogant manager humiliates the office cleaner, never suspecting who she really is.\n\nThe Cleaner, part 6 of 6: Second Chance.\n\nMoral Of The Story TV: a new story every week, and the full movie after every finale.",
+   "tags": [
+    "moral of the story",
+    "nigerian drama",
+    "short drama",
+    "african drama",
+    "family drama",
+    "the cleaner",
+    "storytime",
+    "drama series"
+   ],
+   "music": "tension drums",
+   "guests": {
+    "a3_grace": {
+     "name": "Madam Grace",
+     "ref_prompt": "a 62-year-old Nigerian woman, neat grey braids in a bun, kind eyes, dignified posture, light-blue cleaner's uniform",
+     "voice": "a calm, warm, dignified older female voice",
+     "species": "human"
+    },
+    "a3_kelechi": {
+     "name": "Kelechi",
+     "ref_prompt": "a 32-year-old Nigerian man, sharp grey suit, sharp fade haircut, smartwatch",
+     "voice": "an arrogant, clipped male voice",
+     "species": "human"
+    },
+    "a3_tolu": {
+     "name": "Tolu",
+     "ref_prompt": "a 26-year-old Nigerian woman, round glasses, white blouse, staff lanyard",
+     "voice": "a bright, earnest young female voice",
+     "species": "human"
+    }
+   },
+   "locations": {
+    "a3_office_floor": "a modern open-plan Lagos office, desks, glass meeting rooms, city view",
+    "a3_lobby": "a glossy corporate lobby, marble floors, glass doors and a glass lift",
+    "a3_boardroom": "a sleek boardroom with a long table and a city skyline view",
+    "a3_pantry": "a small office kitchen with a kettle and mugs",
+    "a3_grace_home": "a humble, tidy flat with plants and old framed photographs",
+    "a3_car": "the back seat of a sleek black car at night, city lights passing",
+    "a3_street_night": "a busy Lagos roadside at night, food stalls, headlights"
+   },
+   "end_card": "",
+   "moral": "Respect everyone. You never know who is holding the door.",
+   "arc_finale": true,
+   "captions": {
+    "tiktok": "Why did she come back for him? 😳 Part 6/6 · The Cleaner. The moral of the story: Respect everyone. You never know who is holding the door. #moralofthestory #nigeriandrama #shortdrama #storytime #aidrama",
+    "facebook": "The Cleaner, part 6 of 6: Second Chance. An arrogant manager humiliates the office cleaner, never suspecting who she really is. The moral of the story: Respect everyone. You never know who is holding the door."
+   },
+   "shots": [
+    {
+     "n": 1,
+     "dur": 8,
+     "loc": "a3_car",
+     "chars": [
+      "a3_grace",
+      "a3_kelechi"
+     ],
+     "keyframe": "Kelechi in the back seat beside Grace, city lights passing",
+     "action": "Kelechi in the back seat beside Grace, city lights passing",
+     "camera": "dramatic crash zoom into a close-up, then hold",
+     "lines": [
+      {
+       "c": "a3_grace",
+       "t": "I didn't come to punish you more. I came to ask why.",
+       "tone": "gentle"
+      }
+     ],
+     "sfx": "engine hum",
+     "transition": "cut"
+    },
+    {
+     "n": 2,
+     "dur": 8,
+     "loc": "a3_car",
+     "chars": [
+      "a3_kelechi"
+     ],
+     "keyframe": "Kelechi stares at his hands",
+     "action": "Kelechi stares at his hands",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a3_kelechi",
+       "t": "My father was a cleaner. People treated him like dirt.",
+       "tone": "raw"
+      }
+     ],
+     "sfx": "soft piano",
+     "transition": "cut"
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "a3_car",
+     "chars": [
+      "a3_kelechi"
+     ],
+     "keyframe": "Kelechi's voice cracks",
+     "action": "Kelechi's voice cracks",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a3_kelechi",
+       "t": "I swore never to be him. So I treated people like dirt first.",
+       "tone": "ashamed"
+      }
+     ],
+     "sfx": "low strings",
+     "transition": "cut"
+    },
+    {
+     "n": 4,
+     "dur": 8,
+     "loc": "a3_car",
+     "chars": [
+      "a3_grace"
+     ],
+     "keyframe": "Grace looks at him with compassion",
+     "action": "Grace looks at him with compassion",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a3_grace",
+       "t": "Your father was a man of honour. You became the people who hurt him.",
+       "tone": "soft"
+      }
+     ],
+     "sfx": "strings",
+     "transition": "cut"
+    },
+    {
+     "n": 5,
+     "dur": 8,
+     "loc": "a3_office_floor",
+     "chars": [
+      "a3_kelechi"
+     ],
+     "keyframe": "Weeks later, Kelechi in a blue facilities uniform pushes a cleaning trolley",
+     "action": "Weeks later, Kelechi in a blue facilities uniform pushes a cleaning trolley",
+     "camera": "wide establishing shot, slow dolly-in",
+     "lines": [
+      {
+       "c": "a3_kelechi",
+       "t": "Six months in facilities. Then we talk about my future.",
+       "tone": "humble"
+      }
+     ],
+     "sfx": "trolley wheels",
+     "transition": "dip"
+    },
+    {
+     "n": 6,
+     "dur": 8,
+     "loc": "a3_office_floor",
+     "chars": [
+      "a3_kelechi",
+      "a3_tolu"
+     ],
+     "keyframe": "Kelechi sets a coffee on Tolu's desk",
+     "action": "Kelechi sets a coffee on Tolu's desk",
+     "camera": "two-shot, shallow focus, slow lateral dolly",
+     "lines": [
+      {
+       "c": "a3_kelechi",
+       "t": "Your coffee, Head of Compliance.",
+       "tone": "sincere"
+      },
+      {
+       "c": "a3_tolu",
+       "t": "Thank you, Kelechi.",
+       "tone": "kind"
+      }
+     ],
+     "sfx": "cup set down",
+     "transition": "flash"
+    },
+    {
+     "n": 7,
+     "dur": 8,
+     "loc": "a3_pantry",
+     "chars": [
+      "a3_kelechi"
+     ],
+     "keyframe": "Kelechi wipes the counter, reflective",
+     "action": "Kelechi wipes the counter, reflective",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a3_kelechi",
+       "t": "Funny. Everyone talks to you differently when you hold a mop.",
+       "tone": "thoughtful"
+      }
+     ],
+     "sfx": "tap running",
+     "transition": "cut"
+    },
+    {
+     "n": 8,
+     "dur": 8,
+     "loc": "a3_lobby",
+     "chars": [
+      "a3_grace",
+      "a3_kelechi"
+     ],
+     "keyframe": "Grace and Kelechi by the glass lift",
+     "action": "Grace and Kelechi by the glass lift",
+     "camera": "two-shot, shallow focus, slow lateral dolly",
+     "lines": [
+      {
+       "c": "a3_grace",
+       "t": "Now you see the whole building, not just the top floor.",
+       "tone": "wise"
+      }
+     ],
+     "sfx": "lift ding",
+     "transition": "cut"
+    },
+    {
+     "n": 9,
+     "dur": 8,
+     "loc": "a3_lobby",
+     "chars": [
+      "a3_grace"
+     ],
+     "keyframe": "Grace smiles",
+     "action": "Grace smiles",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a3_grace",
+       "t": "Respect is free. Disrespect will cost you everything.",
+       "tone": "warm"
+      }
+     ],
+     "sfx": "warm strings",
+     "transition": "cut"
+    },
+    {
+     "n": 10,
+     "dur": 8,
+     "loc": "a3_lobby",
+     "chars": [],
+     "keyframe": "At the glass doors a cleaner holds the door for an executive, both smiling, sunlight flooding in",
+     "action": "At the glass doors a cleaner holds the door for an executive, both smiling, sunlight flooding in",
+     "camera": "wide establishing shot, slow dolly-in",
+     "lines": [],
+     "sfx": "soft music",
+     "transition": "cut"
+    }
+   ],
+   "loop_note": "cliffhanger freeze-frame; tomorrow opens with a 3 s 'previously' flash of it"
+  }
+ ]
+}

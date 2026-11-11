@@ -25,7 +25,7 @@ def seo(bible: dict) -> dict:
 def hashtags(bible: dict, tags: list, platform: str = "youtube", topic: int = 2) -> list:
     show = _hashtag((bible or {}).get("show_title", ""))
     core = [_hashtag(h) for h in seo(bible).get("hashtags", [])]
-    out = []
+    out: list[str] = []
     for t in tags or []:
         h = _hashtag(t)
         if len(out) >= topic:
@@ -43,7 +43,8 @@ def hashtag_line(bible: dict, tags: list, platform: str = "youtube") -> str:
 
 def youtube_tags(bible: dict, tags: list) -> list:
     """Episode tags first, then channel keywords + show title; within YouTube's 500-character tag limit."""
-    out, size = [], 0
+    out: list[str] = []
+    size = 0
     for t in list(tags or []) + seo(bible).get("keywords", []) + [(bible or {}).get("show_title", "")]:
         t = t.strip().lstrip("#")
         if not t or t.lower() in GENERIC or t.lower() in {o.lower() for o in out}:

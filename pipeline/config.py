@@ -1,6 +1,7 @@
 """Central settings. Everything can be overridden with environment variables (or a .env file)."""
 import os
 from pathlib import Path
+from typing import Optional, overload
 
 ROOT = Path(__file__).resolve().parent.parent
 
@@ -61,7 +62,11 @@ _expand_bundles()
 _expand_channel_ids()
 
 
-def env(name, default=None):
+@overload
+def env(name: str) -> Optional[str]: ...
+@overload
+def env(name: str, default: str) -> str: ...
+def env(name: str, default: Optional[str] = None) -> Optional[str]:
     return os.environ.get(name, default)
 
 

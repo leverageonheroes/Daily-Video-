@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="38%" r="72%">
+      <stop offset="0" stop-color="#3a0f14"/><stop offset="0.55" stop-color="#1a0709"/><stop offset="1" stop-color="#0a0304"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffe3a3"/><stop offset="0.5" stop-color="#e8b04a"/><stop offset="1" stop-color="#b47a22"/>
+    </linearGradient>
+    <radialGradient id="beam" cx="50%" cy="0%" r="100%">
+      <stop offset="0" stop-color="#ffd27a" stop-opacity="0.55"/><stop offset="1" stop-color="#ffd27a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg)"/>
+  <!-- spotlight beam falling on the book -->
+  <path d="M400 70 L250 420 L550 420 Z" fill="url(#beam)"/>
+  <!-- open book -->
+  <g fill="none" stroke="url(#gold)" stroke-width="14" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M400 300 C340 262 260 258 200 276 L200 452 C262 436 340 440 400 478 Z"/>
+    <path d="M400 300 C460 262 540 258 600 276 L600 452 C538 436 460 440 400 478 Z"/>
+    <path d="M400 300 L400 478"/>
+  </g>
+  <!-- page lines (story) -->
+  <g stroke="#e8b04a" stroke-width="6" stroke-linecap="round" opacity="0.75">
+    <path d="M240 318 C290 306 340 310 372 326"/><path d="M240 352 C290 340 340 344 372 360"/><path d="M240 386 C290 374 340 378 372 394"/>
+    <path d="M428 326 C460 310 510 306 560 318"/><path d="M428 360 C460 344 510 340 560 352"/><path d="M428 394 C460 378 510 374 560 386"/>
+  </g>
+  <!-- small flame of wisdom above the spine -->
+  <path d="M400 196 C426 228 432 252 400 276 C368 252 374 228 400 196 Z" fill="url(#gold)"/>
+  <path d="M400 226 C410 240 410 252 400 262 C390 252 390 240 400 226 Z" fill="#3a0f14"/>
+  <text x="400" y="560" text-anchor="middle" font-family="DejaVu Serif" font-weight="bold" font-size="40" fill="#f5ecd8" letter-spacing="12">MORAL OF THE</text>
+  <text x="400" y="640" text-anchor="middle" font-family="DejaVu Serif" font-weight="bold" font-size="86" fill="url(#gold)" letter-spacing="6">STORY</text>
+  <rect x="352" y="664" width="96" height="40" rx="8" fill="url(#gold)"/>
+  <text x="400" y="693" text-anchor="middle" font-family="DejaVu Sans" font-weight="bold" font-size="28" fill="#1a0709" letter-spacing="4">TV</text>
+</svg>

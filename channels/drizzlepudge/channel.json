@@ -1,152 +1,65 @@
 {
   "channel_id": "drizzlepudge",
-  "show_title": "Drizzle & Pudge",
-  "tagline": "A baby rain cloud, her hedgehog best friend, and a meadow full of surprises.",
-  "audience": "MADE FOR KIDS (ages 2-7). Channel and every video must be set to made for kids.",
-  "made_for_kids": true,
-  "youtube_category": "1",
-  "nonverbal": true,
-  "overlays": {
-    "hook": false,
-    "captions": false
-  },
-  "format": "Wordless slapstick-and-heart cartoon, 30-45s. Drizzle's surprise rain (bubbles, petals, snowflakes, colours...) causes a small problem, friends solve it together kindly, and every episode ends with the signature Puddle Jump celebration. No spoken words, only cute sounds, so it works in every country.",
-  "episode_id_prefix": "DP",
+  "show_title": "Moral Of The Story TV",
+  "previous_format": "Drizzle & Pudge (kids cartoon) - scripts archived in channels/drizzlepudge/archive/",
+  "tagline": "Every story has a twist. Every story has a lesson.",
+  "audience": "general (13+), NOT made for kids",
+  "format": "Story arcs: one topic per arc, 6 parts of ~80 s (10 shots x 8 s) released daily, then the full movie (all parts + title and moral cards, ~8.5 min, mid-roll eligible) 24 h after the finale. Hook line first, a 3 s 'previously' flash from part 2, scene-change transitions, a freeze-frame cliffhanger with a question, and the moral card in the finale.",
+  "episode_id_prefix": "MOS",
   "target_seconds": [
-    30,
-    45
+    75,
+    90
   ],
   "max_seconds": 90,
-  "style_prompt": "high-quality soft 3D animated preschool film style, rounded chubby shapes, huge sparkling eyes, gentle expressive faces, bright but soft pastel palette of sky blue, mint green, butter yellow and lilac, warm sunny lighting, cosy storybook meadow world, vertical 9:16 composition with the characters centred, no text, no logos",
-  "audio_prompt": "no spoken words; only cute non-verbal character sounds (giggles, gasps, hiccups, 'ooh', 'uh-oh', 'yay'), soft cartoon sound effects, gentle nature ambience, no background music (music is added in post)",
-  "negative_prompt": "scary, dark, violent, sharp teeth, realistic animals, humans, text, logos, brand products, danger, crying for long, mean faces",
-  "kids_safety_rules": [
-    "Nothing a child could copy that is unsafe: no climbing high, no fire, no going into deep water, no eating things found outside, no running near roads, no tricks with heights.",
-    "Every problem is solved kindly within the episode; nobody is left sad, excluded or scared at the end.",
-    "Gentle pacing: no flashing, no jump scares, no screaming.",
-    "No products, brands, food promotion or toys being sold.",
-    "Each episode quietly models one good thing: sharing, helping, trying again, saying sorry, curiosity, counting, colours or shapes."
-  ],
-  "signature": "Every episode ends with the Puddle Jump: Drizzle drips a perfect round puddle, Pudge jumps in with both feet, a happy splash in slow motion, both giggle and wave.",
-  "characters": {
-    "drizzle": {
-      "name": "Drizzle",
-      "species": "baby rain cloud",
-      "ref_prompt": "a tiny fluffy baby rain cloud character, soft white with a lilac tint, round puffy body the size of a beach ball, huge sparkly blue eyes, rosy pink cheeks, tiny happy mouth, two little cloud-puff arms, floats in the air, a few small shiny raindrops hanging under her",
-      "personality": "sweet, excitable, a little clumsy; when she hiccups, sneezes or feels big feelings it rains surprises (bubbles, petals, snowflakes, colours, glowing stars, feathers, leaves, musical notes)",
-      "catchphrase": "",
-      "voice": "tiny, high, giggly baby girl sounds, no words",
-      "tts_voice_id": ""
-    },
-    "pudge": {
-      "name": "Pudge",
-      "species": "hedgehog",
-      "ref_prompt": "a chubby little baby hedgehog boy, round soft body, warm brown soft rounded spikes that look fluffy not sharp, cream tummy and face, button nose, big shiny brown eyes, wearing a bright yellow raincoat and red rain boots, stands upright",
-      "personality": "curious, brave, loves puddles, a bit clumsy, always the first to help a friend",
-      "catchphrase": "",
-      "voice": "cheerful little boy sounds and giggles, no words",
-      "tts_voice_id": ""
-    },
-    "gran_tortle": {
-      "name": "Gran Tortle",
-      "species": "tortoise",
-      "ref_prompt": "a kind old grandma tortoise, green-gold shell with a knitted flower-pattern shell cosy, small round glasses, gentle wrinkly smile, holding a little watering can, stands upright",
-      "personality": "slow, wise, warm; loves her garden; laughs easily",
-      "catchphrase": "",
-      "voice": "soft warm grandma chuckles and hums, no words",
-      "tts_voice_id": ""
-    },
-    "fizz": {
-      "name": "Fizz",
-      "species": "squirrel",
-      "ref_prompt": "a small speedy baby red squirrel, huge fluffy tail, cheeky grin, bright green eyes, wearing a tiny blue scarf, stands upright",
-      "personality": "fast, cheeky, playful, sometimes forgets to share but always makes up",
-      "catchphrase": "",
-      "voice": "quick chirpy giggles and squeaks, no words",
-      "tts_voice_id": ""
-    },
-    "bitsy": {
-      "name": "Bitsy",
-      "species": "ladybug",
-      "ref_prompt": "a tiny round red ladybug with exactly five black spots, big cute eyes, little smile, very small next to the others",
-      "personality": "Pudge's tiny pet-like friend, ticklish, gets into small adventures",
-      "catchphrase": "",
-      "voice": "tiny squeaks and buzz",
-      "tts_voice_id": ""
-    }
-  },
-  "locations": {
-    "meadow": "sunny wildflower meadow with soft rolling grass, daisies and buttercups, a winding path, blue sky with tiny clouds",
-    "puddle_lane": "a cosy country path with lots of round shiny puddles, little stones, flowers along the sides",
-    "pudge_burrow": "inside Pudge's cosy round burrow home, warm wooden kitchen, round door, little bed with a patchwork quilt, lantern light",
-    "gran_garden": "Gran Tortle's colourful vegetable and flower garden, low wooden fence, flower pots, a little shed, sunflowers",
-    "pond_bank": "the grassy safe bank beside a calm lily pond, smooth flat stones, reeds, dragonflies, characters stay on the grass",
-    "big_oak": "the base of a giant friendly oak tree with roots like seats, acorns on the ground, soft moss",
-    "picnic_hill": "a gentle grassy hilltop with a checked picnic blanket and a view of the meadow",
-    "night_meadow": "the meadow at night, deep blue sky, big round moon, soft glowing fireflies, cosy and calm not scary",
-    "snowy_hill": "the meadow covered in soft clean snow, rounded snowy bushes, pale blue sky, gentle snowflakes",
-    "sky": "up among soft cotton-candy clouds in a bright blue sky, the meadow small and far below"
-  },
+  "live_action": true,
+  "made_for_kids": false,
+  "youtube_category": "24",
+  "nonverbal": false,
+  "video_provider": "fal",
+  "video_fallback": "fal_backup",
+  "fal_video_endpoint": "fal-ai/veo3.1/lite/image-to-video",
+  "fal_video_fallback_endpoint": "fal-ai/veo3.1/fast/image-to-video",
+  "price_per_video_second": 0.05,
+  "style_prompt": "cinematic photoreal film still, shot on a digital cinema camera with anamorphic lenses, shallow depth of field, motivated practical lighting, rich true-to-life dark skin tones, warm amber highlights and soft teal shadows, gentle atmospheric haze, premium drama series look, vertical 9:16 composition, subject centred, no text, no subtitles, no watermark",
+  "audio_prompt": "clear natural dialogue in natural Nigerian English, never exaggerated, realistic room tone and subtle Foley sound effects, no background music (music is added in post)",
+  "negative_prompt": "text, subtitles, captions, watermark, logo, cartoon, distorted faces, extra fingers, caricature, children",
+  "cinema_vf": "eq=contrast=1.07:saturation=1.06:gamma=0.98,colorbalance=rs=0.03:bs=-0.03:rh=0.04:bh=-0.04,noise=alls=6:allf=t+u,vignette=PI/5",
+  "recaps": true,
+  "recap_seconds": 3.0,
+  "recap_card": "PREVIOUSLY...",
+  "arc_movies": true,
+  "movie_title": "{arc} | Full Movie | {show}",
+  "characters": {},
+  "locations": {},
   "guests_allowed": true,
-  "compilation_title": "{show} | {n} Funny Episodes | Cartoons for Kids",
-  "compilation_tags": [
-    "cartoons for kids",
-    "kids cartoon",
-    "preschool cartoon",
-    "toddler videos",
-    "funny cartoons"
-  ],
   "music_moods": [
-    "playful xylophone",
-    "bouncy ukulele",
-    "gentle music box",
-    "silly tuba",
-    "magic twinkle",
-    "happy whistle"
+    "nollywood suspense",
+    "tender strings",
+    "tension drums"
+  ],
+  "overlays": {
+    "hook": true,
+    "captions": true
+  },
+  "ai_disclosure": "Fictional story. All characters are AI-generated; any resemblance to real people is coincidental.",
+  "content_rules": [
+    "Fictional adults only. Dignified, modern, aspirational Nigerian settings and natural Nigerian English.",
+    "Never caricature: no scam plots, no mocking accents, tribes or religion, no poverty played as a joke.",
+    "Each arc: 6 parts x 10 shots x 8 s. Part 1 opens on the most explosive line. Parts 1-5 end on a freeze-frame cliffhanger + question card; part 6 resolves and ends on the moral card.",
+    "One fixed outfit and one fixed voice description per character for the whole arc (consistency).",
+    "<= 2 speakers per shot, <= 20 words per 8 s shot. Transitions only at scene changes (dip or flash).",
+    "No children on screen (the video model blocks minors; mention them off-screen only)."
+  ],
+  "compilation_title": "{show} | {label}",
+  "compilation_tags": [
+    "full movie",
+    "nigerian movie",
+    "african drama",
+    "moral of the story",
+    "family drama"
   ],
   "compilations": {
-    "weekly": true,
-    "monthly": true
-  },
-  "end_card": {
-    "enabled": true,
-    "seconds": 7,
-    "image": "assets/drizzlepudge/endcard.png",
-    "logo": "assets/drizzlepudge/drizzle.png",
-    "cta": "GROWN-UPS: LIKE, SHARE AND SUBSCRIBE TO",
-    "name": "DRIZZLE & PUDGE",
-    "sub": "NEW ADVENTURES DAILY!",
-    "handle": "DRIZZLE & PUDGE",
-    "initials": "D&P",
-    "colors": {
-      "bg_top": "#9fdcf7",
-      "bg_bottom": "#d4f5df",
-      "accent": "#8a5cc2",
-      "text": "#2f3a66"
-    },
-    "_note": "Shorts only (not compilations). Edit text/colours here, then: python tools/make_endcard.py <channel>",
-    "logo_size": 470,
-    "logo_top": 190,
-    "shadow": false
-  },
-  "seo": {
-    "about": "Drizzle & Pudge is a gentle wordless cartoon for toddlers and preschoolers about a baby rain cloud, her hedgehog best friend, kindness and sharing.",
-    "hashtags": [
-      "#kidscartoon",
-      "#cartoonsforkids"
-    ],
-    "keywords": [
-      "cartoons for kids",
-      "kids cartoon",
-      "preschool cartoon",
-      "toddler videos",
-      "cartoon for toddlers",
-      "kindness for kids",
-      "sharing",
-      "wordless cartoon",
-      "rain cloud cartoon",
-      "hedgehog cartoon",
-      "drizzle and pudge"
-    ]
+    "weekly": false,
+    "monthly": false
   }
 }

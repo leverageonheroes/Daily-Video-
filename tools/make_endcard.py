@@ -138,7 +138,7 @@ def build(channel):
     size = int(cfg.get("logo_size", 400))
     if logo_p.exists():
         logo = Image.open(logo_p).convert("RGBA")
-        logo.thumbnail((size, size), Image.LANCZOS)
+        logo.thumbnail((size, size), Image.Resampling.LANCZOS)
         if logo.getchannel("A").getextrema()[0] == 255:   # opaque logo: feather the edges into the card
             m = Image.new("L", logo.size)
             pad = int(min(logo.size) * 0.03)

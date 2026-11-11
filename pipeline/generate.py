@@ -73,8 +73,9 @@ def clip(bible, episode, shot, key: Path, workdir: Path) -> Path:
     if config.MOCK:
         return fal_api.mock_clip(dest, key, shot["dur"], 220 + 40 * shot["n"])
     prompt = prompts.clip_prompt(bible, episode, shot)
-    order = [config.VIDEO_PROVIDER] + ([config.VIDEO_FALLBACK] if config.VIDEO_FALLBACK
-                                       and config.VIDEO_FALLBACK != config.VIDEO_PROVIDER else [])
+    primary = bible.get("video_provider", config.VIDEO_PROVIDER)          # channel.json can pick its own model
+    fallback = bible.get("video_fallback", config.VIDEO_FALLBACK)
+    order = [primary] + ([fallback] if fallback and fallback != primary else [])
     errors = []
     for provider in order:
         try:
@@ -82,6 +83,16 @@ def clip(bible, episode, shot, key: Path, workdir: Path) -> Path:
                 if not config.LTX_API_KEY:
                     raise ltx_api.LTXError("LTX_API_KEY is not set")
                 return ltx_api.image_to_video(key, prompt, shot["dur"], dest)
+            if provider == "veo":
+                from . import veo_api
+                return veo_api.image_to_video(key, prompt, shot["dur"], dest, bible.get("negative_prompt", ""))
+            endpoint = bible.get("fal_video_fallback_endpoint" if provider == "fal_backup" else "fal_video_endpoint", "")
+            if provider in ("fal", "fal_backup") and "veo" in endpoint:
+                res = fal_api.run(endpoint, {
+                    "image_url": fal_api.upload(key), "prompt": prompt, "aspect_ratio": "9:16",
+                    "duration": f"{8 if shot['dur'] > 6 else shot['dur']}s", "resolution": "720p",
+                    "generate_audio": True})
+                return fal_api.download(res["video"]["url"], dest)
             if provider == "fal":
                 args = {"image_url": fal_api.upload(key), "prompt": prompt,
                         "fps": config.VIDEO_FPS, "generate_audio": config.GENERATE_AUDIO}
@@ -102,10 +113,11 @@ def clip(bible, episode, shot, key: Path, workdir: Path) -> Path:
     raise fal_api.GenerationError("all video providers failed -> " + " | ".join(errors))
 
 
-def estimate_cost(episode) -> float:
+def estimate_cost(episode, bible=None) -> float:
     from . import narration
     secs = sum(s["dur"] for s in episode["shots"])
-    return (secs * config.PRICE_PER_VIDEO_SECOND + len(episode["shots"]) * config.PRICE_PER_IMAGE
+    per_sec = (bible or {}).get("price_per_video_second", config.PRICE_PER_VIDEO_SECOND)
+    return (secs * per_sec + len(episode["shots"]) * config.PRICE_PER_IMAGE
             + narration.estimate_cost(episode))
 
 

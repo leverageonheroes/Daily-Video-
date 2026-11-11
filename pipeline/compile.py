@@ -15,7 +15,7 @@ from .generate import load_bible
 
 LW, LH, LFPS = 1920, 1080, 30
 DONE = ("uploaded", "published")
-TRACKER = {"weekly": "last_compiled_weekly", "monthly": "last_compiled", "range": None}
+TRACKER = {"weekly": "last_compiled_weekly", "monthly": "last_compiled", "range": None, "arc": None}
 WEEKLY_MIN_SECONDS = int(os.environ.get("WEEKLY_MIN_SECONDS", "510"))
 MONTHLY_MIN_EPISODES = 3
 
@@ -150,3 +150,91 @@ def finish(s, channel, kind, out, meta, last_number, eps, upload=True):
     if TRACKER.get(kind):
         ch[TRACKER[kind]] = max(ch.get(TRACKER[kind], 0), last_number)
     state.save(s)
+
+
+# ---------------- story arcs: the full movie after each finale ----------------
+def _card(text_top, text_main, dest: Path, seconds: float, accent="#e8b04a"):
+    """Simple cinematic 1920x1080 title / moral card (Pillow image -> short video with silence)."""
+    from PIL import Image, ImageDraw, ImageFont
+    im = Image.new("RGB", (LW, LH), (8, 8, 10))
+    d = ImageDraw.Draw(im)
+    f1 = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf", 44)
+    f2 = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf", 86)
+    acc = tuple(int(accent.lstrip("#")[i:i + 2], 16) for i in (0, 2, 4))
+    words, lines, cur = text_main.split(), [], ""
+    for w in words:
+        t = f"{cur} {w}".strip()
+        if d.textlength(t, font=f2) <= LW - 300:
+            cur = t
+        else:
+            lines.append(cur)
+            cur = w
+    lines.append(cur)
+    h = 70 + len(lines) * 104
+    y = (LH - h) / 2
+    d.text(((LW - d.textlength(text_top, font=f1)) / 2, y), text_top, font=f1, fill=acc)
+    y += 90
+    for ln in lines:
+        d.text(((LW - d.textlength(ln, font=f2)) / 2, y), ln, font=f2, fill=(245, 240, 230))
+        y += 104
+    png = dest.with_suffix(".png")
+    im.save(png)
+    assemble._run(["ffmpeg", "-y", "-loglevel", "error", "-loop", "1", "-framerate", str(LFPS), "-i", str(png),
+                   "-f", "lavfi", "-i", "anullsrc=r=48000:cl=stereo", "-t", f"{seconds:.2f}",
+                   "-vf", f"fade=t=in:st=0:d=0.8,fade=t=out:st={seconds - 0.8:.2f}:d=0.8,format=yuv420p",
+                   "-c:v", "libx264", "-preset", "veryfast", "-crf", "21", "-r", str(LFPS),
+                   "-c:a", "aac", "-b:a", "192k", "-ar", "48000", "-ac", "2", str(dest)])
+    return dest
+
+
+def compile_arc(s, channel, finale: dict, upload=True):
+    """Glue every part of the finished arc into one long movie (16:9, chapters, title + moral cards).
+    6 parts x ~80 s + cards > 8 minutes, so YouTube allows mid-roll ads."""
+    bible = load_bible(channel)
+    arc = finale["arc"]
+    parts_eps = sorted((e for e in state.episodes(channel) if e.get("arc") == arc), key=lambda e: e["part"])
+    title = finale.get("arc_title", arc)
+    name = f"{channel}_movie_{arc}"
+    wd = config.OUTPUT / channel / "compilations" / name
+    wd.mkdir(parents=True, exist_ok=True)
+    print(f"\n== Arc movie: {title} ({len(parts_eps)} parts)")
+    segs = [_card(bible["show_title"].upper(), title, wd / "card_title.mp4", 5.0)]
+    chapters, t = [f"{_ts(0)} {title}"], 5.0
+    for e in parts_eps:
+        src = storage.fetch_episode(channel, e["id"], wd / "src" / f"{e['id']}.mp4")
+        part = wd / f"part_{e['part']:02d}.mp4"
+        if not part.exists():
+            widescreen(src, part)
+        segs.append(part)
+        chapters.append(f"{_ts(t)} Part {e['part']} - {e.get('part_title', '')}".rstrip(" -"))
+        t += assemble.duration(part)
+    if finale.get("moral"):
+        segs.append(_card("THE MORAL OF THE STORY", finale["moral"], wd / "card_moral.mp4", 7.0))
+        chapters.append(f"{_ts(t)} The moral of the story")
+        t += 7.0
+    (wd / "concat.txt").write_text("".join(f"file '{p.name}'\n" for p in segs))
+    out = wd / f"{name}.mp4"
+    assemble._run(["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", "concat.txt",
+                   "-c:v", "libx264", "-preset", "veryfast", "-crf", "21", "-c:a", "aac", "-b:a", "192k",
+                   "-movflags", "+faststart", out.name], cwd=wd)
+    rec = s["channels"][channel]["episodes"].get(finale["id"], {})
+    publish_at = None
+    if rec.get("publish_at"):
+        import datetime as dt
+        when = dt.datetime.fromisoformat(rec["publish_at"].replace("Z", "+00:00")) + dt.timedelta(hours=24)
+        publish_at = when.replace(tzinfo=None).isoformat(timespec="seconds") + "Z"
+    meta = {
+        "title": bible.get("movie_title", "{arc} | Full Movie | {show}").format(arc=title, show=bible["show_title"])[:100],
+        "description": (f"{finale.get('arc_logline', '')}\n\nThe complete story, all {len(parts_eps)} parts in one movie."
+                        f"\n\nChapters:\n" + "\n".join(chapters)
+                        + (f"\n\nThe moral of the story: {finale['moral']}" if finale.get("moral") else "")
+                        + f"\n\n{bible.get('ai_disclosure', config.AI_DISCLOSURE)}"),
+        "tags": list(dict.fromkeys(bible.get("compilation_tags", []) + [title.lower(), "full movie"]))[:15],
+        "seconds": round(t), "made_for_kids": bool(bible.get("made_for_kids", False)),
+    }
+    if publish_at:
+        meta["publish_at"] = publish_at
+    (wd / "metadata.json").write_text(json.dumps(meta, indent=2))
+    print(f"   -> {out} ({_ts(t)})")
+    finish(s, channel, "arc", out, meta, finale["number"], parts_eps, upload=upload)
+    return out

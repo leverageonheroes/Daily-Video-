@@ -1,0 +1,412 @@
+# MORAL OF THE STORY TV - season 1 screenplay (6 arcs x 6 parts x 10 shots of 8 s)
+# ARC line:  ARC id | title | logline | moral | music mood
+# EP line:   EP part title | hook text (<=45 chars) | end-card question
+# SHOT line: location | characters | camera | transition (cut/dip/flash) | visual | lines ("who: text (tone)" joined by ||) | sound
+
+ARC a1 | The Wedding Fund | A proud mother demands a fifteen-million-naira wedding, but the family wedding account is empty, and someone has been lying for years. | A marriage built on secrets cannot stand. Build yours on the truth. | nollywood suspense
+EP The List | Fifteen million naira. Or no wedding. | WHERE DID THE MONEY GO?
+parlour|mama,tobi,amara|CRASH|cut|Mrs Adebayo stands rigid under the chandelier while Tobi and Amara sit frozen on the cream sofa|mama: Fifteen million naira. Or there will be no wedding in this family. (icy, final)|deep cinematic boom
+parlour|amara,tobi|TWO|cut|Amara grips Tobi's hand, eyes pleading, Tobi caught between them|amara: Ma, my father is a retired teacher. Where will he find that? (shaken) || tobi: Mummy, please. (quiet)|clock ticking
+parlour|mama|CU|cut|Mrs Adebayo adjusts her gold necklace, chin raised, unmoved|mama: My son is an engineer. I will not wed him like a nobody. (proud)|soft orchestral sting
+okafor_home|okafor,amara|WIDE|dip|Mr Okafor lowers his reading glasses at his small dining table, Amara standing beside him|okafor: Fifteen million, for a ceremony? Amara, love is not a market. (slow, wounded)|ceiling fan whirring
+okafor_home|amara|CU|cut|Amara wipes a tear, forcing a brave face|amara: Daddy, Tobi's family has money. They saved for years. They told us so. (hopeful)|fan, distant traffic
+office|tobi|TRACK|flash|Tobi alone in the dark office opens a banking app on his laptop, screen light on his face|tobi: The family wedding account. Mummy said it has twenty million. (to himself)|keyboard clicks
+office|tobi|ECU|cut|extreme close-up of Tobi's eyes widening as the laptop light flickers|tobi: Balance... zero naira? (whisper, disbelief)|heartbeat, low drone
+car|tobi|CU|dip|Tobi in his parked car at night, phone to his ear, streetlights sliding across his face|tobi: Uncle Femi, where is the wedding money? Pick up. Pick up! (desperate)|phone ringing, rain on the roof
+lounge|femi|WIDE|flash|Uncle Femi laughing in a neon-lit lounge, raising a glass, his phone buzzing on the table|femi: Tonight we celebrate! Drinks are on me! (loud, flashy)|crowd cheer, glasses clinking
+lounge|femi|CRASH|cut|Femi glances at his ringing phone, his smile dies, the party blurs behind him|femi: He knows. (cold whisper)|music cuts out, deep boom
+EP Uncle Femi | The money is gone. Who took it? | WHAT IS MAMA HIDING?
+parlour|tobi,femi|CRASH|cut|Tobi blocks the doorway as Uncle Femi strolls in, jangling new car keys|tobi: Twenty million naira, Uncle. Where is it? (controlled anger)|deep boom
+parlour|femi|CU|cut|Femi smiles smoothly, spreading his hands|femi: Calm down, my boy. It's in a fixed deposit. Earning interest. (smooth)|ice clinking in a glass
+parlour|mama,tobi|TWO|cut|Mrs Adebayo descends the stairs and points at her son|mama: Tobi! You will not question your uncle in my house. (sharp)|footsteps on marble
+parlour|tobi|CU|cut|Tobi holds his ground, jaw tight|tobi: Then show me the papers, Uncle. Just the papers. (steady)|tense strings
+estate_gate|amara|WIDE|dip|Amara arrives at the estate gate and stops beside a gleaming new SUV with a red ribbon|amara: Whose car is this? (curious)|cicadas, distant generator
+estate_gate|femi,amara|TWO|cut|Femi strolls out, patting the bonnet proudly|femi: Ah, my in-law! You like it? Brand new. Small blessing. (boastful)|car alarm chirp
+estate_gate|amara|ECU|cut|Amara peers through the windscreen at a dealer receipt on the dashboard|amara: Bought last Tuesday. (whisper)|heartbeat
+car|amara|CU|dip|Amara in a taxi at dusk, phone pressed to her ear|amara: Tobi, your uncle's new car. He bought it the day the money left. (urgent)|traffic, horn
+parlour|mama|CU|flash|Mrs Adebayo on the dark staircase, overhearing, hand on her chest|mama: No. Not again. (trembling whisper)|low drone
+parlour|mama|CRASH|cut|Mrs Adebayo grips the banister, eyes closed in shame|mama: Femi, what have you done to us? (broken)|deep boom
+EP Blame | She says I'm destroying her family. | CAN TOBI SAVE IT?
+parlour|mama,amara|CRASH|cut|Mrs Adebayo confronts Amara in the living room, finger raised|mama: Since you came, this family has known no peace! (furious)|deep boom
+parlour|amara|CU|cut|Amara stands tall, voice shaking but firm|amara: Ma, I only told the truth about the car. (hurt)|clock ticking
+parlour|tobi,amara|TWO|cut|Tobi steps between them, not meeting Amara's eyes|tobi: Amara, not now. Let me handle my family. (tired)|tense strings
+parlour|amara|ECU|cut|Amara's eyes fill with tears|amara: Your family? I thought I was becoming your family. (quiet devastation)|single piano note
+okafor_home|okafor,amara|WIDE|dip|Mr Okafor holds his crying daughter at the door of their modest home|okafor: My daughter will not beg to be accepted. (firm, protective)|rain outside
+okafor_home|okafor|CU|cut|Mr Okafor picks up his phone, decision made|okafor: Tell Tobi's mother: the engagement is off. (final)|deep boom
+office|tobi|CU|flash|Tobi at his desk reads a message, colour draining from his face|tobi: Engagement off? No, no, no. (panicking)|phone vibration
+car|tobi|TRACK|cut|Tobi drives through Lagos at night, city lights streaking past|tobi: I chose silence to protect them. And I lost her. (bitter)|engine hum, rain
+okafor_gate|tobi|WIDE|dip|Tobi knocks at a modest gate under a single bulb|tobi: Sir, please. Give me one week. I'll bring the truth. (begging)|knocking, crickets
+okafor_gate|okafor|CRASH|cut|The gate creaks open and Mr Okafor studies him coldly|okafor: One week. After that, don't come back. (cold)|gate creak, boom
+EP The Bank | Seven withdrawals. One name. | WHAT WILL FEMI DO?
+bank|tobi,mama|CRASH|cut|Tobi spreads a bank statement on the counter in front of his mother|tobi: Seven withdrawals, Mummy. Every one signed by Uncle Femi. (hard)|paper slap, boom
+bank|mama|CU|cut|Mrs Adebayo closes her eyes, not looking at the paper|mama: Put it away, Tobi. Please. (quiet)|bank murmur
+bank|tobi,mama|TWO|cut|Tobi stares at his mother, realisation dawning|tobi: You're not surprised. Mummy, you knew? (stunned)|low drone
+car|mama,tobi|TWO|dip|Mother and son sit in the parked car, rain streaking the windows|mama: Fifteen years ago, I was dying. Femi paid my hospital bills. (confessing)|rain on the roof
+car|mama|CU|cut|Mrs Adebayo stares ahead, tears on her cheeks|mama: When he took the money, I told myself I owed him. (shame)|soft piano
+car|tobi|CU|cut|Tobi pieces it together, shaking his head|tobi: So the fifteen million was to cover his hole? (disbelief)|rain
+car|mama|ECU|cut|Mrs Adebayo's trembling lips|mama: If the in-laws paid, nobody would ask questions. God forgive me. (whisper)|heartbeat
+parlour|mama|WIDE|dip|Mrs Adebayo alone at night before a large family portrait|mama: I protected my brother and broke my son. (broken)|clock ticking
+parlour|tobi,mama|TWO|cut|Tobi kneels beside his mother and takes her hands|tobi: Then fix it with me, Mummy. Tomorrow we go to the Okafors. (gentle)|warm strings
+parlour|femi|CRASH|flash|Uncle Femi in the doorway, listening, his face hardening|femi: Nobody is going anywhere. (menacing)|deep boom
+EP Pride | A proud woman on her knees. | WHAT'S IN THE BRIEFCASE?
+parlour|femi,mama|CRASH|cut|Femi looms over his sister in the living room|femi: You will ruin my name for that small family? (threatening)|deep boom
+parlour|mama|CU|cut|Mrs Adebayo stands up straight, fearless for the first time|mama: Your name was ruined the day you stole from my son. (iron)|tense strings
+parlour|femi|CU|cut|Femi throws up his hands|femi: Stole? I invested! The market crashed. It happens! (defensive)|glass set down hard
+parlour|tobi,femi|TWO|cut|Tobi holds out his palm for the car keys|tobi: Then sell the car, Uncle. Today. (cold)|keys jangling
+okafor_home|mama,okafor|WIDE|dip|Mrs Adebayo enters the modest sitting room humbly, head bowed|mama: Mr Okafor, I came to apologise. I was wrong. (humble)|ceiling fan
+okafor_home|okafor|CU|cut|Mr Okafor studies her over his glasses|okafor: Madam, pride is an expensive habit. Who will pay for it? (measured)|clock ticking
+okafor_home|mama|CU|cut|Mrs Adebayo slowly kneels on the rug|mama: I will. Please, don't punish our children for my sins. (tearful)|soft piano
+okafor_home|amara|CU|flash|Amara appears in the doorway, hand over her mouth|amara: Mummy, please, get up. (emotional)|gasp, strings swell
+okafor_home|okafor,mama|TWO|cut|Mr Okafor helps her to her feet|okafor: Get up, my sister. Now let us talk like family. (warm)|warm strings
+okafor_gate|femi|CRASH|cut|Femi stands outside the gate at dusk holding a black briefcase|femi: Before you decide anything, open this. (urgent)|deep boom
+EP The Truth | The briefcase changes everything. | -
+okafor_home|femi|CRASH|cut|Femi opens the briefcase on the table: bundles of cash and car papers|femi: The car is sold. This is eight million. All I have. (humbled)|latches click, boom
+okafor_home|femi|CU|cut|Femi lowers his eyes, voice cracking|femi: I gambled your wedding away, Tobi. I'm sorry. (ashamed)|soft piano
+okafor_home|tobi|CU|cut|Tobi exhales, the anger leaving his face|tobi: Thank you for finally telling the truth, Uncle. (quiet)|warm strings
+okafor_home|okafor,mama|TWO|cut|Mr Okafor gently pushes the briefcase back|okafor: Keep your millions. Our children need a home, not a show. (wise)|clock ticking
+okafor_home|mama|CU|cut|Mrs Adebayo smiles through tears|mama: A small wedding, then. With truth, and with love. (warm)|strings swell
+garden|amara,tobi|WIDE|dip|Golden hour, a small garden wedding under fairy lights, Amara and Tobi facing each other|amara: No more secrets? (soft) || tobi: No more secrets. Ever. (sincere)|birdsong, gentle music
+garden|mama,okafor|TWO|flash|Mrs Adebayo and Mr Okafor laughing together over plates of jollof rice|mama: In-law, your jollof is better than mine. (laughing) || okafor: I know. (dry)|laughter, cutlery
+garden|femi|CU|cut|Femi in a plain shirt serving drinks to guests, humbled|femi: Today, I serve. It's the least I can do. (sincere)|glasses clinking
+garden|amara,tobi|CU|cut|Amara and Tobi dance slowly, foreheads touching|amara: We built this on the truth. (tender)|gentle music
+garden||WIDE|cut|slow crane shot rising over the glowing garden wedding at sunset||soft wind, music
+
+ARC a2 | Mama's House | After Mama's funeral, three siblings fight over the family house until her will and a hidden video reveal who really stayed. | Love is measured in presence, not in money. | tender strings
+EP After the Funeral | The funeral is over. The war begins. | WHAT DID MAMA RECORD?
+house|chidi,ngozi,ifeoma|CRASH|cut|Three siblings in mourning clothes stand in the old family living room, tension crackling|chidi: I'm the first son. This house is mine. That's tradition. (cold)|deep boom
+house|ngozi|CU|cut|Ngozi folds her arms, gold bangles clinking|ngozi: Tradition? I paid for the funeral. Every naira. (sharp)|bangles clink
+house|ifeoma|CU|cut|Ifeoma speaks softly from beside Mama's empty armchair|ifeoma: Can we at least wait one week? Mama's flowers are still fresh. (gentle)|clock ticking
+house|chidi,ngozi|TWO|cut|Ngozi turns on her younger sister|ngozi: Stay out of it, Ifeoma. You never contributed anything. (dismissive)|tense strings
+kitchen|ifeoma|CU|dip|Ifeoma alone, washing Mama's old teacup, tears falling into the sink|ifeoma: Never contributed. If only they knew, Mama. (whisper)|running water
+compound|chidi|WIDE|flash|Chidi under the mango tree on his phone, scanning the house like a buyer|chidi: Yes, the buyer can come Monday. Two hundred million, minimum. (businesslike)|birds, distant traffic
+compound|ngozi|CU|cut|Ngozi listening from behind the mango tree, eyes narrowing|ngozi: Selling it already? Over my dead body. (seething)|leaves rustling
+house|barrister|WIDE|dip|Barrister Eze enters at dusk holding a folder|barrister: Good evening. Your mother left a will. And a video. (formal)|door creak
+house|chidi,ngozi|TWO|cut|Chidi and Ngozi exchange stunned looks|chidi: A video? (confused) || ngozi: Mama never even used a smartphone. (scoffing)|low drone
+house|ifeoma|CRASH|cut|Ifeoma looks down, quietly guilty|ifeoma: She did. I taught her. (quiet)|deep boom
+EP The Will | Mama's will. Nobody expected this. | WHAT'S IN THE TIN BOX?
+lawyer_office|barrister|CRASH|cut|Barrister Eze reads from the will, siblings leaning forward|barrister: The house in Enugu goes to the person who stayed. (measured)|deep boom
+lawyer_office|chidi|CU|cut|Chidi leans in, impatient|chidi: Stayed? What does that mean? Read the name. (demanding)|ceiling fan
+lawyer_office|barrister|CU|cut|Barrister Eze closes the folder calmly|barrister: Your mother asked that you watch her video first. Then I read the name. (calm)|folder thud
+lawyer_office|ngozi|CU|cut|Ngozi scoffs, shaking her head|ngozi: This is manipulation. Somebody wrote that will for her. (suspicious)|tense strings
+lawyer_office|ngozi,ifeoma|TWO|cut|Ngozi turns slowly to her sister|ngozi: Ifeoma. You were always in that house. What did you do? (accusing)|low drone
+lawyer_office|ifeoma|CU|cut|Ifeoma meets her eyes, steady|ifeoma: I cooked. I bathed her. I held her hand at night. (quiet strength)|soft piano
+house|chidi,ngozi|TWO|dip|Back at the house at night, Chidi and Ngozi plot by lamplight|chidi: We contest the will. I have the best lawyers in Lagos. (determined)|crickets
+house|ngozi|CU|cut|Ngozi nods coldly|ngozi: For once, brother, we agree. (icy)|tense strings
+kitchen|ifeoma|CU|dip|Ifeoma opens Mama's old tin box: letters and hospital receipts|ifeoma: They want a war, Mama. I just wanted you. (tearful)|tin lid creak
+kitchen|ifeoma|CRASH|cut|Among the receipts, Ifeoma finds a large signed cheque made out to her|ifeoma: Mama, what is this? (shocked)|deep boom
+EP Receipts | Three years of receipts. Nobody knew. | WHO PAID FOR MAMA?
+house|ngozi,ifeoma|CRASH|cut|Ngozi snatches the cheque from Ifeoma's hand|ngozi: Fifty million naira? You stole from our mother! (furious)|paper snatch, boom
+house|ifeoma|CU|cut|Ifeoma stays calm, pointing at the date|ifeoma: I never cashed it. Look at the date. She wrote it last month. (calm)|clock ticking
+house|chidi|CU|cut|Chidi frowns, confused|chidi: Then why hide it? Why hide anything? (frustrated)|tense strings
+house|ifeoma|CU|cut|Ifeoma looks at both of them|ifeoma: Because you would make it about money. Like now. (hurt)|single piano note
+hospital|mama,ifeoma|TWO|dip|warm hazy flashback: Ifeoma spoon-feeds Mama soup in a hospital bed|mama: My daughter, you gave up your job for me. (frail, loving)|heart monitor beeping
+hospital|ifeoma|CU|cut|flashback, Ifeoma smiles at Mama|ifeoma: You gave up everything for us, Mama. My turn. (tender)|soft strings
+house|ngozi|CU|dip|Ngozi reads the receipts, her anger turning to horror|ngozi: Dialysis three times a week. For three years? (stunned)|paper rustle
+house|chidi|CU|cut|Chidi sinks into Mama's armchair|chidi: Mama told me she was fine. Every single call, she said fine. (broken)|clock ticking
+house|ifeoma|CU|cut|Ifeoma speaks without bitterness|ifeoma: She didn't want to disturb your lives. I didn't have a life to disturb. (gentle)|soft piano
+house|chidi,ngozi|CRASH|cut|Chidi and Ngozi stare at their sister, stunned|ngozi: Then who paid for all of it? (whisper)|deep boom
+EP Who Paid | Who really paid for Mama's treatment? | MAMA'S SECRET?
+house|ifeoma|CRASH|cut|Ifeoma lists it plainly, hands folded|ifeoma: I sold my shop. Then my car. Then my wedding jewellery. (plain)|deep boom
+house|ngozi|CU|cut|Ngozi covers her mouth|ngozi: Your wedding? Is that why the engagement ended? (horrified)|low drone
+house|ifeoma|CU|cut|Ifeoma gives a small, sad smile|ifeoma: He said a woman with debts is a bad investment. (quiet)|single piano note
+house|chidi|CU|cut|Chidi shakes, ashamed|chidi: And I sent five hundred dollars at Christmas. Like a visitor. (ashamed)|soft strings
+compound|chidi|WIDE|dip|Chidi under the mango tree, phone to his ear|chidi: Cancel Monday. The house is not for sale. (decisive)|birds
+compound|ngozi,chidi|TWO|cut|Ngozi joins him under the tree|ngozi: So we drop the contest? (quiet) || chidi: We drop our pride. (firm)|leaves rustling
+house|barrister|WIDE|dip|Barrister Eze returns and opens a laptop on the table|barrister: It's time for the video. (gentle)|laptop chime
+house|chidi,ngozi,ifeoma|WIDE|cut|The three siblings sit close together on the old sofa, holding hands|ngozi: Let's watch her. Together. (soft)|clock ticking
+house|mama|CU|flash|On the laptop screen, Mama sits in her armchair, smiling at the camera|mama: My children. If you are watching this, I'm gone. Please, don't fight. (loving)|soft strings
+house|mama|CRASH|cut|On the screen, Mama leans closer, her smile fading|mama: There is one secret I never told any of you. (serious)|deep boom
+EP Mama's Secret | Mama's last secret. | WILL THEY FIND HIM?
+house|mama|CRASH|cut|On the laptop screen, Mama speaks steadily|mama: Ifeoma is not the youngest. You had a brother. (heavy)|deep boom
+house|chidi|CU|cut|Chidi stares at the screen|chidi: A brother? (stunned)|low drone
+house|mama|CU|cut|On the screen, Mama's eyes fill with tears|mama: Emeka. I gave him to my sister when we were too poor to feed four. (shame)|soft piano
+house|ngozi|CU|cut|Ngozi presses a hand to her chest|ngozi: Mama gave away a child to survive. (whisper)|heartbeat
+house|mama|CU|cut|On the screen, Mama folds her hands|mama: I carried that shame forty years. Find him. Bring my family home. (pleading)|strings swell
+house|ifeoma|CU|dip|Ifeoma remembers, eyes wide|ifeoma: There was a man at the funeral. He cried more than anyone. (realising)|low drone
+compound|chidi,ifeoma|TWO|flash|Chidi and Ifeoma by the gate in the evening light|chidi: The man by the gate? In the brown suit? (urgent) || ifeoma: He left a card. (quiet)|crickets
+compound|ngozi|CU|cut|Ngozi reads a small business card|ngozi: Emeka Obi. Primary school teacher. Onitsha. (reading)|paper rustle
+road|chidi,ngozi|TWO|dip|Chidi drives along a highway at dawn, Ngozi beside him|chidi: Three hours to Onitsha. (focused) || ngozi: Drive. (determined)|engine, wind
+school|emeka|CRASH|cut|A man at a chalkboard in a small school turns around slowly|emeka: I knew one day you would come. (soft)|children's laughter fading, boom
+EP Home | Forty years apart. One house. | -
+school|emeka,chidi|CRASH|cut|Chidi faces Emeka across the classroom|chidi: You knew about us? (stunned) || emeka: Mama visited every year. She called it her holiday. (gentle)|deep boom
+school|emeka|CU|cut|Emeka smiles sadly|emeka: She paid my school fees with money she said she found. (tender)|soft piano
+school|ngozi|CU|cut|Ngozi's voice breaks|ngozi: Found? She sold her gold for you, and told us she lost it. (emotional)|strings
+lawyer_office|barrister|WIDE|dip|Barrister Eze reads the final line of the will to all four siblings|barrister: The house goes to Ifeoma and Emeka. Equally. (warm)|ceiling fan
+lawyer_office|ifeoma,emeka|TWO|cut|Ifeoma takes Emeka's hand|ifeoma: Then it's not my house. It's our house. (warm)|warm strings
+house|chidi|CU|dip|Chidi repaints the faded green wall, sleeves rolled up|chidi: I'm moving back. At least half the year. (resolved)|brush strokes, birds
+house|ngozi,ifeoma|TWO|flash|Ngozi hands Ifeoma a velvet jewellery box|ngozi: Your wedding jewellery. I bought it back. (tearful)|box opening, gasp
+house|ifeoma,ngozi|CU|cut|The sisters embrace|ifeoma: Ngozi. (crying) || ngozi: Sister. I'm sorry. (crying)|soft strings
+compound|chidi,ngozi,ifeoma,emeka|WIDE|cut|All four siblings eat together under the mango tree, laughing|emeka: Mama would be laughing right now. (joyful)|laughter, birds
+house||WIDE|cut|Mama's empty armchair by the sunlit window, a framed photo of all five on the sill||soft wind, strings
+
+ARC a3 | The Cleaner | An arrogant manager humiliates the office cleaner, never suspecting who she really is. | Respect everyone. You never know who is holding the door. | tension drums
+EP The Spill | He humiliated the cleaner. Big mistake. | WHO IS SHE REALLY?
+office_floor|kelechi,grace|CRASH|cut|Coffee splashes onto Kelechi's polished shoes as Grace freezes with her mop|kelechi: Are you blind? These shoes cost more than your salary! (vicious)|cup clatter, boom
+office_floor|grace|CU|cut|Grace stays calm and dignified|grace: I'm sorry, sir. Let me clean it. (calm)|office murmur
+office_floor|kelechi|CU|cut|Kelechi points at the floor, playing to the room|kelechi: On your knees. Everybody, watch. (cruel)|murmurs stop
+office_floor|tolu|CU|cut|Tolu, the intern, stands up from her desk|tolu: Sir, that's not right. She's old enough to be your mother. (brave)|chair scrape
+office_floor|kelechi,tolu|TWO|cut|Kelechi turns on Tolu with a cold smile|kelechi: Intern. One more word and you're done here. (threatening)|tense strings
+pantry|grace,tolu|TWO|dip|Tolu helps Grace wring out the mop in the small office kitchen|tolu: Mama, why do you let him talk to you like that? (upset)|tap running
+pantry|grace|CU|cut|Grace smiles knowingly|grace: People show you who they are when they think you're nobody. (wise)|soft piano
+boardroom|kelechi|CU|flash|Kelechi on the phone in the empty boardroom, grinning|kelechi: Friday's board meeting? That promotion is mine. (smug)|city hum
+grace_home|grace|CU|dip|Grace at home holds an old photo of a young couple cutting a ribbon outside the same office building|grace: Your company has lost its heart, my love. (sad)|clock ticking
+grace_home|grace|CRASH|cut|Grace opens her wardrobe: an elegant navy suit and a gold executive badge|grace: Friday, then. (quiet resolve)|deep boom
+EP Watching | She sees everything. He sees nothing. | WILL HE SILENCE HER?
+lobby|kelechi,grace|CRASH|cut|Kelechi blocks Grace from stepping into a glass lift|kelechi: Staff lift is at the back. This one is for executives. (sneering)|lift ding, boom
+lobby|grace|CU|cut|Grace smiles politely and steps back|grace: Of course, sir. Good morning. (gracious)|lobby echo
+office_floor|tolu|CU|dip|Tolu at her desk, wiping tears, staring at her screen|tolu: He made me redo the report five times. Then took the credit. (hurt)|keyboard tapping
+office_floor|grace,tolu|TWO|cut|Grace leans close, speaking quietly|grace: Write down everything he does. Dates. Times. Keep copies. (serious)|office murmur
+office_floor|tolu|CU|cut|Tolu looks doubtful|tolu: Why? Who would listen to us? (hopeless)|low drone
+office_floor|grace|CU|cut|Grace pats her hand|grace: The truth always finds someone who listens. (certain)|soft strings
+boardroom|kelechi|CU|flash|Kelechi rehearses his pitch to an empty room|kelechi: I built this department from nothing! (theatrical)|echo
+pantry|kelechi,grace|TWO|dip|Kelechi on a phone call by the pantry door, unaware of Grace behind him|kelechi: Move the client money through my cousin's account first. Nobody checks. (hushed)|kettle boiling
+pantry|grace|ECU|cut|Grace's eyes narrow|grace: Now it's not just rudeness. (whisper)|heartbeat
+pantry|kelechi|CRASH|cut|Kelechi spins around and sees her|kelechi: Cleaner. How long have you been standing there? (dangerous)|deep boom
+EP Fired | He fired the cleaner on the spot. | FRIDAY IS COMING.
+office_floor|kelechi,grace|CRASH|cut|Kelechi points at the door in front of the whole office|kelechi: You're fired. Pack your bucket and get out. (cruel)|deep boom
+office_floor|grace|CU|cut|Grace stands calmly|grace: Fired for cleaning? On what grounds, sir? (calm)|silence
+office_floor|kelechi|CU|cut|Kelechi lies smoothly|kelechi: Theft. My wallet went missing. Security will escort you. (lying)|murmurs
+office_floor|tolu|CU|cut|Tolu jumps up|tolu: That's a lie! Your wallet is in your jacket! (outraged)|gasp
+office_floor|kelechi,tolu|TWO|cut|Kelechi turns on her|kelechi: And you, intern. Fired too. Both of you, out. (icy)|tense strings
+lobby|grace,tolu|WIDE|dip|Grace and Tolu walk out through the marble lobby carrying boxes, staff watching|tolu: I needed this job, Mama. My mother is sick. (crying)|footsteps echo
+lobby|grace|CU|cut|Grace stops and holds Tolu's shoulders|grace: Trust me, my daughter. Come back on Friday. Wear your best. (warm, certain)|soft strings
+car|grace|CU|flash|Grace in the back of a sleek black car, phone to her ear|grace: Barrister, call an emergency board meeting. Friday, nine a.m. (commanding)|engine purr
+office_floor|kelechi|WIDE|dip|Kelechi toasts with colleagues|kelechi: Some people must learn their place! (laughing)|laughter, clinking
+boardroom|kelechi|CRASH|cut|Kelechi reads a printed agenda, his face freezing|kelechi: The chairperson attending in person? She never attends. (alarmed)|deep boom
+EP Friday | The chairperson walks in. Everyone stands. | WHAT HAPPENS TO KELECHI?
+lobby|grace|CRASH|cut|Low angle: Grace walks through the lobby in an elegant navy suit, staff turning to stare|grace: Good morning, everyone. (regal)|heels on marble, boom
+lobby|tolu|CU|cut|Tolu at the entrance in her best blouse, stunned|tolu: Mama Grace? (gasping)|gasp
+boardroom|kelechi|CU|dip|Kelechi stands to greet the chair, sweating|kelechi: Good morning, Madam Chair, I'm Kelechi, head of... (nervous)|chairs scraping
+boardroom|grace,kelechi|TWO|cut|Grace sits at the head of the table|grace: I know who you are. We've met. You made me kneel. (cool)|deep boom
+boardroom|kelechi|CRASH|cut|Kelechi's face collapses|kelechi: Madam, I... I didn't know. (stammering)|heartbeat
+boardroom|grace|CU|cut|Grace leans forward|grace: That is exactly the problem. You only respect people you think matter. (firm)|tense strings
+boardroom|grace|CU|cut|Grace gestures to the door|grace: Tolu, please. Show the board your notes. (warm)|door opens
+boardroom|tolu|CU|flash|Tolu presents a thick folder to the board|tolu: Fourteen incidents. And transfers to a private account. Dates and amounts. (confident)|papers sliding
+boardroom|kelechi|CU|cut|Kelechi panics|kelechi: This is a setup! She's a cleaner! (desperate)|murmurs
+boardroom|grace|CRASH|cut|Grace stands at the head of the table|grace: I'm the co-founder of this company. And yes, I'm also a cleaner. (powerful)|deep boom
+EP Consequences | Bosses hear lies. Cleaners hear everything. | WHY DID SHE COME?
+boardroom|grace|CRASH|cut|Grace speaks to the security guards at the door|grace: Security, please escort Mr Kelechi out. With his things. (calm)|deep boom
+lobby|kelechi|WIDE|dip|Kelechi walks out carrying a box as staff watch in silence|kelechi: I gave this company five years! (bitter)|footsteps echo
+lobby|kelechi|CU|cut|Kelechi stops at the glass doors|kelechi: Five years. And a cleaner ended it. (stunned)|low drone
+pantry|grace,tolu|TWO|dip|Grace, back in her blue uniform, makes tea with Tolu|tolu: Why go back to cleaning? You own the place! (amazed)|kettle
+pantry|grace|CU|cut|Grace smiles|grace: My husband and I started this company with one mop and one desk. (fond)|soft piano
+pantry|grace|CU|cut|Grace sips her tea|grace: Bosses hear lies. Cleaners hear everything. (wise)|soft strings
+office_floor|tolu|CU|flash|Colleagues applaud Tolu at her new desk|tolu: Head of compliance? Me? I'm an intern! (overwhelmed)|applause
+office_floor|grace|CU|cut|Grace beams|grace: You were the only one brave enough to speak. That's leadership. (proud)|warm strings
+street_night|kelechi|CU|dip|Kelechi on a busy roadside at night, phone to his ear|kelechi: Mum, I lost my job. Yes, Mum. I deserved it. (broken)|traffic, horns
+street_night|grace|CRASH|cut|A black car pulls up, the back window lowers to reveal Grace|grace: Get in, Kelechi. We need to talk. (calm)|car door, boom
+EP Second Chance | Why did she come back for him? | -
+car|grace,kelechi|CRASH|cut|Kelechi in the back seat beside Grace, city lights passing|grace: I didn't come to punish you more. I came to ask why. (gentle)|engine hum
+car|kelechi|CU|cut|Kelechi stares at his hands|kelechi: My father was a cleaner. People treated him like dirt. (raw)|soft piano
+car|kelechi|CU|cut|Kelechi's voice cracks|kelechi: I swore never to be him. So I treated people like dirt first. (ashamed)|low strings
+car|grace|CU|cut|Grace looks at him with compassion|grace: Your father was a man of honour. You became the people who hurt him. (soft)|strings
+office_floor|kelechi|WIDE|dip|Weeks later, Kelechi in a blue facilities uniform pushes a cleaning trolley|kelechi: Six months in facilities. Then we talk about my future. (humble)|trolley wheels
+office_floor|kelechi,tolu|TWO|flash|Kelechi sets a coffee on Tolu's desk|kelechi: Your coffee, Head of Compliance. (sincere) || tolu: Thank you, Kelechi. (kind)|cup set down
+pantry|kelechi|CU|cut|Kelechi wipes the counter, reflective|kelechi: Funny. Everyone talks to you differently when you hold a mop. (thoughtful)|tap running
+lobby|grace,kelechi|TWO|cut|Grace and Kelechi by the glass lift|grace: Now you see the whole building, not just the top floor. (wise)|lift ding
+lobby|grace|CU|cut|Grace smiles|grace: Respect is free. Disrespect will cost you everything. (warm)|warm strings
+lobby||WIDE|cut|At the glass doors a cleaner holds the door for an executive, both smiling, sunlight flooding in||soft music
+
+ARC a4 | Borrowed | A best friend borrows two million naira and disappears, but the real reason is a secret that could end a marriage. | A true friend protects you, even at his own cost. | nollywood suspense
+EP The Loan | Two million naira. Gone with my best friend. | WHERE IS SEGUN?
+apartment|segun,dayo|CRASH|cut|Segun grips Dayo's hands across the coffee table|segun: Two million, Dayo. Three months. I swear on our friendship. (desperate)|deep boom
+apartment|dayo|CU|cut|Dayo hesitates, then nods|dayo: That's our house deposit, Segun. But for you? Okay. (torn)|clock ticking
+apartment|funmi|CU|cut|Funmi watches from the kitchen doorway, anxious|funmi: Dayo, are you sure? (nervous)|tense strings
+apartment|dayo,segun|TWO|cut|Dayo pulls Segun into a hug|dayo: Twenty years of friendship. If I can't trust him, who then? (warm)|soft strings
+apartment|dayo|CU|dip|Three months later: Dayo paces with his phone|dayo: Segun, it's been three months. Call me back, please. (worried)|dial tone
+apartment|dayo|CU|cut|Dayo lowers the phone|dayo: Number not reachable. Again. (hurt)|low drone
+shop|funmi|CU|flash|Funmi in her boutique nervously counting cash behind the counter|funmi: Just one more payment and it's over. (whisper)|cash counting
+apartment|dayo,funmi|TWO|dip|Dayo stands in the doorway as Funmi drops a cup|dayo: Segun has disappeared. His landlord says he packed out. (stunned)|cup shatters
+apartment|funmi|CU|cut|Funmi avoids his eyes|funmi: Maybe he had his reasons. (nervous)|heartbeat
+apartment|dayo|CRASH|cut|Dayo's jaw sets|dayo: Reasons? He robbed us. And I'm going to find him. (furious)|deep boom
+EP The Search | He disappeared with our money. | WILL SEGUN TALK?
+terminal|dayo|CRASH|cut|Dayo pushes through a busy bus terminal at dawn, holding up a photo|dayo: Have you seen this man? Please. He's my brother. (desperate)|engines, vendors calling
+terminal|dayo|CU|cut|Dayo listens to someone off-screen, eyes widening|dayo: Abuja? He's in Abuja? (shocked)|bus horn
+apartment|funmi|CU|dip|Funmi on the phone in the dark bedroom, whispering|funmi: Don't tell Dayo anything. Please, Segun. Promise me. (pleading)|crickets
+apartment|funmi|ECU|cut|Funmi's terrified eyes|funmi: If he finds out, my marriage is finished. (whisper)|heartbeat
+segun_room|segun|CU|flash|Segun in a tiny rented room, exhausted, phone to his ear|segun: I promise, Funmi. Your secret dies with me. (tired)|fan whirring
+segun_room|segun|CU|cut|Segun counts small notes on the mattress|segun: Two more months of night shifts and I'm free. (weary)|notes rustling
+terminal|dayo|CU|dip|Dayo on a night bus, staring out of the window|dayo: Twenty years. And he couldn't tell me the truth. (bitter)|engine hum
+abuja_street|dayo|WIDE|cut|Dawn: Dayo walks along a row of small flats, checking a scrap of paper|dayo: Block C. Room four. (determined)|birds, footsteps
+segun_room|dayo,segun|CRASH|cut|The door opens and Segun freezes|segun: Dayo?! (shocked)|deep boom
+segun_room|dayo|CU|cut|Dayo stares him down|dayo: Where is my money, Segun? Look me in the eye and lie. (cold)|heartbeat
+EP Silence | Some debts aren't yours to explain. | THE TRUTH COMES OUT?
+segun_room|segun|CRASH|cut|Segun backs away|segun: I can't tell you. Just give me two months. (pleading)|deep boom
+segun_room|dayo|CU|cut|Dayo gestures at the bare room|dayo: Two months? You're working night shifts in this room. For what? (confused)|fan whirring
+segun_room|segun|CU|cut|Segun looks away|segun: Some debts aren't mine to explain. (quiet)|low drone
+segun_room|dayo,segun|TWO|cut|Dayo turns to leave|dayo: Then we're finished. Twenty years, finished. (crushed)|door creak
+abuja_street|dayo|WIDE|dip|Dayo walks away down the street|dayo: I came for answers. I'm leaving with nothing. (hollow)|distant traffic
+shop|collector,funmi|CRASH|flash|A stern man in a leather jacket and sunglasses walks into Funmi's boutique|funmi: I paid! Segun paid everything last week! (frightened)|door bell, boom
+shop|funmi|CU|cut|Funmi pleads|funmi: Please, not in my shop. My husband doesn't know. (begging)|tense strings
+shop|collector|CU|cut|The collector smirks|collector: Interest, madam. Five hundred thousand more. Or maybe we tell your husband. (menacing)|knuckles cracking
+apartment|dayo|CU|dip|Dayo, home again, finds a folded loan agreement in a drawer|dayo: Funmi? What is this? (confused)|drawer opening
+apartment|dayo|CRASH|cut|Dayo reads the paper, his hands shaking|dayo: Two million naira. Signed by my wife? (devastated)|deep boom
+EP The Truth | My wife. My friend. One secret. | WILL SEGUN ANSWER?
+apartment|dayo,funmi|CRASH|cut|Funmi faces Dayo across the living room, the paper between them|funmi: I borrowed it when the shop was failing. They threatened to burn it down. (crying)|deep boom
+apartment|funmi|CU|cut|Funmi lowers her head|funmi: I was ashamed. I couldn't tell you I failed. (broken)|soft piano
+apartment|dayo|CU|cut|Dayo pieces it together|dayo: So Segun borrowed from me to pay your debt? (stunned)|low drone
+apartment|funmi|CU|cut|Funmi nods|funmi: He found out when they attacked me. He said you'd never forgive me. (tearful)|strings
+apartment|funmi|CU|cut|Funmi looks up|funmi: So he took the blame and ran, so you'd hate him instead of me. (whisper)|heartbeat
+apartment|dayo|ECU|cut|Dayo's eyes fill with tears|dayo: I called him a thief. I cursed him in front of everyone. (devastated)|single piano note
+shop|dayo,collector|TWO|dip|Dayo stands in the boutique facing the collector|dayo: You want five hundred thousand? Talk to me. (cold)|tense drums
+shop|collector|CU|cut|The collector looks him up and down|collector: The husband. Good. Pay by Friday, or the shop burns. (threatening)|lighter flick
+apartment|funmi,dayo|TWO|dip|Dayo takes Funmi's hands at the kitchen table|dayo: We go to the police. Together. No more secrets. (firm)|clock ticking
+segun_room|segun|CRASH|flash|Segun stares at his ringing phone in the dark room|segun: If he knows, it's over. (afraid)|phone ringing, boom
+EP Friday Night | The deadline is tonight. | WILL SEGUN SURVIVE?
+shop|collector|CRASH|cut|Night: the collector and two men stand in the boutique|collector: Friday, madam. Money, or matches. (menacing)|deep boom
+shop|dayo|CU|cut|Dayo steps out from behind the counter|dayo: Here's your money. And here are my friends. (calm)|footsteps
+shop|collector|CU|flash|Blue and red lights flood through the shop window|collector: You brought police? (furious)|sirens
+shop|collector|CU|cut|The collector is led away in handcuffs|collector: This isn't finished. (snarling)|handcuffs click
+hospital2|bimpe|CU|dip|A young nurse calls from a hospital corridor at night|bimpe: Are you Dayo? Segun collapsed at work. He keeps calling your name. (urgent)|hospital ambience
+hospital2|dayo|TRACK|cut|Dayo runs down the hospital corridor|dayo: Where is he? Where's my brother? (frantic)|running footsteps
+hospital2|segun|CU|cut|Segun lies weak in a hospital bed|segun: Dayo, I didn't steal from you. I swear. (weak)|heart monitor
+hospital2|dayo,segun|TWO|cut|Dayo grips Segun's hand|dayo: I know everything. You fool. You beautiful fool. (crying)|soft strings
+hospital2|segun|CU|cut|Segun manages a weak smile|segun: Don't be angry with Funmi. She was scared. (gentle)|heart monitor
+hospital2|funmi|CRASH|cut|Funmi in the doorway, tears streaming|funmi: Segun, how do I ever repay you? (sobbing)|deep boom
+EP Brothers | Twenty years. One truth. | -
+hospital2|segun|CRASH|cut|Segun grins weakly at Funmi|segun: Repay me? Name your first son after me. (teasing)|soft laugh
+hospital2|dayo|CU|cut|Dayo laughs through tears|dayo: Deal. Segun the Second. (laughing)|warm strings
+apartment|funmi,dayo|TWO|dip|Funmi and Dayo on their sofa, holding hands|funmi: No more secrets in this house. I promise you. (sincere) || dayo: Same here. (warm)|clock ticking
+shop|funmi|CU|flash|Funmi's boutique busy with customers|funmi: Business is good. And this time, it's honest money. (proud)|shop bell, chatter
+apartment|segun|CU|dip|Segun, healthy again, at their dinner table|segun: So the house deposit, are you still saving? (curious)|cutlery
+apartment|dayo|CU|cut|Dayo shrugs, smiling|dayo: We'll save again. Some things are worth more than a house. (content)|warm strings
+apartment|funmi,segun|TWO|cut|Funmi slides an envelope across the table|funmi: Your two million. Every naira, back. (grateful)|envelope slide
+apartment|segun|CU|cut|Segun pushes it gently back|segun: I only wanted my brother back. (sincere)|soft piano
+apartment|dayo,segun|TWO|cut|Dayo raises a glass|dayo: To twenty more years. With the truth this time. (joyful)|glasses clink
+apartment||WIDE|cut|Three friends laughing on the balcony at sunset, Lagos skyline behind them||city hum, music
+
+ARC a5 | The Landlord's Daughter | A proud landlord threatens to evict a struggling family, until his daughter's love for their son unearths a story from his own past. | Pride builds walls. Love builds doors. | tender strings
+EP Eviction | Pay by Friday. Or get out. | BUSTED?
+compound2|chief,mama_kunle|CRASH|cut|Chief Balogun towers over Mama Kunle in the crowded tenement yard|chief: Three months late! Pay by Friday, or your things go on the street. (thundering)|deep boom
+compound2|mama_kunle|CU|cut|Mama Kunle clasps her hands|mama_kunle: Chief, please. My stall burned. Give me one month. (pleading)|neighbours murmuring
+compound2|chief|CU|cut|Chief adjusts his embroidered kaftan|chief: My house is not a charity. (cold)|tense strings
+workshop|kunle|CU|dip|Kunle under a car in the roadside workshop, his phone buzzing|kunle: Mama? Calm down. I'm coming. (worried)|tools clanking
+compound2|kunle,chief|TWO|flash|Kunle in oil-stained overalls stands before the Chief|kunle: Sir, I'll pay. Every kobo. Just give me two weeks. (respectful)|crowd murmur
+compound2|chief|CU|cut|Chief eyes the overalls with contempt|chief: A mechanic with promises. I've heard that song before. (scornful)|scoff
+kunle_room|kunle,temi|TWO|dip|Night: Temi slips into Kunle's small room|temi: I heard what my father said. I'm so sorry. (tender)|door creak, crickets
+kunle_room|temi|CU|cut|Temi holds out an envelope|temi: I brought money. My savings. Please, take it. (earnest)|envelope rustle
+kunle_room|kunle|CU|cut|Kunle gently closes her hand around it|kunle: I can't take your money, Temi. I'll earn it. (proud, soft)|soft piano
+kunle_room|chief|CRASH|cut|The door bursts open: Chief Balogun stands there|chief: Temi?! In this room?! (roaring)|door slam, boom
+EP Forbidden | My daughter will not marry a mechanic. | CAN LOVE WIN?
+mansion|chief,temi|CRASH|cut|Chief paces his gold-accented sitting room|chief: A mechanic! I sent you to London for a mechanic?! (furious)|deep boom
+mansion|temi|CU|cut|Temi stands her ground|temi: He's building an engine that runs on half the fuel, Daddy. (passionate)|tense strings
+mansion|chief|CU|cut|Chief waves it away|chief: And I'm building a dynasty. Not with grease. (dismissive)|clock ticking
+mansion|temi|CU|cut|Temi's eyes flash|temi: You always say you started with nothing. (challenging)|low drone
+mansion|chief|CU|cut|Chief turns to the window|chief: Exactly. So I know what nothing looks like. I won't give you back to it. (heavy)|soft piano
+workshop|kunle|CU|dip|Night: Kunle welds an engine prototype, sparks flying|kunle: One more test. If it works, nobody can call me nothing. (determined)|welding hiss
+food_stall|mama_kunle|CU|flash|Mama Kunle frying akara at her roadside stall, staring into the oil|mama_kunle: Balogun. After all these years, you still don't remember me. (to herself)|oil sizzling
+compound2|chief|WIDE|dip|Chief nails an eviction notice to the gate|chief: Friday. No more chances. (cold)|hammering
+workshop|kunle,temi|TWO|cut|Temi grips Kunle's arm in the workshop|temi: He's evicting you Friday. Run away with me. (urgent) || kunle: Running is not love. (firm)|tools clink
+workshop|kunle|CRASH|cut|The prototype engine roars to life with a clean blue flame|kunle: It works. It actually works! (overjoyed)|engine roar, boom
+EP Breakdown | Stranded at midnight. One man can help. | WHO TAUGHT HIM?
+highway|chief,temi|CRASH|cut|Midnight: Chief's luxury car dead on a dark expressway, hazard lights blinking|chief: This car cost eighty million! How can it die here? (outraged)|hazard ticking, boom
+highway|temi|CU|cut|Temi looks around nervously|temi: Daddy, it's midnight. This road isn't safe. (scared)|wind, crickets
+highway|chief|CU|cut|Chief jabs at his phone|chief: Nobody is picking up. Nobody! (panicking)|dial tone
+highway|temi|CU|cut|Temi makes a call|temi: Kunle, please. We're stuck on the expressway. (urgent)|wind
+highway|chief|CU|cut|Chief scoffs|chief: Him? I would rather sleep on this road. (proud)|distant truck
+highway|temi|CU|flash|Headlights approach slowly from behind|temi: Daddy, that car has been following us. (terrified)|engine approaching
+highway|chief|ECU|cut|Fear in Chief's eyes|chief: Get in the car, Temi. Lock the doors. (afraid)|heartbeat
+highway|kunle|LOW|dip|A battered tow van pulls up and Kunle jumps out with a torch|kunle: Good evening, sir. Let me look. (calm)|van door, footsteps
+highway|kunle|CU|cut|Kunle works under the bonnet by torchlight|kunle: Fuel pump. Give me ten minutes. (focused)|tools clinking
+highway|chief|CRASH|cut|The engine roars back to life and Chief stares at Kunle|chief: Who taught you this? (stunned)|engine roar, boom
+EP The Offer | Five million to leave my daughter. | WHO IS SHE?
+mansion|chief,kunle|CRASH|cut|Chief slides a fat envelope across a glass table|chief: Five million naira. Leave Lagos. Leave Temi. (cold)|envelope slide, boom
+mansion|kunle|CU|cut|Kunle looks at the envelope, then at Chief|kunle: Sir, you think love has a price? (steady)|clock ticking
+mansion|chief|CU|cut|Chief leans back|chief: Everything has a price. Even me, once. (bitter)|low drone
+mansion|kunle|CU|cut|Kunle stands|kunle: I've been accepted to study engineering in Germany. Full scholarship. (proud)|soft strings
+mansion|kunle|CU|cut|Kunle pushes the envelope back|kunle: I'm leaving anyway. Not for your money. For my future. (dignified)|strings
+mansion|chief|CU|cut|Chief is speechless|chief: Germany? Full scholarship? (stunned)|heartbeat
+kunle_room|temi,kunle|TWO|dip|Temi confronts Kunle in his room|temi: Germany? When were you going to tell me? (hurt)|crickets
+kunle_room|kunle|CU|cut|Kunle takes her hands|kunle: When I could ask your father for your hand with my head high. (tender)|soft piano
+food_stall|mama_kunle|CU|flash|Mama Kunle holds an old photo of a young couple|mama_kunle: Thirty-five years. It's time he remembered. (resolved)|oil sizzling
+mansion|mama_kunle,chief|CRASH|cut|Mama Kunle walks into the mansion and Chief turns|mama_kunle: Hello, Balo. Do you remember the girl from Mushin? (quiet)|deep boom
+EP Mushin | He was poor once. She remembers. | WILL HE CHANGE?
+mansion|chief|CRASH|cut|Chief stares at her, the years falling away|chief: Adunni? From Mushin? (whisper)|deep boom
+mansion|mama_kunle|CU|cut|Mama Kunle smiles sadly|mama_kunle: You sold akara with me. Barefoot. We were going to marry. (nostalgic)|soft strings
+mansion|mama_kunle|CU|cut|Her smile fades|mama_kunle: Then my father said you were nothing. And I let him decide. (regret)|single piano note
+mansion|chief|CU|cut|Chief's voice hardens with old pain|chief: I swore I would become somebody, so no father could reject me again. (raw)|low strings
+mansion|mama_kunle|CU|cut|Mama Kunle steps closer|mama_kunle: And now you're doing to my son what my father did to you. (piercing)|heartbeat
+mansion|chief|ECU|cut|Chief's eyes widen|chief: Your son? Kunle is your son? (shaken)|deep boom
+mansion|temi|CU|flash|Temi in the doorway, having heard everything|temi: Daddy, you were the boy with nothing once. (soft)|gasp
+mansion|chief|CU|dip|Night: Chief alone before a towering portrait of himself|chief: Thirty-five years building walls. And I became the wall. (broken)|clock ticking
+compound2|chief|WIDE|dip|Dawn: Chief tears the eviction notice from the gate|chief: No more evictions this year. For anybody. (resolved)|paper tearing, birds
+workshop|chief|CRASH|cut|Chief walks into the workshop and Kunle looks up|chief: Kunle. We need to talk. Man to man. (serious)|deep boom
+EP Doors | Pride builds walls. | -
+workshop|chief,kunle|CRASH|cut|Chief stands before the engine prototype|chief: That engine. How much to build ten? (businesslike)|deep boom
+workshop|kunle|CU|cut|Kunle blinks|kunle: Sir? (surprised)|tools clink
+workshop|chief|CU|cut|Chief smiles for the first time|chief: I'm not buying you. I'm investing in you. There's a difference. (warm)|warm strings
+workshop|kunle|CU|cut|Kunle grins|kunle: Then I'll learn everything in Germany and come back to build it here. (determined)|strings swell
+workshop|chief|CU|cut|Chief raises an eyebrow|chief: And my daughter? (dry)|soft laugh
+workshop|kunle,temi|TWO|flash|Kunle kneels with a simple ring as Temi walks in|kunle: Temi, will you wait for me? (nervous) || temi: I'll come with you. (joyful)|gasp, applause
+workshop|chief|CU|cut|Chief throws back his head and laughs|chief: Both of you in Germany? Then I'm paying for the flights. (laughing)|laughter
+food_stall|mama_kunle,chief|TWO|dip|Chief eats akara at Mama Kunle's stall|chief: Your akara is still the best in Lagos. (fond) || mama_kunle: I know. (smiling)|oil sizzling, laughter
+compound2|mama_kunle|WIDE|cut|Tenants celebrate in the yard at golden hour|mama_kunle: Thirty-five years late. But love found the door. (joyful)|music, laughter
+compound2||WIDE|cut|Golden hour over the tenement yard, the gate wide open||soft music
+
+ARC a6 | The Other Wife | Ten years married, Nkem discovers her husband secretly married another woman, who had no idea he was married at all. | Know your worth. Peace is never too expensive. | tension drums
+EP Two Rings | Ten years married. Then I saw the photos. | WHO IS THIS WOMAN?
+home2|nkem|CRASH|cut|Nkem on her white sofa scrolling her phone, freezing|nkem: Traditional wedding. Last Saturday. My husband? (stunned)|deep boom
+home2|nkem|ECU|cut|Nkem's eyes|nkem: He told me he was in Port Harcourt for work. (whisper)|heartbeat
+home2|obinna,nkem|TWO|dip|Obinna strolls in with his travel bag|obinna: Darling, I'm back! Port Harcourt was hectic. (cheerful)|door, keys
+home2|nkem|CU|cut|Nkem, perfectly calm|nkem: How was the weather in Port Harcourt? (calm)|clock ticking
+home2|obinna|CU|cut|Obinna loosens his tie|obinna: Hot, as usual. Why? (casual)|tense strings
+home2|nkem|CU|cut|Nkem turns her phone towards him|nkem: Funny. It looks like a cool evening in Enugu. In your wedding photos. (icy)|deep boom
+home2|obinna|CU|cut|Obinna stammers|obinna: Nkem, it's not what you think. My family insisted. (panicking)|heartbeat
+home2|nkem|CU|cut|Nkem stands|nkem: Your family insisted you marry another woman without telling your wife? (cutting)|tense strings
+lola_flat|lola|CU|flash|Lola at her vanity mirror, glowing, on the phone|lola: My husband will be home soon. Finally, a settled single man. (happy)|soft music
+lola_flat|lola|CRASH|cut|Lola picks up a framed photo from his bag: Obinna with another woman|lola: Who is this woman? (stunned)|deep boom
+EP The Other Wife | She didn't know he was married. | WHAT IS HE HIDING?
+restaurant|nkem,lola|CRASH|cut|Two women sit opposite each other at a candlelit table|lola: You asked to meet me. Are you here to fight? (guarded)|deep boom
+restaurant|nkem|CU|cut|Nkem folds her hands|nkem: No. I'm here to find out how long he's been lying to you. (calm)|restaurant murmur
+restaurant|lola|CU|cut|Lola frowns|lola: He said he was divorced two years ago. He showed me papers. (confused)|tense strings
+restaurant|nkem|CU|cut|Nkem shakes her head|nkem: I've never signed divorce papers in my life. (firm)|single piano note
+restaurant|lola|ECU|cut|Lola's face crumbles|lola: Then my marriage is a lie. (whisper)|heartbeat
+restaurant|nkem|CU|cut|Nkem reaches across the table|nkem: We're both married to the same lie. (gentle)|soft strings
+home2|obinna|CU|dip|Obinna paces his living room, phone to his ear|obinna: Mother, keep Lola calm. I'll manage Nkem. She always forgives. (scheming)|clock ticking
+pharmacy|nkem|CU|flash|Nkem in her bright pharmacy, reading financial files|nkem: My pharmacy pays for his office, his car, and his secret wedding. (realising)|paper rustle
+pharmacy|nkem|CU|cut|Nkem closes the file|nkem: Ten years I built him. Time to read the paperwork. (resolved)|tense drums
+pharmacy|nkem|CRASH|cut|Nkem stares at a loan document|nkem: This is not my signature. (cold)|deep boom
+EP Forged | He forged my signature. | WILL MAMA TAKE HIS SIDE?
+lawyer2|rose,nkem|CRASH|cut|Aunty Rose, a lawyer, taps the forged document|rose: This is forgery, Nkem. Twenty million naira against your pharmacy. (serious)|deep boom
+lawyer2|nkem|CU|cut|Nkem's jaw tightens|nkem: He used my business to pay for her wedding. (angry)|tense strings
+lawyer2|rose|CU|cut|Rose leans back|rose: You can press charges. Or make him sign everything back. (practical)|city hum
+home2|obinna,nkem|TWO|dip|Obinna arrives with roses|obinna: Let's forget all this. I'll end it with her. For you. (pleading)|paper rustle
+home2|nkem|CU|cut|Nkem doesn't take the flowers|nkem: Ending it with her is not the point. You lied to two women. (firm)|single piano note
+lola_flat|lola|CU|flash|Lola packs a suitcase|lola: I won't be anybody's secret. (resolved)|zip closing
+lola_flat|obinna,lola|TWO|cut|Obinna bursts in|obinna: Lola, where are you going? You're my wife! (desperate)|door bang
+lola_flat|lola|CU|cut|Lola turns|lola: Your wife? You already have one. I met her. She's incredible. (cutting)|tense strings
+lola_flat|obinna|CU|cut|Obinna goes pale|obinna: You met Nkem? (horrified)|heartbeat
+lola_flat|lola|CRASH|cut|Lola zips the suitcase shut|lola: We're meeting your mother tomorrow. Together. (cold)|deep boom
+EP Mother-in-Law | What she told his mother changed everything. | WHAT WILL OBINNA DO?
+village_house|mama_obinna|CRASH|cut|Mama Obinna on a carved chair in a family courtyard|mama_obinna: A man needs a son. Nkem gave him none in ten years. (harsh)|deep boom
+village_house|nkem|CU|cut|Nkem speaks steadily|nkem: Mama, the doctor said the problem is not mine. Obinna knows. (calm)|wind
+village_house|mama_obinna|CU|cut|Mama Obinna frowns|mama_obinna: What do you mean, not yours? (confused)|tense strings
+village_house|nkem|CU|cut|Nkem looks down|nkem: He refused the tests for years. I protected his pride. (quiet)|single piano note
+village_house|lola|CU|cut|Lola speaks up|lola: He told me Nkem couldn't have children. That I would give him a son. (bitter)|low drone
+village_house|mama_obinna|CU|cut|Mama Obinna turns slowly|mama_obinna: Obinna, is this true? (dangerous)|heartbeat
+village_house|obinna|CU|dip|Obinna arrives at the courtyard gate, sweating|obinna: Mama, they are ganging up on me! (defensive)|gate creak
+village_house|mama_obinna|CU|cut|Mama Obinna rises|mama_obinna: Answer me! Did you lie about the doctor? (thundering)|tense drums
+village_house|obinna|ECU|cut|Obinna's eyes drop|obinna: Yes. (barely audible)|heartbeat
+village_house|mama_obinna|CRASH|cut|Mama Obinna slams her hand on the table|mama_obinna: Then you have shamed this family more than any empty cradle ever could. (furious)|table slam, boom
+EP Worth | She finally chose herself. | WHAT DOES THE REPORT SAY?
+lawyer2|rose,obinna|CRASH|cut|Rose slides papers to Obinna|rose: Sign here. The pharmacy returns to Nkem. The loan is yours. (firm)|deep boom
+lawyer2|obinna|CU|cut|Obinna sneers|obinna: And if I refuse? (defiant)|tense strings
+lawyer2|rose|CU|cut|Rose smiles thinly|rose: Then we discuss forgery with the police. (calm)|pen click
+lawyer2|obinna|CU|cut|Obinna signs angrily|obinna: Fine. Fine! (furious)|pen scratching
+home2|nkem|WIDE|dip|Nkem packs his shirts into boxes|nkem: Ten years of shirts. And not one honest day. (weary)|tape ripping
+home2|obinna,nkem|TWO|cut|Obinna in the doorway|obinna: Where will I go? (lost) || nkem: Ask the man who lied to all of us. (cool)|door
+lola_flat|lola|CU|flash|Lola on the phone, smiling through tears|lola: I got a job in Lagos. A fresh start. Thank you for not hating me. (grateful)|soft strings
+pharmacy|nkem|CU|cut|Nkem on the phone behind her pharmacy counter|nkem: You were lied to, Lola. You were never my enemy. (warm)|soft piano
+pharmacy|nkem|CU|dip|Nkem serves a customer, composed|nkem: Next customer, please. (professional)|shop bell
+pharmacy|obinna|CRASH|cut|Obinna appears at the pharmacy door holding a medical report|obinna: Nkem. I did the tests. You need to see this. (urgent)|deep boom
+EP Peace | Peace is never too expensive. | -
+pharmacy|obinna|CRASH|cut|Obinna holds out the report|obinna: The doctor says it's treatable. Six months. We could still have a child. (hopeful)|deep boom
+pharmacy|nkem|CU|cut|Nkem looks at him for a long moment|nkem: We? (quiet)|single piano note
+pharmacy|obinna|CU|cut|Obinna pleads|obinna: Give me another chance. I'll be a better man. (desperate)|tense strings
+pharmacy|nkem|CU|cut|Nkem smiles gently|nkem: I hope you become a better man, Obinna. But not with me. (kind, final)|soft strings
+pharmacy|nkem|CU|cut|Nkem steps back|nkem: Peace is more precious than a husband who lies. (serene)|strings swell
+lawyer2|rose,nkem|TWO|dip|Rose hands Nkem the final papers|rose: Divorce finalised. How do you feel? (gentle) || nkem: Light. For the first time in years. (relieved)|pen set down
+restaurant|nkem,lola|TWO|flash|Nkem and Lola laughing over dinner|lola: To new beginnings. (warm) || nkem: To knowing our worth. (warm)|glasses clink
+village_house|mama_obinna|CU|dip|Mama Obinna on the phone in her courtyard|mama_obinna: My daughter, forgive this old woman. You were always family. (humble)|birds
+pharmacy|nkem|CU|cut|Nkem cuts a ribbon at a new pharmacy branch|nkem: Branch number two. Built with my own hands. (proud)|applause
+pharmacy||WIDE|cut|Nkem walks confidently down a sunlit street at golden hour||soft music

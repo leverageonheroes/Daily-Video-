@@ -1,0 +1,4948 @@
+{
+ "episodes": [
+  {
+   "id": "MOS-019",
+   "number": 19,
+   "arc": "a4",
+   "arc_title": "Borrowed",
+   "arc_logline": "A best friend borrows two million naira and disappears, but the real reason is a secret that could end a marriage.",
+   "part": 1,
+   "part_title": "The Loan",
+   "part_label": "PART 1 OF 6 · BORROWED",
+   "title": "Two million naira. Gone with my best friend. | Borrowed Part 1 #shorts",
+   "hook_text": "Two million naira. Gone with my best friend.",
+   "logline": "Borrowed part 1, The Loan: Two million, Dayo. Three months. I swear on our friendship. / That's our house deposit, Segun. But for you? Okay. / Dayo, are you sure?",
+   "description": "A best friend borrows two million naira and disappears, but the real reason is a secret that could end a marriage.\n\nBorrowed, part 1 of 6: The Loan.\n\nWhere is segun? Tell us in the comments.\n\nMoral Of The Story TV: a new story every week, and the full movie after every finale.",
+   "tags": [
+    "moral of the story",
+    "nigerian drama",
+    "short drama",
+    "african drama",
+    "family drama",
+    "borrowed",
+    "storytime",
+    "drama series"
+   ],
+   "music": "nollywood suspense",
+   "guests": {
+    "a4_dayo": {
+     "name": "Dayo",
+     "ref_prompt": "a 31-year-old Nigerian man, athletic build, short twists, denim jacket over a white T-shirt",
+     "voice": "a warm, expressive male voice",
+     "species": "human"
+    },
+    "a4_segun": {
+     "name": "Segun",
+     "ref_prompt": "a 31-year-old Nigerian man, clean-shaven, round glasses, blue checked shirt",
+     "voice": "a gentle, slightly husky male voice",
+     "species": "human"
+    },
+    "a4_funmi": {
+     "name": "Funmi",
+     "ref_prompt": "a 29-year-old Nigerian woman, long braids, mustard-yellow dress",
+     "voice": "a soft, anxious female voice",
+     "species": "human"
+    },
+    "a4_collector": {
+     "name": "The collector",
+     "ref_prompt": "a tall, stern Nigerian man in a black leather jacket and dark sunglasses",
+     "voice": "a low, menacing male voice",
+     "species": "human"
+    },
+    "a4_bimpe": {
+     "name": "Nurse Bimpe",
+     "ref_prompt": "a 25-year-old Nigerian woman, short natural hair, teal nurse scrubs",
+     "voice": "a calm, kind female voice",
+     "species": "human"
+    }
+   },
+   "locations": {
+    "a4_apartment": "a cosy Lagos apartment living room with a small balcony, evening light",
+    "a4_shop": "a small fashion boutique with mannequins and rolls of fabric",
+    "a4_terminal": "a busy city bus terminal at dawn, yellow buses, vendors",
+    "a4_segun_room": "a small rented room, mattress on the floor, a laptop, one window",
+    "a4_abuja_street": "a quiet Abuja street at dawn, a row of small rented flats",
+    "a4_hospital2": "a hospital corridor and ward at night, soft blue light"
+   },
+   "end_card": "WHERE IS SEGUN?|PART 2 TOMORROW",
+   "captions": {
+    "tiktok": "Two million naira. Gone with my best friend. 😳 Part 1/6 · Borrowed. Where is segun? #moralofthestory #nigeriandrama #shortdrama #storytime #aidrama",
+    "facebook": "Borrowed, part 1 of 6: The Loan. A best friend borrows two million naira and disappears, but the real reason is a secret that could end a marriage. Where is segun? Follow Moral Of The Story TV for part 2."
+   },
+   "shots": [
+    {
+     "n": 1,
+     "dur": 8,
+     "loc": "a4_apartment",
+     "chars": [
+      "a4_segun",
+      "a4_dayo"
+     ],
+     "keyframe": "Segun grips Dayo's hands across the coffee table",
+     "action": "Segun grips Dayo's hands across the coffee table",
+     "camera": "dramatic crash zoom into a close-up, then hold",
+     "lines": [
+      {
+       "c": "a4_segun",
+       "t": "Two million, Dayo. Three months. I swear on our friendship.",
+       "tone": "desperate"
+      }
+     ],
+     "sfx": "deep boom",
+     "transition": "cut"
+    },
+    {
+     "n": 2,
+     "dur": 8,
+     "loc": "a4_apartment",
+     "chars": [
+      "a4_dayo"
+     ],
+     "keyframe": "Dayo hesitates, then nods",
+     "action": "Dayo hesitates, then nods",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a4_dayo",
+       "t": "That's our house deposit, Segun. But for you? Okay.",
+       "tone": "torn"
+      }
+     ],
+     "sfx": "clock ticking",
+     "transition": "cut"
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "a4_apartment",
+     "chars": [
+      "a4_funmi"
+     ],
+     "keyframe": "Funmi watches from the kitchen doorway, anxious",
+     "action": "Funmi watches from the kitchen doorway, anxious",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a4_funmi",
+       "t": "Dayo, are you sure?",
+       "tone": "nervous"
+      }
+     ],
+     "sfx": "tense strings",
+     "transition": "cut"
+    },
+    {
+     "n": 4,
+     "dur": 8,
+     "loc": "a4_apartment",
+     "chars": [
+      "a4_dayo",
+      "a4_segun"
+     ],
+     "keyframe": "Dayo pulls Segun into a hug",
+     "action": "Dayo pulls Segun into a hug",
+     "camera": "two-shot, shallow focus, slow lateral dolly",
+     "lines": [
+      {
+       "c": "a4_dayo",
+       "t": "Twenty years of friendship. If I can't trust him, who then?",
+       "tone": "warm"
+      }
+     ],
+     "sfx": "soft strings",
+     "transition": "cut"
+    },
+    {
+     "n": 5,
+     "dur": 8,
+     "loc": "a4_apartment",
+     "chars": [
+      "a4_dayo"
+     ],
+     "keyframe": "Three months later: Dayo paces with his phone",
+     "action": "Three months later: Dayo paces with his phone",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a4_dayo",
+       "t": "Segun, it's been three months. Call me back, please.",
+       "tone": "worried"
+      }
+     ],
+     "sfx": "dial tone",
+     "transition": "dip"
+    },
+    {
+     "n": 6,
+     "dur": 8,
+     "loc": "a4_apartment",
+     "chars": [
+      "a4_dayo"
+     ],
+     "keyframe": "Dayo lowers the phone",
+     "action": "Dayo lowers the phone",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a4_dayo",
+       "t": "Number not reachable. Again.",
+       "tone": "hurt"
+      }
+     ],
+     "sfx": "low drone",
+     "transition": "cut"
+    },
+    {
+     "n": 7,
+     "dur": 8,
+     "loc": "a4_shop",
+     "chars": [
+      "a4_funmi"
+     ],
+     "keyframe": "Funmi in her boutique nervously counting cash behind the counter",
+     "action": "Funmi in her boutique nervously counting cash behind the counter",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a4_funmi",
+       "t": "Just one more payment and it's over.",
+       "tone": "whisper"
+      }
+     ],
+     "sfx": "cash counting",
+     "transition": "flash"
+    },
+    {
+     "n": 8,
+     "dur": 8,
+     "loc": "a4_apartment",
+     "chars": [
+      "a4_dayo",
+      "a4_funmi"
+     ],
+     "keyframe": "Dayo stands in the doorway as Funmi drops a cup",
+     "action": "Dayo stands in the doorway as Funmi drops a cup",
+     "camera": "two-shot, shallow focus, slow lateral dolly",
+     "lines": [
+      {
+       "c": "a4_dayo",
+       "t": "Segun has disappeared. His landlord says he packed out.",
+       "tone": "stunned"
+      }
+     ],
+     "sfx": "cup shatters",
+     "transition": "dip"
+    },
+    {
+     "n": 9,
+     "dur": 8,
+     "loc": "a4_apartment",
+     "chars": [
+      "a4_funmi"
+     ],
+     "keyframe": "Funmi avoids his eyes",
+     "action": "Funmi avoids his eyes",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a4_funmi",
+       "t": "Maybe he had his reasons.",
+       "tone": "nervous"
+      }
+     ],
+     "sfx": "heartbeat",
+     "transition": "cut"
+    },
+    {
+     "n": 10,
+     "dur": 8,
+     "loc": "a4_apartment",
+     "chars": [
+      "a4_dayo"
+     ],
+     "keyframe": "Dayo's jaw sets",
+     "action": "Dayo's jaw sets",
+     "camera": "dramatic crash zoom into a close-up, then hold",
+     "lines": [
+      {
+       "c": "a4_dayo",
+       "t": "Reasons? He robbed us. And I'm going to find him.",
+       "tone": "furious"
+      }
+     ],
+     "sfx": "deep boom",
+     "transition": "cut",
+     "freeze": 1.5
+    }
+   ],
+   "loop_note": "cliffhanger freeze-frame; tomorrow opens with a 3 s 'previously' flash of it"
+  },
+  {
+   "id": "MOS-020",
+   "number": 20,
+   "arc": "a4",
+   "arc_title": "Borrowed",
+   "arc_logline": "A best friend borrows two million naira and disappears, but the real reason is a secret that could end a marriage.",
+   "part": 2,
+   "part_title": "The Search",
+   "part_label": "PART 2 OF 6 · BORROWED",
+   "title": "He disappeared with our money. | Borrowed Part 2 #shorts",
+   "hook_text": "He disappeared with our money.",
+   "logline": "Borrowed part 2, The Search: Have you seen this man? Please. He's my brother. / Abuja? He's in Abuja? / Don't tell Dayo anything. Please, Segun. Promise me.",
+   "description": "A best friend borrows two million naira and disappears, but the real reason is a secret that could end a marriage.\n\nBorrowed, part 2 of 6: The Search.\n\nWill segun talk? Tell us in the comments.\n\nMoral Of The Story TV: a new story every week, and the full movie after every finale.",
+   "tags": [
+    "moral of the story",
+    "nigerian drama",
+    "short drama",
+    "african drama",
+    "family drama",
+    "borrowed",
+    "storytime",
+    "drama series"
+   ],
+   "music": "nollywood suspense",
+   "guests": {
+    "a4_dayo": {
+     "name": "Dayo",
+     "ref_prompt": "a 31-year-old Nigerian man, athletic build, short twists, denim jacket over a white T-shirt",
+     "voice": "a warm, expressive male voice",
+     "species": "human"
+    },
+    "a4_segun": {
+     "name": "Segun",
+     "ref_prompt": "a 31-year-old Nigerian man, clean-shaven, round glasses, blue checked shirt",
+     "voice": "a gentle, slightly husky male voice",
+     "species": "human"
+    },
+    "a4_funmi": {
+     "name": "Funmi",
+     "ref_prompt": "a 29-year-old Nigerian woman, long braids, mustard-yellow dress",
+     "voice": "a soft, anxious female voice",
+     "species": "human"
+    },
+    "a4_collector": {
+     "name": "The collector",
+     "ref_prompt": "a tall, stern Nigerian man in a black leather jacket and dark sunglasses",
+     "voice": "a low, menacing male voice",
+     "species": "human"
+    },
+    "a4_bimpe": {
+     "name": "Nurse Bimpe",
+     "ref_prompt": "a 25-year-old Nigerian woman, short natural hair, teal nurse scrubs",
+     "voice": "a calm, kind female voice",
+     "species": "human"
+    }
+   },
+   "locations": {
+    "a4_apartment": "a cosy Lagos apartment living room with a small balcony, evening light",
+    "a4_shop": "a small fashion boutique with mannequins and rolls of fabric",
+    "a4_terminal": "a busy city bus terminal at dawn, yellow buses, vendors",
+    "a4_segun_room": "a small rented room, mattress on the floor, a laptop, one window",
+    "a4_abuja_street": "a quiet Abuja street at dawn, a row of small rented flats",
+    "a4_hospital2": "a hospital corridor and ward at night, soft blue light"
+   },
+   "end_card": "WILL SEGUN TALK?|PART 3 TOMORROW",
+   "captions": {
+    "tiktok": "He disappeared with our money. 😳 Part 2/6 · Borrowed. Will segun talk? #moralofthestory #nigeriandrama #shortdrama #storytime #aidrama",
+    "facebook": "Borrowed, part 2 of 6: The Search. A best friend borrows two million naira and disappears, but the real reason is a secret that could end a marriage. Will segun talk? Follow Moral Of The Story TV for part 3."
+   },
+   "shots": [
+    {
+     "n": 1,
+     "dur": 8,
+     "loc": "a4_terminal",
+     "chars": [
+      "a4_dayo"
+     ],
+     "keyframe": "Dayo pushes through a busy bus terminal at dawn, holding up a photo",
+     "action": "Dayo pushes through a busy bus terminal at dawn, holding up a photo",
+     "camera": "dramatic crash zoom into a close-up, then hold",
+     "lines": [
+      {
+       "c": "a4_dayo",
+       "t": "Have you seen this man? Please. He's my brother.",
+       "tone": "desperate"
+      }
+     ],
+     "sfx": "engines, vendors calling",
+     "transition": "cut"
+    },
+    {
+     "n": 2,
+     "dur": 8,
+     "loc": "a4_terminal",
+     "chars": [
+      "a4_dayo"
+     ],
+     "keyframe": "Dayo listens to someone off-screen, eyes widening",
+     "action": "Dayo listens to someone off-screen, eyes widening",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a4_dayo",
+       "t": "Abuja? He's in Abuja?",
+       "tone": "shocked"
+      }
+     ],
+     "sfx": "bus horn",
+     "transition": "cut"
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "a4_apartment",
+     "chars": [
+      "a4_funmi"
+     ],
+     "keyframe": "Funmi on the phone in the dark bedroom, whispering",
+     "action": "Funmi on the phone in the dark bedroom, whispering",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a4_funmi",
+       "t": "Don't tell Dayo anything. Please, Segun. Promise me.",
+       "tone": "pleading"
+      }
+     ],
+     "sfx": "crickets",
+     "transition": "dip"
+    },
+    {
+     "n": 4,
+     "dur": 8,
+     "loc": "a4_apartment",
+     "chars": [
+      "a4_funmi"
+     ],
+     "keyframe": "Funmi's terrified eyes",
+     "action": "Funmi's terrified eyes",
+     "camera": "extreme close-up on the eyes, very slow push-in",
+     "lines": [
+      {
+       "c": "a4_funmi",
+       "t": "If he finds out, my marriage is finished.",
+       "tone": "whisper"
+      }
+     ],
+     "sfx": "heartbeat",
+     "transition": "cut"
+    },
+    {
+     "n": 5,
+     "dur": 8,
+     "loc": "a4_segun_room",
+     "chars": [
+      "a4_segun"
+     ],
+     "keyframe": "Segun in a tiny rented room, exhausted, phone to his ear",
+     "action": "Segun in a tiny rented room, exhausted, phone to his ear",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a4_segun",
+       "t": "I promise, Funmi. Your secret dies with me.",
+       "tone": "tired"
+      }
+     ],
+     "sfx": "fan whirring",
+     "transition": "flash"
+    },
+    {
+     "n": 6,
+     "dur": 8,
+     "loc": "a4_segun_room",
+     "chars": [
+      "a4_segun"
+     ],
+     "keyframe": "Segun counts small notes on the mattress",
+     "action": "Segun counts small notes on the mattress",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a4_segun",
+       "t": "Two more months of night shifts and I'm free.",
+       "tone": "weary"
+      }
+     ],
+     "sfx": "notes rustling",
+     "transition": "cut"
+    },
+    {
+     "n": 7,
+     "dur": 8,
+     "loc": "a4_terminal",
+     "chars": [
+      "a4_dayo"
+     ],
+     "keyframe": "Dayo on a night bus, staring out of the window",
+     "action": "Dayo on a night bus, staring out of the window",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a4_dayo",
+       "t": "Twenty years. And he couldn't tell me the truth.",
+       "tone": "bitter"
+      }
+     ],
+     "sfx": "engine hum",
+     "transition": "dip"
+    },
+    {
+     "n": 8,
+     "dur": 8,
+     "loc": "a4_abuja_street",
+     "chars": [
+      "a4_dayo"
+     ],
+     "keyframe": "Dawn: Dayo walks along a row of small flats, checking a scrap of paper",
+     "action": "Dawn: Dayo walks along a row of small flats, checking a scrap of paper",
+     "camera": "wide establishing shot, slow dolly-in",
+     "lines": [
+      {
+       "c": "a4_dayo",
+       "t": "Block C. Room four.",
+       "tone": "determined"
+      }
+     ],
+     "sfx": "birds, footsteps",
+     "transition": "cut"
+    },
+    {
+     "n": 9,
+     "dur": 8,
+     "loc": "a4_segun_room",
+     "chars": [
+      "a4_dayo",
+      "a4_segun"
+     ],
+     "keyframe": "The door opens and Segun freezes",
+     "action": "The door opens and Segun freezes",
+     "camera": "dramatic crash zoom into a close-up, then hold",
+     "lines": [
+      {
+       "c": "a4_segun",
+       "t": "Dayo?!",
+       "tone": "shocked"
+      }
+     ],
+     "sfx": "deep boom",
+     "transition": "cut"
+    },
+    {
+     "n": 10,
+     "dur": 8,
+     "loc": "a4_segun_room",
+     "chars": [
+      "a4_dayo"
+     ],
+     "keyframe": "Dayo stares him down",
+     "action": "Dayo stares him down",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a4_dayo",
+       "t": "Where is my money, Segun? Look me in the eye and lie.",
+       "tone": "cold"
+      }
+     ],
+     "sfx": "heartbeat",
+     "transition": "cut",
+     "freeze": 1.5
+    }
+   ],
+   "loop_note": "cliffhanger freeze-frame; tomorrow opens with a 3 s 'previously' flash of it"
+  },
+  {
+   "id": "MOS-021",
+   "number": 21,
+   "arc": "a4",
+   "arc_title": "Borrowed",
+   "arc_logline": "A best friend borrows two million naira and disappears, but the real reason is a secret that could end a marriage.",
+   "part": 3,
+   "part_title": "Silence",
+   "part_label": "PART 3 OF 6 · BORROWED",
+   "title": "Some debts aren't yours to explain. | Borrowed Part 3 #shorts",
+   "hook_text": "Some debts aren't yours to explain.",
+   "logline": "Borrowed part 3, Silence: I can't tell you. Just give me two months. / Two months? You're working night shifts in this room. For what? / Some debts aren't mine to explain.",
+   "description": "A best friend borrows two million naira and disappears, but the real reason is a secret that could end a marriage.\n\nBorrowed, part 3 of 6: Silence.\n\nThe truth comes out? Tell us in the comments.\n\nMoral Of The Story TV: a new story every week, and the full movie after every finale.",
+   "tags": [
+    "moral of the story",
+    "nigerian drama",
+    "short drama",
+    "african drama",
+    "family drama",
+    "borrowed",
+    "storytime",
+    "drama series"
+   ],
+   "music": "nollywood suspense",
+   "guests": {
+    "a4_dayo": {
+     "name": "Dayo",
+     "ref_prompt": "a 31-year-old Nigerian man, athletic build, short twists, denim jacket over a white T-shirt",
+     "voice": "a warm, expressive male voice",
+     "species": "human"
+    },
+    "a4_segun": {
+     "name": "Segun",
+     "ref_prompt": "a 31-year-old Nigerian man, clean-shaven, round glasses, blue checked shirt",
+     "voice": "a gentle, slightly husky male voice",
+     "species": "human"
+    },
+    "a4_funmi": {
+     "name": "Funmi",
+     "ref_prompt": "a 29-year-old Nigerian woman, long braids, mustard-yellow dress",
+     "voice": "a soft, anxious female voice",
+     "species": "human"
+    },
+    "a4_collector": {
+     "name": "The collector",
+     "ref_prompt": "a tall, stern Nigerian man in a black leather jacket and dark sunglasses",
+     "voice": "a low, menacing male voice",
+     "species": "human"
+    },
+    "a4_bimpe": {
+     "name": "Nurse Bimpe",
+     "ref_prompt": "a 25-year-old Nigerian woman, short natural hair, teal nurse scrubs",
+     "voice": "a calm, kind female voice",
+     "species": "human"
+    }
+   },
+   "locations": {
+    "a4_apartment": "a cosy Lagos apartment living room with a small balcony, evening light",
+    "a4_shop": "a small fashion boutique with mannequins and rolls of fabric",
+    "a4_terminal": "a busy city bus terminal at dawn, yellow buses, vendors",
+    "a4_segun_room": "a small rented room, mattress on the floor, a laptop, one window",
+    "a4_abuja_street": "a quiet Abuja street at dawn, a row of small rented flats",
+    "a4_hospital2": "a hospital corridor and ward at night, soft blue light"
+   },
+   "end_card": "THE TRUTH COMES OUT?|PART 4 TOMORROW",
+   "captions": {
+    "tiktok": "Some debts aren't yours to explain. 😳 Part 3/6 · Borrowed. The truth comes out? #moralofthestory #nigeriandrama #shortdrama #storytime #aidrama",
+    "facebook": "Borrowed, part 3 of 6: Silence. A best friend borrows two million naira and disappears, but the real reason is a secret that could end a marriage. The truth comes out? Follow Moral Of The Story TV for part 4."
+   },
+   "shots": [
+    {
+     "n": 1,
+     "dur": 8,
+     "loc": "a4_segun_room",
+     "chars": [
+      "a4_segun"
+     ],
+     "keyframe": "Segun backs away",
+     "action": "Segun backs away",
+     "camera": "dramatic crash zoom into a close-up, then hold",
+     "lines": [
+      {
+       "c": "a4_segun",
+       "t": "I can't tell you. Just give me two months.",
+       "tone": "pleading"
+      }
+     ],
+     "sfx": "deep boom",
+     "transition": "cut"
+    },
+    {
+     "n": 2,
+     "dur": 8,
+     "loc": "a4_segun_room",
+     "chars": [
+      "a4_dayo"
+     ],
+     "keyframe": "Dayo gestures at the bare room",
+     "action": "Dayo gestures at the bare room",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a4_dayo",
+       "t": "Two months? You're working night shifts in this room. For what?",
+       "tone": "confused"
+      }
+     ],
+     "sfx": "fan whirring",
+     "transition": "cut"
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "a4_segun_room",
+     "chars": [
+      "a4_segun"
+     ],
+     "keyframe": "Segun looks away",
+     "action": "Segun looks away",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a4_segun",
+       "t": "Some debts aren't mine to explain.",
+       "tone": "quiet"
+      }
+     ],
+     "sfx": "low drone",
+     "transition": "cut"
+    },
+    {
+     "n": 4,
+     "dur": 8,
+     "loc": "a4_segun_room",
+     "chars": [
+      "a4_dayo",
+      "a4_segun"
+     ],
+     "keyframe": "Dayo turns to leave",
+     "action": "Dayo turns to leave",
+     "camera": "two-shot, shallow focus, slow lateral dolly",
+     "lines": [
+      {
+       "c": "a4_dayo",
+       "t": "Then we're finished. Twenty years, finished.",
+       "tone": "crushed"
+      }
+     ],
+     "sfx": "door creak",
+     "transition": "cut"
+    },
+    {
+     "n": 5,
+     "dur": 8,
+     "loc": "a4_abuja_street",
+     "chars": [
+      "a4_dayo"
+     ],
+     "keyframe": "Dayo walks away down the street",
+     "action": "Dayo walks away down the street",
+     "camera": "wide establishing shot, slow dolly-in",
+     "lines": [
+      {
+       "c": "a4_dayo",
+       "t": "I came for answers. I'm leaving with nothing.",
+       "tone": "hollow"
+      }
+     ],
+     "sfx": "distant traffic",
+     "transition": "dip"
+    },
+    {
+     "n": 6,
+     "dur": 8,
+     "loc": "a4_shop",
+     "chars": [
+      "a4_collector",
+      "a4_funmi"
+     ],
+     "keyframe": "A stern man in a leather jacket and sunglasses walks into Funmi's boutique",
+     "action": "A stern man in a leather jacket and sunglasses walks into Funmi's boutique",
+     "camera": "dramatic crash zoom into a close-up, then hold",
+     "lines": [
+      {
+       "c": "a4_funmi",
+       "t": "I paid! Segun paid everything last week!",
+       "tone": "frightened"
+      }
+     ],
+     "sfx": "door bell, boom",
+     "transition": "flash"
+    },
+    {
+     "n": 7,
+     "dur": 8,
+     "loc": "a4_shop",
+     "chars": [
+      "a4_funmi"
+     ],
+     "keyframe": "Funmi pleads",
+     "action": "Funmi pleads",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a4_funmi",
+       "t": "Please, not in my shop. My husband doesn't know.",
+       "tone": "begging"
+      }
+     ],
+     "sfx": "tense strings",
+     "transition": "cut"
+    },
+    {
+     "n": 8,
+     "dur": 8,
+     "loc": "a4_shop",
+     "chars": [
+      "a4_collector"
+     ],
+     "keyframe": "The collector smirks",
+     "action": "The collector smirks",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a4_collector",
+       "t": "Interest, madam. Five hundred thousand more. Or maybe we tell your husband.",
+       "tone": "menacing"
+      }
+     ],
+     "sfx": "knuckles cracking",
+     "transition": "cut"
+    },
+    {
+     "n": 9,
+     "dur": 8,
+     "loc": "a4_apartment",
+     "chars": [
+      "a4_dayo"
+     ],
+     "keyframe": "Dayo, home again, finds a folded loan agreement in a drawer",
+     "action": "Dayo, home again, finds a folded loan agreement in a drawer",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a4_dayo",
+       "t": "Funmi? What is this?",
+       "tone": "confused"
+      }
+     ],
+     "sfx": "drawer opening",
+     "transition": "dip"
+    },
+    {
+     "n": 10,
+     "dur": 8,
+     "loc": "a4_apartment",
+     "chars": [
+      "a4_dayo"
+     ],
+     "keyframe": "Dayo reads the paper, his hands shaking",
+     "action": "Dayo reads the paper, his hands shaking",
+     "camera": "dramatic crash zoom into a close-up, then hold",
+     "lines": [
+      {
+       "c": "a4_dayo",
+       "t": "Two million naira. Signed by my wife?",
+       "tone": "devastated"
+      }
+     ],
+     "sfx": "deep boom",
+     "transition": "cut",
+     "freeze": 1.5
+    }
+   ],
+   "loop_note": "cliffhanger freeze-frame; tomorrow opens with a 3 s 'previously' flash of it"
+  },
+  {
+   "id": "MOS-022",
+   "number": 22,
+   "arc": "a4",
+   "arc_title": "Borrowed",
+   "arc_logline": "A best friend borrows two million naira and disappears, but the real reason is a secret that could end a marriage.",
+   "part": 4,
+   "part_title": "The Truth",
+   "part_label": "PART 4 OF 6 · BORROWED",
+   "title": "My wife. My friend. One secret. | Borrowed Part 4 #shorts",
+   "hook_text": "My wife. My friend. One secret.",
+   "logline": "Borrowed part 4, The Truth: I borrowed it when the shop was failing. They threatened to burn it down. / I was ashamed. I couldn't tell you I failed. / So Segun borrowed from me to pay your debt?",
+   "description": "A best friend borrows two million naira and disappears, but the real reason is a secret that could end a marriage.\n\nBorrowed, part 4 of 6: The Truth.\n\nWill segun answer? Tell us in the comments.\n\nMoral Of The Story TV: a new story every week, and the full movie after every finale.",
+   "tags": [
+    "moral of the story",
+    "nigerian drama",
+    "short drama",
+    "african drama",
+    "family drama",
+    "borrowed",
+    "storytime",
+    "drama series"
+   ],
+   "music": "nollywood suspense",
+   "guests": {
+    "a4_dayo": {
+     "name": "Dayo",
+     "ref_prompt": "a 31-year-old Nigerian man, athletic build, short twists, denim jacket over a white T-shirt",
+     "voice": "a warm, expressive male voice",
+     "species": "human"
+    },
+    "a4_segun": {
+     "name": "Segun",
+     "ref_prompt": "a 31-year-old Nigerian man, clean-shaven, round glasses, blue checked shirt",
+     "voice": "a gentle, slightly husky male voice",
+     "species": "human"
+    },
+    "a4_funmi": {
+     "name": "Funmi",
+     "ref_prompt": "a 29-year-old Nigerian woman, long braids, mustard-yellow dress",
+     "voice": "a soft, anxious female voice",
+     "species": "human"
+    },
+    "a4_collector": {
+     "name": "The collector",
+     "ref_prompt": "a tall, stern Nigerian man in a black leather jacket and dark sunglasses",
+     "voice": "a low, menacing male voice",
+     "species": "human"
+    },
+    "a4_bimpe": {
+     "name": "Nurse Bimpe",
+     "ref_prompt": "a 25-year-old Nigerian woman, short natural hair, teal nurse scrubs",
+     "voice": "a calm, kind female voice",
+     "species": "human"
+    }
+   },
+   "locations": {
+    "a4_apartment": "a cosy Lagos apartment living room with a small balcony, evening light",
+    "a4_shop": "a small fashion boutique with mannequins and rolls of fabric",
+    "a4_terminal": "a busy city bus terminal at dawn, yellow buses, vendors",
+    "a4_segun_room": "a small rented room, mattress on the floor, a laptop, one window",
+    "a4_abuja_street": "a quiet Abuja street at dawn, a row of small rented flats",
+    "a4_hospital2": "a hospital corridor and ward at night, soft blue light"
+   },
+   "end_card": "WILL SEGUN ANSWER?|PART 5 TOMORROW",
+   "captions": {
+    "tiktok": "My wife. My friend. One secret. 😳 Part 4/6 · Borrowed. Will segun answer? #moralofthestory #nigeriandrama #shortdrama #storytime #aidrama",
+    "facebook": "Borrowed, part 4 of 6: The Truth. A best friend borrows two million naira and disappears, but the real reason is a secret that could end a marriage. Will segun answer? Follow Moral Of The Story TV for part 5."
+   },
+   "shots": [
+    {
+     "n": 1,
+     "dur": 8,
+     "loc": "a4_apartment",
+     "chars": [
+      "a4_dayo",
+      "a4_funmi"
+     ],
+     "keyframe": "Funmi faces Dayo across the living room, the paper between them",
+     "action": "Funmi faces Dayo across the living room, the paper between them",
+     "camera": "dramatic crash zoom into a close-up, then hold",
+     "lines": [
+      {
+       "c": "a4_funmi",
+       "t": "I borrowed it when the shop was failing. They threatened to burn it down.",
+       "tone": "crying"
+      }
+     ],
+     "sfx": "deep boom",
+     "transition": "cut"
+    },
+    {
+     "n": 2,
+     "dur": 8,
+     "loc": "a4_apartment",
+     "chars": [
+      "a4_funmi"
+     ],
+     "keyframe": "Funmi lowers her head",
+     "action": "Funmi lowers her head",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a4_funmi",
+       "t": "I was ashamed. I couldn't tell you I failed.",
+       "tone": "broken"
+      }
+     ],
+     "sfx": "soft piano",
+     "transition": "cut"
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "a4_apartment",
+     "chars": [
+      "a4_dayo"
+     ],
+     "keyframe": "Dayo pieces it together",
+     "action": "Dayo pieces it together",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a4_dayo",
+       "t": "So Segun borrowed from me to pay your debt?",
+       "tone": "stunned"
+      }
+     ],
+     "sfx": "low drone",
+     "transition": "cut"
+    },
+    {
+     "n": 4,
+     "dur": 8,
+     "loc": "a4_apartment",
+     "chars": [
+      "a4_funmi"
+     ],
+     "keyframe": "Funmi nods",
+     "action": "Funmi nods",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a4_funmi",
+       "t": "He found out when they attacked me. He said you'd never forgive me.",
+       "tone": "tearful"
+      }
+     ],
+     "sfx": "strings",
+     "transition": "cut"
+    },
+    {
+     "n": 5,
+     "dur": 8,
+     "loc": "a4_apartment",
+     "chars": [
+      "a4_funmi"
+     ],
+     "keyframe": "Funmi looks up",
+     "action": "Funmi looks up",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a4_funmi",
+       "t": "So he took the blame and ran, so you'd hate him instead of me.",
+       "tone": "whisper"
+      }
+     ],
+     "sfx": "heartbeat",
+     "transition": "cut"
+    },
+    {
+     "n": 6,
+     "dur": 8,
+     "loc": "a4_apartment",
+     "chars": [
+      "a4_dayo"
+     ],
+     "keyframe": "Dayo's eyes fill with tears",
+     "action": "Dayo's eyes fill with tears",
+     "camera": "extreme close-up on the eyes, very slow push-in",
+     "lines": [
+      {
+       "c": "a4_dayo",
+       "t": "I called him a thief. I cursed him in front of everyone.",
+       "tone": "devastated"
+      }
+     ],
+     "sfx": "single piano note",
+     "transition": "cut"
+    },
+    {
+     "n": 7,
+     "dur": 8,
+     "loc": "a4_shop",
+     "chars": [
+      "a4_dayo",
+      "a4_collector"
+     ],
+     "keyframe": "Dayo stands in the boutique facing the collector",
+     "action": "Dayo stands in the boutique facing the collector",
+     "camera": "two-shot, shallow focus, slow lateral dolly",
+     "lines": [
+      {
+       "c": "a4_dayo",
+       "t": "You want five hundred thousand? Talk to me.",
+       "tone": "cold"
+      }
+     ],
+     "sfx": "tense drums",
+     "transition": "dip"
+    },
+    {
+     "n": 8,
+     "dur": 8,
+     "loc": "a4_shop",
+     "chars": [
+      "a4_collector"
+     ],
+     "keyframe": "The collector looks him up and down",
+     "action": "The collector looks him up and down",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a4_collector",
+       "t": "The husband. Good. Pay by Friday, or the shop burns.",
+       "tone": "threatening"
+      }
+     ],
+     "sfx": "lighter flick",
+     "transition": "cut"
+    },
+    {
+     "n": 9,
+     "dur": 8,
+     "loc": "a4_apartment",
+     "chars": [
+      "a4_funmi",
+      "a4_dayo"
+     ],
+     "keyframe": "Dayo takes Funmi's hands at the kitchen table",
+     "action": "Dayo takes Funmi's hands at the kitchen table",
+     "camera": "two-shot, shallow focus, slow lateral dolly",
+     "lines": [
+      {
+       "c": "a4_dayo",
+       "t": "We go to the police. Together. No more secrets.",
+       "tone": "firm"
+      }
+     ],
+     "sfx": "clock ticking",
+     "transition": "dip"
+    },
+    {
+     "n": 10,
+     "dur": 8,
+     "loc": "a4_segun_room",
+     "chars": [
+      "a4_segun"
+     ],
+     "keyframe": "Segun stares at his ringing phone in the dark room",
+     "action": "Segun stares at his ringing phone in the dark room",
+     "camera": "dramatic crash zoom into a close-up, then hold",
+     "lines": [
+      {
+       "c": "a4_segun",
+       "t": "If he knows, it's over.",
+       "tone": "afraid"
+      }
+     ],
+     "sfx": "phone ringing, boom",
+     "transition": "flash",
+     "freeze": 1.5
+    }
+   ],
+   "loop_note": "cliffhanger freeze-frame; tomorrow opens with a 3 s 'previously' flash of it"
+  },
+  {
+   "id": "MOS-023",
+   "number": 23,
+   "arc": "a4",
+   "arc_title": "Borrowed",
+   "arc_logline": "A best friend borrows two million naira and disappears, but the real reason is a secret that could end a marriage.",
+   "part": 5,
+   "part_title": "Friday Night",
+   "part_label": "PART 5 OF 6 · BORROWED",
+   "title": "The deadline is tonight. | Borrowed Part 5 #shorts",
+   "hook_text": "The deadline is tonight.",
+   "logline": "Borrowed part 5, Friday Night: Friday, madam. Money, or matches. / Here's your money. And here are my friends. / You brought police?",
+   "description": "A best friend borrows two million naira and disappears, but the real reason is a secret that could end a marriage.\n\nBorrowed, part 5 of 6: Friday Night.\n\nWill segun survive? Tell us in the comments.\n\nMoral Of The Story TV: a new story every week, and the full movie after every finale.",
+   "tags": [
+    "moral of the story",
+    "nigerian drama",
+    "short drama",
+    "african drama",
+    "family drama",
+    "borrowed",
+    "storytime",
+    "drama series"
+   ],
+   "music": "nollywood suspense",
+   "guests": {
+    "a4_dayo": {
+     "name": "Dayo",
+     "ref_prompt": "a 31-year-old Nigerian man, athletic build, short twists, denim jacket over a white T-shirt",
+     "voice": "a warm, expressive male voice",
+     "species": "human"
+    },
+    "a4_segun": {
+     "name": "Segun",
+     "ref_prompt": "a 31-year-old Nigerian man, clean-shaven, round glasses, blue checked shirt",
+     "voice": "a gentle, slightly husky male voice",
+     "species": "human"
+    },
+    "a4_funmi": {
+     "name": "Funmi",
+     "ref_prompt": "a 29-year-old Nigerian woman, long braids, mustard-yellow dress",
+     "voice": "a soft, anxious female voice",
+     "species": "human"
+    },
+    "a4_collector": {
+     "name": "The collector",
+     "ref_prompt": "a tall, stern Nigerian man in a black leather jacket and dark sunglasses",
+     "voice": "a low, menacing male voice",
+     "species": "human"
+    },
+    "a4_bimpe": {
+     "name": "Nurse Bimpe",
+     "ref_prompt": "a 25-year-old Nigerian woman, short natural hair, teal nurse scrubs",
+     "voice": "a calm, kind female voice",
+     "species": "human"
+    }
+   },
+   "locations": {
+    "a4_apartment": "a cosy Lagos apartment living room with a small balcony, evening light",
+    "a4_shop": "a small fashion boutique with mannequins and rolls of fabric",
+    "a4_terminal": "a busy city bus terminal at dawn, yellow buses, vendors",
+    "a4_segun_room": "a small rented room, mattress on the floor, a laptop, one window",
+    "a4_abuja_street": "a quiet Abuja street at dawn, a row of small rented flats",
+    "a4_hospital2": "a hospital corridor and ward at night, soft blue light"
+   },
+   "end_card": "WILL SEGUN SURVIVE?|FINALE TOMORROW",
+   "captions": {
+    "tiktok": "The deadline is tonight. 😳 Part 5/6 · Borrowed. Will segun survive? #moralofthestory #nigeriandrama #shortdrama #storytime #aidrama",
+    "facebook": "Borrowed, part 5 of 6: Friday Night. A best friend borrows two million naira and disappears, but the real reason is a secret that could end a marriage. Will segun survive? Follow Moral Of The Story TV for part 6."
+   },
+   "shots": [
+    {
+     "n": 1,
+     "dur": 8,
+     "loc": "a4_shop",
+     "chars": [
+      "a4_collector"
+     ],
+     "keyframe": "Night: the collector and two men stand in the boutique",
+     "action": "Night: the collector and two men stand in the boutique",
+     "camera": "dramatic crash zoom into a close-up, then hold",
+     "lines": [
+      {
+       "c": "a4_collector",
+       "t": "Friday, madam. Money, or matches.",
+       "tone": "menacing"
+      }
+     ],
+     "sfx": "deep boom",
+     "transition": "cut"
+    },
+    {
+     "n": 2,
+     "dur": 8,
+     "loc": "a4_shop",
+     "chars": [
+      "a4_dayo"
+     ],
+     "keyframe": "Dayo steps out from behind the counter",
+     "action": "Dayo steps out from behind the counter",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a4_dayo",
+       "t": "Here's your money. And here are my friends.",
+       "tone": "calm"
+      }
+     ],
+     "sfx": "footsteps",
+     "transition": "cut"
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "a4_shop",
+     "chars": [
+      "a4_collector"
+     ],
+     "keyframe": "Blue and red lights flood through the shop window",
+     "action": "Blue and red lights flood through the shop window",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a4_collector",
+       "t": "You brought police?",
+       "tone": "furious"
+      }
+     ],
+     "sfx": "sirens",
+     "transition": "flash"
+    },
+    {
+     "n": 4,
+     "dur": 8,
+     "loc": "a4_shop",
+     "chars": [
+      "a4_collector"
+     ],
+     "keyframe": "The collector is led away in handcuffs",
+     "action": "The collector is led away in handcuffs",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a4_collector",
+       "t": "This isn't finished.",
+       "tone": "snarling"
+      }
+     ],
+     "sfx": "handcuffs click",
+     "transition": "cut"
+    },
+    {
+     "n": 5,
+     "dur": 8,
+     "loc": "a4_hospital2",
+     "chars": [
+      "a4_bimpe"
+     ],
+     "keyframe": "A young nurse calls from a hospital corridor at night",
+     "action": "A young nurse calls from a hospital corridor at night",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a4_bimpe",
+       "t": "Are you Dayo? Segun collapsed at work. He keeps calling your name.",
+       "tone": "urgent"
+      }
+     ],
+     "sfx": "hospital ambience",
+     "transition": "dip"
+    },
+    {
+     "n": 6,
+     "dur": 8,
+     "loc": "a4_hospital2",
+     "chars": [
+      "a4_dayo"
+     ],
+     "keyframe": "Dayo runs down the hospital corridor",
+     "action": "Dayo runs down the hospital corridor",
+     "camera": "tracking shot following the character, handheld",
+     "lines": [
+      {
+       "c": "a4_dayo",
+       "t": "Where is he? Where's my brother?",
+       "tone": "frantic"
+      }
+     ],
+     "sfx": "running footsteps",
+     "transition": "cut"
+    },
+    {
+     "n": 7,
+     "dur": 8,
+     "loc": "a4_hospital2",
+     "chars": [
+      "a4_segun"
+     ],
+     "keyframe": "Segun lies weak in a hospital bed",
+     "action": "Segun lies weak in a hospital bed",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a4_segun",
+       "t": "Dayo, I didn't steal from you. I swear.",
+       "tone": "weak"
+      }
+     ],
+     "sfx": "heart monitor",
+     "transition": "cut"
+    },
+    {
+     "n": 8,
+     "dur": 8,
+     "loc": "a4_hospital2",
+     "chars": [
+      "a4_dayo",
+      "a4_segun"
+     ],
+     "keyframe": "Dayo grips Segun's hand",
+     "action": "Dayo grips Segun's hand",
+     "camera": "two-shot, shallow focus, slow lateral dolly",
+     "lines": [
+      {
+       "c": "a4_dayo",
+       "t": "I know everything. You fool. You beautiful fool.",
+       "tone": "crying"
+      }
+     ],
+     "sfx": "soft strings",
+     "transition": "cut"
+    },
+    {
+     "n": 9,
+     "dur": 8,
+     "loc": "a4_hospital2",
+     "chars": [
+      "a4_segun"
+     ],
+     "keyframe": "Segun manages a weak smile",
+     "action": "Segun manages a weak smile",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a4_segun",
+       "t": "Don't be angry with Funmi. She was scared.",
+       "tone": "gentle"
+      }
+     ],
+     "sfx": "heart monitor",
+     "transition": "cut"
+    },
+    {
+     "n": 10,
+     "dur": 8,
+     "loc": "a4_hospital2",
+     "chars": [
+      "a4_funmi"
+     ],
+     "keyframe": "Funmi in the doorway, tears streaming",
+     "action": "Funmi in the doorway, tears streaming",
+     "camera": "dramatic crash zoom into a close-up, then hold",
+     "lines": [
+      {
+       "c": "a4_funmi",
+       "t": "Segun, how do I ever repay you?",
+       "tone": "sobbing"
+      }
+     ],
+     "sfx": "deep boom",
+     "transition": "cut",
+     "freeze": 1.5
+    }
+   ],
+   "loop_note": "cliffhanger freeze-frame; tomorrow opens with a 3 s 'previously' flash of it"
+  },
+  {
+   "id": "MOS-024",
+   "number": 24,
+   "arc": "a4",
+   "arc_title": "Borrowed",
+   "arc_logline": "A best friend borrows two million naira and disappears, but the real reason is a secret that could end a marriage.",
+   "part": 6,
+   "part_title": "Brothers",
+   "part_label": "PART 6 OF 6 · BORROWED",
+   "title": "Twenty years. One truth. | Borrowed Part 6 #shorts",
+   "hook_text": "Twenty years. One truth.",
+   "logline": "Borrowed part 6, Brothers: Repay me? Name your first son after me. / Deal. Segun the Second. / No more secrets in this house. I promise you. / Same here.",
+   "description": "A best friend borrows two million naira and disappears, but the real reason is a secret that could end a marriage.\n\nBorrowed, part 6 of 6: Brothers.\n\nMoral Of The Story TV: a new story every week, and the full movie after every finale.",
+   "tags": [
+    "moral of the story",
+    "nigerian drama",
+    "short drama",
+    "african drama",
+    "family drama",
+    "borrowed",
+    "storytime",
+    "drama series"
+   ],
+   "music": "nollywood suspense",
+   "guests": {
+    "a4_dayo": {
+     "name": "Dayo",
+     "ref_prompt": "a 31-year-old Nigerian man, athletic build, short twists, denim jacket over a white T-shirt",
+     "voice": "a warm, expressive male voice",
+     "species": "human"
+    },
+    "a4_segun": {
+     "name": "Segun",
+     "ref_prompt": "a 31-year-old Nigerian man, clean-shaven, round glasses, blue checked shirt",
+     "voice": "a gentle, slightly husky male voice",
+     "species": "human"
+    },
+    "a4_funmi": {
+     "name": "Funmi",
+     "ref_prompt": "a 29-year-old Nigerian woman, long braids, mustard-yellow dress",
+     "voice": "a soft, anxious female voice",
+     "species": "human"
+    },
+    "a4_collector": {
+     "name": "The collector",
+     "ref_prompt": "a tall, stern Nigerian man in a black leather jacket and dark sunglasses",
+     "voice": "a low, menacing male voice",
+     "species": "human"
+    },
+    "a4_bimpe": {
+     "name": "Nurse Bimpe",
+     "ref_prompt": "a 25-year-old Nigerian woman, short natural hair, teal nurse scrubs",
+     "voice": "a calm, kind female voice",
+     "species": "human"
+    }
+   },
+   "locations": {
+    "a4_apartment": "a cosy Lagos apartment living room with a small balcony, evening light",
+    "a4_shop": "a small fashion boutique with mannequins and rolls of fabric",
+    "a4_terminal": "a busy city bus terminal at dawn, yellow buses, vendors",
+    "a4_segun_room": "a small rented room, mattress on the floor, a laptop, one window",
+    "a4_abuja_street": "a quiet Abuja street at dawn, a row of small rented flats",
+    "a4_hospital2": "a hospital corridor and ward at night, soft blue light"
+   },
+   "end_card": "",
+   "moral": "A true friend protects you, even at his own cost.",
+   "arc_finale": true,
+   "captions": {
+    "tiktok": "Twenty years. One truth. 😳 Part 6/6 · Borrowed. The moral of the story: A true friend protects you, even at his own cost. #moralofthestory #nigeriandrama #shortdrama #storytime #aidrama",
+    "facebook": "Borrowed, part 6 of 6: Brothers. A best friend borrows two million naira and disappears, but the real reason is a secret that could end a marriage. The moral of the story: A true friend protects you, even at his own cost."
+   },
+   "shots": [
+    {
+     "n": 1,
+     "dur": 8,
+     "loc": "a4_hospital2",
+     "chars": [
+      "a4_segun"
+     ],
+     "keyframe": "Segun grins weakly at Funmi",
+     "action": "Segun grins weakly at Funmi",
+     "camera": "dramatic crash zoom into a close-up, then hold",
+     "lines": [
+      {
+       "c": "a4_segun",
+       "t": "Repay me? Name your first son after me.",
+       "tone": "teasing"
+      }
+     ],
+     "sfx": "soft laugh",
+     "transition": "cut"
+    },
+    {
+     "n": 2,
+     "dur": 8,
+     "loc": "a4_hospital2",
+     "chars": [
+      "a4_dayo"
+     ],
+     "keyframe": "Dayo laughs through tears",
+     "action": "Dayo laughs through tears",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a4_dayo",
+       "t": "Deal. Segun the Second.",
+       "tone": "laughing"
+      }
+     ],
+     "sfx": "warm strings",
+     "transition": "cut"
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "a4_apartment",
+     "chars": [
+      "a4_funmi",
+      "a4_dayo"
+     ],
+     "keyframe": "Funmi and Dayo on their sofa, holding hands",
+     "action": "Funmi and Dayo on their sofa, holding hands",
+     "camera": "two-shot, shallow focus, slow lateral dolly",
+     "lines": [
+      {
+       "c": "a4_funmi",
+       "t": "No more secrets in this house. I promise you.",
+       "tone": "sincere"
+      },
+      {
+       "c": "a4_dayo",
+       "t": "Same here.",
+       "tone": "warm"
+      }
+     ],
+     "sfx": "clock ticking",
+     "transition": "dip"
+    },
+    {
+     "n": 4,
+     "dur": 8,
+     "loc": "a4_shop",
+     "chars": [
+      "a4_funmi"
+     ],
+     "keyframe": "Funmi's boutique busy with customers",
+     "action": "Funmi's boutique busy with customers",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a4_funmi",
+       "t": "Business is good. And this time, it's honest money.",
+       "tone": "proud"
+      }
+     ],
+     "sfx": "shop bell, chatter",
+     "transition": "flash"
+    },
+    {
+     "n": 5,
+     "dur": 8,
+     "loc": "a4_apartment",
+     "chars": [
+      "a4_segun"
+     ],
+     "keyframe": "Segun, healthy again, at their dinner table",
+     "action": "Segun, healthy again, at their dinner table",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a4_segun",
+       "t": "So the house deposit, are you still saving?",
+       "tone": "curious"
+      }
+     ],
+     "sfx": "cutlery",
+     "transition": "dip"
+    },
+    {
+     "n": 6,
+     "dur": 8,
+     "loc": "a4_apartment",
+     "chars": [
+      "a4_dayo"
+     ],
+     "keyframe": "Dayo shrugs, smiling",
+     "action": "Dayo shrugs, smiling",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a4_dayo",
+       "t": "We'll save again. Some things are worth more than a house.",
+       "tone": "content"
+      }
+     ],
+     "sfx": "warm strings",
+     "transition": "cut"
+    },
+    {
+     "n": 7,
+     "dur": 8,
+     "loc": "a4_apartment",
+     "chars": [
+      "a4_funmi",
+      "a4_segun"
+     ],
+     "keyframe": "Funmi slides an envelope across the table",
+     "action": "Funmi slides an envelope across the table",
+     "camera": "two-shot, shallow focus, slow lateral dolly",
+     "lines": [
+      {
+       "c": "a4_funmi",
+       "t": "Your two million. Every naira, back.",
+       "tone": "grateful"
+      }
+     ],
+     "sfx": "envelope slide",
+     "transition": "cut"
+    },
+    {
+     "n": 8,
+     "dur": 8,
+     "loc": "a4_apartment",
+     "chars": [
+      "a4_segun"
+     ],
+     "keyframe": "Segun pushes it gently back",
+     "action": "Segun pushes it gently back",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a4_segun",
+       "t": "I only wanted my brother back.",
+       "tone": "sincere"
+      }
+     ],
+     "sfx": "soft piano",
+     "transition": "cut"
+    },
+    {
+     "n": 9,
+     "dur": 8,
+     "loc": "a4_apartment",
+     "chars": [
+      "a4_dayo",
+      "a4_segun"
+     ],
+     "keyframe": "Dayo raises a glass",
+     "action": "Dayo raises a glass",
+     "camera": "two-shot, shallow focus, slow lateral dolly",
+     "lines": [
+      {
+       "c": "a4_dayo",
+       "t": "To twenty more years. With the truth this time.",
+       "tone": "joyful"
+      }
+     ],
+     "sfx": "glasses clink",
+     "transition": "cut"
+    },
+    {
+     "n": 10,
+     "dur": 8,
+     "loc": "a4_apartment",
+     "chars": [],
+     "keyframe": "Three friends laughing on the balcony at sunset, Lagos skyline behind them",
+     "action": "Three friends laughing on the balcony at sunset, Lagos skyline behind them",
+     "camera": "wide establishing shot, slow dolly-in",
+     "lines": [],
+     "sfx": "city hum, music",
+     "transition": "cut"
+    }
+   ],
+   "loop_note": "cliffhanger freeze-frame; tomorrow opens with a 3 s 'previously' flash of it"
+  },
+  {
+   "id": "MOS-025",
+   "number": 25,
+   "arc": "a5",
+   "arc_title": "The Landlord's Daughter",
+   "arc_logline": "A proud landlord threatens to evict a struggling family, until his daughter's love for their son unearths a story from his own past.",
+   "part": 1,
+   "part_title": "Eviction",
+   "part_label": "PART 1 OF 6 · THE LANDLORD'S DAUGHTER",
+   "title": "Pay by Friday. Or get out. | The Landlord's Daughter Part 1 #shorts",
+   "hook_text": "Pay by Friday. Or get out.",
+   "logline": "The Landlord's Daughter part 1, Eviction: Three months late! Pay by Friday, or your things go on the street. / Chief, please. My stall burned. Give me one month. / My house is not a charity.",
+   "description": "A proud landlord threatens to evict a struggling family, until his daughter's love for their son unearths a story from his own past.\n\nThe Landlord's Daughter, part 1 of 6: Eviction.\n\nBusted? Tell us in the comments.\n\nMoral Of The Story TV: a new story every week, and the full movie after every finale.",
+   "tags": [
+    "moral of the story",
+    "nigerian drama",
+    "short drama",
+    "african drama",
+    "family drama",
+    "the landlord's daughter",
+    "storytime",
+    "drama series"
+   ],
+   "music": "tender strings",
+   "guests": {
+    "a5_chief": {
+     "name": "Chief Balogun",
+     "ref_prompt": "a 65-year-old Nigerian man, grey beard, rich royal-blue embroidered kaftan, gold rings",
+     "voice": "a booming, proud older male voice",
+     "species": "human"
+    },
+    "a5_temi": {
+     "name": "Temi",
+     "ref_prompt": "a 26-year-old Nigerian woman, graceful, long braids, lavender dress",
+     "voice": "a warm, determined female voice",
+     "species": "human"
+    },
+    "a5_kunle": {
+     "name": "Kunle",
+     "ref_prompt": "a 28-year-old Nigerian man, short hair, strong build, oil-stained grey overalls",
+     "voice": "a calm, steady male voice",
+     "species": "human"
+    },
+    "a5_mama_kunle": {
+     "name": "Mama Kunle",
+     "ref_prompt": "a 55-year-old Nigerian woman, kind round face, simple floral dress and headscarf",
+     "voice": "a warm, knowing female voice",
+     "species": "human"
+    }
+   },
+   "locations": {
+    "a5_compound2": "a large Lagos tenement yard, rows of rooms, washing lines, a big iron gate",
+    "a5_mansion": "a grand Lagos mansion sitting room, gold accents, leather sofas, a large portrait on the wall",
+    "a5_workshop": "a roadside auto workshop, a car on a jack, tools, sparks",
+    "a5_kunle_room": "a small, neat one-room apartment, stacked books, a single bulb",
+    "a5_food_stall": "a roadside food stall with steaming pots under a big umbrella",
+    "a5_highway": "a dark expressway at midnight, hazard lights blinking, empty road"
+   },
+   "end_card": "BUSTED?|PART 2 TOMORROW",
+   "captions": {
+    "tiktok": "Pay by Friday. Or get out. 😳 Part 1/6 · The Landlord's Daughter. Busted? #moralofthestory #nigeriandrama #shortdrama #storytime #aidrama",
+    "facebook": "The Landlord's Daughter, part 1 of 6: Eviction. A proud landlord threatens to evict a struggling family, until his daughter's love for their son unearths a story from his own past. Busted? Follow Moral Of The Story TV for part 2."
+   },
+   "shots": [
+    {
+     "n": 1,
+     "dur": 8,
+     "loc": "a5_compound2",
+     "chars": [
+      "a5_chief",
+      "a5_mama_kunle"
+     ],
+     "keyframe": "Chief Balogun towers over Mama Kunle in the crowded tenement yard",
+     "action": "Chief Balogun towers over Mama Kunle in the crowded tenement yard",
+     "camera": "dramatic crash zoom into a close-up, then hold",
+     "lines": [
+      {
+       "c": "a5_chief",
+       "t": "Three months late! Pay by Friday, or your things go on the street.",
+       "tone": "thundering"
+      }
+     ],
+     "sfx": "deep boom",
+     "transition": "cut"
+    },
+    {
+     "n": 2,
+     "dur": 8,
+     "loc": "a5_compound2",
+     "chars": [
+      "a5_mama_kunle"
+     ],
+     "keyframe": "Mama Kunle clasps her hands",
+     "action": "Mama Kunle clasps her hands",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a5_mama_kunle",
+       "t": "Chief, please. My stall burned. Give me one month.",
+       "tone": "pleading"
+      }
+     ],
+     "sfx": "neighbours murmuring",
+     "transition": "cut"
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "a5_compound2",
+     "chars": [
+      "a5_chief"
+     ],
+     "keyframe": "Chief adjusts his embroidered kaftan",
+     "action": "Chief adjusts his embroidered kaftan",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a5_chief",
+       "t": "My house is not a charity.",
+       "tone": "cold"
+      }
+     ],
+     "sfx": "tense strings",
+     "transition": "cut"
+    },
+    {
+     "n": 4,
+     "dur": 8,
+     "loc": "a5_workshop",
+     "chars": [
+      "a5_kunle"
+     ],
+     "keyframe": "Kunle under a car in the roadside workshop, his phone buzzing",
+     "action": "Kunle under a car in the roadside workshop, his phone buzzing",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a5_kunle",
+       "t": "Mama? Calm down. I'm coming.",
+       "tone": "worried"
+      }
+     ],
+     "sfx": "tools clanking",
+     "transition": "dip"
+    },
+    {
+     "n": 5,
+     "dur": 8,
+     "loc": "a5_compound2",
+     "chars": [
+      "a5_kunle",
+      "a5_chief"
+     ],
+     "keyframe": "Kunle in oil-stained overalls stands before the Chief",
+     "action": "Kunle in oil-stained overalls stands before the Chief",
+     "camera": "two-shot, shallow focus, slow lateral dolly",
+     "lines": [
+      {
+       "c": "a5_kunle",
+       "t": "Sir, I'll pay. Every kobo. Just give me two weeks.",
+       "tone": "respectful"
+      }
+     ],
+     "sfx": "crowd murmur",
+     "transition": "flash"
+    },
+    {
+     "n": 6,
+     "dur": 8,
+     "loc": "a5_compound2",
+     "chars": [
+      "a5_chief"
+     ],
+     "keyframe": "Chief eyes the overalls with contempt",
+     "action": "Chief eyes the overalls with contempt",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a5_chief",
+       "t": "A mechanic with promises. I've heard that song before.",
+       "tone": "scornful"
+      }
+     ],
+     "sfx": "scoff",
+     "transition": "cut"
+    },
+    {
+     "n": 7,
+     "dur": 8,
+     "loc": "a5_kunle_room",
+     "chars": [
+      "a5_kunle",
+      "a5_temi"
+     ],
+     "keyframe": "Night: Temi slips into Kunle's small room",
+     "action": "Night: Temi slips into Kunle's small room",
+     "camera": "two-shot, shallow focus, slow lateral dolly",
+     "lines": [
+      {
+       "c": "a5_temi",
+       "t": "I heard what my father said. I'm so sorry.",
+       "tone": "tender"
+      }
+     ],
+     "sfx": "door creak, crickets",
+     "transition": "dip"
+    },
+    {
+     "n": 8,
+     "dur": 8,
+     "loc": "a5_kunle_room",
+     "chars": [
+      "a5_temi"
+     ],
+     "keyframe": "Temi holds out an envelope",
+     "action": "Temi holds out an envelope",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a5_temi",
+       "t": "I brought money. My savings. Please, take it.",
+       "tone": "earnest"
+      }
+     ],
+     "sfx": "envelope rustle",
+     "transition": "cut"
+    },
+    {
+     "n": 9,
+     "dur": 8,
+     "loc": "a5_kunle_room",
+     "chars": [
+      "a5_kunle"
+     ],
+     "keyframe": "Kunle gently closes her hand around it",
+     "action": "Kunle gently closes her hand around it",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a5_kunle",
+       "t": "I can't take your money, Temi. I'll earn it.",
+       "tone": "proud, soft"
+      }
+     ],
+     "sfx": "soft piano",
+     "transition": "cut"
+    },
+    {
+     "n": 10,
+     "dur": 8,
+     "loc": "a5_kunle_room",
+     "chars": [
+      "a5_chief"
+     ],
+     "keyframe": "The door bursts open: Chief Balogun stands there",
+     "action": "The door bursts open: Chief Balogun stands there",
+     "camera": "dramatic crash zoom into a close-up, then hold",
+     "lines": [
+      {
+       "c": "a5_chief",
+       "t": "Temi?! In this room?!",
+       "tone": "roaring"
+      }
+     ],
+     "sfx": "door slam, boom",
+     "transition": "cut",
+     "freeze": 1.5
+    }
+   ],
+   "loop_note": "cliffhanger freeze-frame; tomorrow opens with a 3 s 'previously' flash of it"
+  },
+  {
+   "id": "MOS-026",
+   "number": 26,
+   "arc": "a5",
+   "arc_title": "The Landlord's Daughter",
+   "arc_logline": "A proud landlord threatens to evict a struggling family, until his daughter's love for their son unearths a story from his own past.",
+   "part": 2,
+   "part_title": "Forbidden",
+   "part_label": "PART 2 OF 6 · THE LANDLORD'S DAUGHTER",
+   "title": "My daughter will not marry a mechanic. | The Landlord's Daughter Part 2 #shorts",
+   "hook_text": "My daughter will not marry a mechanic.",
+   "logline": "The Landlord's Daughter part 2, Forbidden: A mechanic! I sent you to London for a mechanic?! / He's building an engine that runs on half the fuel, Daddy. / And I'm building a dynasty. Not with grease.",
+   "description": "A proud landlord threatens to evict a struggling family, until his daughter's love for their son unearths a story from his own past.\n\nThe Landlord's Daughter, part 2 of 6: Forbidden.\n\nCan love win? Tell us in the comments.\n\nMoral Of The Story TV: a new story every week, and the full movie after every finale.",
+   "tags": [
+    "moral of the story",
+    "nigerian drama",
+    "short drama",
+    "african drama",
+    "family drama",
+    "the landlord's daughter",
+    "storytime",
+    "drama series"
+   ],
+   "music": "tender strings",
+   "guests": {
+    "a5_chief": {
+     "name": "Chief Balogun",
+     "ref_prompt": "a 65-year-old Nigerian man, grey beard, rich royal-blue embroidered kaftan, gold rings",
+     "voice": "a booming, proud older male voice",
+     "species": "human"
+    },
+    "a5_temi": {
+     "name": "Temi",
+     "ref_prompt": "a 26-year-old Nigerian woman, graceful, long braids, lavender dress",
+     "voice": "a warm, determined female voice",
+     "species": "human"
+    },
+    "a5_kunle": {
+     "name": "Kunle",
+     "ref_prompt": "a 28-year-old Nigerian man, short hair, strong build, oil-stained grey overalls",
+     "voice": "a calm, steady male voice",
+     "species": "human"
+    },
+    "a5_mama_kunle": {
+     "name": "Mama Kunle",
+     "ref_prompt": "a 55-year-old Nigerian woman, kind round face, simple floral dress and headscarf",
+     "voice": "a warm, knowing female voice",
+     "species": "human"
+    }
+   },
+   "locations": {
+    "a5_compound2": "a large Lagos tenement yard, rows of rooms, washing lines, a big iron gate",
+    "a5_mansion": "a grand Lagos mansion sitting room, gold accents, leather sofas, a large portrait on the wall",
+    "a5_workshop": "a roadside auto workshop, a car on a jack, tools, sparks",
+    "a5_kunle_room": "a small, neat one-room apartment, stacked books, a single bulb",
+    "a5_food_stall": "a roadside food stall with steaming pots under a big umbrella",
+    "a5_highway": "a dark expressway at midnight, hazard lights blinking, empty road"
+   },
+   "end_card": "CAN LOVE WIN?|PART 3 TOMORROW",
+   "captions": {
+    "tiktok": "My daughter will not marry a mechanic. 😳 Part 2/6 · The Landlord's Daughter. Can love win? #moralofthestory #nigeriandrama #shortdrama #storytime #aidrama",
+    "facebook": "The Landlord's Daughter, part 2 of 6: Forbidden. A proud landlord threatens to evict a struggling family, until his daughter's love for their son unearths a story from his own past. Can love win? Follow Moral Of The Story TV for part 3."
+   },
+   "shots": [
+    {
+     "n": 1,
+     "dur": 8,
+     "loc": "a5_mansion",
+     "chars": [
+      "a5_chief",
+      "a5_temi"
+     ],
+     "keyframe": "Chief paces his gold-accented sitting room",
+     "action": "Chief paces his gold-accented sitting room",
+     "camera": "dramatic crash zoom into a close-up, then hold",
+     "lines": [
+      {
+       "c": "a5_chief",
+       "t": "A mechanic! I sent you to London for a mechanic?!",
+       "tone": "furious"
+      }
+     ],
+     "sfx": "deep boom",
+     "transition": "cut"
+    },
+    {
+     "n": 2,
+     "dur": 8,
+     "loc": "a5_mansion",
+     "chars": [
+      "a5_temi"
+     ],
+     "keyframe": "Temi stands her ground",
+     "action": "Temi stands her ground",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a5_temi",
+       "t": "He's building an engine that runs on half the fuel, Daddy.",
+       "tone": "passionate"
+      }
+     ],
+     "sfx": "tense strings",
+     "transition": "cut"
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "a5_mansion",
+     "chars": [
+      "a5_chief"
+     ],
+     "keyframe": "Chief waves it away",
+     "action": "Chief waves it away",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a5_chief",
+       "t": "And I'm building a dynasty. Not with grease.",
+       "tone": "dismissive"
+      }
+     ],
+     "sfx": "clock ticking",
+     "transition": "cut"
+    },
+    {
+     "n": 4,
+     "dur": 8,
+     "loc": "a5_mansion",
+     "chars": [
+      "a5_temi"
+     ],
+     "keyframe": "Temi's eyes flash",
+     "action": "Temi's eyes flash",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a5_temi",
+       "t": "You always say you started with nothing.",
+       "tone": "challenging"
+      }
+     ],
+     "sfx": "low drone",
+     "transition": "cut"
+    },
+    {
+     "n": 5,
+     "dur": 8,
+     "loc": "a5_mansion",
+     "chars": [
+      "a5_chief"
+     ],
+     "keyframe": "Chief turns to the window",
+     "action": "Chief turns to the window",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a5_chief",
+       "t": "Exactly. So I know what nothing looks like. I won't give you back to it.",
+       "tone": "heavy"
+      }
+     ],
+     "sfx": "soft piano",
+     "transition": "cut"
+    },
+    {
+     "n": 6,
+     "dur": 8,
+     "loc": "a5_workshop",
+     "chars": [
+      "a5_kunle"
+     ],
+     "keyframe": "Night: Kunle welds an engine prototype, sparks flying",
+     "action": "Night: Kunle welds an engine prototype, sparks flying",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a5_kunle",
+       "t": "One more test. If it works, nobody can call me nothing.",
+       "tone": "determined"
+      }
+     ],
+     "sfx": "welding hiss",
+     "transition": "dip"
+    },
+    {
+     "n": 7,
+     "dur": 8,
+     "loc": "a5_food_stall",
+     "chars": [
+      "a5_mama_kunle"
+     ],
+     "keyframe": "Mama Kunle frying akara at her roadside stall, staring into the oil",
+     "action": "Mama Kunle frying akara at her roadside stall, staring into the oil",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a5_mama_kunle",
+       "t": "Balogun. After all these years, you still don't remember me.",
+       "tone": "to herself"
+      }
+     ],
+     "sfx": "oil sizzling",
+     "transition": "flash"
+    },
+    {
+     "n": 8,
+     "dur": 8,
+     "loc": "a5_compound2",
+     "chars": [
+      "a5_chief"
+     ],
+     "keyframe": "Chief nails an eviction notice to the gate",
+     "action": "Chief nails an eviction notice to the gate",
+     "camera": "wide establishing shot, slow dolly-in",
+     "lines": [
+      {
+       "c": "a5_chief",
+       "t": "Friday. No more chances.",
+       "tone": "cold"
+      }
+     ],
+     "sfx": "hammering",
+     "transition": "dip"
+    },
+    {
+     "n": 9,
+     "dur": 8,
+     "loc": "a5_workshop",
+     "chars": [
+      "a5_kunle",
+      "a5_temi"
+     ],
+     "keyframe": "Temi grips Kunle's arm in the workshop",
+     "action": "Temi grips Kunle's arm in the workshop",
+     "camera": "two-shot, shallow focus, slow lateral dolly",
+     "lines": [
+      {
+       "c": "a5_temi",
+       "t": "He's evicting you Friday. Run away with me.",
+       "tone": "urgent"
+      },
+      {
+       "c": "a5_kunle",
+       "t": "Running is not love.",
+       "tone": "firm"
+      }
+     ],
+     "sfx": "tools clink",
+     "transition": "cut"
+    },
+    {
+     "n": 10,
+     "dur": 8,
+     "loc": "a5_workshop",
+     "chars": [
+      "a5_kunle"
+     ],
+     "keyframe": "The prototype engine roars to life with a clean blue flame",
+     "action": "The prototype engine roars to life with a clean blue flame",
+     "camera": "dramatic crash zoom into a close-up, then hold",
+     "lines": [
+      {
+       "c": "a5_kunle",
+       "t": "It works. It actually works!",
+       "tone": "overjoyed"
+      }
+     ],
+     "sfx": "engine roar, boom",
+     "transition": "cut",
+     "freeze": 1.5
+    }
+   ],
+   "loop_note": "cliffhanger freeze-frame; tomorrow opens with a 3 s 'previously' flash of it"
+  },
+  {
+   "id": "MOS-027",
+   "number": 27,
+   "arc": "a5",
+   "arc_title": "The Landlord's Daughter",
+   "arc_logline": "A proud landlord threatens to evict a struggling family, until his daughter's love for their son unearths a story from his own past.",
+   "part": 3,
+   "part_title": "Breakdown",
+   "part_label": "PART 3 OF 6 · THE LANDLORD'S DAUGHTER",
+   "title": "Stranded at midnight. One man can help. | The Landlord's Daughter Part 3 #shorts",
+   "hook_text": "Stranded at midnight. One man can help.",
+   "logline": "The Landlord's Daughter part 3, Breakdown: This car cost eighty million! How can it die here? / Daddy, it's midnight. This road isn't safe. / Nobody is picking up. Nobody!",
+   "description": "A proud landlord threatens to evict a struggling family, until his daughter's love for their son unearths a story from his own past.\n\nThe Landlord's Daughter, part 3 of 6: Breakdown.\n\nWho taught him? Tell us in the comments.\n\nMoral Of The Story TV: a new story every week, and the full movie after every finale.",
+   "tags": [
+    "moral of the story",
+    "nigerian drama",
+    "short drama",
+    "african drama",
+    "family drama",
+    "the landlord's daughter",
+    "storytime",
+    "drama series"
+   ],
+   "music": "tender strings",
+   "guests": {
+    "a5_chief": {
+     "name": "Chief Balogun",
+     "ref_prompt": "a 65-year-old Nigerian man, grey beard, rich royal-blue embroidered kaftan, gold rings",
+     "voice": "a booming, proud older male voice",
+     "species": "human"
+    },
+    "a5_temi": {
+     "name": "Temi",
+     "ref_prompt": "a 26-year-old Nigerian woman, graceful, long braids, lavender dress",
+     "voice": "a warm, determined female voice",
+     "species": "human"
+    },
+    "a5_kunle": {
+     "name": "Kunle",
+     "ref_prompt": "a 28-year-old Nigerian man, short hair, strong build, oil-stained grey overalls",
+     "voice": "a calm, steady male voice",
+     "species": "human"
+    },
+    "a5_mama_kunle": {
+     "name": "Mama Kunle",
+     "ref_prompt": "a 55-year-old Nigerian woman, kind round face, simple floral dress and headscarf",
+     "voice": "a warm, knowing female voice",
+     "species": "human"
+    }
+   },
+   "locations": {
+    "a5_compound2": "a large Lagos tenement yard, rows of rooms, washing lines, a big iron gate",
+    "a5_mansion": "a grand Lagos mansion sitting room, gold accents, leather sofas, a large portrait on the wall",
+    "a5_workshop": "a roadside auto workshop, a car on a jack, tools, sparks",
+    "a5_kunle_room": "a small, neat one-room apartment, stacked books, a single bulb",
+    "a5_food_stall": "a roadside food stall with steaming pots under a big umbrella",
+    "a5_highway": "a dark expressway at midnight, hazard lights blinking, empty road"
+   },
+   "end_card": "WHO TAUGHT HIM?|PART 4 TOMORROW",
+   "captions": {
+    "tiktok": "Stranded at midnight. One man can help. 😳 Part 3/6 · The Landlord's Daughter. Who taught him? #moralofthestory #nigeriandrama #shortdrama #storytime #aidrama",
+    "facebook": "The Landlord's Daughter, part 3 of 6: Breakdown. A proud landlord threatens to evict a struggling family, until his daughter's love for their son unearths a story from his own past. Who taught him? Follow Moral Of The Story TV for part 4."
+   },
+   "shots": [
+    {
+     "n": 1,
+     "dur": 8,
+     "loc": "a5_highway",
+     "chars": [
+      "a5_chief",
+      "a5_temi"
+     ],
+     "keyframe": "Midnight: Chief's luxury car dead on a dark expressway, hazard lights blinking",
+     "action": "Midnight: Chief's luxury car dead on a dark expressway, hazard lights blinking",
+     "camera": "dramatic crash zoom into a close-up, then hold",
+     "lines": [
+      {
+       "c": "a5_chief",
+       "t": "This car cost eighty million! How can it die here?",
+       "tone": "outraged"
+      }
+     ],
+     "sfx": "hazard ticking, boom",
+     "transition": "cut"
+    },
+    {
+     "n": 2,
+     "dur": 8,
+     "loc": "a5_highway",
+     "chars": [
+      "a5_temi"
+     ],
+     "keyframe": "Temi looks around nervously",
+     "action": "Temi looks around nervously",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a5_temi",
+       "t": "Daddy, it's midnight. This road isn't safe.",
+       "tone": "scared"
+      }
+     ],
+     "sfx": "wind, crickets",
+     "transition": "cut"
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "a5_highway",
+     "chars": [
+      "a5_chief"
+     ],
+     "keyframe": "Chief jabs at his phone",
+     "action": "Chief jabs at his phone",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a5_chief",
+       "t": "Nobody is picking up. Nobody!",
+       "tone": "panicking"
+      }
+     ],
+     "sfx": "dial tone",
+     "transition": "cut"
+    },
+    {
+     "n": 4,
+     "dur": 8,
+     "loc": "a5_highway",
+     "chars": [
+      "a5_temi"
+     ],
+     "keyframe": "Temi makes a call",
+     "action": "Temi makes a call",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a5_temi",
+       "t": "Kunle, please. We're stuck on the expressway.",
+       "tone": "urgent"
+      }
+     ],
+     "sfx": "wind",
+     "transition": "cut"
+    },
+    {
+     "n": 5,
+     "dur": 8,
+     "loc": "a5_highway",
+     "chars": [
+      "a5_chief"
+     ],
+     "keyframe": "Chief scoffs",
+     "action": "Chief scoffs",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a5_chief",
+       "t": "Him? I would rather sleep on this road.",
+       "tone": "proud"
+      }
+     ],
+     "sfx": "distant truck",
+     "transition": "cut"
+    },
+    {
+     "n": 6,
+     "dur": 8,
+     "loc": "a5_highway",
+     "chars": [
+      "a5_temi"
+     ],
+     "keyframe": "Headlights approach slowly from behind",
+     "action": "Headlights approach slowly from behind",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a5_temi",
+       "t": "Daddy, that car has been following us.",
+       "tone": "terrified"
+      }
+     ],
+     "sfx": "engine approaching",
+     "transition": "flash"
+    },
+    {
+     "n": 7,
+     "dur": 8,
+     "loc": "a5_highway",
+     "chars": [
+      "a5_chief"
+     ],
+     "keyframe": "Fear in Chief's eyes",
+     "action": "Fear in Chief's eyes",
+     "camera": "extreme close-up on the eyes, very slow push-in",
+     "lines": [
+      {
+       "c": "a5_chief",
+       "t": "Get in the car, Temi. Lock the doors.",
+       "tone": "afraid"
+      }
+     ],
+     "sfx": "heartbeat",
+     "transition": "cut"
+    },
+    {
+     "n": 8,
+     "dur": 8,
+     "loc": "a5_highway",
+     "chars": [
+      "a5_kunle"
+     ],
+     "keyframe": "A battered tow van pulls up and Kunle jumps out with a torch",
+     "action": "A battered tow van pulls up and Kunle jumps out with a torch",
+     "camera": "low-angle hero shot, slow push-in",
+     "lines": [
+      {
+       "c": "a5_kunle",
+       "t": "Good evening, sir. Let me look.",
+       "tone": "calm"
+      }
+     ],
+     "sfx": "van door, footsteps",
+     "transition": "dip"
+    },
+    {
+     "n": 9,
+     "dur": 8,
+     "loc": "a5_highway",
+     "chars": [
+      "a5_kunle"
+     ],
+     "keyframe": "Kunle works under the bonnet by torchlight",
+     "action": "Kunle works under the bonnet by torchlight",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a5_kunle",
+       "t": "Fuel pump. Give me ten minutes.",
+       "tone": "focused"
+      }
+     ],
+     "sfx": "tools clinking",
+     "transition": "cut"
+    },
+    {
+     "n": 10,
+     "dur": 8,
+     "loc": "a5_highway",
+     "chars": [
+      "a5_chief"
+     ],
+     "keyframe": "The engine roars back to life and Chief stares at Kunle",
+     "action": "The engine roars back to life and Chief stares at Kunle",
+     "camera": "dramatic crash zoom into a close-up, then hold",
+     "lines": [
+      {
+       "c": "a5_chief",
+       "t": "Who taught you this?",
+       "tone": "stunned"
+      }
+     ],
+     "sfx": "engine roar, boom",
+     "transition": "cut",
+     "freeze": 1.5
+    }
+   ],
+   "loop_note": "cliffhanger freeze-frame; tomorrow opens with a 3 s 'previously' flash of it"
+  },
+  {
+   "id": "MOS-028",
+   "number": 28,
+   "arc": "a5",
+   "arc_title": "The Landlord's Daughter",
+   "arc_logline": "A proud landlord threatens to evict a struggling family, until his daughter's love for their son unearths a story from his own past.",
+   "part": 4,
+   "part_title": "The Offer",
+   "part_label": "PART 4 OF 6 · THE LANDLORD'S DAUGHTER",
+   "title": "Five million to leave my daughter. | The Landlord's Daughter Part 4 #shorts",
+   "hook_text": "Five million to leave my daughter.",
+   "logline": "The Landlord's Daughter part 4, The Offer: Five million naira. Leave Lagos. Leave Temi. / Sir, you think love has a price? / Everything has a price. Even me, once.",
+   "description": "A proud landlord threatens to evict a struggling family, until his daughter's love for their son unearths a story from his own past.\n\nThe Landlord's Daughter, part 4 of 6: The Offer.\n\nWho is she? Tell us in the comments.\n\nMoral Of The Story TV: a new story every week, and the full movie after every finale.",
+   "tags": [
+    "moral of the story",
+    "nigerian drama",
+    "short drama",
+    "african drama",
+    "family drama",
+    "the landlord's daughter",
+    "storytime",
+    "drama series"
+   ],
+   "music": "tender strings",
+   "guests": {
+    "a5_chief": {
+     "name": "Chief Balogun",
+     "ref_prompt": "a 65-year-old Nigerian man, grey beard, rich royal-blue embroidered kaftan, gold rings",
+     "voice": "a booming, proud older male voice",
+     "species": "human"
+    },
+    "a5_temi": {
+     "name": "Temi",
+     "ref_prompt": "a 26-year-old Nigerian woman, graceful, long braids, lavender dress",
+     "voice": "a warm, determined female voice",
+     "species": "human"
+    },
+    "a5_kunle": {
+     "name": "Kunle",
+     "ref_prompt": "a 28-year-old Nigerian man, short hair, strong build, oil-stained grey overalls",
+     "voice": "a calm, steady male voice",
+     "species": "human"
+    },
+    "a5_mama_kunle": {
+     "name": "Mama Kunle",
+     "ref_prompt": "a 55-year-old Nigerian woman, kind round face, simple floral dress and headscarf",
+     "voice": "a warm, knowing female voice",
+     "species": "human"
+    }
+   },
+   "locations": {
+    "a5_compound2": "a large Lagos tenement yard, rows of rooms, washing lines, a big iron gate",
+    "a5_mansion": "a grand Lagos mansion sitting room, gold accents, leather sofas, a large portrait on the wall",
+    "a5_workshop": "a roadside auto workshop, a car on a jack, tools, sparks",
+    "a5_kunle_room": "a small, neat one-room apartment, stacked books, a single bulb",
+    "a5_food_stall": "a roadside food stall with steaming pots under a big umbrella",
+    "a5_highway": "a dark expressway at midnight, hazard lights blinking, empty road"
+   },
+   "end_card": "WHO IS SHE?|PART 5 TOMORROW",
+   "captions": {
+    "tiktok": "Five million to leave my daughter. 😳 Part 4/6 · The Landlord's Daughter. Who is she? #moralofthestory #nigeriandrama #shortdrama #storytime #aidrama",
+    "facebook": "The Landlord's Daughter, part 4 of 6: The Offer. A proud landlord threatens to evict a struggling family, until his daughter's love for their son unearths a story from his own past. Who is she? Follow Moral Of The Story TV for part 5."
+   },
+   "shots": [
+    {
+     "n": 1,
+     "dur": 8,
+     "loc": "a5_mansion",
+     "chars": [
+      "a5_chief",
+      "a5_kunle"
+     ],
+     "keyframe": "Chief slides a fat envelope across a glass table",
+     "action": "Chief slides a fat envelope across a glass table",
+     "camera": "dramatic crash zoom into a close-up, then hold",
+     "lines": [
+      {
+       "c": "a5_chief",
+       "t": "Five million naira. Leave Lagos. Leave Temi.",
+       "tone": "cold"
+      }
+     ],
+     "sfx": "envelope slide, boom",
+     "transition": "cut"
+    },
+    {
+     "n": 2,
+     "dur": 8,
+     "loc": "a5_mansion",
+     "chars": [
+      "a5_kunle"
+     ],
+     "keyframe": "Kunle looks at the envelope, then at Chief",
+     "action": "Kunle looks at the envelope, then at Chief",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a5_kunle",
+       "t": "Sir, you think love has a price?",
+       "tone": "steady"
+      }
+     ],
+     "sfx": "clock ticking",
+     "transition": "cut"
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "a5_mansion",
+     "chars": [
+      "a5_chief"
+     ],
+     "keyframe": "Chief leans back",
+     "action": "Chief leans back",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a5_chief",
+       "t": "Everything has a price. Even me, once.",
+       "tone": "bitter"
+      }
+     ],
+     "sfx": "low drone",
+     "transition": "cut"
+    },
+    {
+     "n": 4,
+     "dur": 8,
+     "loc": "a5_mansion",
+     "chars": [
+      "a5_kunle"
+     ],
+     "keyframe": "Kunle stands",
+     "action": "Kunle stands",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a5_kunle",
+       "t": "I've been accepted to study engineering in Germany. Full scholarship.",
+       "tone": "proud"
+      }
+     ],
+     "sfx": "soft strings",
+     "transition": "cut"
+    },
+    {
+     "n": 5,
+     "dur": 8,
+     "loc": "a5_mansion",
+     "chars": [
+      "a5_kunle"
+     ],
+     "keyframe": "Kunle pushes the envelope back",
+     "action": "Kunle pushes the envelope back",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a5_kunle",
+       "t": "I'm leaving anyway. Not for your money. For my future.",
+       "tone": "dignified"
+      }
+     ],
+     "sfx": "strings",
+     "transition": "cut"
+    },
+    {
+     "n": 6,
+     "dur": 8,
+     "loc": "a5_mansion",
+     "chars": [
+      "a5_chief"
+     ],
+     "keyframe": "Chief is speechless",
+     "action": "Chief is speechless",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a5_chief",
+       "t": "Germany? Full scholarship?",
+       "tone": "stunned"
+      }
+     ],
+     "sfx": "heartbeat",
+     "transition": "cut"
+    },
+    {
+     "n": 7,
+     "dur": 8,
+     "loc": "a5_kunle_room",
+     "chars": [
+      "a5_temi",
+      "a5_kunle"
+     ],
+     "keyframe": "Temi confronts Kunle in his room",
+     "action": "Temi confronts Kunle in his room",
+     "camera": "two-shot, shallow focus, slow lateral dolly",
+     "lines": [
+      {
+       "c": "a5_temi",
+       "t": "Germany? When were you going to tell me?",
+       "tone": "hurt"
+      }
+     ],
+     "sfx": "crickets",
+     "transition": "dip"
+    },
+    {
+     "n": 8,
+     "dur": 8,
+     "loc": "a5_kunle_room",
+     "chars": [
+      "a5_kunle"
+     ],
+     "keyframe": "Kunle takes her hands",
+     "action": "Kunle takes her hands",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a5_kunle",
+       "t": "When I could ask your father for your hand with my head high.",
+       "tone": "tender"
+      }
+     ],
+     "sfx": "soft piano",
+     "transition": "cut"
+    },
+    {
+     "n": 9,
+     "dur": 8,
+     "loc": "a5_food_stall",
+     "chars": [
+      "a5_mama_kunle"
+     ],
+     "keyframe": "Mama Kunle holds an old photo of a young couple",
+     "action": "Mama Kunle holds an old photo of a young couple",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a5_mama_kunle",
+       "t": "Thirty-five years. It's time he remembered.",
+       "tone": "resolved"
+      }
+     ],
+     "sfx": "oil sizzling",
+     "transition": "flash"
+    },
+    {
+     "n": 10,
+     "dur": 8,
+     "loc": "a5_mansion",
+     "chars": [
+      "a5_mama_kunle",
+      "a5_chief"
+     ],
+     "keyframe": "Mama Kunle walks into the mansion and Chief turns",
+     "action": "Mama Kunle walks into the mansion and Chief turns",
+     "camera": "dramatic crash zoom into a close-up, then hold",
+     "lines": [
+      {
+       "c": "a5_mama_kunle",
+       "t": "Hello, Balo. Do you remember the girl from Mushin?",
+       "tone": "quiet"
+      }
+     ],
+     "sfx": "deep boom",
+     "transition": "cut",
+     "freeze": 1.5
+    }
+   ],
+   "loop_note": "cliffhanger freeze-frame; tomorrow opens with a 3 s 'previously' flash of it"
+  },
+  {
+   "id": "MOS-029",
+   "number": 29,
+   "arc": "a5",
+   "arc_title": "The Landlord's Daughter",
+   "arc_logline": "A proud landlord threatens to evict a struggling family, until his daughter's love for their son unearths a story from his own past.",
+   "part": 5,
+   "part_title": "Mushin",
+   "part_label": "PART 5 OF 6 · THE LANDLORD'S DAUGHTER",
+   "title": "He was poor once. She remembers. | The Landlord's Daughter Part 5 #shorts",
+   "hook_text": "He was poor once. She remembers.",
+   "logline": "The Landlord's Daughter part 5, Mushin: Adunni? From Mushin? / You sold akara with me. Barefoot. We were going to marry. / Then my father said you were nothing. And I let him decide.",
+   "description": "A proud landlord threatens to evict a struggling family, until his daughter's love for their son unearths a story from his own past.\n\nThe Landlord's Daughter, part 5 of 6: Mushin.\n\nWill he change? Tell us in the comments.\n\nMoral Of The Story TV: a new story every week, and the full movie after every finale.",
+   "tags": [
+    "moral of the story",
+    "nigerian drama",
+    "short drama",
+    "african drama",
+    "family drama",
+    "the landlord's daughter",
+    "storytime",
+    "drama series"
+   ],
+   "music": "tender strings",
+   "guests": {
+    "a5_chief": {
+     "name": "Chief Balogun",
+     "ref_prompt": "a 65-year-old Nigerian man, grey beard, rich royal-blue embroidered kaftan, gold rings",
+     "voice": "a booming, proud older male voice",
+     "species": "human"
+    },
+    "a5_temi": {
+     "name": "Temi",
+     "ref_prompt": "a 26-year-old Nigerian woman, graceful, long braids, lavender dress",
+     "voice": "a warm, determined female voice",
+     "species": "human"
+    },
+    "a5_kunle": {
+     "name": "Kunle",
+     "ref_prompt": "a 28-year-old Nigerian man, short hair, strong build, oil-stained grey overalls",
+     "voice": "a calm, steady male voice",
+     "species": "human"
+    },
+    "a5_mama_kunle": {
+     "name": "Mama Kunle",
+     "ref_prompt": "a 55-year-old Nigerian woman, kind round face, simple floral dress and headscarf",
+     "voice": "a warm, knowing female voice",
+     "species": "human"
+    }
+   },
+   "locations": {
+    "a5_compound2": "a large Lagos tenement yard, rows of rooms, washing lines, a big iron gate",
+    "a5_mansion": "a grand Lagos mansion sitting room, gold accents, leather sofas, a large portrait on the wall",
+    "a5_workshop": "a roadside auto workshop, a car on a jack, tools, sparks",
+    "a5_kunle_room": "a small, neat one-room apartment, stacked books, a single bulb",
+    "a5_food_stall": "a roadside food stall with steaming pots under a big umbrella",
+    "a5_highway": "a dark expressway at midnight, hazard lights blinking, empty road"
+   },
+   "end_card": "WILL HE CHANGE?|FINALE TOMORROW",
+   "captions": {
+    "tiktok": "He was poor once. She remembers. 😳 Part 5/6 · The Landlord's Daughter. Will he change? #moralofthestory #nigeriandrama #shortdrama #storytime #aidrama",
+    "facebook": "The Landlord's Daughter, part 5 of 6: Mushin. A proud landlord threatens to evict a struggling family, until his daughter's love for their son unearths a story from his own past. Will he change? Follow Moral Of The Story TV for part 6."
+   },
+   "shots": [
+    {
+     "n": 1,
+     "dur": 8,
+     "loc": "a5_mansion",
+     "chars": [
+      "a5_chief"
+     ],
+     "keyframe": "Chief stares at her, the years falling away",
+     "action": "Chief stares at her, the years falling away",
+     "camera": "dramatic crash zoom into a close-up, then hold",
+     "lines": [
+      {
+       "c": "a5_chief",
+       "t": "Adunni? From Mushin?",
+       "tone": "whisper"
+      }
+     ],
+     "sfx": "deep boom",
+     "transition": "cut"
+    },
+    {
+     "n": 2,
+     "dur": 8,
+     "loc": "a5_mansion",
+     "chars": [
+      "a5_mama_kunle"
+     ],
+     "keyframe": "Mama Kunle smiles sadly",
+     "action": "Mama Kunle smiles sadly",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a5_mama_kunle",
+       "t": "You sold akara with me. Barefoot. We were going to marry.",
+       "tone": "nostalgic"
+      }
+     ],
+     "sfx": "soft strings",
+     "transition": "cut"
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "a5_mansion",
+     "chars": [
+      "a5_mama_kunle"
+     ],
+     "keyframe": "Her smile fades",
+     "action": "Her smile fades",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a5_mama_kunle",
+       "t": "Then my father said you were nothing. And I let him decide.",
+       "tone": "regret"
+      }
+     ],
+     "sfx": "single piano note",
+     "transition": "cut"
+    },
+    {
+     "n": 4,
+     "dur": 8,
+     "loc": "a5_mansion",
+     "chars": [
+      "a5_chief"
+     ],
+     "keyframe": "Chief's voice hardens with old pain",
+     "action": "Chief's voice hardens with old pain",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a5_chief",
+       "t": "I swore I would become somebody, so no father could reject me again.",
+       "tone": "raw"
+      }
+     ],
+     "sfx": "low strings",
+     "transition": "cut"
+    },
+    {
+     "n": 5,
+     "dur": 8,
+     "loc": "a5_mansion",
+     "chars": [
+      "a5_mama_kunle"
+     ],
+     "keyframe": "Mama Kunle steps closer",
+     "action": "Mama Kunle steps closer",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a5_mama_kunle",
+       "t": "And now you're doing to my son what my father did to you.",
+       "tone": "piercing"
+      }
+     ],
+     "sfx": "heartbeat",
+     "transition": "cut"
+    },
+    {
+     "n": 6,
+     "dur": 8,
+     "loc": "a5_mansion",
+     "chars": [
+      "a5_chief"
+     ],
+     "keyframe": "Chief's eyes widen",
+     "action": "Chief's eyes widen",
+     "camera": "extreme close-up on the eyes, very slow push-in",
+     "lines": [
+      {
+       "c": "a5_chief",
+       "t": "Your son? Kunle is your son?",
+       "tone": "shaken"
+      }
+     ],
+     "sfx": "deep boom",
+     "transition": "cut"
+    },
+    {
+     "n": 7,
+     "dur": 8,
+     "loc": "a5_mansion",
+     "chars": [
+      "a5_temi"
+     ],
+     "keyframe": "Temi in the doorway, having heard everything",
+     "action": "Temi in the doorway, having heard everything",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a5_temi",
+       "t": "Daddy, you were the boy with nothing once.",
+       "tone": "soft"
+      }
+     ],
+     "sfx": "gasp",
+     "transition": "flash"
+    },
+    {
+     "n": 8,
+     "dur": 8,
+     "loc": "a5_mansion",
+     "chars": [
+      "a5_chief"
+     ],
+     "keyframe": "Night: Chief alone before a towering portrait of himself",
+     "action": "Night: Chief alone before a towering portrait of himself",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a5_chief",
+       "t": "Thirty-five years building walls. And I became the wall.",
+       "tone": "broken"
+      }
+     ],
+     "sfx": "clock ticking",
+     "transition": "dip"
+    },
+    {
+     "n": 9,
+     "dur": 8,
+     "loc": "a5_compound2",
+     "chars": [
+      "a5_chief"
+     ],
+     "keyframe": "Dawn: Chief tears the eviction notice from the gate",
+     "action": "Dawn: Chief tears the eviction notice from the gate",
+     "camera": "wide establishing shot, slow dolly-in",
+     "lines": [
+      {
+       "c": "a5_chief",
+       "t": "No more evictions this year. For anybody.",
+       "tone": "resolved"
+      }
+     ],
+     "sfx": "paper tearing, birds",
+     "transition": "dip"
+    },
+    {
+     "n": 10,
+     "dur": 8,
+     "loc": "a5_workshop",
+     "chars": [
+      "a5_chief"
+     ],
+     "keyframe": "Chief walks into the workshop and Kunle looks up",
+     "action": "Chief walks into the workshop and Kunle looks up",
+     "camera": "dramatic crash zoom into a close-up, then hold",
+     "lines": [
+      {
+       "c": "a5_chief",
+       "t": "Kunle. We need to talk. Man to man.",
+       "tone": "serious"
+      }
+     ],
+     "sfx": "deep boom",
+     "transition": "cut",
+     "freeze": 1.5
+    }
+   ],
+   "loop_note": "cliffhanger freeze-frame; tomorrow opens with a 3 s 'previously' flash of it"
+  },
+  {
+   "id": "MOS-030",
+   "number": 30,
+   "arc": "a5",
+   "arc_title": "The Landlord's Daughter",
+   "arc_logline": "A proud landlord threatens to evict a struggling family, until his daughter's love for their son unearths a story from his own past.",
+   "part": 6,
+   "part_title": "Doors",
+   "part_label": "PART 6 OF 6 · THE LANDLORD'S DAUGHTER",
+   "title": "Pride builds walls. | The Landlord's Daughter Part 6 #shorts",
+   "hook_text": "Pride builds walls.",
+   "logline": "The Landlord's Daughter part 6, Doors: That engine. How much to build ten? / Sir? / I'm not buying you. I'm investing in you. There's a difference.",
+   "description": "A proud landlord threatens to evict a struggling family, until his daughter's love for their son unearths a story from his own past.\n\nThe Landlord's Daughter, part 6 of 6: Doors.\n\nMoral Of The Story TV: a new story every week, and the full movie after every finale.",
+   "tags": [
+    "moral of the story",
+    "nigerian drama",
+    "short drama",
+    "african drama",
+    "family drama",
+    "the landlord's daughter",
+    "storytime",
+    "drama series"
+   ],
+   "music": "tender strings",
+   "guests": {
+    "a5_chief": {
+     "name": "Chief Balogun",
+     "ref_prompt": "a 65-year-old Nigerian man, grey beard, rich royal-blue embroidered kaftan, gold rings",
+     "voice": "a booming, proud older male voice",
+     "species": "human"
+    },
+    "a5_temi": {
+     "name": "Temi",
+     "ref_prompt": "a 26-year-old Nigerian woman, graceful, long braids, lavender dress",
+     "voice": "a warm, determined female voice",
+     "species": "human"
+    },
+    "a5_kunle": {
+     "name": "Kunle",
+     "ref_prompt": "a 28-year-old Nigerian man, short hair, strong build, oil-stained grey overalls",
+     "voice": "a calm, steady male voice",
+     "species": "human"
+    },
+    "a5_mama_kunle": {
+     "name": "Mama Kunle",
+     "ref_prompt": "a 55-year-old Nigerian woman, kind round face, simple floral dress and headscarf",
+     "voice": "a warm, knowing female voice",
+     "species": "human"
+    }
+   },
+   "locations": {
+    "a5_compound2": "a large Lagos tenement yard, rows of rooms, washing lines, a big iron gate",
+    "a5_mansion": "a grand Lagos mansion sitting room, gold accents, leather sofas, a large portrait on the wall",
+    "a5_workshop": "a roadside auto workshop, a car on a jack, tools, sparks",
+    "a5_kunle_room": "a small, neat one-room apartment, stacked books, a single bulb",
+    "a5_food_stall": "a roadside food stall with steaming pots under a big umbrella",
+    "a5_highway": "a dark expressway at midnight, hazard lights blinking, empty road"
+   },
+   "end_card": "",
+   "moral": "Pride builds walls. Love builds doors.",
+   "arc_finale": true,
+   "captions": {
+    "tiktok": "Pride builds walls. 😳 Part 6/6 · The Landlord's Daughter. The moral of the story: Pride builds walls. Love builds doors. #moralofthestory #nigeriandrama #shortdrama #storytime #aidrama",
+    "facebook": "The Landlord's Daughter, part 6 of 6: Doors. A proud landlord threatens to evict a struggling family, until his daughter's love for their son unearths a story from his own past. The moral of the story: Pride builds walls. Love builds doors."
+   },
+   "shots": [
+    {
+     "n": 1,
+     "dur": 8,
+     "loc": "a5_workshop",
+     "chars": [
+      "a5_chief",
+      "a5_kunle"
+     ],
+     "keyframe": "Chief stands before the engine prototype",
+     "action": "Chief stands before the engine prototype",
+     "camera": "dramatic crash zoom into a close-up, then hold",
+     "lines": [
+      {
+       "c": "a5_chief",
+       "t": "That engine. How much to build ten?",
+       "tone": "businesslike"
+      }
+     ],
+     "sfx": "deep boom",
+     "transition": "cut"
+    },
+    {
+     "n": 2,
+     "dur": 8,
+     "loc": "a5_workshop",
+     "chars": [
+      "a5_kunle"
+     ],
+     "keyframe": "Kunle blinks",
+     "action": "Kunle blinks",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a5_kunle",
+       "t": "Sir?",
+       "tone": "surprised"
+      }
+     ],
+     "sfx": "tools clink",
+     "transition": "cut"
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "a5_workshop",
+     "chars": [
+      "a5_chief"
+     ],
+     "keyframe": "Chief smiles for the first time",
+     "action": "Chief smiles for the first time",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a5_chief",
+       "t": "I'm not buying you. I'm investing in you. There's a difference.",
+       "tone": "warm"
+      }
+     ],
+     "sfx": "warm strings",
+     "transition": "cut"
+    },
+    {
+     "n": 4,
+     "dur": 8,
+     "loc": "a5_workshop",
+     "chars": [
+      "a5_kunle"
+     ],
+     "keyframe": "Kunle grins",
+     "action": "Kunle grins",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a5_kunle",
+       "t": "Then I'll learn everything in Germany and come back to build it here.",
+       "tone": "determined"
+      }
+     ],
+     "sfx": "strings swell",
+     "transition": "cut"
+    },
+    {
+     "n": 5,
+     "dur": 8,
+     "loc": "a5_workshop",
+     "chars": [
+      "a5_chief"
+     ],
+     "keyframe": "Chief raises an eyebrow",
+     "action": "Chief raises an eyebrow",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a5_chief",
+       "t": "And my daughter?",
+       "tone": "dry"
+      }
+     ],
+     "sfx": "soft laugh",
+     "transition": "cut"
+    },
+    {
+     "n": 6,
+     "dur": 8,
+     "loc": "a5_workshop",
+     "chars": [
+      "a5_kunle",
+      "a5_temi"
+     ],
+     "keyframe": "Kunle kneels with a simple ring as Temi walks in",
+     "action": "Kunle kneels with a simple ring as Temi walks in",
+     "camera": "two-shot, shallow focus, slow lateral dolly",
+     "lines": [
+      {
+       "c": "a5_kunle",
+       "t": "Temi, will you wait for me?",
+       "tone": "nervous"
+      },
+      {
+       "c": "a5_temi",
+       "t": "I'll come with you.",
+       "tone": "joyful"
+      }
+     ],
+     "sfx": "gasp, applause",
+     "transition": "flash"
+    },
+    {
+     "n": 7,
+     "dur": 8,
+     "loc": "a5_workshop",
+     "chars": [
+      "a5_chief"
+     ],
+     "keyframe": "Chief throws back his head and laughs",
+     "action": "Chief throws back his head and laughs",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a5_chief",
+       "t": "Both of you in Germany? Then I'm paying for the flights.",
+       "tone": "laughing"
+      }
+     ],
+     "sfx": "laughter",
+     "transition": "cut"
+    },
+    {
+     "n": 8,
+     "dur": 8,
+     "loc": "a5_food_stall",
+     "chars": [
+      "a5_mama_kunle",
+      "a5_chief"
+     ],
+     "keyframe": "Chief eats akara at Mama Kunle's stall",
+     "action": "Chief eats akara at Mama Kunle's stall",
+     "camera": "two-shot, shallow focus, slow lateral dolly",
+     "lines": [
+      {
+       "c": "a5_chief",
+       "t": "Your akara is still the best in Lagos.",
+       "tone": "fond"
+      },
+      {
+       "c": "a5_mama_kunle",
+       "t": "I know.",
+       "tone": "smiling"
+      }
+     ],
+     "sfx": "oil sizzling, laughter",
+     "transition": "dip"
+    },
+    {
+     "n": 9,
+     "dur": 8,
+     "loc": "a5_compound2",
+     "chars": [
+      "a5_mama_kunle"
+     ],
+     "keyframe": "Tenants celebrate in the yard at golden hour",
+     "action": "Tenants celebrate in the yard at golden hour",
+     "camera": "wide establishing shot, slow dolly-in",
+     "lines": [
+      {
+       "c": "a5_mama_kunle",
+       "t": "Thirty-five years late. But love found the door.",
+       "tone": "joyful"
+      }
+     ],
+     "sfx": "music, laughter",
+     "transition": "cut"
+    },
+    {
+     "n": 10,
+     "dur": 8,
+     "loc": "a5_compound2",
+     "chars": [],
+     "keyframe": "Golden hour over the tenement yard, the gate wide open",
+     "action": "Golden hour over the tenement yard, the gate wide open",
+     "camera": "wide establishing shot, slow dolly-in",
+     "lines": [],
+     "sfx": "soft music",
+     "transition": "cut"
+    }
+   ],
+   "loop_note": "cliffhanger freeze-frame; tomorrow opens with a 3 s 'previously' flash of it"
+  },
+  {
+   "id": "MOS-031",
+   "number": 31,
+   "arc": "a6",
+   "arc_title": "The Other Wife",
+   "arc_logline": "Ten years married, Nkem discovers her husband secretly married another woman, who had no idea he was married at all.",
+   "part": 1,
+   "part_title": "Two Rings",
+   "part_label": "PART 1 OF 6 · THE OTHER WIFE",
+   "title": "Ten years married. Then I saw the photos. | The Other Wife Part 1 #shorts",
+   "hook_text": "Ten years married. Then I saw the photos.",
+   "logline": "The Other Wife part 1, Two Rings: Traditional wedding. Last Saturday. My husband? / He told me he was in Port Harcourt for work. / Darling, I'm back! Port Harcourt was hectic.",
+   "description": "Ten years married, Nkem discovers her husband secretly married another woman, who had no idea he was married at all.\n\nThe Other Wife, part 1 of 6: Two Rings.\n\nWho is this woman? Tell us in the comments.\n\nMoral Of The Story TV: a new story every week, and the full movie after every finale.",
+   "tags": [
+    "moral of the story",
+    "nigerian drama",
+    "short drama",
+    "african drama",
+    "family drama",
+    "the other wife",
+    "storytime",
+    "drama series"
+   ],
+   "music": "tension drums",
+   "guests": {
+    "a6_nkem": {
+     "name": "Nkem",
+     "ref_prompt": "a 38-year-old Nigerian woman, elegant short natural hair, wine-coloured blouse, small diamond earrings",
+     "voice": "a calm, controlled female voice",
+     "species": "human"
+    },
+    "a6_obinna": {
+     "name": "Obinna",
+     "ref_prompt": "a 42-year-old Nigerian man, tall, trimmed beard, expensive grey suit",
+     "voice": "a smooth, confident male voice",
+     "species": "human"
+    },
+    "a6_lola": {
+     "name": "Lola",
+     "ref_prompt": "a 27-year-old Nigerian woman, long wavy hair, white dress",
+     "voice": "a bright, emotional young female voice",
+     "species": "human"
+    },
+    "a6_rose": {
+     "name": "Aunty Rose",
+     "ref_prompt": "a 50-year-old Nigerian woman lawyer, warm smile, black blazer over a colourful blouse",
+     "voice": "a crisp, reassuring female voice",
+     "species": "human"
+    },
+    "a6_mama_obinna": {
+     "name": "Mama Obinna",
+     "ref_prompt": "a 68-year-old Nigerian woman, stern, gold-rimmed glasses, royal-blue lace blouse and head tie",
+     "voice": "a stern, commanding elderly female voice",
+     "species": "human"
+    }
+   },
+   "locations": {
+    "a6_home2": "an elegant Abuja living room, white sofas, modern art, evening lamps",
+    "a6_pharmacy": "a bright modern pharmacy with shelves of medicine and a counter",
+    "a6_lola_flat": "a stylish small apartment with fairy lights and a vanity mirror",
+    "a6_restaurant": "an upscale restaurant at night, candles, quiet tables",
+    "a6_lawyer2": "a calm modern law office, glass desk, city view",
+    "a6_village_house": "a big family house in a village, carved wooden doors, a shaded courtyard"
+   },
+   "end_card": "WHO IS THIS WOMAN?|PART 2 TOMORROW",
+   "captions": {
+    "tiktok": "Ten years married. Then I saw the photos. 😳 Part 1/6 · The Other Wife. Who is this woman? #moralofthestory #nigeriandrama #shortdrama #storytime #aidrama",
+    "facebook": "The Other Wife, part 1 of 6: Two Rings. Ten years married, Nkem discovers her husband secretly married another woman, who had no idea he was married at all. Who is this woman? Follow Moral Of The Story TV for part 2."
+   },
+   "shots": [
+    {
+     "n": 1,
+     "dur": 8,
+     "loc": "a6_home2",
+     "chars": [
+      "a6_nkem"
+     ],
+     "keyframe": "Nkem on her white sofa scrolling her phone, freezing",
+     "action": "Nkem on her white sofa scrolling her phone, freezing",
+     "camera": "dramatic crash zoom into a close-up, then hold",
+     "lines": [
+      {
+       "c": "a6_nkem",
+       "t": "Traditional wedding. Last Saturday. My husband?",
+       "tone": "stunned"
+      }
+     ],
+     "sfx": "deep boom",
+     "transition": "cut"
+    },
+    {
+     "n": 2,
+     "dur": 8,
+     "loc": "a6_home2",
+     "chars": [
+      "a6_nkem"
+     ],
+     "keyframe": "Nkem's eyes",
+     "action": "Nkem's eyes",
+     "camera": "extreme close-up on the eyes, very slow push-in",
+     "lines": [
+      {
+       "c": "a6_nkem",
+       "t": "He told me he was in Port Harcourt for work.",
+       "tone": "whisper"
+      }
+     ],
+     "sfx": "heartbeat",
+     "transition": "cut"
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "a6_home2",
+     "chars": [
+      "a6_obinna",
+      "a6_nkem"
+     ],
+     "keyframe": "Obinna strolls in with his travel bag",
+     "action": "Obinna strolls in with his travel bag",
+     "camera": "two-shot, shallow focus, slow lateral dolly",
+     "lines": [
+      {
+       "c": "a6_obinna",
+       "t": "Darling, I'm back! Port Harcourt was hectic.",
+       "tone": "cheerful"
+      }
+     ],
+     "sfx": "door, keys",
+     "transition": "dip"
+    },
+    {
+     "n": 4,
+     "dur": 8,
+     "loc": "a6_home2",
+     "chars": [
+      "a6_nkem"
+     ],
+     "keyframe": "Nkem, perfectly calm",
+     "action": "Nkem, perfectly calm",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a6_nkem",
+       "t": "How was the weather in Port Harcourt?",
+       "tone": "calm"
+      }
+     ],
+     "sfx": "clock ticking",
+     "transition": "cut"
+    },
+    {
+     "n": 5,
+     "dur": 8,
+     "loc": "a6_home2",
+     "chars": [
+      "a6_obinna"
+     ],
+     "keyframe": "Obinna loosens his tie",
+     "action": "Obinna loosens his tie",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a6_obinna",
+       "t": "Hot, as usual. Why?",
+       "tone": "casual"
+      }
+     ],
+     "sfx": "tense strings",
+     "transition": "cut"
+    },
+    {
+     "n": 6,
+     "dur": 8,
+     "loc": "a6_home2",
+     "chars": [
+      "a6_nkem"
+     ],
+     "keyframe": "Nkem turns her phone towards him",
+     "action": "Nkem turns her phone towards him",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a6_nkem",
+       "t": "Funny. It looks like a cool evening in Enugu. In your wedding photos.",
+       "tone": "icy"
+      }
+     ],
+     "sfx": "deep boom",
+     "transition": "cut"
+    },
+    {
+     "n": 7,
+     "dur": 8,
+     "loc": "a6_home2",
+     "chars": [
+      "a6_obinna"
+     ],
+     "keyframe": "Obinna stammers",
+     "action": "Obinna stammers",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a6_obinna",
+       "t": "Nkem, it's not what you think. My family insisted.",
+       "tone": "panicking"
+      }
+     ],
+     "sfx": "heartbeat",
+     "transition": "cut"
+    },
+    {
+     "n": 8,
+     "dur": 8,
+     "loc": "a6_home2",
+     "chars": [
+      "a6_nkem"
+     ],
+     "keyframe": "Nkem stands",
+     "action": "Nkem stands",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a6_nkem",
+       "t": "Your family insisted you marry another woman without telling your wife?",
+       "tone": "cutting"
+      }
+     ],
+     "sfx": "tense strings",
+     "transition": "cut"
+    },
+    {
+     "n": 9,
+     "dur": 8,
+     "loc": "a6_lola_flat",
+     "chars": [
+      "a6_lola"
+     ],
+     "keyframe": "Lola at her vanity mirror, glowing, on the phone",
+     "action": "Lola at her vanity mirror, glowing, on the phone",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a6_lola",
+       "t": "My husband will be home soon. Finally, a settled single man.",
+       "tone": "happy"
+      }
+     ],
+     "sfx": "soft music",
+     "transition": "flash"
+    },
+    {
+     "n": 10,
+     "dur": 8,
+     "loc": "a6_lola_flat",
+     "chars": [
+      "a6_lola"
+     ],
+     "keyframe": "Lola picks up a framed photo from his bag: Obinna with another woman",
+     "action": "Lola picks up a framed photo from his bag: Obinna with another woman",
+     "camera": "dramatic crash zoom into a close-up, then hold",
+     "lines": [
+      {
+       "c": "a6_lola",
+       "t": "Who is this woman?",
+       "tone": "stunned"
+      }
+     ],
+     "sfx": "deep boom",
+     "transition": "cut",
+     "freeze": 1.5
+    }
+   ],
+   "loop_note": "cliffhanger freeze-frame; tomorrow opens with a 3 s 'previously' flash of it"
+  },
+  {
+   "id": "MOS-032",
+   "number": 32,
+   "arc": "a6",
+   "arc_title": "The Other Wife",
+   "arc_logline": "Ten years married, Nkem discovers her husband secretly married another woman, who had no idea he was married at all.",
+   "part": 2,
+   "part_title": "The Other Wife",
+   "part_label": "PART 2 OF 6 · THE OTHER WIFE",
+   "title": "She didn't know he was married. | The Other Wife Part 2 #shorts",
+   "hook_text": "She didn't know he was married.",
+   "logline": "The Other Wife part 2, The Other Wife: You asked to meet me. Are you here to fight? / No. I'm here to find out how long he's been lying to you. / He said he was divorced two years ago. He showed me papers.",
+   "description": "Ten years married, Nkem discovers her husband secretly married another woman, who had no idea he was married at all.\n\nThe Other Wife, part 2 of 6: The Other Wife.\n\nWhat is he hiding? Tell us in the comments.\n\nMoral Of The Story TV: a new story every week, and the full movie after every finale.",
+   "tags": [
+    "moral of the story",
+    "nigerian drama",
+    "short drama",
+    "african drama",
+    "family drama",
+    "the other wife",
+    "storytime",
+    "drama series"
+   ],
+   "music": "tension drums",
+   "guests": {
+    "a6_nkem": {
+     "name": "Nkem",
+     "ref_prompt": "a 38-year-old Nigerian woman, elegant short natural hair, wine-coloured blouse, small diamond earrings",
+     "voice": "a calm, controlled female voice",
+     "species": "human"
+    },
+    "a6_obinna": {
+     "name": "Obinna",
+     "ref_prompt": "a 42-year-old Nigerian man, tall, trimmed beard, expensive grey suit",
+     "voice": "a smooth, confident male voice",
+     "species": "human"
+    },
+    "a6_lola": {
+     "name": "Lola",
+     "ref_prompt": "a 27-year-old Nigerian woman, long wavy hair, white dress",
+     "voice": "a bright, emotional young female voice",
+     "species": "human"
+    },
+    "a6_rose": {
+     "name": "Aunty Rose",
+     "ref_prompt": "a 50-year-old Nigerian woman lawyer, warm smile, black blazer over a colourful blouse",
+     "voice": "a crisp, reassuring female voice",
+     "species": "human"
+    },
+    "a6_mama_obinna": {
+     "name": "Mama Obinna",
+     "ref_prompt": "a 68-year-old Nigerian woman, stern, gold-rimmed glasses, royal-blue lace blouse and head tie",
+     "voice": "a stern, commanding elderly female voice",
+     "species": "human"
+    }
+   },
+   "locations": {
+    "a6_home2": "an elegant Abuja living room, white sofas, modern art, evening lamps",
+    "a6_pharmacy": "a bright modern pharmacy with shelves of medicine and a counter",
+    "a6_lola_flat": "a stylish small apartment with fairy lights and a vanity mirror",
+    "a6_restaurant": "an upscale restaurant at night, candles, quiet tables",
+    "a6_lawyer2": "a calm modern law office, glass desk, city view",
+    "a6_village_house": "a big family house in a village, carved wooden doors, a shaded courtyard"
+   },
+   "end_card": "WHAT IS HE HIDING?|PART 3 TOMORROW",
+   "captions": {
+    "tiktok": "She didn't know he was married. 😳 Part 2/6 · The Other Wife. What is he hiding? #moralofthestory #nigeriandrama #shortdrama #storytime #aidrama",
+    "facebook": "The Other Wife, part 2 of 6: The Other Wife. Ten years married, Nkem discovers her husband secretly married another woman, who had no idea he was married at all. What is he hiding? Follow Moral Of The Story TV for part 3."
+   },
+   "shots": [
+    {
+     "n": 1,
+     "dur": 8,
+     "loc": "a6_restaurant",
+     "chars": [
+      "a6_nkem",
+      "a6_lola"
+     ],
+     "keyframe": "Two women sit opposite each other at a candlelit table",
+     "action": "Two women sit opposite each other at a candlelit table",
+     "camera": "dramatic crash zoom into a close-up, then hold",
+     "lines": [
+      {
+       "c": "a6_lola",
+       "t": "You asked to meet me. Are you here to fight?",
+       "tone": "guarded"
+      }
+     ],
+     "sfx": "deep boom",
+     "transition": "cut"
+    },
+    {
+     "n": 2,
+     "dur": 8,
+     "loc": "a6_restaurant",
+     "chars": [
+      "a6_nkem"
+     ],
+     "keyframe": "Nkem folds her hands",
+     "action": "Nkem folds her hands",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a6_nkem",
+       "t": "No. I'm here to find out how long he's been lying to you.",
+       "tone": "calm"
+      }
+     ],
+     "sfx": "restaurant murmur",
+     "transition": "cut"
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "a6_restaurant",
+     "chars": [
+      "a6_lola"
+     ],
+     "keyframe": "Lola frowns",
+     "action": "Lola frowns",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a6_lola",
+       "t": "He said he was divorced two years ago. He showed me papers.",
+       "tone": "confused"
+      }
+     ],
+     "sfx": "tense strings",
+     "transition": "cut"
+    },
+    {
+     "n": 4,
+     "dur": 8,
+     "loc": "a6_restaurant",
+     "chars": [
+      "a6_nkem"
+     ],
+     "keyframe": "Nkem shakes her head",
+     "action": "Nkem shakes her head",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a6_nkem",
+       "t": "I've never signed divorce papers in my life.",
+       "tone": "firm"
+      }
+     ],
+     "sfx": "single piano note",
+     "transition": "cut"
+    },
+    {
+     "n": 5,
+     "dur": 8,
+     "loc": "a6_restaurant",
+     "chars": [
+      "a6_lola"
+     ],
+     "keyframe": "Lola's face crumbles",
+     "action": "Lola's face crumbles",
+     "camera": "extreme close-up on the eyes, very slow push-in",
+     "lines": [
+      {
+       "c": "a6_lola",
+       "t": "Then my marriage is a lie.",
+       "tone": "whisper"
+      }
+     ],
+     "sfx": "heartbeat",
+     "transition": "cut"
+    },
+    {
+     "n": 6,
+     "dur": 8,
+     "loc": "a6_restaurant",
+     "chars": [
+      "a6_nkem"
+     ],
+     "keyframe": "Nkem reaches across the table",
+     "action": "Nkem reaches across the table",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a6_nkem",
+       "t": "We're both married to the same lie.",
+       "tone": "gentle"
+      }
+     ],
+     "sfx": "soft strings",
+     "transition": "cut"
+    },
+    {
+     "n": 7,
+     "dur": 8,
+     "loc": "a6_home2",
+     "chars": [
+      "a6_obinna"
+     ],
+     "keyframe": "Obinna paces his living room, phone to his ear",
+     "action": "Obinna paces his living room, phone to his ear",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a6_obinna",
+       "t": "Mother, keep Lola calm. I'll manage Nkem. She always forgives.",
+       "tone": "scheming"
+      }
+     ],
+     "sfx": "clock ticking",
+     "transition": "dip"
+    },
+    {
+     "n": 8,
+     "dur": 8,
+     "loc": "a6_pharmacy",
+     "chars": [
+      "a6_nkem"
+     ],
+     "keyframe": "Nkem in her bright pharmacy, reading financial files",
+     "action": "Nkem in her bright pharmacy, reading financial files",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a6_nkem",
+       "t": "My pharmacy pays for his office, his car, and his secret wedding.",
+       "tone": "realising"
+      }
+     ],
+     "sfx": "paper rustle",
+     "transition": "flash"
+    },
+    {
+     "n": 9,
+     "dur": 8,
+     "loc": "a6_pharmacy",
+     "chars": [
+      "a6_nkem"
+     ],
+     "keyframe": "Nkem closes the file",
+     "action": "Nkem closes the file",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a6_nkem",
+       "t": "Ten years I built him. Time to read the paperwork.",
+       "tone": "resolved"
+      }
+     ],
+     "sfx": "tense drums",
+     "transition": "cut"
+    },
+    {
+     "n": 10,
+     "dur": 8,
+     "loc": "a6_pharmacy",
+     "chars": [
+      "a6_nkem"
+     ],
+     "keyframe": "Nkem stares at a loan document",
+     "action": "Nkem stares at a loan document",
+     "camera": "dramatic crash zoom into a close-up, then hold",
+     "lines": [
+      {
+       "c": "a6_nkem",
+       "t": "This is not my signature.",
+       "tone": "cold"
+      }
+     ],
+     "sfx": "deep boom",
+     "transition": "cut",
+     "freeze": 1.5
+    }
+   ],
+   "loop_note": "cliffhanger freeze-frame; tomorrow opens with a 3 s 'previously' flash of it"
+  },
+  {
+   "id": "MOS-033",
+   "number": 33,
+   "arc": "a6",
+   "arc_title": "The Other Wife",
+   "arc_logline": "Ten years married, Nkem discovers her husband secretly married another woman, who had no idea he was married at all.",
+   "part": 3,
+   "part_title": "Forged",
+   "part_label": "PART 3 OF 6 · THE OTHER WIFE",
+   "title": "He forged my signature. | The Other Wife Part 3 #shorts",
+   "hook_text": "He forged my signature.",
+   "logline": "The Other Wife part 3, Forged: This is forgery, Nkem. Twenty million naira against your pharmacy. / He used my business to pay for her wedding. / You can press charges. Or make him sign everything back.",
+   "description": "Ten years married, Nkem discovers her husband secretly married another woman, who had no idea he was married at all.\n\nThe Other Wife, part 3 of 6: Forged.\n\nWill mama take his side? Tell us in the comments.\n\nMoral Of The Story TV: a new story every week, and the full movie after every finale.",
+   "tags": [
+    "moral of the story",
+    "nigerian drama",
+    "short drama",
+    "african drama",
+    "family drama",
+    "the other wife",
+    "storytime",
+    "drama series"
+   ],
+   "music": "tension drums",
+   "guests": {
+    "a6_nkem": {
+     "name": "Nkem",
+     "ref_prompt": "a 38-year-old Nigerian woman, elegant short natural hair, wine-coloured blouse, small diamond earrings",
+     "voice": "a calm, controlled female voice",
+     "species": "human"
+    },
+    "a6_obinna": {
+     "name": "Obinna",
+     "ref_prompt": "a 42-year-old Nigerian man, tall, trimmed beard, expensive grey suit",
+     "voice": "a smooth, confident male voice",
+     "species": "human"
+    },
+    "a6_lola": {
+     "name": "Lola",
+     "ref_prompt": "a 27-year-old Nigerian woman, long wavy hair, white dress",
+     "voice": "a bright, emotional young female voice",
+     "species": "human"
+    },
+    "a6_rose": {
+     "name": "Aunty Rose",
+     "ref_prompt": "a 50-year-old Nigerian woman lawyer, warm smile, black blazer over a colourful blouse",
+     "voice": "a crisp, reassuring female voice",
+     "species": "human"
+    },
+    "a6_mama_obinna": {
+     "name": "Mama Obinna",
+     "ref_prompt": "a 68-year-old Nigerian woman, stern, gold-rimmed glasses, royal-blue lace blouse and head tie",
+     "voice": "a stern, commanding elderly female voice",
+     "species": "human"
+    }
+   },
+   "locations": {
+    "a6_home2": "an elegant Abuja living room, white sofas, modern art, evening lamps",
+    "a6_pharmacy": "a bright modern pharmacy with shelves of medicine and a counter",
+    "a6_lola_flat": "a stylish small apartment with fairy lights and a vanity mirror",
+    "a6_restaurant": "an upscale restaurant at night, candles, quiet tables",
+    "a6_lawyer2": "a calm modern law office, glass desk, city view",
+    "a6_village_house": "a big family house in a village, carved wooden doors, a shaded courtyard"
+   },
+   "end_card": "WILL MAMA TAKE HIS SIDE?|PART 4 TOMORROW",
+   "captions": {
+    "tiktok": "He forged my signature. 😳 Part 3/6 · The Other Wife. Will mama take his side? #moralofthestory #nigeriandrama #shortdrama #storytime #aidrama",
+    "facebook": "The Other Wife, part 3 of 6: Forged. Ten years married, Nkem discovers her husband secretly married another woman, who had no idea he was married at all. Will mama take his side? Follow Moral Of The Story TV for part 4."
+   },
+   "shots": [
+    {
+     "n": 1,
+     "dur": 8,
+     "loc": "a6_lawyer2",
+     "chars": [
+      "a6_rose",
+      "a6_nkem"
+     ],
+     "keyframe": "Aunty Rose, a lawyer, taps the forged document",
+     "action": "Aunty Rose, a lawyer, taps the forged document",
+     "camera": "dramatic crash zoom into a close-up, then hold",
+     "lines": [
+      {
+       "c": "a6_rose",
+       "t": "This is forgery, Nkem. Twenty million naira against your pharmacy.",
+       "tone": "serious"
+      }
+     ],
+     "sfx": "deep boom",
+     "transition": "cut"
+    },
+    {
+     "n": 2,
+     "dur": 8,
+     "loc": "a6_lawyer2",
+     "chars": [
+      "a6_nkem"
+     ],
+     "keyframe": "Nkem's jaw tightens",
+     "action": "Nkem's jaw tightens",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a6_nkem",
+       "t": "He used my business to pay for her wedding.",
+       "tone": "angry"
+      }
+     ],
+     "sfx": "tense strings",
+     "transition": "cut"
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "a6_lawyer2",
+     "chars": [
+      "a6_rose"
+     ],
+     "keyframe": "Rose leans back",
+     "action": "Rose leans back",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a6_rose",
+       "t": "You can press charges. Or make him sign everything back.",
+       "tone": "practical"
+      }
+     ],
+     "sfx": "city hum",
+     "transition": "cut"
+    },
+    {
+     "n": 4,
+     "dur": 8,
+     "loc": "a6_home2",
+     "chars": [
+      "a6_obinna",
+      "a6_nkem"
+     ],
+     "keyframe": "Obinna arrives with roses",
+     "action": "Obinna arrives with roses",
+     "camera": "two-shot, shallow focus, slow lateral dolly",
+     "lines": [
+      {
+       "c": "a6_obinna",
+       "t": "Let's forget all this. I'll end it with her. For you.",
+       "tone": "pleading"
+      }
+     ],
+     "sfx": "paper rustle",
+     "transition": "dip"
+    },
+    {
+     "n": 5,
+     "dur": 8,
+     "loc": "a6_home2",
+     "chars": [
+      "a6_nkem"
+     ],
+     "keyframe": "Nkem doesn't take the flowers",
+     "action": "Nkem doesn't take the flowers",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a6_nkem",
+       "t": "Ending it with her is not the point. You lied to two women.",
+       "tone": "firm"
+      }
+     ],
+     "sfx": "single piano note",
+     "transition": "cut"
+    },
+    {
+     "n": 6,
+     "dur": 8,
+     "loc": "a6_lola_flat",
+     "chars": [
+      "a6_lola"
+     ],
+     "keyframe": "Lola packs a suitcase",
+     "action": "Lola packs a suitcase",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a6_lola",
+       "t": "I won't be anybody's secret.",
+       "tone": "resolved"
+      }
+     ],
+     "sfx": "zip closing",
+     "transition": "flash"
+    },
+    {
+     "n": 7,
+     "dur": 8,
+     "loc": "a6_lola_flat",
+     "chars": [
+      "a6_obinna",
+      "a6_lola"
+     ],
+     "keyframe": "Obinna bursts in",
+     "action": "Obinna bursts in",
+     "camera": "two-shot, shallow focus, slow lateral dolly",
+     "lines": [
+      {
+       "c": "a6_obinna",
+       "t": "Lola, where are you going? You're my wife!",
+       "tone": "desperate"
+      }
+     ],
+     "sfx": "door bang",
+     "transition": "cut"
+    },
+    {
+     "n": 8,
+     "dur": 8,
+     "loc": "a6_lola_flat",
+     "chars": [
+      "a6_lola"
+     ],
+     "keyframe": "Lola turns",
+     "action": "Lola turns",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a6_lola",
+       "t": "Your wife? You already have one. I met her. She's incredible.",
+       "tone": "cutting"
+      }
+     ],
+     "sfx": "tense strings",
+     "transition": "cut"
+    },
+    {
+     "n": 9,
+     "dur": 8,
+     "loc": "a6_lola_flat",
+     "chars": [
+      "a6_obinna"
+     ],
+     "keyframe": "Obinna goes pale",
+     "action": "Obinna goes pale",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a6_obinna",
+       "t": "You met Nkem?",
+       "tone": "horrified"
+      }
+     ],
+     "sfx": "heartbeat",
+     "transition": "cut"
+    },
+    {
+     "n": 10,
+     "dur": 8,
+     "loc": "a6_lola_flat",
+     "chars": [
+      "a6_lola"
+     ],
+     "keyframe": "Lola zips the suitcase shut",
+     "action": "Lola zips the suitcase shut",
+     "camera": "dramatic crash zoom into a close-up, then hold",
+     "lines": [
+      {
+       "c": "a6_lola",
+       "t": "We're meeting your mother tomorrow. Together.",
+       "tone": "cold"
+      }
+     ],
+     "sfx": "deep boom",
+     "transition": "cut",
+     "freeze": 1.5
+    }
+   ],
+   "loop_note": "cliffhanger freeze-frame; tomorrow opens with a 3 s 'previously' flash of it"
+  },
+  {
+   "id": "MOS-034",
+   "number": 34,
+   "arc": "a6",
+   "arc_title": "The Other Wife",
+   "arc_logline": "Ten years married, Nkem discovers her husband secretly married another woman, who had no idea he was married at all.",
+   "part": 4,
+   "part_title": "Mother-in-Law",
+   "part_label": "PART 4 OF 6 · THE OTHER WIFE",
+   "title": "What she told his mother changed everything. | The Other Wife Part 4 #shorts",
+   "hook_text": "What she told his mother changed everything.",
+   "logline": "The Other Wife part 4, Mother-in-Law: A man needs a son. Nkem gave him none in ten years. / Mama, the doctor said the problem is not mine. Obinna knows. / What do you mean, not yours?",
+   "description": "Ten years married, Nkem discovers her husband secretly married another woman, who had no idea he was married at all.\n\nThe Other Wife, part 4 of 6: Mother-in-Law.\n\nWhat will obinna do? Tell us in the comments.\n\nMoral Of The Story TV: a new story every week, and the full movie after every finale.",
+   "tags": [
+    "moral of the story",
+    "nigerian drama",
+    "short drama",
+    "african drama",
+    "family drama",
+    "the other wife",
+    "storytime",
+    "drama series"
+   ],
+   "music": "tension drums",
+   "guests": {
+    "a6_nkem": {
+     "name": "Nkem",
+     "ref_prompt": "a 38-year-old Nigerian woman, elegant short natural hair, wine-coloured blouse, small diamond earrings",
+     "voice": "a calm, controlled female voice",
+     "species": "human"
+    },
+    "a6_obinna": {
+     "name": "Obinna",
+     "ref_prompt": "a 42-year-old Nigerian man, tall, trimmed beard, expensive grey suit",
+     "voice": "a smooth, confident male voice",
+     "species": "human"
+    },
+    "a6_lola": {
+     "name": "Lola",
+     "ref_prompt": "a 27-year-old Nigerian woman, long wavy hair, white dress",
+     "voice": "a bright, emotional young female voice",
+     "species": "human"
+    },
+    "a6_rose": {
+     "name": "Aunty Rose",
+     "ref_prompt": "a 50-year-old Nigerian woman lawyer, warm smile, black blazer over a colourful blouse",
+     "voice": "a crisp, reassuring female voice",
+     "species": "human"
+    },
+    "a6_mama_obinna": {
+     "name": "Mama Obinna",
+     "ref_prompt": "a 68-year-old Nigerian woman, stern, gold-rimmed glasses, royal-blue lace blouse and head tie",
+     "voice": "a stern, commanding elderly female voice",
+     "species": "human"
+    }
+   },
+   "locations": {
+    "a6_home2": "an elegant Abuja living room, white sofas, modern art, evening lamps",
+    "a6_pharmacy": "a bright modern pharmacy with shelves of medicine and a counter",
+    "a6_lola_flat": "a stylish small apartment with fairy lights and a vanity mirror",
+    "a6_restaurant": "an upscale restaurant at night, candles, quiet tables",
+    "a6_lawyer2": "a calm modern law office, glass desk, city view",
+    "a6_village_house": "a big family house in a village, carved wooden doors, a shaded courtyard"
+   },
+   "end_card": "WHAT WILL OBINNA DO?|PART 5 TOMORROW",
+   "captions": {
+    "tiktok": "What she told his mother changed everything. 😳 Part 4/6 · The Other Wife. What will obinna do? #moralofthestory #nigeriandrama #shortdrama #storytime #aidrama",
+    "facebook": "The Other Wife, part 4 of 6: Mother-in-Law. Ten years married, Nkem discovers her husband secretly married another woman, who had no idea he was married at all. What will obinna do? Follow Moral Of The Story TV for part 5."
+   },
+   "shots": [
+    {
+     "n": 1,
+     "dur": 8,
+     "loc": "a6_village_house",
+     "chars": [
+      "a6_mama_obinna"
+     ],
+     "keyframe": "Mama Obinna on a carved chair in a family courtyard",
+     "action": "Mama Obinna on a carved chair in a family courtyard",
+     "camera": "dramatic crash zoom into a close-up, then hold",
+     "lines": [
+      {
+       "c": "a6_mama_obinna",
+       "t": "A man needs a son. Nkem gave him none in ten years.",
+       "tone": "harsh"
+      }
+     ],
+     "sfx": "deep boom",
+     "transition": "cut"
+    },
+    {
+     "n": 2,
+     "dur": 8,
+     "loc": "a6_village_house",
+     "chars": [
+      "a6_nkem"
+     ],
+     "keyframe": "Nkem speaks steadily",
+     "action": "Nkem speaks steadily",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a6_nkem",
+       "t": "Mama, the doctor said the problem is not mine. Obinna knows.",
+       "tone": "calm"
+      }
+     ],
+     "sfx": "wind",
+     "transition": "cut"
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "a6_village_house",
+     "chars": [
+      "a6_mama_obinna"
+     ],
+     "keyframe": "Mama Obinna frowns",
+     "action": "Mama Obinna frowns",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a6_mama_obinna",
+       "t": "What do you mean, not yours?",
+       "tone": "confused"
+      }
+     ],
+     "sfx": "tense strings",
+     "transition": "cut"
+    },
+    {
+     "n": 4,
+     "dur": 8,
+     "loc": "a6_village_house",
+     "chars": [
+      "a6_nkem"
+     ],
+     "keyframe": "Nkem looks down",
+     "action": "Nkem looks down",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a6_nkem",
+       "t": "He refused the tests for years. I protected his pride.",
+       "tone": "quiet"
+      }
+     ],
+     "sfx": "single piano note",
+     "transition": "cut"
+    },
+    {
+     "n": 5,
+     "dur": 8,
+     "loc": "a6_village_house",
+     "chars": [
+      "a6_lola"
+     ],
+     "keyframe": "Lola speaks up",
+     "action": "Lola speaks up",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a6_lola",
+       "t": "He told me Nkem couldn't have children. That I would give him a son.",
+       "tone": "bitter"
+      }
+     ],
+     "sfx": "low drone",
+     "transition": "cut"
+    },
+    {
+     "n": 6,
+     "dur": 8,
+     "loc": "a6_village_house",
+     "chars": [
+      "a6_mama_obinna"
+     ],
+     "keyframe": "Mama Obinna turns slowly",
+     "action": "Mama Obinna turns slowly",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a6_mama_obinna",
+       "t": "Obinna, is this true?",
+       "tone": "dangerous"
+      }
+     ],
+     "sfx": "heartbeat",
+     "transition": "cut"
+    },
+    {
+     "n": 7,
+     "dur": 8,
+     "loc": "a6_village_house",
+     "chars": [
+      "a6_obinna"
+     ],
+     "keyframe": "Obinna arrives at the courtyard gate, sweating",
+     "action": "Obinna arrives at the courtyard gate, sweating",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a6_obinna",
+       "t": "Mama, they are ganging up on me!",
+       "tone": "defensive"
+      }
+     ],
+     "sfx": "gate creak",
+     "transition": "dip"
+    },
+    {
+     "n": 8,
+     "dur": 8,
+     "loc": "a6_village_house",
+     "chars": [
+      "a6_mama_obinna"
+     ],
+     "keyframe": "Mama Obinna rises",
+     "action": "Mama Obinna rises",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a6_mama_obinna",
+       "t": "Answer me! Did you lie about the doctor?",
+       "tone": "thundering"
+      }
+     ],
+     "sfx": "tense drums",
+     "transition": "cut"
+    },
+    {
+     "n": 9,
+     "dur": 8,
+     "loc": "a6_village_house",
+     "chars": [
+      "a6_obinna"
+     ],
+     "keyframe": "Obinna's eyes drop",
+     "action": "Obinna's eyes drop",
+     "camera": "extreme close-up on the eyes, very slow push-in",
+     "lines": [
+      {
+       "c": "a6_obinna",
+       "t": "Yes.",
+       "tone": "barely audible"
+      }
+     ],
+     "sfx": "heartbeat",
+     "transition": "cut"
+    },
+    {
+     "n": 10,
+     "dur": 8,
+     "loc": "a6_village_house",
+     "chars": [
+      "a6_mama_obinna"
+     ],
+     "keyframe": "Mama Obinna slams her hand on the table",
+     "action": "Mama Obinna slams her hand on the table",
+     "camera": "dramatic crash zoom into a close-up, then hold",
+     "lines": [
+      {
+       "c": "a6_mama_obinna",
+       "t": "Then you have shamed this family more than any empty cradle ever could.",
+       "tone": "furious"
+      }
+     ],
+     "sfx": "table slam, boom",
+     "transition": "cut",
+     "freeze": 1.5
+    }
+   ],
+   "loop_note": "cliffhanger freeze-frame; tomorrow opens with a 3 s 'previously' flash of it"
+  },
+  {
+   "id": "MOS-035",
+   "number": 35,
+   "arc": "a6",
+   "arc_title": "The Other Wife",
+   "arc_logline": "Ten years married, Nkem discovers her husband secretly married another woman, who had no idea he was married at all.",
+   "part": 5,
+   "part_title": "Worth",
+   "part_label": "PART 5 OF 6 · THE OTHER WIFE",
+   "title": "She finally chose herself. | The Other Wife Part 5 #shorts",
+   "hook_text": "She finally chose herself.",
+   "logline": "The Other Wife part 5, Worth: Sign here. The pharmacy returns to Nkem. The loan is yours. / And if I refuse? / Then we discuss forgery with the police.",
+   "description": "Ten years married, Nkem discovers her husband secretly married another woman, who had no idea he was married at all.\n\nThe Other Wife, part 5 of 6: Worth.\n\nWhat does the report say? Tell us in the comments.\n\nMoral Of The Story TV: a new story every week, and the full movie after every finale.",
+   "tags": [
+    "moral of the story",
+    "nigerian drama",
+    "short drama",
+    "african drama",
+    "family drama",
+    "the other wife",
+    "storytime",
+    "drama series"
+   ],
+   "music": "tension drums",
+   "guests": {
+    "a6_nkem": {
+     "name": "Nkem",
+     "ref_prompt": "a 38-year-old Nigerian woman, elegant short natural hair, wine-coloured blouse, small diamond earrings",
+     "voice": "a calm, controlled female voice",
+     "species": "human"
+    },
+    "a6_obinna": {
+     "name": "Obinna",
+     "ref_prompt": "a 42-year-old Nigerian man, tall, trimmed beard, expensive grey suit",
+     "voice": "a smooth, confident male voice",
+     "species": "human"
+    },
+    "a6_lola": {
+     "name": "Lola",
+     "ref_prompt": "a 27-year-old Nigerian woman, long wavy hair, white dress",
+     "voice": "a bright, emotional young female voice",
+     "species": "human"
+    },
+    "a6_rose": {
+     "name": "Aunty Rose",
+     "ref_prompt": "a 50-year-old Nigerian woman lawyer, warm smile, black blazer over a colourful blouse",
+     "voice": "a crisp, reassuring female voice",
+     "species": "human"
+    },
+    "a6_mama_obinna": {
+     "name": "Mama Obinna",
+     "ref_prompt": "a 68-year-old Nigerian woman, stern, gold-rimmed glasses, royal-blue lace blouse and head tie",
+     "voice": "a stern, commanding elderly female voice",
+     "species": "human"
+    }
+   },
+   "locations": {
+    "a6_home2": "an elegant Abuja living room, white sofas, modern art, evening lamps",
+    "a6_pharmacy": "a bright modern pharmacy with shelves of medicine and a counter",
+    "a6_lola_flat": "a stylish small apartment with fairy lights and a vanity mirror",
+    "a6_restaurant": "an upscale restaurant at night, candles, quiet tables",
+    "a6_lawyer2": "a calm modern law office, glass desk, city view",
+    "a6_village_house": "a big family house in a village, carved wooden doors, a shaded courtyard"
+   },
+   "end_card": "WHAT DOES THE REPORT SAY?|FINALE TOMORROW",
+   "captions": {
+    "tiktok": "She finally chose herself. 😳 Part 5/6 · The Other Wife. What does the report say? #moralofthestory #nigeriandrama #shortdrama #storytime #aidrama",
+    "facebook": "The Other Wife, part 5 of 6: Worth. Ten years married, Nkem discovers her husband secretly married another woman, who had no idea he was married at all. What does the report say? Follow Moral Of The Story TV for part 6."
+   },
+   "shots": [
+    {
+     "n": 1,
+     "dur": 8,
+     "loc": "a6_lawyer2",
+     "chars": [
+      "a6_rose",
+      "a6_obinna"
+     ],
+     "keyframe": "Rose slides papers to Obinna",
+     "action": "Rose slides papers to Obinna",
+     "camera": "dramatic crash zoom into a close-up, then hold",
+     "lines": [
+      {
+       "c": "a6_rose",
+       "t": "Sign here. The pharmacy returns to Nkem. The loan is yours.",
+       "tone": "firm"
+      }
+     ],
+     "sfx": "deep boom",
+     "transition": "cut"
+    },
+    {
+     "n": 2,
+     "dur": 8,
+     "loc": "a6_lawyer2",
+     "chars": [
+      "a6_obinna"
+     ],
+     "keyframe": "Obinna sneers",
+     "action": "Obinna sneers",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a6_obinna",
+       "t": "And if I refuse?",
+       "tone": "defiant"
+      }
+     ],
+     "sfx": "tense strings",
+     "transition": "cut"
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "a6_lawyer2",
+     "chars": [
+      "a6_rose"
+     ],
+     "keyframe": "Rose smiles thinly",
+     "action": "Rose smiles thinly",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a6_rose",
+       "t": "Then we discuss forgery with the police.",
+       "tone": "calm"
+      }
+     ],
+     "sfx": "pen click",
+     "transition": "cut"
+    },
+    {
+     "n": 4,
+     "dur": 8,
+     "loc": "a6_lawyer2",
+     "chars": [
+      "a6_obinna"
+     ],
+     "keyframe": "Obinna signs angrily",
+     "action": "Obinna signs angrily",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a6_obinna",
+       "t": "Fine. Fine!",
+       "tone": "furious"
+      }
+     ],
+     "sfx": "pen scratching",
+     "transition": "cut"
+    },
+    {
+     "n": 5,
+     "dur": 8,
+     "loc": "a6_home2",
+     "chars": [
+      "a6_nkem"
+     ],
+     "keyframe": "Nkem packs his shirts into boxes",
+     "action": "Nkem packs his shirts into boxes",
+     "camera": "wide establishing shot, slow dolly-in",
+     "lines": [
+      {
+       "c": "a6_nkem",
+       "t": "Ten years of shirts. And not one honest day.",
+       "tone": "weary"
+      }
+     ],
+     "sfx": "tape ripping",
+     "transition": "dip"
+    },
+    {
+     "n": 6,
+     "dur": 8,
+     "loc": "a6_home2",
+     "chars": [
+      "a6_obinna",
+      "a6_nkem"
+     ],
+     "keyframe": "Obinna in the doorway",
+     "action": "Obinna in the doorway",
+     "camera": "two-shot, shallow focus, slow lateral dolly",
+     "lines": [
+      {
+       "c": "a6_obinna",
+       "t": "Where will I go?",
+       "tone": "lost"
+      },
+      {
+       "c": "a6_nkem",
+       "t": "Ask the man who lied to all of us.",
+       "tone": "cool"
+      }
+     ],
+     "sfx": "door",
+     "transition": "cut"
+    },
+    {
+     "n": 7,
+     "dur": 8,
+     "loc": "a6_lola_flat",
+     "chars": [
+      "a6_lola"
+     ],
+     "keyframe": "Lola on the phone, smiling through tears",
+     "action": "Lola on the phone, smiling through tears",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a6_lola",
+       "t": "I got a job in Lagos. A fresh start. Thank you for not hating me.",
+       "tone": "grateful"
+      }
+     ],
+     "sfx": "soft strings",
+     "transition": "flash"
+    },
+    {
+     "n": 8,
+     "dur": 8,
+     "loc": "a6_pharmacy",
+     "chars": [
+      "a6_nkem"
+     ],
+     "keyframe": "Nkem on the phone behind her pharmacy counter",
+     "action": "Nkem on the phone behind her pharmacy counter",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a6_nkem",
+       "t": "You were lied to, Lola. You were never my enemy.",
+       "tone": "warm"
+      }
+     ],
+     "sfx": "soft piano",
+     "transition": "cut"
+    },
+    {
+     "n": 9,
+     "dur": 8,
+     "loc": "a6_pharmacy",
+     "chars": [
+      "a6_nkem"
+     ],
+     "keyframe": "Nkem serves a customer, composed",
+     "action": "Nkem serves a customer, composed",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a6_nkem",
+       "t": "Next customer, please.",
+       "tone": "professional"
+      }
+     ],
+     "sfx": "shop bell",
+     "transition": "dip"
+    },
+    {
+     "n": 10,
+     "dur": 8,
+     "loc": "a6_pharmacy",
+     "chars": [
+      "a6_obinna"
+     ],
+     "keyframe": "Obinna appears at the pharmacy door holding a medical report",
+     "action": "Obinna appears at the pharmacy door holding a medical report",
+     "camera": "dramatic crash zoom into a close-up, then hold",
+     "lines": [
+      {
+       "c": "a6_obinna",
+       "t": "Nkem. I did the tests. You need to see this.",
+       "tone": "urgent"
+      }
+     ],
+     "sfx": "deep boom",
+     "transition": "cut",
+     "freeze": 1.5
+    }
+   ],
+   "loop_note": "cliffhanger freeze-frame; tomorrow opens with a 3 s 'previously' flash of it"
+  },
+  {
+   "id": "MOS-036",
+   "number": 36,
+   "arc": "a6",
+   "arc_title": "The Other Wife",
+   "arc_logline": "Ten years married, Nkem discovers her husband secretly married another woman, who had no idea he was married at all.",
+   "part": 6,
+   "part_title": "Peace",
+   "part_label": "PART 6 OF 6 · THE OTHER WIFE",
+   "title": "Peace is never too expensive. | The Other Wife Part 6 #shorts",
+   "hook_text": "Peace is never too expensive.",
+   "logline": "The Other Wife part 6, Peace: The doctor says it's treatable. Six months. We could still have a child. / We? / Give me another chance. I'll be a better man.",
+   "description": "Ten years married, Nkem discovers her husband secretly married another woman, who had no idea he was married at all.\n\nThe Other Wife, part 6 of 6: Peace.\n\nMoral Of The Story TV: a new story every week, and the full movie after every finale.",
+   "tags": [
+    "moral of the story",
+    "nigerian drama",
+    "short drama",
+    "african drama",
+    "family drama",
+    "the other wife",
+    "storytime",
+    "drama series"
+   ],
+   "music": "tension drums",
+   "guests": {
+    "a6_nkem": {
+     "name": "Nkem",
+     "ref_prompt": "a 38-year-old Nigerian woman, elegant short natural hair, wine-coloured blouse, small diamond earrings",
+     "voice": "a calm, controlled female voice",
+     "species": "human"
+    },
+    "a6_obinna": {
+     "name": "Obinna",
+     "ref_prompt": "a 42-year-old Nigerian man, tall, trimmed beard, expensive grey suit",
+     "voice": "a smooth, confident male voice",
+     "species": "human"
+    },
+    "a6_lola": {
+     "name": "Lola",
+     "ref_prompt": "a 27-year-old Nigerian woman, long wavy hair, white dress",
+     "voice": "a bright, emotional young female voice",
+     "species": "human"
+    },
+    "a6_rose": {
+     "name": "Aunty Rose",
+     "ref_prompt": "a 50-year-old Nigerian woman lawyer, warm smile, black blazer over a colourful blouse",
+     "voice": "a crisp, reassuring female voice",
+     "species": "human"
+    },
+    "a6_mama_obinna": {
+     "name": "Mama Obinna",
+     "ref_prompt": "a 68-year-old Nigerian woman, stern, gold-rimmed glasses, royal-blue lace blouse and head tie",
+     "voice": "a stern, commanding elderly female voice",
+     "species": "human"
+    }
+   },
+   "locations": {
+    "a6_home2": "an elegant Abuja living room, white sofas, modern art, evening lamps",
+    "a6_pharmacy": "a bright modern pharmacy with shelves of medicine and a counter",
+    "a6_lola_flat": "a stylish small apartment with fairy lights and a vanity mirror",
+    "a6_restaurant": "an upscale restaurant at night, candles, quiet tables",
+    "a6_lawyer2": "a calm modern law office, glass desk, city view",
+    "a6_village_house": "a big family house in a village, carved wooden doors, a shaded courtyard"
+   },
+   "end_card": "",
+   "moral": "Know your worth. Peace is never too expensive.",
+   "arc_finale": true,
+   "captions": {
+    "tiktok": "Peace is never too expensive. 😳 Part 6/6 · The Other Wife. The moral of the story: Know your worth. Peace is never too expensive. #moralofthestory #nigeriandrama #shortdrama #storytime #aidrama",
+    "facebook": "The Other Wife, part 6 of 6: Peace. Ten years married, Nkem discovers her husband secretly married another woman, who had no idea he was married at all. The moral of the story: Know your worth. Peace is never too expensive."
+   },
+   "shots": [
+    {
+     "n": 1,
+     "dur": 8,
+     "loc": "a6_pharmacy",
+     "chars": [
+      "a6_obinna"
+     ],
+     "keyframe": "Obinna holds out the report",
+     "action": "Obinna holds out the report",
+     "camera": "dramatic crash zoom into a close-up, then hold",
+     "lines": [
+      {
+       "c": "a6_obinna",
+       "t": "The doctor says it's treatable. Six months. We could still have a child.",
+       "tone": "hopeful"
+      }
+     ],
+     "sfx": "deep boom",
+     "transition": "cut"
+    },
+    {
+     "n": 2,
+     "dur": 8,
+     "loc": "a6_pharmacy",
+     "chars": [
+      "a6_nkem"
+     ],
+     "keyframe": "Nkem looks at him for a long moment",
+     "action": "Nkem looks at him for a long moment",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a6_nkem",
+       "t": "We?",
+       "tone": "quiet"
+      }
+     ],
+     "sfx": "single piano note",
+     "transition": "cut"
+    },
+    {
+     "n": 3,
+     "dur": 8,
+     "loc": "a6_pharmacy",
+     "chars": [
+      "a6_obinna"
+     ],
+     "keyframe": "Obinna pleads",
+     "action": "Obinna pleads",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a6_obinna",
+       "t": "Give me another chance. I'll be a better man.",
+       "tone": "desperate"
+      }
+     ],
+     "sfx": "tense strings",
+     "transition": "cut"
+    },
+    {
+     "n": 4,
+     "dur": 8,
+     "loc": "a6_pharmacy",
+     "chars": [
+      "a6_nkem"
+     ],
+     "keyframe": "Nkem smiles gently",
+     "action": "Nkem smiles gently",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a6_nkem",
+       "t": "I hope you become a better man, Obinna. But not with me.",
+       "tone": "kind, final"
+      }
+     ],
+     "sfx": "soft strings",
+     "transition": "cut"
+    },
+    {
+     "n": 5,
+     "dur": 8,
+     "loc": "a6_pharmacy",
+     "chars": [
+      "a6_nkem"
+     ],
+     "keyframe": "Nkem steps back",
+     "action": "Nkem steps back",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a6_nkem",
+       "t": "Peace is more precious than a husband who lies.",
+       "tone": "serene"
+      }
+     ],
+     "sfx": "strings swell",
+     "transition": "cut"
+    },
+    {
+     "n": 6,
+     "dur": 8,
+     "loc": "a6_lawyer2",
+     "chars": [
+      "a6_rose",
+      "a6_nkem"
+     ],
+     "keyframe": "Rose hands Nkem the final papers",
+     "action": "Rose hands Nkem the final papers",
+     "camera": "two-shot, shallow focus, slow lateral dolly",
+     "lines": [
+      {
+       "c": "a6_rose",
+       "t": "Divorce finalised. How do you feel?",
+       "tone": "gentle"
+      },
+      {
+       "c": "a6_nkem",
+       "t": "Light. For the first time in years.",
+       "tone": "relieved"
+      }
+     ],
+     "sfx": "pen set down",
+     "transition": "dip"
+    },
+    {
+     "n": 7,
+     "dur": 8,
+     "loc": "a6_restaurant",
+     "chars": [
+      "a6_nkem",
+      "a6_lola"
+     ],
+     "keyframe": "Nkem and Lola laughing over dinner",
+     "action": "Nkem and Lola laughing over dinner",
+     "camera": "two-shot, shallow focus, slow lateral dolly",
+     "lines": [
+      {
+       "c": "a6_lola",
+       "t": "To new beginnings.",
+       "tone": "warm"
+      },
+      {
+       "c": "a6_nkem",
+       "t": "To knowing our worth.",
+       "tone": "warm"
+      }
+     ],
+     "sfx": "glasses clink",
+     "transition": "flash"
+    },
+    {
+     "n": 8,
+     "dur": 8,
+     "loc": "a6_village_house",
+     "chars": [
+      "a6_mama_obinna"
+     ],
+     "keyframe": "Mama Obinna on the phone in her courtyard",
+     "action": "Mama Obinna on the phone in her courtyard",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a6_mama_obinna",
+       "t": "My daughter, forgive this old woman. You were always family.",
+       "tone": "humble"
+      }
+     ],
+     "sfx": "birds",
+     "transition": "dip"
+    },
+    {
+     "n": 9,
+     "dur": 8,
+     "loc": "a6_pharmacy",
+     "chars": [
+      "a6_nkem"
+     ],
+     "keyframe": "Nkem cuts a ribbon at a new pharmacy branch",
+     "action": "Nkem cuts a ribbon at a new pharmacy branch",
+     "camera": "close-up, slow push-in, shallow depth of field",
+     "lines": [
+      {
+       "c": "a6_nkem",
+       "t": "Branch number two. Built with my own hands.",
+       "tone": "proud"
+      }
+     ],
+     "sfx": "applause",
+     "transition": "cut"
+    },
+    {
+     "n": 10,
+     "dur": 8,
+     "loc": "a6_pharmacy",
+     "chars": [],
+     "keyframe": "Nkem walks confidently down a sunlit street at golden hour",
+     "action": "Nkem walks confidently down a sunlit street at golden hour",
+     "camera": "wide establishing shot, slow dolly-in",
+     "lines": [],
+     "sfx": "soft music",
+     "transition": "cut"
+    }
+   ],
+   "loop_note": "cliffhanger freeze-frame; tomorrow opens with a 3 s 'previously' flash of it"
+  }
+ ]
+}

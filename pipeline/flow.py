@@ -103,7 +103,7 @@ def ordered_clips(channel):
         return [numbered[k] for k in sorted(numbered)], "file-name numbers"
     times = {p: _git_added_time(p) for p in files}
     if files and all(times.values()) and len(set(times.values())) == len(files):
-        return sorted(files, key=lambda p: times[p]), "upload order"
+        return sorted(files, key=lambda p: times[p] or 0), "upload order"
     return sorted(files, key=lambda p: p.name.lower()), "alphabetical"
 
 

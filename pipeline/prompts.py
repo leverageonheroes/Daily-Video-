@@ -47,8 +47,12 @@ def clip_prompt(bible: dict, episode: dict, shot: dict) -> str:
     parts = [shot["action"].rstrip(".") + ".", f"Camera: {shot['camera']}."]
     for ln in shot.get("lines", []):
         ch = chars[ln["c"]]
-        parts.append(f'{ch["name"]} the {ch.get("species", "character")} speaks in a {ch["voice"]} voice, '
-                     f'{ln.get("tone", "")}: "{ln["t"]}"')
+        if ch.get("species") in ("guest", "human", None) and bible.get("live_action"):
+            who = f'{ch["name"]} ({ch["ref_prompt"].split(",")[0]})'
+            parts.append(f'{who} speaks in {ch["voice"]}, {ln.get("tone", "")}: "{ln["t"]}"')
+        else:
+            parts.append(f'{ch["name"]} the {ch.get("species", "character")} speaks in a {ch["voice"]} voice, '
+                         f'{ln.get("tone", "")}: "{ln["t"]}"')
     if bible.get("nonverbal"):
         parts.append("No spoken words at all: characters only make cute non-verbal sounds (giggles, gasps, "
                      "hiccups, 'ooh', 'uh-oh', 'yay') as described in Sound. Mouths move only for those sounds.")

@@ -56,8 +56,11 @@ def channels():
 def image_prompts(cfg, ch, n, used: set):
     ip = cfg["image_prompt"]
     pools, uniq = ip["pools"], set(ip.get("unique_per_video", []))
-    out, taken = [], {k: set() for k in uniq}
+    out: list[dict] = []
+    taken: dict[str, set] = {k: set() for k in uniq}
     for k in range(cfg.get("images_per_video", 8)):
+        pick: dict = {}
+        prompt = h = ""
         for attempt in range(50):
             rnd = random.Random(f"{ch}-{n}-{k}-{attempt}")
             pick = {}
@@ -300,8 +303,8 @@ def post_meta(ch, final: Path, meta: dict) -> dict:
     except Exception as e:
         print(f"!! {ch}: Facebook/Instagram failed: {e}")
         return {"errors": [str(e)[:300]]}
-    for e in res.get("errors", []):
-        print(f"!! {ch}: {e}")
+    for err in res.get("errors", []):
+        print(f"!! {ch}: {err}")
     return res
 
 

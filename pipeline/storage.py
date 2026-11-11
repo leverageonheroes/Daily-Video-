@@ -38,12 +38,14 @@ def _ensure_release(tag, channel):
 
 def _upload(tag, channel, files):
     _ensure_release(tag, channel)
+    err = ""
     for attempt in range(3):
         r = _gh("release", "upload", tag, *map(str, files), "--clobber", check=False)
         if r.returncode == 0:
             return
+        err = (r.stderr or r.stdout).strip()[:300]
         time.sleep(5 * (attempt + 1))
-    raise RuntimeError(f"upload to release {tag} failed: {(r.stderr or r.stdout).strip()[:300]}")
+    raise RuntimeError(f"upload to release {tag} failed: {err}")
 
 
 def save_episode(channel: str, ep_id: str, clean_mp4: Path):

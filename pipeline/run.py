@@ -31,15 +31,32 @@ def workdir(ch, ep_id):
     return config.OUTPUT / ch / ep_id
 
 
+def recap_for(ch, ep, bible):
+    """Story arcs: a 3 s flash of the previous part's cliffhanger (reused from its stored clean copy, free)."""
+    if not bible.get("recaps") or ep.get("part", 1) <= 1:
+        return None
+    prev = next((e for e in state.episodes(ch) if e.get("arc") == ep.get("arc")
+                 and e.get("part") == ep["part"] - 1), None)
+    if not prev:
+        return None
+    try:
+        src = storage.fetch_episode(ch, prev["id"], config.OUTPUT / ch / "_recap" / f"{prev['id']}.mp4")
+    except FileNotFoundError as e:
+        print(f"   (no recap for {ep['id']}: {e})")
+        return None
+    start = max(assemble.duration(src) - prev["shots"][-1]["dur"], 0)
+    return {"src": src, "start": start, "seconds": float(bible.get("recap_seconds", 3.0))}
+
+
 def render(s, ch, ep_id):
     ep = state.get_episode(ch, ep_id)
     wd = workdir(ch, ep_id)
-    print(f"\n== Rendering {ep_id}: {ep['title']}  (est. ${generate.estimate_cost(ep):.2f})")
+    print(f"\n== Rendering {ep_id}: {ep['title']}  (est. ${generate.estimate_cost(ep, generate.load_bible(ch)):.2f})")
     clips = generate.render_shots(ch, ep, wd)
     bible = generate.load_bible(ch)
     from . import narration
     narr = narration.render(ch, ep, wd, bible)
-    final = assemble.assemble(ep, clips, wd, bible, narration=narr)
+    final = assemble.assemble(ep, clips, wd, bible, narration=narr, recap=recap_for(ch, ep, bible))
     state.mark(s, ch, ep_id, "rendered", f"{assemble.duration(final):.1f}s", final=str(final.relative_to(config.ROOT)))
     state.save(s)
     try:
@@ -122,8 +139,8 @@ def reels_backfill(s, chs):
                 print(f"!! {ch} {ep_id}: {e}")
                 failed = True
                 continue
-            for e in res.pop("errors", []):
-                print(f"!! {ch} {ep_id}: {e}")
+            for err in res.pop("errors", []):
+                print(f"!! {ch} {ep_id}: {err}")
                 failed = True
             rec["stories"] = res
             state.save(s)
@@ -203,7 +220,7 @@ def daily(s, channels):
             continue
         try:
             if not pending:
-                cost = generate.estimate_cost(state.get_episode(ch, ep_id))
+                cost = generate.estimate_cost(state.get_episode(ch, ep_id), generate.load_bible(ch))
                 if spent + cost > config.DAILY_BUDGET_USD:
                     print(f"!! {ch}: skipping {ep_id}, would exceed DAILY_BUDGET_USD={config.DAILY_BUDGET_USD}")
                     continue
@@ -238,6 +255,14 @@ def daily(s, channels):
             except Exception:
                 failures += 1
                 traceback.print_exc()
+        ep = state.get_episode(ch, ep_id)
+        if ep.get("arc_finale") and generate.load_bible(ch).get("arc_movies"):
+            try:     # the movie never affects the finale's own status
+                from . import compile as comp
+                comp.compile_arc(s, ch, ep, upload=do_upload)
+            except Exception as e:
+                traceback.print_exc()
+                print(f"!! {ch}: arc movie failed ({e}). Retry: python -m pipeline.run movie {ch} {ep_id}")
         if state.buffer_low(s, ch):
             print(f"!! {ch}: script buffer low. Write the next batch (see CLAUDE.md).")
     print(f"\nDone. Estimated spend this run: ${spent:.2f}")
@@ -343,6 +368,10 @@ def main(argv):
         if failed:
             state.save(s)
             sys.exit(1)
+    elif cmd == "movie":          # rebuild an arc movie by hand: movie <channel> <finale episode id>
+        from . import compile as comp
+        do_upload = os.environ.get("YT_UPLOAD", "1") == "1" and not config.MOCK
+        comp.compile_arc(s, argv[1], state.get_episode(argv[1], argv[2]), upload=do_upload)
     elif cmd == "carousel":
         from . import carousel
         sys.exit(1 if carousel.run(argv[1:]) else 0)
