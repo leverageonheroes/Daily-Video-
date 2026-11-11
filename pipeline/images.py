@@ -98,7 +98,7 @@ def cloudflare(prompt, seed, dest: Path):
     acct = _env(*CF_ACCOUNT_NAMES) or _cf_account_scan() or _cf_account(tok)
     model = os.environ.get("CF_IMAGE_MODEL", "@cf/black-forest-labs/flux-1-schnell")
     res = _post(f"https://api.cloudflare.com/client/v4/accounts/{acct}/ai/run/{model}",
-                {"prompt": prompt, "steps": 8, "seed": seed}, {"Authorization": f"Bearer {tok}"})
+                {"prompt": prompt, "steps": 8}, {"Authorization": f"Bearer {tok}"})
     img = (res.get("result") or {}).get("image")
     if not img:
         raise ImageError(f"no image: {str(res)[:300]}")
