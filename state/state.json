@@ -1285,9 +1285,45 @@
           }
         },
         "ELD-005": {
-          "status": "scripted",
-          "history": [],
-          "attempts": 0
+          "status": "uploaded",
+          "history": [
+            {
+              "status": "rendered",
+              "at": "2026-11-11T18:28:21+00:00",
+              "note": "71.0s from Google Flow clips"
+            },
+            {
+              "status": "uploaded",
+              "at": "2026-11-11T18:28:34+00:00",
+              "note": "https://youtu.be/ITVpR5dGbQU publishes 2026-11-12T04:28:28Z"
+            }
+          ],
+          "attempts": 1,
+          "final": "output/elders/ELD-005/final.mp4",
+          "clips": [
+            "1.mp4_ce6afa89.mp4",
+            "2.mp4_92701078.mp4",
+            "3.mp4_f943b4f9.mp4",
+            "4.mp4_12ae91fd.mp4",
+            "5.mp4_0a25607f.mp4",
+            "6.mp4_e473e338.mp4",
+            "7.mp4_59121ee7.mp4",
+            "8.mp4_e794ad0e.mp4"
+          ],
+          "youtube_id": "ITVpR5dGbQU",
+          "publish_at": "2026-11-12T04:28:28Z",
+          "stories": {
+            "facebook": [
+              "1712578197305722",
+              "1991818651827110"
+            ],
+            "instagram": [
+              "17915585700552316",
+              "18100882757430155"
+            ],
+            "facebook_reel": "122104446357541373",
+            "instagram_reel": "17917937358540480"
+          }
         },
         "ELD-006": {
           "status": "scripted",
@@ -1527,9 +1563,45 @@
           }
         },
         "CC-004": {
-          "status": "scripted",
-          "history": [],
-          "attempts": 0
+          "status": "uploaded",
+          "history": [
+            {
+              "status": "rendered",
+              "at": "2026-11-11T18:19:47+00:00",
+              "note": "71.0s from Google Flow clips"
+            },
+            {
+              "status": "uploaded",
+              "at": "2026-11-11T18:19:59+00:00",
+              "note": "https://youtu.be/dk5QC7pZExs publishes 2026-11-12T05:19:53Z"
+            }
+          ],
+          "attempts": 1,
+          "final": "output/cribcommittee/CC-004/final.mp4",
+          "clips": [
+            "1.mp4_f937df1f.mp4",
+            "2.mp4_71a13fe5.mp4",
+            "3.mp4_b7d943d9.mp4",
+            "4.mp4_877cd2e1.mp4",
+            "5.mp4_d26c1b94.mp4",
+            "6.mp4_0fff61ea.mp4",
+            "7.mp4_e3a846e1.mp4",
+            "8.mp4_8a3987ed.mp4"
+          ],
+          "youtube_id": "dk5QC7pZExs",
+          "publish_at": "2026-11-12T05:19:53Z",
+          "stories": {
+            "facebook": [
+              "1131187652854805",
+              "1500074432042583"
+            ],
+            "instagram": [
+              "18648502792014402",
+              "18150629293562953"
+            ],
+            "facebook_reel": "122109043353535249",
+            "instagram_reel": "17918545206545906"
+          }
         },
         "CC-005": {
           "status": "scripted",
@@ -1665,5 +1737,5 @@
       "last_scripted": "CC-030"
     }
   },
-  "updated": "2026-11-11T12:01:05+00:00"
+  "updated": "2026-11-11T18:34:51+00:00"
 }
