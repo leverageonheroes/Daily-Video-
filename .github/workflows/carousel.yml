@@ -72,7 +72,7 @@ jobs:
           CF_KEY: ${{ secrets.CF_KEY }}
           TOGETHER_API_KEY: ${{ secrets.TOGETHER_API_KEY }}
           YT_TOKEN_ELDERS: ${{ secrets.YT_TOKEN_ELDERS }}
-          YT_TOKEN_CRIBCOMMITTEE: ${{ secrets.YT_TOKEN_CRIBCOMMITTEE }}
+          YT_TOKEN_CRIBCOMMITTEE: ${{ secrets.YT_TOKEN_CRIBCOMMITTEE || secrets.YT_TOKEN_CRIB }}
           META_TOKEN: ${{ secrets.META_TOKEN }}
           META_TOKEN_FACEBOOK_INSTAGRAM: ${{ secrets.META_TOKEN_FACEBOOK_INSTAGRAM }}
           FACEBOOK_INSTAGRAM_PAGE_IDS: ${{ secrets.FACEBOOK_INSTAGRAM_PAGE_IDS }}
@@ -88,7 +88,10 @@ jobs:
           YT_PUBLISH_NOW: ${{ github.event_name == 'push' && '1' || inputs.publish_now }}
         run: |
           for v in CF_ACCOUNT_ID CLOUDFLARE_ACCOUNT_ID CF_ACCOUNT CLOUDFLARE_ACCOUNT CLOUDFLARE_ID CF_ID CLOUDFLARE_ACC_ID CF_ACC_ID CLOUDFLARE_ACCOUNTID CF_ACCOUNTID ACCOUNT_ID CLOUDFLARE_ACCOUNT_ACCOUNT_ CLOUDFLARE_ACCOUNT_ACCOUNT CLOUDFLARE_CCOUNT_ CLOUDFLARE_CCOUNT CLOUDFLARE_ACCOUNT_ CLOUDFLARE_CCOUNT_ID CLOUDFLARE_ACCOUNT_ACCOUNT_ID CF_API_TOKEN CLOUDFLARE_API_TOKEN CF_API_KEY CLOUDFLARE_API_KEY CLOUDFLARE_API CF_API CLOUDFLARE_TOKEN CF_TOKEN CLOUDFLARE_KEY CF_KEY; do [ -n "${!v:-}" ] && echo "secret $v: set"; done
-          python -m pipeline.run carousel ${{ inputs.channels }}
+          CH="${{ inputs.channels }}"
+          # push trigger: optional line "channels: elders cribcommittee" in triggers/carousel-now
+          if [ -z "$CH" ] && [ "${{ github.event_name }}" = push ]; then CH=$(sed -n 's/^channels:[[:space:]]*//p' triggers/carousel-now); fi
+          python -m pipeline.run carousel $CH
       - name: Save progress
         if: always() && (github.event_name == 'push' || inputs.upload == '1')
         run: |
