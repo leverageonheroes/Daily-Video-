@@ -7,6 +7,7 @@ on:
     - cron: "17 8 * * *"      # backup: GitHub often delays/drops scheduled runs; the open-issue check prevents duplicates
   workflow_dispatch:
   push:                       # re-run on demand: edit triggers/flow-prompts and push
+    branches: [main]      # tag pushes (Release creation) ignore paths filters - never run on those
     paths: ["triggers/flow-prompts"]
 
 permissions:

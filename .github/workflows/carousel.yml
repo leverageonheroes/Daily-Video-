@@ -5,6 +5,7 @@ name: Carousel (manual test / backup)
 on:
   # Catch-up run from a phone/agent: edit triggers/carousel-now and push -> render, upload, public now.
   push:
+    branches: [main]      # tag pushes (Release creation) ignore paths filters - never run on those
     paths: ["triggers/carousel-now"]
   workflow_dispatch:
     inputs:

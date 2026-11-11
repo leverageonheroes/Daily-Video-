@@ -4,6 +4,7 @@ name: Reels backfill (Facebook + Instagram)
 # Start it by editing triggers/reels-backfill and pushing (or Actions tab -> Run workflow).
 on:
   push:
+    branches: [main]      # tag pushes (Release creation) ignore paths filters - never run on those
     paths: ["triggers/reels-backfill"]
   workflow_dispatch:
 

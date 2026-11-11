@@ -1,7 +1,7 @@
 {
   "channels": {
     "cribcommittee": {
-      "next": 2,
+      "next": 3,
       "done": {
         "CRW-001": {
           "theme": "bedtime",
@@ -23,6 +23,22 @@
               "instagram_reel: POST https://rupload.facebook.com/ig-api-upload/v23.0/18018909548755506 -> HTTP 400: {\"debug_info\":{\"retriable\":false,\"type\":\"ProcessingFailedError\",\"message\":\"Request processing failed\"}}"
             ]
           }
+        },
+        "CRW-002": {
+          "theme": "big feelings",
+          "rendered": "2026-11-11T10:47:00+00:00",
+          "youtube_id": "2DwgY6wU5IQ",
+          "publish_at": null,
+          "meta": {
+            "facebook": [
+              "posted"
+            ],
+            "instagram": [
+              "posted"
+            ],
+            "facebook_reel": "posted"
+          },
+          "note": "posted early by an accidental tag-triggered run on 2026-11-11; recorded by hand"
         }
       },
       "used_images": [
