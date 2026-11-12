@@ -14,6 +14,7 @@
   python -m pipeline.run check                 # test YouTube, Meta, LTX and fal.ai connections (free)
   python -m pipeline.run status
   python -m pipeline.run flow-prompts [ch]     # Google Flow channels: write today's 5 prompts to inbox/<ch>/PROMPTS.md
+  python -m pipeline.run hardtruths [elders]     # Hard Truths: one lip-synced elder, 8 lines (free tools)
   python -m pipeline.run carousel [ch]         # second daily video: image carousel + scrolling words (Railway)
   python -m pipeline.run flow-import [ch]      # Google Flow channels: once 5 clips are in inbox/<ch>/, assemble + upload
 
@@ -378,6 +379,9 @@ def main(argv):
     elif cmd == "carousel":
         from . import carousel
         sys.exit(1 if carousel.run(argv[1:]) else 0)
+    elif cmd == "hardtruths":
+        from . import hardtruths
+        sys.exit(1 if hardtruths.run(argv[1:]) else 0)
     elif cmd == "extras":
         from . import extras
         sys.exit(1 if extras.run(argv[1:]) else 0)

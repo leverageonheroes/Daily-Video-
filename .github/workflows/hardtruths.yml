@@ -1,0 +1,85 @@
+name: Hard Truths
+
+# Ask The Elders "Hard Truths": one AI elder, 8 lines, lip-synced with free tools (FLUX still + Kokoro voice +
+# SadTalker on the CPU runner). pipeline/hardtruths.py. While channels/elders/hardtruths.json has "paused": true
+# each new script is rendered once into GitHub Release hardtruths-preview (no YouTube upload).
+# Run now from a phone/agent: edit triggers/hardtruths-now and push (optional line "episode: HT-003").
+on:
+  schedule:
+    - cron: "5 4 * * *"
+  push:
+    branches: [main]
+    paths: ["triggers/hardtruths-now"]
+  workflow_dispatch:
+    inputs:
+      episode:
+        description: "Script id to render (blank = next)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: hardtruths
+  cancel-in-progress: false
+
+jobs:
+  hardtruths:
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+      - run: echo "PYTHON310=$(which python3.10)" >> "$GITHUB_ENV"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: sudo apt-get update && sudo apt-get install -y ffmpeg fonts-dejavu-core libsndfile1
+      - run: pip install -r requirements.txt kokoro-onnx soundfile numpy
+      - name: Cache SadTalker + weights
+        uses: actions/cache@v4
+        with:
+          path: ~/sadtalker
+          key: sadtalker-${{ hashFiles('tools/setup_sadtalker.sh', 'tools/sadtalker_requirements.txt') }}
+      - name: Cache Kokoro voice model
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/kokoro
+          key: kokoro-v1.0
+      - run: bash tools/setup_sadtalker.sh
+      - name: Render (and upload unless paused)
+        env:
+          CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID || vars.CF_ACCOUNT_ID }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID || vars.CLOUDFLARE_ACCOUNT_ID }}
+          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CF_API_KEY: ${{ secrets.CF_API_KEY }}
+          CLOUDFLARE_API_KEY: ${{ secrets.CLOUDFLARE_API_KEY }}
+          TOGETHER_API_KEY: ${{ secrets.TOGETHER_API_KEY }}
+          GH_TOKEN: ${{ github.token }}
+          YT_TOKEN_ELDERS: ${{ secrets.YT_TOKEN_ELDERS }}
+        run: |
+          EP="${{ inputs.episode }}"
+          if [ -z "$EP" ] && [ "${{ github.event_name }}" = push ]; then EP=$(sed -n 's/^episode:[[:space:]]*//p' triggers/hardtruths-now); fi
+          [ -n "$EP" ] && export HT_EPISODE="$EP"
+          python -m pipeline.run hardtruths elders
+      - name: Save progress
+        if: always()
+        run: |
+          git config user.name "shorts-bot"
+          git config user.email "shorts-bot@users.noreply.github.com"
+          git add state/hardtruths.json 2>/dev/null || true
+          if ! git diff --cached --quiet; then git commit -m "hardtruths: $(date -u +%F)"; git pull --rebase; git push; fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: hardtruths-${{ github.run_id }}
+          path: |
+            output/hardtruths/**/final.mp4
+            output/hardtruths/**/portrait.png
+          retention-days: 7
+          if-no-files-found: ignore

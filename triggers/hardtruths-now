@@ -1,0 +1,3 @@
+# Edit + push this file to run Hard Truths now (render; uploads only when hardtruths.json "paused" is false).
+# Optional line:  episode: HT-003   (render that script instead of the next one)
+run: 1
