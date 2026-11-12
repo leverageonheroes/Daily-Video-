@@ -511,9 +511,14 @@
               "status": "failed",
               "at": "2026-11-12T15:30:25+00:00",
               "note": "all TTS endpoints failed -> fal-ai/elevenlabs/tts/turbo-v2.5: fal-ai/elevenlabs/tts/turbo-v2.5 failed: [{'loc': ['body', 'voice'], 'msg': 'The content could not be processed because it contained material flagged by a content checker.', 'type': 'content_policy_violation', 'url': 'https://docs.fal.ai/"
+            },
+            {
+              "status": "failed",
+              "at": "2026-11-12T19:11:07+00:00",
+              "note": "all TTS endpoints failed -> fal-ai/elevenlabs/tts/turbo-v2.5: fal-ai/elevenlabs/tts/turbo-v2.5 failed: [{'loc': ['body', 'voice'], 'msg': 'The content could not be processed because it contained material flagged by a content checker.', 'type': 'content_policy_violation', 'url': 'https://docs.fal.ai/"
             }
           ],
-          "attempts": 1
+          "attempts": 2
         },
         "OIT-005": {
           "status": "scripted",
@@ -2033,5 +2038,5 @@
       "last_scripted": "CC-030"
     }
   },
-  "updated": "2026-11-12T15:40:35+00:00"
+  "updated": "2026-11-12T19:11:07+00:00"
 }
