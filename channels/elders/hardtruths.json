@@ -2,7 +2,7 @@
  "brand": "Hard Truths",
  "show": "Ask The Elders TV",
  "id_prefix": "HT",
- "paused": true,
+ "paused": false,
  "_paused_note": "true = render + keep in GitHub Release hardtruths-preview, no YouTube upload. Set false once a preview is approved.",
  "publish_local": "19:00",
  "timezone": "Europe/London",

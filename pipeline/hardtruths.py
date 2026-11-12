@@ -419,6 +419,13 @@ def run_channel(s, ch, upload=True):
         res = youtube.upload(ch, final, meta)
         rec.update(res)
         print(f"   -> https://youtu.be/{res['youtube_id']} (public at {res.get('publish_at')})")
+        rec["meta"] = carousel.post_meta(ch, final, meta)          # Facebook + Instagram (never blocks)
+        try:                                                       # TikTok: video + caption for manual posting
+            from . import storage
+            storage.save_tiktok(ch, ep["id"], final, {"title": meta["title"], "description": ep["lines"][0],
+                                                      "tags": meta.get("topic_tags", [])})
+        except Exception as e:
+            print(f"!! {ch}: TikTok copy failed: {e}")
     else:
         print(f"   -> {final} ({'paused: review the preview, then set paused=false' if paused else 'upload off'})")
     return final
