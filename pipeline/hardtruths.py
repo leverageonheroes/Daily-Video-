@@ -170,6 +170,24 @@ def portrait(ep: dict, wd: Path) -> Path:
     return out
 
 
+PAD_W, PAD_H, PAD_SCALE = 2.0, 1.25, 0.75   # SadTalker canvas: 2x width, 1.25x height, then scaled to 75%
+
+
+def pad_for_sadtalker(img: Path, dest: Path) -> Path:
+    """SadTalker crops a square ~4x the eye distance around the face. Our close-up fills the whole width, so that
+    square ran off the image, got clipped/squashed and the face check failed ('bboxes[0]' IndexError). Put the
+    portrait in the middle of a wider dark blurred canvas so the square fits; lipsync() crops it back afterwards."""
+    from PIL import Image, ImageFilter, ImageEnhance
+    im = Image.open(img).convert("RGB")
+    cw, chh = int(im.width * PAD_W), int(im.height * PAD_H)
+    bg = im.resize((cw, chh), Image.Resampling.BILINEAR).filter(ImageFilter.GaussianBlur(60))
+    bg = ImageEnhance.Brightness(bg).enhance(0.35)
+    bg.paste(im, ((cw - im.width) // 2, (chh - im.height) // 2))
+    size = (int(cw * PAD_SCALE) // 2 * 2, int(chh * PAD_SCALE) // 2 * 2)
+    bg.resize(size, Image.Resampling.LANCZOS).save(dest)
+    return dest
+
+
 def lipsync(img: Path, voice: Path, wd: Path, total: float) -> Path:
     out = wd / "talking.mp4"
     if out.exists():
@@ -190,7 +208,8 @@ def lipsync(img: Path, voice: Path, wd: Path, total: float) -> Path:
                    check=True)
     res = wd / "sadtalker"
     shutil.rmtree(res, ignore_errors=True)
-    cmd = [py, "inference.py", "--driven_audio", str(a16.resolve()), "--source_image", str(img.resolve()),
+    padded = pad_for_sadtalker(img, wd / "sadtalker_src.png")
+    cmd = [py, "inference.py", "--driven_audio", str(a16.resolve()), "--source_image", str(padded.resolve()),
            "--result_dir", str(res.resolve()), "--still", "--preprocess", "full", "--size", "256",
            "--expression_scale", os.environ.get("SADTALKER_EXPRESSION", "1.1")]
     enh = os.environ.get("SADTALKER_ENHANCER", "gfpgan")
@@ -206,7 +225,11 @@ def lipsync(img: Path, voice: Path, wd: Path, total: float) -> Path:
     mp4s = sorted(res.rglob("*.mp4"), key=lambda p: p.stat().st_mtime)
     if not mp4s:
         raise RuntimeError("SadTalker produced no video:\n" + r.stdout[-2000:])
-    shutil.copy(mp4s[-1], out)
+    # cut the padding off again: back to the original 1080x1920 portrait framing
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(mp4s[-1]), "-vf",
+                    f"crop=iw*{1 / PAD_W:.6f}:ih*{1 / PAD_H:.6f}:iw*{(1 - 1 / PAD_W) / 2:.6f}:ih*{(1 - 1 / PAD_H) / 2:.6f},"
+                    f"scale={W}:{H}:flags=lanczos,setsar=1", "-c:v", "libx264", "-preset", "veryfast", "-crf", "17",
+                    "-pix_fmt", "yuv420p", "-c:a", "copy", str(out)], check=True)
     print(f"   lip-sync done in {(dt.datetime.now() - t0).seconds // 60} min")
     return out
 
