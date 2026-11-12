@@ -131,6 +131,18 @@ The Crib Committee is in session. A predictable bedtime routine (bath, book, bed
 
 ## Fridge Hearts
 
+### CH-008  ·  2026-11-12
+
+**[⬇️ Download video](https://github.com/leverageonheroes/Daily-Video-/releases/download/tiktok-coldhearts/CH-008.mp4)** (40 MB)
+
+```text
+He trained all day to be picked... 🥦❄️
+
+Brock wanted to be Chosen. He got exiled. Fridge Hearts, episode 8.
+
+#fridgedrama #broccoli #soapopera #funnyanimation #fyp
+```
+
 ### CH-007  ·  2026-11-11
 
 **[⬇️ Download video](https://github.com/leverageonheroes/Daily-Video-/releases/download/tiktok-coldhearts/CH-007.mp4)** (39 MB)
