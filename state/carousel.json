@@ -1,7 +1,7 @@
 {
   "channels": {
     "cribcommittee": {
-      "next": 3,
+      "next": 4,
       "done": {
         "CRW-001": {
           "theme": "bedtime",
@@ -39,21 +39,47 @@
             "facebook_reel": "posted"
           },
           "note": "posted early by an accidental tag-triggered run on 2026-11-11; recorded by hand"
+        },
+        "CRW-003": {
+          "theme": "attention",
+          "rendered": "2026-11-12T13:47:42+00:00",
+          "seconds": 73.03,
+          "youtube_id": "uCkyh27gUj8",
+          "publish_at": "2026-11-13T14:30:00Z",
+          "meta": {
+            "facebook": [
+              "1680029363571129",
+              "1688351909471109"
+            ],
+            "facebook_reel": "122109510249535249",
+            "instagram_reel": "18103749533344112",
+            "errors": [
+              "instagram: POST https://rupload.facebook.com/ig-api-upload/v23.0/18019203476755506 -> HTTP 400: {\"debug_info\":{\"retriable\":false,\"type\":\"ProcessingFailedError\",\"message\":\"Request processing failed\"}}"
+            ]
+          }
         }
       },
       "used_images": [
         "03c4a6e66b5e",
         "13d38b3b9fca",
         "26f41187b48e",
+        "277b26a93215",
+        "2ab0985826d1",
+        "3d1d08ccf55a",
         "3e0c29d18015",
         "3f49e55e963a",
         "554dbe9a89d4",
+        "68c697e906f4",
+        "706a36adb006",
         "83d6ee961e98",
-        "8eefbc806fce"
+        "8ea58660edf0",
+        "8eefbc806fce",
+        "9387c0b76651",
+        "c8c2a269b7e0"
       ]
     },
     "elders": {
-      "next": 2,
+      "next": 3,
       "done": {
         "ELC-001": {
           "theme": "money",
@@ -75,19 +101,45 @@
               "instagram_reel: POST https://rupload.facebook.com/ig-api-upload/v23.0/18089323607398291 -> HTTP 400: {\"debug_info\":{\"retriable\":false,\"type\":\"ProcessingFailedError\",\"message\":\"Request processing failed\"}}"
             ]
           }
+        },
+        "ELC-002": {
+          "theme": "love",
+          "rendered": "2026-11-12T13:56:43+00:00",
+          "seconds": 73.03,
+          "youtube_id": "Zf8OK9l-e0k",
+          "publish_at": "2026-11-13T13:30:00Z",
+          "meta": {
+            "facebook": [
+              "4891794397812368",
+              "1678641450413916"
+            ],
+            "facebook_reel": "122105266587541373",
+            "instagram_reel": "18119029751159239",
+            "errors": [
+              "instagram: POST https://rupload.facebook.com/ig-api-upload/v23.0/18089757467398291 -> HTTP 400: {\"debug_info\":{\"retriable\":false,\"type\":\"ProcessingFailedError\",\"message\":\"Request processing failed\"}}"
+            ]
+          }
         }
       },
       "used_images": [
+        "01afa4520582",
         "413b98f2dde4",
+        "4250de18809a",
         "5e503aa532d6",
+        "6cbe8b75efd3",
         "6f41032d88fa",
         "84f393662157",
+        "8cda2b0749dd",
+        "8e5e26fd80e8",
+        "a8e419ed02f9",
+        "b52bbe397ab5",
         "b7f830bcda58",
         "ce42964ee269",
+        "ecfa314cdcea",
         "edb0448ffb1a",
         "ff7a9b0502c5"
       ]
     }
   },
-  "updated": "2026-11-11T10:37:08+00:00"
+  "updated": "2026-11-12T14:03:57+00:00"
 }
