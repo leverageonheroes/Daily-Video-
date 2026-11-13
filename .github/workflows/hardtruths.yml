@@ -50,7 +50,9 @@ jobs:
         with:
           path: ~/.cache/kokoro
           key: kokoro-v1.0
-      - run: bash tools/setup_sadtalker.sh
+      - name: SadTalker (only when hardtruths.json lipsync is not veo)
+        run: |
+          if grep -q '"lipsync": "veo"' channels/elders/hardtruths.json; then echo "Veo mode: SadTalker skipped"; else bash tools/setup_sadtalker.sh; fi
       - name: Render (and upload unless paused)
         env:
           CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID || vars.CF_ACCOUNT_ID }}

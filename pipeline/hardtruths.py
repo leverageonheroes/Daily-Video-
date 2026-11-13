@@ -4,7 +4,11 @@
 
   1. portrait   free FLUX still (pipeline/images.py), extreme close-up, composed to 1080x1920
   2. voice      Kokoro TTS (Apache-2.0, ONNX, runs on the CPU runner), one clip per line, slightly lowered pitch
-  3. lip-sync   SadTalker (Apache-2.0) in its own Python 3.10 venv (tools/setup_sadtalker.sh), one pass over the
+  3. lip-sync   hardtruths.json "lipsync": "sadtalker" (FREE, default). "veo" = PAID option (~$3.50/Short, never
+                switch without the owner's OK): fal Veo 3.1 Lite
+                makes one 8 s clip per line from the portrait, the elder SPEAKS the line with native lip-synced
+                audio (Kokoro + SadTalker are skipped). Otherwise:
+                SadTalker (Apache-2.0) in its own Python 3.10 venv (tools/setup_sadtalker.sh), one pass over the
                 whole voice track, GFPGAN face enhancer. LIPSYNC=still renders without lip-sync (tests only).
   4. finish     slow push-in, grey-green grade, captions popping in word by word (power words from the
                 word bank in gold), "HARD TRUTH #n" label, soft piano under the voice, -14 LUFS.
@@ -188,11 +192,12 @@ def pad_for_sadtalker(img: Path, dest: Path) -> Path:
     return dest
 
 
-def lipsync(img: Path, voice: Path, wd: Path, total: float) -> Path:
+def lipsync(img: Path, voice: Path, wd: Path, total: float, cfg: dict = None) -> Path:
+    cfg = cfg or {}
     out = wd / "talking.mp4"
     if out.exists():
         return out
-    mode = os.environ.get("LIPSYNC", "still" if config.MOCK else "sadtalker")
+    mode = os.environ.get("LIPSYNC") or ("still" if config.MOCK else cfg.get("lipsync", "sadtalker"))
     if mode == "still":
         print("   (LIPSYNC=still: no lip-sync, test render only)")
         subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-loop", "1", "-framerate", "25", "-i", str(img),
@@ -212,14 +217,18 @@ def lipsync(img: Path, voice: Path, wd: Path, total: float) -> Path:
     cmd = [py, "inference.py", "--driven_audio", str(a16.resolve()), "--source_image", str(padded.resolve()),
            "--result_dir", str(res.resolve()), "--still", "--preprocess", "full", "--size", "256",
            "--expression_scale", os.environ.get("SADTALKER_EXPRESSION", "1.1")]
-    enh = os.environ.get("SADTALKER_ENHANCER", "gfpgan")
+    enh = os.environ.get("SADTALKER_ENHANCER", cfg.get("sadtalker_enhancer", "gfpgan"))
     if enh and enh != "none":
         cmd += ["--enhancer", enh]
     if os.environ.get("SADTALKER_GPU") != "1":
         cmd += ["--cpu"]
-    print("   lip-sync: SadTalker (CPU, this takes a while)")
+    print(f"   lip-sync: SadTalker (CPU, enhancer={enh or 'none'}, this takes a while)")
     t0 = dt.datetime.now()
-    r = subprocess.run(cmd, cwd=st_dir, capture_output=True, text=True)
+    try:   # fail cleanly instead of hanging until GitHub kills the job (2026-11-12 ran 3 h)
+        r = subprocess.run(cmd, cwd=st_dir, capture_output=True, text=True,
+                           timeout=60 * int(cfg.get("sadtalker_timeout_min", 150)))
+    except subprocess.TimeoutExpired:
+        raise RuntimeError(f"SadTalker took over {cfg.get('sadtalker_timeout_min', 150)} min - gave up")
     if r.returncode != 0:
         raise RuntimeError("SadTalker failed:\n" + (r.stderr or r.stdout)[-3000:])
     mp4s = sorted(res.rglob("*.mp4"), key=lambda p: p.stat().st_mtime)
@@ -232,6 +241,121 @@ def lipsync(img: Path, voice: Path, wd: Path, total: float) -> Path:
                     "-pix_fmt", "yuv420p", "-c:a", "copy", str(out)], check=True)
     print(f"   lip-sync done in {(dt.datetime.now() - t0).seconds // 60} min")
     return out
+
+
+# ---------------------------------------------------------------- Veo mode (paid: fal Veo 3.1 Lite, ~$0.05/s)
+VEO_ENDPOINT = "fal-ai/veo3.1/lite/image-to-video"
+VEO_BACKUP = "fal-ai/veo3.1/fast/image-to-video"      # per-clip fallback (~$0.15/s), same as Moral Of The Story
+
+
+def voice_desc(ep: dict) -> str:
+    v = ep.get("voice", "bm_george")
+    who = "woman" if v[1:2] == "f" else "man"
+    accent = "British" if v.startswith("b") else "American"
+    return (f"a {ep['age']}-year-old {who} with a natural {accent} accent, slow, warm, low and slightly "
+            f"gravelly voice, calm and sincere, unhurried pauses")
+
+
+def veo_prompt(ep: dict, text: str, last: bool = False) -> str:
+    return (f"Static extreme close-up. The elder in the image looks straight into the camera and speaks slowly "
+            f"and sincerely, with real lip movement matching every word, small natural head movements, "
+            f"blinking, subtle facial expression. Voice: {voice_desc(ep)}. "
+            f"The elder says: \"{text}\" "
+            + ("Then the elder holds a gentle, knowing look into the camera. " if last else
+               "Then the elder falls silent and holds eye contact. ")
+            + "Audio: only the voice, quiet room tone. No music, no other voices, no subtitles, "
+              "no captions, no on-screen text, no camera cuts, same person throughout.")
+
+
+def veo_clip(img_url: str, ep: dict, text: str, secs: int, dest: Path, last=False) -> Path:
+    if dest.exists():
+        return dest
+    from . import fal_api
+    if config.MOCK:
+        return fal_api.mock_clip(dest, wd_portrait(dest), secs, 200 + 20 * len(text) % 300)
+    args = {"image_url": img_url, "prompt": veo_prompt(ep, text, last), "aspect_ratio": "9:16",
+            "duration": f"{secs}s", "resolution": "720p", "generate_audio": True}
+    errs = []
+    for ep_id in (VEO_ENDPOINT, VEO_BACKUP):
+        try:
+            res = fal_api.run(ep_id, args, retries=1)
+            return fal_api.download(res["video"]["url"], dest)
+        except Exception as e:
+            errs.append(f"{ep_id}: {e}")
+            print(f"   {dest.stem}: {ep_id} failed ({str(e)[:150]})")
+    raise RuntimeError("Veo failed: " + " | ".join(errs))
+
+
+def wd_portrait(clip: Path) -> Path:
+    return clip.parent.parent / "portrait.png"
+
+
+def speech_span(clip: Path) -> dict:
+    """Voice start/end inside a Veo clip (same envelope rule as tts())."""
+    import numpy as np
+    import soundfile as sf
+    wav = clip.with_suffix(".wav")
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(clip), "-vn", "-ac", "1", "-ar", "48000",
+                    str(wav)], check=True)
+    a, sr = sf.read(wav)
+    env = np.convolve(np.abs(a), np.ones(480) / 480, mode="same")      # 10 ms smoothing
+    thr = max(0.01, env.max() * 0.12)
+    idx = np.nonzero(env > thr)[0]
+    return {"dur": len(a) / sr, "on": float(idx[0] / sr) if len(idx) else 0.3,
+            "off": float(idx[-1] / sr) if len(idx) else len(a) / sr - 0.5, "wav": str(wav)}
+
+
+def render_veo(cfg, ep, wd: Path):
+    """8 Veo clips (one per line, 8 s, the elder speaks it with native lip-synced audio) + a short clip
+    asking the question. Returns (talk.mp4, voice.wav, blocks, labels, total)."""
+    from concurrent.futures import ThreadPoolExecutor
+    from . import fal_api
+    img = portrait(ep, wd)
+    url = fal_api.upload(img)
+    lines = list(ep["lines"])
+    cta = cfg.get("cta", "")
+    jobs = [(t, 8, wd / "veo" / f"line{i + 1}.mp4", False) for i, t in enumerate(lines)]
+    if cta:
+        jobs.append((cta, int(cfg.get("cta_seconds", 4)), wd / "veo" / "cta.mp4", True))
+    (wd / "veo").mkdir(parents=True, exist_ok=True)
+    print(f"   video+voice: Veo 3.1 Lite x {len(jobs)} clips (~${sum(j[1] for j in jobs) * 0.05:.2f})")
+    with ThreadPoolExecutor(max_workers=4) as pool:
+        clips = list(pool.map(lambda j: veo_clip(url, ep, j[0], j[1], j[2], j[3]), jobs))
+
+    blocks, labels, t = [], [], 0.0
+    gold = _ass_color(cfg['look'].get('power_word', '#F2C84B'))
+    for i, ((text, secs, _, is_cta), clip) in enumerate(zip(jobs, clips)):
+        sp = speech_span(clip)
+        dur = round(sp["dur"], 3)
+        blocks.append((t + sp["on"] - 0.05, None, word_times(text, t + sp["on"], t + sp["off"]),
+                       "cta" if is_cta else "line"))
+        if is_cta:
+            labels.append((t + 0.05, t + dur - 0.1, f"COMMENT THE NUMBER\\N{{\\fs90}}1 - {len(lines) - 1}"))
+        elif i == 0:
+            labels.append((t + 0.1, t + dur - 0.2, cfg.get("brand", "Hard Truths").upper()))
+        else:
+            labels.append((t + 0.1, t + dur - 0.2, f"HARD TRUTH\\N{{\\fs96\\c{gold}}}{i}"))
+        sp["start"], sp["len"] = t, dur
+        clips[i] = (clip, sp)
+        t += dur
+    total = t
+    blocks = [(b[0], (blocks[k + 1][0] - 0.02) if k + 1 < len(blocks) else total, b[2], b[3])
+              for k, b in enumerate(blocks)]
+
+    talk, vtrack = wd / "talking.mp4", wd / "voice.wav"
+    cmd = ["ffmpeg", "-y", "-loglevel", "error"]
+    for c, _ in clips:
+        cmd += ["-i", str(c)]
+    n = len(clips)
+    fc = "".join(f"[{k}:v]scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},setsar=1,fps={FPS},"
+                 f"trim=0:{sp['len']:.3f},setpts=PTS-STARTPTS[v{k}];"
+                 f"[{k}:a]aresample=48000,aformat=channel_layouts=mono,atrim=0:{sp['len']:.3f},afade=t=in:d=0.03,"
+                 f"afade=t=out:st={sp['len'] - 0.04:.3f}:d=0.04[a{k}];" for k, (_, sp) in enumerate(clips))
+    fc += "".join(f"[v{k}][a{k}]" for k in range(n)) + f"concat=n={n}:v=1:a=1[v][a]"
+    subprocess.run(cmd + ["-filter_complex", fc, "-map", "[v]", "-c:v", "libx264", "-preset", "veryfast",
+                          "-crf", "16", "-pix_fmt", "yuv420p", "-an", str(talk),
+                          "-map", "[a]", "-ar", "48000", "-ac", "1", str(vtrack)], check=True)
+    return talk, vtrack, blocks, labels, total
 
 
 # ---------------------------------------------------------------- captions (ASS, libass)
@@ -289,8 +413,15 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 
 
 # ---------------------------------------------------------------- one episode
+def lipsync_mode(cfg) -> str:
+    return os.environ.get("LIPSYNC") or cfg.get("lipsync") or ("still" if config.MOCK else "sadtalker")
+
+
 def render(cfg, ep, wd: Path) -> Path:
     wd.mkdir(parents=True, exist_ok=True)
+    if lipsync_mode(cfg) == "veo":
+        talk, vtrack, blocks, labels, total = render_veo(cfg, ep, wd)
+        return finish(cfg, talk, vtrack, build_ass(cfg, blocks, labels, wd / "captions.ass"), total, wd)
     seg_min = float(cfg.get("segment_seconds", 8))
     voice = ep.get("voice", "bm_george")
     lines = list(ep["lines"])
@@ -344,9 +475,12 @@ def render(cfg, ep, wd: Path) -> Path:
                    check=True)
 
     img = portrait(ep, wd)
-    talk = lipsync(img, vtrack, wd, total)
+    talk = lipsync(img, vtrack, wd, total, cfg)
     ass = build_ass(cfg, blocks, labels, wd / "captions.ass")
+    return finish(cfg, talk, vtrack, ass, total, wd)
 
+
+def finish(cfg, talk: Path, vtrack: Path, ass: Path, total: float, wd: Path) -> Path:
     music = assemble.find_music(cfg.get("music", "calm-piano"))
     out = wd / "final.mp4"
     grade = ("eq=saturation=0.70:contrast=1.07:brightness=-0.015:gamma=0.97,"

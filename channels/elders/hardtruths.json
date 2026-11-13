@@ -3,6 +3,9 @@
  "show": "Ask The Elders TV",
  "id_prefix": "HT",
  "paused": false,
+ "lipsync": "sadtalker",
+ "_lipsync_note": "sadtalker = FREE (CPU, no face enhancer). veo = PAID fal Veo 3.1 Lite ~$3.50/Short - only switch with the owner's OK.",
+ "cta_seconds": 4,
  "_paused_note": "true = render + keep in GitHub Release hardtruths-preview, no YouTube upload. Set false once a preview is approved.",
  "publish_local": "19:00",
  "timezone": "Europe/London",
@@ -515,5 +518,7 @@
    "image_prompt": "Extreme close-up portrait photograph of a 76-year-old man with fair weathered skin, white stubble, deep laugh lines, wearing a tweed flat cap, looking straight into the camera with a calm, serious expression, mouth gently closed, head and shoulders, face centred and filling most of the frame, eyes in the upper third, soft overcast window light from one side, muted grey-green colour grade, plain dark softly blurred background, natural skin texture with real wrinkles and pores, 85mm lens, shallow depth of field, photorealistic, cinematic, no text",
    "voice": "bm_george"
   }
- ]
+ ],
+ "sadtalker_enhancer": "none",
+ "sadtalker_timeout_min": 150
 }
