@@ -1,0 +1,182 @@
+{
+ "4": {
+  "ok": true,
+  "tries": [
+   {
+    "try": 1,
+    "seed": 1626979007,
+    "faces": 0,
+    "want": 0
+   }
+  ],
+  "check": "faces"
+ },
+ "2": {
+  "ok": true,
+  "tries": [
+   {
+    "try": 1,
+    "seed": 1658043723,
+    "faces": 1,
+    "want": 1
+   }
+  ],
+  "check": "faces"
+ },
+ "3": {
+  "ok": true,
+  "tries": [
+   {
+    "try": 1,
+    "seed": 553270567,
+    "faces": 1,
+    "want": 1
+   }
+  ],
+  "check": "faces"
+ },
+ "1": {
+  "ok": true,
+  "tries": [
+   {
+    "try": 1,
+    "seed": 812371624,
+    "faces": 3,
+    "want": 3
+   }
+  ],
+  "check": "faces"
+ },
+ "5": {
+  "ok": true,
+  "tries": [
+   {
+    "try": 1,
+    "seed": 629934137,
+    "faces": 1,
+    "want": 1
+   }
+  ],
+  "check": "faces"
+ },
+ "6": {
+  "ok": true,
+  "tries": [
+   {
+    "try": 1,
+    "seed": 2001958889,
+    "faces": 1,
+    "want": 1
+   }
+  ],
+  "check": "faces"
+ },
+ "8": {
+  "ok": true,
+  "tries": [
+   {
+    "try": 1,
+    "seed": 1594652307,
+    "faces": 1,
+    "want": 1
+   }
+  ],
+  "check": "faces"
+ },
+ "7": {
+  "ok": true,
+  "tries": [
+   {
+    "try": 1,
+    "seed": 1763093243,
+    "faces": 2,
+    "want": 2
+   }
+  ],
+  "check": "faces"
+ },
+ "10": {
+  "ok": true,
+  "tries": [
+   {
+    "try": 1,
+    "seed": 1574950859,
+    "faces": 0,
+    "want": 0
+   }
+  ],
+  "check": "faces"
+ },
+ "9": {
+  "ok": true,
+  "tries": [
+   {
+    "try": 1,
+    "seed": 950594068,
+    "faces": 1,
+    "want": 1
+   }
+  ],
+  "check": "faces"
+ },
+ "11": {
+  "ok": true,
+  "tries": [
+   {
+    "try": 1,
+    "seed": 834379352,
+    "faces": 1,
+    "want": 1
+   }
+  ],
+  "check": "faces"
+ },
+ "12": {
+  "ok": true,
+  "tries": [
+   {
+    "try": 1,
+    "seed": 693804831,
+    "faces": 1,
+    "want": 1
+   }
+  ],
+  "check": "faces"
+ },
+ "13": {
+  "ok": true,
+  "tries": [
+   {
+    "try": 1,
+    "seed": 993535224,
+    "faces": 1,
+    "want": 1
+   }
+  ],
+  "check": "faces"
+ },
+ "14": {
+  "ok": true,
+  "tries": [
+   {
+    "try": 1,
+    "seed": 592007039,
+    "faces": 1,
+    "want": 1
+   }
+  ],
+  "check": "faces"
+ },
+ "15": {
+  "ok": true,
+  "tries": [
+   {
+    "try": 1,
+    "seed": 1454467786,
+    "faces": 1,
+    "want": 1
+   }
+  ],
+  "check": "faces"
+ }
+}
