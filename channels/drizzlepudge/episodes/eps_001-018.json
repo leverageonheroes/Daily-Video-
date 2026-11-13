@@ -72,219 +72,437 @@
     "tiktok": "Fifteen million naira. Or no wedding. 😳 Part 1/6 · The Wedding Fund. Where did the money go? #moralofthestory #nigeriandrama #shortdrama #storytime #aidrama",
     "facebook": "The Wedding Fund, part 1 of 6: The List. A proud mother demands a fifteen-million-naira wedding, but the family wedding account is empty, and someone has been lying for years. Where did the money go? Follow Moral Of The Story TV for part 2."
    },
-   "shots": [
+   "loop_note": "cliffhanger freeze-frame; tomorrow opens with a 3 s 'previously' flash of it",
+   "format": "flow-film",
+   "voices": {
+    "a1_mama": {
+     "brief": "mature woman, 55-60, low, controlled, cold authority, unhurried",
+     "tags": [
+      "cold",
+      "final",
+      "proud"
+     ]
+    },
+    "a1_tobi": {
+     "brief": "young man, late 20s, warm, soft-spoken, strained under pressure",
+     "tags": [
+      "quiet",
+      "whispers",
+      "desperate"
+     ]
+    },
+    "a1_amara": {
+     "brief": "young woman, late 20s, gentle, clear, emotional, respectful",
+     "tags": [
+      "trembling",
+      "hopeful"
+     ]
+    },
+    "a1_okafor": {
+     "brief": "older man, 60s, slow, deep, tired dignity, a teacher's diction",
+     "tags": [
+      "slow",
+      "hurt",
+      "gentle"
+     ]
+    },
+    "a1_femi": {
+     "brief": "man, about 50, loud, charming, showy; can turn cold and quiet",
+     "tags": [
+      "laughing",
+      "cold whisper"
+     ]
+    }
+   },
+   "scenes": {
+    "A": {
+     "title": "The List",
+     "loc": "a1_parlour",
+     "ambience_clip": 1,
+     "music": "tension drums",
+     "music_level": "low",
+     "out": "dip"
+    },
+    "B": {
+     "title": "Love Is Not a Market",
+     "loc": "a1_okafor_home",
+     "ambience_clip": 7,
+     "music": "tender strings",
+     "music_level": "low",
+     "out": "dip"
+    },
+    "C": {
+     "title": "Zero",
+     "loc": "a1_office",
+     "ambience_clip": 10,
+     "music": "tension drums",
+     "music_level": "rising",
+     "out": "flash"
+    },
+    "D": {
+     "title": "He Knows",
+     "loc": "a1_lounge",
+     "ambience_clip": 14,
+     "music": "nollywood suspense",
+     "music_level": "cut-on-last-line",
+     "out": "freeze"
+    }
+   },
+   "clips": [
     {
      "n": 1,
-     "dur": 8,
-     "loc": "a1_parlour",
+     "scene": "A",
      "chars": [
       "a1_mama",
       "a1_tobi",
       "a1_amara"
      ],
-     "keyframe": "Mrs Adebayo stands rigid under the chandelier while Tobi and Amara sit frozen on the cream sofa",
-     "action": "Mrs Adebayo stands rigid under the chandelier while Tobi and Amara sit frozen on the cream sofa",
-     "camera": "dramatic crash zoom into a close-up, then hold",
-     "lines": [
-      {
-       "c": "a1_mama",
-       "t": "Fifteen million naira. Or there will be no wedding in this family.",
-       "tone": "icy, final"
-      }
-     ],
-     "sfx": "deep cinematic boom",
-     "transition": "cut"
+     "faces": 3,
+     "speaks": false,
+     "keyframe": "Wide shot of an upscale living room at evening, crystal chandelier, cream sofas, framed family portraits, warm practical lamps. The older woman in emerald lace with a matching emerald head tie and gold necklace stands under the chandelier, arms folded, facing a young couple seated on the cream sofa: the young man in a crisp white shirt with rolled sleeves and the young woman in a soft peach blouse with her hair in a neat bun, holding hands. All three fully visible, faces small in frame. Exactly three people, nobody else, nothing in the foreground.",
+     "flow_prompt": "Keep the exact people, faces, clothes, room and lighting from the start frame. Very slow cinematic dolly-in from the doorway. The older woman in emerald stands still with folded arms; the young couple on the sofa glance at each other nervously; the chandelier crystals shimmer faintly. Tense silence. No one speaks: no dialogue, no voices, no music. Ambient sound only: a wall clock ticking, a distant generator hum, fabric rustling. Photoreal, cinematic drama, shallow depth of field, warm amber and soft teal tones. No text."
     },
     {
      "n": 2,
-     "dur": 8,
-     "loc": "a1_parlour",
-     "chars": [
-      "a1_amara",
-      "a1_tobi"
-     ],
-     "keyframe": "Amara grips Tobi's hand, eyes pleading, Tobi caught between them",
-     "action": "Amara grips Tobi's hand, eyes pleading, Tobi caught between them",
-     "camera": "two-shot, shallow focus, slow lateral dolly",
-     "lines": [
-      {
-       "c": "a1_amara",
-       "t": "Ma, my father is a retired teacher. Where will he find that?",
-       "tone": "shaken"
-      },
-      {
-       "c": "a1_tobi",
-       "t": "Mummy, please.",
-       "tone": "quiet"
-      }
-     ],
-     "sfx": "clock ticking",
-     "transition": "cut"
-    },
-    {
-     "n": 3,
-     "dur": 8,
-     "loc": "a1_parlour",
+     "scene": "A",
      "chars": [
       "a1_mama"
      ],
-     "keyframe": "Mrs Adebayo adjusts her gold necklace, chin raised, unmoved",
-     "action": "Mrs Adebayo adjusts her gold necklace, chin raised, unmoved",
-     "camera": "close-up, slow push-in, shallow depth of field",
-     "lines": [
-      {
-       "c": "a1_mama",
-       "t": "My son is an engineer. I will not wed him like a nobody.",
-       "tone": "proud"
-      }
+     "faces": 1,
+     "speaks": true,
+     "keyframe": "Low-angle medium close-up of the older woman in the emerald lace blouse and emerald head tie, gold necklace catching the chandelier light, looking down at someone below the camera, cold proud expression, lips closed. Living room softly blurred behind her. Only her face in frame.",
+     "flow_prompt": "Keep the exact face, head tie, clothes and lighting from the start frame. Static low-angle camera with a barely noticeable push-in. The woman speaks slowly and coldly to someone below the camera, barely moving her head, then holds a hard stare. Natural mouth movement, subtle breathing, one blink. Ambient sound only: room tone and a faint clock; no music. Photoreal, cinematic, shallow depth of field. No text."
+    },
+    {
+     "n": 3,
+     "scene": "A",
+     "chars": [
+      "a1_amara"
      ],
-     "sfx": "soft orchestral sting",
-     "transition": "cut"
+     "faces": 1,
+     "speaks": true,
+     "keyframe": "Close-up of the young woman with her hair in a neat bun, small gold earrings and a soft peach blouse, seated on a cream sofa, looking up at someone standing off-screen, eyes glassy with shock, lips closed. Warm lamp light, background softly blurred. Only her face in frame.",
+     "flow_prompt": "Keep the exact face, hair, earrings, blouse and lighting from the start frame. Static close-up with a very slow push-in. For the first two seconds she is frozen in shock, eyes filling with tears, she swallows. Then she pleads respectfully upward to someone off-screen, voice shaking, natural mouth movement. Ambient sound only: room tone, clock ticking; no music. Photoreal, emotional, cinematic. No text."
     },
     {
      "n": 4,
-     "dur": 8,
-     "loc": "a1_okafor_home",
+     "scene": "A",
+     "chars": [],
+     "faces": 0,
+     "speaks": false,
+     "keyframe": "Macro insert: on a cream sofa cushion, a man's hand in a white rolled shirt sleeve holding a woman's hand with a peach sleeve; warm lamp light, shallow depth of field. Hands only, no faces.",
+     "flow_prompt": "Keep the exact hands, sleeves and lighting from the start frame. Macro shot, almost still camera. The man's grip slowly tightens around the woman's hand; her fingers tremble slightly. No faces. Ambient sound only: soft fabric rustle, clock ticking; no music, no voices. Photoreal, cinematic, shallow depth of field. No text."
+    },
+    {
+     "n": 5,
+     "scene": "A",
+     "chars": [
+      "a1_tobi"
+     ],
+     "faces": 1,
+     "speaks": true,
+     "keyframe": "Close-up of the young man with a short neat haircut and light beard in a crisp white shirt, seated, looking up at someone standing off-screen with quiet pain, lips closed. Warm lamp light, background blurred. Only his face in frame.",
+     "flow_prompt": "Keep the exact face, beard, shirt and lighting from the start frame. Static close-up. He looks up, takes a breath, and says two soft words to someone off-screen, almost begging, then lowers his eyes. Natural mouth movement. Ambient sound only: room tone; no music. Photoreal, cinematic, shallow depth of field. No text."
+    },
+    {
+     "n": 6,
+     "scene": "A",
+     "chars": [
+      "a1_mama"
+     ],
+     "faces": 1,
+     "speaks": true,
+     "keyframe": "Over-the-shoulder shot: the blurred back of a young man's head and white shirt collar in the left foreground (no face visible), and beyond him, in sharp focus, the older woman in emerald lace and emerald head tie standing under a chandelier, fingers on her gold necklace, chin raised. Only her face is visible.",
+     "flow_prompt": "Keep the exact people, clothes and lighting from the start frame; the young man stays a blurred back of the head and never turns around. Static over-the-shoulder shot. The woman straightens her gold necklace, then answers proudly and dismissively, looking down at him, natural mouth movement; at the end she turns her head away. Ambient sound only: room tone, faint clock; no music. Photoreal, cinematic. No text."
+    },
+    {
+     "n": 7,
+     "scene": "B",
      "chars": [
       "a1_okafor",
       "a1_amara"
      ],
-     "keyframe": "Mr Okafor lowers his reading glasses at his small dining table, Amara standing beside him",
-     "action": "Mr Okafor lowers his reading glasses at his small dining table, Amara standing beside him",
-     "camera": "wide establishing shot, slow dolly-in",
-     "lines": [
-      {
-       "c": "a1_okafor",
-       "t": "Fifteen million, for a ceremony? Amara, love is not a market.",
-       "tone": "slow, wounded"
-      }
-     ],
-     "sfx": "ceiling fan whirring",
-     "transition": "dip"
-    },
-    {
-     "n": 5,
-     "dur": 8,
-     "loc": "a1_okafor_home",
-     "chars": [
-      "a1_amara"
-     ],
-     "keyframe": "Amara wipes a tear, forcing a brave face",
-     "action": "Amara wipes a tear, forcing a brave face",
-     "camera": "close-up, slow push-in, shallow depth of field",
-     "lines": [
-      {
-       "c": "a1_amara",
-       "t": "Daddy, Tobi's family has money. They saved for years. They told us so.",
-       "tone": "hopeful"
-      }
-     ],
-     "sfx": "fan, distant traffic",
-     "transition": "cut"
-    },
-    {
-     "n": 6,
-     "dur": 8,
-     "loc": "a1_office",
-     "chars": [
-      "a1_tobi"
-     ],
-     "keyframe": "Tobi alone in the dark office opens a banking app on his laptop, screen light on his face",
-     "action": "Tobi alone in the dark office opens a banking app on his laptop, screen light on his face",
-     "camera": "tracking shot following the character, handheld",
-     "lines": [
-      {
-       "c": "a1_tobi",
-       "t": "The family wedding account. Mummy said it has twenty million.",
-       "tone": "to himself"
-      }
-     ],
-     "sfx": "keyboard clicks",
-     "transition": "flash"
-    },
-    {
-     "n": 7,
-     "dur": 8,
-     "loc": "a1_office",
-     "chars": [
-      "a1_tobi"
-     ],
-     "keyframe": "extreme close-up of Tobi's eyes widening as the laptop light flickers",
-     "action": "extreme close-up of Tobi's eyes widening as the laptop light flickers",
-     "camera": "extreme close-up on the eyes, very slow push-in",
-     "lines": [
-      {
-       "c": "a1_tobi",
-       "t": "Balance... zero naira?",
-       "tone": "whisper, disbelief"
-      }
-     ],
-     "sfx": "heartbeat, low drone",
-     "transition": "cut"
+     "faces": 2,
+     "speaks": false,
+     "keyframe": "Wide shot of a modest, tidy sitting room in warm afternoon light: wooden bookshelves, a wall clock, a slowly turning ceiling fan. The grey-haired older man with reading glasses in a cream kaftan sits at a small wooden table with a teacup; the young woman in the peach blouse with her hair in a bun stands by the window, a few steps away. Both small in frame. Exactly two people.",
+     "flow_prompt": "Keep the exact people, clothes, room and light from the start frame. Slow dolly-in. The ceiling fan turns, dust floats in the window light; the man sets his teacup down slowly; the young woman looks at the floor. Neither speaks. No dialogue, no voices, no music. Ambient sound only: ceiling fan whirring, distant traffic, a teacup clink. Photoreal, warm, cinematic. No text."
     },
     {
      "n": 8,
-     "dur": 8,
-     "loc": "a1_car",
+     "scene": "B",
      "chars": [
-      "a1_tobi"
+      "a1_okafor"
      ],
-     "keyframe": "Tobi in his parked car at night, phone to his ear, streetlights sliding across his face",
-     "action": "Tobi in his parked car at night, phone to his ear, streetlights sliding across his face",
-     "camera": "close-up, slow push-in, shallow depth of field",
-     "lines": [
-      {
-       "c": "a1_tobi",
-       "t": "Uncle Femi, where is the wedding money? Pick up. Pick up!",
-       "tone": "desperate"
-      }
-     ],
-     "sfx": "phone ringing, rain on the roof",
-     "transition": "dip"
+     "faces": 1,
+     "speaks": true,
+     "keyframe": "Medium close-up of the grey-haired older man in a cream kaftan at a small wooden table, holding his reading glasses in one hand, looking up at someone standing off-screen, lips closed. Bookshelves softly blurred, warm afternoon light. Only his face in frame.",
+     "flow_prompt": "Keep the exact face, glasses, kaftan and lighting from the start frame. Static medium close-up, very slow push-in. He folds his reading glasses slowly and speaks with quiet hurt to someone off-screen, natural mouth movement; then he falls silent and looks at her with worry for the last three seconds. Ambient sound only: ceiling fan, room tone; no music. Photoreal, cinematic. No text."
     },
     {
      "n": 9,
-     "dur": 8,
-     "loc": "a1_lounge",
+     "scene": "B",
      "chars": [
-      "a1_femi"
+      "a1_amara"
      ],
-     "keyframe": "Uncle Femi laughing in a neon-lit lounge, raising a glass, his phone buzzing on the table",
-     "action": "Uncle Femi laughing in a neon-lit lounge, raising a glass, his phone buzzing on the table",
-     "camera": "wide establishing shot, slow dolly-in",
-     "lines": [
-      {
-       "c": "a1_femi",
-       "t": "Tonight we celebrate! Drinks are on me!",
-       "tone": "loud, flashy"
-      }
-     ],
-     "sfx": "crowd cheer, glasses clinking",
-     "transition": "flash"
+     "faces": 1,
+     "speaks": true,
+     "keyframe": "Close-up of the young woman in the peach blouse with her hair in a neat bun, standing by a window in warm afternoon light, eyes down, ashamed, a tissue in her hand, lips closed. Background softly blurred. Only her face in frame.",
+     "flow_prompt": "Keep the exact face, hair, blouse and lighting from the start frame. Static close-up with a slow push-in. For the first two seconds she bites her lip and looks away, listening. Then she wipes one tear, forces a small brave smile and speaks gently down to someone seated off-screen, natural mouth movement. Ambient sound only: ceiling fan, distant traffic; no music. Photoreal, emotional, cinematic. No text."
     },
     {
      "n": 10,
-     "dur": 8,
-     "loc": "a1_lounge",
+     "scene": "C",
+     "chars": [],
+     "faces": 0,
+     "speaks": false,
+     "keyframe": "Extreme close-up of a laptop trackpad and keyboard edge in a dark glass office at night; a man's finger in a white shirt cuff hovering over the trackpad; cold blue screen glow. No faces.",
+     "flow_prompt": "Keep the exact hand, cuff, laptop and lighting from the start frame. Macro shot, almost still. The finger hesitates, then taps the trackpad once; the screen glow flickers on the hand. No faces. Ambient sound only: a single soft click, office air-conditioning hum; no voices, no music. Photoreal, cinematic, dark and cold. No text."
+    },
+    {
+     "n": 11,
+     "scene": "C",
+     "chars": [
+      "a1_tobi"
+     ],
+     "faces": 1,
+     "speaks": true,
+     "keyframe": "Close-up of the young man with a short neat haircut and light beard in a white shirt, alone in a dark glass-walled office at night, face lit cold blue from a laptop screen below the frame, reading intently, lips closed. Only his face in frame.",
+     "flow_prompt": "Keep the exact face, shirt and lighting from the start frame. Static close-up, the screen light flickering softly on his face. He reads, leans a little closer, and murmurs to himself, natural mouth movement. Ambient sound only: air-conditioning hum, faint keyboard clicks; no music. Photoreal, cinematic, cold tones. No text."
+    },
+    {
+     "n": 12,
+     "scene": "C",
+     "chars": [
+      "a1_tobi"
+     ],
+     "faces": 1,
+     "speaks": true,
+     "keyframe": "Tight close-up of the same young man in the dark office, frozen, face lit cold blue from below by a screen, eyes fixed on something below the frame, lips closed. Natural, realistic eyes. Only his face in frame.",
+     "flow_prompt": "Keep the exact face and lighting from the start frame. Very slow push-in. His face slowly drains; his lips part and he whispers one word, then he stops breathing and stares, completely still. Natural realistic eyes, no exaggerated expression. Ambient sound only: low air-conditioning hum; no music. Photoreal, cinematic, cold tones. No text."
+    },
+    {
+     "n": 13,
+     "scene": "C",
+     "chars": [
+      "a1_tobi"
+     ],
+     "faces": 1,
+     "speaks": true,
+     "keyframe": "The young man in the white shirt sitting in the driver's seat of a parked car at night, phone pressed to his ear, rain streaking the side window, orange streetlights on his face, seen through the open side window. Only his face in frame.",
+     "flow_prompt": "Keep the exact face, shirt, car and lighting from the start frame. Slow push-in through the side window, streetlight reflections sliding across his face. He waits for the call, then shouts desperately into the phone, natural mouth movement, and slams his free hand on the steering wheel. Ambient sound only: heavy rain on the car roof, a phone ringing tone; no music. Photoreal, cinematic, moody night. No text.",
+     "loc": "a1_car"
+    },
+    {
+     "n": 14,
+     "scene": "D",
      "chars": [
       "a1_femi"
      ],
-     "keyframe": "Femi glances at his ringing phone, his smile dies, the party blurs behind him",
-     "action": "Femi glances at his ringing phone, his smile dies, the party blurs behind him",
-     "camera": "dramatic crash zoom into a close-up, then hold",
-     "lines": [
-      {
-       "c": "a1_femi",
-       "t": "He knows.",
-       "tone": "cold whisper"
-      }
+     "faces": 1,
+     "speaks": true,
+     "keyframe": "Medium shot of a man about 50 with slicked-back hair, a gold paisley patterned shirt and a gold watch, seated at a dark table in a neon-lit upscale lounge, raising a glass and laughing; a phone lies face-down on the table in the foreground; the crowd behind is completely blurred with no readable faces. Only his face is clear.",
+     "flow_prompt": "Keep the exact face, shirt, watch, lounge and lighting from the start frame; the background crowd stays blurred. Slow dolly-in. He raises his glass high and shouts happily to the room, laughing, natural mouth movement. In the last two seconds the phone on the table in the foreground lights up and vibrates; he does not notice. Ambient sound only: lounge crowd chatter, glasses clinking, phone buzzing; no music. Photoreal, neon cinematic. No text."
+    },
+    {
+     "n": 15,
+     "scene": "D",
+     "chars": [
+      "a1_femi"
      ],
-     "sfx": "music cuts out, deep boom",
-     "transition": "cut",
+     "faces": 1,
+     "speaks": true,
+     "keyframe": "Close-up of the same man in the gold paisley shirt holding his phone in front of him, the screen glow on his face, his smile already gone, eyes hard and afraid, lips closed; the neon party blurred behind him with no readable faces. Only his face is clear.",
+     "flow_prompt": "Keep the exact face, shirt and lighting from the start frame; the party stays blurred. Slow push-in. He stares at the phone, slowly lowers it, his jaw tightens and he whispers to himself, natural mouth movement, then goes completely still. Ambient sound only: muffled lounge noise; no music. Photoreal, cinematic, neon and shadow. No text."
+    }
+   ],
+   "edit": [
+    {
+     "clip": 2,
+     "in": 0.6,
+     "dur": 3.0,
+     "line": {
+      "c": "a1_mama",
+      "t": "Fifteen million naira.",
+      "tag": "[cold, slow]"
+     },
+     "hook": true
+    },
+    {
+     "clip": 1,
+     "in": 1.0,
+     "dur": 4.5,
+     "vo": {
+      "c": "a1_mama",
+      "t": "Or there will be no wedding in this family.",
+      "tag": "[final]",
+      "at": 0.4
+     }
+    },
+    {
+     "clip": 3,
+     "in": 0.5,
+     "dur": 6.5,
+     "line": {
+      "c": "a1_amara",
+      "t": "Ma... my father is a retired teacher. Where will he find that?",
+      "tag": "[trembling]",
+      "at": 1.6
+     }
+    },
+    {
+     "clip": 4,
+     "in": 1.0,
+     "dur": 2.5
+    },
+    {
+     "clip": 5,
+     "in": 0.8,
+     "dur": 3.0,
+     "line": {
+      "c": "a1_tobi",
+      "t": "Mummy, please.",
+      "tag": "[quiet]",
+      "at": 0.5
+     }
+    },
+    {
+     "clip": 6,
+     "in": 0.6,
+     "dur": 6.4,
+     "line": {
+      "c": "a1_mama",
+      "t": "My son is an engineer. I will not wed him like a nobody.",
+      "tag": "[proud, dismissive]",
+      "at": 0.8
+     },
+     "sfx_end": "footsteps walking away"
+    },
+    {
+     "clip": 7,
+     "in": 1.0,
+     "dur": 3.5
+    },
+    {
+     "clip": 8,
+     "in": 0.6,
+     "dur": 4.5,
+     "line": {
+      "c": "a1_okafor",
+      "t": "Fifteen million? For a ceremony?",
+      "tag": "[slow, hurt]",
+      "at": 0.5
+     }
+    },
+    {
+     "clip": 9,
+     "in": 0.2,
+     "dur": 7.6,
+     "vo": {
+      "c": "a1_okafor",
+      "t": "Amara, love is not a market.",
+      "tag": "[gentle]",
+      "at": 0.1
+     },
+     "line": {
+      "c": "a1_amara",
+      "t": "Daddy, Tobi's family has money. They saved for years. They told us so.",
+      "tag": "[hopeful]",
+      "at": 2.2
+     }
+    },
+    {
+     "clip": 8,
+     "in": 5.0,
+     "dur": 3.0
+    },
+    {
+     "clip": 10,
+     "in": 1.5,
+     "dur": 2.0,
+     "sfx_start": "riser"
+    },
+    {
+     "clip": 11,
+     "in": 0.6,
+     "dur": 5.0,
+     "line": {
+      "c": "a1_tobi",
+      "t": "Mummy said there's twenty million in it...",
+      "tag": "[murmuring]",
+      "at": 0.8
+     }
+    },
+    {
+     "clip": 12,
+     "in": 0.8,
+     "dur": 5.0,
+     "line": {
+      "c": "a1_tobi",
+      "t": "Zero?",
+      "tag": "[whispers]",
+      "at": 1.5
+     },
+     "sfx": "heartbeat"
+    },
+    {
+     "clip": 13,
+     "in": 0.5,
+     "dur": 7.0,
+     "line": {
+      "c": "a1_tobi",
+      "t": "Uncle Femi, where is the wedding money? Pick up. Pick up!",
+      "tag": "[desperate, shouting]",
+      "at": 1.6
+     }
+    },
+    {
+     "clip": 14,
+     "in": 0.8,
+     "dur": 6.5,
+     "line": {
+      "c": "a1_femi",
+      "t": "Tonight we celebrate! Drinks are on me!",
+      "tag": "[loud, laughing]",
+      "at": 0.6
+     }
+    },
+    {
+     "clip": 15,
+     "in": 0.6,
+     "dur": 5.0,
+     "line": {
+      "c": "a1_femi",
+      "t": "He knows.",
+      "tag": "[cold whisper]",
+      "at": 2.6
+     },
+     "sfx": "music cut + deep boom on the line",
      "freeze": 1.5
     }
    ],
-   "loop_note": "cliffhanger freeze-frame; tomorrow opens with a 3 s 'previously' flash of it"
+   "accounts": {
+    "A": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ],
+    "B": [
+     6,
+     7,
+     8,
+     9,
+     10
+    ],
+    "C": [
+     11,
+     12,
+     13,
+     14,
+     15
+    ]
+   }
   },
   {
    "id": "MOS-002",

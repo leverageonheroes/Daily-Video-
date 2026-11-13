@@ -4,3 +4,5 @@ google-auth>=2.30
 google-auth-oauthlib>=1.2
 pillow>=10.0
 tzdata>=2024.1
+opencv-python-headless>=4.8   # free face counting for flow-film quality checks (pipeline/faces.py)
+numpy

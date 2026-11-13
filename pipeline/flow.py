@@ -14,7 +14,7 @@ import json
 import re
 import subprocess
 
-from . import assemble, config, state
+from . import assemble, config, flowfilm, state
 
 VIDEO_EXT = {".mp4", ".mov", ".webm", ".m4v"}
 
@@ -26,8 +26,20 @@ def is_flow(channel: str) -> bool:
         return False
 
 
+def is_paused(channel: str) -> bool:
+    try:
+        return bool(json.loads((config.CHANNELS_DIR / channel / "channel.json").read_text()).get("paused"))
+    except FileNotFoundError:
+        return False
+
+
 def flow_channels():
-    return [p.name for p in sorted(config.CHANNELS_DIR.iterdir()) if is_flow(p.name)]
+    """Flow channels the scheduled jobs work on (a paused channel only runs when named explicitly)."""
+    return [p.name for p in sorted(config.CHANNELS_DIR.iterdir()) if is_flow(p.name) and not is_paused(p.name)]
+
+
+def clips_needed(ep) -> int:
+    return len(ep["clips"]) if flowfilm.is_flowfilm(ep) else len(ep["shots"])
 
 
 def inbox(channel: str):
@@ -53,6 +65,11 @@ def prompts_markdown(s, channel) -> str:
         return f"## {channel}: no scripts left\nOpen the Codespace and ask Claude Code to write the next batch (CLAUDE.md)."
     bible = json.loads((config.CHANNELS_DIR / channel / "channel.json").read_text())
     ep = state.get_episode(channel, ep_id)
+    if flowfilm.is_flowfilm(ep):
+        return flowfilm.prompts_markdown(channel, bible, ep)
+    if bible.get("episode_format") == "flow-film":
+        return (f"## {bible['show_title']} - {ep_id}: not converted to a flow-film yet\n"
+                "Ask Claude Code to write its flow-film JSON (tools/generators/flowfilm/) and install it.")
     f = bible.get("flow", {})
     out = [f"## {bible['show_title']} - {ep_id}: {ep['title'].replace(' #shorts', '')}",
            "",
@@ -75,6 +92,24 @@ def prompts_markdown(s, channel) -> str:
         who = f" ({accounts[(shot['n'] - 1) // per_acct]})" if len(accounts) > 1 else ""
         out += [f"### Clip {shot['n']}{who}", "```", shot["flow_prompt"], "```", ""]
     return "\n".join(out)
+
+
+def ensure_frames(s, channel) -> bool:
+    """Daily loop for flow-film channels: make the current episode's start frames if they are missing.
+    Paid (~$0.02 a frame), so only for channels that are not paused, with FAL_KEY set. True if frames were made."""
+    if is_paused(channel) or config.MOCK or not config.FAL_KEY:
+        return False
+    ep_id = current_episode(s, channel)
+    if not ep_id:
+        return False
+    ep = state.get_episode(channel, ep_id)
+    if not flowfilm.is_flowfilm(ep):
+        return False
+    bible = json.loads((config.CHANNELS_DIR / channel / "channel.json").read_text())
+    if len(flowfilm.released_frames(bible, ep_id)) >= len(ep["clips"]):
+        return False
+    flowfilm.make_frames(channel, ep)
+    return True
 
 
 def write_prompts(s, channel):
@@ -114,7 +149,11 @@ def import_episode(s, channel):
         print(f"!! {channel}: no scripts left")
         return None
     ep = state.get_episode(channel, ep_id)
-    need = len(ep["shots"])
+    bible = json.loads((config.CHANNELS_DIR / channel / "channel.json").read_text())
+    if bible.get("episode_format") == "flow-film" and not flowfilm.is_flowfilm(ep):
+        print(f"   {channel} {ep_id}: not converted to a flow-film yet - nothing to import")
+        return None
+    need = clips_needed(ep)
     clips, how = ordered_clips(channel)
     print(f"   {channel} {ep_id}: {len(clips)}/{need} clips in inbox/{channel}/ (order by {how})")
     if len(clips) < need:
@@ -132,14 +171,20 @@ def import_episode(s, channel):
     wd = config.OUTPUT / channel / ep_id
     wd.mkdir(parents=True, exist_ok=True)
     local = []
-    for shot, p in zip(ep["shots"], clips):
-        dest = wd / f"clip{shot['n']:02d}{p.suffix.lower()}"
+    for k, p in enumerate(clips, 1):
+        dest = wd / f"clip{k:02d}{p.suffix.lower()}"
         dest.write_bytes(p.read_bytes())
         local.append(dest)
-        print(f"   clip {shot['n']} <- {p.name}")
+        print(f"   clip {k} <- {p.name}")
     rec = s["channels"][channel]["episodes"][ep_id]
     rec["attempts"] = rec.get("attempts", 0) + 1
-    bible = json.loads((config.CHANNELS_DIR / channel / "channel.json").read_text())
+    if flowfilm.is_flowfilm(ep):
+        from .run import recap_for
+        final = flowfilm.render(channel, ep, local, wd, bible, recap=recap_for(channel, ep, bible))
+        state.mark(s, channel, ep_id, "rendered", f"{assemble.duration(final):.1f}s flow-film from Google Flow clips",
+                   final=str(final.relative_to(config.ROOT)), clips=[p.name for p in clips])
+        state.save(s)
+        return ep_id, final, clips
     final = assemble.assemble(ep, local, wd, bible)
     state.mark(s, channel, ep_id, "rendered", f"{assemble.duration(final):.1f}s from Google Flow clips",
                final=str(final.relative_to(config.ROOT)), clips=[p.name for p in clips])
@@ -147,6 +192,9 @@ def import_episode(s, channel):
     return ep_id, final, clips
 
 
-def clear_inbox(clips):
+def clear_inbox(clips, channel=None, ep_id=None):
     for p in clips:
         p.unlink(missing_ok=True)
+    if channel and ep_id:               # flow-film start frames are no longer needed
+        import shutil
+        shutil.rmtree(inbox(channel) / "frames" / ep_id, ignore_errors=True)

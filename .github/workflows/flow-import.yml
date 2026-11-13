@@ -23,7 +23,7 @@ concurrency:
 jobs:
   import:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 60       # flow-film episodes lip-sync ~10 cuts
     steps:
       - uses: actions/checkout@v4
         with:
@@ -39,6 +39,8 @@ jobs:
         id: run
         env:
           YT_TOKEN_ELDERS: ${{ secrets.YT_TOKEN_ELDERS }}
+          YT_TOKEN_DRIZZLEPUDGE: ${{ secrets.YT_TOKEN_DRIZZLEPUDGE }}
+          FAL_KEY: ${{ secrets.FAL_KEY }}        # flow-film only (voices, lip-sync, next start frames); paused channels never run
           YT_TOKEN_CRIBCOMMITTEE: ${{ secrets.YT_TOKEN_CRIBCOMMITTEE || secrets.YT_TOKEN_CRIB }}
           META_TOKEN: ${{ secrets.META_TOKEN }}
           META_TOKEN_FACEBOOK_INSTAGRAM: ${{ secrets.META_TOKEN_FACEBOOK_INSTAGRAM }}
@@ -89,5 +91,6 @@ jobs:
               uploaded)  gh issue close "$n" --comment "Done: $ep $msg" ;;
               assembled) gh issue close "$n" --comment "Assembled $ep (YouTube upload is switched off)." ;;
               error)     gh issue comment "$n" --body "Problem with $ep: $msg - open the latest 'Flow import' run in Actions." ;;
+              clips)     gh issue comment "$n" --body "$ep is not assembled yet. $msg. The other clips stay in the inbox: upload the new clip with the same name." ;;
             esac
           done < report.tsv

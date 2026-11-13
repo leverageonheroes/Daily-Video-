@@ -31,7 +31,8 @@ def duration(path: Path) -> float:
 FADE = 0.35   # seconds of dip/flash at a scene change
 
 
-def normalise(src: Path, dest: Path, seconds: int, fade_in: str = "", fade_out: str = "", freeze: float = 0.0):
+def normalise(src: Path, dest: Path, seconds: int, fade_in: str = "", fade_out: str = "", freeze: float = 0.0,
+              fades: dict | None = None):
     """fade_in / fade_out: "dip" (through black) or "flash" (through white) for scene changes.
     freeze: hold the frame at (seconds - freeze) for the last `freeze` seconds, desaturated (cliffhanger)."""
     vf = f"scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},setsar=1,fps={FPS}"
@@ -41,10 +42,11 @@ def normalise(src: Path, dest: Path, seconds: int, fade_in: str = "", fade_out: 
     else:
         vf += ",tpad=stop_mode=clone:stop_duration=3"
     col = {"dip": "black", "flash": "white"}
+    fd = lambda kind: (fades or {}).get(kind, FADE)       # per-transition length (flow-film), else FADE
     if fade_in in col:
-        vf += f",fade=t=in:st=0:d={FADE}:color={col[fade_in]}"
+        vf += f",fade=t=in:st=0:d={fd(fade_in)}:color={col[fade_in]}"
     if fade_out in col:
-        vf += f",fade=t=out:st={seconds - FADE:.2f}:d={FADE}:color={col[fade_out]}"
+        vf += f",fade=t=out:st={seconds - fd(fade_out):.2f}:d={fd(fade_out)}:color={col[fade_out]}"
     vf += ",format=yuv420p"
     cmd = ["ffmpeg", "-y", "-loglevel", "error", "-i", str(src)]
     if has_audio(src):
@@ -93,6 +95,24 @@ def _chunks(text: str, max_words: int = 7):
     return out
 
 
+CAP_WORDS = 7                 # words per caption (max 2 lines at 62 px)
+CAP_HIGHLIGHT = "&H0000D7FF&"  # current word: gold
+
+
+def _word_events(words: list, t0: float) -> list:
+    """Captions in the Cap style (bottom edge at 70 % of the height, so they sit at ~62-70 %): chunks of
+    <= 7 words, one event per word with the word being spoken highlighted."""
+    out = []
+    for k in range(0, len(words), CAP_WORDS):
+        chunk = words[k:k + CAP_WORDS]
+        for j, (_, s, e) in enumerate(chunk):
+            end = chunk[j + 1][1] if j + 1 < len(chunk) else e + 0.25
+            txt = " ".join(f"{{\\c{CAP_HIGHLIGHT}}}{_clean(w)}{{\\c&HFFFFFF&}}" if i == j else _clean(w)
+                           for i, (w, _, _) in enumerate(chunk))
+            out.append(f"Dialogue: 0,{_ts(t0 + s)},{_ts(t0 + end)},Cap,,0,0,0,,{txt}")
+    return out
+
+
 def build_ass(episode: dict, dest: Path, hook: bool = True, captions: bool = True,
               offset: float = 0.0, card: str = "", end_text: str = "", end_at: float = 0.0,
               part_label: str = "", moral: str = "", card_over_lead: bool = False):
@@ -113,6 +133,7 @@ Style: Line,{font},66,&H00FFFFFF,&H00FFFFFF,&H00000000,&H64000000,1,0,0,0,100,10
 Style: Card,{font},82,&H00FFFFFF,&H00FFFFFF,&H00000000,&HA0000000,1,1,0,0,100,100,4,0,3,22,0,5,80,80,0,1
 Style: End,{font},64,&H0000D7FF,&H00FFFFFF,&H00000000,&HA0000000,1,0,0,0,100,100,2,0,3,18,0,2,70,70,140,1
 Style: Part,{font},46,&H00FFFFFF,&H00FFFFFF,&H00000000,&H90000000,1,0,0,0,100,100,6,0,3,14,0,8,70,70,230,1
+Style: Cap,{font},62,&H00FFFFFF,&H00FFFFFF,&H00000000,&H64000000,1,0,0,0,100,100,0,0,1,6,2,2,110,110,{int(H * 0.30)},1
 Style: Moral,{font},70,&H00FFFFFF,&H00FFFFFF,&H00000000,&HC8000000,1,0,0,0,100,100,1,0,3,40,0,5,90,90,0,1
 
 [Events]
@@ -137,6 +158,14 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
                     span = speech * w / sum(nw)
                     events.append(f"Dialogue: 0,{_ts(t)},{_ts(t + span)},Line,,0,0,0,,{_clean(p)}")
                     t += span
+            if shot.get("caps") is not None:      # exact timings (flow-film: start/end of each spoken line)
+                for cp in shot["caps"]:
+                    if cp.get("words"):
+                        events += _word_events(cp["words"], t0)
+                    else:
+                        events.append(f"Dialogue: 0,{_ts(t0 + cp['s'])},{_ts(t0 + cp['e'])},Line,,0,0,0,,{_clean(cp['t'])}")
+                t0 += shot["dur"]
+                continue
             lines = shot.get("lines", [])
             words = [max(len(l["t"].split()), 1) for l in lines]
             usable = shot["dur"] - 0.6
@@ -284,7 +313,7 @@ def assemble(episode: dict, clips: list, workdir: Path, bible: dict | None = Non
         n = workdir / f"norm{shot['n']:02d}.mp4"
         nxt = shots[i + 1].get("transition", "cut") if i + 1 < len(shots) else ""
         normalise(c, n, shot["dur"], fade_in=shot.get("transition", "cut") if i else "",
-                  fade_out=nxt, freeze=float(shot.get("freeze", 0)))
+                  fade_out=nxt, freeze=float(shot.get("freeze", 0)), fades=shot.get("fade"))
         norm.append(n)
     _concat(workdir, [p.name for p in norm], "base.mp4")
     story = sum(s["dur"] for s in episode["shots"])
@@ -320,7 +349,7 @@ def assemble(episode: dict, clips: list, workdir: Path, bible: dict | None = Non
 
     narr = _narration_track(episode, narration, workdir) if narration and any(narration) else None
     bed = float(bible.get("clip_audio_volume", 0.45 if narr else 1.0))
-    music = find_music(episode.get("music", ""))
+    music = find_music(episode["music"]) if episode.get("music") is not None else None   # None: music is baked in
     grade = bible.get("cinema_vf", "")
     _render(workdir / src, "captions.ass", "final.mp4", total, workdir, music, narr, lead, bed, grade)
     _render(workdir / "base.mp4", "captions_clean.ass", "clean.mp4", story, workdir, music, narr, 0.0, bed, grade)

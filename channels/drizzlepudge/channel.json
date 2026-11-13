@@ -24,7 +24,7 @@
   "style_prompt": "cinematic photoreal film still, shot on a digital cinema camera with anamorphic lenses, shallow depth of field, motivated practical lighting, rich true-to-life dark skin tones, warm amber highlights and soft teal shadows, gentle atmospheric haze, premium drama series look, vertical 9:16 composition, subject centred, no text, no subtitles, no watermark",
   "audio_prompt": "clear natural dialogue in natural Nigerian English, never exaggerated, realistic room tone and subtle Foley sound effects, no background music (music is added in post)",
   "negative_prompt": "text, subtitles, captions, watermark, logo, cartoon, distorted faces, extra fingers, caricature, children",
-  "cinema_vf": "eq=contrast=1.07:saturation=1.06:gamma=0.98,colorbalance=rs=0.03:bs=-0.03:rh=0.04:bh=-0.04,noise=alls=6:allf=t+u,vignette=PI/5",
+  "cinema_vf": "eq=contrast=1.07:saturation=1.06:gamma=0.98,unsharp=5:5:0.6,colorbalance=rs=0.03:bs=-0.03:rh=0.04:bh=-0.04,noise=alls=3:allf=t+u,vignette=PI/5",
   "recaps": true,
   "recap_seconds": 3.0,
   "recap_card": "PREVIOUSLY...",
@@ -62,5 +62,33 @@
   "compilations": {
     "weekly": false,
     "monthly": false
+  },
+  "source": "flow",
+  "episode_format": "flow-film",
+  "flow": {
+    "model": "Veo 3.1 Lite",
+    "mode": "Frames to Video",
+    "aspect": "9:16",
+    "clip_seconds": 8,
+    "outputs_per_prompt": 1,
+    "daily_free_credits": 50,
+    "credits_per_clip": 10,
+    "accounts": [
+      "MOS-A",
+      "MOS-B",
+      "MOS-C"
+    ]
+  },
+  "cast_voices": {},
+  "lipsync": {
+    "endpoint": "fal-ai/kling-video/lipsync/audio-to-video",
+    "fallbacks": [
+      "fal-ai/sync-lipsync/v2",
+      "fal-ai/latentsync"
+    ]
+  },
+  "tts": {
+    "endpoint": "fal-ai/elevenlabs/tts/eleven-v3",
+    "fallback": "fal-ai/elevenlabs/tts/turbo-v2.5"
   }
 }

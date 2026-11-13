@@ -41,7 +41,8 @@ def episodes(channel):
     eps = []
     for f in sorted((CHANNELS_DIR / channel / "episodes").glob("*.json")):
         eps += json.loads(f.read_text())["episodes"]
-    return eps
+    from .flowfilm import with_shots       # flow-film episodes get derived `shots` (their cut list)
+    return [with_shots(e) for e in eps]
 
 
 def get_episode(channel, ep_id):

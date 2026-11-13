@@ -16,6 +16,9 @@
   python -m pipeline.run flow-prompts [ch]     # Google Flow channels: write today's 5 prompts to inbox/<ch>/PROMPTS.md
   python -m pipeline.run hardtruths [elders]     # Hard Truths: one lip-synced elder, 8 lines (free tools)
   python -m pipeline.run carousel [ch]         # second daily video: image carousel + scrolling words (Railway)
+  python -m pipeline.run frames <ch> [id]       # flow-film episodes: face-checked start frame per clip (paid, ~$0.02 each)
+  python -m pipeline.run voices <ch> <arc>      # flow-film voice casting: 3 samples per character (paid, a few cents)
+  python -m pipeline.run voices <ch> <arc> pick "mama 2, tobi 1"   # save the picks in channel.json cast_voices
   python -m pipeline.run flow-import [ch]      # Google Flow channels: once 5 clips are in inbox/<ch>/, assemble + upload
 
 Env: MOCK=1 (free test mode, no API calls), YT_UPLOAD=0 (render only), REVIEW_HOURS, DAILY_BUDGET_USD.
@@ -317,12 +320,32 @@ def main(argv):
                 comp.finish(s, ch, kind, out, meta, last, eps, upload=do_upload)
     elif cmd == "flow-prompts":
         for ch in argv[1:] or flow.flow_channels():
+            try:
+                flow.ensure_frames(s, ch)       # flow-film channels (not paused): start frames for the issue
+            except Exception as e:
+                traceback.print_exc()
+                print(f"!! {ch}: start frames failed ({e}) - the issue says they are missing")
             print(flow.write_prompts(s, ch))
+    elif cmd == "voices":         # flow-film voice casting: voices <ch> <arc>  |  voices <ch> <arc> pick "mama 2, tobi 1"
+        from . import flowfilm
+        if len(argv) > 3 and argv[3] == "pick":
+            flowfilm.pick_voices(argv[1], argv[2], " ".join(argv[4:]))
+        else:
+            flowfilm.voice_samples(argv[1], argv[2])
+    elif cmd in ("flow-frames", "frames"):    # flow-film start frames (paid, ~$0.02 each): frames <ch> [episode id]
+        from . import flowfilm
+        ch = argv[1]
+        ep_id = argv[2] if len(argv) > 2 else flow.current_episode(s, ch)
+        ep = state.get_episode(ch, ep_id)
+        flowfilm.make_frames(ch, ep)
+        print(flow.write_prompts(s, ch))
     elif cmd == "flow-import":
-        do_upload = os.environ.get("YT_UPLOAD", "1") == "1" and not config.MOCK
         failed = False
         result = {}     # per-channel status -> flow_result.json (the workflow reports on each channel's issue)
         for ch in argv[1:] or flow.flow_channels():
+            do_upload = os.environ.get("YT_UPLOAD", "1") == "1" and not config.MOCK and not flow.is_paused(ch)
+            if flow.is_paused(ch):
+                print(f"   {ch}: paused in channel.json -> assemble only, nothing is uploaded")
             result[ch] = {"status": "waiting"}
             try:
                 if do_upload:   # finish an earlier import whose upload failed
@@ -331,7 +354,12 @@ def main(argv):
                         upload(s, ch, pending)
                         rec = s["channels"][ch]["episodes"][pending]
                         result[ch] = {"status": "uploaded", "episode": pending, "note": rec["history"][-1]["note"]}
-                res = flow.import_episode(s, ch)
+                try:
+                    res = flow.import_episode(s, ch)
+                except flow.flowfilm.ClipProblem as e:     # a clip must be remade: tell the human, keep the clips
+                    print(f"   {ch}: {e}")
+                    result[ch] = {"status": "clips", "episode": flow.current_episode(s, ch), "note": str(e)}
+                    continue
                 if not res:
                     continue
                 ep_id, final, clips = res
@@ -341,7 +369,7 @@ def main(argv):
                 except Exception as e:
                     print(f"   (could not store {ep_id} in GitHub Releases: {e})")
                 keep_for_tiktok(ch, ep_id, state.get_episode(ch, ep_id))
-                flow.clear_inbox(clips)
+                flow.clear_inbox(clips, ch, ep_id)
                 print(f"   -> {final}")
                 if do_upload:
                     # YouTube and Facebook/Instagram are independent: one failing must not block the other.
@@ -361,6 +389,18 @@ def main(argv):
                         failed = True
                         traceback.print_exc()
                         print(f"!! {ch} {ep_id} stories: {e}")
+                    ep = state.get_episode(ch, ep_id)
+                    if ep.get("arc_finale") and generate.load_bible(ch).get("arc_movies"):
+                        try:     # the movie never affects the finale's own status
+                            from . import compile as comp
+                            comp.compile_arc(s, ch, ep, upload=do_upload)
+                        except Exception as e:
+                            traceback.print_exc()
+                            print(f"!! {ch}: arc movie failed ({e}). Retry: python -m pipeline.run movie {ch} {ep_id}")
+                try:
+                    flow.ensure_frames(s, ch)   # flow-film: next episode's start frames, ready for tomorrow's issue
+                except Exception as e:
+                    print(f"   (next start frames failed: {e}; flow-prompts retries in the morning)")
                 flow.write_prompts(s, ch)   # tomorrow's prompts are ready straight away
             except Exception as e:
                 failed = True
