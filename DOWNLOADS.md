@@ -7,6 +7,18 @@ Jump to: [Ask The Elders](#ask-the-elders) · [The Crib Committee](#the-crib-com
 
 ## Ask The Elders
 
+### ELD-006  ·  2026-11-13
+
+**[⬇️ Download video](https://github.com/leverageonheroes/Daily-Video-/releases/download/tiktok-elders/ELD-006.mp4)** (33 MB)
+
+```text
+Friendship lessons from the very old
+
+Eight elders on keeping the friends that matter. New lesson every day. Which one hit hardest? Tell us below.
+
+#friendship #elders #lifelessons #wisdom #fyp
+```
+
 ### ELD-005  ·  2026-11-11
 
 **[⬇️ Download video](https://github.com/leverageonheroes/Daily-Video-/releases/download/tiktok-elders/ELD-005.mp4)** (37 MB)
