@@ -83,6 +83,22 @@ Five elders on what they'd do differently with money. New lesson every day. Whic
 
 ## The Crib Committee
 
+### CC-005  ·  2026-11-13
+
+**[⬇️ Download video](https://github.com/leverageonheroes/Daily-Video-/releases/download/tiktok-cribcommittee/CC-005.mp4)** (31 MB)
+
+```text
+The great park departure disaster
+
+The Crib Committee is in session. Today: transitions.
+
+Parenting note: Young brains switch activities slowly. Countdown warnings before a change reduce meltdowns.
+
+New babies, same complaints. Which committee member is your little one? Tell us below.
+
+#toddlermeltdowns #transitions #parenting #funnybabies #fyp
+```
+
 ### CC-004  ·  2026-11-11
 
 **[⬇️ Download video](https://github.com/leverageonheroes/Daily-Video-/releases/download/tiktok-cribcommittee/CC-004.mp4)** (31 MB)
