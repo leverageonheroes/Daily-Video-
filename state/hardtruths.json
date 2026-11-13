@@ -1,8 +1,29 @@
 {
   "channels": {
     "elders": {
-      "done": {}
+      "done": {
+        "HT-001": {
+          "theme": "life at 25",
+          "rendered": "2026-11-13T15:00:42+00:00",
+          "seconds": 65.0,
+          "preview": "https://github.com/leverageonheroes/Daily-Video-/releases/download/hardtruths-preview/HT-001.mp4",
+          "youtube_id": "i8Zu_M0y5FI",
+          "publish_at": "2026-11-13T19:00:00Z",
+          "meta": {
+            "facebook": [
+              "1125771883589801",
+              "4802666599978196"
+            ],
+            "instagram": [
+              "18135222788509525",
+              "17958241197276078"
+            ],
+            "facebook_reel": "122106283095541373",
+            "instagram_reel": "18023512034933448"
+          }
+        }
+      }
     }
   },
-  "updated": "2026-11-13T10:03:03+00:00"
+  "updated": "2026-11-13T15:07:30+00:00"
 }
