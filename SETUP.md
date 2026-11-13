@@ -264,3 +264,17 @@ stop cleanly on "quotaExceeded"). Fill in Google's **"YouTube API Services - Aud
   and reading my own video statistics. No other users, no public app, no data shared with anyone."
 - Answer the questions honestly; screenshots of the GitHub workflow and a sample video help.
 Approval takes days to a few weeks. Nothing needs changing afterwards: the extras simply start posting every day.
+
+## 17. Hard Truths lip-sync on a free Kaggle GPU
+
+GitHub's free machines have no graphics card, so SadTalker lip-sync takes hours there. Kaggle gives about
+30 free GPU hours a week, and one Short uses roughly 10-20 minutes of that. No card or billing is involved.
+1. Sign up at kaggle.com (free). Go to Settings → Phone verification and verify your phone
+   (without this, Kaggle turns off the GPU and internet access the job needs).
+2. Settings → API → **Create Legacy API Key**. This downloads `kaggle.json`, which looks like
+   `{"username":"abc","key":"123..."}`.
+3. In GitHub → repo Settings → Secrets and variables → Actions, add the secrets `KAGGLE_USERNAME` (the username)
+   and `KAGGLE_KEY` (the key). If Kaggle only gives you a new-style token, put it in `KAGGLE_API_TOKEN` and
+   still add `KAGGLE_USERNAME`.
+4. Test run: edit `triggers/hardtruths-now` and push. The log shows `lip-sync: Kaggle GPU`.
+`channels/elders/hardtruths.json` `"lipsync": "kaggle"`. If Kaggle isn't set up or fails, the run falls back to the slow CPU SadTalker.

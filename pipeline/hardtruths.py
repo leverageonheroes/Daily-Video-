@@ -4,7 +4,8 @@
 
   1. portrait   free FLUX still (pipeline/images.py), extreme close-up, composed to 1080x1920
   2. voice      Kokoro TTS (Apache-2.0, ONNX, runs on the CPU runner), one clip per line, slightly lowered pitch
-  3. lip-sync   hardtruths.json "lipsync": "sadtalker" (FREE, default). "veo" = PAID option (~$3.50/Short, never
+  3. lip-sync   hardtruths.json "lipsync": "kaggle" (FREE Kaggle GPU, pipeline/kaggle_lipsync.py, falls back to
+                "sadtalker" on the CPU if Kaggle fails). "sadtalker" (FREE, CPU only). "veo" = PAID option (~$3.50/Short, never
                 switch without the owner's OK): fal Veo 3.1 Lite
                 makes one 8 s clip per line from the portrait, the elder SPEAKS the line with native lip-synced
                 audio (Kokoro + SadTalker are skipped). Otherwise:
@@ -204,16 +205,36 @@ def lipsync(img: Path, voice: Path, wd: Path, total: float, cfg: dict = None) ->
                         "-t", f"{total:.2f}", "-vf", f"scale={W}:{H},setsar=1", "-c:v", "libx264", "-preset",
                         "veryfast", "-crf", "18", "-pix_fmt", "yuv420p", str(out)], check=True)
         return out
+    a16 = wd / "voice16k.wav"
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(voice), "-ac", "1", "-ar", "16000", str(a16)],
+                   check=True)
+    padded = pad_for_sadtalker(img, wd / "sadtalker_src.png")
+    t0 = dt.datetime.now()
+    raw = None
+    if mode == "kaggle":   # FREE Kaggle GPU (pipeline/kaggle_lipsync.py); any problem -> slow free CPU run below
+        from . import kaggle_lipsync
+        try:
+            raw = kaggle_lipsync.run(padded, a16, wd, cfg, ep_id=wd.name)
+        except Exception as e:
+            print(f"   Kaggle lip-sync failed, falling back to SadTalker on the CPU: {str(e)[:1500]}")
+    if raw is None:
+        raw = _sadtalker_cpu(padded, a16, wd, cfg)
+    # cut the padding off again: back to the original 1080x1920 portrait framing
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(raw), "-vf",
+                    f"crop=iw*{1 / PAD_W:.6f}:ih*{1 / PAD_H:.6f}:iw*{(1 - 1 / PAD_W) / 2:.6f}:ih*{(1 - 1 / PAD_H) / 2:.6f},"
+                    f"scale={W}:{H}:flags=lanczos,setsar=1", "-c:v", "libx264", "-preset", "veryfast", "-crf", "17",
+                    "-pix_fmt", "yuv420p", "-c:a", "copy", str(out)], check=True)
+    print(f"   lip-sync done in {(dt.datetime.now() - t0).seconds // 60} min")
+    return out
+
+
+def _sadtalker_cpu(padded: Path, a16: Path, wd: Path, cfg: dict) -> Path:
     st_dir = Path(os.environ.get("SADTALKER_DIR", Path.home() / "sadtalker")).resolve()
     py = os.environ.get("SADTALKER_PY", str(st_dir / "venv" / "bin" / "python"))
     if not (st_dir / "inference.py").exists():
         raise RuntimeError(f"SadTalker not found in {st_dir} - run tools/setup_sadtalker.sh")
-    a16 = wd / "voice16k.wav"
-    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(voice), "-ac", "1", "-ar", "16000", str(a16)],
-                   check=True)
     res = wd / "sadtalker"
     shutil.rmtree(res, ignore_errors=True)
-    padded = pad_for_sadtalker(img, wd / "sadtalker_src.png")
     cmd = [py, "inference.py", "--driven_audio", str(a16.resolve()), "--source_image", str(padded.resolve()),
            "--result_dir", str(res.resolve()), "--still", "--preprocess", "full", "--size", "256",
            "--expression_scale", os.environ.get("SADTALKER_EXPRESSION", "1.1")]
@@ -223,7 +244,6 @@ def lipsync(img: Path, voice: Path, wd: Path, total: float, cfg: dict = None) ->
     if os.environ.get("SADTALKER_GPU") != "1":
         cmd += ["--cpu"]
     print(f"   lip-sync: SadTalker (CPU, enhancer={enh or 'none'}, this takes a while)")
-    t0 = dt.datetime.now()
     try:   # fail cleanly instead of hanging until GitHub kills the job (2026-11-12 ran 3 h)
         r = subprocess.run(cmd, cwd=st_dir, capture_output=True, text=True,
                            timeout=60 * int(cfg.get("sadtalker_timeout_min", 150)))
@@ -234,13 +254,7 @@ def lipsync(img: Path, voice: Path, wd: Path, total: float, cfg: dict = None) ->
     mp4s = sorted(res.rglob("*.mp4"), key=lambda p: p.stat().st_mtime)
     if not mp4s:
         raise RuntimeError("SadTalker produced no video:\n" + r.stdout[-2000:])
-    # cut the padding off again: back to the original 1080x1920 portrait framing
-    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(mp4s[-1]), "-vf",
-                    f"crop=iw*{1 / PAD_W:.6f}:ih*{1 / PAD_H:.6f}:iw*{(1 - 1 / PAD_W) / 2:.6f}:ih*{(1 - 1 / PAD_H) / 2:.6f},"
-                    f"scale={W}:{H}:flags=lanczos,setsar=1", "-c:v", "libx264", "-preset", "veryfast", "-crf", "17",
-                    "-pix_fmt", "yuv420p", "-c:a", "copy", str(out)], check=True)
-    print(f"   lip-sync done in {(dt.datetime.now() - t0).seconds // 60} min")
-    return out
+    return mp4s[-1]
 
 
 # ---------------------------------------------------------------- Veo mode (paid: fal Veo 3.1 Lite, ~$0.05/s)

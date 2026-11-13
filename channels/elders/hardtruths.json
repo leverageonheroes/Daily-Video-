@@ -3,8 +3,8 @@
  "show": "Ask The Elders TV",
  "id_prefix": "HT",
  "paused": false,
- "lipsync": "sadtalker",
- "_lipsync_note": "sadtalker = FREE (CPU, no face enhancer). veo = PAID fal Veo 3.1 Lite ~$3.50/Short - only switch with the owner's OK.",
+ "lipsync": "kaggle",
+ "_lipsync_note": "kaggle = FREE Kaggle GPU (secrets KAGGLE_USERNAME + KAGGLE_KEY), falls back to sadtalker on the CPU if Kaggle fails. sadtalker = FREE (CPU, no face enhancer, slow). veo = PAID fal Veo 3.1 Lite ~$3.50/Short - only switch with the owner's OK.",
  "cta_seconds": 4,
  "_paused_note": "true = render + keep in GitHub Release hardtruths-preview, no YouTube upload. Set false once a preview is approved.",
  "publish_local": "19:00",
@@ -520,5 +520,8 @@
   }
  ],
  "sadtalker_enhancer": "none",
- "sadtalker_timeout_min": 150
+ "sadtalker_timeout_min": 150,
+ "kaggle_enhancer": "gfpgan",
+ "kaggle_size": 256,
+ "kaggle_timeout_min": 75
 }
