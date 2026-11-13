@@ -255,7 +255,7 @@
           }
         },
         "CH-008": {
-          "status": "uploaded",
+          "status": "published",
           "history": [
             {
               "status": "rendered",
@@ -266,6 +266,11 @@
               "status": "uploaded",
               "at": "2026-11-12T15:33:38+00:00",
               "note": "https://youtu.be/IG8J2NRCzaA publishes 2026-11-13T01:33:35Z"
+            },
+            {
+              "status": "published",
+              "at": "2026-11-13T14:44:34+00:00",
+              "note": "https://youtu.be/IG8J2NRCzaA"
             }
           ],
           "attempts": 1,
@@ -282,9 +287,31 @@
           }
         },
         "CH-009": {
-          "status": "scripted",
-          "history": [],
-          "attempts": 0
+          "status": "uploaded",
+          "history": [
+            {
+              "status": "rendered",
+              "at": "2026-11-13T14:51:23+00:00",
+              "note": "80.5s"
+            },
+            {
+              "status": "uploaded",
+              "at": "2026-11-13T14:51:39+00:00",
+              "note": "https://youtu.be/pjsQUEv2neY publishes 2026-11-14T00:51:36Z"
+            }
+          ],
+          "attempts": 1,
+          "final": "output/coldhearts/CH-009/final.mp4",
+          "youtube_id": "pjsQUEv2neY",
+          "publish_at": "2026-11-14T00:51:36Z",
+          "stories": {
+            "facebook": [
+              "1122357670604800",
+              "981060987962592"
+            ],
+            "facebook_reel": "122104575033543760",
+            "instagram_reel": "18016501964977853"
+          }
         },
         "CH-010": {
           "status": "scripted",
@@ -526,9 +553,15 @@
           "attempts": 3
         },
         "OIT-005": {
-          "status": "scripted",
-          "history": [],
-          "attempts": 0
+          "status": "failed",
+          "history": [
+            {
+              "status": "failed",
+              "at": "2026-11-13T14:47:32+00:00",
+              "note": "fal-ai/flux-2/flash failed: [{'loc': ['body', 'prompt'], 'msg': 'The content could not be processed because it contained material flagged by a content checker.', 'type': 'content_policy_violation', 'url': 'https://docs.fal.ai/errors#content_policy_violation', 'input': 'Create one vertical 9:16 film "
+            }
+          ],
+          "attempts": 1
         },
         "OIT-006": {
           "status": "scripted",
@@ -2115,5 +2148,5 @@
       "last_scripted": "CC-030"
     }
   },
-  "updated": "2026-11-13T07:21:11+00:00"
+  "updated": "2026-11-13T14:59:07+00:00"
 }

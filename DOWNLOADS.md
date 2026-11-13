@@ -159,6 +159,18 @@ The Crib Committee is in session. A predictable bedtime routine (bath, book, bed
 
 ## Fridge Hearts
 
+### CH-009  ·  2026-11-13
+
+**[⬇️ Download video](https://github.com/leverageonheroes/Daily-Video-/releases/download/tiktok-coldhearts/CH-009.mp4)** (48 MB)
+
+```text
+Exiled to the freezer ❄️👑
+
+Welcome to the North. Fridge Hearts, episode 9.
+
+#fridgedrama #freezer #soapopera #funnyanimation #fyp
+```
+
 ### CH-008  ·  2026-11-12
 
 **[⬇️ Download video](https://github.com/leverageonheroes/Daily-Video-/releases/download/tiktok-coldhearts/CH-008.mp4)** (40 MB)
