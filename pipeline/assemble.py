@@ -115,7 +115,7 @@ def _word_events(words: list, t0: float) -> list:
 
 def build_ass(episode: dict, dest: Path, hook: bool = True, captions: bool = True,
               offset: float = 0.0, card: str = "", end_text: str = "", end_at: float = 0.0,
-              part_label: str = "", moral: str = "", card_over_lead: bool = False):
+              part_label: str = "", moral: str = "", card_over_lead: bool = False, card_start: float = 0.0):
     """offset = seconds of cold open before the story starts (captions shift by it).
     end_text is shown for the 1.9 s before end_at (the end of the story)."""
     font = config.CAPTION_FONT
@@ -143,7 +143,7 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
     if part_label:
         events.append(f"Dialogue: 1,{_ts(2.8)},{_ts(5.6)},Part,,0,0,0,,{{\\fad(200,300)}}{_clean(part_label)}")
     if card and card_over_lead:      # recap: label sits on the recap itself
-        events.append(f"Dialogue: 2,{_ts(0.1)},{_ts(max(offset - 0.15, 0.5))},Card,,0,0,0,,{{\\fad(150,150)}}{_clean(card)}")
+        events.append(f"Dialogue: 2,{_ts(card_start + 0.1)},{_ts(max(offset - 0.15, card_start + 0.5))},Card,,0,0,0,,{{\\fad(150,150)}}{_clean(card)}")
     elif card:
         events.append(f"Dialogue: 2,{_ts(offset + 0.05)},{_ts(offset + 1.7)},Card,,0,0,0,,{{\\fad(150,250)}}{_clean(card)}")
     t0 = offset
@@ -269,13 +269,15 @@ def _narration_track(episode: dict, narration: list, workdir: Path) -> Path:
 
 
 def _render(video: Path, ass: str, out: str, total: float, workdir: Path, music, narr, narr_delay: float,
-            bed: float, grade: str = ""):
+            bed: float, grade: str = "", story_window=None):
+    """story_window = (start, end): the clip-audio bed volume applies only there; cards outside it play at full."""
     cmd = ["ffmpeg", "-y", "-loglevel", "error", "-i", str(video)]
     has_text = "Dialogue:" in (workdir / ass).read_text(encoding="utf-8")
     pre = f"{grade}," if grade else ""          # cinematic grade / grain / vignette under the captions
     vf = f"[0:v]{pre}subtitles={ass}[v]" if has_text else f"[0:v]{pre}null[v]"
     loud = f"loudnorm=I={config.TARGET_LUFS}:TP=-1.5:LRA=11"
-    chains, mix = [f"[0:a]volume={bed}[b]"], ["[b]"]
+    vol = f"'if(between(t,{story_window[0]:.3f},{story_window[1]:.3f}),{bed},1)':eval=frame" if story_window else bed
+    chains, mix = [f"[0:a]volume={vol}[b]"], ["[b]"]
     k = 1
     if narr:
         cmd += ["-i", str(narr)]
@@ -302,8 +304,10 @@ def _concat(workdir: Path, parts: list, out: str):
 
 
 def assemble(episode: dict, clips: list, workdir: Path, bible: dict | None = None,
-             narration: list | None = None, recap: dict | None = None) -> Path:
-    """recap = {"src": Path, "start": s, "seconds": n}: a flash of the previous episode before the story."""
+             narration: list | None = None, recap: dict | None = None,
+             intro: list | None = None, outro: list | None = None) -> Path:
+    """recap = {"src": Path, "start": s, "seconds": n}: a flash of the previous episode before the story.
+    intro / outro = ready-made card clips (pipeline/epcards.py) placed before / after everything else in final.mp4."""
     bible = bible or {}
     ov = bible.get("overlays", {})
     show_hook, show_caps = ov.get("hook", True), ov.get("captions", True)
@@ -331,9 +335,15 @@ def assemble(episode: dict, clips: list, workdir: Path, bible: dict | None = Non
         _cold_open(norm[co["idx"]], workdir / "cold.mp4", co["start"], co["seconds"])
         lead = duration(workdir / "cold.mp4")
         parts.insert(0, "cold.mp4")
+    intro, outro = [Path(p) for p in intro or []], [Path(p) for p in outro or []]
+    intro_len = sum(duration(p) for p in intro)
+    parts = [str(p.resolve()) for p in intro] + parts
+    lead += intro_len
     card, card_sec = end_card(bible, workdir)
     if card:
         parts.append("endcard.mp4")
+    parts += [str(p.resolve()) for p in outro]
+    card_sec += sum(duration(p) for p in outro)
     src = "base.mp4"
     if len(parts) > 1:
         _concat(workdir, parts, "full.mp4")
@@ -341,17 +351,18 @@ def assemble(episode: dict, clips: list, workdir: Path, bible: dict | None = Non
     total = lead + story + card_sec
     ec = episode.get("end_card", bible.get("end_card"))   # a string, or an image-card dict whose optional "text" shows over the last story beat
     end_text = ec if isinstance(ec, str) else (ec or {}).get("text", "")
-    build_ass(episode, workdir / "captions.ass", hook=show_hook, captions=show_caps, offset=lead,
+    build_ass(episode, workdir / "captions.ass", hook=show_hook and not intro, captions=show_caps, offset=lead,
               card=co["card"] if co else "", end_text=end_text, end_at=lead + story,
-              part_label=episode.get("part_label", ""), moral=episode.get("moral", ""),
-              card_over_lead=has_recap)
+              part_label="" if intro else episode.get("part_label", ""), moral=episode.get("moral", ""),
+              card_over_lead=has_recap, card_start=intro_len)
     build_ass(episode, workdir / "captions_clean.ass", hook=False, captions=show_caps)
 
     narr = _narration_track(episode, narration, workdir) if narration and any(narration) else None
     bed = float(bible.get("clip_audio_volume", 0.45 if narr else 1.0))
     music = find_music(episode["music"]) if episode.get("music") is not None else None   # None: music is baked in
     grade = bible.get("cinema_vf", "")
-    _render(workdir / src, "captions.ass", "final.mp4", total, workdir, music, narr, lead, bed, grade)
+    _render(workdir / src, "captions.ass", "final.mp4", total, workdir, music, narr, lead, bed, grade,
+            story_window=(lead, lead + story) if (intro or outro) else None)
     _render(workdir / "base.mp4", "captions_clean.ass", "clean.mp4", story, workdir, music, narr, 0.0, bed, grade)
 
     meta = {
@@ -365,6 +376,8 @@ def assemble(episode: dict, clips: list, workdir: Path, bible: dict | None = Non
         "social": episode.get("captions", {}),     # per-platform captions (TikTok / Facebook) to paste
         "seconds": round(total, 2),
     }
+    if (workdir / "thumbnail.jpg").exists() and intro:
+        meta["thumbnail"] = "thumbnail.jpg"
     (workdir / "metadata.json").write_text(json.dumps(meta, indent=2))
     for f in norm + [workdir / t for t in ("base.mp4", "full.mp4", "cold.mp4", "endcard.mp4")]:
         f.unlink(missing_ok=True)

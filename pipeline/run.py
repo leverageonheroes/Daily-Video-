@@ -24,6 +24,7 @@
 Env: MOCK=1 (free test mode, no API calls), YT_UPLOAD=0 (render only), REVIEW_HOURS, DAILY_BUDGET_USD.
 """
 import json
+from datetime import datetime, timezone
 import os
 import sys
 import traceback
@@ -84,6 +85,8 @@ def upload(s, ch, ep_id):
     wd = workdir(ch, ep_id)
     meta = json.loads((wd / "metadata.json").read_text())
     print(f"   uploading {ep_id} to YouTube ({ch})")
+    if meta.get("thumbnail"):
+        meta["thumbnail"] = str(wd / meta["thumbnail"])
     res = youtube.upload(ch, wd / "final.mp4", meta)
     note = f"https://youtu.be/{res['youtube_id']}" + (f" publishes {res['publish_at']}" if res["publish_at"] else " (private)")
     state.mark(s, ch, ep_id, "uploaded", note, **res)
@@ -120,10 +123,12 @@ def reels_backfill(s, chs):
             continue
         for ep_id, rec in s["channels"][ch]["episodes"].items():
             done = rec.get("stories") or {}
-            if rec.get("status") not in ("uploaded", "published") or not done:
+            # `stories_at` (ISO UTC) = a post deliberately held back (e.g. until YouTube goes public): full post once due
+            held = not done and rec.get("stories_at") and rec["stories_at"] <= datetime.now(timezone.utc).isoformat()
+            if rec.get("status") not in ("uploaded", "published") or not (done or held):
                 continue
             fb, ig, _ = meta.ids(ch)
-            if (not fb or done.get("facebook_reel")) and (not ig or done.get("instagram_reel")):
+            if not held and (not fb or done.get("facebook_reel")) and (not ig or done.get("instagram_reel")):
                 continue
             wd = config.OUTPUT / "backfill" / ch / ep_id
             wd.mkdir(parents=True, exist_ok=True)
@@ -135,10 +140,10 @@ def reels_backfill(s, chs):
                     print(f"!! {ch} {ep_id}: no video in release tiktok-{ch}: {r.stderr.strip()[:200]}")
                     failed = True
                     continue
-            print(f"== {ch} {ep_id}: posting Reels")
+            print(f"== {ch} {ep_id}: posting " + ("Stories + Reels (scheduled)" if held else "Reels"))
             try:
                 res = meta.post_stories(ch, video, state.get_episode(ch, ep_id), assemble.duration(video), done,
-                                        placements=("facebook_reel", "instagram_reel"))
+                                        **({} if held else {"placements": ("facebook_reel", "instagram_reel")}))
             except Exception as e:
                 print(f"!! {ch} {ep_id}: {e}")
                 failed = True

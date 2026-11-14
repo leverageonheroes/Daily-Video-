@@ -795,8 +795,15 @@ def render(channel: str, ep: dict, clip_files: list, wd: Path, bible: dict, reca
         t += seg_seconds(e)
     track = _soundtrack(ep, bible, clips, edit_audio, starts, t, ff)
     film = {**ep, "shots": pseudo_shots(ep, speech), "music": None}    # music is in the soundtrack
+    from . import epcards
+    try:
+        cards = epcards.make(channel, ep, bible, clips, wd)       # thumbnail, title, story brief, next/subscribe
+    except Exception as ex:                                       # cards are a bonus: never lose the episode
+        print(f"   (episode cards skipped: {ex})")
+        cards = {}
     final = assemble.assemble(film, silent, wd, {**bible, "clip_audio_volume": 0.0},
-                              narration=[track] + [None] * (len(silent) - 1), recap=recap)
+                              narration=[track] + [None] * (len(silent) - 1), recap=recap,
+                              intro=cards.get("intro"), outro=cards.get("outro"))
     small = small_copy(final, wd / f"{ep['id']}_small.mp4")
     tts_cost = SPEND["tts_chars"] / 1000 * PRICE_TTS_1K
     lip_cost = SPEND["lipsync_s"] * PRICE_LIPSYNC_SEC

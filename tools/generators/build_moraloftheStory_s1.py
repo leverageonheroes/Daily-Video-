@@ -195,7 +195,7 @@ def build():
                 "captions": {
                     "tiktok": (f"{e['hook']} \U0001F633 Part {p}/6 · {arc['title']}. "
                                + (f"The moral of the story: {arc['moral']} " if finale else f"{q.capitalize()} ")
-                               + "#moralofthestory #nigeriandrama #shortdrama #storytime #aidrama"),
+                               + "#moralofthestory #nollywood #naijadrama #shortdrama #fyp"),
                     "facebook": (f"{arc['title']}, part {p} of 6: {e['title']}. {arc['logline']} "
                                  + (f"The moral of the story: {arc['moral']}" if finale
                                     else f"{q.capitalize()} Follow {SHOW} for part {p + 1}.")),
@@ -259,6 +259,14 @@ def bible():
         "compilation_title": "{show} | {label}",
         "compilation_tags": ["full movie", "nigerian movie", "african drama", "moral of the story", "family drama"],
         "compilations": {"weekly": False, "monthly": False},
+        "seo": {
+            "about": "Moral Of The Story TV: bingeable Nollywood-style mini drama series in 6 parts. Family secrets, money, "
+                     "love and betrayal, a plot twist every part and a life lesson at the end.",
+            "hashtags": ["#nollywood", "#naijadrama"],
+            "keywords": ["nollywood", "nollywood movies", "naija drama", "nigerian movies", "african movies", "drama shorts",
+                         "mini drama series", "short film", "plot twist", "life lessons", "moral lessons",
+                         "relationship drama", "family secrets", "storytime drama", "binge worthy series", "gen z"],
+        },
     }
 
 

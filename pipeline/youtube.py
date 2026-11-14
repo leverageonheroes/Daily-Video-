@@ -99,6 +99,13 @@ def upload(channel: str, video_path, meta: dict) -> dict:
     resp = None
     while resp is None:
         _, resp = req.next_chunk()
+    thumb = meta.get("thumbnail")
+    if thumb and os.path.exists(thumb):          # custom thumbnail (needs a phone-verified channel); never fatal
+        try:
+            service(channel).thumbnails().set(videoId=resp["id"], media_body=MediaFileUpload(thumb, mimetype="image/jpeg")).execute()
+            print("   thumbnail set")
+        except Exception as e:
+            print(f"   (thumbnail not set: {str(e)[:200]})")
     return {"youtube_id": resp["id"], "publish_at": publish_at}
 
 

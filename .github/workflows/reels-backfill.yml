@@ -7,6 +7,8 @@ on:
     branches: [main]      # tag pushes (Release creation) ignore paths filters - never run on those
     paths: ["triggers/reels-backfill"]
   workflow_dispatch:
+  schedule:
+    - cron: "40 5 15 11 *"   # Moral Of The Story MOS-001: FB/IG held until its YouTube premiere (stories_at in state)
 
 permissions:
   contents: write

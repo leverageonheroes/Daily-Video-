@@ -1,5 +1,4 @@
 {
-  "paused": true,
   "channel_id": "drizzlepudge",
   "show_title": "Moral Of The Story TV",
   "previous_format": "Drizzle & Pudge (kids cartoon) - scripts archived in channels/drizzlepudge/archive/",
@@ -90,5 +89,38 @@
   "tts": {
     "endpoint": "fal-ai/elevenlabs/tts/eleven-v3",
     "fallback": "fal-ai/elevenlabs/tts/turbo-v2.5"
+  },
+  "episode_cards": {
+    "title_seconds": 2.5,
+    "brief_seconds": 6.5,
+    "next_seconds": 4.2,
+    "brief_parts": [
+      1
+    ]
+  },
+  "seo": {
+    "about": "Moral Of The Story TV: bingeable Nollywood-style mini drama series in 6 parts. Family secrets, money, love and betrayal, a plot twist every part and a life lesson at the end.",
+    "hashtags": [
+      "#nollywood",
+      "#naijadrama"
+    ],
+    "keywords": [
+      "nollywood",
+      "nollywood movies",
+      "naija drama",
+      "nigerian movies",
+      "african movies",
+      "drama shorts",
+      "mini drama series",
+      "short film",
+      "plot twist",
+      "life lessons",
+      "moral lessons",
+      "relationship drama",
+      "family secrets",
+      "storytime drama",
+      "binge worthy series",
+      "gen z"
+    ]
   }
 }

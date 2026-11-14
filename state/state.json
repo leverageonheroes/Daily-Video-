@@ -993,9 +993,24 @@
     "drizzlepudge": {
       "episodes": {
         "MOS-001": {
-          "status": "scripted",
-          "history": [],
-          "attempts": 0
+          "status": "uploaded",
+          "history": [
+            {
+              "status": "rendered",
+              "at": "2026-11-14T19:35:26+00:00",
+              "note": "90.7s flow-film from Google Flow clips"
+            },
+            {
+              "status": "uploaded",
+              "at": "2026-11-14T19:35:36+00:00",
+              "note": "https://youtu.be/ysFanN7nFb0 publishes 2026-11-15T05:35:28Z"
+            }
+          ],
+          "attempts": 0,
+          "final": "output/drizzlepudge/MOS-001/final.mp4",
+          "youtube_id": "ysFanN7nFb0",
+          "publish_at": "2026-11-15T05:35:28Z",
+          "stories_at": "2026-11-15T05:35:28+00:00"
         },
         "MOS-002": {
           "status": "scripted",
