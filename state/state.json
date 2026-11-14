@@ -1716,9 +1716,41 @@
           }
         },
         "ELD-007": {
-          "status": "scripted",
-          "history": [],
-          "attempts": 0
+          "status": "uploaded",
+          "history": [
+            {
+              "status": "rendered",
+              "at": "2026-11-14T16:25:53+00:00",
+              "note": "71.0s from Google Flow clips"
+            },
+            {
+              "status": "uploaded",
+              "at": "2026-11-14T16:26:01+00:00",
+              "note": "https://youtu.be/sZ8c2KHBYtc publishes 2026-11-15T02:25:57Z"
+            }
+          ],
+          "attempts": 1,
+          "final": "output/elders/ELD-007/final.mp4",
+          "clips": [
+            "1_f919913e.mp4",
+            "2_a93a2895.mp4",
+            "3_a6cfa7ab.mp4",
+            "4_cc9b8806.mp4",
+            "5_cefa9f24.mp4",
+            "6_6151dd3a.mp4",
+            "7_f0952d98.mp4",
+            "8.mp4"
+          ],
+          "youtube_id": "sZ8c2KHBYtc",
+          "publish_at": "2026-11-15T02:25:57Z",
+          "stories": {
+            "facebook": [
+              "1391826063027050",
+              "1794822788416887"
+            ],
+            "facebook_reel": "122107328115541373",
+            "instagram_reel": "18042825485645821"
+          }
         },
         "ELD-008": {
           "status": "scripted",
@@ -2030,9 +2062,41 @@
           }
         },
         "CC-006": {
-          "status": "scripted",
-          "history": [],
-          "attempts": 0
+          "status": "uploaded",
+          "history": [
+            {
+              "status": "rendered",
+              "at": "2026-11-14T16:16:45+00:00",
+              "note": "71.0s from Google Flow clips"
+            },
+            {
+              "status": "uploaded",
+              "at": "2026-11-14T16:16:53+00:00",
+              "note": "https://youtu.be/uLpS8s6YPoo publishes 2026-11-15T03:16:50Z"
+            }
+          ],
+          "attempts": 1,
+          "final": "output/cribcommittee/CC-006/final.mp4",
+          "clips": [
+            "1_0fbbaec2.mp4",
+            "2_29c516cb.mp4",
+            "3_d035e606.mp4",
+            "4_c1ddd8e4.mp4",
+            "5_eb25bbeb.mp4",
+            "6_7b39c4b5.mp4",
+            "7_df291763.mp4",
+            "8.mp4"
+          ],
+          "youtube_id": "uLpS8s6YPoo",
+          "publish_at": "2026-11-15T03:16:50Z",
+          "stories": {
+            "facebook": [
+              "4125502884411148",
+              "28946760824946328"
+            ],
+            "facebook_reel": "122110554909535249",
+            "instagram_reel": "18108626699250913"
+          }
         },
         "CC-007": {
           "status": "scripted",
@@ -2158,5 +2222,5 @@
       "last_scripted": "CC-030"
     }
   },
-  "updated": "2026-11-13T22:41:23+00:00"
+  "updated": "2026-11-14T16:34:35+00:00"
 }

@@ -7,6 +7,18 @@ Jump to: [Ask The Elders](#ask-the-elders) · [The Crib Committee](#the-crib-com
 
 ## Ask The Elders
 
+### ELD-007  ·  2026-11-14
+
+**[⬇️ Download video](https://github.com/leverageonheroes/Daily-Video-/releases/download/tiktok-elders/ELD-007.mp4)** (35 MB)
+
+```text
+Money mistakes they still think about at 85
+
+Eight elders on the money mistakes that taught them the most. New lesson every day. Which one hit hardest? Tell us below.
+
+#moneymistakes #debt #lifelessons #wisdom #fyp
+```
+
 ### ELD-006  ·  2026-11-13
 
 **[⬇️ Download video](https://github.com/leverageonheroes/Daily-Video-/releases/download/tiktok-elders/ELD-006.mp4)** (33 MB)
@@ -82,6 +94,22 @@ Five elders on what they'd do differently with money. New lesson every day. Whic
 ---
 
 ## The Crib Committee
+
+### CC-006  ·  2026-11-14
+
+**[⬇️ Download video](https://github.com/leverageonheroes/Daily-Video-/releases/download/tiktok-cribcommittee/CC-006.mp4)** (29 MB)
+
+```text
+Why babies say NO to everything
+
+The Crib Committee is in session. Today: choices.
+
+Parenting note: Toddlers crave a little control. Offering two acceptable choices cuts power struggles.
+
+New babies, same complaints. Which committee member is your little one? Tell us below.
+
+#toddlerno #powerstruggles #parenting #funnybabies #fyp
+```
 
 ### CC-005  ·  2026-11-13
 
