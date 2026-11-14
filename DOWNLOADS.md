@@ -359,6 +359,22 @@ One In A Thousand: true survival stories, one every day. Which creature should w
 
 ## Moral Of The Story TV
 
-_No videos yet._
+### MOS-001  ·  2026-11-14
+
+**[⬇️ Download video](https://github.com/leverageonheroes/Daily-Video-/releases/download/tiktok-drizzlepudge/MOS-001.mp4)** (39 MB)
+
+```text
+Fifteen million naira. Or no wedding. | The Wedding Fund Part 1
+
+A proud mother demands a fifteen-million-naira wedding, but the family wedding account is empty, and someone has been lying for years.
+
+The Wedding Fund, part 1 of 6: The List.
+
+Where did the money go? Tell us in the comments.
+
+Moral Of The Story TV: a new story every week, and the full movie after every finale.
+
+#moralofthestory #nigeriandrama #nollywood #naijadrama #fyp
+```
 
 ---

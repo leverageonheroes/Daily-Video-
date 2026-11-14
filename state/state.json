@@ -325,9 +325,14 @@
               "status": "failed",
               "at": "2026-11-14T18:33:24+00:00",
               "note": "all video providers failed -> ltx: job e26c40cbf5a9476c81e2cf4bee90d3a9 failed: {'type': 'insufficient_funds_error', 'message': 'Insufficient funds. Required: 30 cents'} | fal: fal-ai/ltx-2-19b/distilled/image-to-video failed: CUDA error: out of memory"
+            },
+            {
+              "status": "failed",
+              "at": "2026-11-14T23:18:41+00:00",
+              "note": "all video providers failed -> ltx: job a941246c91e943e7b0ef74b5d32bb87b failed: {'type': 'insufficient_funds_error', 'message': 'Insufficient funds. Required: 30 cents'} | fal: fal-ai/ltx-2-19b/distilled/image-to-video failed: CUDA error: out of memory"
             }
           ],
-          "attempts": 1
+          "attempts": 2
         },
         "CH-011": {
           "status": "scripted",
@@ -2274,5 +2279,5 @@
       "last_scripted": "CC-030"
     }
   },
-  "updated": "2026-11-14T18:33:24+00:00"
+  "updated": "2026-11-14T23:18:41+00:00"
 }
