@@ -299,6 +299,20 @@ A soap opera inside your fridge. Episode 1 of Fridge Hearts.
 
 ## One In A Thousand
 
+### OIT-006  ·  2026-11-14
+
+**[⬇️ Download video](https://github.com/leverageonheroes/Daily-Video-/releases/download/tiktok-flat4b/OIT-006.mp4)** (58 MB)
+
+```text
+Baby elephant stuck in mud. The herd comes back.
+
+Elephant calves can stand within about an hour of birth. Elephant families, led by an older female, raise calves together and will work together to help a calf in trouble.
+
+One In A Thousand: true survival stories, one every day. Which creature should we follow next? Tell us below.
+
+#elephant #babyelephant #wildlife #naturedocumentary #fyp
+```
+
 ### OIT-003  ·  2026-11-11
 
 **[⬇️ Download video](https://github.com/leverageonheroes/Daily-Video-/releases/download/tiktok-flat4b/OIT-003.mp4)** (49 MB)
