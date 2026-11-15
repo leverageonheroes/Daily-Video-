@@ -330,9 +330,14 @@
               "status": "failed",
               "at": "2026-11-14T23:18:41+00:00",
               "note": "all video providers failed -> ltx: job a941246c91e943e7b0ef74b5d32bb87b failed: {'type': 'insufficient_funds_error', 'message': 'Insufficient funds. Required: 30 cents'} | fal: fal-ai/ltx-2-19b/distilled/image-to-video failed: CUDA error: out of memory"
+            },
+            {
+              "status": "failed",
+              "at": "2026-11-15T14:07:24+00:00",
+              "note": "Client error '403 Forbidden' for url 'https://rest.fal.ai/storage/auth/token?storage_type=fal-cdn-v3'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
             }
           ],
-          "attempts": 2
+          "attempts": 3
         },
         "CH-011": {
           "status": "scripted",
@@ -590,7 +595,7 @@
           "attempts": 3
         },
         "OIT-006": {
-          "status": "uploaded",
+          "status": "published",
           "history": [
             {
               "status": "rendered",
@@ -601,6 +606,11 @@
               "status": "uploaded",
               "at": "2026-11-14T17:22:38+00:00",
               "note": "https://youtu.be/xcZ8GW5q41I publishes 2026-11-15T03:22:34Z"
+            },
+            {
+              "status": "published",
+              "at": "2026-11-15T14:06:22+00:00",
+              "note": "https://youtu.be/xcZ8GW5q41I"
             }
           ],
           "attempts": 1,
@@ -621,9 +631,15 @@
           }
         },
         "OIT-007": {
-          "status": "scripted",
-          "history": [],
-          "attempts": 0
+          "status": "failed",
+          "history": [
+            {
+              "status": "failed",
+              "at": "2026-11-15T14:07:23+00:00",
+              "note": "fal-ai/nano-banana failed: User is locked. Reason: Exhausted balance. Top up your balance at fal.ai/dashboard/billing."
+            }
+          ],
+          "attempts": 1
         },
         "OIT-008": {
           "status": "scripted",
@@ -998,7 +1014,7 @@
     "drizzlepudge": {
       "episodes": {
         "MOS-001": {
-          "status": "uploaded",
+          "status": "published",
           "history": [
             {
               "status": "rendered",
@@ -1009,6 +1025,11 @@
               "status": "uploaded",
               "at": "2026-11-14T19:35:36+00:00",
               "note": "https://youtu.be/ysFanN7nFb0 publishes 2026-11-15T05:35:28Z"
+            },
+            {
+              "status": "published",
+              "at": "2026-11-15T14:06:22+00:00",
+              "note": "https://youtu.be/ysFanN7nFb0"
             }
           ],
           "attempts": 0,
@@ -2287,5 +2308,5 @@
       "last_scripted": "CC-030"
     }
   },
-  "updated": "2026-11-15T13:03:47+00:00"
+  "updated": "2026-11-15T14:07:24+00:00"
 }
