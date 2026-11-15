@@ -1015,7 +1015,15 @@
           "final": "output/drizzlepudge/MOS-001/final.mp4",
           "youtube_id": "ysFanN7nFb0",
           "publish_at": "2026-11-15T05:35:28Z",
-          "stories_at": "2026-11-15T05:35:28+00:00"
+          "stories_at": "2026-11-15T05:35:28+00:00",
+          "stories": {
+            "facebook": [
+              "1661207512463256",
+              "983964250993185"
+            ],
+            "facebook_reel": "1058063187306596",
+            "instagram_reel": "17888433165506153"
+          }
         },
         "MOS-002": {
           "status": "scripted",
@@ -2279,5 +2287,5 @@
       "last_scripted": "CC-030"
     }
   },
-  "updated": "2026-11-14T23:18:41+00:00"
+  "updated": "2026-11-15T13:03:47+00:00"
 }
