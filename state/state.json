@@ -662,7 +662,7 @@
               "note": "fal-ai/nano-banana failed: User is locked. Reason: Exhausted balance. Top up your balance at fal.ai/dashboard/billing."
             }
           ],
-          "attempts": 1
+          "attempts": 2
         },
         "OIT-008": {
           "status": "scripted",
@@ -2331,5 +2331,5 @@
       "last_scripted": "CC-030"
     }
   },
-  "updated": "2026-11-15T15:03:06+00:00"
+  "updated": "2026-11-15T17:59:30+00:00"
 }
