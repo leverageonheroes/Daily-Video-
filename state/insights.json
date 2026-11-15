@@ -3,6 +3,11 @@
   "flat4b": {
    "theme_score": {},
    "formats": {
+    "main": {
+     "videos": 3,
+     "median_views": 2,
+     "total_views": 312
+    },
     "other": {
      "videos": 4,
      "median_views": 4.0,
@@ -10,6 +15,18 @@
     }
    },
    "top": [
+    {
+     "id": "p0X2w4BKw9E",
+     "title": "This octopus mother starves herself for her babies #shorts",
+     "privacy": "public",
+     "published": "2026-11-10T10:46:06Z",
+     "views": 310,
+     "likes": 5,
+     "comments": 2,
+     "format": "main",
+     "theme": "octopus",
+     "age_days": 5.2
+    },
     {
      "id": "Aac50fMjN6M",
      "title": "Payday lasted 4 seconds 💸 #shorts",
@@ -20,7 +37,7 @@
      "comments": 0,
      "format": "other",
      "theme": "",
-     "age_days": 4.8
+     "age_days": 8.9
     },
     {
      "id": "uK25FZ7SUL4",
@@ -32,7 +49,19 @@
      "comments": 0,
      "format": "other",
      "theme": "",
-     "age_days": 3.5
+     "age_days": 7.7
+    },
+    {
+     "id": "saSp1FWB5YM",
+     "title": "Only 1 in 1,000 baby sea turtles survives. This is her. #shorts",
+     "privacy": "public",
+     "published": "2026-11-10T02:42:14Z",
+     "views": 2,
+     "likes": 1,
+     "comments": 0,
+     "format": "main",
+     "theme": "turtle",
+     "age_days": 5.6
     },
     {
      "id": "26oyNKlHISc",
@@ -44,7 +73,19 @@
      "comments": 0,
      "format": "other",
      "theme": "",
-     "age_days": 2.5
+     "age_days": 6.7
+    },
+    {
+     "id": "_UuRvpEtk6Y",
+     "title": "He can't eat for 4 months. And he can't drop this egg. #shorts",
+     "privacy": "public",
+     "published": "2026-11-12T04:56:52Z",
+     "views": 0,
+     "likes": 0,
+     "comments": 0,
+     "format": "main",
+     "theme": "penguin",
+     "age_days": 3.5
     },
     {
      "id": "LWulw_grRF8",
@@ -56,7 +97,7 @@
      "comments": 0,
      "format": "other",
      "theme": "",
-     "age_days": 4.5
+     "age_days": 8.6
     }
    ]
   },
@@ -64,9 +105,9 @@
    "theme_score": {},
    "formats": {
     "main": {
-     "videos": 4,
-     "median_views": 2.5,
-     "total_views": 19
+     "videos": 8,
+     "median_views": 1.5,
+     "total_views": 22
     }
    },
    "top": [
@@ -80,7 +121,7 @@
      "comments": 0,
      "format": "main",
      "theme": "",
-     "age_days": 3.5
+     "age_days": 7.7
     },
     {
      "id": "ioIqCCWlgW8",
@@ -92,19 +133,31 @@
      "comments": 0,
      "format": "main",
      "theme": "",
-     "age_days": 4.8
+     "age_days": 8.9
+    },
+    {
+     "id": "S0Phdec-xEU",
+     "title": "His REPLACEMENT just arrived 🥛😳 #shorts",
+     "privacy": "public",
+     "published": "2026-11-10T02:48:08Z",
+     "views": 2,
+     "likes": 0,
+     "comments": 0,
+     "format": "main",
+     "theme": "",
+     "age_days": 5.5
     },
     {
      "id": "1Y2zTqG7DoM",
      "title": "His expiry date came... and he SURVIVED 🥛 #shorts",
      "privacy": "public",
      "published": "2026-11-08T23:44:56Z",
-     "views": 1,
+     "views": 2,
      "likes": 0,
      "comments": 0,
      "format": "main",
      "theme": "",
-     "age_days": 2.5
+     "age_days": 6.7
     },
     {
      "id": "T2sBTfHIN4c",
@@ -116,20 +169,68 @@
      "comments": 0,
      "format": "main",
      "theme": "",
-     "age_days": 4.5
+     "age_days": 8.6
+    },
+    {
+     "id": "IG8J2NRCzaA",
+     "title": "He trained all day to be picked... 🥦❄️ #shorts",
+     "privacy": "public",
+     "published": "2026-11-13T01:33:47Z",
+     "views": 0,
+     "likes": 0,
+     "comments": 0,
+     "format": "main",
+     "theme": "",
+     "age_days": 2.6
+    },
+    {
+     "id": "B4pQq2Ty5u4",
+     "title": "What's inside the mystery container? 🫙 #shorts",
+     "privacy": "public",
+     "published": "2026-11-12T05:08:33Z",
+     "views": 0,
+     "likes": 0,
+     "comments": 0,
+     "format": "main",
+     "theme": "",
+     "age_days": 3.4
+    },
+    {
+     "id": "zP1z1cWTywY",
+     "title": "He came back HALF EMPTY 🥛💔 #shorts",
+     "privacy": "public",
+     "published": "2026-11-10T10:51:38Z",
+     "views": 0,
+     "likes": 0,
+     "comments": 0,
+     "format": "main",
+     "theme": "",
+     "age_days": 5.2
     }
    ]
   },
   "drizzlepudge": {
    "theme_score": {},
    "formats": {
-    "main": {
-     "videos": 4,
-     "median_views": 1.5,
-     "total_views": 6
+    "other": {
+     "videos": 7,
+     "median_views": 1.0,
+     "total_views": 7
     }
    },
    "top": [
+    {
+     "id": "NZIjQuIm3Ls",
+     "title": "Hiccup Bubbles! 🫧 | Drizzle & Pudge",
+     "privacy": "public",
+     "published": "2026-11-06T17:59:58Z",
+     "views": 3,
+     "likes": 0,
+     "comments": 0,
+     "format": "other",
+     "theme": "",
+     "age_days": 8.9
+    },
     {
      "id": "FhwWnDWOVhE",
      "title": "Snow in Summer?! ❄️ | Drizzle & Pudge",
@@ -138,21 +239,9 @@
      "views": 2,
      "likes": 0,
      "comments": 0,
-     "format": "main",
+     "format": "other",
      "theme": "",
-     "age_days": 2.5
-    },
-    {
-     "id": "NZIjQuIm3Ls",
-     "title": "Hiccup Bubbles! 🫧 | Drizzle & Pudge",
-     "privacy": "public",
-     "published": "2026-11-06T17:59:58Z",
-     "views": 2,
-     "likes": 0,
-     "comments": 0,
-     "format": "main",
-     "theme": "",
-     "age_days": 4.7
+     "age_days": 6.7
     },
     {
      "id": "4F80DUqYD88",
@@ -162,9 +251,9 @@
      "views": 1,
      "likes": 1,
      "comments": 0,
-     "format": "main",
+     "format": "other",
      "theme": "",
-     "age_days": 3.5
+     "age_days": 7.7
     },
     {
      "id": "wBSPJk8VJRo",
@@ -174,19 +263,63 @@
      "views": 1,
      "likes": 0,
      "comments": 0,
-     "format": "main",
+     "format": "other",
      "theme": "",
-     "age_days": 4.5
+     "age_days": 8.6
+    },
+    {
+     "id": "qMAZmsaZ9wI",
+     "title": "Musical Raindrops 🎵 | Drizzle & Pudge",
+     "privacy": "public",
+     "published": "2026-11-12T05:18:28Z",
+     "views": 0,
+     "likes": 0,
+     "comments": 0,
+     "format": "other",
+     "theme": "",
+     "age_days": 3.4
+    },
+    {
+     "id": "GqIea3HO7Xc",
+     "title": "Where's Bitsy? 🐞 | Drizzle & Pudge",
+     "privacy": "public",
+     "published": "2026-11-10T10:56:08Z",
+     "views": 0,
+     "likes": 0,
+     "comments": 0,
+     "format": "other",
+     "theme": "",
+     "age_days": 5.2
+    },
+    {
+     "id": "hKfeMUedJsg",
+     "title": "Fizz Took the Acorn! 🌰 | Drizzle & Pudge",
+     "privacy": "public",
+     "published": "2026-11-10T02:52:02Z",
+     "views": 0,
+     "likes": 0,
+     "comments": 0,
+     "format": "other",
+     "theme": "",
+     "age_days": 5.5
     }
    ]
   },
   "elders": {
-   "theme_score": {},
+   "theme_score": {
+    "love": 1.07,
+    "money": 19.9
+   },
    "formats": {
     "main": {
+     "videos": 5,
+     "median_views": 16,
+     "total_views": 683
+    },
+    "carousel": {
      "videos": 2,
-     "median_views": 318.0,
-     "total_views": 636
+     "median_views": 3.5,
+     "total_views": 7
     }
    },
    "top": [
@@ -195,12 +328,24 @@
      "title": "What 80-year-olds wish they'd done with money #shorts",
      "privacy": "public",
      "published": "2026-11-07T20:52:52Z",
-     "views": 620,
+     "views": 623,
      "likes": 12,
      "comments": 0,
      "format": "main",
      "theme": "money",
-     "age_days": 3.6
+     "age_days": 7.8
+    },
+    {
+     "id": "U6BMsv3_5ak",
+     "title": "Work advice from people who already retired #shorts",
+     "privacy": "public",
+     "published": "2026-11-10T23:06:01Z",
+     "views": 28,
+     "likes": 1,
+     "comments": 0,
+     "format": "main",
+     "theme": "work",
+     "age_days": 4.7
     },
     {
      "id": "6ttJ20mMoP4",
@@ -212,20 +357,123 @@
      "comments": 0,
      "format": "main",
      "theme": "love",
-     "age_days": 2.5
+     "age_days": 6.7
+    },
+    {
+     "id": "ITVpR5dGbQU",
+     "title": "What 90-year-olds wish they'd done for their body #shorts",
+     "privacy": "public",
+     "published": "2026-11-12T04:28:58Z",
+     "views": 13,
+     "likes": 0,
+     "comments": 0,
+     "format": "main",
+     "theme": "health",
+     "age_days": 3.5
+    },
+    {
+     "id": "Zf8OK9l-e0k",
+     "title": "Words of Wisdom on Love | The Elders Council #shorts",
+     "privacy": "public",
+     "published": "2026-11-13T13:30:31Z",
+     "views": 4,
+     "likes": 0,
+     "comments": 0,
+     "format": "carousel",
+     "theme": "love",
+     "age_days": 2.1
+    },
+    {
+     "id": "zFFt1Wcl3xo",
+     "title": "Words of Wisdom on Money | The Elders Council #shorts",
+     "privacy": "public",
+     "published": "2026-11-11T10:24:39Z",
+     "views": 3,
+     "likes": 0,
+     "comments": 0,
+     "format": "carousel",
+     "theme": "money",
+     "age_days": 4.2
+    },
+    {
+     "id": "zs8pMA_U8js",
+     "title": "The regrets almost everyone has at 90 #shorts",
+     "privacy": "public",
+     "published": "2026-11-10T00:12:52Z",
+     "views": 3,
+     "likes": 0,
+     "comments": 0,
+     "format": "main",
+     "theme": "regret",
+     "age_days": 5.7
     }
    ]
   },
   "cribcommittee": {
-   "theme_score": {},
+   "theme_score": {
+    "play": 1.5
+   },
    "formats": {
     "main": {
-     "videos": 1,
-     "median_views": 2,
-     "total_views": 2
+     "videos": 4,
+     "median_views": 1.0,
+     "total_views": 3
+    },
+    "carousel": {
+     "videos": 4,
+     "median_views": 5.0,
+     "total_views": 27
     }
    },
    "top": [
+    {
+     "id": "NToSRziB5gk",
+     "title": "What Babies Wish You Knew About Play | The Crib Committee #shorts",
+     "privacy": "public",
+     "published": "2026-11-13T14:30:34Z",
+     "views": 15,
+     "likes": 0,
+     "comments": 0,
+     "format": "carousel",
+     "theme": "play",
+     "age_days": 2.1
+    },
+    {
+     "id": "uCkyh27gUj8",
+     "title": "What Babies Wish You Knew About Attention | The Crib Committee #shorts",
+     "privacy": "public",
+     "published": "2026-11-13T14:30:01Z",
+     "views": 7,
+     "likes": 0,
+     "comments": 0,
+     "format": "carousel",
+     "theme": "attention",
+     "age_days": 2.1
+    },
+    {
+     "id": "2DwgY6wU5IQ",
+     "title": "What Babies Wish You Knew About Big Feelings | The Crib Committee #shorts",
+     "privacy": "public",
+     "published": "2026-11-11T10:45:12Z",
+     "views": 3,
+     "likes": 0,
+     "comments": 0,
+     "format": "carousel",
+     "theme": "big feelings",
+     "age_days": 4.2
+    },
+    {
+     "id": "l-F25Zx1L5w",
+     "title": "What Babies Wish You Knew About Bedtime | The Crib Committee #shorts",
+     "privacy": "public",
+     "published": "2026-11-11T10:32:57Z",
+     "views": 2,
+     "likes": 0,
+     "comments": 0,
+     "format": "carousel",
+     "theme": "bedtime",
+     "age_days": 4.2
+    },
     {
      "id": "0yanKYbZkOU",
      "title": "Babies held a meeting about bedtime #shorts",
@@ -236,10 +484,46 @@
      "comments": 0,
      "format": "main",
      "theme": "",
-     "age_days": 2.5
+     "age_days": 6.6
+    },
+    {
+     "id": "oWpDXfspl5s",
+     "title": "Babies filed a complaint about your phone #shorts",
+     "privacy": "public",
+     "published": "2026-11-11T02:01:24Z",
+     "views": 1,
+     "likes": 0,
+     "comments": 0,
+     "format": "main",
+     "theme": "parent phone use",
+     "age_days": 4.6
+    },
+    {
+     "id": "dk5QC7pZExs",
+     "title": "Babies explain why play is serious business #shorts",
+     "privacy": "public",
+     "published": "2026-11-12T05:20:31Z",
+     "views": 0,
+     "likes": 0,
+     "comments": 0,
+     "format": "main",
+     "theme": "play",
+     "age_days": 3.4
+    },
+    {
+     "id": "mekiXwPSMmk",
+     "title": "What babies wish you knew about tantrums #shorts",
+     "privacy": "public",
+     "published": "2026-11-10T01:27:35Z",
+     "views": 0,
+     "likes": 0,
+     "comments": 0,
+     "format": "main",
+     "theme": "",
+     "age_days": 5.6
     }
    ]
   }
  },
- "updated": "2026-11-11T11:57:24+00:00"
+ "updated": "2026-11-15T15:54:29+00:00"
 }
