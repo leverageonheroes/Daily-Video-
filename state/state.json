@@ -342,7 +342,7 @@
         "CH-011": {
           "status": "scripted",
           "history": [],
-          "attempts": 0
+          "attempts": 1
         },
         "CH-012": {
           "status": "scripted",
@@ -660,9 +660,14 @@
               "status": "failed",
               "at": "2026-11-15T14:07:23+00:00",
               "note": "fal-ai/nano-banana failed: User is locked. Reason: Exhausted balance. Top up your balance at fal.ai/dashboard/billing."
+            },
+            {
+              "status": "failed",
+              "at": "2026-11-15T23:13:41+00:00",
+              "note": "all video providers failed -> ltx: job 76aa5c7b57b84188ad08e1944a7c82ae failed: {'type': 'insufficient_funds_error', 'message': 'Insufficient funds. Required: 30 cents'} | fal: fal-ai/ltx-2-19b/distilled/image-to-video failed: CUDA error: out of memory"
             }
           ],
-          "attempts": 2
+          "attempts": 3
         },
         "OIT-008": {
           "status": "scripted",
@@ -2331,5 +2336,5 @@
       "last_scripted": "CC-030"
     }
   },
-  "updated": "2026-11-15T17:59:30+00:00"
+  "updated": "2026-11-15T23:13:41+00:00"
 }
