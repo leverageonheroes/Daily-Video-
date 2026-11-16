@@ -672,7 +672,7 @@
         "OIT-008": {
           "status": "scripted",
           "history": [],
-          "attempts": 0
+          "attempts": 1
         },
         "OIT-009": {
           "status": "scripted",
@@ -2476,5 +2476,5 @@
       "last_scripted": "CC-030"
     }
   },
-  "updated": "2026-11-16T15:17:15+00:00"
+  "updated": "2026-11-16T16:05:08+00:00"
 }
