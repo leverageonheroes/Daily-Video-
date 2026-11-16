@@ -119,6 +119,22 @@ Five elders on what they'd do differently with money. New lesson every day. Whic
 
 ## The Crib Committee
 
+### CC-008  ·  2026-11-16
+
+**[⬇️ Download video](https://github.com/leverageonheroes/Daily-Video-/releases/download/tiktok-cribcommittee/CC-008.mp4)** (28 MB)
+
+```text
+Stop calling babies clever (here's why)
+
+The Crib Committee is in session. Today: praise.
+
+Parenting note: Praising effort and strategy, rather than fixed traits, helps children keep going when things get hard.
+
+New babies, same complaints. Which committee member is your little one? Tell us below.
+
+#praise #growthmindset #parenting #funnybabies #fyp
+```
+
 ### CC-007  ·  2026-11-15
 
 **[⬇️ Download video](https://github.com/leverageonheroes/Daily-Video-/releases/download/tiktok-cribcommittee/CC-007.mp4)** (28 MB)
