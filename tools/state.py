@@ -24,6 +24,11 @@ def main():
             if st.buffer_low(s, ch):
                 need = True
                 print(f"ACTION NEEDED: {ch} has fewer than {st.BUFFER_MIN} unrendered scripts -> write the next batch (see CLAUDE.md)")
+            todo = st.flowfilm_unconverted(s, ch)
+            if todo:
+                need = True
+                print(f"ACTION NEEDED: {ch} {', '.join(todo)} not converted to flow-film yet -> write "
+                      "tools/generators/flowfilm/<id>_flowfilm.json and run install_mos_flowfilm.py")
         if not need:
             print("Script buffer OK.")
     elif cmd == "next":

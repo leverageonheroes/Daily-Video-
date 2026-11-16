@@ -1,0 +1,411 @@
+{
+ "_format": "flow-film v1 (same as MOS-001). MOS-005, Arc 1 The Wedding Fund. Built by build_mos_a1_003-006.py.",
+ "id": "MOS-005",
+ "format": "flow-film",
+ "accounts": {
+  "A": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "B": [
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "C": [
+   11,
+   12,
+   13,
+   14,
+   15
+  ]
+ },
+ "voices": {
+  "a1_mama": {
+   "brief": "mature woman, 55-60, low, controlled, cold authority, unhurried",
+   "tags": [
+    "cold",
+    "final",
+    "proud"
+   ]
+  },
+  "a1_tobi": {
+   "brief": "young man, late 20s, warm, soft-spoken, strained under pressure",
+   "tags": [
+    "quiet",
+    "whispers",
+    "desperate"
+   ]
+  },
+  "a1_amara": {
+   "brief": "young woman, late 20s, gentle, clear, emotional, respectful",
+   "tags": [
+    "trembling",
+    "hopeful"
+   ]
+  },
+  "a1_okafor": {
+   "brief": "older man, 60s, slow, deep, tired dignity, a teacher's diction",
+   "tags": [
+    "slow",
+    "hurt",
+    "gentle"
+   ]
+  },
+  "a1_femi": {
+   "brief": "man, about 50, loud, charming, showy; can turn cold and quiet",
+   "tags": [
+    "laughing",
+    "cold whisper"
+   ]
+  }
+ },
+ "scenes": {
+  "A": {
+   "title": "Your Name",
+   "loc": "a1_parlour",
+   "ambience_clip": 1,
+   "music": "tension drums",
+   "music_level": "low",
+   "out": "dip"
+  },
+  "B": {
+   "title": "On Her Knees",
+   "loc": "a1_okafor_home",
+   "ambience_clip": 7,
+   "music": "tender strings",
+   "music_level": "rising",
+   "out": "flash"
+  },
+  "C": {
+   "title": "The Briefcase",
+   "loc": "a1_okafor_gate",
+   "ambience_clip": 14,
+   "music": "nollywood suspense",
+   "music_level": "cut-on-last-line",
+   "out": "freeze"
+  }
+ },
+ "clips": [
+  {
+   "n": 1,
+   "scene": "A",
+   "chars": [
+    "a1_femi",
+    "a1_mama"
+   ],
+   "faces": 2,
+   "speaks": false,
+   "keyframe": "Wide shot of an upscale living room at night, chandelier glowing. The man about 50 with slicked-back hair, a gold paisley shirt and a gold watch looms over the older woman in emerald lace with a matching emerald head tie and gold necklace, who stands her ground by the sofa. Both visible, faces small. Exactly two people, nobody else.",
+   "flow_prompt": "Keep the exact people, faces, clothes, place and lighting from the start frame. Slow dolly-in. The man steps closer, towering over her; she does not move back. Nobody speaks: no dialogue, no voices. Ambient sound only: a clock ticking, a distant generator hum; no music. Photoreal, cinematic, shallow depth of field. No text."
+  },
+  {
+   "n": 2,
+   "scene": "A",
+   "chars": [
+    "a1_femi"
+   ],
+   "faces": 1,
+   "speaks": true,
+   "keyframe": "Close-up of the man about 50 with slicked-back hair, a gold paisley shirt and a gold watch, in a living room at night, leaning in threateningly toward someone off-camera, lips closed. Chandelier blurred behind. Only his face in frame.",
+   "flow_prompt": "Keep the exact face, hair, clothes and lighting from the start frame. Static close-up. He speaks low and threatening to someone off-camera, natural mouth movement. For the last three seconds he falls silent, shocked, his eyes widening. Ambient sound only: room tone; no music. Photoreal, cinematic, shallow depth of field. No text."
+  },
+  {
+   "n": 3,
+   "scene": "A",
+   "chars": [
+    "a1_mama"
+   ],
+   "faces": 1,
+   "speaks": true,
+   "keyframe": "Medium close-up of the older woman in emerald lace with a matching emerald head tie and gold necklace, standing straight and fearless in a living room at night, chin raised, looking at someone off-camera, lips closed. Only her face in frame.",
+   "flow_prompt": "Keep the exact face, hair, clothes and lighting from the start frame. Static medium close-up. She speaks with iron calm, natural mouth movement, never blinking. Ambient sound only: room tone, clock; no music. Photoreal, cinematic, shallow depth of field. No text."
+  },
+  {
+   "n": 4,
+   "scene": "A",
+   "chars": [
+    "a1_femi"
+   ],
+   "faces": 1,
+   "speaks": true,
+   "keyframe": "Medium shot of the man about 50 with slicked-back hair, a gold paisley shirt and a gold watch, in a living room at night, both hands thrown up defensively, lips closed. Only his face in frame.",
+   "flow_prompt": "Keep the exact face, hair, clothes and lighting from the start frame. Static medium shot. He throws up his hands and argues defensively and loudly, natural mouth movement, then sets a glass down hard on a side table. Ambient sound only: a glass set down hard, room tone; no music. Photoreal, cinematic, shallow depth of field. No text."
+  },
+  {
+   "n": 5,
+   "scene": "A",
+   "chars": [
+    "a1_tobi"
+   ],
+   "faces": 1,
+   "speaks": true,
+   "keyframe": "Over-the-shoulder shot: the blurred back of a man's slicked-back head and gold paisley collar in the right foreground (no face visible), and beyond, in sharp focus, the young man with a short neat haircut and light beard in a crisp white shirt with rolled sleeves, holding out his open palm, cold steady eyes, lips closed. Only the young man's face is visible.",
+   "flow_prompt": "Keep the exact face, hair, clothes and lighting from the start frame. Static over-the-shoulder shot; the man in the foreground never turns. The young man holds out his palm and speaks coldly and calmly, natural mouth movement. Ambient sound only: room tone; no music. Photoreal, cinematic, shallow depth of field. No text."
+  },
+  {
+   "n": 6,
+   "scene": "A",
+   "chars": [],
+   "faces": 0,
+   "speaks": false,
+   "keyframe": "Macro insert: a man's hand with a gold watch dropping a set of shiny car keys with a small red ribbon into a young man's open palm in a white rolled sleeve, chandelier light. Hands only, no faces, no logos.",
+   "flow_prompt": "Keep the exact hands, objects and lighting from the start frame. No faces. Macro shot, almost still. The keys drop slowly into the open palm, which closes around them. Nobody speaks: no dialogue, no voices. Ambient sound only: keys jangling; no music. Photoreal, cinematic, shallow depth of field. No text."
+  },
+  {
+   "n": 7,
+   "scene": "B",
+   "chars": [
+    "a1_mama",
+    "a1_okafor"
+   ],
+   "faces": 2,
+   "speaks": false,
+   "keyframe": "Wide shot of a modest, tidy sitting room in warm afternoon light, bookshelves, ceiling fan. The older woman in emerald lace with a matching emerald head tie and gold necklace enters with her head bowed; the grey-haired older man with reading glasses in a cream kaftan sits at a small wooden table, looking up. Both visible, faces small. Exactly two people.",
+   "flow_prompt": "Keep the exact people, faces, clothes, place and lighting from the start frame. Slow dolly-in. She steps in humbly with her head bowed and stops; he sets down his teacup. Nobody speaks: no dialogue, no voices. Ambient sound only: ceiling fan whirring, distant traffic; no music. Photoreal, cinematic, shallow depth of field. No text."
+  },
+  {
+   "n": 8,
+   "scene": "B",
+   "chars": [
+    "a1_mama"
+   ],
+   "faces": 1,
+   "speaks": true,
+   "keyframe": "Medium close-up of the older woman in emerald lace with a matching emerald head tie and gold necklace, standing humbly in a modest sitting room, eyes lowered, hands clasped, lips closed. Bookshelves blurred. Only her face in frame.",
+   "flow_prompt": "Keep the exact face, hair, clothes and lighting from the start frame. Static medium close-up. She lifts her eyes and speaks humbly to someone seated off-camera, natural mouth movement. Ambient sound only: ceiling fan; no music. Photoreal, cinematic, shallow depth of field. No text."
+  },
+  {
+   "n": 9,
+   "scene": "B",
+   "chars": [
+    "a1_okafor"
+   ],
+   "faces": 1,
+   "speaks": true,
+   "keyframe": "Close-up of the grey-haired older man with reading glasses in a cream kaftan, seated at a small table, studying someone over the top of his reading glasses, measured expression, lips closed. Warm light. Only his face in frame.",
+   "flow_prompt": "Keep the exact face, hair, clothes and lighting from the start frame. Static close-up. He studies her over his glasses, then speaks slowly and measuredly, natural mouth movement. Ambient sound only: ceiling fan, a clock ticking; no music. Photoreal, cinematic, shallow depth of field. No text."
+  },
+  {
+   "n": 10,
+   "scene": "B",
+   "chars": [
+    "a1_mama"
+   ],
+   "faces": 1,
+   "speaks": true,
+   "keyframe": "Medium shot of the older woman in emerald lace with a matching emerald head tie and gold necklace kneeling on a woven rug in a modest sitting room, looking up, tears on her face, lips closed. Only her face in frame.",
+   "flow_prompt": "Keep the exact face, hair, clothes and lighting from the start frame. Static medium shot. Kneeling, she pleads tearfully up to someone, natural mouth movement. For the last two seconds she bows her head and weeps silently. Ambient sound only: ceiling fan, soft sobbing breath; no music. Photoreal, cinematic, shallow depth of field. No text."
+  },
+  {
+   "n": 11,
+   "scene": "B",
+   "chars": [
+    "a1_amara"
+   ],
+   "faces": 1,
+   "speaks": true,
+   "keyframe": "Medium close-up of the young woman with her hair in a neat bun, small gold earrings and a soft peach blouse, standing in a doorway of a modest home, one hand over her mouth in shock, lips hidden, eyes wet. Only her face in frame.",
+   "flow_prompt": "Keep the exact face, hair, clothes and lighting from the start frame. Static shot. She gasps, lowers her hand and speaks emotionally to someone kneeling, natural mouth movement, stepping forward. Ambient sound only: a gasp, ceiling fan; no music. Photoreal, cinematic, shallow depth of field. No text."
+  },
+  {
+   "n": 12,
+   "scene": "B",
+   "chars": [
+    "a1_okafor"
+   ],
+   "faces": 1,
+   "speaks": true,
+   "keyframe": "Close-up of the grey-haired older man with reading glasses in a cream kaftan, standing and reaching one hand down toward someone below the frame, his face softening into warmth, lips closed. Only his face in frame.",
+   "flow_prompt": "Keep the exact face, hair, clothes and lighting from the start frame. Static close-up. He reaches down and speaks warmly, natural mouth movement, with a gentle smile. Ambient sound only: ceiling fan; no music. Photoreal, cinematic, shallow depth of field. No text."
+  },
+  {
+   "n": 13,
+   "scene": "B",
+   "chars": [],
+   "faces": 0,
+   "speaks": false,
+   "keyframe": "Macro insert: an older man's hand in a cream kaftan sleeve clasping an older woman's hand with gold rings and an emerald lace sleeve, helping her up, warm afternoon light. Hands only, no faces.",
+   "flow_prompt": "Keep the exact hands, objects and lighting from the start frame. No faces. Macro shot. The hands clasp firmly and lift upward together. Nobody speaks: no dialogue, no voices. Ambient sound only: fabric rustle, ceiling fan; no music. Photoreal, cinematic, shallow depth of field. No text."
+  },
+  {
+   "n": 14,
+   "scene": "C",
+   "chars": [
+    "a1_femi"
+   ],
+   "faces": 1,
+   "speaks": false,
+   "keyframe": "Wide shot at dusk of the gate of a modest house lit by a single bulb: the man about 50 with slicked-back hair, a gold paisley shirt and a gold watch stands outside the gate holding a black leather briefcase in both hands. Exactly one person.",
+   "flow_prompt": "Keep the exact face, hair, clothes and lighting from the start frame. Slow push-in. He stands still at the gate, gripping the briefcase, glancing up at the house. Nobody speaks: no dialogue, no voices. Ambient sound only: crickets, a distant car; no music. Photoreal, cinematic, shallow depth of field. No text."
+  },
+  {
+   "n": 15,
+   "scene": "C",
+   "chars": [
+    "a1_femi"
+   ],
+   "faces": 1,
+   "speaks": true,
+   "keyframe": "Close-up of the man about 50 with slicked-back hair, a gold paisley shirt and a gold watch at a gate at dusk, a black briefcase raised in front of his chest, urgent eyes, lips closed. Single bulb light. Only his face in frame.",
+   "flow_prompt": "Keep the exact face, hair, clothes and lighting from the start frame. Slow push-in. He lifts the briefcase slightly and speaks urgently to someone off-camera, natural mouth movement, then holds still. Ambient sound only: crickets; no music. Photoreal, cinematic, shallow depth of field. No text."
+  }
+ ],
+ "edit": [
+  {
+   "clip": 2,
+   "in": 0.5,
+   "dur": 4.4,
+   "line": {
+    "c": "a1_femi",
+    "t": "You will ruin my name for that small family?",
+    "tag": "[threatening]",
+    "at": 0.3
+   },
+   "hook": true,
+   "sfx": "boom"
+  },
+  {
+   "clip": 1,
+   "in": 1.0,
+   "dur": 4.0
+  },
+  {
+   "clip": 3,
+   "in": 0.5,
+   "dur": 5.2,
+   "line": {
+    "c": "a1_mama",
+    "t": "Your name was ruined the day you stole from my son.",
+    "tag": "[iron, cold]",
+    "at": 0.5
+   }
+  },
+  {
+   "clip": 2,
+   "in": 5.2,
+   "dur": 2.6
+  },
+  {
+   "clip": 4,
+   "in": 0.5,
+   "dur": 4.5,
+   "line": {
+    "c": "a1_femi",
+    "t": "Stole? I invested! The market crashed. It happens!",
+    "tag": "[defensive]",
+    "at": 0.5
+   }
+  },
+  {
+   "clip": 5,
+   "in": 0.5,
+   "dur": 4.0,
+   "line": {
+    "c": "a1_tobi",
+    "t": "Then sell the car, Uncle. Today.",
+    "tag": "[cold]",
+    "at": 0.6
+   }
+  },
+  {
+   "clip": 6,
+   "in": 1.0,
+   "dur": 3.5
+  },
+  {
+   "clip": 7,
+   "in": 1.0,
+   "dur": 5.5
+  },
+  {
+   "clip": 8,
+   "in": 0.5,
+   "dur": 4.6,
+   "line": {
+    "c": "a1_mama",
+    "t": "Mr Okafor, I came to apologise. I was wrong.",
+    "tag": "[humble]",
+    "at": 0.6
+   }
+  },
+  {
+   "clip": 9,
+   "in": 0.5,
+   "dur": 5.0,
+   "line": {
+    "c": "a1_okafor",
+    "t": "Madam, pride is an expensive habit. Who will pay for it?",
+    "tag": "[measured]",
+    "at": 0.4
+   }
+  },
+  {
+   "clip": 10,
+   "in": 0.5,
+   "dur": 5.0,
+   "line": {
+    "c": "a1_mama",
+    "t": "I will. Please, don't punish our children for my sins.",
+    "tag": "[tearful]",
+    "at": 0.6
+   }
+  },
+  {
+   "clip": 11,
+   "in": 0.5,
+   "dur": 4.0,
+   "line": {
+    "c": "a1_amara",
+    "t": "Mummy, please, get up.",
+    "tag": "[emotional]",
+    "at": 0.9
+   }
+  },
+  {
+   "clip": 10,
+   "in": 5.5,
+   "dur": 2.5
+  },
+  {
+   "clip": 12,
+   "in": 0.5,
+   "dur": 5.0,
+   "line": {
+    "c": "a1_okafor",
+    "t": "Get up, my sister. Now let us talk like family.",
+    "tag": "[warm]",
+    "at": 0.6
+   }
+  },
+  {
+   "clip": 13,
+   "in": 1.0,
+   "dur": 3.5
+  },
+  {
+   "clip": 14,
+   "in": 1.0,
+   "dur": 6.0,
+   "sfx_start": "riser"
+  },
+  {
+   "clip": 15,
+   "in": 0.5,
+   "dur": 5.4,
+   "line": {
+    "c": "a1_femi",
+    "t": "Before you decide anything, open this.",
+    "tag": "[urgent]",
+    "at": 1.8
+   },
+   "sfx": "music cut + deep boom on the line",
+   "freeze": 1.5
+  }
+ ]
+}

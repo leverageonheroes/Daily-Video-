@@ -103,3 +103,17 @@ def counts(s, channel):
 
 def buffer_low(s, channel):
     return counts(s, channel)["scripted"] < BUFFER_MIN
+
+
+FLOWFILM_AHEAD = 3     # flow-film channels: warn when fewer than this many upcoming episodes are converted
+
+
+def flowfilm_unconverted(s, channel):
+    """Flow-film channels: ids of the next FLOWFILM_AHEAD waiting episodes that are still in the old shot format."""
+    bible = json.loads((CHANNELS_DIR / channel / "channel.json").read_text())
+    if bible.get("episode_format") != "flow-film":
+        return []
+    eps = s["channels"][channel]["episodes"]
+    waiting = [k for k in sorted(eps, key=lambda k: int(k.rsplit("-", 1)[-1]))
+               if eps[k]["status"] in ("scripted", "failed")][:FLOWFILM_AHEAD]
+    return [k for k in waiting if get_episode(channel, k).get("format") != "flow-film"]

@@ -1,0 +1,410 @@
+{
+ "_format": "flow-film v1 (same as MOS-001). MOS-006, Arc 1 The Wedding Fund. Built by build_mos_a1_003-006.py.",
+ "id": "MOS-006",
+ "format": "flow-film",
+ "accounts": {
+  "A": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "B": [
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "C": [
+   11,
+   12,
+   13,
+   14,
+   15
+  ]
+ },
+ "voices": {
+  "a1_mama": {
+   "brief": "mature woman, 55-60, low, controlled, cold authority, unhurried",
+   "tags": [
+    "cold",
+    "final",
+    "proud"
+   ]
+  },
+  "a1_tobi": {
+   "brief": "young man, late 20s, warm, soft-spoken, strained under pressure",
+   "tags": [
+    "quiet",
+    "whispers",
+    "desperate"
+   ]
+  },
+  "a1_amara": {
+   "brief": "young woman, late 20s, gentle, clear, emotional, respectful",
+   "tags": [
+    "trembling",
+    "hopeful"
+   ]
+  },
+  "a1_okafor": {
+   "brief": "older man, 60s, slow, deep, tired dignity, a teacher's diction",
+   "tags": [
+    "slow",
+    "hurt",
+    "gentle"
+   ]
+  },
+  "a1_femi": {
+   "brief": "man, about 50, loud, charming, showy; can turn cold and quiet",
+   "tags": [
+    "laughing",
+    "cold whisper"
+   ]
+  }
+ },
+ "scenes": {
+  "A": {
+   "title": "The Briefcase",
+   "loc": "a1_okafor_home",
+   "ambience_clip": 3,
+   "music": "tender strings",
+   "music_level": "low",
+   "out": "dip"
+  },
+  "B": {
+   "title": "No More Secrets",
+   "loc": "a1_garden",
+   "ambience_clip": 8,
+   "music": "tender strings",
+   "music_level": "rising",
+   "out": "freeze"
+  }
+ },
+ "clips": [
+  {
+   "n": 1,
+   "scene": "A",
+   "chars": [],
+   "faces": 0,
+   "speaks": false,
+   "keyframe": "Macro insert: an open black briefcase on a small wooden table in warm evening light, filled with neat paper-banded bundles of cash and a folded document, a man's hand with a gold watch resting on the lid. Hand only, no faces, no readable text.",
+   "flow_prompt": "Keep the exact hands, objects and lighting from the start frame. No faces. Macro shot, almost still. The hand slowly pushes the open briefcase forward across the table. Nobody speaks: no dialogue, no voices. Ambient sound only: briefcase latches clicking, a ceiling fan; no music. Photoreal, cinematic, shallow depth of field. No text."
+  },
+  {
+   "n": 2,
+   "scene": "A",
+   "chars": [
+    "a1_femi"
+   ],
+   "faces": 1,
+   "speaks": true,
+   "keyframe": "Medium close-up of the man about 50 with slicked-back hair, a gold paisley shirt and a gold watch, standing in a modest sitting room at evening, humbled, shoulders low, looking at people off-camera, lips closed. Bookshelves blurred. Only his face in frame.",
+   "flow_prompt": "Keep the exact face, hair, clothes and lighting from the start frame. Static medium close-up. He speaks quietly and humbly to the room, natural mouth movement. Ambient sound only: ceiling fan, room tone; no music. Photoreal, cinematic, shallow depth of field. No text."
+  },
+  {
+   "n": 3,
+   "scene": "A",
+   "chars": [
+    "a1_femi",
+    "a1_okafor",
+    "a1_mama",
+    "a1_tobi",
+    "a1_amara"
+   ],
+   "faces": 5,
+   "speaks": false,
+   "keyframe": "Wide shot of a modest sitting room at evening, bookshelves, ceiling fan: the man about 50 with slicked-back hair, a gold paisley shirt and a gold watch stands by a small wooden table with an open black briefcase; the grey-haired older man with reading glasses in a cream kaftan sits at the table; the older woman in emerald lace with a matching emerald head tie and gold necklace and the young man with a short neat haircut and light beard in a crisp white shirt with rolled sleeves stand nearby; the young woman with her hair in a neat bun, small gold earrings and a soft peach blouse stands by the window. All five visible, faces small. Exactly five people, nobody else.",
+   "flow_prompt": "Keep the exact people, faces, clothes, place and lighting from the start frame. Slow dolly-in. Everyone is still and silent, looking at the briefcase; the ceiling fan turns. Nobody speaks: no dialogue, no voices. Ambient sound only: ceiling fan whirring, a clock ticking; no music. Photoreal, cinematic, shallow depth of field. No text."
+  },
+  {
+   "n": 4,
+   "scene": "A",
+   "chars": [
+    "a1_femi"
+   ],
+   "faces": 1,
+   "speaks": true,
+   "keyframe": "Close-up of the man about 50 with slicked-back hair, a gold paisley shirt and a gold watch, eyes lowered in shame, voice about to crack, lips closed. Warm lamp light, background blurred. Only his face in frame.",
+   "flow_prompt": "Keep the exact face, hair, clothes and lighting from the start frame. Very slow push-in. He keeps his eyes down, then looks up and apologises, voice cracking, natural mouth movement. Ambient sound only: room tone; no music. Photoreal, cinematic, shallow depth of field. No text."
+  },
+  {
+   "n": 5,
+   "scene": "A",
+   "chars": [
+    "a1_tobi"
+   ],
+   "faces": 1,
+   "speaks": true,
+   "keyframe": "Close-up of the young man with a short neat haircut and light beard in a crisp white shirt with rolled sleeves, in a modest sitting room at evening, exhaling, the anger leaving his face, lips closed. Only his face in frame.",
+   "flow_prompt": "Keep the exact face, hair, clothes and lighting from the start frame. Static close-up. He exhales slowly, his face softens, and he speaks quietly, natural mouth movement. Ambient sound only: room tone, ceiling fan; no music. Photoreal, cinematic, shallow depth of field. No text."
+  },
+  {
+   "n": 6,
+   "scene": "A",
+   "chars": [
+    "a1_okafor"
+   ],
+   "faces": 1,
+   "speaks": true,
+   "keyframe": "Medium close-up of the grey-haired older man with reading glasses in a cream kaftan, seated at a small wooden table, one hand gently pushing something away across the table, wise calm expression, lips closed. Only his face in frame.",
+   "flow_prompt": "Keep the exact face, hair, clothes and lighting from the start frame. Static medium close-up. He gently pushes the briefcase back and speaks with calm wisdom, natural mouth movement. Ambient sound only: ceiling fan, a clock ticking; no music. Photoreal, cinematic, shallow depth of field. No text."
+  },
+  {
+   "n": 7,
+   "scene": "A",
+   "chars": [
+    "a1_mama"
+   ],
+   "faces": 1,
+   "speaks": true,
+   "keyframe": "Close-up of the older woman in emerald lace with a matching emerald head tie and gold necklace, smiling through tears in warm lamp light, lips closed. Only her face in frame.",
+   "flow_prompt": "Keep the exact face, hair, clothes and lighting from the start frame. Static close-up. She wipes a tear, smiles, and speaks warmly, natural mouth movement, then laughs softly. Ambient sound only: room tone; no music. Photoreal, cinematic, shallow depth of field. No text."
+  },
+  {
+   "n": 8,
+   "scene": "B",
+   "chars": [
+    "a1_amara",
+    "a1_tobi"
+   ],
+   "faces": 2,
+   "speaks": false,
+   "keyframe": "Wide shot of a small garden wedding at golden hour, fairy lights strung overhead, rows of white chairs, a simple flower arch. The young woman with her hair in a neat bun, in a simple white lace dress, faces the young man with a light beard in a cream suit under the arch. Both visible, faces small. Exactly two people, nobody else.",
+   "flow_prompt": "Keep the exact people, faces, clothes, place and lighting from the start frame. Slow crane-down. The couple stand facing each other and hold hands under the arch; fairy lights twinkle. Nobody speaks: no dialogue, no voices. Ambient sound only: birdsong, soft wind; no music. Photoreal, cinematic, shallow depth of field. No text."
+  },
+  {
+   "n": 9,
+   "scene": "B",
+   "chars": [
+    "a1_amara"
+   ],
+   "faces": 1,
+   "speaks": true,
+   "keyframe": "Close-up of the young woman with her hair in a neat bun and small gold earrings, in a simple white lace dress, under fairy lights at golden hour, soft hopeful eyes, lips closed. Only her face in frame.",
+   "flow_prompt": "Keep the exact face, hair, clothes and lighting from the start frame. Static close-up. She asks a soft question to someone in front of her, natural mouth movement, then smiles. Ambient sound only: birdsong; no music. Photoreal, cinematic, shallow depth of field. No text."
+  },
+  {
+   "n": 10,
+   "scene": "B",
+   "chars": [
+    "a1_tobi"
+   ],
+   "faces": 1,
+   "speaks": true,
+   "keyframe": "Close-up of the young man with a short neat haircut and light beard, in a cream suit, under fairy lights at golden hour, sincere eyes, lips closed. Only his face in frame.",
+   "flow_prompt": "Keep the exact face, hair, clothes and lighting from the start frame. Static close-up. He answers sincerely, natural mouth movement, with a slow smile. Ambient sound only: birdsong; no music. Photoreal, cinematic, shallow depth of field. No text."
+  },
+  {
+   "n": 11,
+   "scene": "B",
+   "chars": [
+    "a1_mama"
+   ],
+   "faces": 1,
+   "speaks": true,
+   "keyframe": "Medium close-up of the older woman in emerald lace with a matching emerald head tie and gold necklace, seated at a garden table with a plate of rice, laughing, fairy lights behind, lips closed. Only her face in frame.",
+   "flow_prompt": "Keep the exact face, hair, clothes and lighting from the start frame. Static medium close-up. She laughs and teases someone beside her, natural mouth movement. For the last three seconds she keeps laughing without words. Ambient sound only: garden chatter, cutlery; no music. Photoreal, cinematic, shallow depth of field. No text."
+  },
+  {
+   "n": 12,
+   "scene": "B",
+   "chars": [
+    "a1_okafor"
+   ],
+   "faces": 1,
+   "speaks": true,
+   "keyframe": "Close-up of the grey-haired older man with reading glasses in a cream kaftan, seated at a garden table at golden hour, a dry little smile, lips closed. Fairy lights blurred. Only his face in frame.",
+   "flow_prompt": "Keep the exact face, hair, clothes and lighting from the start frame. Static close-up. He answers with two dry words, natural mouth movement, then raises an eyebrow. Ambient sound only: garden chatter, cutlery; no music. Photoreal, cinematic, shallow depth of field. No text."
+  },
+  {
+   "n": 13,
+   "scene": "B",
+   "chars": [
+    "a1_femi"
+   ],
+   "faces": 1,
+   "speaks": true,
+   "keyframe": "Medium close-up of the man about 50 with slicked-back hair, in a plain white shirt, carrying a tray of drinks through a garden wedding at golden hour, humble smile, lips closed. Background blurred. Only his face in frame.",
+   "flow_prompt": "Keep the exact face, hair, clothes and lighting from the start frame. Slow tracking shot. He serves a drink and speaks sincerely, natural mouth movement, nodding humbly. Ambient sound only: glasses clinking, garden chatter; no music. Photoreal, cinematic, shallow depth of field. No text."
+  },
+  {
+   "n": 14,
+   "scene": "B",
+   "chars": [
+    "a1_amara"
+   ],
+   "faces": 1,
+   "speaks": true,
+   "keyframe": "Over-the-shoulder close-up at golden hour: the blurred back of a young man's head and cream suit collar in the foreground (no face visible); the young woman in the white lace dress, hair in a neat bun, faces him, foreheads almost touching, slow-dancing, lips closed. Only her face is visible.",
+   "flow_prompt": "Keep the exact face, hair, clothes and lighting from the start frame. Slow circling camera. They sway slowly; she speaks tenderly to him, natural mouth movement. For the last two seconds they rest foreheads together in silence. Ambient sound only: soft wind, birdsong; no music. Photoreal, cinematic, shallow depth of field. No text."
+  },
+  {
+   "n": 15,
+   "scene": "B",
+   "chars": [],
+   "faces": 0,
+   "speaks": false,
+   "keyframe": "High crane shot rising over a small glowing garden wedding at sunset: fairy lights, white chairs, tiny figures dancing far below, no faces visible, palm trees and an orange sky.",
+   "flow_prompt": "Keep the exact hands, objects and lighting from the start frame. No faces. Slow crane up and away from the garden into the sunset sky. Nobody speaks: no dialogue, no voices. Ambient sound only: soft wind, distant laughter; no music. Photoreal, cinematic, shallow depth of field. No text."
+  }
+ ],
+ "edit": [
+  {
+   "clip": 2,
+   "in": 0.5,
+   "dur": 4.8,
+   "line": {
+    "c": "a1_femi",
+    "t": "The car is sold. This is eight million. All I have.",
+    "tag": "[humbled]",
+    "at": 0.4
+   },
+   "hook": true,
+   "sfx": "boom"
+  },
+  {
+   "clip": 1,
+   "in": 1.0,
+   "dur": 3.5
+  },
+  {
+   "clip": 3,
+   "in": 1.0,
+   "dur": 5.0
+  },
+  {
+   "clip": 4,
+   "in": 0.5,
+   "dur": 4.8,
+   "line": {
+    "c": "a1_femi",
+    "t": "I gambled your wedding away, Tobi. I'm sorry.",
+    "tag": "[ashamed, voice cracking]",
+    "at": 1.0
+   }
+  },
+  {
+   "clip": 5,
+   "in": 0.5,
+   "dur": 4.6,
+   "line": {
+    "c": "a1_tobi",
+    "t": "Thank you for finally telling the truth, Uncle.",
+    "tag": "[quiet]",
+    "at": 0.8
+   }
+  },
+  {
+   "clip": 6,
+   "in": 0.5,
+   "dur": 5.0,
+   "line": {
+    "c": "a1_okafor",
+    "t": "Keep your millions. Our children need a home, not a show.",
+    "tag": "[wise]",
+    "at": 0.5
+   }
+  },
+  {
+   "clip": 7,
+   "in": 0.5,
+   "dur": 5.2,
+   "line": {
+    "c": "a1_mama",
+    "t": "A small wedding, then. With truth, and with love.",
+    "tag": "[warm]",
+    "at": 0.6
+   }
+  },
+  {
+   "clip": 8,
+   "in": 1.0,
+   "dur": 6.0
+  },
+  {
+   "clip": 9,
+   "in": 0.5,
+   "dur": 3.0,
+   "line": {
+    "c": "a1_amara",
+    "t": "No more secrets?",
+    "tag": "[soft]",
+    "at": 0.8
+   }
+  },
+  {
+   "clip": 10,
+   "in": 0.5,
+   "dur": 3.4,
+   "line": {
+    "c": "a1_tobi",
+    "t": "No more secrets. Ever.",
+    "tag": "[sincere]",
+    "at": 0.6
+   }
+  },
+  {
+   "clip": 11,
+   "in": 0.5,
+   "dur": 4.2,
+   "line": {
+    "c": "a1_mama",
+    "t": "In-law, your jollof is better than mine.",
+    "tag": "[laughing]",
+    "at": 0.4
+   }
+  },
+  {
+   "clip": 12,
+   "in": 0.5,
+   "dur": 3.0,
+   "line": {
+    "c": "a1_okafor",
+    "t": "I know.",
+    "tag": "[dry]",
+    "at": 1.0
+   }
+  },
+  {
+   "clip": 11,
+   "in": 5.0,
+   "dur": 2.6
+  },
+  {
+   "clip": 13,
+   "in": 0.5,
+   "dur": 5.0,
+   "line": {
+    "c": "a1_femi",
+    "t": "Today, I serve. It's the least I can do.",
+    "tag": "[sincere]",
+    "at": 0.6
+   }
+  },
+  {
+   "clip": 14,
+   "in": 0.5,
+   "dur": 4.6,
+   "line": {
+    "c": "a1_amara",
+    "t": "We built this on the truth.",
+    "tag": "[tender]",
+    "at": 1.2
+   }
+  },
+  {
+   "clip": 14,
+   "in": 5.3,
+   "dur": 2.5
+  },
+  {
+   "clip": 15,
+   "in": 0.5,
+   "dur": 7.0,
+   "freeze": 1.5
+  }
+ ]
+}

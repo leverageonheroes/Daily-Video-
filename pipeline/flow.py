@@ -66,7 +66,12 @@ def prompts_markdown(s, channel) -> str:
     bible = json.loads((config.CHANNELS_DIR / channel / "channel.json").read_text())
     ep = state.get_episode(channel, ep_id)
     if flowfilm.is_flowfilm(ep):
-        return flowfilm.prompts_markdown(channel, bible, ep)
+        md = flowfilm.prompts_markdown(channel, bible, ep)
+        todo = state.flowfilm_unconverted(s, channel)
+        if todo:     # warn days ahead, so an episode never reaches the phone unconverted
+            md += (f"\n\n---\n⚠️ **Heads-up:** {', '.join(todo)} not converted to a flow-film yet. "
+                   "Ask Claude Code to convert them before their day comes.\n")
+        return md
     if bible.get("episode_format") == "flow-film":
         return (f"## {bible['show_title']} - {ep_id}: not converted to a flow-film yet\n"
                 "Ask Claude Code to write its flow-film JSON (tools/generators/flowfilm/) and install it.")

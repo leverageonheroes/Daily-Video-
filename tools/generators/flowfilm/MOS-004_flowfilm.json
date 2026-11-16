@@ -1,0 +1,406 @@
+{
+ "_format": "flow-film v1 (same as MOS-001). MOS-004, Arc 1 The Wedding Fund. Built by build_mos_a1_003-006.py.",
+ "id": "MOS-004",
+ "format": "flow-film",
+ "accounts": {
+  "A": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "B": [
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "C": [
+   11,
+   12,
+   13,
+   14,
+   15
+  ]
+ },
+ "voices": {
+  "a1_mama": {
+   "brief": "mature woman, 55-60, low, controlled, cold authority, unhurried",
+   "tags": [
+    "cold",
+    "final",
+    "proud"
+   ]
+  },
+  "a1_tobi": {
+   "brief": "young man, late 20s, warm, soft-spoken, strained under pressure",
+   "tags": [
+    "quiet",
+    "whispers",
+    "desperate"
+   ]
+  },
+  "a1_amara": {
+   "brief": "young woman, late 20s, gentle, clear, emotional, respectful",
+   "tags": [
+    "trembling",
+    "hopeful"
+   ]
+  },
+  "a1_okafor": {
+   "brief": "older man, 60s, slow, deep, tired dignity, a teacher's diction",
+   "tags": [
+    "slow",
+    "hurt",
+    "gentle"
+   ]
+  },
+  "a1_femi": {
+   "brief": "man, about 50, loud, charming, showy; can turn cold and quiet",
+   "tags": [
+    "laughing",
+    "cold whisper"
+   ]
+  }
+ },
+ "scenes": {
+  "A": {
+   "title": "Seven Withdrawals",
+   "loc": "a1_bank",
+   "ambience_clip": 1,
+   "music": "tension drums",
+   "music_level": "low",
+   "out": "dip"
+  },
+  "B": {
+   "title": "The Confession",
+   "loc": "a1_car",
+   "ambience_clip": 6,
+   "music": "tender strings",
+   "music_level": "low",
+   "out": "dip"
+  },
+  "C": {
+   "title": "Nobody Is Going Anywhere",
+   "loc": "a1_parlour",
+   "ambience_clip": 11,
+   "music": "nollywood suspense",
+   "music_level": "cut-on-last-line",
+   "out": "freeze"
+  }
+ },
+ "clips": [
+  {
+   "n": 1,
+   "scene": "A",
+   "chars": [
+    "a1_tobi",
+    "a1_mama"
+   ],
+   "faces": 2,
+   "speaks": false,
+   "keyframe": "Wide shot of a bright modern bank hall with glass counters. The young man with a short neat haircut and light beard in a crisp white shirt with rolled sleeves stands at a counter beside the older woman in emerald lace with a matching emerald head tie and gold necklace; papers lie on the counter between them. Both fully visible, faces small. Exactly two people, nobody else, no readable signs or text.",
+   "flow_prompt": "Keep the exact people, faces, clothes, place and lighting from the start frame. Slow dolly-in. The young man turns to his mother; she keeps her eyes on the floor. Nobody speaks: no dialogue, no voices. Ambient sound only: quiet bank murmur, a printer, footsteps on tiles; no music. Photoreal, cinematic, shallow depth of field. No text."
+  },
+  {
+   "n": 2,
+   "scene": "A",
+   "chars": [],
+   "faces": 0,
+   "speaks": false,
+   "keyframe": "Macro insert: a young man's hand in a white rolled shirt sleeve slapping a stack of printed papers down onto a glass bank counter; the pages are out of focus, no readable text. Hand only, no faces.",
+   "flow_prompt": "Keep the exact hands, objects and lighting from the start frame. No faces. Macro shot. The hand slaps the papers down hard and spreads them with two fingers. Nobody speaks: no dialogue, no voices. Ambient sound only: a paper slap on glass, bank murmur; no music. Photoreal, cinematic, shallow depth of field. No text."
+  },
+  {
+   "n": 3,
+   "scene": "A",
+   "chars": [
+    "a1_tobi"
+   ],
+   "faces": 1,
+   "speaks": true,
+   "keyframe": "Close-up of the young man with a short neat haircut and light beard in a crisp white shirt with rolled sleeves, standing at a bank counter in bright light, hard expression, looking at someone beside him, lips closed. Bank hall blurred behind. Only his face in frame.",
+   "flow_prompt": "Keep the exact face, hair, clothes and lighting from the start frame. Static close-up. He speaks hard and low to someone beside him, natural mouth movement, tapping the counter once. Ambient sound only: bank murmur; no music. Photoreal, cinematic, shallow depth of field. No text."
+  },
+  {
+   "n": 4,
+   "scene": "A",
+   "chars": [
+    "a1_mama"
+   ],
+   "faces": 1,
+   "speaks": true,
+   "keyframe": "Close-up of the older woman in emerald lace with a matching emerald head tie and gold necklace, standing in a bright bank hall, eyes closed, refusing to look down at the counter, lips closed. Only her face in frame.",
+   "flow_prompt": "Keep the exact face, hair, clothes and lighting from the start frame. Static close-up. With her eyes still closed she speaks quietly, almost begging, natural mouth movement. For the last three seconds she opens her eyes, guilty, and looks away. Ambient sound only: bank murmur; no music. Photoreal, cinematic, shallow depth of field. No text."
+  },
+  {
+   "n": 5,
+   "scene": "A",
+   "chars": [
+    "a1_tobi"
+   ],
+   "faces": 1,
+   "speaks": true,
+   "keyframe": "Over-the-shoulder shot: the blurred back of an emerald head tie in the left foreground (no face visible), and beyond it, in sharp focus, the young man with a short neat haircut and light beard in a crisp white shirt with rolled sleeves, stunned, realisation dawning, lips closed. Only his face is visible.",
+   "flow_prompt": "Keep the exact face, hair, clothes and lighting from the start frame. Static over-the-shoulder shot; the woman in the foreground never turns around. He stares at her, then speaks in stunned disbelief, natural mouth movement. Ambient sound only: a low drone of bank noise; no music. Photoreal, cinematic, shallow depth of field. No text."
+  },
+  {
+   "n": 6,
+   "scene": "B",
+   "chars": [
+    "a1_mama",
+    "a1_tobi"
+   ],
+   "faces": 2,
+   "speaks": false,
+   "keyframe": "Wide shot through the windscreen of a parked car at night, rain streaking the glass: the older woman in emerald lace with a matching emerald head tie and gold necklace in the passenger seat and the young man with a short neat haircut and light beard in a crisp white shirt with rolled sleeves in the driver's seat, both staring ahead. Both faces visible, small. Exactly two people.",
+   "flow_prompt": "Keep the exact people, faces, clothes, place and lighting from the start frame. Static shot through the windscreen, rain running down the glass. The woman stares ahead and her lips tremble; the young man turns slowly to look at her. Nobody speaks: no dialogue, no voices. Ambient sound only: heavy rain on the car roof, wipers off; no music. Photoreal, cinematic, shallow depth of field. No text."
+  },
+  {
+   "n": 7,
+   "scene": "B",
+   "chars": [
+    "a1_mama"
+   ],
+   "faces": 1,
+   "speaks": true,
+   "keyframe": "Close-up of the older woman in emerald lace with a matching emerald head tie and gold necklace in the passenger seat of a parked car at night, tears on her cheeks, streetlight through the rainy window on her face, lips closed. Only her face in frame.",
+   "flow_prompt": "Keep the exact face, hair, clothes and lighting from the start frame. Static close-up, rain shadows moving on her face. She confesses quietly, full of shame, natural mouth movement. Ambient sound only: rain on the roof; no music. Photoreal, cinematic, shallow depth of field. No text."
+  },
+  {
+   "n": 8,
+   "scene": "B",
+   "chars": [
+    "a1_tobi"
+   ],
+   "faces": 1,
+   "speaks": true,
+   "keyframe": "Close-up of the young man with a short neat haircut and light beard in a crisp white shirt with rolled sleeves in the driver's seat of a parked car at night, rain shadows on his face, shaking his head slowly in disbelief, lips closed. Only his face in frame.",
+   "flow_prompt": "Keep the exact face, hair, clothes and lighting from the start frame. Static close-up. He shakes his head, then speaks in disbelief to the woman beside him, natural mouth movement. Ambient sound only: rain on the roof; no music. Photoreal, cinematic, shallow depth of field. No text."
+  },
+  {
+   "n": 9,
+   "scene": "B",
+   "chars": [
+    "a1_mama"
+   ],
+   "faces": 1,
+   "speaks": true,
+   "keyframe": "Extreme close-up of the older woman in emerald lace with a matching emerald head tie and gold necklace in a dark car, trembling lips, wet eyes looking down, rain light on her skin, lips closed. Only her face in frame.",
+   "flow_prompt": "Keep the exact face, hair, clothes and lighting from the start frame. Very slow push-in. She whispers a painful confession, trembling, natural mouth movement, then closes her eyes. Ambient sound only: rain, a soft heartbeat of silence; no music. Photoreal, cinematic, shallow depth of field. No text."
+  },
+  {
+   "n": 10,
+   "scene": "C",
+   "chars": [
+    "a1_mama"
+   ],
+   "faces": 1,
+   "speaks": true,
+   "keyframe": "Medium close-up of the older woman in emerald lace with a matching emerald head tie and gold necklace alone in a dark living room at night, looking up at something on the wall above the frame, lamp light on her face, broken, lips closed. Only her face in frame.",
+   "flow_prompt": "Keep the exact face, hair, clothes and lighting from the start frame. Static shot. She gazes up at something on the wall and speaks quietly to herself, broken, natural mouth movement. Ambient sound only: a clock ticking in a quiet house; no music. Photoreal, cinematic, shallow depth of field. No text."
+  },
+  {
+   "n": 11,
+   "scene": "C",
+   "chars": [],
+   "faces": 0,
+   "speaks": false,
+   "keyframe": "Macro insert at night: a woman's hand with gold rings and an emerald lace sleeve touching the edge of a large gilded picture frame on a wall, lamp light. Hand only, no faces, the picture itself not visible.",
+   "flow_prompt": "Keep the exact hands, objects and lighting from the start frame. No faces. Macro shot, almost still. Her fingers trace the edge of the frame slowly. Nobody speaks: no dialogue, no voices. Ambient sound only: a clock ticking, quiet house; no music. Photoreal, cinematic, shallow depth of field. No text."
+  },
+  {
+   "n": 12,
+   "scene": "C",
+   "chars": [
+    "a1_tobi"
+   ],
+   "faces": 1,
+   "speaks": true,
+   "keyframe": "Close-up of the young man with a short neat haircut and light beard in a crisp white shirt with rolled sleeves kneeling in a dark living room at night, looking up at someone above him with gentle eyes, lamp light, lips closed. Only his face in frame.",
+   "flow_prompt": "Keep the exact face, hair, clothes and lighting from the start frame. Static close-up, slight upward angle. He speaks gently and warmly up to someone, natural mouth movement, a small hopeful smile. Ambient sound only: a clock ticking; no music. Photoreal, cinematic, shallow depth of field. No text."
+  },
+  {
+   "n": 13,
+   "scene": "C",
+   "chars": [],
+   "faces": 0,
+   "speaks": false,
+   "keyframe": "Macro insert: a young man's hands in white rolled shirt sleeves holding an older woman's hands with gold rings and emerald lace sleeves, lamp light, shallow depth of field. Hands only, no faces.",
+   "flow_prompt": "Keep the exact hands, objects and lighting from the start frame. No faces. Macro shot, almost still. He squeezes her hands; her fingers close around his. Nobody speaks: no dialogue, no voices. Ambient sound only: soft fabric rustle, clock ticking; no music. Photoreal, cinematic, shallow depth of field. No text."
+  },
+  {
+   "n": 14,
+   "scene": "C",
+   "chars": [
+    "a1_femi"
+   ],
+   "faces": 1,
+   "speaks": true,
+   "keyframe": "Close-up of the man about 50 with slicked-back hair, a gold paisley shirt and a gold watch standing in a dark doorway at night, half his face in shadow, listening, face hardening, lips closed. Only his face in frame.",
+   "flow_prompt": "Keep the exact face, hair, clothes and lighting from the start frame. Slow push-in. He listens in silence, his jaw tightening, then speaks low and menacing, natural mouth movement, and goes still. Ambient sound only: the quiet of a dark house; no music. Photoreal, cinematic, shallow depth of field. No text."
+  },
+  {
+   "n": 15,
+   "scene": "C",
+   "chars": [
+    "a1_tobi",
+    "a1_mama"
+   ],
+   "faces": 2,
+   "speaks": false,
+   "keyframe": "Wide shot from behind a man standing in a dark doorway: his blurred dark silhouette fills the left foreground, no face visible. Across the dim living room, the young man with a short neat haircut and light beard in a crisp white shirt with rolled sleeves kneels beside the older woman in emerald lace with a matching emerald head tie and gold necklace under a lamp; both turn their heads toward the doorway. Exactly two visible faces, small.",
+   "flow_prompt": "Keep the exact people, faces, clothes, place and lighting from the start frame. Static shot. The silhouette in the doorway stays still and never turns; the mother and son slowly turn to look toward him, frightened. Nobody speaks: no dialogue, no voices. Ambient sound only: a floorboard creak, clock ticking; no music. Photoreal, cinematic, shallow depth of field. No text."
+  }
+ ],
+ "edit": [
+  {
+   "clip": 3,
+   "in": 0.5,
+   "dur": 4.4,
+   "line": {
+    "c": "a1_tobi",
+    "t": "Seven withdrawals, Mummy. Every one signed by Uncle Femi.",
+    "tag": "[hard]",
+    "at": 0.3
+   },
+   "hook": true,
+   "sfx": "boom"
+  },
+  {
+   "clip": 2,
+   "in": 1.0,
+   "dur": 3.0
+  },
+  {
+   "clip": 1,
+   "in": 1.0,
+   "dur": 4.5
+  },
+  {
+   "clip": 4,
+   "in": 0.5,
+   "dur": 4.0,
+   "line": {
+    "c": "a1_mama",
+    "t": "Put it away, Tobi. Please.",
+    "tag": "[quiet]",
+    "at": 1.2
+   }
+  },
+  {
+   "clip": 5,
+   "in": 0.5,
+   "dur": 5.0,
+   "line": {
+    "c": "a1_tobi",
+    "t": "You're not surprised. Mummy, you knew?",
+    "tag": "[stunned]",
+    "at": 1.2
+   }
+  },
+  {
+   "clip": 4,
+   "in": 5.0,
+   "dur": 3.0
+  },
+  {
+   "clip": 6,
+   "in": 0.5,
+   "dur": 7.0,
+   "vo": {
+    "c": "a1_mama",
+    "t": "Fifteen years ago, I was dying. Femi paid my hospital bills.",
+    "tag": "[confessing]",
+    "at": 0.6
+   }
+  },
+  {
+   "clip": 7,
+   "in": 0.5,
+   "dur": 5.5,
+   "line": {
+    "c": "a1_mama",
+    "t": "When he took the money, I told myself I owed him.",
+    "tag": "[shame]",
+    "at": 0.6
+   }
+  },
+  {
+   "clip": 8,
+   "in": 0.5,
+   "dur": 5.0,
+   "line": {
+    "c": "a1_tobi",
+    "t": "So the fifteen million was to cover his hole?",
+    "tag": "[disbelief]",
+    "at": 0.5
+   }
+  },
+  {
+   "clip": 9,
+   "in": 0.5,
+   "dur": 6.0,
+   "line": {
+    "c": "a1_mama",
+    "t": "If the in-laws paid, nobody would ask questions. God forgive me.",
+    "tag": "[whispers]",
+    "at": 0.6
+   },
+   "sfx": "heartbeat"
+  },
+  {
+   "clip": 11,
+   "in": 1.0,
+   "dur": 3.5
+  },
+  {
+   "clip": 10,
+   "in": 0.5,
+   "dur": 5.0,
+   "line": {
+    "c": "a1_mama",
+    "t": "I protected my brother and broke my son.",
+    "tag": "[broken]",
+    "at": 1.0
+   }
+  },
+  {
+   "clip": 12,
+   "in": 0.5,
+   "dur": 5.8,
+   "line": {
+    "c": "a1_tobi",
+    "t": "Then fix it with me, Mummy. Tomorrow we go to the Okafors.",
+    "tag": "[gentle]",
+    "at": 0.6
+   }
+  },
+  {
+   "clip": 13,
+   "in": 1.0,
+   "dur": 3.5
+  },
+  {
+   "clip": 15,
+   "in": 1.0,
+   "dur": 4.0,
+   "sfx_start": "riser"
+  },
+  {
+   "clip": 14,
+   "in": 0.5,
+   "dur": 5.0,
+   "line": {
+    "c": "a1_femi",
+    "t": "Nobody is going anywhere.",
+    "tag": "[cold, menacing]",
+    "at": 2.0
+   },
+   "sfx": "music cut + deep boom on the line",
+   "freeze": 1.5
+  }
+ ]
+}
