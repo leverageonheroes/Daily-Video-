@@ -21,9 +21,29 @@
             "facebook_reel": "122106283095541373",
             "instagram_reel": "18023512034933448"
           }
+        },
+        "HT-002": {
+          "theme": "money",
+          "rendered": "2026-11-16T14:34:33+00:00",
+          "seconds": 66.0,
+          "preview": "https://github.com/leverageonheroes/Daily-Video-/releases/download/hardtruths-preview/HT-002.mp4",
+          "youtube_id": "hYGGmC66JmY",
+          "publish_at": "2026-11-16T19:00:00Z",
+          "meta": {
+            "facebook": [
+              "4046187305683598",
+              "1107047642376408"
+            ],
+            "instagram": [
+              "18003261710812869",
+              "18126327812316748"
+            ],
+            "facebook_reel": "122109211911541373",
+            "instagram_reel": "17877626301637490"
+          }
         }
       }
     }
   },
-  "updated": "2026-11-15T14:24:50+00:00"
+  "updated": "2026-11-16T14:41:21+00:00"
 }
