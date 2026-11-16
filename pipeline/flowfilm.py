@@ -311,7 +311,7 @@ def prompts_markdown(channel: str, bible: dict, ep: dict) -> str:
            PHONE_GUIDE.format(model=f.get("model", "Veo 3.1 Lite"), aspect=f.get("aspect", "9:16"), channel=channel), "",
            f"The film is assembled when all {n} clips are in `inbox/{channel}/` (1.mp4 to {n}.mp4). "
            "Don't add dialogue: the voices are added later and lip-synced. "
-           "Generate before 14:00 UTC (the free tier is paused ~14:00-17:00 UTC).", ""]
+           "No deadline: make the clips today or another day, the episode waits for you (episodes never skip). Tip: Flow's free tier is often paused ~14:00-17:00 UTC.", ""]
     have = released | local
     if len(have) < n:
         out += [f"> ⚠️ Start frames missing ({len(have)}/{n}). In the Codespace: "
