@@ -342,7 +342,7 @@
         "CH-011": {
           "status": "scripted",
           "history": [],
-          "attempts": 1
+          "attempts": 2
         },
         "CH-012": {
           "status": "scripted",
@@ -670,9 +670,15 @@
           "attempts": 3
         },
         "OIT-008": {
-          "status": "scripted",
-          "history": [],
-          "attempts": 1
+          "status": "failed",
+          "history": [
+            {
+              "status": "failed",
+              "at": "2026-11-16T22:38:12+00:00",
+              "note": "all video providers failed -> ltx: job 2104437698c74a7ba5b80f4fb3cfbdbc failed: {'type': 'insufficient_funds_error', 'message': 'Insufficient funds. Required: 30 cents'} | fal: fal-ai/ltx-2-19b/distilled/image-to-video failed: CUDA error: out of memory"
+            }
+          ],
+          "attempts": 2
         },
         "OIT-009": {
           "status": "scripted",
@@ -2476,5 +2482,5 @@
       "last_scripted": "CC-030"
     }
   },
-  "updated": "2026-11-16T16:05:08+00:00"
+  "updated": "2026-11-16T22:38:12+00:00"
 }
