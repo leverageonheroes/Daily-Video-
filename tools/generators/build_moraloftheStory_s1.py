@@ -172,7 +172,7 @@ def build():
                     **({"freeze": 1.5} if (i == 9 and not finale) else {}),
                 })
             q = e["question"]
-            end = "" if finale else (f"{q}|FINALE TOMORROW" if p == 5 else f"{q}|PART {p + 1} TOMORROW")
+            end = "" if finale else (f"{q}|FINALE NEXT" if p == 5 else f"{q}|PART {p + 1} NEXT")
             title = f"{e['hook']} | {arc['title']} Part {p}"
             title = (title[:80] + " #shorts") if len(title) <= 80 else (title[:77] + "... #shorts")
             tags = ["moral of the story", "nigerian drama", "short drama", "african drama", "family drama",

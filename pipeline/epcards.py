@@ -307,7 +307,7 @@ def brief(ep: dict, bg: Image.Image, cast: list, show: str) -> Image.Image:
             y += size + 100
     d.text((0, 0), "", font=f)
     parts = ep.get("parts_total", 6)
-    tracked(d, 1690, f"{parts} PARTS · A NEW PART EVERY DAY", oswald(38, 500), (225, 215, 200), 5)
+    tracked(d, 1690, f"{parts} PARTS · FULL MOVIE AFTER THE FINALE", oswald(38, 500), (225, 215, 200), 5)
     return img
 
 
@@ -328,7 +328,7 @@ def next_card(ep: dict, nxt: dict | None, bg: Image.Image, show: str, stage: int
             d = ImageDraw.Draw(img)
         for ln in textwrap.wrap(f"“{nxt['hook_text'].strip()}”", 26):
             y = centred(d, y, ln, playfair(64, 700), (255, 244, 225)) + 18
-        y = tracked(d, y + 30, "TOMORROW", oswald(48, 600), GOLD, 14)
+        y = tracked(d, y + 30, "COMING SOON", oswald(48, 600), GOLD, 14)
     else:
         pill(d, W / 2, y + 50, "THE FINALE IS DONE", anton(60), RED, padx=52, h=112)
         y += 170
