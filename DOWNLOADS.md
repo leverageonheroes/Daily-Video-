@@ -7,6 +7,18 @@ Jump to: [Ask The Elders](#ask-the-elders) · [The Crib Committee](#the-crib-com
 
 ## Ask The Elders
 
+### ELD-008  ·  2026-11-16
+
+**[⬇️ Download video](https://github.com/leverageonheroes/Daily-Video-/releases/download/tiktok-elders/ELD-008.mp4)** (35 MB)
+
+```text
+Heartbreak advice from people who survived it
+
+Eight elders on getting through heartbreak. New lesson every day. Which one hit hardest? Tell us below.
+
+#heartbreak #breakupadvice #lifelessons #wisdom #fyp
+```
+
 ### ELD-007  ·  2026-11-14
 
 **[⬇️ Download video](https://github.com/leverageonheroes/Daily-Video-/releases/download/tiktok-elders/ELD-007.mp4)** (35 MB)
@@ -94,6 +106,22 @@ Five elders on what they'd do differently with money. New lesson every day. Whic
 ---
 
 ## The Crib Committee
+
+### CC-007  ·  2026-11-15
+
+**[⬇️ Download video](https://github.com/leverageonheroes/Daily-Video-/releases/download/tiktok-cribcommittee/CC-007.mp4)** (28 MB)
+
+```text
+Babies vs broccoli: the official report
+
+The Crib Committee is in session. Today: picky eating.
+
+Parenting note: Children often need many tastes of a new food before accepting it. Pressure usually backfires.
+
+New babies, same complaints. Which committee member is your little one? Tell us below.
+
+#pickyeater #toddlerfood #parenting #funnybabies #fyp
+```
 
 ### CC-006  ·  2026-11-14
 
