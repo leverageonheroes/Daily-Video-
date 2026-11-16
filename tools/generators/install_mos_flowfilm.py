@@ -70,7 +70,7 @@ def install(src: Path):
     if "noise=alls=6" in bible.get("cinema_vf", ""):     # the old grade -> lighter grain + sharpening
         bible["cinema_vf"] = GRADE
     p.write_text(json.dumps(bible, indent=2, ensure_ascii=False) + "\n")
-    print(f"   channel.json updated (source=flow, paused={bible['paused']})")
+    print(f"   channel.json updated (source=flow, paused={bible.get('paused', False)})")
 
 
 if __name__ == "__main__":

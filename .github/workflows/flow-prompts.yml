@@ -56,6 +56,12 @@ jobs:
                   -q ".[] | select(.title | contains(\"$prefix-\")) | \"\(.number)\t\(.title)\""; fi
               } | sort -u
             }
+            # a placeholder issue ("not converted to a flow-film yet") is replaced once the episode has real prompts
+            if ! head -1 "$f" | grep -q "not converted"; then
+              for n in $(open_issues | grep -F "$id" | grep "not converted" | cut -f1); do
+                gh issue close "$n" --comment "Converted to a flow-film: real prompts posted in a new issue." || true
+              done
+            fi
             open_n=$(open_issues | grep -F "$id" | cut -f1 | head -1 || true)
             if [ -n "$id" ] && [ -n "$open_n" ]; then
               # Same episode still waiting for clips (episodes never skip): remind instead of re-posting.
