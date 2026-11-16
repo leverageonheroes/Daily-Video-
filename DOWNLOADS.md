@@ -7,6 +7,18 @@ Jump to: [Ask The Elders](#ask-the-elders) · [The Crib Committee](#the-crib-com
 
 ## Ask The Elders
 
+### ELD-009  ·  2026-11-16
+
+**[⬇️ Download video](https://github.com/leverageonheroes/Daily-Video-/releases/download/tiktok-elders/ELD-009.mp4)** (34 MB)
+
+```text
+Stop doing these things at 20, say 80-year-olds
+
+Eight elders on the habits they wish they'd dropped decades earlier. New lesson every day. Which one hit hardest? Tell us below.
+
+#selfimprovement #confidence #lifelessons #wisdom #fyp
+```
+
 ### ELD-008  ·  2026-11-16
 
 **[⬇️ Download video](https://github.com/leverageonheroes/Daily-Video-/releases/download/tiktok-elders/ELD-008.mp4)** (35 MB)

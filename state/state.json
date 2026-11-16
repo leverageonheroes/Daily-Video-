@@ -1908,9 +1908,41 @@
           }
         },
         "ELD-009": {
-          "status": "scripted",
-          "history": [],
-          "attempts": 0
+          "status": "uploaded",
+          "history": [
+            {
+              "status": "rendered",
+              "at": "2026-11-16T14:19:50+00:00",
+              "note": "71.0s from Google Flow clips"
+            },
+            {
+              "status": "uploaded",
+              "at": "2026-11-16T14:19:59+00:00",
+              "note": "https://youtu.be/pf8CWDp2UxU publishes 2026-11-17T00:19:56Z"
+            }
+          ],
+          "attempts": 1,
+          "final": "output/elders/ELD-009/final.mp4",
+          "clips": [
+            "1_418be422.mp4",
+            "2_4af736da.mp4",
+            "3_0131deb6.mp4",
+            "4_3b1ef618.mp4",
+            "5_7fd82bdc.mp4",
+            "6_1709b8e0.mp4",
+            "7_dc682b43.mp4",
+            "8_6ddb9968.mp4"
+          ],
+          "youtube_id": "pf8CWDp2UxU",
+          "publish_at": "2026-11-17T00:19:56Z",
+          "stories": {
+            "facebook": [
+              "1150623047440966",
+              "1107029665492714"
+            ],
+            "facebook_reel": "122109203769541373",
+            "instagram_reel": "17994032250099732"
+          }
         },
         "ELD-010": {
           "status": "scripted",
@@ -2408,5 +2440,5 @@
       "last_scripted": "CC-030"
     }
   },
-  "updated": "2026-11-16T00:06:29+00:00"
+  "updated": "2026-11-16T14:28:03+00:00"
 }
