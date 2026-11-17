@@ -340,7 +340,7 @@
           "attempts": 3
         },
         "CH-011": {
-          "status": "uploaded",
+          "status": "published",
           "history": [
             {
               "status": "rendered",
@@ -351,6 +351,11 @@
               "status": "uploaded",
               "at": "2026-11-17T01:58:58+00:00",
               "note": "https://youtu.be/3dDcuTYqyco publishes 2026-11-17T11:58:56Z"
+            },
+            {
+              "status": "published",
+              "at": "2026-11-17T16:14:32+00:00",
+              "note": "https://youtu.be/3dDcuTYqyco"
             }
           ],
           "attempts": 3,
@@ -696,7 +701,7 @@
           "attempts": 3
         },
         "OIT-008": {
-          "status": "uploaded",
+          "status": "published",
           "history": [
             {
               "status": "failed",
@@ -712,6 +717,11 @@
               "status": "uploaded",
               "at": "2026-11-17T01:25:36+00:00",
               "note": "https://youtu.be/PegMSSwzHV4 publishes 2026-11-17T11:25:33Z"
+            },
+            {
+              "status": "published",
+              "at": "2026-11-17T16:14:32+00:00",
+              "note": "https://youtu.be/PegMSSwzHV4"
             }
           ],
           "attempts": 3,
@@ -2533,5 +2543,5 @@
       "last_scripted": "CC-030"
     }
   },
-  "updated": "2026-11-17T02:06:02+00:00"
+  "updated": "2026-11-17T16:14:32+00:00"
 }
