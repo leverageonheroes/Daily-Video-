@@ -86,5 +86,6 @@
   {"clip": 13, "in": 0.8, "dur": 5.0, "line": {"c": "a1_mama", "t": "No. Not again.", "tag": "[trembling whisper]", "at": 2.2}},
   {"clip": 14, "in": 1.0, "dur": 3.0, "sfx": "heartbeat"},
   {"clip": 15, "in": 0.6, "dur": 5.2, "line": {"c": "a1_mama", "t": "Femi, what have you done to us?", "tag": "[broken]", "at": 2.0}, "sfx": "music cut + deep boom on the line", "freeze": 1.5}
- ]
+ ],
+ "explainers": [{"before": "B", "label": "Across town", "t": "Amara passes Uncle Femi's gate. A shiny new car is parked outside."}, {"before": "D", "label": "That night", "t": "Mama hears the news. Her brother has broken her trust before."}]
 }

@@ -6,6 +6,9 @@ An episode carries
   clips   [{"n", "scene", "chars", "faces", "speaks", "keyframe", "flow_prompt", ["loc"]}]   made in Google Flow
   edit    [{"clip", "in", "dur", ["line"|"vo": {"c", "t", "tag", "at"}], ["sfx"|"sfx_start"|"sfx_end"], ["freeze"]}]
   accounts {"A": [1..5], "B": [...], ...}      which Flow account makes which clip
+  explainers [{"before": "B", "label", "t", ["clip", "in", "dur"]}]   optional story explainer cards: a darkened,
+           blurred still of the scene with `label` + `t` on screen while the narrator (channel.json "explainer")
+           reads `t`; inserted before the scene's first cut (never before the opening hook). See expand_edit().
 
 Steps:
   1. flow-frames <ch> <id>  start frame per clip (fal image model + the cast reference images, ~$0.02 each)
@@ -88,9 +91,41 @@ def word_times(text: str, start: float, end: float) -> list:
     return out
 
 
+EXPLAIN_LEAD = 0.35     # the narrator starts this long after an explainer card appears
+EXPLAIN_TAIL = 0.6      # and the card stays this long after the last word
+
+
+def explain_dur(text: str) -> float:
+    """Planned card length (the real TTS length replaces it at render time, see fit_edit)."""
+    return round(EXPLAIN_LEAD + max(_words(text) / 2.5, 1.2) + EXPLAIN_TAIL, 2)
+
+
+def expand_edit(ep: dict) -> dict:
+    """The edit with the episode's explainer cards inserted before the first cut of their scene. Idempotent.
+    A card is an edit entry {"clip", "in", "dur", "explain": {"label", "t", "at"}}: its picture is a still of
+    `clip` at `in` (default: the scene's first cut, 1 s in), so it belongs to that scene (music, ambience)."""
+    ex = {x["before"]: x for x in ep.get("explainers") or []}
+    if not ex or not ep.get("edit") or any(e.get("explain") for e in ep["edit"]):
+        return ep
+    cl, out, seen = _clips(ep), [], set()
+    for e in ep["edit"]:
+        sc = cl[e["clip"]]["scene"]
+        x = ex.get(sc) if sc not in seen else None
+        seen.add(sc)
+        if x and out:
+            start = float(x.get("in", min(float(e["in"]) + 1.0, CLIP_SECONDS - 0.5)))
+            out.append({"clip": int(x.get("clip", e["clip"])), "in": start,
+                        "dur": float(x.get("dur") or explain_dur(x["t"])),
+                        "explain": {"label": x.get("label", ""), "t": x["t"], "at": EXPLAIN_LEAD}})
+        out.append(e)
+    return {**ep, "edit": out}
+
+
 def pseudo_shots(ep: dict, speech: dict | None = None) -> list:
     """The cut list as ordinary `shots`, so compile / recap / stories / captions work unchanged.
-    speech = {(edit index, "line"|"vo"): seconds} from the real TTS (exact caption timing)."""
+    speech = {(edit index, "line"|"vo"): seconds} from the real TTS (exact caption timing).
+    Explainer cards get no burned captions (their text is already on the card)."""
+    ep = expand_edit(ep)
     clips, scenes = _clips(ep), ep["scenes"]
     out, prev = [], None
     for i, e in enumerate(ep["edit"]):
@@ -106,7 +141,8 @@ def pseudo_shots(ep: dict, speech: dict | None = None) -> list:
                 s, t = _cap_span(ln, float(e["dur"]), (speech or {}).get((i, kind)))
                 caps.append({"t": ln["t"], "s": s, "e": t, "words": word_times(ln["t"], s, t)})
                 lines.append({"c": ln["c"], "t": ln["t"]})
-        out.append({"n": i + 1, "dur": seg_seconds(e), "clip": e["clip"], "chars": c["chars"], "fade": TRANSITION_FADE,
+        out.append({"n": i + 1, "dur": seg_seconds(e), "clip": e["clip"],
+                    "chars": [] if e.get("explain") else c["chars"], "fade": TRANSITION_FADE,
                     "loc": clip_loc(ep, c), "lines": lines, "caps": sorted(caps, key=lambda x: x["s"]),
                     "transition": tr, "freeze": float(e.get("freeze", 0))})
         prev = sc
@@ -118,7 +154,7 @@ def with_shots(ep: dict) -> dict:
 
 
 def estimate_cost(ep: dict, frames: bool = False) -> float:
-    chars = sum(len(e[k]["t"]) for e in ep["edit"] for k in ("line", "vo") if e.get(k))
+    chars = sum(len(e[k]["t"]) for e in expand_edit(ep)["edit"] for k in ("line", "vo", "explain") if e.get(k))
     lips = sum(float(e["dur"]) for e in ep["edit"] if e.get("line"))
     return (len(ep["clips"]) * PRICE_FRAME if frames else 0) + chars / 1000 * PRICE_TTS_1K + lips * PRICE_LIPSYNC_SEC
 
@@ -365,8 +401,14 @@ def voice_pool(brief: str, wide: bool = False) -> list:
     return AUTO_VOICES[key] + (WIDE_VOICES[key] if wide else [])
 
 
+def explainer_voice(bible) -> dict:
+    """The explainer narrator: channel.json "explainer": {"voice", "tag", ["endpoint"]}."""
+    cfg = bible.get("explainer", {})
+    return {"voice": cfg.get("voice", "George"), **({"endpoint": cfg["endpoint"]} if cfg.get("endpoint") else {})}
+
+
 def voice_map(bible, ep) -> dict:
-    used, out = [], {}
+    used, out = ([explainer_voice(bible)["voice"]] if ep.get("explainers") else []), {}
     for c in ep.get("voices", {}):
         out[c] = _voice_for(bible, ep, c, used)
         used.append(out[c]["voice"])
@@ -426,6 +468,12 @@ def fit_edit(ep: dict, speech: dict) -> tuple:
     edit = copy.deepcopy(ep["edit"])
     tempos, notes = {}, []
     for i, e in enumerate(edit):
+        if e.get("explain") and (i, "explain") in speech:      # a card is a still: it simply grows to fit
+            new = round(float(e["explain"].get("at", EXPLAIN_LEAD)) + speech[(i, "explain")] + EXPLAIN_TAIL, 2)
+            if abs(new - float(e["dur"])) > 0.05:
+                notes.append(f"cut {i + 1} explainer: {float(e['dur']):.2f}s -> {new:.2f}s")
+                e["dur"] = new
+            continue
         for kind in ("vo", "line"):
             ln = e.get(kind)
             if not ln or (i, kind) not in speech:
@@ -488,7 +536,7 @@ def check_clips(ep: dict, clips: dict, bible: dict) -> list:
         cl = _clips(ep)
         for i, e in enumerate(ep["edit"]):
             n = e["clip"]
-            if n in problems or n not in clips:
+            if n in problems or n not in clips or e.get("explain"):
                 continue
             a, d = float(e["in"]), float(e["dur"])
             counts = faces.count_video(clips[n], [a + d * (k + 0.5) / 5 for k in range(5)])
@@ -676,13 +724,13 @@ def _soundtrack(ep, bible, clips: dict, edit_audio: list, starts: list, total: f
         c = cl[e["clip"]]
         # Foley: a silent cut keeps its own Flow sound (speaking clips never: their Veo voices would leak)
         src = clips.get(e["clip"])
-        if not e.get("line") and not c.get("speaks") and src and assemble.has_audio(src):
+        if not e.get("line") and not e.get("explain") and not c.get("speaks") and src and assemble.has_audio(src):
             d = float(e["dur"])
             add(src, f"atrim={float(e['in']):.2f}:{float(e['in']) + d:.2f},asetpts=PTS-STARTPTS,aresample=48000,"
                      f"volume={FOLEY_VOLUME},afade=t=in:d=0.08,afade=t=out:st={max(d - 0.12, 0):.2f}:d=0.12,"
                      f"{delay(starts[i])}", "bed")
-        # dialogue (lines + voice-overs; a vo plays over the shot = L-cut)
-        for kind in ("vo", "line"):
+        # dialogue (lines + voice-overs; a vo plays over the shot = L-cut) + explainer narration
+        for kind in ("vo", "line", "explain"):
             p = edit_audio[i].get(kind)
             if p:
                 add(p, f"aresample=48000,{delay(starts[i] + float(e[kind].get('at', 0)))}", "dlg")
@@ -734,6 +782,7 @@ def render(channel: str, ep: dict, clip_files: list, wd: Path, bible: dict, reca
     ff = wd / "ff"
     ff.mkdir(parents=True, exist_ok=True)
     clips = {c["n"]: p for c, p in zip(ep["clips"], clip_files)}
+    ep = expand_edit(ep)                    # explainer cards become ordinary cuts from here on
     problems = check_clips(ep, clips, bible)
     if problems:
         raise ClipProblem("; ".join(problems))
@@ -743,7 +792,14 @@ def render(channel: str, ep: dict, clip_files: list, wd: Path, bible: dict, reca
 
     # TTS per line / voice-over, then fit every line inside its cut
     raw, speech = {}, {}
+    nv = explainer_voice(bible)
     for i, e in enumerate(ep["edit"]):
+        if e.get("explain"):
+            import hashlib
+            ln = {"t": e["explain"]["t"], "tag": bible.get("explainer", {}).get("tag", "warm, storytelling")}
+            h = hashlib.md5(ln["t"].encode()).hexdigest()[:8]
+            raw[(i, "explain")] = tts_line(bible, ln, nv, ff / f"x_{h}_{nv['voice']}.wav")
+            speech[(i, "explain")] = assemble.duration(raw[(i, "explain")])
         for kind in ("vo", "line"):
             ln = e.get(kind)
             if ln:
@@ -768,6 +824,10 @@ def render(channel: str, ep: dict, clip_files: list, wd: Path, bible: dict, reca
     def seg(i):
         e = edit[i]
         tag = f"{float(e['in']):.2f}_{float(e['dur']):.2f}"
+        if e.get("explain"):
+            from . import epcards
+            return epcards.explainer_clip(clips[e["clip"]], e, bible.get("show_title", channel),
+                                          ff / f"explain{i + 1:02d}_{tag}")
         v = _segment(clips[e["clip"]], e, ff / f"seg{i + 1:02d}_{tag}.mp4")
         if not edit_audio[i].get("line"):
             return v
@@ -786,7 +846,7 @@ def render(channel: str, ep: dict, clip_files: list, wd: Path, bible: dict, reca
     silent = []
     for i, p in enumerate(segs):
         q = ff / f"cut{i + 1:02d}.mp4"
-        _finish_segment(p, cl[edit[i]["clip"]], q)
+        _finish_segment(p, {} if edit[i].get("explain") else cl[edit[i]["clip"]], q)
         silent.append(q)
 
     starts, t = [], 0.0

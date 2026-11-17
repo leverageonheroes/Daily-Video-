@@ -49,6 +49,8 @@ def install(src: Path):
             ep.pop("shots", None)
             for k in ("format", "voices", "scenes", "clips", "edit", "accounts"):
                 ep[k] = ff[k]
+            if "explainers" in ff:
+                ep["explainers"] = ff["explainers"]
             f.write_text(json.dumps(data, indent=1, ensure_ascii=False) + "\n")
             print(f"   {ep_id} installed in {f.relative_to(ROOT)}")
             break

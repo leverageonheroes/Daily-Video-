@@ -134,6 +134,28 @@ def validate_flowfilm(ep, tag, bible, chars, locs, errors, warns):
                 errors.append(f"{et}: lip-synced cuts must be 2-10 s (is {d})")
     for n in set(clips) - used:
         warns.append(f"{tag} clip {n}: never used in the edit (a wasted Flow credit)")
+    # explainer cards between scenes (narrator + text on a still of the scene)
+    first_scene = clips.get(ep.get("edit", [{}])[0].get("clip"), {}).get("scene") if ep.get("edit") else None
+    seen = set()
+    for x in ep.get("explainers") or []:
+        xt = f"{tag} explainer before {x.get('before')}"
+        if x.get("before") not in scenes:
+            errors.append(f"{xt}: unknown scene")
+        elif x["before"] == first_scene:
+            errors.append(f"{xt}: never before the opening scene (the hook must come first)")
+        if x.get("before") in seen:
+            errors.append(f"{xt}: only one explainer per scene")
+        seen.add(x.get("before"))
+        nw = words(x.get("t", ""))
+        if not 4 <= nw <= 16:
+            errors.append(f"{xt}: text must be 4-16 words (has {nw}) - one short, clear sentence")
+        if len(x.get("label", "")) > 22:
+            errors.append(f"{xt}: label over 22 characters")
+        if "clip" in x and clips.get(x["clip"], {}).get("scene") != x.get("before"):
+            errors.append(f"{xt}: picture clip {x['clip']} is not in scene {x.get('before')}")
+        total += float(x.get("dur") or (0.35 + max(nw / 2.5, 1.2) + 0.6))
+    if len(seen) > 3:
+        warns.append(f"{tag}: {len(seen)} explainers - keep it to the scenes that really need one (max 3)")
     return total
 
 

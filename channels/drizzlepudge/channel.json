@@ -122,5 +122,10 @@
       "binge worthy series",
       "gen z"
     ]
+  },
+  "explainer": {
+    "voice": "George",
+    "tag": "warm, calm storyteller",
+    "_note": "Narrator for episode 'explainers' (cards between scenes). Never used by a cast member."
   }
 }

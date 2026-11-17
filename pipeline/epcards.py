@@ -343,6 +343,44 @@ def next_card(ep: dict, nxt: dict | None, bg: Image.Image, show: str, stage: int
     return img
 
 
+def explainer_card(bg: Image.Image, label: str, text: str, show: str) -> Image.Image:
+    """Story explainer between scenes: the next scene, blurred and darkened, with a gold label and the
+    narrator's sentence in the middle of the Shorts safe zone (y 380-1240)."""
+    img = cover(bg).filter(ImageFilter.GaussianBlur(14))
+    img = Image.blend(img, Image.new("RGB", img.size, (8, 6, 4)), 0.6)
+    img = grade(img)
+    _badge(img, show)
+    d = ImageDraw.Draw(img)
+    f = playfair(68, 600)
+    lines = textwrap.wrap(text, 24)
+    lh = tw(d, "Hg", f)[1] + 26
+    y = 820 - (len(lines) * lh + (110 if label else 0)) / 2
+    if label:
+        lf = oswald(44, 600)
+        lab = label.upper()
+        bottom = tracked(d, y, lab, lf, GOLD, 10)
+        half = (sum(tw(d, ch, lf)[0] for ch in lab) + 10 * len(lab)) / 2
+        mid = (y + bottom) / 2
+        for x0, x1 in ((W / 2 - half - 110, W / 2 - half - 30), (W / 2 + half + 30, W / 2 + half + 110)):
+            d.line((x0, mid, x1, mid), fill=GOLD, width=3)
+        y = bottom + 80
+    for ln in lines:
+        y = centred(d, y, ln, f, (255, 246, 230)) + 26
+    return img
+
+
+def explainer_clip(clip: Path, e: dict, show: str, stem: Path) -> Path:
+    """The explainer card as a silent clip of the cut's length (cached)."""
+    dest = stem.with_name(stem.name + ".mp4")       # not with_suffix: the stem ends in "5.75" (the cut length)
+    if not dest.exists():
+        x = e["explain"]
+        bg = grab(clip, stem.with_name(stem.name + "_bg.png"), float(e["in"]))
+        png = stem.with_name(stem.name + ".png")
+        explainer_card(bg, x.get("label", ""), x["t"], show).save(png)
+        _still(png, dest, float(e["dur"]), zoom=False, fade_in=0.15)
+    return dest
+
+
 # ---------------------------------------------------------------- clips
 
 def _still(png: Path, dest: Path, secs: float, zoom=True, fade_in=0.0, fade_out=0.0, audio=None, audio_start=0.0,

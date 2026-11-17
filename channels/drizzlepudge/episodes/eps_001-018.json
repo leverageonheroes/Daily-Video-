@@ -1007,7 +1007,19 @@
      14,
      15
     ]
-   }
+   },
+   "explainers": [
+    {
+     "before": "B",
+     "label": "Across town",
+     "t": "Amara passes Uncle Femi's gate. A shiny new car is parked outside."
+    },
+    {
+     "before": "D",
+     "label": "That night",
+     "t": "Mama hears the news. Her brother has broken her trust before."
+    }
+   ]
   },
   {
    "id": "MOS-003",
@@ -1500,7 +1512,19 @@
      14,
      15
     ]
-   }
+   },
+   "explainers": [
+    {
+     "before": "B",
+     "label": "At the Okafors'",
+     "t": "Amara goes home hurt. Her father, a proud retired teacher, has heard enough."
+    },
+    {
+     "before": "D",
+     "label": "One last chance",
+     "t": "Tobi goes to Amara's father to beg for time to find the truth."
+    }
+   ]
   },
   {
    "id": "MOS-004",
@@ -1976,7 +2000,19 @@
      14,
      15
     ]
-   }
+   },
+   "explainers": [
+    {
+     "before": "B",
+     "label": "On the drive home",
+     "t": "Mama finally breaks her silence. Her secret is fifteen years old."
+    },
+    {
+     "before": "C",
+     "label": "Back home",
+     "t": "Mama agrees to make it right. But someone has been listening."
+    }
+   ]
   },
   {
    "id": "MOS-005",
@@ -2457,7 +2493,19 @@
      14,
      15
     ]
-   }
+   },
+   "explainers": [
+    {
+     "before": "B",
+     "label": "The next day",
+     "t": "Proud Mama does what she has never done. She goes to apologise."
+    },
+    {
+     "before": "C",
+     "label": "At the gate",
+     "t": "Just as peace returns, Uncle Femi arrives with a briefcase."
+    }
+   ]
   },
   {
    "id": "MOS-006",
@@ -2939,7 +2987,14 @@
      14,
      15
     ]
-   }
+   },
+   "explainers": [
+    {
+     "before": "B",
+     "label": "Weeks later",
+     "t": "Two families, one small celebration. This time, nothing is hidden."
+    }
+   ]
   },
   {
    "id": "MOS-007",

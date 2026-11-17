@@ -147,6 +147,40 @@ def ordered_clips(channel):
     return sorted(files, key=lambda p: p.name.lower()), "alphabetical"
 
 
+def _clip_no(p):
+    m = re.match(r"^(?:clip|shot|part|scene)?[\s_-]*(\d{1,2})(?:\D|$)", p.stem, re.I)
+    return int(m.group(1)) if m else None
+
+
+def rescue_strays(s, channels) -> list:
+    """Clips uploaded to the top of the repo by mistake (GitHub "Upload files" from the wrong folder,
+    seen 2026-11-17 for MOS-002 clips 1-5) are moved into the inbox they belong to: the one channel
+    whose current episode is waiting for exactly those clip numbers. Returns the moved paths (old names)."""
+    root = config.OUTPUT if config.MOCK else config.ROOT
+    strays = [p for p in root.iterdir() if p.is_file() and p.suffix.lower() in VIDEO_EXT and _clip_no(p)]
+    if not strays:
+        return []
+    fits = []
+    for ch in channels:
+        ep_id = current_episode(s, ch)
+        if not ep_id:
+            continue
+        have = {_clip_no(p) for p in inbox(ch).iterdir() if p.suffix.lower() in VIDEO_EXT}
+        missing = set(range(1, clips_needed(state.get_episode(ch, ep_id)) + 1)) - have
+        if have - {None} and {_clip_no(p) for p in strays} <= missing:
+            fits.append(ch)
+    if len(fits) != 1:
+        print(f"!! {len(strays)} clip(s) at the top of the repo ({', '.join(p.name for p in strays)}): "
+              f"can't tell which channel they belong to - move them into inbox/<channel>/")
+        return []
+    moved = []
+    for p in strays:
+        p.rename(inbox(fits[0]) / p.name)
+        moved.append(p.name)
+    print(f"   moved {', '.join(moved)} from the top of the repo into inbox/{fits[0]}/")
+    return moved
+
+
 def import_episode(s, channel):
     """Returns (ep_id, final_path, clips) when an episode was assembled, else None."""
     ep_id = current_episode(s, channel)

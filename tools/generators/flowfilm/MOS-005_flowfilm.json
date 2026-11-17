@@ -407,5 +407,6 @@
    "sfx": "music cut + deep boom on the line",
    "freeze": 1.5
   }
- ]
+ ],
+ "explainers": [{"before": "B", "label": "The next day", "t": "Proud Mama does what she has never done. She goes to apologise."}, {"before": "C", "label": "At the gate", "t": "Just as peace returns, Uncle Femi arrives with a briefcase."}]
 }

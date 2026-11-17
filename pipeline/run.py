@@ -347,6 +347,7 @@ def main(argv):
     elif cmd == "flow-import":
         failed = False
         result = {}     # per-channel status -> flow_result.json (the workflow reports on each channel's issue)
+        flow.rescue_strays(s, argv[1:] or flow.flow_channels())     # clips uploaded to the wrong folder
         for ch in argv[1:] or flow.flow_channels():
             do_upload = os.environ.get("YT_UPLOAD", "1") == "1" and not config.MOCK and not flow.is_paused(ch)
             if flow.is_paused(ch):

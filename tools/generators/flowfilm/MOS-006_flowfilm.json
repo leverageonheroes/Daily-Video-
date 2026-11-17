@@ -406,5 +406,6 @@
    "dur": 7.0,
    "freeze": 1.5
   }
- ]
+ ],
+ "explainers": [{"before": "B", "label": "Weeks later", "t": "Two families, one small celebration. This time, nothing is hidden."}]
 }

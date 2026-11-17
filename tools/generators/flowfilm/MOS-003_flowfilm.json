@@ -419,5 +419,6 @@
    "sfx": "music cut + deep boom on the line",
    "freeze": 1.5
   }
- ]
+ ],
+ "explainers": [{"before": "B", "label": "At the Okafors'", "t": "Amara goes home hurt. Her father, a proud retired teacher, has heard enough."}, {"before": "D", "label": "One last chance", "t": "Tobi goes to Amara's father to beg for time to find the truth."}]
 }

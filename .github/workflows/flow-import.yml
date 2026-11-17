@@ -10,6 +10,9 @@ on:
       - "inbox/**/*.MP4"
       - "inbox/**/*.mov"
       - "inbox/**/*.webm"
+      - "*.mp4"             # clips uploaded to the top of the repo by mistake: flow-import moves them
+      - "*.MP4"
+      - "*.mov"
   workflow_dispatch:
 
 permissions:
@@ -65,6 +68,7 @@ jobs:
           git config user.email "shorts-bot@users.noreply.github.com"
           GH_TOKEN=${{ github.token }} python tools/make_downloads_page.py || echo "downloads page skipped"
           git add -A inbox state DOWNLOADS.md
+          for x in mp4 MP4 mov webm; do git add -A -- ":(top,glob)*.$x" 2>/dev/null || true; done   # moved strays
           if ! git diff --cached --quiet; then
             git commit -m "flow: import $(date -u +%F)"
             git pull --rebase -X theirs

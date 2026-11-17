@@ -402,5 +402,6 @@
    "sfx": "music cut + deep boom on the line",
    "freeze": 1.5
   }
- ]
+ ],
+ "explainers": [{"before": "B", "label": "On the drive home", "t": "Mama finally breaks her silence. Her secret is fifteen years old."}, {"before": "C", "label": "Back home", "t": "Mama agrees to make it right. But someone has been listening."}]
 }
