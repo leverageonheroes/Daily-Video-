@@ -441,6 +441,24 @@ One In A Thousand: true survival stories, one every day. Which creature should w
 
 ## Moral Of The Story TV
 
+### MOS-002  ·  2026-11-17
+
+**[⬇️ Download video](https://github.com/leverageonheroes/Daily-Video-/releases/download/tiktok-drizzlepudge/MOS-002.mp4)** (38 MB)
+
+```text
+The money is gone. Who took it? | The Wedding Fund Part 2
+
+A proud mother demands a fifteen-million-naira wedding, but the family wedding account is empty, and someone has been lying for years.
+
+The Wedding Fund, part 2 of 6: Uncle Femi.
+
+What is mama hiding? Tell us in the comments.
+
+Moral Of The Story TV: a new story every week, and the full movie after every finale.
+
+#moralofthestory #nigeriandrama #nollywood #naijadrama #fyp
+```
+
 ### MOS-001  ·  2026-11-14
 
 **[⬇️ Download video](https://github.com/leverageonheroes/Daily-Video-/releases/download/tiktok-drizzlepudge/MOS-001.mp4)** (39 MB)

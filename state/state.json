@@ -1142,9 +1142,52 @@
           }
         },
         "MOS-002": {
-          "status": "scripted",
-          "history": [],
-          "attempts": 1
+          "status": "uploaded",
+          "history": [
+            {
+              "status": "rendered",
+              "at": "2026-11-17T23:36:05+00:00",
+              "note": "95.5s flow-film from Google Flow clips"
+            },
+            {
+              "status": "uploaded",
+              "at": "2026-11-17T23:36:13+00:00",
+              "note": "https://youtu.be/IXFEmnn0xmw publishes 2026-11-18T09:36:10Z"
+            }
+          ],
+          "attempts": 2,
+          "final": "output/drizzlepudge/MOS-002/final.mp4",
+          "clips": [
+            "1_6c07d1a3.mp4",
+            "2_6d756c00.mp4",
+            "3_7c61ffa0.mp4",
+            "4_8eaf6b65.mp4",
+            "5_55232a03.mp4",
+            "6_0eb3277b.mp4",
+            "7_f841689a.mp4",
+            "8_8ba75035.mp4",
+            "9_a98a4158.mp4",
+            "10_d9f0e959.mp4",
+            "11_ba6113f6.mp4",
+            "12_1fc3f1c0.mp4",
+            "13_d92af683.mp4",
+            "14_2b7b7085.mp4",
+            "15_500127df.mp4"
+          ],
+          "youtube_id": "IXFEmnn0xmw",
+          "publish_at": "2026-11-18T09:36:10Z",
+          "stories": {
+            "facebook": [
+              "1149601714487899",
+              "1523269056285411"
+            ],
+            "instagram": [
+              "18183949168437874",
+              "18119538923120872"
+            ],
+            "facebook_reel": "1510145137635755",
+            "instagram_reel": "18163521064501941"
+          }
         },
         "MOS-003": {
           "status": "scripted",
@@ -2543,5 +2586,5 @@
       "last_scripted": "CC-030"
     }
   },
-  "updated": "2026-11-17T23:14:40+00:00"
+  "updated": "2026-11-17T23:42:51+00:00"
 }

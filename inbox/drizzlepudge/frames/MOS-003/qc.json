@@ -1,22 +1,10 @@
 {
- "1": {
-  "ok": true,
-  "tries": [
-   {
-    "try": 1,
-    "seed": 1880668359,
-    "faces": 0,
-    "want": 0
-   }
-  ],
-  "check": "faces"
- },
  "3": {
   "ok": true,
   "tries": [
    {
     "try": 1,
-    "seed": 874114937,
+    "seed": 372791284,
     "faces": 1,
     "want": 1
    }
@@ -28,7 +16,7 @@
   "tries": [
    {
     "try": 1,
-    "seed": 1027480692,
+    "seed": 1713793411,
     "faces": 1,
     "want": 1
    }
@@ -40,33 +28,21 @@
   "tries": [
    {
     "try": 1,
-    "seed": 2132674687,
-    "faces": 3,
-    "want": 3
-   }
-  ],
-  "check": "faces"
- },
- "5": {
-  "ok": true,
-  "tries": [
-   {
-    "try": 1,
-    "seed": 1774029043,
+    "seed": 705202892,
     "faces": 1,
     "want": 1
    }
   ],
   "check": "faces"
  },
- "6": {
+ "1": {
   "ok": true,
   "tries": [
    {
     "try": 1,
-    "seed": 1991326283,
-    "faces": 1,
-    "want": 1
+    "seed": 1004286266,
+    "faces": 2,
+    "want": 2
    }
   ],
   "check": "faces"
@@ -76,7 +52,7 @@
   "tries": [
    {
     "try": 1,
-    "seed": 439305745,
+    "seed": 1578541643,
     "faces": 1,
     "want": 1
    }
@@ -88,7 +64,55 @@
   "tries": [
    {
     "try": 1,
-    "seed": 1185958455,
+    "seed": 407532336,
+    "faces": 0,
+    "want": 0
+   }
+  ],
+  "check": "faces"
+ },
+ "5": {
+  "ok": true,
+  "tries": [
+   {
+    "try": 1,
+    "seed": 18115419,
+    "faces": 1,
+    "want": 1
+   }
+  ],
+  "check": "faces"
+ },
+ "6": {
+  "ok": true,
+  "tries": [
+   {
+    "try": 1,
+    "seed": 1087220262,
+    "faces": 2,
+    "want": 2
+   }
+  ],
+  "check": "faces"
+ },
+ "9": {
+  "ok": true,
+  "tries": [
+   {
+    "try": 1,
+    "seed": 1871804033,
+    "faces": 0,
+    "want": 0
+   }
+  ],
+  "check": "faces"
+ },
+ "11": {
+  "ok": true,
+  "tries": [
+   {
+    "try": 1,
+    "seed": 107732373,
     "faces": 1,
     "want": 1
    }
@@ -100,31 +124,7 @@
   "tries": [
    {
     "try": 1,
-    "seed": 1227090951,
-    "faces": 1,
-    "want": 1
-   }
-  ],
-  "check": "faces"
- },
- "9": {
-  "ok": true,
-  "tries": [
-   {
-    "try": 1,
-    "seed": 480485417,
-    "faces": 1,
-    "want": 1
-   }
-  ],
-  "check": "faces"
- },
- "11": {
-  "ok": true,
-  "tries": [
-   {
-    "try": 1,
-    "seed": 1288559385,
+    "seed": 1637247364,
     "faces": 1,
     "want": 1
    }
@@ -136,7 +136,19 @@
   "tries": [
    {
     "try": 1,
-    "seed": 2129212205,
+    "seed": 2010953861,
+    "faces": 1,
+    "want": 1
+   }
+  ],
+  "check": "faces"
+ },
+ "13": {
+  "ok": true,
+  "tries": [
+   {
+    "try": 1,
+    "seed": 2120953900,
     "faces": 1,
     "want": 1
    }
@@ -148,21 +160,9 @@
   "tries": [
    {
     "try": 1,
-    "seed": 1565465664,
+    "seed": 1983150696,
     "faces": 0,
     "want": 0
-   }
-  ],
-  "check": "faces"
- },
- "13": {
-  "ok": true,
-  "tries": [
-   {
-    "try": 1,
-    "seed": 909264454,
-    "faces": 1,
-    "want": 1
    }
   ],
   "check": "faces"
@@ -172,7 +172,7 @@
   "tries": [
    {
     "try": 1,
-    "seed": 2075972978,
+    "seed": 1766598717,
     "faces": 1,
     "want": 1
    }
