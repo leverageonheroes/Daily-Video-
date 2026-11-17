@@ -536,7 +536,7 @@ def check_clips(ep: dict, clips: dict, bible: dict) -> list:
         cl = _clips(ep)
         for i, e in enumerate(ep["edit"]):
             n = e["clip"]
-            if n in problems or n not in clips or e.get("explain"):
+            if n in problems or n not in clips or e.get("explain") or e.get("face_check") is False:
                 continue
             a, d = float(e["in"]), float(e["dur"])
             counts = faces.count_video(clips[n], [a + d * (k + 0.5) / 5 for k in range(5)])

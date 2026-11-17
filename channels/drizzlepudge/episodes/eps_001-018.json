@@ -858,7 +858,8 @@
       "tag": "[sharp]",
       "at": 0.3
      },
-     "sfx": "footsteps"
+     "sfx": "footsteps",
+     "face_check": false
     },
     {
      "clip": 5,
@@ -889,8 +890,9 @@
     },
     {
      "clip": 7,
-     "in": 1.0,
-     "dur": 5.0
+     "in": 0.5,
+     "dur": 4.2,
+     "face_check": false
     },
     {
      "clip": 8,

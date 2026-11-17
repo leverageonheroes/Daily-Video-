@@ -13,6 +13,7 @@ on:
       - "*.mp4"             # clips uploaded to the top of the repo by mistake: flow-import moves them
       - "*.MP4"
       - "*.mov"
+      - "triggers/flow-import-now"   # edit + push to re-run the import (e.g. after fixing a clip check)
   workflow_dispatch:
 
 permissions:
