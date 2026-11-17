@@ -1144,7 +1144,7 @@
         "MOS-002": {
           "status": "scripted",
           "history": [],
-          "attempts": 0
+          "attempts": 1
         },
         "MOS-003": {
           "status": "scripted",
@@ -2543,5 +2543,5 @@
       "last_scripted": "CC-030"
     }
   },
-  "updated": "2026-11-17T16:14:32+00:00"
+  "updated": "2026-11-17T23:14:40+00:00"
 }
