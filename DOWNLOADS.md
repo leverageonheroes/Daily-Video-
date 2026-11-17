@@ -243,6 +243,18 @@ The Crib Committee is in session. A predictable bedtime routine (bath, book, bed
 
 ## Fridge Hearts
 
+### CH-011  ·  2026-11-17
+
+**[⬇️ Download video](https://github.com/leverageonheroes/Daily-Video-/releases/download/tiktok-coldhearts/CH-011.mp4)** (37 MB)
+
+```text
+The ketchup wants the CROWN 🍅👑
+
+Election day on the Door Shelf. Fridge Hearts, episode 11.
+
+#fridgedrama #ketchup #soapopera #funnyanimation #fyp
+```
+
 ### CH-009  ·  2026-11-13
 
 **[⬇️ Download video](https://github.com/leverageonheroes/Daily-Video-/releases/download/tiktok-coldhearts/CH-009.mp4)** (48 MB)
@@ -354,6 +366,20 @@ A soap opera inside your fridge. Episode 1 of Fridge Hearts.
 ---
 
 ## One In A Thousand
+
+### OIT-008  ·  2026-11-17
+
+**[⬇️ Download video](https://github.com/leverageonheroes/Daily-Video-/releases/download/tiktok-flat4b/OIT-008.mp4)** (31 MB)
+
+```text
+This tiny bird flies to the other end of the Earth. Every year.
+
+Arctic terns migrate between the Arctic and Antarctica, roughly 70,000 km a year on zigzag routes. Over a lifetime this adds up to about three trips to the Moon and back.
+
+One In A Thousand: true survival stories, one every day. Which creature should we follow next? Tell us below.
+
+#arctictern #migration #wildlife #naturedocumentary #fyp
+```
 
 ### OIT-006  ·  2026-11-14
 
