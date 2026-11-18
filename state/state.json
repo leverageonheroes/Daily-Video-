@@ -378,7 +378,7 @@
         "CH-012": {
           "status": "scripted",
           "history": [],
-          "attempts": 0
+          "attempts": 1
         },
         "CH-013": {
           "status": "scripted",
@@ -742,9 +742,15 @@
           }
         },
         "OIT-009": {
-          "status": "scripted",
-          "history": [],
-          "attempts": 0
+          "status": "failed",
+          "history": [
+            {
+              "status": "failed",
+              "at": "2026-11-18T17:43:14+00:00",
+              "note": "all video providers failed -> ltx: job 263cfc01a003461a81d87ec32c1b141a failed: {'type': 'insufficient_funds_error', 'message': 'Insufficient funds. Required: 30 cents'} | fal: fal-ai/ltx-2-19b/distilled/image-to-video failed: CUDA error: out of memory"
+            }
+          ],
+          "attempts": 1
         },
         "OIT-010": {
           "status": "scripted",
@@ -1142,7 +1148,7 @@
           }
         },
         "MOS-002": {
-          "status": "uploaded",
+          "status": "published",
           "history": [
             {
               "status": "rendered",
@@ -1153,6 +1159,11 @@
               "status": "uploaded",
               "at": "2026-11-17T23:36:13+00:00",
               "note": "https://youtu.be/IXFEmnn0xmw publishes 2026-11-18T09:36:10Z"
+            },
+            {
+              "status": "published",
+              "at": "2026-11-18T15:49:55+00:00",
+              "note": "https://youtu.be/IXFEmnn0xmw"
             }
           ],
           "attempts": 2,
@@ -2586,5 +2597,5 @@
       "last_scripted": "CC-030"
     }
   },
-  "updated": "2026-11-17T23:42:51+00:00"
+  "updated": "2026-11-18T17:43:14+00:00"
 }
