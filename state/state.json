@@ -429,9 +429,15 @@
           "attempts": 3
         },
         "CH-015": {
-          "status": "scripted",
-          "history": [],
-          "attempts": 0
+          "status": "failed",
+          "history": [
+            {
+              "status": "failed",
+              "at": "2026-11-21T14:49:30+00:00",
+              "note": "fal-ai/nano-banana failed: User is locked. Reason: Exhausted balance. Top up your balance at fal.ai/dashboard/billing."
+            }
+          ],
+          "attempts": 1
         },
         "CH-016": {
           "status": "scripted",
@@ -843,9 +849,15 @@
           "attempts": 3
         },
         "OIT-012": {
-          "status": "scripted",
-          "history": [],
-          "attempts": 0
+          "status": "failed",
+          "history": [
+            {
+              "status": "failed",
+              "at": "2026-11-21T14:48:29+00:00",
+              "note": "fal-ai/nano-banana failed: User is locked. Reason: Exhausted balance. Top up your balance at fal.ai/dashboard/billing."
+            }
+          ],
+          "attempts": 1
         },
         "OIT-013": {
           "status": "scripted",
@@ -2677,5 +2689,5 @@
       "last_scripted": "CC-030"
     }
   },
-  "updated": "2026-11-20T23:08:16+00:00"
+  "updated": "2026-11-21T14:49:30+00:00"
 }
