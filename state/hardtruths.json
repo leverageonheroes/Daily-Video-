@@ -61,9 +61,31 @@
             "facebook_reel": "122110307667541373",
             "instagram_reel": "18139849873710623"
           }
+        },
+        "HT-004": {
+          "theme": "friendship",
+          "rendered": "2026-11-23T16:50:33+00:00",
+          "seconds": 65.0,
+          "preview": "https://github.com/leverageonheroes/Daily-Video-/releases/download/hardtruths-preview/HT-004.mp4",
+          "youtube_id": "HMw0_Pioxb8",
+          "publish_at": "2026-11-23T19:00:00Z",
+          "meta": {
+            "facebook": [
+              "1464200425042099",
+              "1454672990080452"
+            ],
+            "instagram": [
+              "18120425501467820",
+              "18084308909344307"
+            ],
+            "facebook_reel": "122112383505541373",
+            "errors": [
+              "instagram_reel: POST https://rupload.facebook.com/ig-api-upload/v23.0/18093654308398291 -> HTTP 400: {\"debug_info\":{\"retriable\":false,\"type\":\"ProcessingFailedError\",\"message\":\"Request processing failed\"}} | url fallback: <urlopen error [Errno 32] Broken pipe>"
+            ]
+          }
         }
       }
     }
   },
-  "updated": "2026-11-22T14:59:41+00:00"
+  "updated": "2026-11-23T16:57:01+00:00"
 }
