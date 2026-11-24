@@ -83,9 +83,29 @@
               "instagram_reel: POST https://rupload.facebook.com/ig-api-upload/v23.0/18093654308398291 -> HTTP 400: {\"debug_info\":{\"retriable\":false,\"type\":\"ProcessingFailedError\",\"message\":\"Request processing failed\"}} | url fallback: <urlopen error [Errno 32] Broken pipe>"
             ]
           }
+        },
+        "HT-005": {
+          "theme": "work",
+          "rendered": "2026-11-24T17:06:24+00:00",
+          "seconds": 64.5,
+          "preview": "https://github.com/leverageonheroes/Daily-Video-/releases/download/hardtruths-preview/HT-005.mp4",
+          "youtube_id": "bj2ON5foHSU",
+          "publish_at": "2026-11-24T19:00:00Z",
+          "meta": {
+            "facebook": [
+              "1670339734534964",
+              "1716319690107673"
+            ],
+            "instagram": [
+              "18098593688161342",
+              "18079035911751844"
+            ],
+            "facebook_reel": "122112771315541373",
+            "instagram_reel": "18124109815949249"
+          }
         }
       }
     }
   },
-  "updated": "2026-11-23T16:57:01+00:00"
+  "updated": "2026-11-24T17:12:36+00:00"
 }
