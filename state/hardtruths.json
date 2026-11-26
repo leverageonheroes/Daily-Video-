@@ -103,9 +103,29 @@
             "facebook_reel": "122112771315541373",
             "instagram_reel": "18124109815949249"
           }
+        },
+        "HT-006": {
+          "theme": "love",
+          "rendered": "2026-11-26T15:39:12+00:00",
+          "seconds": 65.5,
+          "preview": "https://github.com/leverageonheroes/Daily-Video-/releases/download/hardtruths-preview/HT-006.mp4",
+          "youtube_id": "yYKJ15a7E0U",
+          "publish_at": "2026-11-26T19:00:00Z",
+          "meta": {
+            "facebook": [
+              "1684977713260113",
+              "2410239649747782"
+            ],
+            "instagram": [
+              "18119022875111750",
+              "18121571785777238"
+            ],
+            "facebook_reel": "122113536339541373",
+            "instagram_reel": "17920907118261076"
+          }
         }
       }
     }
   },
-  "updated": "2026-11-25T16:40:07+00:00"
+  "updated": "2026-11-26T15:45:51+00:00"
 }
