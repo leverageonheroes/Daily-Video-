@@ -540,9 +540,14 @@
               "status": "failed",
               "at": "2026-11-26T17:06:55+00:00",
               "note": "Client error '403 Forbidden' for url 'https://rest.fal.ai/storage/auth/token?storage_type=fal-cdn-v3'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+            },
+            {
+              "status": "failed",
+              "at": "2026-11-26T20:33:46+00:00",
+              "note": "Client error '403 Forbidden' for url 'https://rest.fal.ai/storage/auth/token?storage_type=fal-cdn-v3'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
             }
           ],
-          "attempts": 1
+          "attempts": 2
         },
         "CH-021": {
           "status": "scripted",
@@ -1040,9 +1045,14 @@
               "status": "failed",
               "at": "2026-11-26T17:06:55+00:00",
               "note": "fal-ai/nano-banana failed: User is locked. Reason: Exhausted balance. Top up your balance at fal.ai/dashboard/billing."
+            },
+            {
+              "status": "failed",
+              "at": "2026-11-26T20:33:45+00:00",
+              "note": "fal-ai/nano-banana failed: User is locked. Reason: Exhausted balance. Top up your balance at fal.ai/dashboard/billing."
             }
           ],
-          "attempts": 1
+          "attempts": 2
         },
         "OIT-018": {
           "status": "scripted",
@@ -2849,5 +2859,5 @@
       "last_scripted": "CC-030"
     }
   },
-  "updated": "2026-11-26T17:06:55+00:00"
+  "updated": "2026-11-26T20:33:46+00:00"
 }
