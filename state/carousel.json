@@ -1,7 +1,7 @@
 {
   "channels": {
     "cribcommittee": {
-      "next": 16,
+      "next": 17,
       "done": {
         "CRW-001": {
           "theme": "bedtime",
@@ -286,6 +286,24 @@
               "instagram_reel: POST https://rupload.facebook.com/ig-api-upload/v23.0/18022737245755506 -> HTTP 400: {\"debug_info\":{\"retriable\":false,\"type\":\"ProcessingFailedError\",\"message\":\"Request processing failed\"}} | url fallback: POST https://uploads.github.com/repos/leverageonheroes/Daily-Video-/releases/441554178/assets -> HTTP 502: {\"message\":\"Error updating policy\",\"request_id\":\"2440:3958E7:7ACE64:926135:6B070212\"}"
             ]
           }
+        },
+        "CRW-016": {
+          "theme": "the outdoors",
+          "rendered": "2026-11-26T15:11:48+00:00",
+          "seconds": 73.03,
+          "youtube_id": "TycbGRmaoKw",
+          "publish_at": "2026-11-27T14:30:00Z",
+          "meta": {
+            "facebook": [
+              "1301268225498137",
+              "1130656656641877"
+            ],
+            "facebook_reel": "122115993579535249",
+            "instagram_reel": "18083842460546047",
+            "errors": [
+              "instagram: POST https://rupload.facebook.com/ig-api-upload/v23.0/18022967075755506 -> HTTP 400: {\"debug_info\":{\"retriable\":false,\"type\":\"ProcessingFailedError\",\"message\":\"Request processing failed\"}}"
+            ]
+          }
         }
       },
       "used_images": [
@@ -309,6 +327,7 @@
         "1f7467f2c81e",
         "20dc59cabe82",
         "250958efa8f5",
+        "2538f6aa299f",
         "25738eebd64a",
         "26f41187b48e",
         "277b26a93215",
@@ -320,6 +339,7 @@
         "34463e787990",
         "34e82c44986f",
         "354b8f55af42",
+        "37731e1bbdf8",
         "396e32b0cc4b",
         "3cbe22790d03",
         "3d1d08ccf55a",
@@ -327,6 +347,8 @@
         "3e0c29d18015",
         "3f49e55e963a",
         "3f93195b2b8d",
+        "44261a0cc428",
+        "44ac1bf135fc",
         "485d60f991d5",
         "4e37dc923480",
         "5379d0645388",
@@ -335,6 +357,7 @@
         "586ba6bf8a4a",
         "5e46a26c8087",
         "5eb5cf08b3b2",
+        "6370ce0aad5a",
         "678de2b4dfef",
         "686795c9e30b",
         "68c697e906f4",
@@ -377,6 +400,7 @@
         "bbcbdba9115c",
         "be14fbeda110",
         "be937be63ba5",
+        "c05e12adf170",
         "c19098e668a0",
         "c2f796716b53",
         "c3edddd4df95",
@@ -392,11 +416,13 @@
         "de8aa58779cd",
         "e083a7b7b24e",
         "e17776a6864f",
+        "e79283608321",
         "e7a0fef72e40",
         "eb23898f2748",
         "f2b9725bf85a",
         "f46168845a91",
         "f571f02f9843",
+        "f687be1ab88b",
         "fa9bd99287a9",
         "fcfbf78054e9",
         "ff433dc72f1e",
@@ -404,7 +430,7 @@
       ]
     },
     "elders": {
-      "next": 15,
+      "next": 16,
       "done": {
         "ELC-001": {
           "theme": "money",
@@ -667,11 +693,31 @@
               "instagram_reel: POST https://rupload.facebook.com/ig-api-upload/v23.0/18094118792398291 -> HTTP 400: {\"debug_info\":{\"retriable\":false,\"type\":\"ProcessingFailedError\",\"message\":\"Request processing failed\"}} | url fallback: POST https://uploads.github.com/repos/leverageonheroes/Daily-Video-/releases/441554178/assets -> HTTP 500: {\"message\":\"\",\"request_id\":\"2440:23ECC9:40A4BB:5A57CA:6B070427\"}"
             ]
           }
+        },
+        "ELC-015": {
+          "theme": "failure",
+          "rendered": "2026-11-26T15:21:14+00:00",
+          "seconds": 73.03,
+          "youtube_id": "aMpcMqX83kc",
+          "publish_at": "2026-11-27T13:30:00Z",
+          "meta": {
+            "facebook": [
+              "1036628162817446",
+              "1128781893098706"
+            ],
+            "instagram": [
+              "18117082331175911",
+              "18106637390032586"
+            ],
+            "facebook_reel": "122113532745541373",
+            "instagram_reel": "18080262209455577"
+          }
         }
       },
       "used_images": [
         "0121a2388d94",
         "01afa4520582",
+        "02264bcb796d",
         "02b2466666c2",
         "02b865629c33",
         "04aae38614e7",
@@ -685,9 +731,11 @@
         "18dc21cc1151",
         "18dcccc9f6cf",
         "1aa552561207",
+        "1ca31ea3141a",
         "2d60f4aee540",
         "2e90211ba27d",
         "32783f191dad",
+        "34d23771a7b8",
         "37301dc6c4ff",
         "3caf21928a0c",
         "413b98f2dde4",
@@ -753,9 +801,12 @@
         "b7f830bcda58",
         "ba39eab88108",
         "bd30dc2db2c4",
+        "be5f5135cbd7",
         "be8166f3eb1c",
+        "c00bc37886ce",
         "c0cb1a832e28",
         "c38864bb0b8f",
+        "c67503189a0d",
         "c72854144f32",
         "cd929dc8089c",
         "ce42964ee269",
@@ -770,11 +821,13 @@
         "e3284ce8fed9",
         "e8352806b693",
         "e892f2828ed5",
+        "e8afedc6105a",
         "e96c29ac9c53",
         "e9f697116c8e",
         "ecfa314cdcea",
         "edb0448ffb1a",
         "f5f008bc8e3f",
+        "f64d088b061f",
         "f7627e018f11",
         "f9ddf01075f4",
         "fa74bc84302b",
@@ -785,5 +838,5 @@
       ]
     }
   },
-  "updated": "2026-11-25T15:52:15+00:00"
+  "updated": "2026-11-26T15:29:16+00:00"
 }
