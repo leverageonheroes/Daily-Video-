@@ -1,7 +1,7 @@
 {
   "channels": {
     "cribcommittee": {
-      "next": 17,
+      "next": 18,
       "done": {
         "CRW-001": {
           "theme": "bedtime",
@@ -304,13 +304,33 @@
               "instagram: POST https://rupload.facebook.com/ig-api-upload/v23.0/18022967075755506 -> HTTP 400: {\"debug_info\":{\"retriable\":false,\"type\":\"ProcessingFailedError\",\"message\":\"Request processing failed\"}}"
             ]
           }
+        },
+        "CRW-017": {
+          "theme": "screens",
+          "rendered": "2026-11-27T15:08:55+00:00",
+          "seconds": 73.03,
+          "youtube_id": "HaubLdxcM-w",
+          "publish_at": "2026-11-28T14:30:00Z",
+          "meta": {
+            "facebook": [
+              "1018075491364574",
+              "4590229431195399"
+            ],
+            "facebook_reel": "122116321335535249",
+            "instagram_reel": "17940918753125650",
+            "errors": [
+              "instagram: POST https://rupload.facebook.com/ig-api-upload/v23.0/18023210846755506 -> HTTP 400: {\"debug_info\":{\"retriable\":false,\"type\":\"ProcessingFailedError\",\"message\":\"Request processing failed\"}}"
+            ]
+          }
         }
       },
       "used_images": [
+        "00133364307c",
         "008574ae86ef",
         "037014358053",
         "03c4a6e66b5e",
         "0421253c3411",
+        "06a007e82c09",
         "08b5ffe1cb89",
         "0a175674a054",
         "0a1d7f48e88f",
@@ -350,6 +370,7 @@
         "44261a0cc428",
         "44ac1bf135fc",
         "485d60f991d5",
+        "4db0221a13f1",
         "4e37dc923480",
         "5379d0645388",
         "554dbe9a89d4",
@@ -362,7 +383,9 @@
         "686795c9e30b",
         "68c697e906f4",
         "691428fbae8d",
+        "6d1d2c456b69",
         "6e4ed703bd27",
+        "6e953835a5cf",
         "706a36adb006",
         "70d8bc4a9998",
         "71197625cbf5",
@@ -406,9 +429,11 @@
         "c3edddd4df95",
         "c6b0a55ca571",
         "c8c2a269b7e0",
+        "cab43cd9f9d1",
         "ceef914e2611",
         "d112faa030c8",
         "d56b469f1343",
+        "d685a2e26010",
         "d6a04ff4b93c",
         "d74180be2cf7",
         "d8e8de63d07e",
@@ -416,6 +441,7 @@
         "de8aa58779cd",
         "e083a7b7b24e",
         "e17776a6864f",
+        "e381d2c68573",
         "e79283608321",
         "e7a0fef72e40",
         "eb23898f2748",
@@ -430,7 +456,7 @@
       ]
     },
     "elders": {
-      "next": 16,
+      "next": 17,
       "done": {
         "ELC-001": {
           "theme": "money",
@@ -712,6 +738,25 @@
             "facebook_reel": "122113532745541373",
             "instagram_reel": "18080262209455577"
           }
+        },
+        "ELC-016": {
+          "theme": "home",
+          "rendered": "2026-11-27T15:19:06+00:00",
+          "seconds": 73.03,
+          "youtube_id": "TVI7nLUpykU",
+          "publish_at": "2026-11-28T13:30:00Z",
+          "meta": {
+            "facebook": [
+              "1723086189236813",
+              "1185891363955661"
+            ],
+            "instagram": [
+              "17913263433667288",
+              "18129447472924194"
+            ],
+            "facebook_reel": "122113902081541373",
+            "instagram_reel": "17885826180629215"
+          }
         }
       },
       "used_images": [
@@ -726,12 +771,14 @@
         "08fea9d339ae",
         "0fdccf4da02b",
         "121649685b75",
+        "128b6702e3a8",
         "13490192bc95",
         "135cb4a6d2fa",
         "18dc21cc1151",
         "18dcccc9f6cf",
         "1aa552561207",
         "1ca31ea3141a",
+        "248dc46d3234",
         "2d60f4aee540",
         "2e90211ba27d",
         "32783f191dad",
@@ -740,6 +787,7 @@
         "3caf21928a0c",
         "413b98f2dde4",
         "4250de18809a",
+        "4332a91319a3",
         "48ca49cd5c0d",
         "49255322fd87",
         "4bf15ac6b77a",
@@ -755,11 +803,13 @@
         "651cff269c59",
         "6604e93368c4",
         "66c448b4bcb2",
+        "69d137fd855c",
         "6cbe8b75efd3",
         "6d0503c5711b",
         "6f41032d88fa",
         "71105dac35e5",
         "74bbe7887de0",
+        "74ec76041372",
         "75d5d2158a25",
         "796dbb2480ea",
         "79e718b276e9",
@@ -807,7 +857,9 @@
         "c0cb1a832e28",
         "c38864bb0b8f",
         "c67503189a0d",
+        "c6ce0d336a42",
         "c72854144f32",
+        "cb9409dcd5d8",
         "cd929dc8089c",
         "ce42964ee269",
         "cec5032e5193",
@@ -817,6 +869,7 @@
         "d48cff3132ce",
         "d5e97e163261",
         "d70a6e70e7cf",
+        "dcbfe7a581a5",
         "dddd5da11525",
         "e3284ce8fed9",
         "e8352806b693",
@@ -838,5 +891,5 @@
       ]
     }
   },
-  "updated": "2026-11-26T15:29:16+00:00"
+  "updated": "2026-11-27T15:26:15+00:00"
 }
